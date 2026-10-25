@@ -1,6 +1,7 @@
 import { z } from '../../../engine/node_modules/zod/index.js';
 import { id } from '../domain/ids.ts';
 import { ledgerRow, rawReading } from './operationSchemas.ts';
+import { commandStateSchema } from './commands.ts';
 import { bodyRegion, count, digest, grantId, milliseconds, nodeId, personId, ref, sceneId, siteId } from './contentSchemas.ts';
 
 const cause = ref.transform(v => id('CauseId', v));
@@ -65,6 +66,7 @@ const report = z.strictObject({
 export type CampaignReport = z.infer<typeof report>;
 export const campaignStateSchema = z.strictObject({
   schema: z.literal('composed-campaign.v1'), revision: count,
+  commands: commandStateSchema.default(Object.freeze({ receipts: Object.freeze([]), events: Object.freeze([]), executions: Object.freeze([]) })),
   packages: z.strictObject({ manifest: digest, atlas: digest, identities: digest, scenario: digest, projection: digest, operations: digest }).readonly(),
   rulesRevision: digest, admissionReceipt: digest,
   clock: z.strictObject({ worldMilliseconds: milliseconds, subWorldMicroseconds: z.int().min(0).max(999).default(0), speed: z.union([z.literal(0), z.literal(1), z.literal(2), z.literal(4)]), sequence: count, phase: z.literal('consistent-boundary'), closedAt: milliseconds.nullable() }).readonly(),

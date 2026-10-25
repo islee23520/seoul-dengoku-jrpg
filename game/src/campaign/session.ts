@@ -93,6 +93,14 @@ export class CampaignSession {
     this.#clock.replace({ ...this.#host.state, campaignState: { ...state, revision: state.revision + 1, clock: { ...state.clock, speed } } });
     this.#publish();
   }
+  /** Application-only reducer ingress, committed atomically into the existing host. */
+  command(reduce: (state: CampaignState) => CampaignState): void {
+    this.reconcile();
+    const state = this.state;
+    const next = parseCampaignState(reduce(state), this.#content);
+    this.#clock.replace({ ...this.#host.state, campaignState: next });
+    this.#publish();
+  }
   checkpoint(): CampaignState { this.reconcile(); return this.state; }
   close(): void {
     if (!this.#live) return;

@@ -6,6 +6,7 @@ import { nodeLocation } from './locations.ts';
 import { assertAuthorityLinks, assertPhysicalLinks } from './stateLinks.ts';
 import { assertReportLinks } from './reportLinks.ts';
 import { assertConsumption, assertResultEffects } from './effectLinks.ts';
+import { assertCommandLinks } from './commandLinks.ts';
 import { campaignStateSchema } from './stateSchemas.ts';
 import type { CampaignReport, CampaignState } from './stateSchemas.ts';
 export type { CampaignState, CampaignLocation, CampaignReport } from './stateSchemas.ts';
@@ -45,6 +46,7 @@ export function parseCampaignState(input: unknown, content: CampaignContent): Ca
   for (const dispute of state.disputes) requireBoundary(state.mandates.some(o => o.orderId === dispute.orderId) && dispute.openedAt <= state.clock.worldMilliseconds && (dispute.resolvedAt === null || (dispute.resolvedAt >= dispute.openedAt && dispute.resolvedAt <= state.clock.worldMilliseconds)), 'cross-link');
   requireBoundary(state.pendingResultIds.every(id => !state.appliedResultIds.includes(id)) && state.appliedResultIds.length === state.results.length && state.results.every(r => state.appliedResultIds.includes(r.id) && state.mandates.some(o => o.orderId === r.orderId) && r.at <= state.clock.worldMilliseconds), 'cross-link');
   assertResultEffects(state, content);
+  assertCommandLinks(state, content);
   return state;
 }
 
