@@ -57,6 +57,7 @@ export function createCampaignE0(content: CampaignContent): CampaignState {
   const bodies = [...scenario.actors.map(a => ({ id: a.id, at: a.at })), { id: operations.authority.duty, at: operations.authority.dutyPlacement }];
   return parseCampaignState({
     schema: 'composed-campaign.v1', revision: 0, packages: content.hashes, rulesRevision: content.hashes.operations,
+    commands: { receipts: [], events: [], executions: [], handlers: [] },
     admissionReceipt: operations.startAuthorization.receiptSha256,
     clock: { worldMilliseconds: epoch, speed: 0, sequence: 0, phase: 'consistent-boundary', closedAt: null },
     people: manifest.selection.persons.map(p => ({ id: p.id })),

@@ -30,6 +30,7 @@ const grantRevision = z.strictObject({
 const grant = z.strictObject({ id: grantId, sourceVersion: digest, revisions: z.array(grantRevision).min(1).readonly() }).readonly();
 const authorityRef = z.strictObject({ grantId, version: digest }).readonly();
 const mandate = z.strictObject({
+  origin: z.enum(['command-ingress', 'legacy-boundary']),
   orderId, causeId: cause, operation: z.enum(['S01-L', 'S01-O']), issuerPersonId: personId, recipientId: personId,
   authority: z.array(authorityRef).length(2).readonly(), compositeVersion: digest,
   target: locationSchema, issuerLocation: locationSchema, recipientLocation: locationSchema,
@@ -66,7 +67,7 @@ const report = z.strictObject({
 export type CampaignReport = z.infer<typeof report>;
 export const campaignStateSchema = z.strictObject({
   schema: z.literal('composed-campaign.v1'), revision: count,
-  commands: commandStateSchema.default(Object.freeze({ receipts: Object.freeze([]), events: Object.freeze([]), executions: Object.freeze([]) })),
+  commands: commandStateSchema,
   packages: z.strictObject({ manifest: digest, atlas: digest, identities: digest, scenario: digest, projection: digest, operations: digest }).readonly(),
   rulesRevision: digest, admissionReceipt: digest,
   clock: z.strictObject({ worldMilliseconds: milliseconds, subWorldMicroseconds: z.int().min(0).max(999).default(0), speed: z.union([z.literal(0), z.literal(1), z.literal(2), z.literal(4)]), sequence: count, phase: z.literal('consistent-boundary'), closedAt: milliseconds.nullable() }).readonly(),

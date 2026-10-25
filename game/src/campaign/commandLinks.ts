@@ -6,17 +6,30 @@ import { communicationSteps } from './commandSchedule.ts';
 
 /** The journal is checkpoint state, not an in-memory idempotency cache. */
 export function assertCommandLinks(state: CampaignState, content: CampaignContent): void {
-  const { receipts, events, executions } = state.commands;
-  for (const ids of [receipts.map(r => r.command.commandId), events.map(e => e.id), executions.map(e => e.orderId)]) {
+  const { receipts, events, executions, handlers } = state.commands;
+  for (const ids of [receipts.map(r => r.command.commandId), [...events, ...handlers].map(e => e.id), executions.map(e => e.orderId)]) {
     requireBoundary(ids.length === new Set(ids).size, 'duplicate-id');
   }
   requireBoundary(events.length <= state.clock.sequence, 'event-order');
+  for (const [index, handler] of handlers.entries()) {
+    requireBoundary(handler.at <= state.clock.worldMilliseconds && (handler.predecessorId === null ||
+      [...events, ...handlers.slice(0, index)].some(e => e.id === handler.predecessorId && e.at <= handler.at)), 'event-order');
+  }
+  for (const order of state.mandates) {
+    if (order.origin === 'command-ingress') {
+      requireBoundary(executions.some(e => e.orderId === order.orderId) && receipts.some(r => r.orderId === order.orderId && r.command.kind === 'issue'), 'cross-link');
+      if (['proposed', 'delivered', 'received', 'consent', 'reserved', 'executing'].includes(order.stage)) {
+        requireBoundary(state.clock.worldMilliseconds < Math.min(state.clock.closedAt ?? Infinity, content.data.operations.clock.scheduledCloseSeconds * 1000), 'event-order');
+      }
+    } else requireBoundary(!executions.some(e => e.orderId === order.orderId) && !receipts.some(r => r.orderId === order.orderId) && !events.some(e => e.orderId === order.orderId), 'cross-link');
+  }
   for (const [index, event] of events.entries()) {
     const previous = events[index - 1];
     requireBoundary(event.sequence === index + 1 && event.at <= state.clock.worldMilliseconds && (!previous || previous.at <= event.at), 'event-order');
     const cause = event.predecessorId === null ? null : events.slice(0, index).find(e => e.id === event.predecessorId);
     requireBoundary(event.predecessorId === null || (cause !== undefined && cause !== null && cause.at <= event.at && cause.orderId === event.orderId), 'event-order');
     requireBoundary(state.mandates.some(m => m.orderId === event.orderId && m.causeId === event.causeId), 'cross-link');
+    requireBoundary(executions.some(e => e.orderId === event.orderId), 'cross-link');
     requireBoundary(event.effectId === null || state.results.some(r => r.id === event.effectId && r.orderId === event.orderId && r.at === event.at), 'cross-link');
     requireBoundary(event.id === (event.effectId === null ? event.orderId + ':event:' + event.sequence : event.orderId + ':effect:' + event.effectId), 'event-order');
     if (event.physical) requireBoundary(event.physical.completedAt === event.at && event.physical.startedAt < event.at &&
@@ -57,10 +70,13 @@ export function assertCommandLinks(state: CampaignState, content: CampaignConten
     requireBoundary(completions.length === execution.step, 'event-order');
     for (const [index, event] of completions.entries()) {
       const step = steps[index], physical = event.physical;
+      requireBoundary(physical !== null && physical.startedAt >= (completions[index - 1]?.at ?? order.issuedAt), 'event-order');
       requireBoundary(step !== undefined && physical !== null && physical.durationMilliseconds === step.duration && physical.from === step.from &&
         physical.to === step.to && summaryHash(physical.participants) === summaryHash(step.people) &&
         (step.kind === 'response' ? ['accepted', 'refused'].includes(event.kind) : event.kind === (step.kind === 'walk' ? 'arrival' : step.kind === 'call' ? 'called' : 'delivered')), 'event-order');
     }
+    requireBoundary(execution.startedAt >= (completions.at(-1)?.at ?? order.issuedAt) &&
+      execution.progressedMilliseconds <= state.clock.worldMilliseconds - execution.startedAt, 'event-order');
     const received = chain.find(e => e.kind === 'received'), accepted = chain.find(e => e.kind === 'accepted');
     requireBoundary(order.receivedAt === (received?.at ?? null) && order.acceptedAt === (accepted?.at ?? null), 'event-order');
     if (accepted) requireBoundary(received !== undefined && accepted.at - received.at >= content.data.operations.durations.response * 1000, 'event-order');
@@ -71,8 +87,26 @@ export function assertCommandLinks(state: CampaignState, content: CampaignConten
       requireBoundary(physical !== null && physical.durationMilliseconds === content.data.operations.durations.returnResponse * 1000 &&
         chain.some(e => e.kind === 'report-received' && e.at <= physical.startedAt), 'event-order');
     }
-    if (execution.cancellation) requireBoundary(receipts.some(r => r.command.commandId === execution.cancellation?.commandId && r.command.kind === 'request-cancellation') &&
-      execution.cancellation.receivedAt === (chain.find(e => e.kind === 'notice-received')?.at ?? null), 'cross-link');
+    if (execution.cancellation) {
+      const cancellation = execution.cancellation;
+      const notice = chain.find(e => e.kind === 'notice-received');
+      requireBoundary(receipts.some(r => r.command.commandId === cancellation.commandId && r.command.kind === 'request-cancellation' && r.at === cancellation.requestedAt) &&
+        cancellation.receivedAt === (notice?.at ?? null), 'cross-link');
+      requireBoundary(cancellation.startedAt === null ? cancellation.progressMilliseconds === 0 && cancellation.receivedAt === null :
+        cancellation.startedAt >= cancellation.requestedAt && cancellation.startedAt >= (completions.at(-1)?.at ?? order.issuedAt) &&
+        cancellation.startedAt <= state.clock.worldMilliseconds && cancellation.progressMilliseconds <= state.clock.worldMilliseconds - cancellation.startedAt, 'event-order');
+      if (notice) {
+        const physical = notice.physical;
+        requireBoundary(physical !== null && physical.startedAt === cancellation.startedAt && physical.durationMilliseconds === content.data.operations.durations.revocationNotice * 1000 &&
+          physical.activity === 'stationary' && physical.from === 's01:townhall:desk' && physical.to === physical.from &&
+          summaryHash(physical.participants) === summaryHash([order.issuerPersonId, order.recipientId]) &&
+          cancellation.progressMilliseconds === physical.durationMilliseconds, 'event-order');
+      }
+      const noticeStart = cancellation.startedAt;
+      if (execution.status !== 'terminal' && noticeStart !== null) requireBoundary([order.issuerPersonId, order.recipientId].every(person =>
+        state.reservations.some(r => r.orderId === order.orderId && r.resource.kind === 'body' && r.resource.entityId === person &&
+          r.from <= noticeStart && r.until >= state.clock.worldMilliseconds)), 'cross-link');
+    }
     if (execution.status === 'terminal') requireBoundary(['refused', 'cancelled', 'interrupted', 'expired', 'receipt'].includes(order.stage), 'event-order');
     if (execution.status === 'communicating') requireBoundary(['proposed', 'received'].includes(order.stage), 'event-order');
     if (execution.status === 'awaiting-effects') requireBoundary(['consent', 'reserved', 'executing', 'result-applied'].includes(order.stage), 'event-order');

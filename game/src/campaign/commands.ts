@@ -29,6 +29,8 @@ export const commandEventSchema = z.strictObject({
 }).readonly();
 export type CommandEvent = z.infer<typeof commandEventSchema>;
 export const commandStateSchema = z.strictObject({
+  handlers: z.array(z.strictObject({ id: ref, at: milliseconds, phase: z.int().min(0).max(5),
+    predecessorId: ref.nullable(), acceptanceSequence: count }).readonly()).readonly(),
   receipts: z.array(z.strictObject({ command: campaignCommandSchema, payloadHash: digest, orderId: ref,
     at: milliseconds, revision: count, eventId: ref }).readonly()).readonly(),
   events: z.array(commandEventSchema).readonly(),
@@ -36,7 +38,7 @@ export const commandStateSchema = z.strictObject({
     orderId: ref, step: count, startedAt: milliseconds, progressedMilliseconds: z.number().nonnegative().multipleOf(0.5),
     status: z.enum(['communicating', 'awaiting-effects', 'return-response', 'terminal']),
     declineRequested: z.boolean(),
-    cancellation: z.strictObject({ commandId: ref, requestedAt: milliseconds, receivedAt: milliseconds.nullable(), progressMilliseconds: z.number().nonnegative().multipleOf(0.5) }).readonly().nullable(),
+    cancellation: z.strictObject({ commandId: ref, requestedAt: milliseconds, startedAt: milliseconds.nullable(), receivedAt: milliseconds.nullable(), progressMilliseconds: z.number().nonnegative().multipleOf(0.5) }).readonly().nullable(),
   }).readonly()).readonly(),
 }).readonly();
 export type CommandState = z.infer<typeof commandStateSchema>;

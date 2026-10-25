@@ -9,11 +9,10 @@ import { composeCampaignAuthority } from './authorityComposition.ts';
 import { assertComposedAuthority } from './authorityBasis.ts';
 import { checkCampaignReadiness } from './authorityReadiness.ts';
 import { CampaignBoundaryError, requireBoundary } from './errors.ts';
-import { parseCampaignCommand } from './commands.ts';
+import { parseCampaignCommand, orderCausalEvents } from './commands.ts';
 import type { CommandEvent, CommandState } from './commands.ts';
 import { colocated, communicationSteps, contactReadiness, progressContact } from './commandSchedule.ts';
 import { nodeLocation } from './locations.ts';
-import { settleCampaignBoundary } from './scheduler.ts';
 
 type Order = CampaignState['mandates'][number];
 type Execution = CommandState['executions'][number];
@@ -53,7 +52,7 @@ export function submitCampaignCommand(inputState: CampaignState, input: unknown,
     const recipient = state.bodies.find(b => b.entityId === basis.recipientId);
     const issuer = state.bodies.find(b => b.entityId === basis.issuerPersonId);
     requireBoundary(recipient !== undefined && issuer !== undefined, 'body-unavailable');
-    order = { orderId: id('OrderId', command.commandId), causeId: id('CauseId', command.commandId), operation: command.operation,
+    order = { origin: 'command-ingress', orderId: id('OrderId', command.commandId), causeId: id('CauseId', command.commandId), operation: command.operation,
       issuerPersonId: basis.issuerPersonId, recipientId: basis.recipientId, authority: basis.authority, compositeVersion: basis.compositeVersion,
       target: nodeLocation(command.operation === 'S01-L' ? content.data.scenario.ledger.container : 's01:townhall:cistern', content),
       issuerLocation: issuer.location, recipientLocation: recipient.location,
@@ -80,7 +79,23 @@ export function submitCampaignCommand(inputState: CampaignState, input: unknown,
     order = existing;
     const execution = state.commands.executions.find(e => e.orderId === order.orderId);
     requireBoundary(execution !== undefined && execution.status !== 'terminal' && execution.cancellation === null, 'action-scope');
-    next = replaceExecution(state, { ...execution, cancellation: { commandId: command.commandId, requestedAt: state.clock.worldMilliseconds, receivedAt: null, progressMilliseconds: 0 } });
+    const people = [order.issuerPersonId, order.recipientId];
+    const now = state.clock.worldMilliseconds;
+    const remainingContact = colocated(state, people) ? 0 : communicationSteps(order, content).slice(execution.step).reduce((sum, step) => sum + step.duration, 0);
+    const until = integer('WorldMilliseconds', now + (remainingContact + content.data.operations.durations.revocationNotice * 1000) / content.data.operations.routes.tiredMultiplier);
+    requireBoundary(!state.reservations.some(r => {
+      const resource = r.resource;
+      return r.orderId !== order.orderId && r.from < until && now < r.until && resource.kind === 'body' && people.some(person => person === resource.entityId);
+    }), 'rejected-conflict');
+    const reservations = [...state.reservations];
+    for (const entityId of people) {
+      const index = reservations.findIndex(r => r.orderId === order.orderId && r.resource.kind === 'body' && r.resource.entityId === entityId && r.until >= now);
+      const previous = reservations[index];
+      if (previous) reservations[index] = { ...previous, until: integer('WorldMilliseconds', Math.max(previous.until, until)) };
+      else reservations.push({ id: command.commandId + ':notice:' + entityId, orderId: order.orderId, resource: { kind: 'body', entityId }, from: now, until, consumptionId: null });
+    }
+    next = replaceOrder({ ...state, reservations }, { ...order, reservationIds: reservations.filter(r => r.orderId === order.orderId).map(r => r.id) });
+    next = replaceExecution(next, { ...execution, cancellation: { commandId: command.commandId, requestedAt: now, startedAt: null, receivedAt: null, progressMilliseconds: 0 } });
     next = appendEvent(next, order, 'cancellation-requested', 2);
   }
   const event = next.commands.events.at(-1);
@@ -149,6 +164,10 @@ function advanceContact(input: CampaignState, until: CampaignState['clock']['wor
       }
       if (execution.cancellation && colocated(state, [order.issuerPersonId, order.recipientId])) {
         const notice = { kind: 'delivery' as const, people: [order.issuerPersonId, order.recipientId], from: 's01:townhall:desk', to: 's01:townhall:desk', duration: content.data.operations.durations.revocationNotice * 1000 };
+        requireBoundary(notice.people.every(person => state.reservations.some(r => r.orderId === order.orderId && r.resource.kind === 'body' &&
+          r.resource.entityId === person && r.from <= state.clock.worldMilliseconds && r.until >= until)), 'rejected-conflict');
+        execution = { ...execution, cancellation: { ...execution.cancellation, startedAt: execution.cancellation.startedAt ?? state.clock.worldMilliseconds } };
+        requireBoundary(execution.cancellation !== null, 'cross-link');
         const result = progressContact(state, notice, execution.cancellation.progressMilliseconds, until - state.clock.worldMilliseconds, content);
         state = result.state;
         if (result.stopped) { state = stop(state, execution, 'body-unavailable'); break; }
@@ -158,7 +177,9 @@ function advanceContact(input: CampaignState, until: CampaignState['clock']['wor
           requireBoundary(execution.cancellation !== null, 'cross-link');
           execution = { ...execution, status: 'terminal', cancellation: { ...execution.cancellation, receivedAt: state.clock.worldMilliseconds } };
           state = replaceExecution(state, execution);
-          state = appendEvent(state, order, 'notice-received', 3);
+          requireBoundary(execution.cancellation !== null && execution.cancellation.startedAt !== null, 'event-order');
+          state = appendEvent(state, order, 'notice-received', 3, null, { startedAt: execution.cancellation.startedAt,
+            completedAt: state.clock.worldMilliseconds, participants: notice.people, activity: 'stationary', from: notice.from, to: notice.to, durationMilliseconds: notice.duration });
           const stage = order.acceptedAt === null ? 'cancelled' : 'interrupted';
           state = releaseReservations(state, { ...order, stage });
           state = appendEvent(state, order, stage, 3);
@@ -223,8 +244,7 @@ function advanceContact(input: CampaignState, until: CampaignState['clock']['wor
       }
     }
   }
-  return parseCampaignState({ ...state, revision: input.revision + until - origin,
-    clock: { ...state.clock, worldMilliseconds: until } }, content);
+  return { ...state, revision: input.revision + until - origin, clock: { ...state.clock, worldMilliseconds: until } };
 }
 
 /** Exact event-time reducer supplied to the existing clock owner; no timer or alternate clock. */
@@ -261,7 +281,10 @@ export function advanceCampaignCommands(input: CampaignState, until: CampaignSta
       phase: phases.get(execution.orderId) ?? 2, predecessorId: null, acceptanceSequence: index,
       apply: (current: CampaignState) => advanceContact({ ...current, clock: { ...current.clock, worldMilliseconds: from } }, at, content, execution.orderId),
     }));
-    state = settleCampaignBoundary({ ...state, clock: { ...state.clock, worldMilliseconds: at } }, events, content);
+    // Frame partitions are integration intervals, not durable physical handler identities.
+    // Physical handlers use settleCampaignBoundary; command step receipts are persisted above.
+    for (const event of orderCausalEvents(events, state.commands.events.map(e => e.id))) state = event.apply(state);
+    state = parseCampaignState({ ...state, clock: { ...state.clock, worldMilliseconds: at } }, content);
   }
   return parseCampaignState({ ...state, revision: input.revision + until - origin }, content);
 }
