@@ -25,6 +25,9 @@
   --layer-screens:10;--layer-modal:20;
   --button-h:56px;--button-w-menu:300px;--hit-min:44px;--modal-w:400px;
   --layout-margin:16px;--layout-gutter:12px;--layout-header-h:48px;--layout-dock-w:303px;--layout-panel-padding:16px;
+  --layout-row-h:48px;--layout-row-gap:4px;
+  /* color.faction.* (theme-independent in the Unity source) */
+  --color-faction-s02:#567b46;--color-faction-s06:#426f99;--color-faction-union:#b54b4b;--color-faction-neutral:#8a969b;
   --card-person-portrait-h:64px;--key-cap-h:20px;--key-cap-padding-x:6px;
   /* Title layer: rules span 8 of 12 columns at the 1280 reference width. */
   --title-rule-w:618px;
