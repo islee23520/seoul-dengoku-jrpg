@@ -1,0 +1,2060 @@
+{
+  "schema": "campaign-source-manifest.v1",
+  "source": {
+    "repository": "https://github.com/islee23520/seoul-dengoku-wiki",
+    "head": "d11b1dedf477f465d86a7f82b241a56d988b2195",
+    "databaseSha256": "33fc48dbcf335b05bf64391279faa48dbdeabbb03932e97f07886b683bba7859",
+    "schemaVersion": 5,
+    "applicationId": "0x57435351",
+    "authority": {
+      "version": 1,
+      "sequence": 0
+    },
+    "heads": [
+      {
+        "document_id": "DOC:Ailments",
+        "revision_id": "03bfbd70facac0c00cab4be889ce68604a9083062ef61952fa5494c4e9d1a9d6",
+        "semantic_sha256": "540e64fa7d7b5aa6aed56ad7f762b2e51882ad6ca6bbfd0964cadb02866489ef"
+      },
+      {
+        "document_id": "DOC:Building-Reuse-Geography",
+        "revision_id": "6bd3a56f275c09af8408a41ecfe9f70624f748d0e873a91906b28acc1d092869",
+        "semantic_sha256": "d5ff20422a0c3c4b4bf0dafadbb0c5adc628ed10175bc57cbdb3d97a81f82211"
+      },
+      {
+        "document_id": "DOC:Cast-Corridors-Index",
+        "revision_id": "cf9c31782f61d2f0aa8fd1e4694ae78b3f9028992f0ef2e5c4270c2723280339",
+        "semantic_sha256": "a9ff6d88af644c60108c990c1c22c3151cf4a3783bfa61a908805f16d2f819e9"
+      },
+      {
+        "document_id": "DOC:Cast-Index",
+        "revision_id": "69b168b397d34a02222c97ab8e0b22127638a055dd0bdaa83c67b339da84e6b9",
+        "semantic_sha256": "661be946e644a5cffda2d4833f9f2319927182a0b7cd54710a04d88569a44b97"
+      },
+      {
+        "document_id": "DOC:Cast-Index-S4",
+        "revision_id": "3ddaaad326b951452ad8efa308b9c3d179687b30306f687305c67d8dd4e72d3b",
+        "semantic_sha256": "c3bba5c66da22b0a7bf786f65811db214ffc11064f6eaabb544a4b87e956b62c"
+      },
+      {
+        "document_id": "DOC:Cast-Relations",
+        "revision_id": "d0aee1c4ab12eb202c65d2b98e8cbae04b669d73dd2ce4ca83162fd983565acb",
+        "semantic_sha256": "d2c13b591fb376424fb4914b32822c1a96ab16fe5b5ebe7aecad318f6a7b214e"
+      },
+      {
+        "document_id": "DOC:Cast-State-01",
+        "revision_id": "e7af34b69f3c1a177720bcf612567fcb41e48b167cb04a91abe38f1b7d5d5cee",
+        "semantic_sha256": "2162332df22b496c936bb1818853f9c3272ea35c2f3c0219bcea83590ef738c9"
+      },
+      {
+        "document_id": "DOC:Cast-State-02",
+        "revision_id": "c3b365102620dc330d523d6131120ca6e9362e5c6f329778cbc9b42ca31ef477",
+        "semantic_sha256": "1e729f92523580c355fd3ec1902c4c34b80dcd02d76344b1ca508134c2eff433"
+      },
+      {
+        "document_id": "DOC:Cast-State-03",
+        "revision_id": "38d87ec652349595f9d19782c4d57db51739587b1e405c8637e919b6a355a723",
+        "semantic_sha256": "379069a9a57090a4cad9442e6b0eae3a984c4642a977429db5c217ca7532d101"
+      },
+      {
+        "document_id": "DOC:Cast-State-04",
+        "revision_id": "852285a8d1d2db704a2ce26d6adb0e11a4465e05296fa4f104d3cb0a8557af95",
+        "semantic_sha256": "c44235db2199ef911758301de2adfcdbfca774ae1d0f63b83b2368f29948f80b"
+      },
+      {
+        "document_id": "DOC:Cast-State-05",
+        "revision_id": "6092490a07896a24c6344804c7772d6913014e6c9aa55ece1ae78502b16d4813",
+        "semantic_sha256": "39d0be100c5288481e2c100fdd532096c30de05eda7661ee0f5cfa7a9b38a9b0"
+      },
+      {
+        "document_id": "DOC:Cast-State-06",
+        "revision_id": "cd3bc54b524d7f2d88d120aca8e200af52459f26e0866d0214e273180f83e88a",
+        "semantic_sha256": "9e0b35e02fcbcf0ecdf94a44749d14f57a00085575cca31c8ea8ce9dd63e1482"
+      },
+      {
+        "document_id": "DOC:Cast-State-07",
+        "revision_id": "5141fc484142b8d7e75ca27d1e7908432b464a8c6b67740b58fdc17ee8652bcf",
+        "semantic_sha256": "42d9d3b4dd11b70166e54c552539ea8f0d95e7e2907fb7a44a5aac099d19fbd6"
+      },
+      {
+        "document_id": "DOC:Cast-State-08",
+        "revision_id": "96bddb779000d9900e3735aa1b365b2058b30e75a1b7c4de60bcddb859aff458",
+        "semantic_sha256": "016aa8a6cff61d1467ca9d64519a5298dc3185dd70c780b9de29e907cc13b7ba"
+      },
+      {
+        "document_id": "DOC:Cast-State-09",
+        "revision_id": "673ddc9d46e12179b39d94db5e33293afc86080e2795d95f6a4c58d093678d78",
+        "semantic_sha256": "b030bcbfc3c645143404fa216a5c2cf8d8aa48b022e5bd74b48bf9b53e7691a0"
+      },
+      {
+        "document_id": "DOC:Cast-State-10",
+        "revision_id": "4618d118fd181c829a61437d3e2a4b63ab030592fdb5ba10429f3e7464444bd6",
+        "semantic_sha256": "f94316f8708e3f2a3a4a28ea4e40b6f5ff5fd8bbf843b326fad55e1c5fda01e7"
+      },
+      {
+        "document_id": "DOC:Cast-State-11",
+        "revision_id": "b3da39013f281a7a2159fe985ee7109b00d0f8c67061eab7e0cb38a96776cef2",
+        "semantic_sha256": "afc49f6e6ec72cdb7e05eea4ae4fab235d480d1eb7ed63688d169833797458bb"
+      },
+      {
+        "document_id": "DOC:Cast-State-12",
+        "revision_id": "688f9986e6290b60fbcc07e0e491d8612f7ce2a9f73d0708ca8155699aaf3a81",
+        "semantic_sha256": "5a4ff69ab401e4d48c2ab7581bd5a8e43a193820f7a4d07ec1f3a1658010b222"
+      },
+      {
+        "document_id": "DOC:Cast-State-13",
+        "revision_id": "378f21dc8a869443335998dfbe485fc4520f3180bad4b33c0ef2b5f0917b3e73",
+        "semantic_sha256": "ed41e812aa810389d3b18bd3081026101ab3426a068de5191f25ae2219553202"
+      },
+      {
+        "document_id": "DOC:Cast-State-14",
+        "revision_id": "a2568ec55a98aad71fa68b762ef78d62f45588e6199df39f85a4ba833cbcaad5",
+        "semantic_sha256": "0fd7a833cc8772ad50ea98bac1a51a21406e94b2fa7dce4792244c4e76b2cde2"
+      },
+      {
+        "document_id": "DOC:Cast-State-15",
+        "revision_id": "5fb045c2ab78e38671ac7831f24b6b44ca4425c1632be3560fef26f3d8bd729f",
+        "semantic_sha256": "740cfae2af01672d1f2b788d9195f7db393a817625251fc85516fb60de024f37"
+      },
+      {
+        "document_id": "DOC:Cast-State-16",
+        "revision_id": "5b33f7c6ee852c530b8f13e77f5d70972241e074edb9a83fc9df542d61c38a06",
+        "semantic_sha256": "a200faff677334d23105700bae16b6655944279c8fe8b75021401dc1a884cfa4"
+      },
+      {
+        "document_id": "DOC:Cast-Unaffiliated",
+        "revision_id": "c39f821f1559e7161ea875a3dc6029d198116c5fad0292a936fe47516127fcc1",
+        "semantic_sha256": "bdb676c70826f3500d5fb400417e903a154c0513b497869dad289d5aa693c936"
+      },
+      {
+        "document_id": "DOC:Century-Annals",
+        "revision_id": "aaa6a06103cd3d8408dc8763d6b2df4822e26e44d83f6f5d148c830dac35dcdf",
+        "semantic_sha256": "b930a65cb8d86f84ec58d61ba7ac84af40bc860e69d1dff688c4aa039dc75efa"
+      },
+      {
+        "document_id": "DOC:Chaebol-Houses-and-Century-Factions",
+        "revision_id": "f573edb71bf527da51b9f2130a5949cfb6a27f4384c0e60bde92de0fb57c2e7b",
+        "semantic_sha256": "0372511f8fde151f74ed62406b483b1b9e848e072a62c495f89242072cedf76d"
+      },
+      {
+        "document_id": "DOC:Characters-Factions-and-Professions",
+        "revision_id": "53845743fff433329b817bc5b2850dee606c629913354ce92c7a9d452be0587e",
+        "semantic_sha256": "09430059e625bc4699a3cdf82a3f75db5f00d66a2f89dd326d6cd346f389c15a"
+      },
+      {
+        "document_id": "DOC:Core-Characters",
+        "revision_id": "77f65af51f6e79d848fb67e35783c60b86ae3d35d9966d35f9819aa8cc677772",
+        "semantic_sha256": "dd1357a5acd301d6aeb01e5555b99051dd2b9c9b858bbfb65a095ff35ff5c838"
+      },
+      {
+        "document_id": "DOC:Diaspora-Corridors",
+        "revision_id": "e7a479c6d2d8716b9f938d5887686e12d202b3475bd7ac978fabb7a7440c2365",
+        "semantic_sha256": "e62311ef060175f7c79e0b967d865ac70f5cc0dbc058aaa55882f5d7237ffd62"
+      },
+      {
+        "document_id": "DOC:Era-Arms-and-Tech-Level",
+        "revision_id": "9ac83368afce4c497a7601cffd8063de827cd3c25dbb304ba96044aecff8badf",
+        "semantic_sha256": "46a36414bdf2cd0fc6a107e6dca47ec1d0e902fc072cf5f027bab80164e0a607"
+      },
+      {
+        "document_id": "DOC:External-Theaters",
+        "revision_id": "c8777559283afd3d7420bde5234af95ca06e6c25e93b50fd32b37cf049b29ee8",
+        "semantic_sha256": "72c8e0de63e7400484859d29d8bc1befa0921ad95b7d66cb196c25afa4820255"
+      },
+      {
+        "document_id": "DOC:Faith-Culture-Schism",
+        "revision_id": "4c59d26de20b0706bde0c46c8a4f1f02d67024b7a74f1276ae45374738b498f3",
+        "semantic_sha256": "e9191052cfd6cfdb2eb092aaa3a1b1b0e5c36b5963c8fb860718877d16c43707"
+      },
+      {
+        "document_id": "DOC:Food-Culture",
+        "revision_id": "13681fd294b3118d7326c0738fa9983760116fbc574504383f5f6528033f3f79",
+        "semantic_sha256": "b6cec48cac2eb6c17557a36078928d8c966e75a66d81e38348ade8583af46f5a"
+      },
+      {
+        "document_id": "DOC:Hangnyeol-and-Bon-gwan",
+        "revision_id": "fee51f1f7a97e734f3471740fb688b70f8b3b15a3d91ba0ca8b6048e4bc244c6",
+        "semantic_sha256": "78a3c6e340663b60529f8fdb05d10ceceac1b14bb4bb39ca5c9fc6487082fc6d"
+      },
+      {
+        "document_id": "DOC:Hostile-Ecology-Index",
+        "revision_id": "a11a3c23587eaff5f784f105dbb97ab204307167afbf0e14b0f99352530cddf2",
+        "semantic_sha256": "d8446ee1178bf43acaff6f5e8f66071c43c6b9106eeed7b5df9c601ff00d84f7"
+      },
+      {
+        "document_id": "DOC:Lost-Technology-Lineage",
+        "revision_id": "1e4dcecd69ec450a593844d4cbc4e322ffa2fe1fd1cdbcf571b2742a786e8f6b",
+        "semantic_sha256": "47848009dac1e2ef70bcaca3d6a16c1a7bbf2913de7eb9624289c2c0402dd1a3"
+      },
+      {
+        "document_id": "DOC:National-Dress-and-Grooming",
+        "revision_id": "2cd267fbbdff41645cd0e7d5a312d1c7ced3921f92bb4b94665c4d2461dbb98e",
+        "semantic_sha256": "78867f53b20aabdbdedfc8cee709e8b2e558ebce72801d093149be784f4212f8"
+      },
+      {
+        "document_id": "DOC:Offices-and-Ranks",
+        "revision_id": "980d10ed68b90c06702bd9226aed74660449ebcc9ca917f9822304d741021145",
+        "semantic_sha256": "987d99de4f60688c298069e4a75c799a73f592fe5a0577a66deb7480a9197a6a"
+      },
+      {
+        "document_id": "DOC:Operating-Houses",
+        "revision_id": "a4c04228db74ffbab05abb411ab85415ba0662c193736fdc93ef1dc64a7c49b3",
+        "semantic_sha256": "b2a07af2e0d8f0a68a85f31bd5467380dbda8449f24ea163c53e26689428e221"
+      },
+      {
+        "document_id": "DOC:Oral-Stories",
+        "revision_id": "358e9549bd137f05d61883283fce57586dea7a9a1335e69097a239adde784c38",
+        "semantic_sha256": "93cd0716b5bb6557eb0afd4a507d4d990be1f75023e44d3bb30a4dbdee630fc4"
+      },
+      {
+        "document_id": "DOC:People-and-Machines",
+        "revision_id": "b9b46913d5a225bdf842d80d05010cd2151ef929a1f1ac9c6b9ae6419bc61f28",
+        "semantic_sha256": "6ca9f469c03c9d1553201da89b325aaed08ecdea2b880b133da902c24efa6b7b"
+      },
+      {
+        "document_id": "DOC:Regional-Physical-AI-Arcs",
+        "revision_id": "61c79587c914c899e3345d65c313c7448a1dd6a7e0a0694501c753df30427837",
+        "semantic_sha256": "b619f0239855a9bb0d321e882ce8cb9b88607f648f1e6821bd9671596169a6b9"
+      },
+      {
+        "document_id": "DOC:Research-Sources",
+        "revision_id": "022d072dbb192f1e29e7013e969823e292aafc3b81fac54f74a36cfcb9df82e2",
+        "semantic_sha256": "a5bb8355ae0b4cff311f617055b36eea810a17cc478271b5866926248d1f3467"
+      },
+      {
+        "document_id": "DOC:Scenario-Timeline",
+        "revision_id": "551693585d368a321cfd693e1cd2f606f9392985d6d9bc13f35e9609bd294f35",
+        "semantic_sha256": "6dac9c78858afa05552bdc8b46884c3bea55db761cdbe2cde163586ec42c99d8"
+      },
+      {
+        "document_id": "DOC:Seoul-Station-Catalog",
+        "revision_id": "743b45c8d28006ada4f6d9973f32003e02498ee8d7a5c8ca4e9dd04a86cdc831",
+        "semantic_sha256": "d2ea99c82585d17e07a83551c81911997039211b6cf603ec4770dd992a842d63"
+      },
+      {
+        "document_id": "DOC:Sindorim-Junction-Cargo-Gate",
+        "revision_id": "fa4aabae9847214424f1e1e9f9b509246b2c9179c34c6fda3c4df1157d4b1f9d",
+        "semantic_sha256": "499ec40a34f8148727fdcc7000f0b10cbd266d8840028d2c2e0979d8ac547492"
+      },
+      {
+        "document_id": "DOC:Sixteen-States",
+        "revision_id": "433ad0d4cdcdfbeaaaa0e2174bd1447f5b4a9334e222dd0e167de15f791caf13",
+        "semantic_sha256": "9524c36db6daed1e36e4eecf2b4812eca5f60ce9261a5479d851af349d19a068"
+      },
+      {
+        "document_id": "DOC:Station-Interior-Construction",
+        "revision_id": "1169af7b5bdabceca9fc49ae29207073f6dc5aafe92fc269fdfe24d0c196c6ab",
+        "semantic_sha256": "ee8e511c49018f8e02fac87f49f8be17df1eb91c6e2f67c272d26936a82b7332"
+      },
+      {
+        "document_id": "DOC:Structures",
+        "revision_id": "4a8a4788d7750bfca73e331f46e3e10c4398f03e1f6ac6718a4b9546d4886c41",
+        "semantic_sha256": "58837bc5d494acd7cef7df8fb0bbb72e4851a2c19cbf7941b5ec2e924043018b"
+      },
+      {
+        "document_id": "DOC:Synthetic-Actors",
+        "revision_id": "1c481775cd52675d97cd256a6a74643319c10f6a94f05697ac7d6b03382489c9",
+        "semantic_sha256": "17f3adf2cd088427965a8393bac0fbb5d60ca6d229038a0392bfe83e2e9daf60"
+      },
+      {
+        "document_id": "DOC:Values-and-Policy-Scales",
+        "revision_id": "ea6dc3e229df0d48ae24c56f192947450b44be212ad9015dff75755c5185e723",
+        "semantic_sha256": "b70884a146a9d7a9988060bcfd6078ed6e036b764ffda4936f27a0c54ad2230e"
+      },
+      {
+        "document_id": "DOC:World-Expansion-Index",
+        "revision_id": "16ee8d1211b69e1c9907f40dcc5ae1f464b31f587d4cd79278210f48f53969aa",
+        "semantic_sha256": "de4e1917ab210fa498a25f31aa4e66ee29a6b971aa0f18be4d20485679b09e1a"
+      },
+      {
+        "document_id": "DOC:World-Map-Construction",
+        "revision_id": "1fcbdcd55eea8dc603c07de4a06dcd9b40a86367c712590d16f01bc872f72e69",
+        "semantic_sha256": "5660e90ad063d1f23ba4a0f25406e41ae3c2eac51b75a4ef2206a53353cc17e4"
+      },
+      {
+        "document_id": "DOC:World-Relation-Ledger",
+        "revision_id": "8a904cc8eebd90c228a99836ec8a7b88aee1754ffcd9f26a7655d43b386517f7",
+        "semantic_sha256": "0ec01cfd8e625c9213e4a0324445065fa42563f24aac522933dcf52cd1c5c1e0"
+      },
+      {
+        "document_id": "DOC:World-Unbinding",
+        "revision_id": "227badd3f39417fec015337683453e6d2700e1fb308a3d1cfe4c9c8320654e10",
+        "semantic_sha256": "3708a2f8a01f2379d5381de0ba2a137f682a9ca8bf1f905ad7c84e4cb5d32dd7"
+      },
+      {
+        "document_id": "DOC:World-and-Subway-Layers",
+        "revision_id": "5131206241990b2e8d30efd81ad011b030510abf2807940574d2d36d3b8f8c09",
+        "semantic_sha256": "09badbbf9283a671c7e5d7c0eb0ed7e020dda209391aa2964d26069194668b39"
+      },
+      {
+        "document_id": "G01",
+        "revision_id": "853b062b654b91943ebc169f4c34ffb0dd54c669886b2fd62a56afd2cc0914b4",
+        "semantic_sha256": "0e299456973ca940a74aff57f7ec2e45f5f98ab32ace85f218fecfb59198da0c"
+      },
+      {
+        "document_id": "G02",
+        "revision_id": "7d7bd929bf501a38b3bc121387f0f8da8bdf465684721677335cf731a030c2b9",
+        "semantic_sha256": "eea52e817bc99968fbe668728848db4b11053bc08683d7ced79b58dd138427d5"
+      },
+      {
+        "document_id": "G03",
+        "revision_id": "81729071a67ad81625f2a70842c8e5d1149f438cc725a0024088f0bc4d18cf98",
+        "semantic_sha256": "4edf35f4ae57b1de3fbfadbcd9cf9b2fb5ed33b31566dbeee95e78757ba6906a"
+      },
+      {
+        "document_id": "G04",
+        "revision_id": "d0ad5636b1aa0a2f027b55192cbb27fbe1404c4e7ee25781001b324ef2b2811c",
+        "semantic_sha256": "c105766a70cf8b4bedfe3d65ce506e6826e42824f7471990f222e8c9ca8df142"
+      },
+      {
+        "document_id": "G05",
+        "revision_id": "1d08e6b3aae0be9fb35ed205ad6f8c0f8d097e49615a52f0cb0698801919d7d9",
+        "semantic_sha256": "a117671e99fb1ffd424bc1c510e2dc32be82e22e889739c102baae0d48324dfa"
+      },
+      {
+        "document_id": "G06",
+        "revision_id": "77624024cad02bf5ba4e4402260570f2919e2a2f179f2b6694a9ab3f2ff39d31",
+        "semantic_sha256": "9e68cf8b6ddb26553ea4b812bd645a0e68139a1ae114060e7204040881d1fbed"
+      },
+      {
+        "document_id": "G07",
+        "revision_id": "e1823444b1c1d755e465995e6e716f8049a7819d515fcf448a9e9e5de7cac885",
+        "semantic_sha256": "6a4e6b24c3d8523e222b2597d518bef47e719b6b5da144bfa3ea329af568a4bf"
+      },
+      {
+        "document_id": "G08",
+        "revision_id": "731e8075648c7d516836031988eda870fe3c7bf5f1a7aeac9062f5fa60d1ac26",
+        "semantic_sha256": "11114d0e4e1c6c113ed76e961612aae4b36a17efb3e2cb58b3cf5f185950940f"
+      },
+      {
+        "document_id": "G09",
+        "revision_id": "8be7c416b425593f94c384136187f1228388417aaca05e951c93e6c13787dbdd",
+        "semantic_sha256": "cf40edc1abd22303177e8260d509f3f4ab9f5273a0c3990e7fa7f59ecd01e3f4"
+      },
+      {
+        "document_id": "G10",
+        "revision_id": "c5a7fffc8f3b35853dfcdc75e9c1f295b388c2d0be5dfd9e51677492a31f09aa",
+        "semantic_sha256": "6fdd84efee71c2496c166615f89cb7189c93d174edbe662ca4233b71dc048987"
+      },
+      {
+        "document_id": "G11",
+        "revision_id": "dcc51103bab20ce49b121b0f5807b39e9ae73c345f7078708ea5f95d30f119f9",
+        "semantic_sha256": "1e911b0a852a6ee298ee0529c72f53e8fb45e28f970401c18ec5a7651dcd0aae"
+      },
+      {
+        "document_id": "G12",
+        "revision_id": "ff59e0120127124fc418c6429d1fedd72f8660aedf8ef921a8453ab183f96292",
+        "semantic_sha256": "d14523fb96003894d1c8a8b742c679a937f3473fb1017cf2c7ebe54aa532e8e1"
+      },
+      {
+        "document_id": "G13",
+        "revision_id": "11f286f4f339893c9ea829108a997999000c4cc1f66771e401031d4b6171a4ca",
+        "semantic_sha256": "601723289a2775d2c308fe7ef78b93fefff907076633c87b174bf9d23bb3020e"
+      },
+      {
+        "document_id": "G14",
+        "revision_id": "6027700deeb6b449e6bfdbf5456524eff1ec79c5ce31346bf4c5260441deaadf",
+        "semantic_sha256": "e640a8fec1368d87edf816567fc0bfa90b7395e3087f92c01b86c7a599d774de"
+      },
+      {
+        "document_id": "G15",
+        "revision_id": "702ffca3b1c33dabd9efdf209730fea99c048813061ee40eece335c457f4af28",
+        "semantic_sha256": "0a36cd438513f02cb2cc28dfabdb4dedbec150e73aceb81d6064a62c1ff34f27"
+      },
+      {
+        "document_id": "G16",
+        "revision_id": "64ccfbc14edcc910dab7b578cba74fed0f5c532c2e768bb55307c21263696fe9",
+        "semantic_sha256": "e3400e0ba0921385cb2cdc693bbf870802e1c8f7c500d166c6ce05ea35676f19"
+      },
+      {
+        "document_id": "G17",
+        "revision_id": "82e30388df8568e8e8003ff01c5d1a1428000befac81420ffb666b390ed4e7d9",
+        "semantic_sha256": "435687a26203697659bc5eb54f8252db41407e8758021a1aee5507d813ef42ab"
+      },
+      {
+        "document_id": "G18",
+        "revision_id": "9639a865d27540aaed62c6d88d569804368e6aedd50f89817b948e6d45500fb5",
+        "semantic_sha256": "e256077470e1efdc016f32d8cc5630c87ab5a8cafa16432c2f7a13a6483b7fd5"
+      },
+      {
+        "document_id": "G19",
+        "revision_id": "a366ae744da77920eeedf3fd92a25cfde762f8437f2994c10f4872cb22d5de19",
+        "semantic_sha256": "a8a71ac7e34180925e2f58f60c577a952de1138cb7cff69ae6bb6b64a8d0e732"
+      },
+      {
+        "document_id": "G20",
+        "revision_id": "ac678887026fb353a970f4b4205c677eb5468789344a553357a4e951bf0fb5c7",
+        "semantic_sha256": "7625a715321af2fc65a6bd3b861754d81d106ec036eeece766de0ee81194ebea"
+      },
+      {
+        "document_id": "G21",
+        "revision_id": "a5343b4bf34bdc0b11a04c94ed806343f622f011970f910efd26e4e096bf82ac",
+        "semantic_sha256": "c1b67ae7f0d47aedc7c6cad7d6db0a0b417bcd745748dbca8080777bf9fc42be"
+      },
+      {
+        "document_id": "G22",
+        "revision_id": "81be4ae7a7f1d0dec5f02671e43d989f4bd9a1b39c2e9097edc0f143ed3b2155",
+        "semantic_sha256": "52843de321978951a69d16778a8775ec74f0045c71c2b1aecc0c2e4de7d228ff"
+      },
+      {
+        "document_id": "G23",
+        "revision_id": "05d2034a4a08eb0a234a597e30fa56380869b367b356bfa9663590797a4be4e1",
+        "semantic_sha256": "76861110c144edfd2e3dca3c84c49161b7c2c22ea61ece9e4deff9728f316641"
+      },
+      {
+        "document_id": "G24",
+        "revision_id": "6b835fa5ed1fbee0fbb9e714c3a5c2e505d4a84608a97473c7d4cd739afb1e85",
+        "semantic_sha256": "c540c07963e9e04af50edecd0f318ce483c90a698bab8e833550ac932239c8a3"
+      },
+      {
+        "document_id": "G25",
+        "revision_id": "4f3bd22fdf807777e7554cdefb08ac4eae7cc12bb0ac21b8e19c35af8d5a0bca",
+        "semantic_sha256": "c08d7a548e9ba87c38a32d85e1ea753a1aa8e5446e795dd4b815a6ff9f99e0e9"
+      },
+      {
+        "document_id": "G26",
+        "revision_id": "5de31160da672d979736a187bda534b31c6ef4aa83a754cf217f90bbe98e1a7e",
+        "semantic_sha256": "0d4d19a66d947655cb64e81327113651acf45e47fe2463c8743785b4f58584e9"
+      },
+      {
+        "document_id": "WNA-001",
+        "revision_id": "343cc396ce017934e15f863226b8b69c96a57bb7ee7d76cf650abed25b139dae",
+        "semantic_sha256": "22e53460aba0b3f9a4a0b221b3c3b2437aa2f04ff355ae72bb9bcf68549dd7ad"
+      },
+      {
+        "document_id": "__EXAMPLE__:ailments",
+        "revision_id": "c99769489ef6cffffc1033b2cb8a38750c1f98ce04a6cbb4823f029a41f7f80f",
+        "semantic_sha256": "5b52d16fe13ab458f3c9b4b9213ad8fb6b9644fc6eaa77f607145fbd32c25125"
+      },
+      {
+        "document_id": "__EXAMPLE__:bestiary",
+        "revision_id": "bcf0305e5d8d35d2d5e1316b91909af3059c9d709a852461ed4370661b52a9b0",
+        "semantic_sha256": "419e50365468d58d42d4e3282500da79bedb193b0ba8cf0e1abb59ce78987b82"
+      },
+      {
+        "document_id": "__EXAMPLE__:characters",
+        "revision_id": "4474f8a5b312fa32a6da544f2b8212fba285121bc24f09bafbaa29751ef8f942",
+        "semantic_sha256": "b1476c932f4a78f04706da4efb8b8c449a05f5e03ebf3fc01392071aaf837c9d"
+      },
+      {
+        "document_id": "__EXAMPLE__:chronology",
+        "revision_id": "800f5b666e61398e29c9e272a0e7c5dd50a98f6dbf90a218d9768783ccd09eb0",
+        "semantic_sha256": "73f194e38ebb7fa4e2a9c5e35a1ac72c19878ced87f767937bb7a7fb051a9a7f"
+      },
+      {
+        "document_id": "__EXAMPLE__:culture",
+        "revision_id": "abf21a6a7711b05a68e70d8cb18dd3bcb66d83eab902c126e1c91a4d980ee308",
+        "semantic_sha256": "517f0e88d3001510a580988aba7a5af53903873db93516be085193eb29ae4f6d"
+      },
+      {
+        "document_id": "__EXAMPLE__:economy",
+        "revision_id": "4d9a46b0c3a5d83fe24f7f19356b3aa89fc23c57c60687301c4115f8d6fcc275",
+        "semantic_sha256": "47090fd6d5184441f4fd91f55b4ceba27535393966a1f9b04470b97c869cbc97"
+      },
+      {
+        "document_id": "__EXAMPLE__:factions",
+        "revision_id": "6426c00c7451492b7e6d5ac91bbdfb53806ec836a3ba5004ecfad39f0b31002f",
+        "semantic_sha256": "ce3ed6c229cac0577f56bda24df29be696f5351fd1f56aaa0cbc7b4f4cb184ba"
+      },
+      {
+        "document_id": "__EXAMPLE__:goods",
+        "revision_id": "b3640390948434089c8de32c6e74257f8c9b5138fed9218effd64d448a0f6eca",
+        "semantic_sha256": "f1894919339840bdc0e0872ab283815fcca106c69270298503d27d787732bdc3"
+      },
+      {
+        "document_id": "__EXAMPLE__:name-pools",
+        "revision_id": "867ae3d99ed1d51f02f40df2ef3b59c377305f625b22e79fa1705f005f13ff90",
+        "semantic_sha256": "ec16a449cd5c78ff5e69bf9b7dd85dfa9eb3f0e8e8f9051f02a773abb03b9553"
+      },
+      {
+        "document_id": "__EXAMPLE__:offices",
+        "revision_id": "255ae1ea20e12f9bb9001c832e1007c5f9ad3be0f47ad0167c6ea0f5177a71bf",
+        "semantic_sha256": "c0b8d5930ea774da35aeccb74f962fa08f46e54d647350b1bd057ba9da0014d1"
+      },
+      {
+        "document_id": "__EXAMPLE__:overview",
+        "revision_id": "de59a68ffb946e2521f49f720e4c258ab0ea746d2bb2df481430ad9c5a2fd48d",
+        "semantic_sha256": "a516596a466b156288beeb3ab76756b20d38bd9a5f086d9353f735337c2dee5e"
+      },
+      {
+        "document_id": "__EXAMPLE__:people-and-machines",
+        "revision_id": "da822bf0a5923f9e6fbe50331c98a84fbae4affd21b5c522d7e22a1d0384e3e1",
+        "semantic_sha256": "f9520a630b4fcd334bd9ddd80409ad7b8654828e7b785fad394656e17a0174de"
+      },
+      {
+        "document_id": "__EXAMPLE__:places",
+        "revision_id": "fe810115b3715d21501da381e2c5acb05af919fb16f4e1cd103b8ecd5e3e8e97",
+        "semantic_sha256": "e8ddc15c19d4a2fb2736c277296d3f08a4bdce7f6184bf13a0ec5a77ca46e4b9"
+      },
+      {
+        "document_id": "__EXAMPLE__:regions",
+        "revision_id": "9159cfa03992de27c3297fb0725c22e4be9b2c70c17648d4e86ade05383297a0",
+        "semantic_sha256": "696a6ec460e9303b8977cfb535051ca66a952603ad04feb48bac1c7706b12c0f"
+      },
+      {
+        "document_id": "__EXAMPLE__:root",
+        "revision_id": "c8c5ff6532d43b60601fcdf6a3ed9ffe1adc1644d6eac436c3bc6f7554023147",
+        "semantic_sha256": "5161a6e1fc3e7d79f3f304b94e332901830e0aecf3c6b6aa5b676b984bc0b2db"
+      },
+      {
+        "document_id": "__EXAMPLE__:structures",
+        "revision_id": "ab3ded2a0b80f6833a9ce456e4f29effec7c9ad6cad7a992c3ddf0de91b43b1e",
+        "semantic_sha256": "ac3751580d8dd7d8455b7e34450806a52961faa7b55f55af7d2ab109121eb349"
+      },
+      {
+        "document_id": "__EXAMPLE__:technology",
+        "revision_id": "6b1685aa9f49f58441b44fbb1f23b5e8e927ffdc155dfd57feba9c7d0c483a1e",
+        "semantic_sha256": "756d4dcff2a5f5b148602cd2ed7138b0466376abefd1077aeb9b458bca3e12dc"
+      }
+    ],
+    "generatedSha256": "6b6d9d125a6269865ce24f9779b2e380f75dfa99c9870bf022cad27f0e4cb1f6",
+    "licenseSha256": "b952f707d69711e2d8af88d412061e7cb6fb87275a4844e8235286e6a0d47ddc"
+  },
+  "selection": {
+    "persons": [
+      {
+        "id": "K001",
+        "name": "한재목",
+        "stateId": "S01",
+        "disposition": "active"
+      },
+      {
+        "id": "K002",
+        "name": "이서담",
+        "stateId": "S01",
+        "disposition": "active"
+      },
+      {
+        "id": "K029",
+        "name": "강민서",
+        "stateId": "S02",
+        "disposition": "active"
+      },
+      {
+        "id": "K904",
+        "name": "임달나",
+        "stateId": "S01",
+        "disposition": "retired-current"
+      },
+      {
+        "id": "K568",
+        "name": "백산석",
+        "stateId": "S01",
+        "disposition": "active"
+      },
+      {
+        "id": "K616",
+        "name": "성달현",
+        "stateId": "S01",
+        "disposition": "active"
+      },
+      {
+        "id": "K712",
+        "name": "한북우",
+        "stateId": "S01",
+        "disposition": "active"
+      },
+      {
+        "id": "K856",
+        "name": "김빛호",
+        "stateId": "S01",
+        "disposition": "retired-current"
+      },
+      {
+        "id": "K952",
+        "name": "문숲민",
+        "stateId": "S01",
+        "disposition": "active"
+      },
+      {
+        "id": "K1001",
+        "name": "곽가현",
+        "stateId": "S01",
+        "disposition": "active"
+      },
+      {
+        "id": "K424",
+        "name": "이민석",
+        "stateId": "S01",
+        "disposition": "active"
+      },
+      {
+        "id": "K520",
+        "name": "송재현",
+        "stateId": "S01",
+        "disposition": "active"
+      },
+      {
+        "id": "K760",
+        "name": "고늘진",
+        "stateId": "S01",
+        "disposition": "active"
+      },
+      {
+        "id": "K808",
+        "name": "노솔호",
+        "stateId": "S01",
+        "disposition": "retired-current"
+      },
+      {
+        "id": "K664",
+        "name": "이하석",
+        "stateId": "S01",
+        "disposition": "retired-current"
+      },
+      {
+        "id": "K472",
+        "name": "임건우",
+        "stateId": "S01",
+        "disposition": "active"
+      }
+    ],
+    "holding": {
+      "id": "holding:yangcheon",
+      "holderPersonId": "K002",
+      "directLiegePersonId": "K001",
+      "stateId": "S01",
+      "adminRefs": [
+        {
+          "id": "region:1147051000",
+          "name": "목1동"
+        },
+        {
+          "id": "region:1147052000",
+          "name": "목2동"
+        },
+        {
+          "id": "region:1147053000",
+          "name": "목3동"
+        },
+        {
+          "id": "region:1147054000",
+          "name": "목4동"
+        },
+        {
+          "id": "region:1147055000",
+          "name": "목5동"
+        },
+        {
+          "id": "region:1147056000",
+          "name": "신월1동"
+        },
+        {
+          "id": "region:1147057000",
+          "name": "신월2동"
+        },
+        {
+          "id": "region:1147058000",
+          "name": "신월3동"
+        },
+        {
+          "id": "region:1147059000",
+          "name": "신월4동"
+        },
+        {
+          "id": "region:1147060000",
+          "name": "신월5동"
+        },
+        {
+          "id": "region:1147061000",
+          "name": "신월6동"
+        },
+        {
+          "id": "region:1147061100",
+          "name": "신월7동"
+        },
+        {
+          "id": "region:1147062000",
+          "name": "신정1동"
+        },
+        {
+          "id": "region:1147063000",
+          "name": "신정2동"
+        },
+        {
+          "id": "region:1147064000",
+          "name": "신정3동"
+        },
+        {
+          "id": "region:1147065000",
+          "name": "신정4동"
+        },
+        {
+          "id": "region:1147067000",
+          "name": "신정6동"
+        },
+        {
+          "id": "region:1147068000",
+          "name": "신정7동"
+        }
+      ],
+      "wholeSeoulControl": false
+    },
+    "titleBinding": {
+      "holdingId": "holding:yangcheon",
+      "titleId": "title:duchy-gu-11470-S01",
+      "parentTitleId": "title:kingdom-s02",
+      "parentHolderPersonId": "K029"
+    },
+    "court": [
+      {
+        "personId": "K904",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 380,
+        "status": "retired-current"
+      },
+      {
+        "personId": "K568",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 381,
+        "status": "active"
+      },
+      {
+        "personId": "K616",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 382,
+        "status": "active"
+      },
+      {
+        "personId": "K712",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 383,
+        "status": "active"
+      },
+      {
+        "personId": "K856",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 384,
+        "status": "retired-current"
+      },
+      {
+        "personId": "K952",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 385,
+        "status": "active"
+      },
+      {
+        "personId": "K1001",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 386,
+        "status": "active"
+      },
+      {
+        "personId": "K424",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 387,
+        "status": "active"
+      },
+      {
+        "personId": "K520",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 388,
+        "status": "active"
+      },
+      {
+        "personId": "K760",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 389,
+        "status": "active"
+      },
+      {
+        "personId": "K808",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 390,
+        "status": "retired-current"
+      },
+      {
+        "personId": "K664",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 391,
+        "status": "retired-current"
+      },
+      {
+        "personId": "K472",
+        "liegePersonId": "K002",
+        "courtId": "court:K002",
+        "sourceRow": 392,
+        "status": "active"
+      }
+    ],
+    "courtCounts": {
+      "active": 9,
+      "retired": 4
+    },
+    "hegemons": [
+      {
+        "kind": "state",
+        "name": "규격맹",
+        "memberStateIds": [
+          "S01",
+          "S02",
+          "S03",
+          "S09"
+        ],
+        "stateId": "S02",
+        "sourcePointer": "/data/currentAffiliation/hegemons/0"
+      },
+      {
+        "kind": "state",
+        "name": "대한민국정부",
+        "memberStateIds": [
+          "S05",
+          "S06",
+          "S07",
+          "S10",
+          "S11",
+          "S12",
+          "S13",
+          "S14"
+        ],
+        "stateId": "S06",
+        "sourcePointer": "/data/currentAffiliation/hegemons/1"
+      },
+      {
+        "kind": "union",
+        "name": "종교 연합",
+        "memberStateIds": [
+          "S04",
+          "S15",
+          "S16"
+        ],
+        "sourcePointer": "/data/currentAffiliation/hegemons/2",
+        "resolution": "unresolved-source-binding"
+      }
+    ],
+    "site": {
+      "id": "osm:node:368899387",
+      "name": "신정2동 주민센터",
+      "regionId": "region:1147063000"
+    },
+    "building": {
+      "anchor_ref": "osm:node:368899387",
+      "name": "신정2동 주민센터",
+      "observed_use": "주민센터",
+      "river": "tributary",
+      "opening_use": "동 장부와 배급 창구. 야간만 연다.",
+      "how": "민원 창구를 배급 창구로 쓰고 서고는 봉인한다.",
+      "role": "support",
+      "floors": [
+        {
+          "level": 1,
+          "label": "민원 창구",
+          "state": "occupied",
+          "contents": "신정2동 주민센터 1층. 신정2동 배급 창구.",
+          "condition": "번호표 기계는 죽은 채. 야간만 연다."
+        },
+        {
+          "level": 2,
+          "label": "서고",
+          "state": "sealed",
+          "contents": "신정2동 주민센터 2층 서고. 동 장부 원본.",
+          "condition": "철문. 열쇠는 창구 당번."
+        }
+      ]
+    }
+  },
+  "identityMap": [
+    {
+      "canonical": "geography:empire:seoul",
+      "public": "geography:empire:seoul"
+    },
+    {
+      "canonical": "geography:duchy:11110",
+      "public": "geography:duchy:11110"
+    },
+    {
+      "canonical": "geography:duchy:11140",
+      "public": "geography:duchy:11140"
+    },
+    {
+      "canonical": "geography:duchy:11170",
+      "public": "geography:duchy:11170"
+    },
+    {
+      "canonical": "geography:duchy:11200",
+      "public": "geography:duchy:11200"
+    },
+    {
+      "canonical": "geography:duchy:11215",
+      "public": "geography:duchy:11215"
+    },
+    {
+      "canonical": "geography:duchy:11230",
+      "public": "geography:duchy:11230"
+    },
+    {
+      "canonical": "geography:duchy:11260",
+      "public": "geography:duchy:11260"
+    },
+    {
+      "canonical": "geography:duchy:11290",
+      "public": "geography:duchy:11290"
+    },
+    {
+      "canonical": "geography:duchy:11305",
+      "public": "geography:duchy:11305"
+    },
+    {
+      "canonical": "geography:duchy:11320",
+      "public": "geography:duchy:11320"
+    },
+    {
+      "canonical": "geography:duchy:11350",
+      "public": "geography:duchy:11350"
+    },
+    {
+      "canonical": "geography:duchy:11380",
+      "public": "geography:duchy:11380"
+    },
+    {
+      "canonical": "geography:duchy:11410",
+      "public": "geography:duchy:11410"
+    },
+    {
+      "canonical": "geography:duchy:11440",
+      "public": "geography:duchy:11440"
+    },
+    {
+      "canonical": "geography:duchy:11470",
+      "public": "geography:duchy:11470"
+    },
+    {
+      "canonical": "geography:duchy:11500",
+      "public": "geography:duchy:11500"
+    },
+    {
+      "canonical": "geography:duchy:11530",
+      "public": "geography:duchy:11530"
+    },
+    {
+      "canonical": "geography:duchy:11545",
+      "public": "geography:duchy:11545"
+    },
+    {
+      "canonical": "geography:duchy:11560",
+      "public": "geography:duchy:11560"
+    },
+    {
+      "canonical": "geography:duchy:11590",
+      "public": "geography:duchy:11590"
+    },
+    {
+      "canonical": "geography:duchy:11620",
+      "public": "geography:duchy:11620"
+    },
+    {
+      "canonical": "geography:duchy:11650",
+      "public": "geography:duchy:11650"
+    },
+    {
+      "canonical": "geography:duchy:11680",
+      "public": "geography:duchy:11680"
+    },
+    {
+      "canonical": "geography:duchy:11710",
+      "public": "geography:duchy:11710"
+    },
+    {
+      "canonical": "geography:duchy:11740",
+      "public": "geography:duchy:11740"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:종로구선거구",
+      "public": "geography:county:73524fd1f058a0ac"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:중구성동구갑선거구",
+      "public": "geography:county:eff451bb7047b210"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:중구성동구을선거구",
+      "public": "geography:county:07ff0f90b5e79a78"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:용산구선거구",
+      "public": "geography:county:fdc35467548c1626"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:광진구갑선거구",
+      "public": "geography:county:0b79048ae2439ad6"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:광진구을선거구",
+      "public": "geography:county:f168b1729d8ebb4a"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:동대문구갑선거구",
+      "public": "geography:county:1ca298ac31fe93ff"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:동대문구을선거구",
+      "public": "geography:county:7c1dafa6f28ca8a7"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:중랑구갑선거구",
+      "public": "geography:county:f38fd987dc3b02cd"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:중랑구을선거구",
+      "public": "geography:county:bec36591ea4bece9"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:성북구갑선거구",
+      "public": "geography:county:fc42867169ca58a5"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:성북구을선거구",
+      "public": "geography:county:e4dbdee078daf871"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:강북구갑선거구",
+      "public": "geography:county:6660e02009000947"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:강북구을선거구",
+      "public": "geography:county:3a9cb32bce1231bf"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:도봉구갑선거구",
+      "public": "geography:county:b94b6ff851b736f2"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:도봉구을선거구",
+      "public": "geography:county:757b466bf9f6962e"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:노원구갑선거구",
+      "public": "geography:county:aeb78da8ebe0632b"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:노원구을선거구",
+      "public": "geography:county:f586a01dbf09448b"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:은평구갑선거구",
+      "public": "geography:county:b55f6daa4a3bb7c6"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:은평구을선거구",
+      "public": "geography:county:47a20e94b1bd815a"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:서대문구갑선거구",
+      "public": "geography:county:5df1fe5c7f9b7f54"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:서대문구을선거구",
+      "public": "geography:county:0670df7aa4f68784"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:마포구갑선거구",
+      "public": "geography:county:e563d8a05ec61a8c"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:마포구을선거구",
+      "public": "geography:county:7ef9d96ef4500bac"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:양천구갑선거구",
+      "public": "geography:county:4df8e9fff404ff39"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:양천구을선거구",
+      "public": "geography:county:499dbec8a36675dd"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:강서구갑선거구",
+      "public": "geography:county:5e0fc2821fb9e683"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:강서구을선거구",
+      "public": "geography:county:d88fd1406003cd13"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:강서구병선거구",
+      "public": "geography:county:0b41587e239cd633"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:구로구갑선거구",
+      "public": "geography:county:eb56d0c42b6d2eed"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:구로구을선거구",
+      "public": "geography:county:b146f6acc0e9ad49"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:금천구선거구",
+      "public": "geography:county:1ae58fe357ecf587"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:영등포구갑선거구",
+      "public": "geography:county:b8c8608995465de6"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:영등포구을선거구",
+      "public": "geography:county:bbe99535d76b9f3a"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:동작구갑선거구",
+      "public": "geography:county:622e5cb8f1ad3598"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:동작구을선거구",
+      "public": "geography:county:e3f8fe6e7e51b450"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:관악구갑선거구",
+      "public": "geography:county:f62e068e9fbb986e"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:관악구을선거구",
+      "public": "geography:county:4d572bbf9d859c12"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:서초구갑선거구",
+      "public": "geography:county:39d747567d6e88c2"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:서초구을선거구",
+      "public": "geography:county:be4c7c455504f6de"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:강남구갑선거구",
+      "public": "geography:county:2de88369e480a7de"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:강남구을선거구",
+      "public": "geography:county:588ef0f6ec944722"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:강남구병선거구",
+      "public": "geography:county:98f9d95a2f5dd32e"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:송파구갑선거구",
+      "public": "geography:county:51da9424e343abe6"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:송파구을선거구",
+      "public": "geography:county:54fbc8d12568ed3a"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:송파구병선거구",
+      "public": "geography:county:0cbcc7ce0af90476"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:강동구갑선거구",
+      "public": "geography:county:66ce0170c095c75c"
+    },
+    {
+      "canonical": "geography:county:seoul-constituency:강동구을선거구",
+      "public": "geography:county:e8196b72d07c4adc"
+    },
+    {
+      "canonical": "geography:kingdom:seoul:01",
+      "public": "geography:kingdom:seoul:01"
+    },
+    {
+      "canonical": "geography:kingdom:seoul:02",
+      "public": "geography:kingdom:seoul:02"
+    },
+    {
+      "canonical": "geography:kingdom:seoul:03",
+      "public": "geography:kingdom:seoul:03"
+    },
+    {
+      "canonical": "geography:kingdom:seoul:04",
+      "public": "geography:kingdom:seoul:04"
+    },
+    {
+      "canonical": "geography:kingdom:seoul:05",
+      "public": "geography:kingdom:seoul:05"
+    },
+    {
+      "canonical": "geography:kingdom:seoul:06",
+      "public": "geography:kingdom:seoul:06"
+    }
+  ],
+  "parity": {
+    "transform": "typed-current-catalog-selected-fields-v1",
+    "counts": {
+      "titles": 80,
+      "regions": 427,
+      "stations": 312,
+      "edges": 381
+    },
+    "sha256": "dc72636e3f2414d0db0844c0e9dfa70b183c814c06a3dc63d73d2999a95831d7",
+    "excludedStationIds": [
+      "광명사거리",
+      "석수"
+    ],
+    "aliases": [
+      {
+        "id": "서울역",
+        "aliases": [
+          "서울"
+        ],
+        "observed_lines": {
+          "서울": [
+            "1",
+            "4"
+          ],
+          "서울역": [
+            "1",
+            "4"
+          ]
+        },
+        "service_lines": {
+          "서울": [
+            "A",
+            "K"
+          ],
+          "서울역": [
+            "A",
+            "K"
+          ]
+        },
+        "source": "https://www.seoulmetro.co.kr/kr/getLineData.do"
+      },
+      {
+        "id": "총신대입구(이수)",
+        "aliases": [
+          "이수",
+          "총신대입구 (이수)"
+        ],
+        "observed_lines": {
+          "이수": [
+            "7"
+          ],
+          "총신대입구 (이수)": [
+            "4"
+          ],
+          "총신대입구(이수)": [
+            "4"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "삼성",
+        "aliases": [
+          "삼성(무역센터)"
+        ],
+        "observed_lines": {
+          "삼성": [
+            "2"
+          ],
+          "삼성(무역센터)": [
+            "2"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "수유",
+        "aliases": [
+          "수유(강북구청)"
+        ],
+        "observed_lines": {
+          "수유": [
+            "4"
+          ],
+          "수유(강북구청)": [
+            "4"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "서울대입구",
+        "aliases": [
+          "서울대입구(관악구청)"
+        ],
+        "observed_lines": {
+          "서울대입구": [
+            "2"
+          ],
+          "서울대입구(관악구청)": [
+            "2"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "강변",
+        "aliases": [
+          "강변(동서울터미널)"
+        ],
+        "observed_lines": {
+          "강변": [
+            "2"
+          ],
+          "강변(동서울터미널)": [
+            "2"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "구의",
+        "aliases": [
+          "구의(광진구청)"
+        ],
+        "observed_lines": {
+          "구의": [
+            "2"
+          ],
+          "구의(광진구청)": [
+            "2"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "아현",
+        "aliases": [
+          "아현(추계예술대)"
+        ],
+        "observed_lines": {
+          "아현": [
+            "2"
+          ],
+          "아현(추계예술대)": [
+            "2"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "대림",
+        "aliases": [
+          "대림(구로구청)"
+        ],
+        "observed_lines": {
+          "대림": [
+            "2",
+            "7"
+          ],
+          "대림(구로구청)": [
+            "2",
+            "7"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "충정로",
+        "aliases": [
+          "충정로(경기대입구)"
+        ],
+        "observed_lines": {
+          "충정로": [
+            "2",
+            "5"
+          ],
+          "충정로(경기대입구)": [
+            "2",
+            "5"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "교대",
+        "aliases": [
+          "교대(법원·검찰청)"
+        ],
+        "observed_lines": {
+          "교대": [
+            "2",
+            "3"
+          ],
+          "교대(법원·검찰청)": [
+            "2",
+            "3"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "남부터미널",
+        "aliases": [
+          "남부터미널(예술의전당)"
+        ],
+        "observed_lines": {
+          "남부터미널": [
+            "3"
+          ],
+          "남부터미널(예술의전당)": [
+            "3"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "방배",
+        "aliases": [
+          "방배 (백석예술대)"
+        ],
+        "observed_lines": {
+          "방배": [
+            "2"
+          ],
+          "방배 (백석예술대)": [
+            "2"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "왕십리",
+        "aliases": [
+          "왕십리(성동구청)"
+        ],
+        "observed_lines": {
+          "왕십리": [
+            "2",
+            "5"
+          ],
+          "왕십리(성동구청)": [
+            "2",
+            "5"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "한성대입구",
+        "aliases": [
+          "한성대입구(삼선교)"
+        ],
+        "observed_lines": {
+          "한성대입구": [
+            "4"
+          ],
+          "한성대입구(삼선교)": [
+            "4"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "잠실",
+        "aliases": [
+          "잠실(송파구청)"
+        ],
+        "observed_lines": {
+          "잠실": [
+            "2",
+            "8"
+          ],
+          "잠실(송파구청)": [
+            "2",
+            "8"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "경복궁",
+        "aliases": [
+          "경복궁(정부서울청사)"
+        ],
+        "observed_lines": {
+          "경복궁": [
+            "3"
+          ],
+          "경복궁(정부서울청사)": [
+            "3"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "혜화",
+        "aliases": [
+          "혜화(서울대학교병원)"
+        ],
+        "observed_lines": {
+          "혜화": [
+            "4"
+          ],
+          "혜화(서울대학교병원)": [
+            "4"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      },
+      {
+        "id": "회현",
+        "aliases": [
+          "회현(남대문시장)"
+        ],
+        "observed_lines": {
+          "회현": [
+            "4"
+          ],
+          "회현(남대문시장)": [
+            "4"
+          ]
+        },
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki/issues/120"
+      }
+    ],
+    "semantics": {
+      "geography": "inspection-only; current slots retain unassigned/holder-null/geometryVerified-false",
+      "control": "not ownership or a grant",
+      "passage2126": "source decision, not campaign execution admission",
+      "union": "unresolved-source-binding",
+      "physicalRail": "not imported; geometry is not an executable edge"
+    }
+  },
+  "rights": {
+    "licenses": [
+      {
+        "id": "wiki-owned-content",
+        "work": "서울전국",
+        "holder": "Linalab.io",
+        "source": "https://github.com/islee23520/seoul-dengoku-wiki",
+        "license": "https://github.com/islee23520/seoul-dengoku-wiki/blob/main/LICENSE",
+        "changeNotice": "Selected and transformed for the Seoul Dengoku campaign; no new ownership or play-start authority."
+      },
+      {
+        "id": "sgis-2025",
+        "date": "2025-06-30",
+        "sha256": "6a393cefb7cc257f001042acb8715e5d721b320e14eba723f15857197edaa5e4",
+        "attribution": "SGIS",
+        "license": "KOGL-Type-1"
+      },
+      {
+        "id": "boundary-2026",
+        "date": "2026-07-01",
+        "sha256": "c01ef44a0eb00978662ba7a6240ccb1da287fb52abd85104a1758969d391132f",
+        "attribution": "통계청 SGIS 행정동 경계(공공누리 제1유형)를 가공한 vuski/admdongkor, CC BY 4.0",
+        "license": "CC-BY-4.0",
+        "source": "https://raw.githubusercontent.com/vuski/admdongkor/7360288277dfd12d74e54b959c59bdd66f852e3a/ver20260701/HangJeongDong_ver20260701.geojson"
+      },
+      {
+        "id": "osm-atlas-2026-09-04",
+        "date": "2026-09-04T23:00:00Z",
+        "sha256": "eec1fcac44d0b7b1600c81437ba0a0ea56cd645d16f4eaf55a00786597e0e7e8",
+        "attribution": "OpenStreetMap contributors",
+        "license": "ODbL-1.0",
+        "source": "https://www.openstreetmap.org/copyright"
+      }
+    ],
+    "allowlist": [
+      {
+        "fields": [
+          "selection/persons/*/id",
+          "selection/persons/*/name",
+          "selection/persons/*/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/holding"
+        ],
+        "source": {
+          "path": "lore/relations/personal-holdings.json",
+          "sha256": "1801d7bb8d27af743f74ea447d4f7be782b9d8ba7ba5b37af4d0c6f2b6329a12"
+        },
+        "pointer": "/holdings",
+        "transform": "yangcheon-only-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/court",
+          "selection/titleBinding"
+        ],
+        "sources": [
+          {
+            "path": "lore/relations/relations.json",
+            "sha256": "6a0a48a6540c16a848de8e14caa1d8df628eeceab5465c454afdbfdb5fa8a3c2"
+          },
+          {
+            "path": "lore/relations/opening-feudal-allocation.json",
+            "sha256": "21d7663507b896a43d70fc459f662376780b477b5c2078af100b2d42bbe7079d"
+          }
+        ],
+        "pointers": [
+          "/directRetainers",
+          "/existingTitleBindings"
+        ],
+        "transform": "directed-court-title-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/hegemons",
+          "parity/stations/control",
+          "parity/edges/control",
+          "parity/edges/passage2126"
+        ],
+        "sources": [
+          {
+            "path": "lore/factions/Sixteen-States.json",
+            "sha256": "73b19e6af00df16fb06adfbaab7c386aea6930ff01587dd6a0dc69fbae557a3c"
+          },
+          {
+            "path": "lore/places/station-control-overrides.json",
+            "sha256": "31e6782338a6d3d03ac4e62a800cf5b0d878785c5f8050ee556975d4456e8915"
+          },
+          {
+            "path": "lore/regions/content/11110.json",
+            "sha256": "e61839e5bb3cfa94858a7548b462ba6c6a8367a473446b4307a18c7360346e9c"
+          },
+          {
+            "path": "lore/regions/content/11140.json",
+            "sha256": "82bfb8b7fce99c960e7a69a3d7bd7038edfbaad1ef9463c9e9708b3255e2b7cb"
+          },
+          {
+            "path": "lore/regions/content/11170.json",
+            "sha256": "4d4372a151ea3b5b3750f4209009850786878a9a1b0f03d6263b82f713be39e3"
+          },
+          {
+            "path": "lore/regions/content/11200.json",
+            "sha256": "70c5c1ded8c05e0a62807810474bec8302692c19c2f619fb9bdcfbcc62df5f25"
+          },
+          {
+            "path": "lore/regions/content/11215.json",
+            "sha256": "0ee9f878da9dbf7205c3455d26a36c48c696d905479672051e2a4f92fb8729f5"
+          },
+          {
+            "path": "lore/regions/content/11230.json",
+            "sha256": "909ac6348e1c1db709600a15e8324e35b12f8da333a2651c84aa8cd3d17ca2c3"
+          },
+          {
+            "path": "lore/regions/content/11260.json",
+            "sha256": "35a0f9a00f390ddade023934923945574c35bce4be11870255bf3bc016a168e0"
+          },
+          {
+            "path": "lore/regions/content/11290.json",
+            "sha256": "d3a7df3c27583ae75849b148f57afd1c6c2306e59f87898938c8a7414c179733"
+          },
+          {
+            "path": "lore/regions/content/11305.json",
+            "sha256": "a57fbc654ea8460292747c1bc0d1cb9b076a9fa8f93ac188444f863c62189fcf"
+          },
+          {
+            "path": "lore/regions/content/11320.json",
+            "sha256": "e32bdb315abfb94be91a6aa71dc28889412e2578545098523af48d97add2dd74"
+          },
+          {
+            "path": "lore/regions/content/11350.json",
+            "sha256": "b88467440d62d9ffdd43e61e6ab76bdcafd1896875a70a021827bed1282f4ad6"
+          },
+          {
+            "path": "lore/regions/content/11380.json",
+            "sha256": "4629421f6d87b127dcfb4bec926f2b126ffa12b4a42ec1743bc6aa004f3e7c91"
+          },
+          {
+            "path": "lore/regions/content/11410.json",
+            "sha256": "74bb137245e64bf6a5bfb90c6cb42f7bf5de1c1da1af5daf56cf568ef09083b5"
+          },
+          {
+            "path": "lore/regions/content/11440.json",
+            "sha256": "4a5cba55494a45dfc08bc0b94d3f84a5fc58ed886507884abf559b9614bcc69e"
+          },
+          {
+            "path": "lore/regions/content/11470.json",
+            "sha256": "66be337fddc62cff428a9d7e10b43c27c1ad444c8a6cbbd881b431c38c42dc8e"
+          },
+          {
+            "path": "lore/regions/content/11500.json",
+            "sha256": "d87dfc02a954f4ab857966b34efdf1c6e3d773a62e0af3c2905cb5b582372831"
+          },
+          {
+            "path": "lore/regions/content/11530.json",
+            "sha256": "dad57448910220436dd5bca24d78d4b4c033e4e3fc9c6ca7c4eb1bc80dd65cf7"
+          },
+          {
+            "path": "lore/regions/content/11545.json",
+            "sha256": "c796109e21531fe51d86d6668c0e06d4c9b4162d0d42f35d29d2b4b51aff02d2"
+          },
+          {
+            "path": "lore/regions/content/11560.json",
+            "sha256": "a43a0d4e602faf8ceff0c5137b29a3b7447ec88f7e83ec9a5c5ff9da1b105cbf"
+          },
+          {
+            "path": "lore/regions/content/11590.json",
+            "sha256": "8ce50ecfa0e725da6976bfedd46c8a98cde94cd95640eae4efa64066b0c4d99a"
+          },
+          {
+            "path": "lore/regions/content/11620.json",
+            "sha256": "59677a9ec79306e36ddd8bb6adb0a714a63e9cc85be7188f849e07eefa6e5fa3"
+          },
+          {
+            "path": "lore/regions/content/11650.json",
+            "sha256": "93702444fa1d919e25d8592600dd7a3d00d877317a2a37712685195f36abece7"
+          },
+          {
+            "path": "lore/regions/content/11680.json",
+            "sha256": "8661504cba929e42c2f17e6277f39b668e11f5d39cab6c078374ba81282a7858"
+          },
+          {
+            "path": "lore/regions/content/11710.json",
+            "sha256": "4ef43e14acdc70c2eb28528e609d6a74569beecc674a4f948f08df30b36ab881"
+          },
+          {
+            "path": "lore/regions/content/11740.json",
+            "sha256": "1135ac11ab1a7bea5daf8c4ccefbdc0bd119861809f15b0f388d67e4aede04b4"
+          }
+        ],
+        "pointer": "/data/currentAffiliation",
+        "transform": "current-catalog-control-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "parity/geography",
+          "identityMap"
+        ],
+        "sha256": "372734e77019d0e544ded29f90e1b35b8a8c3a3cfff305c295c2bd83a6b64eef",
+        "pointer": "/titles",
+        "transform": "publicGeographicId/projectGeographicTitles-v1",
+        "use": "sgis-2025"
+      },
+      {
+        "fields": [
+          "parity/regions/path"
+        ],
+        "sha256": "c01ef44a0eb00978662ba7a6240ccb1da287fb52abd85104a1758969d391132f",
+        "pointer": "/regions/*/map_geometry",
+        "transform": "catalog-map-point-ring-v1",
+        "use": "boundary-2026"
+      },
+      {
+        "fields": [
+          "parity/stations",
+          "parity/edges"
+        ],
+        "sources": [
+          {
+            "path": "lore/places/Seoul-Station-Catalog.json",
+            "sha256": "71caa21802d5acff268c6fc051f84950ba0e4bc34b870de071d924e7dfccdc56"
+          },
+          {
+            "path": "lore/places/regular-line-adjacency.json",
+            "sha256": "6b9e1bec6987875ed5f5e6b2df508d3716208628f1749b03f5b80cf1a2af9b7a"
+          }
+        ],
+        "pointer": "/data/station_aliases",
+        "transform": "explicit-alias-regular-adjacency-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/site"
+        ],
+        "sha256": "eec1fcac44d0b7b1600c81437ba0a0ea56cd645d16f4eaf55a00786597e0e7e8",
+        "pointer": "/sites/id=osm:node:368899387",
+        "transform": "one-site-anchor-v1",
+        "use": "osm-atlas-2026-09-04"
+      },
+      {
+        "fields": [
+          "selection/building"
+        ],
+        "source": {
+          "path": "lore/regions/content/11470.json",
+          "sha256": "66be337fddc62cff428a9d7e10b43c27c1ad444c8a6cbbd881b431c38c42dc8e"
+        },
+        "pointer": "/regions/region:1147063000/content/buildings",
+        "transform": "one-building-two-floors-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K001/id",
+          "selection/persons/id=K001/name",
+          "selection/persons/id=K001/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/0",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K002/id",
+          "selection/persons/id=K002/name",
+          "selection/persons/id=K002/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/1",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K029/id",
+          "selection/persons/id=K029/name",
+          "selection/persons/id=K029/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/28",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K904/id",
+          "selection/persons/id=K904/name",
+          "selection/persons/id=K904/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/903",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K568/id",
+          "selection/persons/id=K568/name",
+          "selection/persons/id=K568/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/567",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K616/id",
+          "selection/persons/id=K616/name",
+          "selection/persons/id=K616/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/615",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K712/id",
+          "selection/persons/id=K712/name",
+          "selection/persons/id=K712/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/711",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K856/id",
+          "selection/persons/id=K856/name",
+          "selection/persons/id=K856/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/855",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K952/id",
+          "selection/persons/id=K952/name",
+          "selection/persons/id=K952/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/951",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K1001/id",
+          "selection/persons/id=K1001/name",
+          "selection/persons/id=K1001/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/1000",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K424/id",
+          "selection/persons/id=K424/name",
+          "selection/persons/id=K424/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/423",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K520/id",
+          "selection/persons/id=K520/name",
+          "selection/persons/id=K520/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/519",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K760/id",
+          "selection/persons/id=K760/name",
+          "selection/persons/id=K760/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/759",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K808/id",
+          "selection/persons/id=K808/name",
+          "selection/persons/id=K808/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/807",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K664/id",
+          "selection/persons/id=K664/name",
+          "selection/persons/id=K664/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/663",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/id=K472/id",
+          "selection/persons/id=K472/name",
+          "selection/persons/id=K472/stateId"
+        ],
+        "source": {
+          "path": "lore/name-pools/values-cast.json",
+          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
+        },
+        "pointer": "/people/471",
+        "transform": "selected-issued-identity-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/persons/*/disposition",
+          "selection/court/*/status"
+        ],
+        "sha256": "33fc48dbcf335b05bf64391279faa48dbdeabbb03932e97f07886b683bba7859",
+        "pointer": "person_disposition/person_id",
+        "transform": "current-disposition-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/hegemons/*"
+        ],
+        "source": {
+          "path": "lore/factions/Sixteen-States.json",
+          "sha256": "73b19e6af00df16fb06adfbaab7c386aea6930ff01587dd6a0dc69fbae557a3c"
+        },
+        "revision": "433ad0d4cdcdfbeaaaa0e2174bd1447f5b4a9334e222dd0e167de15f791caf13",
+        "semanticSha256": "9524c36db6daed1e36e4eecf2b4812eca5f60ce9261a5479d851af349d19a068",
+        "pointer": "/data/currentAffiliation/hegemons",
+        "transform": "source-grouping-not-sovereign-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "parity/stations/x",
+          "parity/stations/y"
+        ],
+        "sha256": "eec1fcac44d0b7b1600c81437ba0a0ea56cd645d16f4eaf55a00786597e0e7e8",
+        "pointer": "/stations/*/lon,lat",
+        "transform": "EPSG4326-to-EPSG5179-v1",
+        "use": "osm-atlas-2026-09-04"
+      }
+    ],
+    "excluded": [
+      "portraits",
+      "real-person-permission-records",
+      "Soul",
+      "private-evidence",
+      "biographies",
+      "unrelated-persons",
+      "terrain",
+      "physical-rail"
+    ],
+    "selectedRealPersonRegistryMatches": [],
+    "newConsentGranted": false,
+    "playStartAdmission": false
+  }
+}
