@@ -27,7 +27,14 @@ const observing = issue(ledger, 'S01-O');
 const before = advance(observing, timeline.reportReceived.seconds * 1000 - 1);
 const complete = advance(before, timeline.reportReceived.seconds * 1000);
 const query = { personId: 'K002' };
-const clone = (s: CampaignState): any => JSON.parse(JSON.stringify(s));
+// Mutable checkpoint fixtures preserve production fields and branded primitives.
+// Only the two deliberately invalid observation fields need wider test types.
+type MutableFixture<T> = T extends string | number | boolean | null ? T
+  : T extends { readonly kind: 'raw-observation' }
+    ? { -readonly [K in keyof T]: K extends 'measurementValue' ? number | null : MutableFixture<T[K]> } & { currentPressure?: number }
+    : { -readonly [K in keyof T]: MutableFixture<T[K]> };
+type CampaignFixture = MutableFixture<CampaignState>;
+const clone = (s: CampaignState): CampaignFixture => JSON.parse(JSON.stringify(s));
 
 test('observed and carried payloads remain unreadable until formal receipt', () => {
   const reports = before.reports.filter(r => r.source === 'K616');
@@ -79,7 +86,7 @@ test('stale immutable receipt survives later truth without learning its version'
   assert.deepEqual(lordKnowledge(state, query), lordKnowledge(old, query));
   assert.equal(lordKnowledge(state, query).facts[0]?.version, 0);
   const edited = clone(state);
-  edited.reports[0].fact.version = 1;
+  edited.reports[0]!.fact.version = 1;
   assert.throws(() => parseCampaignState(edited, content), /report-link|report-unreceived/);
   assert.throws(() => requireKnownReportFact(state, { ...query, factId: report.fact.id, version: 1 }), /report-unreceived/);
   assert.doesNotThrow(() => requireKnownReportFact(state, { ...query, factId: report.fact.id, version: 0 }));
@@ -91,20 +98,20 @@ test('stale immutable receipt survives later truth without learning its version'
 
 test('forged issuer, source, time, payload and recomputed receipt hashes are rejected', () => {
   for (const mutate of [
-    (s: any) => { s.reports.at(-1).source = 'K568'; },
-    (s: any) => { s.reports.at(-1).recipient = 'K568'; },
-    (s: any) => { s.reports.at(-1).causeId = 'another-issuer'; },
-    (s: any) => { s.reports.at(-1).fact.causeId = 'another-issuer'; },
-    (s: any) => { s.reports.at(-1).deliveredAt--; },
-    (s: any) => { s.reports.at(-1).receivedAt--; },
-    (s: any) => { s.reports.at(-1).fact.evidence.measurementValue = 25; },
-    (s: any) => { s.reports.at(-1).omission = []; },
-    (s: any) => { s.reports.at(-1).fact.evidence.currentPressure = 25; },
+    (s: CampaignFixture) => { s.reports.at(-1)!.source = id('PersonId', 'K568'); },
+    (s: CampaignFixture) => { s.reports.at(-1)!.recipient = id('PersonId', 'K568'); },
+    (s: CampaignFixture) => { s.reports.at(-1)!.causeId = id('CauseId', 'another-issuer'); },
+    (s: CampaignFixture) => { s.reports.at(-1)!.fact.causeId = id('CauseId', 'another-issuer'); },
+    (s: CampaignFixture) => { const report = s.reports.at(-1)!; report.deliveredAt = integer('WorldMilliseconds', report.deliveredAt! - 1); },
+    (s: CampaignFixture) => { const report = s.reports.at(-1)!; report.receivedAt = integer('WorldMilliseconds', report.receivedAt! - 1); },
+    (s: CampaignFixture) => { const evidence = s.reports.at(-1)!.fact.evidence; assert.equal(evidence.kind, 'raw-observation'); if (evidence.kind === 'raw-observation') evidence.measurementValue = 25; },
+    (s: CampaignFixture) => { s.reports.at(-1)!.omission = []; },
+    (s: CampaignFixture) => { const evidence = s.reports.at(-1)!.fact.evidence; assert.equal(evidence.kind, 'raw-observation'); if (evidence.kind === 'raw-observation') evidence.currentPressure = 25; },
   ]) {
     const candidate = clone(complete); mutate(candidate);
-    const report = candidate.reports.at(-1);
-    const record = candidate.knowledge.find((k: any) => k.personId === 'K002').records.find((r: any) => r.reportId === report.id);
-    record.receivedAt = report.receivedAt; record.payloadHash = summaryHash(report);
+    const report = candidate.reports.at(-1)!;
+    const record = candidate.knowledge.find(k => k.personId === 'K002')!.records.find(r => r.reportId === report.id)!;
+    record.receivedAt = report.receivedAt!; record.payloadHash = summaryHash(report);
     assert.throws(() => parseCampaignState(candidate, content));
   }
 });
@@ -143,9 +150,9 @@ test('work completion is a single durable candidate before receipt and after rep
 
 test('restore rejects duplicate completion identities and edited immutable work evidence', () => {
   for (const mutate of [
-    (s: any) => { const work = s.results.find((r: any) => r.kind === 'work'); s.results.push({ ...work, id: 'new-work-id' }); s.appliedResultIds.push('new-work-id'); s.mandates[0].appliedResultIds.push('new-work-id'); },
-    (s: any) => { const work = s.results.find((r: any) => r.kind === 'work'); work.workEvidence = []; work.payloadHash = summaryHash([]); },
-    (s: any) => { const work = s.results.find((r: any) => r.kind === 'work'); work.at++; },
+    (s: CampaignFixture) => { const work = s.results.find(r => r.kind === 'work')!; const resultId = id('ResultId', 'new-work-id'); s.results.push({ ...work, id: resultId }); s.appliedResultIds.push(resultId); s.mandates[0]!.appliedResultIds.push(resultId); },
+    (s: CampaignFixture) => { const work = s.results.find(r => r.kind === 'work')!; work.workEvidence = []; work.payloadHash = summaryHash([]); },
+    (s: CampaignFixture) => { const work = s.results.find(r => r.kind === 'work')!; work.at = integer('WorldMilliseconds', work.at + 1); },
   ]) {
     const candidate = clone(complete); mutate(candidate); assert.throws(() => parseCampaignState(candidate, content));
   }
@@ -153,14 +160,15 @@ test('restore rejects duplicate completion identities and edited immutable work 
 
 test('another approved ledger row cannot impersonate this observed row after rehashing', () => {
   const candidate = clone(complete);
-  const report = candidate.reports[0];
-  report.fact.evidence.rows = [content.data.operations.evidence.ledgerRows[1]];
+  const report = candidate.reports[0]!;
+  assert.equal(report.fact.evidence.kind, 'ledger-comparison');
+  if (report.fact.evidence.kind === 'ledger-comparison') report.fact.evidence.rows = [content.data.operations.evidence.ledgerRows[1]!];
   candidate.facts[0] = report.fact;
-  const work = candidate.results.find((r: any) => r.kind === 'work');
-  work.workEvidence[0] = report.fact; work.payloadHash = summaryHash(work.workEvidence);
-  candidate.knowledge.find((k: any) => k.personId === 'K002').records[0].payloadHash = summaryHash(report);
-  const receipt = candidate.results.find((r: any) => r.kind === 'report');
-  receipt.payloadHash = summaryHash(candidate.reports.filter((r: any) => r.fact.orderId === report.fact.orderId));
+  const work = candidate.results.find(r => r.kind === 'work')!;
+  work.workEvidence![0] = report.fact; work.payloadHash = summaryHash(work.workEvidence);
+  candidate.knowledge.find(k => k.personId === 'K002')!.records[0]!.payloadHash = summaryHash(report);
+  const receipt = candidate.results.find(r => r.kind === 'report')!;
+  receipt.payloadHash = summaryHash(candidate.reports.filter(r => r.fact.orderId === report.fact.orderId));
   assert.throws(() => parseCampaignState(candidate, content), /report-link/);
 });
 
