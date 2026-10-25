@@ -1,4 +1,4 @@
-import { createHash } from 'node:crypto';
+import { sha256 } from '../../../engine/node_modules/@noble/hashes/sha2.js';
 import type { CauseId, PersonId, ResultId, SchemaVersion, WorldTick } from './ids.ts';
 import { integer } from './ids.ts';
 import { CheckpointCorrupt, LedgerConflict, VersionMismatch, requireCause } from './errors.ts';
@@ -25,7 +25,9 @@ export function canonicalJson(value: JsonValue): string {
     default: throw new CheckpointCorrupt('non-json-value');
   }
 }
-export function summaryHash(value: JsonValue): string { return createHash('sha256').update(canonicalJson(value)).digest('hex'); }
+export function summaryHash(value: JsonValue): string {
+  return Array.from(sha256(new TextEncoder().encode(canonicalJson(value))), n => n.toString(16).padStart(2, '0')).join('');
+}
 export function assertVersionCompatible(actual: Versions, expected: Versions): void {
   for (const key of ['schemaVersion', 'ruleVersion', 'contentVersion'] as const) {
     if (actual[key] !== expected[key]) throw new VersionMismatch(String(expected[key]), String(actual[key]));

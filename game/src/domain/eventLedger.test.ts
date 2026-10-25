@@ -1,8 +1,9 @@
 import { test } from 'node:test';
+import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
 import { id, integer } from './ids.ts';
 import { CheckpointCorrupt, LedgerConflict, VersionMismatch } from './errors.ts';
-import { applyResult, restoreLedger, foldLedger, cursor, summaryHash } from './eventLedger.ts';
+import { applyResult, restoreLedger, foldLedger, cursor, summaryHash, canonicalJson } from './eventLedger.ts';
 import type { EventLedger, LedgerEntry } from './eventLedger.ts';
 import { cause, lord, tick, schemaVersion } from './fixtures/opening.ts';
 
@@ -46,6 +47,7 @@ test('snapshot restores exact ledger and rejects version mismatch', () => {
   const restored = restoreLedger(JSON.parse(JSON.stringify(original)), versions);
   // Then
   assert.equal(foldLedger(restored), foldLedger(original));
+  assert.equal(foldLedger(restored), createHash('sha256').update(canonicalJson({ ...original })).digest('hex'));
   assert.throws(() => restoreLedger({ ...original, schemaVersion: 9 }, versions), VersionMismatch);
 });
 for (const [name, invalid] of [
@@ -57,4 +59,29 @@ for (const [name, invalid] of [
 ] as const) test('snapshot fails explicitly on ' + name, () => {
   // Given / When / Then
   assert.throws(() => restoreLedger(invalid, versions), CheckpointCorrupt);
+});
+test('summary hash preserves legacy UTF-8 bytes when payloads contain nested Korean values', () => {
+  // Given
+  const payload = { 영주: '이서담', 가신: ['백산석', '성달현'], nested: { z: null, a: [true, -0, '서울\n전국'] } };
+  const expected = '50c8ba6b92a10a9eaab174b5e3a8178d476f2ecbfa5b6beb0fabccbcc8e54842';
+  // When
+  const actual = summaryHash(payload);
+  // Then
+  assert.equal(actual, expected);
+  assert.equal(actual, createHash('sha256').update(canonicalJson(payload)).digest('hex'));
+  assert.equal(summaryHash({ nested: { a: [true, 0, '서울\n전국'], z: null }, 가신: payload.가신, 영주: payload.영주 }), expected);
+});
+for (const value of [NaN, Infinity, -Infinity]) test(`summary hash rejects nested ${value} when JSON is nonfinite`, () => {
+  // Given
+  const payload = { nested: [value] };
+  // When / Then
+  assert.throws(() => summaryHash(payload), CheckpointCorrupt);
+});
+test('summary hash changes when the payload changes', () => {
+  // Given
+  const original = { 영주: '이서담', nested: [1, 2] };
+  // When
+  const changed = summaryHash({ ...original, nested: [1, 3] });
+  // Then
+  assert.notEqual(changed, summaryHash(original));
 });
