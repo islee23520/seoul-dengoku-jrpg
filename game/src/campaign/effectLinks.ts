@@ -1,7 +1,7 @@
 import { assertNever } from '../domain/errors.ts';
 import type { CampaignContent } from './content.ts';
 import { requireBoundary } from './errors.ts';
-import { assertLocation, physicalNodes } from './locations.ts';
+import { assertPhysicalEffect } from './physicalEffects.ts';
 import type { CampaignState } from './stateSchemas.ts';
 
 export function assertEffectAuthority(state: CampaignState, order: CampaignState['mandates'][number], effect: { readonly at: number; readonly content: CampaignContent }): void {
@@ -13,36 +13,18 @@ export function assertEffectAuthority(state: CampaignState, order: CampaignState
 }
 
 export function assertResultEffects(state: CampaignState, content: CampaignContent): void {
-  const { operations: o, scenario: s } = content.data;
   for (const result of state.results) {
     const order = state.mandates.find(m => m.orderId === result.orderId);
     requireBoundary(order !== undefined && order.acceptedAt !== null && result.at >= order.acceptedAt, 'cross-link');
     switch (result.kind) {
       case 'work': case 'custody':
         requireBoundary(result.safeReturn === null, 'cross-link');
-        assertEffectAuthority(state, order, { at: result.at, content }); break;
+        assertEffectAuthority(state, order, { at: result.at, content });
+        if (result.kind === 'custody') assertPhysicalEffect(state, result, content);
+        break;
       case 'report':
         requireBoundary(result.safeReturn === null && state.reports.some(r => r.fact.orderId === order.orderId && r.receivedAt === result.at), 'report-link'); break;
-      case 'safe-return': {
-        const duty = result.safeReturn;
-        requireBoundary(duty !== null && order.operation === 'S01-L' && duty.assetId === s.ledger.id && order.returnAcceptedAt !== null && order.returnAcceptedAt <= result.at, 'custody');
-        const previous = state.results.find(r => r.id === duty.priorCustodyResultId);
-        requireBoundary(previous !== undefined && previous.orderId === order.orderId && previous.at < result.at && (previous.kind === 'custody' || previous.kind === 'safe-return'), 'custody');
-        const body = state.bodies.find(b => b.entityId === duty.custodian);
-        requireBoundary(body !== undefined && result.at <= body.foodCoveredUntil && result.at <= body.waterCoveredUntil && result.at < o.clock.supportUntilSeconds * 1000 && body.regions.every(r => r.effortMilliseconds < o.body.restRequiredAtEffortSeconds * 1000), 'inventory');
-        assertLocation(duty.location, content);
-        const nodes = physicalNodes(duty.location);
-        switch (duty.action) {
-          case 'protect': case 'carry-to-threshold':
-            requireBoundary([order.recipientId, o.authority.duty].includes(duty.custodian) && nodes.length > 0 && nodes.every(n => s.ledger.route.orderedNodes.includes(n)), 'custody'); break;
-          case 'handover':
-            requireBoundary(duty.custodian === o.authority.duty && nodes.length === 1 && nodes[0] === 's01:townhall:threshold', 'custody'); break;
-          case 'restock': case 'reseal':
-            requireBoundary(duty.custodian === o.authority.duty && nodes.length === 1 && nodes[0] === s.ledger.container, 'custody'); break;
-          default: assertNever(duty.action);
-        }
-        break;
-      }
+      case 'safe-return': assertPhysicalEffect(state, result, content); break;
       default: assertNever(result.kind);
     }
   }
@@ -56,6 +38,7 @@ export function assertConsumption(state: CampaignState, content: CampaignContent
     const duration = receipt.kind === 'food' ? d.eat : d.drink;
     requireBoundary(receipt.completedAt - receipt.startedAt === duration * 1000 && receipt.completedAt <= p.consumption.windowEndSeconds * 1000, 'inventory');
     requireBoundary(!state.consumption.some(other => other.id !== receipt.id && other.entityId === receipt.entityId && other.startedAt < receipt.completedAt && receipt.startedAt < other.completedAt), 'inventory');
+    requireBoundary(!state.reservations.some(r => r.resource.kind === 'body' && r.resource.entityId === receipt.entityId && r.from < receipt.completedAt && receipt.startedAt < r.until && !(r.consumptionId === receipt.id && r.from === receipt.startedAt && r.until === receipt.completedAt)), 'inventory');
   }
   for (const body of state.bodies) {
     const inventory = state.inventories.find(i => i.entityId === body.entityId);

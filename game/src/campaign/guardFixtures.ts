@@ -57,10 +57,19 @@ export const ledgerOrder = parseCampaignState({ ...emptyOrder,
     compositeVersion: summaryHash({ operation: 'S01-L', authority: ledgerAuthority }),
     target: nodeLocation('s01:townhall:desk', content), route: ['s01:townhall:desk'], returnAcceptedAt: 1300000 })),
 }, content);
-export const safeReturnState = parseCampaignState({ ...ledgerOrder, grants: revoke(ledgerOrder, 1400000),
+const original = e0.custody[0]; assert.ok(original);
+const locker = nodeLocation('s01:townhall:locker', content), threshold = nodeLocation('s01:townhall:threshold', content);
+const picked = { ...original, custodian: id('PersonId', 'K568'), causeId: id('CauseId', 'pickup'), seal: 'opened' as const, returnState: 'return-required' as const };
+const returned = { ...picked, custodian: id('DutyId', content.data.operations.authority.duty), location: threshold, causeId: id('CauseId', 'return'), returnState: 'handover-received' as const };
+const pickupPhysical = { previousResultId: null, before: original, after: picked, dutyAvailable: true,
+  bodies: e0.bodies.filter(b => b.entityId === 'K568' || b.entityId === content.data.operations.authority.duty).map(b => ({ ...b, location: locker })) };
+const returnPhysical = { previousResultId: id('ResultId', 'pickup'), before: { ...picked, location: threshold }, after: returned, dutyAvailable: true,
+  bodies: pickupPhysical.bodies.map(b => ({ ...b, location: threshold })) };
+export const safeReturnState = parseCampaignState({ ...ledgerOrder, grants: revoke(ledgerOrder, 1400000), custody: [returned],
+  bodies: ledgerOrder.bodies.map(b => returnPhysical.bodies.find(p => p.entityId === b.entityId) ?? b),
   appliedResultIds: ['pickup', 'return'], results: [
-    { id: 'pickup', orderId: 'order:observation', causeId: 'pickup', at: 1350000, kind: 'custody', payloadHash: '1'.repeat(64), safeReturn: null },
-    { id: 'return', orderId: 'order:observation', causeId: 'return', at: 1450000, kind: 'safe-return', payloadHash: '2'.repeat(64),
+    { id: 'pickup', orderId: 'order:observation', causeId: 'pickup', at: 1350000, kind: 'custody', payloadHash: summaryHash(pickupPhysical), physical: pickupPhysical, safeReturn: null },
+    { id: 'return', orderId: 'order:observation', causeId: 'return', at: 1450000, kind: 'safe-return', payloadHash: summaryHash(returnPhysical), physical: returnPhysical,
       safeReturn: { assetId: content.data.scenario.ledger.id, action: 'handover', custodian: content.data.operations.authority.duty,
         location: nodeLocation('s01:townhall:threshold', content), priorCustodyResultId: 'pickup', safeRoute: true, dutyAvailable: true } },
   ],

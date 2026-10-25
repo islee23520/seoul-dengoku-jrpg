@@ -53,7 +53,7 @@ const cases: readonly [string, unknown, readonly (string | number)[], unknown, C
   ['report result without receipt', resultState, ['results', 0, 'kind'], 'report', 'report-link'],
   ['safe return wrong asset', safeReturnState, ['results', 1, 'safeReturn', 'assetId'], 'unknown', 'custody'],
   ['safe return without custody', safeReturnState, ['results', 1, 'safeReturn', 'priorCustodyResultId'], 'missing', 'custody'],
-  ['safe return unsupported body', safeReturnState, ['results', 1, 'safeReturn', 'custodian'], 'K999', 'inventory'],
+  ['safe return unsupported body', safeReturnState, ['results', 1, 'safeReturn', 'custodian'], 'K999', 'custody'],
   ['safe handover away from threshold', safeReturnState, ['results', 1, 'safeReturn', 'location'], nodeLocation('s01:townhall:desk', content), 'custody'],
   ['safe restock away from locker', safeReturnState, ['results', 1, 'safeReturn', 'action'], 'restock', 'custody'],
   ['consumption unknown body', foodState, ['consumption', 0, 'entityId'], 'K999', 'inventory'],
