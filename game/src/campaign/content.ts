@@ -5,17 +5,19 @@ import { CampaignBoundaryError, ownInput, requireBoundary } from './errors.ts';
 import { atlasShape, identityShape, manifestShape, operationShape, projectionShape, scenarioShape } from './contentSchemas.ts';
 
 /** Exact artifacts admitted by tasks 2, 3 and 25, not caller-supplied approval flags. */
-export const campaignPackageHashes = {
+const campaignPackageHashes = Object.freeze({
   manifest: '5d97dfaa5fd0d642c6898b06bb1686f297c6a2a48f5a3e2363fdcf2d08e6f7d9',
   atlas: 'ea193b6e780d0c75770e2dd2b99f5f2cf40d484dbbfb77dd2a8a499a93d47edc',
   identities: '292d76e1c9f0c3b31e9a40bb061df5f7812510a3199ab2494283d6135b0371e7',
   scenario: '90b123be955ddcd46d71c6c0a3d4dd5926e66cfb3867f81b82682b9ec5e5dfc9',
   projection: '5a5f0d7e13fe8f70855df873cab368e18cbefe3d026a3356502690aba72e56dc',
   operations: '08465058ccfab3d21847441c181a765b8bee363cb5f9deb8d4988ba25f701400',
-} as const;
+} as const);
 const packageShape = z.strictObject({ manifest: z.string(), atlas: z.string(), identities: z.string(), scenario: z.string(), projection: z.string(), operations: z.string() });
 const contentShape = z.strictObject({ manifest: manifestShape, atlas: atlasShape, identities: identityShape, scenario: scenarioShape, projection: projectionShape, operations: operationShape }).readonly();
 type ContentData = z.infer<typeof contentShape>;
+const admissionKey = Symbol('campaign-admission');
+const admitted = new WeakSet<object>();
 
 function freezeContent(value: unknown): void {
   if (typeof value !== 'object' || value === null) return;
@@ -25,9 +27,13 @@ function freezeContent(value: unknown): void {
 
 /** Immutable trusted data capability; no caller can construct an admitted instance. */
 export class CampaignContent {
+  readonly #admission = admissionKey;
   readonly data: ContentData;
   readonly hashes = campaignPackageHashes;
-  private constructor(data: ContentData) { freezeContent(data); this.data = data; Object.freeze(this.hashes); Object.freeze(this); }
+  private constructor(data: ContentData, key: symbol) {
+    requireBoundary(key === this.#admission, 'content-admission');
+    freezeContent(data); this.data = data; Object.freeze(this);
+  }
   static parse(input: unknown): CampaignContent {
     ownInput(input);
     const envelope = packageShape.safeParse(input);
@@ -44,8 +50,14 @@ export class CampaignContent {
     if (!result.success) throw new CampaignBoundaryError('shape');
     const data = result.data;
     assertContentLinks(data);
-    return new CampaignContent(data);
+    const content = new CampaignContent(data, admissionKey);
+    admitted.add(content);
+    return content;
   }
+}
+
+export function assertAdmittedContent(content: unknown): asserts content is CampaignContent {
+  requireBoundary(typeof content === 'object' && content !== null && admitted.has(content), 'content-admission');
 }
 
 export function assertContentLinks(data: ContentData): void {

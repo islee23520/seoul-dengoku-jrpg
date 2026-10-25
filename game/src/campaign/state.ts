@@ -1,16 +1,18 @@
 import { summaryHash } from '../domain/eventLedger.ts';
 import { assertNever } from '../domain/errors.ts';
-import { CampaignContent, sourceGrantVersion } from './content.ts';
+import { CampaignContent, sourceGrantVersion, assertAdmittedContent } from './content.ts';
 import { CampaignBoundaryError, ownInput, requireBoundary } from './errors.ts';
 import { nodeLocation } from './locations.ts';
 import { assertAuthorityLinks, assertPhysicalLinks } from './stateLinks.ts';
 import { assertReportLinks } from './reportLinks.ts';
+import { assertConsumption, assertResultEffects } from './effectLinks.ts';
 import { campaignStateSchema } from './stateSchemas.ts';
 import type { CampaignReport, CampaignState } from './stateSchemas.ts';
 export type { CampaignState, CampaignLocation, CampaignReport } from './stateSchemas.ts';
 
 /** Parse a complete boundary before giving it to a host. No host or second store is created. */
 export function parseCampaignState(input: unknown, content: CampaignContent): CampaignState {
+  assertAdmittedContent(content);
   ownInput(input);
   const parsed = campaignStateSchema.safeParse(input);
   if (!parsed.success) throw new CampaignBoundaryError('shape');
@@ -22,6 +24,7 @@ export function parseCampaignState(input: unknown, content: CampaignContent): Ca
   requireBoundary(state.clock.closedAt === null || state.clock.closedAt <= state.clock.worldMilliseconds, 'clock');
   assertAuthorityLinks(state, content);
   assertPhysicalLinks(state, content);
+  assertConsumption(state, content);
   assertReportLinks(state, content);
   for (const reservation of state.reservations) {
     const order = state.mandates.find(o => o.orderId === reservation.orderId);
@@ -41,10 +44,12 @@ export function parseCampaignState(input: unknown, content: CampaignContent): Ca
   }
   for (const dispute of state.disputes) requireBoundary(state.mandates.some(o => o.orderId === dispute.orderId) && dispute.openedAt <= state.clock.worldMilliseconds && (dispute.resolvedAt === null || (dispute.resolvedAt >= dispute.openedAt && dispute.resolvedAt <= state.clock.worldMilliseconds)), 'cross-link');
   requireBoundary(state.pendingResultIds.every(id => !state.appliedResultIds.includes(id)) && state.appliedResultIds.length === state.results.length && state.results.every(r => state.appliedResultIds.includes(r.id) && state.mandates.some(o => o.orderId === r.orderId) && r.at <= state.clock.worldMilliseconds), 'cross-link');
+  assertResultEffects(state, content);
   return state;
 }
 
 export function createCampaignE0(content: CampaignContent): CampaignState {
+  assertAdmittedContent(content);
   const { manifest, scenario, operations } = content.data;
   const epoch = operations.clock.epochSeconds * operations.clock.worldMillisecondsPerSecond;
   const bodies = [...scenario.actors.map(a => ({ id: a.id, at: a.at })), { id: operations.authority.duty, at: operations.authority.dutyPlacement }];
@@ -63,7 +68,7 @@ export function createCampaignE0(content: CampaignContent): CampaignState {
     reservations: [], duty: { entityId: operations.authority.duty, keyId: scenario.ledger.key.id, keyHolder: scenario.ledger.key.holder, available: true },
     tools: scenario.availability.tools.map(t => ({ id: t.id, owner: t.owner, location: nodeLocation(t.at, content), available: true })),
     notices: [], disputes: [], facts: [], reports: [], knowledge: manifest.selection.persons.map(p => ({ personId: p.id, records: [] })),
-    pendingResultIds: [], appliedResultIds: [], results: [], rng: { kind: 'unused-in-S01' },
+    pendingResultIds: [], appliedResultIds: [], results: [], consumption: [], rng: { kind: 'unused-in-S01' },
   }, content);
 }
 
@@ -74,6 +79,7 @@ export function receivedReports(state: CampaignState, person: CampaignState['peo
   return knowledge.records.map(record => readReceivedReport(state, { personId: person, reportId: record.reportId }));
 }
 export function readReceivedReport(state: CampaignState, request: { readonly personId: string; readonly reportId: string }): CampaignReport {
+  ownInput(request);
   const record = state.knowledge.find(k => k.personId === request.personId)?.records.find(r => r.reportId === request.reportId);
   const report = state.reports.find(r => r.id === record?.reportId && r.recipient === request.personId && r.receivedAt !== null);
   requireBoundary(report !== undefined, 'report-unreceived');

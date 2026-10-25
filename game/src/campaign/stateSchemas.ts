@@ -1,5 +1,6 @@
 import { z } from '../../../engine/node_modules/zod/index.js';
 import { id } from '../domain/ids.ts';
+import { ledgerRow, rawReading } from './operationSchemas.ts';
 import { bodyRegion, count, digest, grantId, milliseconds, nodeId, personId, ref, sceneId, siteId } from './contentSchemas.ts';
 
 const cause = ref.transform(v => id('CauseId', v));
@@ -52,8 +53,8 @@ const resource = z.discriminatedUnion('kind', [
 const fact = z.strictObject({
   id: ref, version: count, orderId, sourcePersonId: personId, observedAt: milliseconds, location: locationSchema, causeId: cause,
   evidence: z.discriminatedUnion('kind', [
-    z.strictObject({ kind: z.literal('ledger-comparison'), rowIds: z.array(z.enum(['L01-1', 'L01-2', 'L01-3', 'L01-4'])).min(1).readonly() }).readonly(),
-    z.strictObject({ kind: z.literal('raw-observation'), nodeId, measurementValue: z.null(), calibrationReceipt: z.null() }).readonly(),
+    z.strictObject({ kind: z.literal('ledger-comparison'), rows: z.array(ledgerRow).min(1).readonly() }).readonly(),
+    rawReading.unwrap().extend({ kind: z.literal('raw-observation'), nodeId }).readonly(),
   ]),
 }).readonly();
 const report = z.strictObject({
@@ -75,9 +76,13 @@ export const campaignStateSchema = z.strictObject({
   notices: z.array(z.strictObject({ id: ref, grantId, version: digest, recipient: personId, carrier: entityId, legalEffectiveAt: milliseconds, receivedAt: milliseconds.nullable() }).readonly()).readonly(),
   disputes: z.array(z.strictObject({ id: ref, orderId, openedAt: milliseconds, reason: z.enum(['custody-unreturned', 'receipt-contested']), resolvedAt: milliseconds.nullable() }).readonly()).readonly(),
   facts: z.array(fact).readonly(), reports: z.array(report).readonly(),
-  knowledge: z.array(z.strictObject({ personId, records: z.array(z.strictObject({ reportId: ref, factId: ref, version: count, receivedAt: milliseconds }).readonly()).readonly() }).readonly()).readonly(),
+  knowledge: z.array(z.strictObject({ personId, records: z.array(z.strictObject({ reportId: ref, factId: ref, version: count, receivedAt: milliseconds, payloadHash: digest }).readonly()).readonly() }).readonly()).readonly(),
+  consumption: z.array(z.strictObject({ id: resultId, entityId, kind: z.enum(['food', 'water']), startedAt: milliseconds, completedAt: milliseconds, causeId: cause }).readonly()).readonly(),
   pendingResultIds: z.array(resultId).readonly(), appliedResultIds: z.array(resultId).readonly(),
-  results: z.array(z.strictObject({ id: resultId, orderId, causeId: cause, at: milliseconds, kind: z.enum(['work', 'custody', 'report', 'consumption']), payloadHash: digest }).readonly()).readonly(),
+  results: z.array(z.strictObject({ id: resultId, orderId, causeId: cause, at: milliseconds, kind: z.enum(['work', 'custody', 'report', 'safe-return']), payloadHash: digest,
+    safeReturn: z.strictObject({ assetId: ref, action: z.enum(['protect', 'carry-to-threshold', 'handover', 'restock', 'reseal']), custodian: entityId, location: locationSchema,
+      priorCustodyResultId: resultId, safeRoute: z.literal(true), dutyAvailable: z.literal(true) }).readonly().nullable(),
+  }).readonly()).readonly(),
   rng: z.strictObject({ kind: z.literal('unused-in-S01') }).readonly(),
 }).readonly();
 export type CampaignState = z.infer<typeof campaignStateSchema>;

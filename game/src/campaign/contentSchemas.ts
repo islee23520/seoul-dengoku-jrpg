@@ -1,5 +1,6 @@
 import { z } from '../../../engine/node_modules/zod/index.js';
 import { id, integer } from '../domain/ids.ts';
+import { clockRules, durations, routeRules, provisionRules, bodyRules, evidenceRules, orderingRules, responseRules } from './operationSchemas.ts';
 
 export const ref = z.string().min(1);
 export const digest = z.string().regex(/^[a-f0-9]{64}$/);
@@ -50,16 +51,20 @@ export const bodyRegion = z.enum(['left-arm', 'right-arm', 'left-leg', 'right-le
 export const operationShape = z.object({
   schema: z.literal('townhall-operations.v2'), scenarioId: z.literal('townhall-s01-r2'), scope: z.array(z.enum(['S01-L', 'S01-O'])).readonly(),
   approval: z.object({ candidateSha256: digest }), startAuthorization: z.object({ status: z.literal('authorized'), receiptSha256: digest }),
-  clock: z.object({ epochSeconds: count, scheduledCloseSeconds: count, supportUntilSeconds: count, worldMillisecondsPerSecond: z.literal(1000) }).readonly(),
+  clock: clockRules, durations, evidence: evidenceRules, ordering: orderingRules, responses: responseRules, closedScopes: refs,
   authority: z.object({
     issuer: ref, duty: ref, holdingId: ref, regionId: ref, siteId, designator: personId,
     actorPlacements: z.record(personId, nodeId).readonly(), dutyPlacement: nodeId, originalCount: z.literal(1),
+    keyTransfer: z.literal(false), wholeOriginal: z.literal(true), returnRequiresSeparateConsent: z.literal(true), returnStates: refs,
+    noticeDistinctFromRevocation: z.literal(true), safeReturnOnlyAfterRevocation: z.literal(true),
     mandates: z.array(z.object({ id: z.enum(['S01-L', 'S01-O']), recipient: personId, grants: z.array(grantId).length(2).readonly() }).readonly()).readonly(),
   }).readonly(),
-  routes: z.object({ edges: z.array(z.object({ from: nodeId, to: nodeId, metres: z.number().positive(), bidirectional: z.literal(true), ledgerAllowed: z.boolean() }).readonly()).readonly() }).readonly(),
+  routes: z.object({ ...routeRules, edges: z.array(z.object({ from: nodeId, to: nodeId, metres: z.number().positive(), bidirectional: z.literal(true), ledgerAllowed: z.boolean() }).readonly()).readonly() }).readonly(),
   provisions: z.object({
-    prepayments: z.array(z.object({ id: ref, issuer: ref, recipient: ref, preservedFoodPacks: count, emergencyReservedPacks: count, waterMl: count, supportUntilSeconds: count }).readonly()).readonly(),
-    setup: z.object({ coverageUntilSeconds: count }), paper: z.array(z.object({ recipient: personId, sheets: count }).readonly()).readonly(),
+    ...provisionRules,
+    prepayments: z.array(z.object({ id: ref, issuer: ref, recipient: ref, preservedFoodPacks: count, emergencyReservedPacks: count, waterMl: count, supportUntilSeconds: count,
+      paidBeforeE0: z.literal(true), freeOwnedPacks: count, performancePay: z.literal(false), automaticClawback: z.literal(false), forcedConsent: z.literal(false) }).readonly()).readonly(),
+    setup: z.object({ coverageUntilSeconds: count, mealCount: count, waterConsumedMl: count, restCompleted: z.literal(true), alreadyConsumedExcludedFromInventory: z.literal(true) }).readonly(), paper: z.array(z.object({ recipient: personId, sheets: count }).readonly()).readonly(),
   }).readonly(),
-  body: z.object({ regions: z.array(bodyRegion).readonly(), initial: z.object({ effortSeconds: count, damage: z.literal('none'), function: z.literal('available'), disease: z.literal('no-active-episode-in-S01-setup') }).readonly() }).readonly(),
+  body: z.object({ ...bodyRules, regions: z.array(bodyRegion).readonly(), initial: z.object({ effortSeconds: count, damage: z.literal('none'), function: z.literal('available'), disease: z.literal('no-active-episode-in-S01-setup') }).readonly() }).readonly(),
 }).readonly();

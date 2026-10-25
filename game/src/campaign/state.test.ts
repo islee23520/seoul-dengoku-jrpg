@@ -1,27 +1,14 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { readFile } from 'node:fs/promises';
 import { CampaignContent, assertContentLinks } from './content.ts';
 import { CampaignBoundaryError } from './errors.ts';
 import type { CampaignErrorCode } from './errors.ts';
-import { createCampaignE0, parseCampaignState, readReceivedReport, receivedReports, assertExpectedRevision } from './state.ts';
+import { parseCampaignState, readReceivedReport, receivedReports, assertExpectedRevision } from './state.ts';
 import { nodeLocation } from './locations.ts';
-import { summaryHash } from '../domain/eventLedger.ts';
 import { id } from '../domain/ids.ts';
 import { checkCampaignState } from '../../../scripts/tools/campaign-state.ts';
 
-const data = new URL('../../data/', import.meta.url);
-const packages = {
-  manifest: await readFile(new URL('campaign/source-manifest.json', data), 'utf8'),
-  atlas: await readFile(new URL('campaign/atlas.json', data), 'utf8'),
-  identities: await readFile(new URL('campaign/identity-map.json', data), 'utf8'),
-  scenario: await readFile(new URL('scenarios/townhall-s01-r1/scenario.json', data), 'utf8'),
-  projection: await readFile(new URL('scenarios/townhall-s01-r1/projection.json', data), 'utf8'),
-  operations: await readFile(new URL('scenarios/townhall-s01-r2/operations.json', data), 'utf8'),
-};
-const content = CampaignContent.parse(packages);
-const e0 = createCampaignE0(content);
-const rejects = (run: () => unknown, code: CampaignErrorCode) => assert.throws(run, (error: unknown) => error instanceof CampaignBoundaryError && error.code === code);
+import { packages, content, e0, rejects, reportedState } from './testFixtures.ts';
 
 test('restores the admitted E0 when serialized through the complete boundary', () => {
   // Given production admitted bytes, not a synthetic actor pack.
@@ -50,7 +37,7 @@ const negativeStates = [
   { name: 'stale rules version', code: 'stale-version', change: () => ({ ...e0, rulesRevision: '0'.repeat(64) }) },
   { name: 'minted finite inventory', code: 'inventory', change: () => ({ ...e0, inventories: e0.inventories.map(i => ({ ...i, foodPacks: i.foodPacks + 1 })) }) },
   { name: 'inherited option names', code: 'inherited-option', change: () => Object.assign(Object.create({ executionAllowed: true }), e0) },
-  { name: 'dangling report knowledge', code: 'report-unreceived', change: () => ({ ...e0, knowledge: e0.knowledge.map(k => ({ ...k, records: [{ reportId: 'absent', factId: 'absent', version: 0, receivedAt: 0 }] })) }) },
+  { name: 'dangling report knowledge', code: 'report-unreceived', change: () => ({ ...e0, knowledge: e0.knowledge.map(k => ({ ...k, records: [{ reportId: 'absent', factId: 'absent', version: 0, receivedAt: 0, payloadHash: '0'.repeat(64) }] })) }) },
 ] satisfies readonly { readonly name: string; readonly code: CampaignErrorCode; readonly change: () => unknown }[];
 
 for (const probe of negativeStates) test(`rejects atomically when ${probe.name} enters the boundary`, () => {
@@ -81,29 +68,6 @@ test('rejects edited approval bytes when a caller self-approves content', () => 
   // Then the authenticated artifact anchor rejects it.
   rejects(run, 'content-hash');
 });
-
-function reportedState(received: boolean) {
-  const operation = content.data.operations.authority.mandates.find(m => m.id === 'S01-O');
-  assert.ok(operation);
-  const authority = operation.grants.map(grantId => {
-    const grant = e0.grants.find(g => g.id === grantId);
-    assert.ok(grant);
-    return { grantId, version: grant.sourceVersion };
-  });
-  const fact = { id: 'observation:tap', version: 0, orderId: 'order:observation', sourcePersonId: 'K616', observedAt: 1464000,
-    location: nodeLocation('s01:townhall:tap', content), causeId: 'cause:observation', evidence: { kind: 'raw-observation', nodeId: 's01:townhall:tap', measurementValue: null, calibrationReceipt: null } };
-  return parseCampaignState({ ...e0, revision: 1, clock: { ...e0.clock, worldMilliseconds: 1590000 },
-    mandates: [{ orderId: fact.orderId, causeId: fact.causeId, operation: operation.id, issuerPersonId: 'K002', recipientId: operation.recipient, authority,
-      compositeVersion: summaryHash({ operation: operation.id, authority }), target: fact.location,
-      issuerLocation: nodeLocation('s01:townhall:desk', content), recipientLocation: nodeLocation('s01:townhall:yard', content),
-      route: ['s01:townhall:desk', 's01:townhall:entry', 's01:townhall:yard', 's01:townhall:cistern', 's01:townhall:tap'],
-      stage: received ? 'receipt' : 'executing', issuedAt: 990000, receivedAt: 1110000, acceptedAt: 1140000, returnAcceptedAt: null,
-      workMilliseconds: 240000, reservationIds: [], pendingResultIds: [], appliedResultIds: [] }],
-    facts: [fact], reports: [{ id: 'report:observation', fact, recipient: 'K002', carrier: 'K616', createdAt: 1464000,
-      deliveredAt: received ? 1530000 : null, receivedAt: received ? 1590000 : null, source: 'K616', omission: ['uncalibrated'], uncertainty: 'partial-evidence', causeId: fact.causeId }],
-    knowledge: e0.knowledge.map(k => ({ ...k, records: received && k.personId === 'K002' ? [{ reportId: 'report:observation', factId: fact.id, version: fact.version, receivedAt: 1590000 }] : [] })),
-  }, content);
-}
 
 test('rejects a report read when the report has not been received', () => {
   // Given a valid in-transit report in the real boundary.
