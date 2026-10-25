@@ -1,0 +1,540 @@
+{
+  "schema": "townhall-operations.v2",
+  "scenarioId": "townhall-s01-r2",
+  "scope": [
+    "S01-L",
+    "S01-O"
+  ],
+  "approval": {
+    "candidateId": "s01-operations-candidate-r1",
+    "candidateSha256": "51127020aaef915a299eae182af66861cef11f1a856c0d7cba19de17dbd38381",
+    "response": "지도 판본: 현재 위키로 함께 이관\n조사편 운영값: S01 한정 채택 (Recommended)\n승인: 계획 작성·검토 승인 (Recommended)",
+    "approvalId": "s01-operations-candidate-r1",
+    "ownerStartReceiptSha256": "a9cc766895f9afefc6796dc76ae26df0d8eeb158bec55bd40c8c340df2bd6d96",
+    "decisionIds": ["current-wiki-migration", "S01-only-operational-adoption", "plan-creation-and-review", "S01-play-start"],
+    "scope": "S01-only-operational-adoption",
+    "excludes": [
+      "play-start",
+      "wiki-write",
+      "publication",
+      "general-rules"
+    ]
+  },
+  "startAuthorization": {
+    "status": "authorized",
+    "receiptSha256": "a9cc766895f9afefc6796dc76ae26df0d8eeb158bec55bd40c8c340df2bd6d96",
+    "receipt": {
+      "schema": "campaign-owner-start-authorization.v1",
+      "scenario": "S01",
+      "candidate": "s01-operations-candidate-r1",
+      "appendixSha256": "51127020aaef915a299eae182af66861cef11f1a856c0d7cba19de17dbd38381",
+      "question": "승인하신 S01 운영 부록(s01-operations-candidate-r1, 해시 51127020…)으로 게임에서 S01 조사편을 실제로 시작할 수 있게 허용할까요? 범위는 K002 영지의 주민센터에서 시작해 K568 장부 보관·대조·반납과 K616 현장 관측·부분 보고까지입니다. 전투·가격·성장 같은 일반 수치는 계속 닫힌 상태로 둡니다.",
+      "ownerAnswerVerbatim": "S01 시작 승인: S01 시작 허용 (Recommended)",
+      "scope": {
+        "start": "K002 holding townhall",
+        "includes": [
+          "K568 ledger custody/comparison/return",
+          "K616 physical observation/received partial report"
+        ],
+        "excludes": [
+          "general combat/price/growth numeric rules",
+          "deployment/release (separate final okay required)"
+        ]
+      },
+      "answeredAt": "2026-10-25T12:43:30.487Z",
+      "session_id": "senpi:01a16c62-4bca-79e3-a13a-8ec83dd0dc28"
+    }
+  },
+  "clock": {
+    "unit": "world-millisecond",
+    "worldMillisecondsPerSecond": 1000,
+    "worldSecondsPerRealSecond": 6,
+    "peaceSpeeds": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "hostIntegrationMaxRealMilliseconds": 100,
+    "epochSeconds": 0,
+    "scheduledCloseSeconds": 3600,
+    "dawnSeconds": 5400,
+    "supportUntilSeconds": 5400,
+    "closeRule": "min(actual-authorized-early-close,scheduled-close,dawn)",
+    "offlineAccrual": false,
+    "automaticPause": false,
+    "battleAdmission": null
+  },
+  "routes": {
+    "kind": "fictional-internal-metres-not-survey",
+    "metresPerTile": null,
+    "walkingMetresPerSecond": 1,
+    "ledgerMetresPerSecond": 0.5,
+    "ledgerMassKg": 2,
+    "tiredMultiplier": 0.5,
+    "stackTiredMultipliers": false,
+    "escortMatchesCarrier": true,
+    "unsupported": [
+      "new-injury",
+      "darkness",
+      "flood",
+      "fire",
+      "overload",
+      "new-floor-transition"
+    ],
+    "edges": [
+      {
+        "from": "s01:townhall:bench",
+        "to": "s01:townhall:desk",
+        "metres": 6,
+        "bidirectional": true,
+        "ledgerAllowed": true
+      },
+      {
+        "from": "s01:townhall:desk",
+        "to": "s01:townhall:threshold",
+        "metres": 12,
+        "bidirectional": true,
+        "ledgerAllowed": true
+      },
+      {
+        "from": "s01:townhall:threshold",
+        "to": "s01:townhall:archive",
+        "metres": 18,
+        "bidirectional": true,
+        "ledgerAllowed": true
+      },
+      {
+        "from": "s01:townhall:archive",
+        "to": "s01:townhall:locker",
+        "metres": 6,
+        "bidirectional": true,
+        "ledgerAllowed": true
+      },
+      {
+        "from": "s01:townhall:desk",
+        "to": "s01:townhall:entry",
+        "metres": 12,
+        "bidirectional": true,
+        "ledgerAllowed": false
+      },
+      {
+        "from": "s01:townhall:entry",
+        "to": "s01:townhall:yard",
+        "metres": 18,
+        "bidirectional": true,
+        "ledgerAllowed": false
+      },
+      {
+        "from": "s01:townhall:yard",
+        "to": "s01:townhall:cistern",
+        "metres": 30,
+        "bidirectional": true,
+        "ledgerAllowed": false
+      },
+      {
+        "from": "s01:townhall:cistern",
+        "to": "s01:townhall:tap",
+        "metres": 24,
+        "bidirectional": true,
+        "ledgerAllowed": false
+      },
+      {
+        "from": "s01:townhall:tap",
+        "to": "s01:townhall:yard",
+        "metres": 36,
+        "bidirectional": true,
+        "ledgerAllowed": false
+      }
+    ]
+  },
+  "durations": {
+    "commandDelivery": 30,
+    "dutyCall": 30,
+    "revocationNotice": 30,
+    "response": 30,
+    "returnResponse": 30,
+    "archiveCheck": 30,
+    "pickup": 60,
+    "deliverToK002": 60,
+    "returnPickup": 60,
+    "dutyHandover": 60,
+    "compare": 300,
+    "compareRow": 75,
+    "cisternObservation": 120,
+    "tapObservation": 120,
+    "report": 60,
+    "reseal": 60,
+    "minimumRest": 300,
+    "eat": 60,
+    "drink": 60
+  },
+  "authority": {
+    "issuer": "s01:townhall:ration-community",
+    "duty": "s01:townhall:night-record-duty",
+    "holdingId": "holding:yangcheon",
+    "regionId": "region:1147063000",
+    "siteId": "osm:node:368899387",
+    "designator": "K002",
+    "actorPlacements": {
+      "K002": "s01:townhall:desk",
+      "K568": "s01:townhall:bench",
+      "K616": "s01:townhall:yard"
+    },
+    "dutyPlacement": "s01:townhall:desk",
+    "mandates": [
+      {
+        "id": "S01-L",
+        "recipient": "K568",
+        "grants": [
+          "grant:townhall-s01-reception-r1",
+          "grant:townhall-s01-archive-r1"
+        ]
+      },
+      {
+        "id": "S01-O",
+        "recipient": "K616",
+        "grants": [
+          "grant:townhall-s01-reception-r1",
+          "grant:townhall-s01-inspect-r1"
+        ]
+      }
+    ],
+    "keyTransfer": false,
+    "wholeOriginal": true,
+    "originalCount": 1,
+    "returnRequiresSeparateConsent": true,
+    "returnStates": [
+      "return-required",
+      "handover-received",
+      "restocked",
+      "resealed"
+    ],
+    "noticeDistinctFromRevocation": true,
+    "safeReturnOnlyAfterRevocation": true
+  },
+  "provisions": {
+    "prepayments": [
+      {
+        "id": "prepay-K002",
+        "issuer": "s01:townhall:ration-community",
+        "recipient": "K002",
+        "paidBeforeE0": true,
+        "preservedFoodPacks": 2,
+        "emergencyReservedPacks": 1,
+        "freeOwnedPacks": 1,
+        "waterMl": 500,
+        "supportUntilSeconds": 5400,
+        "performancePay": false,
+        "automaticClawback": false,
+        "forcedConsent": false
+      },
+      {
+        "id": "prepay-K568",
+        "issuer": "s01:townhall:ration-community",
+        "recipient": "K568",
+        "paidBeforeE0": true,
+        "preservedFoodPacks": 2,
+        "emergencyReservedPacks": 1,
+        "freeOwnedPacks": 1,
+        "waterMl": 500,
+        "supportUntilSeconds": 5400,
+        "performancePay": false,
+        "automaticClawback": false,
+        "forcedConsent": false
+      },
+      {
+        "id": "prepay-K616",
+        "issuer": "s01:townhall:ration-community",
+        "recipient": "K616",
+        "paidBeforeE0": true,
+        "preservedFoodPacks": 2,
+        "emergencyReservedPacks": 1,
+        "freeOwnedPacks": 1,
+        "waterMl": 500,
+        "supportUntilSeconds": 5400,
+        "performancePay": false,
+        "automaticClawback": false,
+        "forcedConsent": false
+      },
+      {
+        "id": "prepay-duty",
+        "issuer": "s01:townhall:ration-community",
+        "recipient": "s01:townhall:night-record-duty",
+        "paidBeforeE0": true,
+        "preservedFoodPacks": 2,
+        "emergencyReservedPacks": 1,
+        "freeOwnedPacks": 1,
+        "waterMl": 500,
+        "supportUntilSeconds": 5400,
+        "performancePay": false,
+        "automaticClawback": false,
+        "forcedConsent": false
+      }
+    ],
+    "setup": {
+      "mealCount": 1,
+      "waterConsumedMl": 500,
+      "restCompleted": true,
+      "coverageUntilSeconds": 3600,
+      "alreadyConsumedExcludedFromInventory": true
+    },
+    "consumption": {
+      "eatOncePerPerson": true,
+      "drinkOncePerPerson": true,
+      "foodPacks": 1,
+      "waterMl": 500,
+      "extendsToSeconds": 5400,
+      "earlyConsumptionDoesNotExtendDeadline": true,
+      "windowStartSeconds": 3480,
+      "windowEndSeconds": 3600,
+      "reservationSecondsPerPerson": 120,
+      "uncoveredItemsIndependent": true
+    },
+    "paper": [
+      {
+        "recipient": "K568",
+        "sheets": 1
+      },
+      {
+        "recipient": "K616",
+        "sheets": 1
+      }
+    ],
+    "paperConsumedOnFirstRecord": true,
+    "refundOnCancel": false,
+    "writingKit": "s01:townhall:writing-kit",
+    "writingKitAt": "s01:townhall:desk",
+    "lights": "s01:townhall:yard-lights",
+    "lightsUntilSeconds": 5400,
+    "afterSupport": {
+      "pay": "expired",
+      "food": "uncovered",
+      "water": "uncovered",
+      "newLabor": "reject",
+      "newTravel": "reject",
+      "preserveCustody": true,
+      "automaticRescue": false,
+      "automaticDeath": false
+    }
+  },
+  "body": {
+    "regions": [
+      "left-arm",
+      "right-arm",
+      "left-leg",
+      "right-leg",
+      "head",
+      "torso"
+    ],
+    "initial": {
+      "damage": "none",
+      "function": "available",
+      "effortSeconds": 0,
+      "disease": "no-active-episode-in-S01-setup"
+    },
+    "conflictingExistingState": "reject-start",
+    "effortPerWorldSecond": {
+      "walking": {
+        "left-leg": 1,
+        "right-leg": 1,
+        "torso": 1
+      },
+      "carrying": {
+        "left-arm": 2,
+        "right-arm": 2,
+        "left-leg": 2,
+        "right-leg": 2,
+        "torso": 2
+      },
+      "stationary": {
+        "head": 1,
+        "left-arm": 1,
+        "right-arm": 1
+      },
+      "waiting": {}
+    },
+    "required": {
+      "walking": [
+        "left-leg",
+        "right-leg",
+        "torso"
+      ],
+      "carrying": [
+        "left-arm",
+        "right-arm",
+        "left-leg",
+        "right-leg",
+        "torso"
+      ],
+      "stationary": [
+        "head",
+        "left-arm",
+        "right-arm"
+      ]
+    },
+    "tiredAtEffortSeconds": 1200,
+    "restRequiredAtEffortSeconds": 1800,
+    "restRecoveryPerWorldSecond": 1,
+    "effortFloor": 0,
+    "accounting": "exact-rational-world-milliseconds",
+    "oneActivityPerPerson": true,
+    "restRequiresSafeLocationAndConsent": true,
+    "interruptedRestPreservesElapsedRecovery": true,
+    "restHealsDamageDiseaseThirst": false,
+    "missingCoverage": "reject-new-work",
+    "unsupportedSafeReturn": "stop-at-safe-location",
+    "refundOnCancel": false
+  },
+  "evidence": {
+    "ledgerRows": [
+      {
+        "id": "L01-1",
+        "eventId": "S01-R0",
+        "atSeconds": -300,
+        "unit": "식사 꾸러미 개수",
+        "bundles": {
+          "A": 12,
+          "B": 9,
+          "C": 7
+        }
+      },
+      {
+        "id": "L01-2",
+        "eventId": "S01-R0",
+        "atSeconds": -300,
+        "coverTotal": 29,
+        "writerPersonId": null,
+        "conclusion": "document-internal-mismatch-only"
+      },
+      {
+        "id": "L01-3",
+        "eventId": "S01-R0",
+        "atSeconds": -300,
+        "instrumentLabel": "L-01",
+        "rawText": "눈금 6칸",
+        "unitLabel": "칸"
+      },
+      {
+        "id": "L01-4",
+        "requestId": "S01-REQ-1",
+        "atSeconds": -240,
+        "rawText": "야간 방류 검토",
+        "signatureSlots": 2,
+        "signedSlots": 1,
+        "signerPersonId": null,
+        "pressureText": "별지 참조",
+        "attachmentPresent": false
+      }
+    ],
+    "observations": [
+      {
+        "siteId": "s01:townhall:cistern",
+        "observer": "K616",
+        "instrumentLabel": "L-01",
+        "rawText": "눈금 5칸",
+        "unitLabel": "칸",
+        "calibrationReceipt": null,
+        "measurementValue": null,
+        "observedAt": "actual-reading-completion",
+        "uncertainties": [
+          "uncalibrated",
+          "different-event-time"
+        ]
+      },
+      {
+        "siteId": "s01:townhall:tap",
+        "observer": "K616",
+        "instrumentLabel": "P-01",
+        "rawText": "20~30 표시 사이",
+        "unitLabel": "kPa",
+        "calibrationReceipt": null,
+        "measurementValue": null,
+        "quality": "unquantified",
+        "observedAt": "actual-reading-completion",
+        "uncertainties": [
+          "small-graduations",
+          "parallax",
+          "uncalibrated"
+        ]
+      }
+    ],
+    "reportStatus": "partial-evidence",
+    "ledgerComparer": "K568",
+    "receivedAt": "actual-face-to-face-report-completion",
+    "knowledgeBeforeReceipt": false,
+    "calibratedCommit": false,
+    "normalityJudgment": false,
+    "causeJudgment": false
+  },
+  "ordering": {
+    "phases": [
+      "close-progress-and-apply-effective-revisions",
+      "validated-arrivals-and-physical-location",
+      "admission-response-reservation",
+      "work-custody-report-effects",
+      "consumption-effort-coverage-expiry",
+      "consistent-boundary-and-explicit-save"
+    ],
+    "tieBreak": [
+      "causal-predecessor",
+      "accepted-sequence",
+      "stable-event-id"
+    ],
+    "duplicateIds": "reject",
+    "arrivalsAtDeadlineEligible": true,
+    "arrivalsAfterDeadlineEligible": false,
+    "automaticSave": false
+  },
+  "responses": {
+    "states": [
+      "undelivered",
+      "delivered",
+      "accepted",
+      "refused"
+    ],
+    "recheckBeforeAccept": true,
+    "refuseOn": [
+      "declineRequested",
+      "unsafe",
+      "rest-required",
+      "uncovered",
+      "forced-calibrated-success",
+      "conflict"
+    ],
+    "K568": [
+      "return-time-available",
+      "original-present",
+      "duty-present"
+    ],
+    "K616": [
+      "nonintervention-only",
+      "uncertainty-report-permitted"
+    ],
+    "tired": "recompute-half-speed-and-return-margin",
+    "conflict": "rejected-conflict",
+    "automaticQueue": false,
+    "preserveExistingReservation": true,
+    "observationStages": [
+      "accepted",
+      "travelling",
+      "working",
+      "returning",
+      "reporting",
+      "completed-or-partial"
+    ]
+  },
+  "closedScopes": [
+    "general-combat",
+    "general-prices",
+    "general-growth",
+    "calibrated-measurement",
+    "new-hiring",
+    "new-spending",
+    "redelegation",
+    "valve-opening",
+    "equipment-opening",
+    "citywide-economy",
+    "unsupported-post-5400-support"
+  ]
+}

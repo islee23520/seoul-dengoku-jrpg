@@ -1,0 +1,31 @@
+{
+  "schema": "townhall-operation-scenario.v2",
+  "id": "townhall-s01-r2",
+  "extends": "townhall-s01-r1",
+  "groups": [
+    "epoch",
+    "sites",
+    "actors",
+    "reception",
+    "ledger",
+    "inspection",
+    "rights",
+    "availability",
+    "policies"
+  ],
+  "bindings": {
+    "scenario": {
+      "path": "../townhall-s01-r1/scenario.json",
+      "sha256": "90b123be955ddcd46d71c6c0a3d4dd5926e66cfb3867f81b82682b9ec5e5dfc9"
+    },
+    "projection": {
+      "path": "../townhall-s01-r1/projection.json",
+      "sha256": "5a5f0d7e13fe8f70855df873cab368e18cbefe3d026a3356502690aba72e56dc"
+    },
+    "manifestSha256": "5d97dfaa5fd0d642c6898b06bb1686f297c6a2a48f5a3e2363fdcf2d08e6f7d9"
+  },
+  "operations": "operations.json",
+  "schemaFile": "operations.schema.json",
+  "wikiAdmission": "deferred",
+  "startAuthorization": "operations.json#/startAuthorization"
+}
