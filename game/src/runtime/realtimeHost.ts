@@ -11,13 +11,15 @@ export type RuntimeState = z.infer<typeof runtimeSchema>;
 export type MovementStep = { readonly mapId: string; readonly x: number; readonly y: number };
 export type Admission = { readonly kind: 'handled-opened'; readonly battleId: string } | { readonly kind: 'handled-rejected'; readonly reason: string };
 export type HostRules = {
-  readonly intervalMs: number; readonly worldUnitsPerStep: number; readonly battle: BattleRules;
+  readonly intervalMs: number; readonly worldUnitsPerStep: number; readonly battle: BattleRules | null;
+  /** Composed campaigns supply exact world milliseconds, not presentation-frame deltas. */
+  readonly campaignClock?: { readonly epoch: number; readonly maximumWorldMilliseconds: number };
   readonly provenance: 'TESTINPUT' | 'CANON'; readonly approvedInputsHash: string;
   readonly validateApproval: (context: BattleContext) => boolean;
-  readonly encounter: (state: RuntimeState, step: MovementStep) => {
+  readonly encounter: ((state: RuntimeState, step: MovementStep) => {
     readonly rate: number; readonly eligible: boolean; readonly safe: boolean;
     readonly accumulator: number; readonly rng: Readonly<Record<string, number>>; readonly context: BattleContext | null;
-  };
+  }) | null;
   readonly advanceWorld: (campaign: Json, tick: number) => Json;
 };
 export type HostOptions = {
@@ -30,15 +32,25 @@ export class RealtimeHost {
   #generation = 0;
   #presentation = 0;
   #listeners = new Set<(state: RuntimeState) => void>();
+  #clockClaimed = false;
+  #peaceSpeed: 0 | 1 | 2 | 4 = 1;
   readonly options: HostOptions;
   constructor(options: HostOptions) {
     this.options = options; this.#state = runtimeSchema.parse(options.state);
     const rules = options.rules;
     if (rules && (!Number.isSafeInteger(rules.intervalMs) || rules.intervalMs <= 0 || !Number.isFinite(rules.worldUnitsPerStep) || rules.worldUnitsPerStep <= 0)) throw new BattleConflict('clock-contract');
     if (rules && this.#state.clockCarry >= rules.intervalMs) throw new BattleConflict('clock-carry');
+    if (rules?.campaignClock && (!Number.isSafeInteger(rules.campaignClock.maximumWorldMilliseconds) || rules.campaignClock.maximumWorldMilliseconds <= 0 || !Number.isSafeInteger(rules.campaignClock.epoch))) throw new BattleConflict('clock-contract');
+    if (rules?.campaignClock && this.#state.battle) throw new MissingRuleInput('battle-admission');
   }
   get state(): RuntimeState { return this.#state; }
   subscribe(listener: (state: RuntimeState) => void): () => void { this.#listeners.add(listener); return () => this.#listeners.delete(listener); }
+  setSpeed(speed: 0 | 1 | 2 | 4): void {
+    if (this.#clockClaimed) throw new BattleConflict('clock-owned');
+    const parsed = z.union([z.literal(0), z.literal(1), z.literal(2), z.literal(4)]).parse(speed);
+    if (this.#state.battle && !this.#state.battle.outcome && parsed !== 1) throw new BattleConflict('battle-speed-locked');
+    this.#peaceSpeed = parsed; this.#publish();
+  }
   #publish(): void { for (const listener of this.#listeners) listener(this.#state); }
   #rules(): HostRules {
     const rules = this.options.rules;
@@ -46,9 +58,14 @@ export class RealtimeHost {
     return rules;
   }
   replace(state: RuntimeState): void {
+    if (this.#clockClaimed) throw new BattleConflict('clock-owned');
+    this.#replace(state);
+  }
+  #replace(state: RuntimeState): void {
     const parsed = runtimeSchema.parse(state);
     const rules = this.#rules();
-    if (parsed.clockCarry >= rules.intervalMs || (parsed.battle && (!rules.validateApproval(parsed.battle.context) || parsed.battle.context.rulesHash !== rules.battle.rulesHash))) throw new BattleConflict('restore-rules');
+    if (rules.campaignClock && parsed.battle) throw new MissingRuleInput('battle-admission');
+    if (parsed.clockCarry >= rules.intervalMs || (parsed.battle && (!rules.battle || !rules.validateApproval(parsed.battle.context) || parsed.battle.context.rulesHash !== rules.battle.rulesHash))) throw new BattleConflict('restore-rules');
     this.#generation += 1; this.#state = parsed; this.#publish();
   }
   bind(): {
@@ -63,12 +80,43 @@ export class RealtimeHost {
     };
   }
   elapsed(milliseconds: number): void {
+    if (this.#clockClaimed) throw new BattleConflict('clock-owned');
+    this.#elapsed(milliseconds);
+  }
+  /** One session capability; scene callbacks cannot become an alternate clock writer. */
+  claimClock(): { readonly elapsed: (milliseconds: number) => void; readonly replace: (state: RuntimeState) => void; readonly release: () => void } {
+    if (this.#clockClaimed) throw new BattleConflict('clock-owned');
+    this.#clockClaimed = true;
+    let live = true;
+    const active = () => { if (!live) throw new BattleConflict('stale-clock'); };
+    return {
+      elapsed: milliseconds => { active(); this.#elapsed(milliseconds); },
+      replace: state => { active(); this.#replace(state); },
+      release: () => { live = false; },
+    };
+  }
+  #elapsed(milliseconds: number): void {
     if (!Number.isFinite(milliseconds) || milliseconds < 0) throw new BattleConflict('elapsed-time');
     const rules = this.#rules();
-    let next = { ...this.#state, clockCarry: this.#state.clockCarry + milliseconds };
+    if (rules.campaignClock) {
+      const clock = rules.campaignClock;
+      if (!Number.isSafeInteger(milliseconds) || !Number.isSafeInteger(this.#state.worldTime + milliseconds)) throw new BattleConflict('elapsed-time');
+      let next = this.#state;
+      const until = next.worldTime + milliseconds;
+      while (next.worldTime < until) {
+        const at = Math.min(until, next.worldTime + clock.maximumWorldMilliseconds);
+        next = runtimeSchema.parse(this.options.settle({ ...next, worldTime: at,
+          worldTick: Math.floor((at - clock.epoch) / clock.maximumWorldMilliseconds),
+          campaignState: rules.advanceWorld(next.campaignState, at) }));
+      }
+      this.#state = next; this.#publish(); return;
+    }
+    const speed = this.#state.battle && !this.#state.battle.outcome ? 1 : this.#peaceSpeed;
+    let next = { ...this.#state, clockCarry: this.#state.clockCarry + milliseconds * speed };
     while (next.clockCarry >= rules.intervalMs) {
       const tick = next.worldTick + 1;
-      const battle = next.battle === null ? null : stepBattle(next.battle, tick, rules.battle);
+      if (next.battle && !rules.battle) throw new MissingRuleInput('battle-admission');
+      const battle = next.battle === null || rules.battle === null ? null : stepBattle(next.battle, tick, rules.battle);
       next = { ...next, worldTick: tick, worldTime: next.worldTime + rules.worldUnitsPerStep,
         clockCarry: next.clockCarry - rules.intervalMs, campaignState: rules.advanceWorld(next.campaignState, tick), battle };
       next = runtimeSchema.parse(this.options.settle(next));
@@ -78,6 +126,7 @@ export class RealtimeHost {
   completedStep(step: MovementStep): Admission {
     if (this.#state.battle && !this.#state.battle.outcome) return { kind: 'handled-rejected', reason: 'active-battle' };
     const rules = this.#rules();
+    if (!rules.battle || !rules.encounter) return { kind: 'handled-rejected', reason: 'battle-not-admitted' };
     const selected = rules.encounter(structuredClone(this.#state), step);
     if (!Number.isFinite(selected.rate) || selected.rate <= 0 || !selected.eligible || selected.safe) return { kind: 'handled-rejected', reason: 'ineligible-or-safe' };
     const context = selected.context;
@@ -90,7 +139,9 @@ export class RealtimeHost {
   }
   confirm(intent: CommanderIntent): void {
     if (!this.#state.battle) throw new BattleConflict('no-battle');
-    this.#state = { ...this.#state, battle: confirmIntent(this.#state.battle, intent, { tick: this.#state.worldTick, rules: this.#rules().battle }) };
+    const rules = this.#rules().battle;
+    if (!rules) throw new MissingRuleInput('battle-admission');
+    this.#state = { ...this.#state, battle: confirmIntent(this.#state.battle, intent, { tick: this.#state.worldTick, rules }) };
     this.#publish();
   }
 }

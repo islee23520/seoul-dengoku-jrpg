@@ -67,7 +67,7 @@ export const campaignStateSchema = z.strictObject({
   schema: z.literal('composed-campaign.v1'), revision: count,
   packages: z.strictObject({ manifest: digest, atlas: digest, identities: digest, scenario: digest, projection: digest, operations: digest }).readonly(),
   rulesRevision: digest, admissionReceipt: digest,
-  clock: z.strictObject({ worldMilliseconds: milliseconds, speed: z.union([z.literal(0), z.literal(1), z.literal(2), z.literal(4)]), sequence: count, phase: z.literal('consistent-boundary'), closedAt: milliseconds.nullable() }).readonly(),
+  clock: z.strictObject({ worldMilliseconds: milliseconds, subWorldMicroseconds: z.int().min(0).max(999).default(0), speed: z.union([z.literal(0), z.literal(1), z.literal(2), z.literal(4)]), sequence: count, phase: z.literal('consistent-boundary'), closedAt: milliseconds.nullable() }).readonly(),
   people: z.array(z.strictObject({ id: personId }).readonly()).readonly(), bodies: z.array(body).readonly(),
   grants: z.array(grant).readonly(), mandates: z.array(mandate).readonly(), custody: z.array(custody).readonly(), inventories: z.array(inventory).readonly(),
   reservations: z.array(z.strictObject({ id: ref, orderId, resource, from: milliseconds, until: milliseconds, consumptionId: resultId.nullable().default(null) }).readonly()).readonly(),
