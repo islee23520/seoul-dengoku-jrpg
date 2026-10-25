@@ -10,6 +10,7 @@ import { promisify } from 'node:util';
 import { ENGINE_REVISION, verifyEngine, prepareRealtimeSource, buildRealtimeGame } from '../build-realtime-game.mjs';
 import { createMapPreview } from '../../../hosting/preview.mjs';
 import { assertServedFileSizes } from '../build-web-game.mjs';
+import { assertServedOutputPrivacy } from '../served-output-privacy.mjs';
 
 const root = fileURLToPath(new URL('../../../', import.meta.url));
 const engine = path.join(root, 'engine');
@@ -63,6 +64,7 @@ test('realtime build retains the patched API and isolates map preview inputs', a
     const receipt = await buildRealtimeGame(output);
     // Then: every deployable output, not just the entry, has Pages headroom.
     await assertServedFileSizes(output);
+    await assertServedOutputPrivacy(output);
     assert.equal(receipt.entryTypecheck.file, 'hosting/realtime-entry.ts');
     assert.equal(receipt.entryTypecheck.diagnostics, 0);
     const names = await readdir(output);
@@ -81,9 +83,7 @@ test('realtime build retains the patched API and isolates map preview inputs', a
     assert(names.includes('realtime.html'));
     assert(names.includes('realtime.js'));
     for (const name of ['preview.html', 'player.js', 'map-preview.json', 'project.json']) assert(!names.includes(name), name);
-    const manifest = JSON.parse(await readFile(path.join(output, 'player-manifest.json'), 'utf8'));
-    assert.equal(manifest['realtime-entry.ts'].file, 'realtime.js');
-    assert.equal(manifest['realtime-entry.ts'].isEntry, true);
+    assert(!names.includes('player-manifest.json'));
     const entry = await readFile(path.join(output, 'realtime.js'), 'utf8');
     assert.match(entry, /\bbootRealtime\b/);
     const javascript = (await Promise.all((await readdir(path.join(output, 'assets')))

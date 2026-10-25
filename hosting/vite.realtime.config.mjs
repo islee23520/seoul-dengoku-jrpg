@@ -12,6 +12,9 @@ export default {
     ? { ...plugin, config: () => plugin.config({ root: engine }) }
     : plugin),
   build: { ...config.build,
+    // Only the editor SDK packager consumes this source-index manifest.
+    // The deployed player resolves its imports directly from HTML and ESM.
+    manifest: false,
     assetsInlineLimit: (file, _content) => /\.otf$/i.test(file) ? false : undefined,
     rollupOptions: {
     ...config.build.rollupOptions,

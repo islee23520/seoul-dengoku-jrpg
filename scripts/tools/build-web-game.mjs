@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { createMapPreview } from '../../hosting/preview.mjs';
+import { assertServedOutputPrivacy } from './served-output-privacy.mjs';
 export const ENGINE_REVISION='6d4907e65e315787ce49b0d20dd48b68e1277395';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 const engine=path.join(root,'engine');
@@ -48,6 +49,7 @@ export async function buildWebGame(output=path.join(root,'web-dist')) {
   await writeFile(path.join(output,'loading.json'),JSON.stringify({title:preview.meta.title}));
   await writeFile(path.join(output,'preload-files.json'),JSON.stringify({files:[]}));
   await assertServedFileSizes(output);
+  await assertServedOutputPrivacy(output);
   const inputs=createHash('sha256');
   for(const name of ['scripts/tools/build-web-game.mjs','hosting/vite.player.config.mjs','hosting/engine-inputs.json','hosting/preview.mjs','hosting/index.html','hosting/host.css']) inputs.update(name).update('\0').update(await readFile(path.join(root,name))).update('\0');
   const receipt={engineRevision:revision,projectSha256:createHash('sha256').update(source).digest('hex'),buildInputsSha256:inputs.digest('hex'),mode:'noncanonical-map-preview',productionAvailable:false};
