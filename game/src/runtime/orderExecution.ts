@@ -74,6 +74,13 @@ export function stepOrder(execution: Execution, input: {
 }): Execution {
   const order = execution.mandate, now = integer('WorldTick', input.now), context = { now, authority: input.authority };
   const transition = (stage: Mandate['stage']): Execution => ({ ...execution, mandate: advanceMandate(order, stage, context) });
+  const unavailable = (): Execution => {
+    switch (input.rules.conflictPolicy) {
+      case 'reject-conflict': return { ...execution, mandate: { ...order, stage: 'refused', refusalReason: 'recipient-unavailable', reservations: [], personSchedule: [] } };
+      case 'wait-for-availability': return execution;
+      default: return assertNever(input.rules.conflictPolicy);
+    }
+  };
   if (['receipt', 'refused', 'cancelled', 'interrupted', 'expired'].includes(order.stage)) return execution;
   if (now >= order.expiresAt) return transition('expired');
   if (input.authority.state !== 'valid' || input.authority.version !== order.parentAuthorityVersion) return transition('refused');
@@ -85,7 +92,12 @@ export function stepOrder(execution: Execution, input: {
       return { ...execution, journey, mandate: arrived(journey) ? advanceMandate(order, 'delivered', context) : order };
     }
     case 'delivered': return transition('received');
-    case 'held': return transition('received');
+    case 'held':
+      switch (input.rules.conflictPolicy) {
+        case 'reject-conflict': return unavailable();
+        case 'wait-for-availability': return transition('received');
+        default: return assertNever(input.rules.conflictPolicy);
+      }
     case 'received': {
       if (!input.rules.acceptance) throw new MissingRuleInput('retainer-acceptance');
       const decision = input.rules.acceptance(order);
@@ -111,21 +123,21 @@ export function stepOrder(execution: Execution, input: {
           default: return assertNever(input.rules.conflictPolicy);
         }
       }
-      if (!ready || now < order.effectiveAt) return execution;
+      if (!ready || now < order.effectiveAt) return unavailable();
       preflightMandate(order, { ...ready, now, authority: input.authority, routeDelivered: true });
       return { ...transition('reserved'), mandate: { ...advanceMandate(order, 'reserved', context), reservations: execution.reservationKeys, personSchedule: [order.recipientId] } };
     }
     case 'reserved': {
       if (!input.rules.ready) throw new MissingRuleInput('retainer-readiness');
       const ready = input.rules.ready(order);
-      if (!ready) return execution;
+      if (!ready) return unavailable();
       preflightMandate(order, { ...ready, now, authority: input.authority, routeDelivered: true });
       return { ...transition('executing'), journey: { path: execution.workPath, leg: 0, elapsed: 0 } };
     }
     case 'executing': {
       if (!input.rules.ready) throw new MissingRuleInput('retainer-readiness');
       const current = input.rules.ready(order);
-      if (!current) return execution;
+      if (!current) return unavailable();
       preflightMandate(order, { ...current, now, authority: input.authority, routeDelivered: true });
       if (!arrived(execution.journey)) {
         const journey = travel(execution.journey, input);

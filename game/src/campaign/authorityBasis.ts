@@ -4,7 +4,7 @@ import type { CampaignContent } from './content.ts';
 import type { CampaignState } from './stateSchemas.ts';
 import { CampaignBoundaryError, requireBoundary } from './errors.ts';
 
-/** An adapter proof over two source grants, never a newly issued grant. */
+/** Canonical order is the admitted operation.grants order: designation, then recipient access. */
 export function campaignAuthorityAt(state: CampaignState, operationId: CampaignState['mandates'][number]['operation'], context: { readonly content: CampaignContent; readonly at: number }) {
   const { scenario, operations, manifest } = context.content.data;
   const operation = operations.authority.mandates.find(m => m.id === operationId);
@@ -39,6 +39,6 @@ export function campaignAuthorityAt(state: CampaignState, operationId: CampaignS
 export function assertComposedAuthority(state: CampaignState, order: CampaignState['mandates'][number], context: { readonly content: CampaignContent; readonly at: number }): void {
   const basis = campaignAuthorityAt(state, order.operation, context);
   requireBoundary(order.issuerPersonId === basis.issuerPersonId && order.recipientId === basis.recipientId, 'authority-source');
-  requireBoundary(order.authority.length === basis.authority.length && basis.authority.every(a => order.authority.some(b => b.grantId === a.grantId && b.version === a.version)) &&
-    order.compositeVersion === summaryHash({ operation: order.operation, authority: order.authority }), 'grant-version');
+  requireBoundary(order.authority.length === basis.authority.length && basis.authority.every((a, index) => order.authority[index]?.grantId === a.grantId && order.authority[index]?.version === a.version) &&
+    order.compositeVersion === basis.compositeVersion, 'grant-version');
 }

@@ -100,6 +100,7 @@ export function checkCampaignReadiness(state: CampaignState, input: unknown, con
       requireBoundary(observation !== undefined && actor.location.kind === 'node' && actor.location.nodeId === observation.siteId, 'location-scope');
       minimumSeconds = action.kind === 'observe-cistern' ? o.durations.cisternObservation : o.durations.tapObservation;
       records = true;
+      requireBoundary(current.tools.some(t => t.id === o.provisions.writingKit && t.available), 'tool-unavailable');
       for (const tool of s.availability.tools.filter(t => t.at === observation.siteId || t.id === o.provisions.lights)) resources.push({ kind: 'asset', assetId: tool.id });
       requireBoundary(until <= o.provisions.lightsUntilSeconds * 1000, 'tool-unavailable');
       break;
