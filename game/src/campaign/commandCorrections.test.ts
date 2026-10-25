@@ -94,3 +94,49 @@ test('F4 restored delivery cannot overlap physical approach', () => {
   } };
   assert.throws(() => parse(forged, content));
 });
+
+test('A3 pending cancellation receipt cannot survive without its execution record', () => {
+  const before = advance(start(), 100000);
+  const command = cancellation(before);
+  const accepted = submit(before, command, content);
+  rejects(() => parse(edit(accepted.state, ['commands', 'executions', 0, 'cancellation'], null), content), 'cross-link');
+  rejects(() => parse(edit(accepted.state, ['commands', 'executions', 0, 'cancellation'], undefined), content), 'shape');
+  rejects(() => parse(edit(accepted.state, ['commands', 'executions', 0, 'cancellation', 'commandId'], 'other'), content), 'cross-link');
+  const restored = parse(JSON.parse(JSON.stringify(accepted.state)), content);
+  assert.deepEqual(submit(restored, command, content).receipt, accepted.receipt);
+  assert.equal(advance(restored, 130000).commands.executions[0]?.cancellation?.receivedAt, 130000);
+});
+
+test('A3 completed cancellation retains its execution record and terminal state', () => {
+  const before = advance(start(), 100000);
+  const command = cancellation(before);
+  const accepted = submit(before, command, content);
+  const completed = advance(accepted.state, 130000);
+  rejects(() => parse(edit(completed, ['commands', 'executions', 0, 'cancellation'], null), content), 'cross-link');
+  rejects(() => parse(edit(completed, ['commands', 'executions', 0, 'status'], 'awaiting-effects'), content), 'cross-link');
+  rejects(() => parse(edit(completed, ['mandates', 0, 'stage'], 'executing'), content), 'cross-link');
+  const restored = parse(JSON.parse(JSON.stringify(completed)), content);
+  assert.deepEqual(submit(restored, command, content).receipt, accepted.receipt);
+  assert.deepEqual(submit(restored, command, content).state, completed);
+});
+
+test('A3 cancellation request event cannot lose its receipt and execution record', () => {
+  const before = advance(start(), 100000);
+  const accepted = submit(before, cancellation(before), content).state;
+  const stripped = { ...accepted, commands: { ...accepted.commands,
+    receipts: accepted.commands.receipts.filter(r => r.command.kind !== 'request-cancellation'),
+    executions: accepted.commands.executions.map(e => ({ ...e, cancellation: null })),
+  } };
+  rejects(() => parse(stripped, content), 'cross-link');
+  rejects(() => parse({ ...accepted, commands: { ...accepted.commands, receipts: stripped.commands.receipts } }, content), 'cross-link');
+  rejects(() => parse({ ...accepted, commands: { ...accepted.commands,
+    events: accepted.commands.events.filter(e => e.kind !== 'cancellation-requested') } }, content), 'cross-link');
+});
+
+test('A3 an edited execution cannot claim terminal completion while its journal is pending', () => {
+  const before = advance(start(), 100000);
+  const accepted = submit(before, cancellation(before), content).state;
+  const downgraded = { ...accepted, mandates: accepted.mandates.map(m => ({ ...m, stage: 'interrupted' })),
+    commands: { ...accepted.commands, executions: accepted.commands.executions.map(e => ({ ...e, status: 'terminal' })) } };
+  rejects(() => parse(downgraded, content), 'cross-link');
+});

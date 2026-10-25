@@ -50,6 +50,26 @@ export function assertCommandLinks(state: CampaignState, content: CampaignConten
     requireBoundary(order !== undefined && receipts.some(r => r.orderId === order.orderId && r.command.kind === 'issue'), 'cross-link');
     requireBoundary(execution.startedAt <= state.clock.worldMilliseconds, 'clock');
     const chain = events.filter(e => e.orderId === order.orderId);
+    const cancellationReceipts = receipts.filter(r => r.orderId === order.orderId && r.command.kind === 'request-cancellation');
+    const requests = chain.filter(e => e.kind === 'cancellation-requested');
+    const cancellationRecord = execution.cancellation;
+    requireBoundary(cancellationReceipts.length === requests.length && requests.length === (cancellationRecord === null ? 0 : 1), 'cross-link');
+    if (cancellationRecord !== null) {
+      const receipt = cancellationReceipts[0], request = requests[0];
+      requireBoundary(receipt !== undefined && request !== undefined && receipt.command.commandId === cancellationRecord.commandId &&
+        receipt.eventId === request.id && receipt.at === request.at && request.at === cancellationRecord.requestedAt, 'cross-link');
+    }
+    const noticeReceived = chain.find(e => e.kind === 'notice-received');
+    requireBoundary(noticeReceived === undefined || cancellationRecord !== null, 'cross-link');
+    const terminal = chain.filter(e => ['refused', 'cancelled', 'interrupted', 'return-completed'].includes(e.kind) ||
+      (e.kind === 'report-received' && order.operation === 'S01-O')).at(-1);
+    requireBoundary((execution.status === 'terminal') === (terminal !== undefined), 'cross-link');
+    if (terminal) {
+      const stage = terminal.kind === 'report-received' || terminal.kind === 'return-completed' ? 'receipt' : terminal.kind;
+      requireBoundary(order.stage === stage && terminal.id === chain.at(-1)?.id, 'cross-link');
+    }
+    if (noticeReceived) requireBoundary(terminal !== undefined && terminal.at === noticeReceived.at &&
+      terminal.predecessorId === noticeReceived.id && terminal.kind === (order.acceptedAt === null ? 'cancelled' : 'interrupted'), 'cross-link');
     requireBoundary(chain[0]?.kind === 'issued' && chain[0].at === order.issuedAt && chain.every((e, i) =>
       e.predecessorId === (chain[i - 1]?.id ?? null)), 'event-order');
     for (const kind of ['issued', 'delivered', 'received', 'accepted', 'reserved', 'executing', 'work-completed', 'report-received', 'return-accepted', 'return-completed', 'cancellation-requested', 'notice-received']) {
