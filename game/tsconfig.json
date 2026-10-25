@@ -23,6 +23,7 @@
     "skipLibCheck": true
   },
   "include": [
-    "src/domain/**/*.ts"
+    "src/domain/**/*.ts",
+    "src/campaign/**/*.ts"
   ]
 }
