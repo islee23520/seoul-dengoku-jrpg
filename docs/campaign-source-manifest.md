@@ -42,6 +42,15 @@ permission entries intersecting the selected set reject publication. Absence
 from that registry is recorded as absence, never consent. Portraits, private
 proofs, Soul, biographies and unrelated people are excluded.
 
+Station coordinates bind the preserved `SeoulWorldGraph.json` input hash, not
+the atlas-site PBF snapshot. Their external coordinate edition is unknown and
+the atlas snapshot bridge is unverified. The OSM attribution remains applicable.
+Title geometry retains SGIS provenance separately from factual NEC/election-law
+membership and community name/code correspondence. Each source has its own typed
+selector; a shared JSON pointer is not used across different document schemas.
+The CLI rejects uncovered selected map fields before publication and rejects
+inherited JavaScript object-property names as unknown options.
+
 The manifest does not grant campaign execution, communal facility ownership,
 passage rights beyond the sourced map decisions, or exact-artifact play-start
 approval. Existing upstream import-quality findings remain upstream findings;

@@ -1532,6 +1532,223 @@
         "changeNotice": "Selected and transformed for the Seoul Dengoku campaign; no new ownership or play-start authority."
       },
       {
+        "id": "osm-world-graph-unknown-edition",
+        "date": null,
+        "edition": "unknown",
+        "inputSha256": "46985afccc2d3f2b5e4e3152254d30bc023d0688d63745a951a9be0f6ebf097d",
+        "attribution": "OpenStreetMap contributors; preserved BBBike world-graph coordinates, external snapshot edition unverified",
+        "license": "ODbL-1.0",
+        "source": "https://www.openstreetmap.org/copyright"
+      },
+      {
+        "id": "public-correspondence-facts",
+        "basis": "Factual IDs, statutory membership and dates selected from preserved NEC/law/community records; no third-party prose or document reproduction licensed by this manifest",
+        "attribution": "National Election Commission; Korean public election law; administrative successor records; vuski/admdongkor for candidate name/code lookup",
+        "source": "https://www.nec.go.kr",
+        "records": [
+          {
+            "id": "law-appendix-169763083",
+            "sha256": "0825b5e46ce0b7bf8368ce3aaa52bd437c9784ed376e4b71f5f316391c66f7bf",
+            "role": "statutory-electoral-membership"
+          },
+          {
+            "id": "nec-election-228525-pdf",
+            "sha256": "a6b7bdd2537182e1cb3f0e898b244deab1e7a3cfe65d71ffc228c87a9ff46ffd",
+            "role": "statutory-electoral-membership"
+          },
+          {
+            "id": "nec-seoul48-press-237066",
+            "sha256": "c64bdacd11f7e63173df8758d65c122e7ba7265a42554bb7dedb649160e71ea0",
+            "role": "constituency-count-corroboration"
+          },
+          {
+            "id": "nec-election-228525-page",
+            "sha256": "8c2976ac209d9461a0b8b84b6dacff3af3a817b1aaf8346bbc678509d04e96fc",
+            "role": "election-edition-and-attachment-conditions"
+          },
+          {
+            "id": "law-current-appendix-metadata",
+            "sha256": "9375bd01842d18bac526843570dac8f305b834433e1499bd12a8045458c9ff6b",
+            "role": "current-appendix-edition-pointer"
+          },
+          {
+            "id": "law-current-appendix-history",
+            "sha256": "14f62b9e3d270b79986cc9d7ae2a9ebbbf856a038eeca202aba016de1b08c676",
+            "role": "current-appendix-edition-pointer"
+          },
+          {
+            "id": "law-current-appendix-file-pointer",
+            "sha256": "3f9e5835e63e211024863fe977f1fd59cc939a9cf393e9668c5ca57725aa8188",
+            "role": "current-appendix-edition-pointer"
+          },
+          {
+            "id": "ddm-official-history",
+            "sha256": "88efc5cfc069180d2697a60ef5274a345069146bbf7c9b92c63c458508662410",
+            "role": "administrative-successor-history"
+          },
+          {
+            "id": "nec-district-종로구",
+            "sha256": "c8ca179ddde043315654a6e398bcc855ae693b0f238b7865fa62fd8fa8e4ac7f",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-중구",
+            "sha256": "563cbdb28c45966abd69d7ca1459fe77cc044316bd21bedc09b0bde1a9c14345",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-용산구",
+            "sha256": "8f5ef44e3fdf87c126a3d2fedf5d35e2e53fed83e63ea8bfadc87063bea34d28",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-성동구",
+            "sha256": "03b6c3c3947f47408199e2d71ea905a65352a73a6590de8c1e4cd4364df7e18b",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-광진구",
+            "sha256": "ea552d67df64ee3a1e4168f51b14a6b2f4637a97c9736bcd5523179c76de7324",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-동대문구",
+            "sha256": "adfdfbc1f16bab791fd7ba05c511c77475444de0e5c6a7f5ff6269075790bf57",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-중랑구",
+            "sha256": "a6899c7efa32bbb88ee291e35944046a711feb0c83d9dc0a63718a60e0f54a33",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-성북구",
+            "sha256": "c62b9c5019706fb83600dabf09c7da4634842294db8e85931ef98cca39eaafb9",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-강북구",
+            "sha256": "135075c3fb7c6257b4e1a1fbfd8ed1fbe9e7bfc6ad93ab933bafbdc5b6de0bd9",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-도봉구",
+            "sha256": "934062560ead3d2456e1b5ead0349ba266ef9dafae974f5fe8bb9dbe2c24f7e4",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-노원구",
+            "sha256": "85012288b6f8ed047d08443751ff1bdb67083e10b1cd6620d1ec21f2fa1489a5",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-은평구",
+            "sha256": "8a6a8770d8b5416bcda32b2090b9b7baaac979ff0359067df8035d8cb6ee3b97",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-서대문구",
+            "sha256": "56e6a65f86f297f4ce1720dc7f5eef3c2afa4f7e92d80e32aadc867923bc334d",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-마포구",
+            "sha256": "12bb374cd4c7d57a06af90750117eb9bef96ff851b06df8b303fe57f4c35d5df",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-양천구",
+            "sha256": "3dbc29f912452a614bd640372a51ca0f1b7b7458b1ad5084e18d5750d93a6433",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-강서구",
+            "sha256": "f4007eaa718cab0729735bca62df86dbfa21587ba3ce07a81317d55ff1a2980d",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-구로구",
+            "sha256": "2efbba1826aeca375d0b545f7471e62180e2cdf9bba8dcda77e3479ef6285647",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-금천구",
+            "sha256": "ece0935850e7085c194f319e9ef7831b1a713cb046b17760a3490fd31f4d946a",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-영등포구",
+            "sha256": "9eaea96da7357191e67377f5c0331beb7001a85604288d148b85fb28816c3f51",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-동작구",
+            "sha256": "63d29974a8587a9599f6ab287f95d0bd0ab14ca26b4e6425ff87869d0faf26b7",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-관악구",
+            "sha256": "a622e0388a1db06846ee26cc3ef4d95b628a59ae2d4e38c8f7124ffb2e030224",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-서초구",
+            "sha256": "a0ae1cd97d36bd2a6e759d4c87b72318d0a46f93ca19f64a9f6079494a43226b",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-강남구",
+            "sha256": "f85e3fadf3691203ec57075c0d969e3006602ed48032384577790e1910dcd8c5",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-송파구",
+            "sha256": "7db04db064e991c8dde93cd65ee71df37b86915814e4a19f52e2e4fe6c854068",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "nec-district-강동구",
+            "sha256": "fbd0cd951c6ab47832ef555a1fb514d82c9790a954627ef3cfca31da23331726",
+            "role": "official-district-composition-table"
+          },
+          {
+            "id": "ddm-ordinance-1618-body",
+            "sha256": "f9f05ad926cfb11729448bb2c5a4d852bffe1b1b1451d0503a63dd7b7c0a20eb",
+            "role": "administrative-successor-legal-bridge"
+          },
+          {
+            "id": "ddm-ordinance-1695-body",
+            "sha256": "d7efa6c3ee8c9301d1595f7c2fc47cc6bdb423a5975c5b04cb51a5ac8d3a666a",
+            "role": "administrative-successor-legal-bridge"
+          },
+          {
+            "id": "ddm-annex2-149197277",
+            "sha256": "e78936d7456b9c8e12c2219bae01c1b243de336ad803cf31485a87daf8f1cc25",
+            "role": "administrative-successor-legal-bridge"
+          },
+          {
+            "id": "ddm-annex2-154364193",
+            "sha256": "afc2373a69b6c6a38fc59c667adfdfb2dd05e5ced0fcbbd5978875c520b3ff52",
+            "role": "administrative-successor-legal-bridge"
+          },
+          {
+            "id": "ddm-ordinance-1743-body",
+            "sha256": "22a177ad21f9415a3d06afd479cc73ff811914b5c73e0b14037d0c0b5bb904e3",
+            "role": "administrative-successor-legal-bridge"
+          },
+          {
+            "id": "ddm-annex2-154364315",
+            "sha256": "f11a2b55e5a0e60c66b19157b6327398a9bb6ca5178a552a840f487b8413462f",
+            "role": "administrative-successor-legal-bridge"
+          },
+          {
+            "id": "admdongkor-20260701-candidate-lookup",
+            "sha256": "c01ef44a0eb00978662ba7a6240ccb1da287fb52abd85104a1758969d391132f",
+            "role": "community-sgis-derived-name-code-candidate-only"
+          }
+        ]
+      },
+      {
         "id": "sgis-2025",
         "date": "2025-06-30",
         "sha256": "6a393cefb7cc257f001042acb8715e5d721b320e14eba723f15857197edaa5e4",
@@ -1558,217 +1775,693 @@
     "allowlist": [
       {
         "fields": [
-          "selection/persons/*/id",
-          "selection/persons/*/name",
-          "selection/persons/*/stateId"
-        ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people",
-        "transform": "selected-issued-identity-v1",
-        "use": "wiki-owned-content"
-      },
-      {
-        "fields": [
           "selection/holding"
         ],
-        "source": {
-          "path": "lore/relations/personal-holdings.json",
-          "sha256": "1801d7bb8d27af743f74ea447d4f7be782b9d8ba7ba5b37af4d0c6f2b6329a12"
-        },
-        "pointer": "/holdings",
+        "sources": [
+          {
+            "path": "lore/relations/personal-holdings.json",
+            "sha256": "1801d7bb8d27af743f74ea447d4f7be782b9d8ba7ba5b37af4d0c6f2b6329a12",
+            "selector": "/holdings[id=holding:yangcheon]"
+          }
+        ],
         "transform": "yangcheon-only-v1",
         "use": "wiki-owned-content"
       },
       {
         "fields": [
           "selection/court",
-          "selection/titleBinding"
+          "selection/courtCounts"
         ],
         "sources": [
           {
             "path": "lore/relations/relations.json",
-            "sha256": "6a0a48a6540c16a848de8e14caa1d8df628eeceab5465c454afdbfdb5fa8a3c2"
+            "sha256": "6a0a48a6540c16a848de8e14caa1d8df628eeceab5465c454afdbfdb5fa8a3c2",
+            "selector": "/directRetainers[courtId=court:K002]"
           },
           {
-            "path": "lore/relations/opening-feudal-allocation.json",
-            "sha256": "21d7663507b896a43d70fc459f662376780b477b5c2078af100b2d42bbe7079d"
+            "sha256": "33fc48dbcf335b05bf64391279faa48dbdeabbb03932e97f07886b683bba7859",
+            "selector": "table:person_disposition; key:person_id; columns:status"
           }
         ],
-        "pointers": [
-          "/directRetainers",
-          "/existingTitleBindings"
+        "transform": "directed-court-disposition-count-v1",
+        "use": "wiki-owned-content"
+      },
+      {
+        "fields": [
+          "selection/titleBinding"
         ],
-        "transform": "directed-court-title-v1",
+        "sources": [
+          {
+            "path": "lore/relations/opening-feudal-allocation.json",
+            "sha256": "21d7663507b896a43d70fc459f662376780b477b5c2078af100b2d42bbe7079d",
+            "selector": "/existingTitleBindings[holdingId=holding:yangcheon],/titles[titleId=title:duchy-gu-11470-S01],/titles[titleId=title:kingdom-s02]"
+          }
+        ],
+        "transform": "holding-binding-title-parent-holder-v1",
         "use": "wiki-owned-content"
       },
       {
         "fields": [
           "selection/hegemons",
-          "parity/stations/control",
-          "parity/edges/control",
-          "parity/edges/passage2126"
+          "parity/hegemons"
         ],
         "sources": [
           {
             "path": "lore/factions/Sixteen-States.json",
-            "sha256": "73b19e6af00df16fb06adfbaab7c386aea6930ff01587dd6a0dc69fbae557a3c"
-          },
-          {
-            "path": "lore/places/station-control-overrides.json",
-            "sha256": "31e6782338a6d3d03ac4e62a800cf5b0d878785c5f8050ee556975d4456e8915"
-          },
-          {
-            "path": "lore/regions/content/11110.json",
-            "sha256": "e61839e5bb3cfa94858a7548b462ba6c6a8367a473446b4307a18c7360346e9c"
-          },
-          {
-            "path": "lore/regions/content/11140.json",
-            "sha256": "82bfb8b7fce99c960e7a69a3d7bd7038edfbaad1ef9463c9e9708b3255e2b7cb"
-          },
-          {
-            "path": "lore/regions/content/11170.json",
-            "sha256": "4d4372a151ea3b5b3750f4209009850786878a9a1b0f03d6263b82f713be39e3"
-          },
-          {
-            "path": "lore/regions/content/11200.json",
-            "sha256": "70c5c1ded8c05e0a62807810474bec8302692c19c2f619fb9bdcfbcc62df5f25"
-          },
-          {
-            "path": "lore/regions/content/11215.json",
-            "sha256": "0ee9f878da9dbf7205c3455d26a36c48c696d905479672051e2a4f92fb8729f5"
-          },
-          {
-            "path": "lore/regions/content/11230.json",
-            "sha256": "909ac6348e1c1db709600a15e8324e35b12f8da333a2651c84aa8cd3d17ca2c3"
-          },
-          {
-            "path": "lore/regions/content/11260.json",
-            "sha256": "35a0f9a00f390ddade023934923945574c35bce4be11870255bf3bc016a168e0"
-          },
-          {
-            "path": "lore/regions/content/11290.json",
-            "sha256": "d3a7df3c27583ae75849b148f57afd1c6c2306e59f87898938c8a7414c179733"
-          },
-          {
-            "path": "lore/regions/content/11305.json",
-            "sha256": "a57fbc654ea8460292747c1bc0d1cb9b076a9fa8f93ac188444f863c62189fcf"
-          },
-          {
-            "path": "lore/regions/content/11320.json",
-            "sha256": "e32bdb315abfb94be91a6aa71dc28889412e2578545098523af48d97add2dd74"
-          },
-          {
-            "path": "lore/regions/content/11350.json",
-            "sha256": "b88467440d62d9ffdd43e61e6ab76bdcafd1896875a70a021827bed1282f4ad6"
-          },
-          {
-            "path": "lore/regions/content/11380.json",
-            "sha256": "4629421f6d87b127dcfb4bec926f2b126ffa12b4a42ec1743bc6aa004f3e7c91"
-          },
-          {
-            "path": "lore/regions/content/11410.json",
-            "sha256": "74bb137245e64bf6a5bfb90c6cb42f7bf5de1c1da1af5daf56cf568ef09083b5"
-          },
-          {
-            "path": "lore/regions/content/11440.json",
-            "sha256": "4a5cba55494a45dfc08bc0b94d3f84a5fc58ed886507884abf559b9614bcc69e"
-          },
-          {
-            "path": "lore/regions/content/11470.json",
-            "sha256": "66be337fddc62cff428a9d7e10b43c27c1ad444c8a6cbbd881b431c38c42dc8e"
-          },
-          {
-            "path": "lore/regions/content/11500.json",
-            "sha256": "d87dfc02a954f4ab857966b34efdf1c6e3d773a62e0af3c2905cb5b582372831"
-          },
-          {
-            "path": "lore/regions/content/11530.json",
-            "sha256": "dad57448910220436dd5bca24d78d4b4c033e4e3fc9c6ca7c4eb1bc80dd65cf7"
-          },
-          {
-            "path": "lore/regions/content/11545.json",
-            "sha256": "c796109e21531fe51d86d6668c0e06d4c9b4162d0d42f35d29d2b4b51aff02d2"
-          },
-          {
-            "path": "lore/regions/content/11560.json",
-            "sha256": "a43a0d4e602faf8ceff0c5137b29a3b7447ec88f7e83ec9a5c5ff9da1b105cbf"
-          },
-          {
-            "path": "lore/regions/content/11590.json",
-            "sha256": "8ce50ecfa0e725da6976bfedd46c8a98cde94cd95640eae4efa64066b0c4d99a"
-          },
-          {
-            "path": "lore/regions/content/11620.json",
-            "sha256": "59677a9ec79306e36ddd8bb6adb0a714a63e9cc85be7188f849e07eefa6e5fa3"
-          },
-          {
-            "path": "lore/regions/content/11650.json",
-            "sha256": "93702444fa1d919e25d8592600dd7a3d00d877317a2a37712685195f36abece7"
-          },
-          {
-            "path": "lore/regions/content/11680.json",
-            "sha256": "8661504cba929e42c2f17e6277f39b668e11f5d39cab6c078374ba81282a7858"
-          },
-          {
-            "path": "lore/regions/content/11710.json",
-            "sha256": "4ef43e14acdc70c2eb28528e609d6a74569beecc674a4f948f08df30b36ab881"
-          },
-          {
-            "path": "lore/regions/content/11740.json",
-            "sha256": "1135ac11ab1a7bea5daf8c4ccefbdc0bd119861809f15b0f388d67e4aede04b4"
+            "sha256": "73b19e6af00df16fb06adfbaab7c386aea6930ff01587dd6a0dc69fbae557a3c",
+            "selector": "/data/currentAffiliation",
+            "revision": "433ad0d4cdcdfbeaaaa0e2174bd1447f5b4a9334e222dd0e167de15f791caf13",
+            "semanticSha256": "9524c36db6daed1e36e4eecf2b4812eca5f60ce9261a5479d851af349d19a068"
           }
         ],
-        "pointer": "/data/currentAffiliation",
-        "transform": "current-catalog-control-v1",
+        "transform": "source-grouping-not-sovereign-v1",
         "use": "wiki-owned-content"
       },
       {
         "fields": [
-          "parity/geography",
-          "identityMap"
+          "parity/stations/control",
+          "parity/stations/surfacePolityIds",
+          "parity/edges/control",
+          "parity/edges/passage2126",
+          "parity/regions/polities",
+          "parity/regions/currentHegemons",
+          "parity/regions/status"
         ],
-        "sha256": "372734e77019d0e544ded29f90e1b35b8a8c3a3cfff305c295c2bd83a6b64eef",
-        "pointer": "/titles",
-        "transform": "publicGeographicId/projectGeographicTitles-v1",
-        "use": "sgis-2025"
+        "sources": [
+          {
+            "path": "lore/factions/Sixteen-States.json",
+            "sha256": "73b19e6af00df16fb06adfbaab7c386aea6930ff01587dd6a0dc69fbae557a3c",
+            "selector": "/data/currentAffiliation",
+            "revision": "433ad0d4cdcdfbeaaaa0e2174bd1447f5b4a9334e222dd0e167de15f791caf13",
+            "semanticSha256": "9524c36db6daed1e36e4eecf2b4812eca5f60ce9261a5479d851af349d19a068"
+          },
+          {
+            "path": "lore/places/station-control-overrides.json",
+            "sha256": "31e6782338a6d3d03ac4e62a800cf5b0d878785c5f8050ee556975d4456e8915",
+            "selector": "/overrides,/segmentOverrides,/passageDecisions"
+          },
+          {
+            "path": "lore/regions/content/11110.json",
+            "sha256": "e61839e5bb3cfa94858a7548b462ba6c6a8367a473446b4307a18c7360346e9c",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11140.json",
+            "sha256": "82bfb8b7fce99c960e7a69a3d7bd7038edfbaad1ef9463c9e9708b3255e2b7cb",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11170.json",
+            "sha256": "4d4372a151ea3b5b3750f4209009850786878a9a1b0f03d6263b82f713be39e3",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11200.json",
+            "sha256": "70c5c1ded8c05e0a62807810474bec8302692c19c2f619fb9bdcfbcc62df5f25",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11215.json",
+            "sha256": "0ee9f878da9dbf7205c3455d26a36c48c696d905479672051e2a4f92fb8729f5",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11230.json",
+            "sha256": "909ac6348e1c1db709600a15e8324e35b12f8da333a2651c84aa8cd3d17ca2c3",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11260.json",
+            "sha256": "35a0f9a00f390ddade023934923945574c35bce4be11870255bf3bc016a168e0",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11290.json",
+            "sha256": "d3a7df3c27583ae75849b148f57afd1c6c2306e59f87898938c8a7414c179733",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11305.json",
+            "sha256": "a57fbc654ea8460292747c1bc0d1cb9b076a9fa8f93ac188444f863c62189fcf",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11320.json",
+            "sha256": "e32bdb315abfb94be91a6aa71dc28889412e2578545098523af48d97add2dd74",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11350.json",
+            "sha256": "b88467440d62d9ffdd43e61e6ab76bdcafd1896875a70a021827bed1282f4ad6",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11380.json",
+            "sha256": "4629421f6d87b127dcfb4bec926f2b126ffa12b4a42ec1743bc6aa004f3e7c91",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11410.json",
+            "sha256": "74bb137245e64bf6a5bfb90c6cb42f7bf5de1c1da1af5daf56cf568ef09083b5",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11440.json",
+            "sha256": "4a5cba55494a45dfc08bc0b94d3f84a5fc58ed886507884abf559b9614bcc69e",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11470.json",
+            "sha256": "66be337fddc62cff428a9d7e10b43c27c1ad444c8a6cbbd881b431c38c42dc8e",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11500.json",
+            "sha256": "d87dfc02a954f4ab857966b34efdf1c6e3d773a62e0af3c2905cb5b582372831",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11530.json",
+            "sha256": "dad57448910220436dd5bca24d78d4b4c033e4e3fc9c6ca7c4eb1bc80dd65cf7",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11545.json",
+            "sha256": "c796109e21531fe51d86d6668c0e06d4c9b4162d0d42f35d29d2b4b51aff02d2",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11560.json",
+            "sha256": "a43a0d4e602faf8ceff0c5137b29a3b7447ec88f7e83ec9a5c5ff9da1b105cbf",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11590.json",
+            "sha256": "8ce50ecfa0e725da6976bfedd46c8a98cde94cd95640eae4efa64066b0c4d99a",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11620.json",
+            "sha256": "59677a9ec79306e36ddd8bb6adb0a714a63e9cc85be7188f849e07eefa6e5fa3",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11650.json",
+            "sha256": "93702444fa1d919e25d8592600dd7a3d00d877317a2a37712685195f36abece7",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11680.json",
+            "sha256": "8661504cba929e42c2f17e6277f39b668e11f5d39cab6c078374ba81282a7858",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11710.json",
+            "sha256": "4ef43e14acdc70c2eb28528e609d6a74569beecc674a4f948f08df30b36ab881",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "path": "lore/regions/content/11740.json",
+            "sha256": "1135ac11ab1a7bea5daf8c4ccefbdc0bd119861809f15b0f388d67e4aede04b4",
+            "selector": "/regions/*/content/territory"
+          },
+          {
+            "sha256": "33fc48dbcf335b05bf64391279faa48dbdeabbb03932e97f07886b683bba7859",
+            "selector": "table:current_region_disposition; key:region_id; columns:status; readCiaCurrentRights/currentRegionContent"
+          },
+          {
+            "path": "snapshots/build-inputs/SeoulWorldGraph.json",
+            "sha256": "46985afccc2d3f2b5e4e3152254d30bc023d0688d63745a951a9be0f6ebf097d",
+            "selector": "/stations/*/{id,nameKo,district,lon,lat}",
+            "externalCoordinateEdition": "unknown",
+            "atlasSnapshotBridge": "unverified"
+          },
+          {
+            "path": "typed:region_atlas_document",
+            "sha256": "89d559fc31ce0644e331c6a54b8cfc997bf482b05f7c940694ea68f4f304fdf1",
+            "selector": "/regions/*/{id,name,district_name,map_geometry}"
+          },
+          {
+            "path": "lore/places/Seoul-Station-Catalog.json",
+            "sha256": "71caa21802d5acff268c6fc051f84950ba0e4bc34b870de071d924e7dfccdc56",
+            "selector": "/data/station_aliases"
+          },
+          {
+            "path": "lore/places/regular-line-adjacency.json",
+            "sha256": "6b9e1bec6987875ed5f5e6b2df508d3716208628f1749b03f5b80cf1a2af9b7a",
+            "selector": "/lines/*/paths"
+          }
+        ],
+        "transform": "current-catalog-surface-alias-control-and-passage-v1",
+        "use": [
+          "wiki-owned-content",
+          "osm-world-graph-unknown-edition",
+          "boundary-2026"
+        ]
       },
       {
         "fields": [
-          "parity/regions/path"
+          "parity/geography/titles/*/path",
+          "parity/geography/spatialDate"
         ],
-        "sha256": "c01ef44a0eb00978662ba7a6240ccb1da287fb52abd85104a1758969d391132f",
-        "pointer": "/regions/*/map_geometry",
-        "transform": "catalog-map-point-ring-v1",
+        "sources": [
+          {
+            "path": "typed:geography_archive",
+            "sha256": "372734e77019d0e544ded29f90e1b35b8a8c3a3cfff305c295c2bd83a6b64eef",
+            "selector": "/spatialSource/baseDate,/titles/*/{rank,jurisdictionRefs,countyTitleIds}"
+          },
+          {
+            "path": "data/geography/boundaries/seoul-sgis-20250630.geojson",
+            "sha256": "6a393cefb7cc257f001042acb8715e5d721b320e14eba723f15857197edaa5e4",
+            "selector": "/features/*/geometry"
+          },
+          {
+            "path": "typed:region_atlas_document",
+            "sha256": "89d559fc31ce0644e331c6a54b8cfc997bf482b05f7c940694ea68f4f304fdf1",
+            "selector": "/regions/*/map_geometry"
+          }
+        ],
+        "transform": "projectGeographicTitles-EPSG5179-v1",
+        "use": [
+          "sgis-2025",
+          "boundary-2026",
+          "wiki-owned-content"
+        ]
+      },
+      {
+        "fields": [
+          "identityMap",
+          "parity/geography/currentDate",
+          "parity/geography/titles/*/id",
+          "parity/geography/titles/*/rank",
+          "parity/geography/titles/*/name",
+          "parity/geography/titles/*/parentId",
+          "parity/geography/titles/*/countyIds",
+          "parity/geography/titles/*/holderPersonId",
+          "parity/geography/titles/*/datedSlots",
+          "parity/geography/titles/*/currentSlots"
+        ],
+        "sources": [
+          {
+            "path": "typed:geography_archive",
+            "sha256": "372734e77019d0e544ded29f90e1b35b8a8c3a3cfff305c295c2bd83a6b64eef",
+            "selector": "/titles,/countySlots,/currentCorrespondenceSlots,/editions"
+          },
+          {
+            "id": "law-appendix-169763083",
+            "sha256": "0825b5e46ce0b7bf8368ce3aaa52bd437c9784ed376e4b71f5f316391c66f7bf",
+            "selector": "geography.sourceRecords[id=law-appendix-169763083]; role:statutory-electoral-membership"
+          },
+          {
+            "id": "nec-election-228525-pdf",
+            "sha256": "a6b7bdd2537182e1cb3f0e898b244deab1e7a3cfe65d71ffc228c87a9ff46ffd",
+            "selector": "geography.sourceRecords[id=nec-election-228525-pdf]; role:statutory-electoral-membership"
+          },
+          {
+            "id": "nec-seoul48-press-237066",
+            "sha256": "c64bdacd11f7e63173df8758d65c122e7ba7265a42554bb7dedb649160e71ea0",
+            "selector": "geography.sourceRecords[id=nec-seoul48-press-237066]; role:constituency-count-corroboration"
+          },
+          {
+            "id": "nec-election-228525-page",
+            "sha256": "8c2976ac209d9461a0b8b84b6dacff3af3a817b1aaf8346bbc678509d04e96fc",
+            "selector": "geography.sourceRecords[id=nec-election-228525-page]; role:election-edition-and-attachment-conditions"
+          },
+          {
+            "id": "law-current-appendix-metadata",
+            "sha256": "9375bd01842d18bac526843570dac8f305b834433e1499bd12a8045458c9ff6b",
+            "selector": "geography.sourceRecords[id=law-current-appendix-metadata]; role:current-appendix-edition-pointer"
+          },
+          {
+            "id": "law-current-appendix-history",
+            "sha256": "14f62b9e3d270b79986cc9d7ae2a9ebbbf856a038eeca202aba016de1b08c676",
+            "selector": "geography.sourceRecords[id=law-current-appendix-history]; role:current-appendix-edition-pointer"
+          },
+          {
+            "id": "law-current-appendix-file-pointer",
+            "sha256": "3f9e5835e63e211024863fe977f1fd59cc939a9cf393e9668c5ca57725aa8188",
+            "selector": "geography.sourceRecords[id=law-current-appendix-file-pointer]; role:current-appendix-edition-pointer"
+          },
+          {
+            "id": "ddm-official-history",
+            "sha256": "88efc5cfc069180d2697a60ef5274a345069146bbf7c9b92c63c458508662410",
+            "selector": "geography.sourceRecords[id=ddm-official-history]; role:administrative-successor-history"
+          },
+          {
+            "id": "nec-district-종로구",
+            "sha256": "c8ca179ddde043315654a6e398bcc855ae693b0f238b7865fa62fd8fa8e4ac7f",
+            "selector": "geography.sourceRecords[id=nec-district-종로구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-중구",
+            "sha256": "563cbdb28c45966abd69d7ca1459fe77cc044316bd21bedc09b0bde1a9c14345",
+            "selector": "geography.sourceRecords[id=nec-district-중구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-용산구",
+            "sha256": "8f5ef44e3fdf87c126a3d2fedf5d35e2e53fed83e63ea8bfadc87063bea34d28",
+            "selector": "geography.sourceRecords[id=nec-district-용산구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-성동구",
+            "sha256": "03b6c3c3947f47408199e2d71ea905a65352a73a6590de8c1e4cd4364df7e18b",
+            "selector": "geography.sourceRecords[id=nec-district-성동구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-광진구",
+            "sha256": "ea552d67df64ee3a1e4168f51b14a6b2f4637a97c9736bcd5523179c76de7324",
+            "selector": "geography.sourceRecords[id=nec-district-광진구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-동대문구",
+            "sha256": "adfdfbc1f16bab791fd7ba05c511c77475444de0e5c6a7f5ff6269075790bf57",
+            "selector": "geography.sourceRecords[id=nec-district-동대문구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-중랑구",
+            "sha256": "a6899c7efa32bbb88ee291e35944046a711feb0c83d9dc0a63718a60e0f54a33",
+            "selector": "geography.sourceRecords[id=nec-district-중랑구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-성북구",
+            "sha256": "c62b9c5019706fb83600dabf09c7da4634842294db8e85931ef98cca39eaafb9",
+            "selector": "geography.sourceRecords[id=nec-district-성북구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-강북구",
+            "sha256": "135075c3fb7c6257b4e1a1fbfd8ed1fbe9e7bfc6ad93ab933bafbdc5b6de0bd9",
+            "selector": "geography.sourceRecords[id=nec-district-강북구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-도봉구",
+            "sha256": "934062560ead3d2456e1b5ead0349ba266ef9dafae974f5fe8bb9dbe2c24f7e4",
+            "selector": "geography.sourceRecords[id=nec-district-도봉구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-노원구",
+            "sha256": "85012288b6f8ed047d08443751ff1bdb67083e10b1cd6620d1ec21f2fa1489a5",
+            "selector": "geography.sourceRecords[id=nec-district-노원구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-은평구",
+            "sha256": "8a6a8770d8b5416bcda32b2090b9b7baaac979ff0359067df8035d8cb6ee3b97",
+            "selector": "geography.sourceRecords[id=nec-district-은평구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-서대문구",
+            "sha256": "56e6a65f86f297f4ce1720dc7f5eef3c2afa4f7e92d80e32aadc867923bc334d",
+            "selector": "geography.sourceRecords[id=nec-district-서대문구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-마포구",
+            "sha256": "12bb374cd4c7d57a06af90750117eb9bef96ff851b06df8b303fe57f4c35d5df",
+            "selector": "geography.sourceRecords[id=nec-district-마포구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-양천구",
+            "sha256": "3dbc29f912452a614bd640372a51ca0f1b7b7458b1ad5084e18d5750d93a6433",
+            "selector": "geography.sourceRecords[id=nec-district-양천구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-강서구",
+            "sha256": "f4007eaa718cab0729735bca62df86dbfa21587ba3ce07a81317d55ff1a2980d",
+            "selector": "geography.sourceRecords[id=nec-district-강서구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-구로구",
+            "sha256": "2efbba1826aeca375d0b545f7471e62180e2cdf9bba8dcda77e3479ef6285647",
+            "selector": "geography.sourceRecords[id=nec-district-구로구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-금천구",
+            "sha256": "ece0935850e7085c194f319e9ef7831b1a713cb046b17760a3490fd31f4d946a",
+            "selector": "geography.sourceRecords[id=nec-district-금천구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-영등포구",
+            "sha256": "9eaea96da7357191e67377f5c0331beb7001a85604288d148b85fb28816c3f51",
+            "selector": "geography.sourceRecords[id=nec-district-영등포구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-동작구",
+            "sha256": "63d29974a8587a9599f6ab287f95d0bd0ab14ca26b4e6425ff87869d0faf26b7",
+            "selector": "geography.sourceRecords[id=nec-district-동작구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-관악구",
+            "sha256": "a622e0388a1db06846ee26cc3ef4d95b628a59ae2d4e38c8f7124ffb2e030224",
+            "selector": "geography.sourceRecords[id=nec-district-관악구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-서초구",
+            "sha256": "a0ae1cd97d36bd2a6e759d4c87b72318d0a46f93ca19f64a9f6079494a43226b",
+            "selector": "geography.sourceRecords[id=nec-district-서초구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-강남구",
+            "sha256": "f85e3fadf3691203ec57075c0d969e3006602ed48032384577790e1910dcd8c5",
+            "selector": "geography.sourceRecords[id=nec-district-강남구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-송파구",
+            "sha256": "7db04db064e991c8dde93cd65ee71df37b86915814e4a19f52e2e4fe6c854068",
+            "selector": "geography.sourceRecords[id=nec-district-송파구]; role:official-district-composition-table"
+          },
+          {
+            "id": "nec-district-강동구",
+            "sha256": "fbd0cd951c6ab47832ef555a1fb514d82c9790a954627ef3cfca31da23331726",
+            "selector": "geography.sourceRecords[id=nec-district-강동구]; role:official-district-composition-table"
+          },
+          {
+            "id": "ddm-ordinance-1618-body",
+            "sha256": "f9f05ad926cfb11729448bb2c5a4d852bffe1b1b1451d0503a63dd7b7c0a20eb",
+            "selector": "geography.sourceRecords[id=ddm-ordinance-1618-body]; role:administrative-successor-legal-bridge"
+          },
+          {
+            "id": "ddm-ordinance-1695-body",
+            "sha256": "d7efa6c3ee8c9301d1595f7c2fc47cc6bdb423a5975c5b04cb51a5ac8d3a666a",
+            "selector": "geography.sourceRecords[id=ddm-ordinance-1695-body]; role:administrative-successor-legal-bridge"
+          },
+          {
+            "id": "ddm-annex2-149197277",
+            "sha256": "e78936d7456b9c8e12c2219bae01c1b243de336ad803cf31485a87daf8f1cc25",
+            "selector": "geography.sourceRecords[id=ddm-annex2-149197277]; role:administrative-successor-legal-bridge"
+          },
+          {
+            "id": "ddm-annex2-154364193",
+            "sha256": "afc2373a69b6c6a38fc59c667adfdfb2dd05e5ced0fcbbd5978875c520b3ff52",
+            "selector": "geography.sourceRecords[id=ddm-annex2-154364193]; role:administrative-successor-legal-bridge"
+          },
+          {
+            "id": "ddm-ordinance-1743-body",
+            "sha256": "22a177ad21f9415a3d06afd479cc73ff811914b5c73e0b14037d0c0b5bb904e3",
+            "selector": "geography.sourceRecords[id=ddm-ordinance-1743-body]; role:administrative-successor-legal-bridge"
+          },
+          {
+            "id": "ddm-annex2-154364315",
+            "sha256": "f11a2b55e5a0e60c66b19157b6327398a9bb6ca5178a552a840f487b8413462f",
+            "selector": "geography.sourceRecords[id=ddm-annex2-154364315]; role:administrative-successor-legal-bridge"
+          },
+          {
+            "id": "admdongkor-20260701-candidate-lookup",
+            "sha256": "c01ef44a0eb00978662ba7a6240ccb1da287fb52abd85104a1758969d391132f",
+            "selector": "geography.sourceRecords[id=admdongkor-20260701-candidate-lookup]; role:community-sgis-derived-name-code-candidate-only"
+          }
+        ],
+        "editions": {
+          "electoral": {
+            "id": "national-assembly-22-20240410",
+            "electionDate": "2024-04-10",
+            "seoulCompositionMatchesCurrentAppendix": true,
+            "sourceRefs": [
+              "nec-election-228525-pdf",
+              "nec-election-228525-page"
+            ]
+          },
+          "currentLaw": {
+            "id": "public-official-election-act-22052-20261002-appendix1",
+            "lawNumber": 22052,
+            "promulgatedDate": "2026-09-29",
+            "effectiveDate": "2026-10-02",
+            "appendixAmendedDate": "2026-04-22",
+            "appendixFileSeq": 169763083,
+            "sourceRefs": [
+              "law-current-appendix-metadata",
+              "law-current-appendix-history",
+              "law-current-appendix-file-pointer",
+              "law-appendix-169763083"
+            ]
+          },
+          "currentCorrespondence": {
+            "id": "seoul-dong-correspondence-20260701-checked20261013",
+            "administrativeCandidateDate": "2026-07-01",
+            "officialMembershipCheckedAt": "2026-10-13T15:21:47.014Z",
+            "codeAndNameSourceRef": "admdongkor-20260701-candidate-lookup",
+            "geometryVerified": false,
+            "sourceRefs": [
+              "nec-district-종로구",
+              "nec-district-중구",
+              "nec-district-용산구",
+              "nec-district-성동구",
+              "nec-district-광진구",
+              "nec-district-동대문구",
+              "nec-district-중랑구",
+              "nec-district-성북구",
+              "nec-district-강북구",
+              "nec-district-도봉구",
+              "nec-district-노원구",
+              "nec-district-은평구",
+              "nec-district-서대문구",
+              "nec-district-마포구",
+              "nec-district-양천구",
+              "nec-district-강서구",
+              "nec-district-구로구",
+              "nec-district-금천구",
+              "nec-district-영등포구",
+              "nec-district-동작구",
+              "nec-district-관악구",
+              "nec-district-서초구",
+              "nec-district-강남구",
+              "nec-district-송파구",
+              "nec-district-강동구"
+            ]
+          }
+        },
+        "transform": "authored-hierarchy-NEC-law-community-correspondence-public-id-v1",
+        "use": [
+          "wiki-owned-content",
+          "public-correspondence-facts",
+          "boundary-2026"
+        ]
+      },
+      {
+        "fields": [
+          "parity/regions/id",
+          "parity/regions/name",
+          "parity/regions/district",
+          "parity/regions/stationCount",
+          "parity/regions/areaM2"
+        ],
+        "sources": [
+          {
+            "path": "typed:region_atlas_document",
+            "sha256": "89d559fc31ce0644e331c6a54b8cfc997bf482b05f7c940694ea68f4f304fdf1",
+            "selector": "/regions/*/{id,name,district_name,station_ids,area_m2}"
+          }
+        ],
+        "transform": "atlas-selected-labels-count-and-area-v1",
+        "use": [
+          "wiki-owned-content",
+          "boundary-2026"
+        ]
+      },
+      {
+        "fields": [
+          "parity/regions/path",
+          "parity/width",
+          "parity/height"
+        ],
+        "sources": [
+          {
+            "path": "typed:region_atlas_document",
+            "sha256": "89d559fc31ce0644e331c6a54b8cfc997bf482b05f7c940694ea68f4f304fdf1",
+            "selector": "/regions/*/map_geometry"
+          },
+          {
+            "sha256": "c01ef44a0eb00978662ba7a6240ccb1da287fb52abd85104a1758969d391132f",
+            "selector": "source_selection.selected_boundary"
+          }
+        ],
+        "transform": "catalog-bounds-map-point-ring-v1",
         "use": "boundary-2026"
       },
       {
         "fields": [
-          "parity/stations",
-          "parity/edges"
+          "parity/stations/id",
+          "parity/stations/name",
+          "parity/stations/district",
+          "parity/stations/x",
+          "parity/stations/y"
+        ],
+        "sources": [
+          {
+            "path": "snapshots/build-inputs/SeoulWorldGraph.json",
+            "sha256": "46985afccc2d3f2b5e4e3152254d30bc023d0688d63745a951a9be0f6ebf097d",
+            "selector": "/stations/*/{id,nameKo,district,lon,lat}",
+            "externalCoordinateEdition": "unknown",
+            "atlasSnapshotBridge": "unverified"
+          },
+          {
+            "path": "typed:region_atlas_document",
+            "sha256": "89d559fc31ce0644e331c6a54b8cfc997bf482b05f7c940694ea68f4f304fdf1",
+            "selector": "/regions/*/map_geometry"
+          }
+        ],
+        "transform": "world-graph-EPSG4326-to-EPSG5179-map-bounds-v1",
+        "use": [
+          "osm-world-graph-unknown-edition",
+          "boundary-2026"
+        ]
+      },
+      {
+        "fields": [
+          "parity/stations/degree",
+          "parity/stations/lineIds",
+          "parity/stations/memberIds",
+          "parity/edges/a",
+          "parity/edges/b",
+          "parity/edges/id",
+          "parity/edges/lineIds",
+          "parity/edges/sourceCodes",
+          "parity/aliases",
+          "parity/excludedStationIds"
         ],
         "sources": [
           {
             "path": "lore/places/Seoul-Station-Catalog.json",
-            "sha256": "71caa21802d5acff268c6fc051f84950ba0e4bc34b870de071d924e7dfccdc56"
+            "sha256": "71caa21802d5acff268c6fc051f84950ba0e4bc34b870de071d924e7dfccdc56",
+            "selector": "/data/station_aliases"
           },
           {
             "path": "lore/places/regular-line-adjacency.json",
-            "sha256": "6b9e1bec6987875ed5f5e6b2df508d3716208628f1749b03f5b80cf1a2af9b7a"
+            "sha256": "6b9e1bec6987875ed5f5e6b2df508d3716208628f1749b03f5b80cf1a2af9b7a",
+            "selector": "/lines/*/paths"
+          },
+          {
+            "path": "snapshots/build-inputs/SeoulWorldGraph.json",
+            "sha256": "46985afccc2d3f2b5e4e3152254d30bc023d0688d63745a951a9be0f6ebf097d",
+            "selector": "/stations/*/{id,nameKo,district,lon,lat}",
+            "externalCoordinateEdition": "unknown",
+            "atlasSnapshotBridge": "unverified"
+          },
+          {
+            "sha256": "c01ef44a0eb00978662ba7a6240ccb1da287fb52abd85104a1758969d391132f",
+            "selector": "authenticated-boundary/features[properties.sido=11]"
           }
         ],
-        "pointer": "/data/station_aliases",
-        "transform": "explicit-alias-regular-adjacency-v1",
-        "use": "wiki-owned-content"
+        "transform": "explicit-alias-regular-adjacency-boundary-filter-no-shortcut-v1",
+        "use": [
+          "wiki-owned-content",
+          "public-correspondence-facts",
+          "osm-world-graph-unknown-edition",
+          "boundary-2026"
+        ]
       },
       {
         "fields": [
           "selection/site"
         ],
-        "sha256": "eec1fcac44d0b7b1600c81437ba0a0ea56cd645d16f4eaf55a00786597e0e7e8",
-        "pointer": "/sites/id=osm:node:368899387",
+        "sources": [
+          {
+            "path": "typed:region_atlas_document",
+            "sha256": "89d559fc31ce0644e331c6a54b8cfc997bf482b05f7c940694ea68f4f304fdf1",
+            "selector": "/sites[id=osm:node:368899387]"
+          },
+          {
+            "sha256": "eec1fcac44d0b7b1600c81437ba0a0ea56cd645d16f4eaf55a00786597e0e7e8",
+            "selector": "OSM node 368899387"
+          }
+        ],
         "transform": "one-site-anchor-v1",
         "use": "osm-atlas-2026-09-04"
       },
@@ -1776,11 +2469,13 @@
         "fields": [
           "selection/building"
         ],
-        "source": {
-          "path": "lore/regions/content/11470.json",
-          "sha256": "66be337fddc62cff428a9d7e10b43c27c1ad444c8a6cbbd881b431c38c42dc8e"
-        },
-        "pointer": "/regions/region:1147063000/content/buildings",
+        "sources": [
+          {
+            "path": "lore/regions/content/11470.json",
+            "sha256": "66be337fddc62cff428a9d7e10b43c27c1ad444c8a6cbbd881b431c38c42dc8e",
+            "selector": "/regions[region_id=region:1147063000]/content/buildings[anchor_ref=osm:node:368899387]"
+          }
+        ],
         "transform": "one-building-two-floors-v1",
         "use": "wiki-owned-content"
       },
@@ -1790,11 +2485,13 @@
           "selection/persons/id=K001/name",
           "selection/persons/id=K001/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/0",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/0"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1804,11 +2501,13 @@
           "selection/persons/id=K002/name",
           "selection/persons/id=K002/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/1",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/1"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1818,11 +2517,13 @@
           "selection/persons/id=K029/name",
           "selection/persons/id=K029/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/28",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/28"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1832,11 +2533,13 @@
           "selection/persons/id=K904/name",
           "selection/persons/id=K904/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/903",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/903"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1846,11 +2549,13 @@
           "selection/persons/id=K568/name",
           "selection/persons/id=K568/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/567",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/567"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1860,11 +2565,13 @@
           "selection/persons/id=K616/name",
           "selection/persons/id=K616/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/615",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/615"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1874,11 +2581,13 @@
           "selection/persons/id=K712/name",
           "selection/persons/id=K712/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/711",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/711"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1888,11 +2597,13 @@
           "selection/persons/id=K856/name",
           "selection/persons/id=K856/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/855",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/855"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1902,11 +2613,13 @@
           "selection/persons/id=K952/name",
           "selection/persons/id=K952/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/951",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/951"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1916,11 +2629,13 @@
           "selection/persons/id=K1001/name",
           "selection/persons/id=K1001/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/1000",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/1000"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1930,11 +2645,13 @@
           "selection/persons/id=K424/name",
           "selection/persons/id=K424/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/423",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/423"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1944,11 +2661,13 @@
           "selection/persons/id=K520/name",
           "selection/persons/id=K520/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/519",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/519"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1958,11 +2677,13 @@
           "selection/persons/id=K760/name",
           "selection/persons/id=K760/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/759",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/759"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1972,11 +2693,13 @@
           "selection/persons/id=K808/name",
           "selection/persons/id=K808/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/807",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/807"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -1986,11 +2709,13 @@
           "selection/persons/id=K664/name",
           "selection/persons/id=K664/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/663",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/663"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
@@ -2000,49 +2725,34 @@
           "selection/persons/id=K472/name",
           "selection/persons/id=K472/stateId"
         ],
-        "source": {
-          "path": "lore/name-pools/values-cast.json",
-          "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2"
-        },
-        "pointer": "/people/471",
+        "sources": [
+          {
+            "path": "lore/name-pools/values-cast.json",
+            "sha256": "19a30e156065f6c2f59b3d2ea7b0226e887ea60d610b70d10e588937407620e2",
+            "selector": "/people/471"
+          }
+        ],
         "transform": "selected-issued-identity-v1",
         "use": "wiki-owned-content"
       },
       {
         "fields": [
-          "selection/persons/*/disposition",
-          "selection/court/*/status"
+          "selection/persons/*/disposition"
         ],
-        "sha256": "33fc48dbcf335b05bf64391279faa48dbdeabbb03932e97f07886b683bba7859",
-        "pointer": "person_disposition/person_id",
+        "sources": [
+          {
+            "sha256": "33fc48dbcf335b05bf64391279faa48dbdeabbb03932e97f07886b683bba7859",
+            "selector": "table:person_disposition; key:person_id; columns:status"
+          }
+        ],
         "transform": "current-disposition-v1",
         "use": "wiki-owned-content"
-      },
-      {
-        "fields": [
-          "selection/hegemons/*"
-        ],
-        "source": {
-          "path": "lore/factions/Sixteen-States.json",
-          "sha256": "73b19e6af00df16fb06adfbaab7c386aea6930ff01587dd6a0dc69fbae557a3c"
-        },
-        "revision": "433ad0d4cdcdfbeaaaa0e2174bd1447f5b4a9334e222dd0e167de15f791caf13",
-        "semanticSha256": "9524c36db6daed1e36e4eecf2b4812eca5f60ce9261a5479d851af349d19a068",
-        "pointer": "/data/currentAffiliation/hegemons",
-        "transform": "source-grouping-not-sovereign-v1",
-        "use": "wiki-owned-content"
-      },
-      {
-        "fields": [
-          "parity/stations/x",
-          "parity/stations/y"
-        ],
-        "sha256": "eec1fcac44d0b7b1600c81437ba0a0ea56cd645d16f4eaf55a00786597e0e7e8",
-        "pointer": "/stations/*/lon,lat",
-        "transform": "EPSG4326-to-EPSG5179-v1",
-        "use": "osm-atlas-2026-09-04"
       }
     ],
+    "coverage": {
+      "covered": 91,
+      "missing": []
+    },
     "excluded": [
       "portraits",
       "real-person-permission-records",
@@ -2055,6 +2765,10 @@
     ],
     "selectedRealPersonRegistryMatches": [],
     "newConsentGranted": false,
-    "playStartAdmission": false
+    "playStartAdmission": false,
+    "selectionCoverage": {
+      "covered": 43,
+      "missing": []
+    }
   }
 }
