@@ -1,0 +1,4 @@
+{
+  "extends": "../../game/tsconfig.json",
+  "include": ["clock-fixture.ts", "../../game/ui/campaignClock.ts", "../../game/src/runtime/clockOwnership.test.ts"]
+}

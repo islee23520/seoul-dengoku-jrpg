@@ -1,0 +1,6 @@
+*{box-sizing:border-box}body{margin:0;background:var(--color-canvas);color:var(--color-ink);font:var(--type-body)/1.5 var(--font-ui)}
+main{max-width:1280px;min-height:720px;margin:auto;padding:var(--space-24)}h1{font-size:var(--type-h1)}
+nav,[role=group]{display:flex;flex-wrap:wrap;gap:var(--space-8);margin:var(--space-16) 0}
+.campaign-clock{padding:var(--space-24);margin-top:var(--space-24)}.campaign-clock output{font-size:var(--type-h2);font-variant-numeric:tabular-nums}
+.campaign-clock p{color:var(--color-ink-secondary);font-size:var(--type-caption)}[aria-pressed=true]{border-color:var(--color-focus);color:var(--color-ink)}
+@media(max-width:600px){main{min-height:100dvh;padding:var(--space-16)}.campaign-clock{padding:var(--space-16)}}
