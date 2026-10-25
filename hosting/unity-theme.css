@@ -1,0 +1,68 @@
+/* Unity UI token layer. Values copied from seoul-dengoku
+   GAME/Assets/Janseon/Data/Ui/Source/ui-tokens.json (Dark/Light themes).
+   Fonts: NotoSansKR Regular/Medium/Bold OTF, SIL OFL 1.1 (fonts/LICENSE.txt). */
+@font-face{font-family:"Noto Sans KR UI";src:url("./fonts/NotoSansKR-Regular.otf") format("opentype");font-weight:400;font-display:swap}
+@font-face{font-family:"Noto Sans KR UI";src:url("./fonts/NotoSansKR-Medium.otf") format("opentype");font-weight:500;font-display:swap}
+@font-face{font-family:"Noto Sans KR UI";src:url("./fonts/NotoSansKR-Bold.otf") format("opentype");font-weight:700;font-display:swap}
+
+:root{
+  color-scheme:dark;
+  --color-canvas:#0B111C;--color-surface:#141C2A;--color-surface-sunken:#0E1622;
+  --color-ink:#E6EAF0;--color-ink-secondary:#9AA6B2;--color-ink-muted:#77828F;
+  --color-line:#2A3548;--color-focus:#C9A227;--color-accent:#7FB0D6;
+  --color-rule-brass:#896B43A6;--color-scrim:#0B111CB8;--color-key-cap-bg:#77828F1F;
+  --elevation-card:0 2px 8px #00000059;--elevation-panel:0 8px 24px #00000073;--elevation-modal:0 16px 40px #00000099;
+
+  --font-ui:"Noto Sans KR UI","Noto Sans KR","Noto Sans CJK KR",sans-serif;
+  --weight-regular:400;--weight-medium:500;--weight-bold:700;
+  --type-display:72px;--type-h1:32px;--type-h2:24px;--type-h3:20px;--type-body:18px;--type-label:16px;--type-caption:14px;
+
+  --space-4:4px;--space-8:8px;--space-12:12px;--space-16:16px;--space-20:20px;--space-24:24px;--space-32:32px;--space-40:40px;--space-56:56px;--space-80:80px;
+  --radius-sm:2px;--radius-md:4px;--radius-lg:8px;--radius-xl:12px;--radius-pill:999px;
+  --border-hairline:1px;--border-strong:2px;--border-focus:2px;
+  --opacity-disabled:.45;
+
+  --layer-screens:10;--layer-modal:20;
+  --button-h:56px;--button-w-menu:300px;--hit-min:44px;--modal-w:400px;
+  --layout-margin:16px;--layout-gutter:12px;--layout-header-h:48px;--layout-dock-w:303px;--layout-panel-padding:16px;
+  --card-person-portrait-h:64px;--key-cap-h:20px;--key-cap-padding-x:6px;
+  /* Title layer: rules span 8 of 12 columns at the 1280 reference width. */
+  --title-rule-w:618px;
+
+  --motion-press:80ms;--motion-focus:100ms;--motion-state:150ms;--motion-screen-in:240ms;--motion-modal-in:200ms;--motion-hint-pulse:1600ms;
+  --ease-out:cubic-bezier(.5,1,.89,1);--ease-emphasis:cubic-bezier(.33,1,.68,1);
+}
+@media (prefers-color-scheme:light){
+  :root{
+    color-scheme:light;
+    --color-canvas:#F4F1E9;--color-surface:#FFFCF5;--color-surface-sunken:#EAE5DA;
+    --color-ink:#202A38;--color-ink-secondary:#465365;--color-ink-muted:#596575;
+    --color-line:#C0B9AA;--color-focus:#775800;--color-accent:#255D83;
+    --color-rule-brass:#76592FD9;--color-scrim:#F4F1E9B8;--color-key-cap-bg:#5965751F;
+    --elevation-card:0 2px 8px #202A3824;--elevation-panel:0 8px 24px #202A3833;--elevation-modal:0 16px 40px #202A3847;
+  }
+}
+
+/* Shared primitives */
+.ui-key-cap{display:inline-flex;align-items:center;justify-content:center;min-width:var(--key-cap-h);height:var(--key-cap-h);padding-inline:var(--key-cap-padding-x);
+  border:var(--border-hairline) solid var(--color-ink-muted);border-radius:var(--radius-sm);background:var(--color-key-cap-bg);
+  color:var(--color-ink-secondary);font:var(--weight-medium) var(--type-caption)/1 var(--font-ui)}
+.ui-panel{background:color-mix(in srgb,var(--color-surface) 94%,transparent);border:var(--border-hairline) solid var(--color-line);border-radius:var(--radius-xl);box-shadow:var(--elevation-panel)}
+.ui-button{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-8);min-height:var(--hit-min);padding:0 var(--space-16);
+  font:var(--weight-medium) var(--type-label)/1.2 var(--font-ui);border:var(--border-hairline) solid transparent;border-radius:var(--radius-md);
+  background:transparent;color:var(--color-ink-secondary);cursor:pointer;
+  transition:color var(--motion-state) var(--ease-out),background-color var(--motion-state) var(--ease-out),border-color var(--motion-state) var(--ease-out),transform var(--motion-press) var(--ease-out)}
+.ui-button:focus-visible{outline:var(--border-focus) solid var(--color-accent);outline-offset:var(--space-4)}
+.ui-button:disabled{cursor:not-allowed;color:var(--color-ink-muted)}
+/* button-primary */
+.ui-button--primary{min-height:var(--button-h);background:var(--color-focus);border-color:var(--color-focus);color:var(--color-canvas)}
+.ui-button--primary:hover{border-color:var(--color-accent)}
+.ui-button--primary.is-selected{border:var(--border-strong) solid var(--color-ink)}
+.ui-button--primary:active{background:var(--color-surface-sunken);color:var(--color-ink);transform:scale(.98)}
+.ui-button--primary:disabled{background:var(--color-surface);border-color:var(--color-line);color:var(--color-ink-muted);opacity:var(--opacity-disabled)}
+/* button-menu: selected = left bar in focus colour, hover = ink */
+.ui-button--menu{position:relative}
+.ui-button--menu:hover:not(:disabled),.ui-button--menu.is-selected{color:var(--color-ink)}
+.ui-button--menu.is-selected::before{content:"";position:absolute;left:0;top:var(--space-8);bottom:var(--space-8);width:var(--border-strong);background:var(--color-focus)}
+.ui-button--menu:active:not(:disabled){color:var(--color-ink-secondary)}
+@media (prefers-reduced-motion:reduce){.ui-button{transition:color var(--motion-state) linear,background-color var(--motion-state) linear}.ui-button:active{transform:none!important}}

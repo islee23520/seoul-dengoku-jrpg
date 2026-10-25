@@ -85,6 +85,9 @@ export async function buildRealtimeGame(output) {
     await exec(process.execPath, [path.join(root, 'engine/node_modules/vite/bin/vite.js'), 'build', '--config', path.join(root, 'hosting/vite.realtime.config.mjs'), '--configLoader', 'runner', '--outDir', path.resolve(output)], {
       cwd: prepared.engine, env: { ...process.env, GIT_MASTER: '1', REALTIME_ENGINE_SOURCE: prepared.engine }, maxBuffer: 16 * 1024 * 1024,
     });
+    // NotoSansKR ships under SIL OFL 1.1, which requires the license beside redistributed fonts.
+    await mkdir(path.join(output, 'fonts'), { recursive: true });
+    await cp(path.join(root, 'hosting/fonts/LICENSE.txt'), path.join(output, 'fonts/NotoSansKR-OFL.txt'));
     return { ...prepared.provenance, entryTypecheck };
   } finally { await rm(scratch, { recursive: true, force: true }); }
 }
