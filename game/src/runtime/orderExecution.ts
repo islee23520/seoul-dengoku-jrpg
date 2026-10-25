@@ -38,6 +38,7 @@ export type Journey = z.infer<typeof journeySchema>;
 export type WorldGraph = { readonly stations: readonly { readonly id: string }[]; readonly edges: readonly { readonly a: string; readonly b: string }[] };
 export type ExecutionRules = {
   readonly provenance: 'TESTINPUT' | 'CANON'; readonly ruleVersion: string;
+  readonly conflictPolicy: 'reject-conflict' | 'wait-for-availability';
   readonly travelSteps: ((edge: { readonly from: string; readonly to: string }) => number) | null;
   readonly workSteps: ((order: Mandate) => number) | null;
   readonly acceptance: ((order: Mandate) => 'accept' | 'hold' | 'reject') | null;
@@ -90,7 +91,12 @@ export function stepOrder(execution: Execution, input: {
       const decision = input.rules.acceptance(order);
       switch (decision) {
         case 'accept': return transition('consent');
-        case 'hold': return transition('held');
+        case 'hold':
+          switch (input.rules.conflictPolicy) {
+            case 'reject-conflict': return { ...execution, mandate: { ...order, stage: 'refused', refusalReason: 'recipient-unavailable' } };
+            case 'wait-for-availability': return transition('held');
+            default: return assertNever(input.rules.conflictPolicy);
+          }
         case 'reject': return { ...transition('refused'), mandate: { ...order, stage: 'refused', refusalReason: 'recipient-refused' } };
         default: return assertNever(decision);
       }
@@ -98,22 +104,36 @@ export function stepOrder(execution: Execution, input: {
     case 'consent': {
       if (!input.rules.ready) throw new MissingRuleInput('retainer-readiness');
       const ready = input.rules.ready(order);
-      if (!ready || now < order.effectiveAt || execution.reservationKeys.some(k => input.occupied.includes(k))) return execution;
+      if (execution.reservationKeys.some(k => input.occupied.includes(k))) {
+        switch (input.rules.conflictPolicy) {
+          case 'reject-conflict': return { ...execution, mandate: { ...order, stage: 'refused', refusalReason: 'rejected-conflict' } };
+          case 'wait-for-availability': return execution;
+          default: return assertNever(input.rules.conflictPolicy);
+        }
+      }
+      if (!ready || now < order.effectiveAt) return execution;
       preflightMandate(order, { ...ready, now, authority: input.authority, routeDelivered: true });
       return { ...transition('reserved'), mandate: { ...advanceMandate(order, 'reserved', context), reservations: execution.reservationKeys, personSchedule: [order.recipientId] } };
     }
-    case 'reserved': return { ...transition('executing'), journey: { path: execution.workPath, leg: 0, elapsed: 0 } };
+    case 'reserved': {
+      if (!input.rules.ready) throw new MissingRuleInput('retainer-readiness');
+      const ready = input.rules.ready(order);
+      if (!ready) return execution;
+      preflightMandate(order, { ...ready, now, authority: input.authority, routeDelivered: true });
+      return { ...transition('executing'), journey: { path: execution.workPath, leg: 0, elapsed: 0 } };
+    }
     case 'executing': {
+      if (!input.rules.ready) throw new MissingRuleInput('retainer-readiness');
+      const current = input.rules.ready(order);
+      if (!current) return execution;
+      preflightMandate(order, { ...current, now, authority: input.authority, routeDelivered: true });
       if (!arrived(execution.journey)) {
         const journey = travel(execution.journey, input);
         const physicalLocation = journey.path[journey.leg];
         if (!physicalLocation) throw new InvariantViolation('route-location');
         return { ...execution, journey, mandate: { ...order, physicalLocation } };
       }
-      if (!input.rules.ready || !input.rules.workSteps) throw new MissingRuleInput('retainer-work-coefficients');
-      const ready = input.rules.ready(order);
-      if (!ready) return execution;
-      preflightMandate(order, { ...ready, now, authority: input.authority, routeDelivered: true });
+      if (!input.rules.workSteps) throw new MissingRuleInput('retainer-work-coefficients');
       const duration = input.rules.workSteps(order);
       if (!Number.isSafeInteger(duration) || duration <= 0) throw new MissingRuleInput('retainer-work-coefficients');
       const workElapsed = execution.workElapsed + 1;

@@ -1,6 +1,8 @@
 export type CampaignErrorCode = 'shape' | 'content-hash' | 'content-link' | 'location-scope' | 'person-scope'
   | 'authority-source' | 'grant-version' | 'custody' | 'inventory' | 'cross-link' | 'report-unreceived'
-  | 'report-link' | 'clock' | 'stale-version' | 'inherited-option' | 'duplicate-id' | 'content-admission' | 'effect-authority';
+  | 'report-link' | 'clock' | 'stale-version' | 'inherited-option' | 'duplicate-id' | 'content-admission' | 'effect-authority'
+  | 'authority-expired' | 'authority-revoked' | 'recipient-unavailable' | 'rejected-conflict' | 'body-unavailable'
+  | 'tool-unavailable' | 'duty-unavailable' | 'support-unavailable' | 'action-scope' | 'consent-required';
 
 /** Safe reason codes only: errors do not disclose hidden world values. */
 export class CampaignBoundaryError extends Error {

@@ -1,15 +1,16 @@
 import { assertNever } from '../domain/errors.ts';
 import type { CampaignContent } from './content.ts';
-import { requireBoundary } from './errors.ts';
+import { CampaignBoundaryError, requireBoundary } from './errors.ts';
+import { assertComposedAuthority } from './authorityBasis.ts';
 import { assertPhysicalEffect } from './physicalEffects.ts';
 import type { CampaignState } from './stateSchemas.ts';
 
 export function assertEffectAuthority(state: CampaignState, order: CampaignState['mandates'][number], effect: { readonly at: number; readonly content: CampaignContent }): void {
-  const close = Math.min(state.clock.closedAt ?? Infinity, effect.content.data.operations.clock.scheduledCloseSeconds * 1000);
-  requireBoundary(effect.at < close && order.authority.every(basis => {
-    const revision = state.grants.find(g => g.id === basis.grantId)?.revisions.filter(r => r.effectiveAt <= effect.at).at(-1);
-    return revision?.state === 'valid' && revision.version === basis.version;
-  }), 'effect-authority');
+  try { assertComposedAuthority(state, order, effect); }
+  catch (error) {
+    if (error instanceof CampaignBoundaryError) throw new CampaignBoundaryError('effect-authority');
+    throw error;
+  }
 }
 
 export function assertResultEffects(state: CampaignState, content: CampaignContent): void {

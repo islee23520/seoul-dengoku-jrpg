@@ -38,6 +38,7 @@ export const scenarioShape = z.object({
   sites: z.array(z.object({ id: nodeId, regionId: ref, anchorRef: siteId, name: ref }).readonly()).readonly(),
   actors: z.array(z.object({ id: personId, at: nodeId, access: z.array(nodeId).readonly(), bodyPresent: z.literal(true) }).readonly()).readonly(),
   rights: z.object({ basis: z.object({ id: ref, issuer: ref }).readonly(), grants: z.array(sourceGrant).readonly(), dutyWalk: z.object({ section: z.array(nodeId).readonly() }) }).readonly(),
+  policies: z.object({ scheduleConflictPolicy: z.literal('reject-conflict') }).readonly(),
   ledger: z.object({ id: ref, owner: ref, custodianAtE0: ref, container: nodeId, key: z.object({ id: ref, holder: ref, transfer: z.literal(false) }).readonly(), route: z.object({ orderedNodes: z.array(nodeId).readonly() }) }).readonly(),
   availability: z.object({ tools: z.array(z.object({ id: ref, owner: ref, at: nodeId }).readonly()).readonly() }).readonly(),
 }).readonly();
