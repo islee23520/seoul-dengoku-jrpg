@@ -3,6 +3,9 @@ import { t } from './ui-strings.ts';
 import { describeStartFailure } from './opening-errors.ts';
 import { mountCampaignMap } from '../game/ui/campaignMap.ts';
 import type { MapView, IdentityMap } from '../game/ui/campaignMap.ts';
+import { mountCampaignOrders } from '../game/ui/campaignOrders.ts';
+import { loadCampaignRuntime } from './campaign-content.ts';
+import { ordersStrings } from '../game/ui/campaignOrdersModel.ts';
 import mapView from '../game/data/campaign/map-view.json';
 import identityMap from '../game/data/campaign/identity-map.json';
 
@@ -174,10 +177,38 @@ export function mountOpening(parent: HTMLElement, spawn: Spawn): void {
     parent.replaceChildren();
     parent.dataset.scenario = openingAdmission.scenarioId; parent.dataset.actor = actor.actorId;
     parent.dataset.spawn = surface.dataset.mapId + ':' + surface.dataset.tileX + ',' + surface.dataset.tileY;
+    // Task13: only the designator (K002) holds the communal right to issue retainer mandates.
     const map = mountCampaignMap(parent, { view: mapView as unknown as MapView, identity: identityMap as unknown as IdentityMap,
-      actor, onBack: () => title() });
+      actor, onBack: () => title(),
+      onOrders: actor.actorId === 'K002' ? () => { void openOrders(actor, surface); } : undefined });
     screen.signal.addEventListener('abort', map.release);
     el<HTMLButtonElement>('#cm-mode-political').focus();
+  }
+
+  /** Retainer command composer/detail (task13). Opening it never pauses or changes the clock;
+   * the runtime is constructed once from the admitted served pack and survives screen changes. */
+  async function openOrders(actor: Actor, surface: HTMLElement): Promise<void> {
+    const button = parent.querySelector<HTMLButtonElement>('#cm-orders');
+    if (!button || button.dataset.loading === 'true') return;
+    button.dataset.loading = 'true'; button.setAttribute('aria-busy', 'true');
+    try {
+      const { content, app } = await loadCampaignRuntime();
+      screen?.abort(); screen = new AbortController();
+      const orders = mountCampaignOrders(parent, { app, content,
+        actor: { actorId: actor.actorId, name: actor.name, title: actor.title },
+        onBack: () => world(actor, surface) });
+      screen.signal.addEventListener('abort', orders.release);
+      parent.querySelector<HTMLElement>('[data-pick]')?.focus();
+    } catch (error) {
+      delete button.dataset.loading; button.removeAttribute('aria-busy');
+      // Console plus a visible, machine-readable failure state; no fabricated fallback runtime.
+      const detail = error instanceof Error ? (error.stack ?? error.message) : String(error);
+      console.error('[orders] runtime failed', detail);
+      parent.dataset.ordersFailure = detail;
+      button.textContent = ordersStrings.runtimeFailed;
+      button.title = detail;
+      button.disabled = true;
+    }
   }
 
   title();

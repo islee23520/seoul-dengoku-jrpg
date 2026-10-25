@@ -1,0 +1,81 @@
+/* Retainer command composer/detail (task13, task26 design contract §4).
+   1280x720 anchors from UiGrid: header48, margin16, gutter12, dock303, centre618; inner frame
+   heading48 + body484 + footer80 inside panel padding16. Every value traces to unity-theme.css. */
+#realtime[data-screen=campaign-orders]{height:100dvh;overflow:hidden}
+.co{position:relative;height:100%;display:grid;grid-template-columns:var(--layout-dock-w) 618px var(--layout-dock-w);
+  gap:var(--layout-gutter);padding:calc(var(--layout-header-h) + var(--layout-gutter)) var(--layout-margin) var(--layout-margin);
+  background:var(--color-canvas)}
+.co-header{position:absolute;inset:0 0 auto;height:var(--layout-header-h);display:flex;align-items:center;gap:var(--space-16);
+  padding-inline:var(--layout-margin);background:color-mix(in srgb,var(--color-canvas) 92%,transparent);
+  border-bottom:var(--border-hairline) solid var(--color-rule-brass);z-index:1}
+.co-header__person{flex:none;margin:0;font:var(--weight-bold) var(--type-h3)/1 var(--font-ui)}
+.co-header__place{flex:1 1 auto;margin:0;min-width:0;font:var(--weight-regular) var(--type-caption)/1.3 var(--font-ui);
+  color:var(--color-ink-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.co-header__clock{flex:none;margin:0;font:var(--weight-medium) var(--type-caption)/1 var(--font-ui)}
+.co-header__speeds{flex:none;display:flex;gap:var(--space-4)}
+.co-speed{min-height:var(--hit-min);padding-inline:var(--space-8);font-size:var(--type-caption)}
+.co-speed.is-selected{color:var(--color-ink);font-weight:var(--weight-bold);box-shadow:inset 0 calc(-1 * var(--border-strong)) 0 var(--color-focus)}
+
+/* three docks; each body is its own bounded scroll owner (no nested scroll, no document scroll) */
+.co-dock{display:flex;flex-direction:column;min-height:0;padding:var(--layout-panel-padding)}
+.co-head{flex:none;display:flex;align-items:center;justify-content:space-between;gap:var(--space-8);height:var(--space-48);min-height:var(--space-48)}
+.co-head h2{margin:0;font:var(--weight-medium) var(--type-h3)/1.2 var(--font-ui);overflow-wrap:anywhere}
+.co-filter{display:flex;gap:var(--space-4)}
+.co-chip{min-height:var(--hit-min);padding-inline:var(--space-8);font-size:var(--type-caption);color:var(--color-ink)}
+.co-chip[aria-pressed=true]{color:var(--color-ink);font-weight:var(--weight-bold);box-shadow:inset 0 calc(-1 * var(--border-strong)) 0 var(--color-focus)}
+.co-body{flex:1 1 auto;min-height:0;overflow-y:auto;display:grid;gap:var(--space-8);align-content:start;padding-right:var(--space-4)}
+.co-footer{flex:none;display:flex;gap:var(--space-8);align-items:center;min-height:calc(var(--button-h) + var(--space-24));padding-top:var(--space-24)}
+.co-footer .ui-button--primary{margin-left:auto;min-width:180px}
+.co-heading{margin:0;font:var(--weight-medium) var(--type-h3)/1.3 var(--font-ui)}
+.co-subheading{margin:var(--space-16) 0 0;font:var(--weight-medium) var(--type-label)/1.3 var(--font-ui)}
+
+/* roster rows and the selected action row: Unity candidate selection = 2px focus-colour frame + check */
+.co-row{position:relative;justify-content:flex-start;width:100%;min-height:var(--layout-row-h);flex-direction:column;align-items:flex-start;
+  gap:var(--space-4);padding:var(--space-4) var(--space-12);border-color:var(--color-line);background:var(--color-surface-sunken);
+  color:var(--color-ink);text-align:left}
+.co-row:hover{border-color:var(--color-accent)}
+.co-row.is-selected{border:var(--border-strong) solid var(--color-focus)}
+.co-row[aria-pressed=true]{border:var(--border-strong) solid var(--color-focus)}
+.co-row__name{min-width:0;font:var(--weight-medium) var(--type-label)/1.3 var(--font-ui);overflow-wrap:anywhere;word-break:keep-all}
+.co-row__meta{min-width:0;font:var(--weight-regular) var(--type-caption)/1.3 var(--font-ui);color:var(--color-ink-secondary);overflow-wrap:anywhere}
+.co-check{position:absolute;right:var(--space-12);top:50%;translate:0 -50%;color:var(--color-focus);font:var(--weight-bold) var(--type-label)/1 var(--font-ui)}
+.co-reason,.co-empty,.co-label{margin:0;font:var(--weight-regular) var(--type-body)/1.5 var(--font-ui);color:var(--color-ink)}
+.co-reason{color:var(--color-ink-secondary);overflow-wrap:anywhere}
+.co-empty{color:var(--color-ink-muted)}
+.co-list{margin:0;padding-inline-start:var(--space-20);display:grid;gap:var(--space-4)}
+.co-list li{font:var(--weight-regular) var(--type-caption)/1.5 var(--font-ui);color:var(--color-ink-secondary);overflow-wrap:anywhere}
+.co-facts{margin:0;display:grid;gap:var(--space-8)}
+.co-fact dt{font:var(--weight-regular) var(--type-caption)/1.4 var(--font-ui);color:var(--color-ink-secondary)}
+.co-fact dd{margin:var(--space-4) 0 0;font:var(--weight-regular) var(--type-body)/1.5 var(--font-ui);color:var(--color-ink);overflow-wrap:anywhere;word-break:keep-all}
+.co-id{font:var(--weight-regular) var(--type-caption)/1.4 var(--font-ui);color:var(--color-ink-secondary);overflow-wrap:anywhere}
+
+/* issued orders */
+.co-orders{margin-top:var(--space-16);display:grid;gap:var(--space-8)}
+.co-order{border:var(--border-hairline) solid var(--color-line);border-radius:var(--radius-md);padding:var(--space-8)}
+.co-order.is-selected{background:color-mix(in srgb,var(--color-focus) 8%,transparent)}
+.co-order__head{display:flex;align-items:center;gap:var(--space-8)}
+.co-order__title{flex:1 1 auto;justify-content:flex-start;flex-direction:column;align-items:flex-start;gap:2px;min-height:var(--layout-row-h);
+  padding:var(--space-4) var(--space-8);background:transparent;border-color:transparent;color:var(--color-ink);text-align:left}
+.co-order__title:hover{border-color:var(--color-accent)}
+.co-order__cancel{flex:none;min-height:var(--hit-min);padding-inline:var(--space-12);font-size:var(--type-caption)}
+.co-order .co-facts{margin-top:var(--space-8)}
+
+/* confirmation dialog: layout.modal-w 400, Cancel first and initially focused */
+.co-scrim{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;background:var(--color-scrim)}
+.co-dialog{width:var(--modal-w);max-width:calc(100vw - 2 * var(--layout-margin));max-height:calc(100% - 2 * var(--layout-margin));display:flex;flex-direction:column;gap:var(--space-12);
+  padding:var(--space-24);box-shadow:var(--elevation-modal)}
+.co-dialog .co-facts{flex:1 1 auto;min-height:0;overflow-y:auto}
+.co-caption{margin:0;font:var(--weight-regular) var(--type-caption)/1.4 var(--font-ui);color:var(--color-ink-secondary)}
+.co-dialog__actions{display:flex;gap:var(--space-8)}
+.co-dialog__actions .ui-button{flex:1 1 0}
+.co-dialog__actions .ui-button--primary{min-width:0}
+
+/* 390 candidate (task26 NEW_CANDIDATE, not Unity parity): one column, list over detail, footer stays reachable */
+@media (max-width:1000px){
+  #realtime[data-screen=campaign-orders]{height:auto;overflow:visible}
+  .co{display:flex;flex-direction:column;gap:var(--layout-gutter);height:auto;min-height:100dvh}
+  .co-header{position:static;flex-wrap:wrap;height:auto;padding-block:var(--space-4);row-gap:var(--space-4)}
+  .co-header__place{flex-basis:100%}
+  .co-dock{overflow:visible}
+  .co-body{overflow:visible;max-height:none}
+}
