@@ -1,0 +1,754 @@
+{
+  "version": 1,
+  "domain": "places",
+  "id": "DOC:World-Map-Construction",
+  "slug": "world-map-construction",
+  "status": "approved",
+  "categories": [
+    "places"
+  ],
+  "tense": {
+    "ko": "past",
+    "en": "past"
+  },
+  "source": {
+    "kind": "original-fiction",
+    "refs": [
+      "lore/places/World-Map-Construction.md",
+      "lore/places/World-Map-Construction.en.md"
+    ]
+  },
+  "provenance": {
+    "original_anchor": "lore/places/World-Map-Construction.md",
+    "original_hash": "28693ade3c6877b2f874cc6360ea7c2d2158c1f0e3392f2b40f5ead11896c4d0",
+    "history": [
+      "Korean lore/places/World-Map-Construction.md SHA-256 28693ade3c6877b2f874cc6360ea7c2d2158c1f0e3392f2b40f5ead11896c4d0.",
+      "English lore/places/World-Map-Construction.en.md SHA-256 2510d52490dfcca8a058a13143eeae9845e8b4d69f0c028d4d4a25e038e0bef7; copied verbatim, no translation written."
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "The Structure of the World Map",
+      "summary": "The Seoul map follows constituency counties, administrative-dong slots, autonomous districts, six geographic kingdoms and the citywide empire.",
+      "tense": "past"
+    },
+    "ko": {
+      "title": "세계 지도의 구성",
+      "summary": "서울 지도는 지역구 백작령, 행정동 슬롯, 자치구 공작령, 여섯 지리 왕국, 서울 전체 제국의 관할을 따라 구성된다.",
+      "tense": "past"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "월드맵의-구조",
+      "depth": 1,
+      "text": {
+        "ko": "세계 지도의 구성",
+        "en": "The Structure of the World Map"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "월드맵의-구조-p1-ko-label-1",
+      "text": {
+        "ko": "가. 지리의 뼈대",
+        "en": "A. Geographic skeleton"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "월드맵의-구조-p1",
+      "text": {
+        "ko": "서울의 선택 지도는 국회의원 지역구 백작령에서 시작한다. 각 백작령 상세에는 행정동 슬롯을 표시하고, 역과 역을 잇는 통로는 별도의 이동층으로 다룬다. 서울역·신도림·영등포는 이름이 확인된 거점이다. 종전 위키 지도의 기술 판본은 관측 명칭 334행을 대조해 역 항목 315개를 기록했다.",
+        "en": "Seoul's selectable map begins with congressional-district counties. Administrative-dong slots appear in each county's details; stations and their connecting passages form a separate movement layer. Seoul Station, Sindorim and Yeongdeungpo are named strongholds. The earlier wiki-map technical edition reconciled 334 observed-name rows into 315 station entries."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "월드맵의-구조-p2-ko-label-2",
+      "text": {
+        "ko": "나. 붕괴 이후의 지리",
+        "en": "B. Post-collapse geography"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "월드맵의-구조-p2",
+      "text": {
+        "ko": "개막 지도는 서울을 담는다. 선택할 수 있는 최소 폴리곤은 지역구 백작령이며 그 상세에 행정동 남작령 슬롯을 둔다. 자치구는 공작령, 승인된 여섯 지리 권역은 왕국, 서울 전체는 제국의 관할이다. 정치 소속과 보유자의 개별 작위는 이 지리적 포함 관계와 따로 기록한다.",
+        "en": "The opening map covers Seoul. A constituency county is its smallest selectable polygon; administrative-dong barony slots appear in that county's details. Autonomous districts form duchies, the six approved geographic regions form kingdoms, and Seoul as a whole defines the empire's jurisdiction. Political affiliation and a holder's individual titles are recorded separately from that geographic nesting."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "월드맵의-구조-p3-ko-label-3",
+      "text": {
+        "ko": "다. 관련 문서",
+        "en": "C. Related documents"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "월드맵의-구조-p3",
+      "text": {
+        "ko": [
+          {
+            "text": "관련 문서: "
+          },
+          {
+            "text": "서울 십육국",
+            "link": {
+              "domain": "factions",
+              "slug": "Sixteen-States"
+            }
+          },
+          {
+            "text": ", "
+          },
+          {
+            "text": "역 내부에 들어가면",
+            "link": {
+              "domain": "places",
+              "slug": "Station-Interior-Construction"
+            }
+          },
+          {
+            "text": ", "
+          },
+          {
+            "text": "이동과 조우",
+            "link": {
+              "domain": "gdd",
+              "slug": "rules/Travel-and-Encounters"
+            }
+          },
+          {
+            "text": "."
+          }
+        ],
+        "en": [
+          {
+            "text": "Related documents: "
+          },
+          {
+            "text": "The Sixteen States of Seoul",
+            "link": {
+              "domain": "factions",
+              "slug": "Sixteen-States"
+            }
+          },
+          {
+            "text": ", "
+          },
+          {
+            "text": "Entering the Station Interior",
+            "link": {
+              "domain": "places",
+              "slug": "Station-Interior-Construction"
+            }
+          },
+          {
+            "text": ", "
+          },
+          {
+            "text": "Travel and Encounters",
+            "link": {
+              "domain": "gdd",
+              "slug": "rules/Travel-and-Encounters"
+            }
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "자치구-25",
+      "depth": 2,
+      "text": {
+        "ko": "자치구 25",
+        "en": "The 25 Autonomous Districts"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "자치구-25-p1-ko-label-4",
+      "text": {
+        "ko": "가. 구 이름의 출처",
+        "en": "A. District-name sources"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "자치구-25-p1",
+      "text": {
+        "ko": "구 명부에는 서울 자치구 스물다섯 곳의 이름이 담겨 있다. 종전 KOSTAT 비교 GeoJSON에는 당시의 구 이름이 실렸다. 지리 작위 원장의 지역구와 행정동 구성은 식별된 선거·행정 판본을 따르고, 폴리곤층은 검증된 공간 원천 판본에 결속된다.",
+        "en": "The district register names all twenty-five Seoul autonomous districts. The earlier KOSTAT comparison GeoJSON records its district names. The constituency and administrative-dong membership in the geographic title register follows its identified electoral and administrative editions; the polygon layer carries the verified spatial source edition."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "자치구-25-p2",
+      "text": {
+        "ko": "종로구, 중구, 용산구, 성동구, 광진구, 동대문구, 중랑구, 성북구, 강북구, 도봉구, 노원구, 은평구, 서대문구, 마포구, 양천구, 강서구, 구로구, 금천구, 영등포구, 동작구, 관악구, 서초구, 강남구, 송파구, 강동구.",
+        "en": "Jongno-gu, Jung-gu, Yongsan-gu, Seongdong-gu, Gwangjin-gu, Dongdaemun-gu, Jungnang-gu, Seongbuk-gu, Gangbuk-gu, Dobong-gu, Nowon-gu, Eunpyeong-gu, Seodaemun-gu, Mapo-gu, Yangcheon-gu, Gangseo-gu, Guro-gu, Geumcheon-gu, Yeongdeungpo-gu, Dongjak-gu, Gwanak-gu, Seocho-gu, Gangnam-gu, Songpa-gu, Gangdong-gu."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "자치구-25-p3-ko-label-5",
+      "text": {
+        "ko": "나. 구역과 권역",
+        "en": "B. Districts and spheres"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "자치구-25-p3",
+      "text": {
+        "ko": "스물다섯 자치구는 공작령의 관할이 된다. 선택할 수 있는 최소 폴리곤은 지역구 백작령이고 각 백작령 상세에는 행정동 슬롯이 실린다. 자치구 경계를 가로지르는 백작령은 서울 제국을 지리적 직속 상위 작위로 두고 승인된 권역의 왕국 지도에 속한다. 여섯 지리 왕국은 중앙·북동·북서·서부·남서·동남 왕국으로 자치구를 묶으며 제국의 관할은 서울 전체다. 정치층에는 세 세력과 중립 조직을 따로 표시한다. 보유자와 권리는 각각의 작위·슬롯·역·시설 기록을 따른다.",
+        "en": "The twenty-five autonomous districts form duchy jurisdictions. Constituency counties provide the smallest selectable polygons, and administrative-dong slots appear in each county's details. Counties crossing district boundaries have a direct geographic parent in the Seoul empire and kingdom-map membership in the approved partition. The six geographic kingdoms group the districts as Central, Northeast, Northwest, West, Southwest and Southeast; the empire encompasses Seoul. The political layer separately records three factions and neutral bodies. Holders and rights follow their individual title, slot, station and facility records."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "역-목록",
+      "depth": 2,
+      "text": {
+        "ko": "역 목록",
+        "en": "The Station List"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-목록-p1-ko-label-6",
+      "text": {
+        "ko": "가. 역명과 수",
+        "en": "A. Station names and counts"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-목록-p1",
+      "text": {
+        "ko": "종전 서울 역 카탈로그에는 관측 명칭 334행이 있었고, 부제와 표기 차이를 합친 당시 위키 지도에는 역 315곳이 표시되었다. 이 수는 그 기술 판본의 기록이다. 서울역·시청·강남·잠실·여의도는 서울 이동층의 지명이다. 개막 지도에 실리는 역은 별도로 관리하는 서울 역 원천의 위치를 따른다.",
+        "en": "The earlier Seoul station catalog recorded 334 observed-name rows; after combining subtitles and spelling variants, its wiki-map edition displayed 315 stations. Those figures belong to that technical edition. Seoul Station, City Hall, Gangnam, Jamsil and Yeouido remain Seoul place names on the movement layer. Opening-map station membership follows the separately maintained Seoul station source."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-목록-p2-ko-label-7",
+      "text": {
+        "ko": "나. 자치구별 밀도",
+        "en": "B. Density by district"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-목록-p2",
+      "text": {
+        "ko": "종전 역 315곳 위키 지도 판본에는 강남구와 송파구에 각각 23곳, 금천구에 4곳이 집계되었다. 이 수는 당시 분포의 기록이다. 현행 그래프에서는 서울 안의 역과 통로로 영등포·신도림·구로 일대의 이동로를 나타낸다.",
+        "en": "The earlier 315-station wiki-map edition counted 23 stations each in Gangnam-gu and Songpa-gu and four in Geumcheon-gu. These are dated distribution figures. Movement routes around Yeongdeungpo, Sindorim and Guro are represented by Seoul-located nodes and passages in the current graph."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "주변-시설",
+      "depth": 2,
+      "text": {
+        "ko": "주변 시설",
+        "en": "Surrounding Facilities"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "주변-시설-p1-ko-label-8",
+      "text": {
+        "ko": "가. 인프라의 소재",
+        "en": "A. Infrastructure locations"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "주변-시설-p1",
+      "text": {
+        "ko": "생존자가 권역을 유지하는 데 필요한 거대 인프라는 역 주변에 있다.",
+        "en": "The vast infrastructures essential to the survivors' maintenance of their spheres sat beside the stations."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "주변-시설-p2-ko-label-9",
+      "text": {
+        "ko": "나. 정수 시설과 차량기지",
+        "en": "B. Treatment plants and depots"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "주변-시설-p2",
+      "text": {
+        "ko": "서울의 정수 시설 기록에는 영등포·뚝섬·구의·암사가 있다. 2026년 시설 기록에는 남양주의 강북 정수장과 하남의 광암 정수장이 남아 있다.",
+        "en": "The Seoul water-facility record lists Yeongdeungpo, Ttukseom, Guui and Amsa. The 2026 infrastructure record also preserves the Gangbuk plant in Namyangju and the Gwangam plant in Hanam."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "주변-시설-p3",
+      "text": {
+        "ko": "서울 차량기지 기록에는 신정·천왕·방화·군자·고덕·창동·신내·수서가 있다. 지도에는 기지의 위치가 나타나고 운영 주체와 부분 권리는 각 시설의 별도 기록에 남는다.",
+        "en": "The Seoul depot records locate Sinjeong, Cheonwang, Banghwa, Gunja, Godeok, Changdong, Sinnae and Suseo. The map marks their locations; operators and partial rights are represented by their distinct facility records."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "주변-시설-p4-ko-label-10",
+      "text": {
+        "ko": "다. 시장과 지원 시설",
+        "en": "C. Markets and support facilities"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "주변-시설-p4",
+      "text": {
+        "ko": "대규모 물자가 오가는 주요 시장은 가락시장, 강서시장, 양곡시장, 노량진 수산시장 등 4곳이다. 병원, 소방서, 경찰서, 변전소, 철도 조차장 등이 역 주변에 남아 거점 운영에 쓰인다.",
+        "en": "The principal markets where bulk goods moved — Garak Market, Gangseo Market, Yanggok Market, and the Noryangjin Fisheries Market — formed the skeleton. Beyond them, hospitals, fire stations, police stations, substations, and rail marshaling yards remained beside the stations, backing each stronghold's role."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "십육국을-구-위에-얹기",
+      "depth": 2,
+      "text": {
+        "ko": "정치 중심과 지리 관할",
+        "en": "Political Centers and Geographic Jurisdictions"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "십육국을-구-위에-얹기-p1-ko-label-11",
+      "text": {
+        "ko": "가. 세 정치 중심과 중립 조직",
+        "en": "A. Three political centers and neutral organizations"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "십육국을-구-위에-얹기-p1",
+      "text": {
+        "ko": "개막 정치 지도에는 강북 청와대를 중심으로 하는 대한민국정부, 한강 남쪽 서부를 중심으로 하는 규격맹, 강남 권역을 중심으로 하는 종교 연합을 나누어 표시한다. 중앙정보부는 독립된 중립 조직으로 남는다. 건국 당시 십육국의 정체성은 세 세력 안의 확인된 소속 또는 중립으로 이어진다. 정치 중심과 작위·시설의 보유자는 각각 정치층과 권리 원장에 기록된다.",
+        "en": "The opening political map distinguishes the Government centered on Cheong Wa Dae in northern Seoul, the Gauge centered in the western area south of the Han, and the religious union centered in the Gangnam area south of the Han. The Central Intelligence Bureau remains independent and neutral. The sixteen founding-state identities continue through their recorded affiliations within the three factions or as neutral. Political centers mark the factions; title and facility registers record their respective holders and rights."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "십육국을-구-위에-얹기-table2",
+      "columns": [
+        {
+          "ko": "안정 ID",
+          "en": "Stable ID"
+        },
+        {
+          "ko": "존속하는 국가 정체성",
+          "en": "Continuing state identity"
+        },
+        {
+          "ko": "개막 소속",
+          "en": "Opening affiliation"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "S06",
+            "en": "S06"
+          },
+          {
+            "ko": "대한민국정부",
+            "en": "Government of the Republic of Korea"
+          },
+          {
+            "ko": "대한민국정부",
+            "en": "Government"
+          }
+        ],
+        [
+          {
+            "ko": "S01",
+            "en": "S01"
+          },
+          {
+            "ko": "수문국",
+            "en": "The Sluice"
+          },
+          {
+            "ko": "규격맹",
+            "en": "Gauge"
+          }
+        ],
+        [
+          {
+            "ko": "S02",
+            "en": "S02"
+          },
+          {
+            "ko": "규격맹",
+            "en": "The Gauge"
+          },
+          {
+            "ko": "규격맹",
+            "en": "Gauge"
+          }
+        ],
+        [
+          {
+            "ko": "S07",
+            "en": "S07"
+          },
+          {
+            "ko": "환적국",
+            "en": "The Junction"
+          },
+          {
+            "ko": "대한민국정부",
+            "en": "Government"
+          }
+        ],
+        [
+          {
+            "ko": "S05",
+            "en": "S05"
+          },
+          {
+            "ko": "동방사",
+            "en": "Eastern Command"
+          },
+          {
+            "ko": "대한민국정부",
+            "en": "Government"
+          }
+        ],
+        [
+          {
+            "ko": "S03",
+            "en": "S03"
+          },
+          {
+            "ko": "태욱그룹",
+            "en": "Taeuk Group"
+          },
+          {
+            "ko": "규격맹",
+            "en": "Gauge"
+          }
+        ],
+        [
+          {
+            "ko": "S09",
+            "en": "S09"
+          },
+          {
+            "ko": "여의도출자연합회",
+            "en": "Yeouido Investors' Association"
+          },
+          {
+            "ko": "규격맹",
+            "en": "Gauge"
+          }
+        ],
+        [
+          {
+            "ko": "S13",
+            "en": "S13"
+          },
+          {
+            "ko": "흰십자단",
+            "en": "White Cross"
+          },
+          {
+            "ko": "대한민국정부",
+            "en": "Government"
+          }
+        ],
+        [
+          {
+            "ko": "S14",
+            "en": "S14"
+          },
+          {
+            "ko": "아관사",
+            "en": "Achasan Gate"
+          },
+          {
+            "ko": "대한민국정부",
+            "en": "Government"
+          }
+        ],
+        [
+          {
+            "ko": "S12",
+            "en": "S12"
+          },
+          {
+            "ko": "신내운수",
+            "en": "Sinnae Transport"
+          },
+          {
+            "ko": "대한민국정부",
+            "en": "Government"
+          }
+        ],
+        [
+          {
+            "ko": "S04",
+            "en": "S04"
+          },
+          {
+            "ko": "명부교회",
+            "en": "Myeongbu Church"
+          },
+          {
+            "ko": "종교 연합",
+            "en": "Religious union"
+          }
+        ],
+        [
+          {
+            "ko": "S15",
+            "en": "S15"
+          },
+          {
+            "ko": "명동대교구",
+            "en": "Myeongdong Archdiocese"
+          },
+          {
+            "ko": "종교 연합",
+            "en": "Religious union"
+          }
+        ],
+        [
+          {
+            "ko": "S10",
+            "en": "S10"
+          },
+          {
+            "ko": "안국총림",
+            "en": "Anguk Order"
+          },
+          {
+            "ko": "대한민국정부",
+            "en": "Government"
+          }
+        ],
+        [
+          {
+            "ko": "S11",
+            "en": "S11"
+          },
+          {
+            "ko": "성하그룹",
+            "en": "Seongha Group"
+          },
+          {
+            "ko": "대한민국정부",
+            "en": "Government"
+          }
+        ],
+        [
+          {
+            "ko": "S08",
+            "en": "S08"
+          },
+          {
+            "ko": "중앙정보부",
+            "en": "Central Intelligence Bureau"
+          },
+          {
+            "ko": "중립",
+            "en": "Neutral"
+          }
+        ],
+        [
+          {
+            "ko": "S16",
+            "en": "S16"
+          },
+          {
+            "ko": "정동노총",
+            "en": "Jeongdong Federation"
+          },
+          {
+            "ko": "종교 연합",
+            "en": "Religious union"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "십육국을-구-위에-얹기-p3-ko-label-12",
+      "text": {
+        "ko": "나. 역 사용과 별도 권리",
+        "en": "B. Station use and separate rights"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "십육국을-구-위에-얹기-p3",
+      "text": {
+        "ko": "개막 정치층은 현재 소속 기록을 따르고, 역 내부와 지표의 권리는 각각의 원장에 기록된다. 시청역에서는 대한민국정부와 정동노총이 함께 역을 사용하며, 역 기록상 경비와 통행증 업무는 대한민국정부 청사 경비대가 우선 맡는다. 주변 동의 보유권은 각 동의 기록을 따른다. 종전 영토 원장에는 당시 역 지표 통제 항목 311건이 기술 집계로 실렸다.",
+        "en": "The opening political layer follows the current affiliation record; station interiors and surface rights follow their separate records. At City Hall Station, the Government and the Jeongdong Federation share use; the Government Complex Seoul guard handles security and passage permits first under the station record. Holdings in nearby dong follow their own records. The earlier territory register contained 311 station surface-control entries as a technical record of that edition."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "노드와-층",
+      "depth": 2,
+      "text": {
+        "ko": "노드와 층",
+        "en": "Nodes and Layers"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "노드와-층-p1-ko-label-13",
+      "text": {
+        "ko": "가. 거점의 층",
+        "en": "A. Stronghold layers"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "노드와-층-p1",
+      "text": {
+        "ko": "역 거점은 여러 개의 수직 층으로 나뉜다. 대합실, 환승 통로, 심층 터널 등 각 층은 맡은 역할과 위험이 서로 다르다.",
+        "en": "The single stronghold called a station divided into several vertical layers. Concourse, transfer corridors, deep tunnels — each layer carried its own role and its own lurking dangers."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "노드와-층-table2",
+      "columns": [
+        {
+          "ko": "층",
+          "en": "Layer"
+        },
+        {
+          "ko": "하는 일",
+          "en": "Work"
+        },
+        {
+          "ko": "위험",
+          "en": "Risk"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "지상 폐허",
+            "en": "Surface ruins"
+          },
+          {
+            "ko": "채집, 태양광, 관측",
+            "en": "Gathering, solar power, observation"
+          },
+          {
+            "ko": "기후, 붕괴",
+            "en": "Weather, collapse"
+          }
+        ],
+        [
+          {
+            "ko": "역사 대합실",
+            "en": "Station concourse"
+          },
+          {
+            "ko": "시장, 주거, 행정",
+            "en": "Markets, habitation, administration"
+          },
+          {
+            "ko": "과밀, 화재",
+            "en": "Crowding, fire"
+          }
+        ],
+        [
+          {
+            "ko": "승강장·선로",
+            "en": "Platform · tracks"
+          },
+          {
+            "ko": "이동, 방어, 화물",
+            "en": "Movement, defense, freight"
+          },
+          {
+            "ko": "병목, 매복",
+            "en": "Bottlenecks, ambush"
+          }
+        ],
+        [
+          {
+            "ko": "환승 통로",
+            "en": "Transfer corridors"
+          },
+          {
+            "ko": "노선 사이 정치·물류",
+            "en": "Politics and logistics between lines"
+          },
+          {
+            "ko": "봉쇄, 통행세",
+            "en": "Blockades, transit tolls"
+          }
+        ],
+        [
+          {
+            "ko": "심층 터널",
+            "en": "Deep tunnels"
+          },
+          {
+            "ko": "은밀 이동, 정비",
+            "en": "Covert movement, maintenance"
+          },
+          {
+            "ko": "침수, 통신 단절",
+            "en": "Flooding, communications loss"
+          }
+        ],
+        [
+          {
+            "ko": "차량기지 인접",
+            "en": "Depot-adjacent"
+          },
+          {
+            "ko": "수리, 대형 저장",
+            "en": "Repair, bulk storage"
+          },
+          {
+            "ko": "공성, 화재",
+            "en": "Siege, fire"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "노드와-층-p3-ko-label-14",
+      "text": {
+        "ko": "나. 통로의 상태",
+        "en": "B. Passage states"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "노드와-층-p3",
+      "text": {
+        "ko": "층과 층, 역과 역을 잇는 통로는 붕괴·침수·통제·봉쇄 등 사건에 따라 상태가 변한다. 물류와 생존자의 이동은 통로의 상태를 따라간다.",
+        "en": "The passages joining layer to layer and station to station changed state without pause as events — collapse, flooding, control, blockade — passed over them, and this bore directly on logistics and on the survivors' movement."
+      }
+    }
+  ],
+  "data": {}
+}

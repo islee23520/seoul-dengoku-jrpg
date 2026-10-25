@@ -1,0 +1,833 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G20",
+  "slug": "Hostile-Group-G20",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G20]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G20 · Iron-Clicker",
+      "summary": "G20 · Iron-Clicker",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G20 · 철컥이",
+      "summary": "G20 · 철컥이",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G20-generated-G20-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G20-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G20 · 철컥이",
+        "en": "G20 · Iron-Clicker"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G20-generated-G20-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G20-generated-G20-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G20-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G20-generated-G20-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "주된 자리는 뚝섬 연합 명부교회 선반 하부 도크 가장자리의 볼트 구멍과 필릿 용접 토우다. 국지 수증기 안개가 짙은 주에는 반입 접지 코일 이음에 철편이 이어진다. 소금이 묻은 노량진 보관 식량의 포장 파편이 그 구멍에 끼여 있다. 철편이 맞닿는 곳마다 철컥 소리가 난다.",
+        "en": "Its main sites are bolt holes and fillet-weld toes at the dock edge beneath the shelves of Myeongbu Church in the Ttukseom Union. During weeks of thick local vapor fog, metal flakes extend into joints of incoming ground coils. Salty packing fragments from food stored at Noryangjin are wedged in those holes. A click sounds wherever the flakes meet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G20-generated-G20-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "불가사리 입가에 볼트와 철판이 모인다. 두두리는 웨브 판을 두드리는 자리에 있다. 외발도깨비는 한 발이 딛는 앵글에 있다. 셋의 철편은 같은 볼트선에서 맞닿아 철컥 소리를 낸다.",
+        "en": "Bolts and plates gather at Bulgasari's mouth. Duduri is at the place where it strikes the web plate. The One-legged Dokkaebi is on the angle where one foot stands. The flakes of the three meet on the same bolt line and sound a click."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G20-generated-G20-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G20-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G20-generated-G20-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "도크 야간 당직이 뚝섬 연합 명부교회 선반 하부 도크 가장자리에서 철컥이를 처음 본다. 국지 수증기 안개가 짙은 주의 밤이다. 도크 가장자리 볼트 구멍에 얇은 철편이 겹쳐 있으며 필릿 용접 토우에도 같은 철편이 걸쳐 있다. 국지 수증기 안개가 철편 사이에 맺혀 있다. 철편이 맞닿는 곳마다 철컥 소리가 난다. 도크 야간 당직의 작업등이 용접 토우를 비춘다. / 같은 자리에서 철컥이의 몸이 필릿 용접 토우에 엎드려 있다. 가슴과 갈비에 얇은 철편이 겹쳐 있다. 목에서 철컥 소리가 난다. 플랜지 볼트 머리가 입 앞에 쌓여 있다. 볼트가 빠진 플랜지가 입 쪽에 있다.",
+            "en": "The dock night duty first sees an Iron-Clicker at the dock edge under the shelves of Myeongbu Church in the Ttukseom Union. It is a night during a week of thick local vapor fog. Thin iron flakes lie layered in the bolt holes of the dock edge, and the same flakes lie across the fillet-weld toe. Local vapor fog beads between the flakes. A click sounds wherever the flakes meet. The dock night duty's work light falls on the weld toe. / At the same place the Iron-Clicker's body lies prone on the fillet-weld toe. Thin iron flakes lie layered on the chest and the ribs. A click sounds from the throat. Flange bolt heads are piled in front of the mouth. The flange with the bolts gone is on the mouth side."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "뚝섬 연합 명부교회 선반 하부 도크 가장자리에 철컥이가 모인다. 국지 수증기 안개가 짙은 주의 밤이다. 볼트 구멍에 얇은 철편이 겹쳐 있으며 필릿 용접 토우에도 같은 철편이 걸쳐 있다. 국지 수증기 안개가 철편 사이에 맺혀 있다. 철편이 맞닿는 곳마다 철컥 소리가 난다. 도크 야간 당직의 작업등이 용접 토우를 비춘다. / 난방 운전이 바뀐 밤, 도크 야간 당직은 하부 플랜지와 웨브 판에서 같은 철컥이를 본다. 불가사리가 하부 플랜지 한가운데 엎드려 있다. 코가 볼트선 쪽으로 길며 등판이 플랜지 위로 두껍다. 입에 볼트 머리와 명부 철판 모서리가 물려 있다. 가슴과 갈비와 발톱 사이에 얇은 철편이 겹쳐 있다. 두두리가 불가사리 앞 웨브 판에 등을 대고 있다. 어깨가 판을 두드리며 판 전체에서 소리가 난다. 두드리는 소리 뒤로 철편이 맞닿는 철컥 소리가 난다. / 같은 밤, 외발도깨비가 도크 난간 하부 앵글에 한 발로 서 있다. 발바닥이 볼트 머리 두 개에 걸쳐 있으며 손의 쇠막대가 필릿 용접 토우에 걸쳐 있다. 앵글의 다음 구멍에도 같은 발의 물기가 있다. 쇠막대 끝의 철편에서 철컥 소리가 난다. 도크 야간 당직이 선반 하부 통로에 쇄정을 건다. 작업등과 토크 렌치가 상부 선반에 있다. 예비 와셔가 용접 토우의 철편 더미에 섞여 있다. 상부 선반의 손전등이 필릿 용접 토우의 철편 위에 있다.",
+            "en": "Iron-Clickers gather at the dock edge under the shelves of Myeongbu Church in the Ttukseom Union. It is a night during a week of thick local vapor fog. Thin iron flakes lie layered in the bolt holes, and the same flakes lie across the fillet-weld toe. Local vapor fog beads between the flakes. A click sounds wherever the flakes meet. The dock night duty's work light falls on the weld toe. / On a night after heating operation has changed, the dock night duty sees the same Iron-Clicker at the lower flange and at the web plate. Bulgasari lies prone at the middle of the lower flange. The snout is long toward the bolt line, and the back plate is thick above the flange. Bolt heads and the edges of register plates are held in the mouth. Thin iron flakes lie layered over the chest, the ribs, and between the claws. Duduri has its back against the web plate in front of Bulgasari. The shoulder strikes the plate, and the sound comes from the whole plate. After the striking sound comes the click of flakes meeting. / On that same night the One-legged Dokkaebi stands on one foot on the angle under the dock rail. The sole spans two bolt heads, and the iron bar in the hand lies across the fillet-weld toe. Moisture from the same foot marks the next hole in the angle as well. A click sounds from the flakes at the end of the iron bar. The dock night duty bars the lower shelf passage. The work light and the torque wrench are on the upper shelf. Spare washers are mixed into the flake pile at the weld toe. The flashlight of the upper shelf is above the flakes of the fillet-weld toe."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "명부 철판과 플랜지 볼트와 예비 와셔가 불가사리 입가에 모여 있다. 소금이 묻은 노량진 보관 식량의 포장 띠가 같은 볼트 구멍에 끼여 있다. 마포 연합 여의도출자연합회 접지 코일이 도크 반입구에 놓여 있다.",
+            "en": "Register plates, flange bolts and spare washers gather at Bulgasari’s mouth. Salty packing bands from Noryangjin stored food are wedged in the same bolt holes. A ground coil from the Mapo Union’s Yeouido Investment Federation lies at the dock intake."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "벽 쪽 철판에 손이 닿아 있고 판에서 두드리는 소리가 난다. 같은 몸이 필릿 용접 토우에 엎드려 있다. 목에서 철컥 소리가 난다. 가슴에는 벽판의 얇은 철편이 겹쳐 있다.",
+            "en": "A hand is on the wall-side plate, and a knocking sound comes from the plate. The same body lies prone on the fillet-weld toe. A click sounds from the throat. Thin flakes from the wall plate lie layered on the chest."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "철컥이의 가슴은 크레인 진동이 내려오는 거더 쪽이다. 얼굴은 강재와 접지 구리선이 맞닿은 필릿 용접 토우 쪽이다. 입은 볼트 머리가 남은 구멍 쪽이다. 외발도깨비의 발은 앵글의 쇠가 겹친 쪽이다.",
+            "en": "The Iron-Clicker's chest is toward the girder where the crane's vibration comes down. The face is toward the fillet-weld toe where the steel and the grounding copper meet. The mouth is toward the holes that still hold bolt heads. The One-legged Dokkaebi's foot is toward the side where the angle's iron overlaps."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "불가사리는 하부 플랜지 한가운데 있다. 두두리는 불가사리 앞 웨브에 있다. 외발도깨비는 도크 가장자리 앵글에 있다. 나머지 철컥이는 볼트선을 따라 한 구멍씩 떨어져 있다.",
+            "en": "Bulgasari is at the middle of the lower flange. Duduri is on the web in front of Bulgasari. The One-legged Dokkaebi is on the angle at the dock edge. The other Iron-Clickers stand off along the bolt line, one hole apart."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G20-generated-G20-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G20-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G20-generated-G20-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "불가사리가 있는 플랜지 한가운데를 축으로 철컥이가 볼트선을 따라 늘어서 있다. 두두리는 축 앞 웨브에 있다. 외발도깨비는 줄의 끝 앵글에 있다. 상부 선반의 작업등이 그 줄을 비춘다.",
+        "en": "With the mid-flange where Bulgasari is as the axis, the Iron-Clickers stand along the bolt line. Duduri is on the web in front of the axis. The One-legged Dokkaebi is on the angle at the end of the line. The work light of the upper shelf falls on that line."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G20-generated-G20-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G20E01 · 불가사리",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G20",
+                  "anchor": "g20e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G20E01 · Bulgasari",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G20",
+                  "anchor": "g20e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "플랜지 한가운데에서 철판과 볼트가 모이는 자리",
+            "en": "The place at mid-flange where plates and bolts gather"
+          },
+          {
+            "ko": "보스",
+            "en": "Boss"
+          },
+          {
+            "ko": "M031",
+            "en": "M031"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G20E08 · 두두리",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G20",
+                  "anchor": "g20e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G20E08 · Duduri",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G20",
+                  "anchor": "g20e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "두두리가 웨브 판을 두드리는 자리",
+            "en": "The position from which Duduri strikes the web plate"
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M032",
+            "en": "M032"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G20E15 · 외발도깨비",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G20",
+                  "anchor": "g20e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G20E15 · One-legged Dokkaebi",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G20",
+                  "anchor": "g20e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "외발도깨비가 한 발 폭의 앵글에 서는 자리",
+            "en": "The position where the One-legged Dokkaebi stands on an angle one foot wide"
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M032",
+            "en": "M032"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G20-generated-G20E01-title-heading-1",
+      "publicAnchors": [
+        "g20e01",
+        "Hostile-Group-G20-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G20E01 · 불가사리",
+        "en": "G20E01 · Bulgasari"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G20-generated-G20E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M031",
+          "en": "Source batch: M031"
+        },
+        {
+          "ko": "기존 역할군: 보스",
+          "en": "Former role class: Boss"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP06\"],\"states\":[\"S04\",\"S09\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HP06\"],\"states\":[\"S04\",\"S09\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G20-generated-G20E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "플랜지 한가운데에서 철판과 볼트가 모이는 자리",
+            "en": "The place at mid-flange where plates and bolts gather"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "뚝섬 연합 명부교회 선반 하부 도크의 하부 플랜지 한가운데에 있다.",
+            "en": "It is at the middle of the lower flange of the dock under the shelves of Myeongbu Church in the Ttukseom Union."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M031-entries-5-prose-03993",
+      "items": [
+        {
+          "ko": "불가사리가 명부교회 선반 하부 도크의 플랜지 한가운데 엎드려 있다.",
+          "en": "Bulgasari lies prone at the middle of the flange of the dock under the shelves of Myeongbu Church."
+        },
+        {
+          "ko": "코가 볼트선으로 길며 등판이 플랜지 위로 솟아 있다.",
+          "en": "The snout is long along the bolt line, and the back plate rises above the flange."
+        },
+        {
+          "ko": "입에는 볼트 머리와 명부 철판이 물려 있다.",
+          "en": "Bolt heads and register plates are held in the mouth."
+        },
+        {
+          "ko": "가슴과 발톱 사이에 얇은 철편이 겹쳐 있으며 덮인 폭이 플랜지보다 넓다.",
+          "en": "Thin iron flakes lie layered over the chest and between the claws, and the covered width is greater than the flange."
+        },
+        {
+          "ko": "거더가 울리면 가슴의 철편에서 철컥 소리가 난다.",
+          "en": "When the girder sounds, a click comes from the flakes on the chest."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G20-generated-G20E08-title-heading-1",
+      "publicAnchors": [
+        "g20e08",
+        "Hostile-Group-G20-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G20E08 · 두두리",
+        "en": "G20E08 · Duduri"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G20-generated-G20E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M032",
+          "en": "Source batch: M032"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP06\"],\"states\":[\"S04\",\"S09\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HP06\"],\"states\":[\"S04\",\"S09\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G20-generated-G20E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "두두리가 웨브 판을 두드리는 자리",
+            "en": "The position from which Duduri strikes the web plate"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "같은 도크의 플랜지 앞 웨브에 있다.",
+            "en": "It is on the web in front of the flange of the same dock."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M032-entries-2-prose-04000",
+      "items": [
+        {
+          "ko": "두두리가 플랜지 앞 웨브 판에 둥근 등을 대고 있다.",
+          "en": "Duduri has its round back against the web plate in front of the flange."
+        },
+        {
+          "ko": "어깨가 판을 두드리며 판의 철편이 어긋나 있다.",
+          "en": "The shoulder strikes the plate, and the flakes of the plate are shifted."
+        },
+        {
+          "ko": "두드리는 소리 뒤로 철컥 소리가 난다.",
+          "en": "After the striking sound, a click sounds."
+        },
+        {
+          "ko": "팔의 털에 철가루가 붙어 있으며 무릎이 하부 볼트선에 걸려 있다.",
+          "en": "Iron dust clings to the hair of the arms, and the knees are caught on the lower bolt line."
+        },
+        {
+          "ko": "두두리의 등 뒤에서 와이어가 웨브에 닿아 있다.",
+          "en": "Behind Duduri's back the wire meets the web."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G20-generated-G20E15-title-heading-1",
+      "publicAnchors": [
+        "g20e15",
+        "Hostile-Group-G20-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G20E15 · 외발도깨비",
+        "en": "G20E15 · One-legged Dokkaebi"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G20-generated-G20E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M032",
+          "en": "Source batch: M032"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"F04\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"F04\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G20-generated-G20E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "외발도깨비가 한 발 폭의 앵글에 서는 자리",
+            "en": "The position where the One-legged Dokkaebi stands on an angle one foot wide"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "같은 도크의 난간 하부 앵글 끝에 있다.",
+            "en": "It is at the end of the angle under the rail of the same dock."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M032-entries-9-prose-04007",
+      "items": [
+        {
+          "ko": "외발도깨비가 도크 난간 하부 앵글에 한 발로 서 있다.",
+          "en": "The One-legged Dokkaebi stands on one foot on the angle under the dock rail."
+        },
+        {
+          "ko": "발바닥이 볼트 두 개에 걸쳐 있으며 앵글은 그 발 폭이다.",
+          "en": "The sole spans two bolts, and the angle is the width of that foot."
+        },
+        {
+          "ko": "손의 쇠막대가 필릿 용접 토우에 걸쳐 있다.",
+          "en": "The iron bar in the hand lies across the fillet-weld toe."
+        },
+        {
+          "ko": "다음 볼트 구멍에 같은 발의 물기가 있다.",
+          "en": "The wet of the same foot is in the next bolt hole."
+        },
+        {
+          "ko": "쇠막대 끝에서 철컥 소리가 나며 줄의 맨 끝에 그 발이 있다.",
+          "en": "A click sounds from the end of the iron bar, and that foot is at the very end of the line."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G20-generated-G20-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G20-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-20-dossier_prose-01550",
+      "text": {
+        "ko": "국지 수증기 안개가 짙은 주의 밤에는 선반 하부 도크의 강재가 젖어 있다. 볼트 구멍의 철편 사이에 노량진 보관 식량의 포장 파편이 끼여 있고 소금기가 하얗게 남아 있다. 파편이 끼인 구멍에서 철컥 소리가 난다.",
+        "en": "On nights in weeks of thick local vapor fog, the dock steel beneath the shelves is wet. Packing fragments from Noryangjin stored food are wedged between flakes in the bolt holes, with white salt residue on them. Clicks come from the holes containing the fragments."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-20-dossier_prose-01551",
+      "text": {
+        "ko": "도크 반입구에 접지 코일이 놓여 있다. 코일의 구리선이 도크 강재 필릿에 닿아 있으며 닿은 자리에 철편이 겹쳐 있다. 코일에 마포 연합 여의도출자연합회 표찰이 걸려 있다. 구리와 강재가 맞닿은 자리에서 철컥 소리가 난다.",
+        "en": "A ground coil lies at the dock intake. The coil's copper meets the fillet of the dock steel, and flakes lie layered where they meet. A Mapo Union Yeouido Investment Federation tag hangs on the coil. A click sounds where the copper and the steel meet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-20-dossier_prose-01552",
+      "text": {
+        "ko": "명부교회 선반의 철판이 하부 플랜지에 내려와 있다. 철판의 모서리가 불가사리 입에 물려 있으며 남은 철판이 가슴의 철편 아래에 깔려 있다. 철판의 구멍은 플랜지 볼트선과 맞닿아 있다.",
+        "en": "Iron plates from the shelves of Myeongbu Church are down on the lower flange. The edges of the plates are held in Bulgasari's mouth, and the remaining plates lie under the flakes of the chest. The holes of the plates meet the flange bolt line."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-20-dossier_prose-01553",
+      "text": {
+        "ko": "나머지 철컥이는 볼트선을 따라 구멍 하나씩 떨어져 서 있다. 불가사리는 플랜지 한가운데 엎드려 있고, 외발도깨비는 끝 구멍의 앵글에 한 발로 서 있다. 두두리의 무릎이 줄 앞 하부 볼트에 걸려 있다.",
+        "en": "The other Iron-Clickers stand along the bolt line one hole apart. Bulgasari lies prone at the middle of the flange, and the One-legged Dokkaebi stands on one foot on the angle at the last hole. Duduri's knee is caught on the lower bolt in front of the line."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-20-dossier_prose-01554",
+      "text": {
+        "ko": "크레인 훅이 거더 위에 있으며 와이어가 웨브에 닿아 있다. 와이어가 판에 스칠 때마다 두두리의 등과 철편에서 소리가 겹친다. 훅의 안전핀이 상부 선반 함에 있다.",
+        "en": "The crane hook is above the girder, and the wire meets the web. Each time the wire brushes the plate, the sound from Duduri's back and the sound from the flakes fall together. The hook's safety pin is in the upper-shelf box."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-20-dossier_prose-01555",
+      "text": {
+        "ko": "선반 하부 쇄정에 뚝섬 연합 자물쇠가 걸려 있다. 도크 야간 당직의 손이 상부 선반 함의 크레인 키 위에 있다. 함 뚜껑의 철편이 키 옆에 한 장 놓여 있다.",
+        "en": "A Ttukseom Union lock hangs on the lower-shelf bar. The dock night duty's hand is on the crane key in the upper-shelf box. One flake from the box lid lies beside the key."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-20-dossier_prose-01556",
+      "text": {
+        "ko": "하부 발판이 상부 선반에 포개져 있으며 선반 당직의 장화가 그 발판 위에 나란하다. 야간 순찰의 손전등이 상부 난간에 걸려 있다. 상부 난간의 볼트선은 가득하다.",
+        "en": "The lower treads are stacked on the upper shelf, and the shelf duty's boots stand in a row on those treads. The night patrol's flashlight hangs on the upper rail. The bolt line of the upper rail is full."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-20-dossier_prose-01557",
+      "text": {
+        "ko": "도크 난간에서 빠진 볼트가 용접 토우의 철편 더미에 있다. 도크 야간 당직의 예비 장화가 그 더미에 묻혀 있다. 예비 장화의 목이 철편 위로 나와 있다.",
+        "en": "Bolts out of the dock rail are in the flake pile at the weld toe. The dock night duty's spare boots are buried in that pile. The collars of the spare boots stand up above the flakes."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "Its main sites are bolt holes and fillet-weld toes at the dock edge beneath the shelves of Myeongbu Church in the Ttukseom Union. During weeks of thick local vapor fog, metal flakes extend into joints of incoming ground coils. Salty packing fragments from food stored at Noryangjin are wedged in those holes. A click sounds wherever the flakes meet.",
+        "ko": "주된 자리는 뚝섬 연합 명부교회 선반 하부 도크 가장자리의 볼트 구멍과 필릿 용접 토우다. 국지 수증기 안개가 짙은 주에는 반입 접지 코일 이음에 철편이 이어진다. 소금이 묻은 노량진 보관 식량의 포장 파편이 그 구멍에 끼여 있다. 철편이 맞닿는 곳마다 철컥 소리가 난다."
+      },
+      "variants": [
+        {
+          "id": "G20E01",
+          "source_batch": "M031"
+        },
+        {
+          "id": "G20E08",
+          "source_batch": "M032"
+        },
+        {
+          "id": "G20E15",
+          "source_batch": "M032"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

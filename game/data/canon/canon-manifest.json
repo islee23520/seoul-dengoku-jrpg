@@ -1,0 +1,404 @@
+{
+  "manifest_version": 1,
+  "source_corpus": "current",
+  "selection": null,
+  "imported_count": 44,
+  "entries": [
+    {
+      "document_id": "DOC:Ailments",
+      "domain": "ailments",
+      "slug": "ailments",
+      "status": "approved",
+      "revision": "03bfbd70facac0c00cab4be889ce68604a9083062ef61952fa5494c4e9d1a9d6",
+      "source_sha256": "e03e7495ba5536acaa1e5ddff169b43032e1816303336217836549bd9c34abc5",
+      "sha256": "b6c7dde76524c38de000ff95a14737a4c50df1c917837389932ddbe1c35fc2f8"
+    },
+    {
+      "document_id": "DOC:Hostile-Ecology-Index",
+      "domain": "bestiary",
+      "slug": "Hostile-Ecology-Index",
+      "status": "approved",
+      "revision": "a11a3c23587eaff5f784f105dbb97ab204307167afbf0e14b0f99352530cddf2",
+      "source_sha256": "46c17ba7d2f4bfa579955bcd7d9e421002c53f2c40ada6c571bb52e3e9b5fc0e",
+      "sha256": "3afef80b021ffea9a360dc36093c87d9c772ee771c1caa5b9675a7292580ef14"
+    },
+    {
+      "document_id": "G01",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G01",
+      "status": "approved",
+      "revision": "853b062b654b91943ebc169f4c34ffb0dd54c669886b2fd62a56afd2cc0914b4",
+      "source_sha256": "86e1882e8352c5f206fb53bc983efae881158ea55b24e33581b1fcf76b2c5fff",
+      "sha256": "26a0d440b4c53121c2325c3020dbb5c5d7dccae00b8ab56b6e72f7ed8e0d2268"
+    },
+    {
+      "document_id": "G02",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G02",
+      "status": "approved",
+      "revision": "7d7bd929bf501a38b3bc121387f0f8da8bdf465684721677335cf731a030c2b9",
+      "source_sha256": "132d31e259ff5a7e4c8daebd33251d73bbd3f167519543589beba391961a7895",
+      "sha256": "3b9ddcc52cd86a6f5d8abe45b731554dcc260cfddc35419d5eef788aeb23c6c2"
+    },
+    {
+      "document_id": "G03",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G03",
+      "status": "approved",
+      "revision": "81729071a67ad81625f2a70842c8e5d1149f438cc725a0024088f0bc4d18cf98",
+      "source_sha256": "e806e6af9fc8f53c7262c00d0146011f4263a2dc2895da2a4b9f7ce074f0e91f",
+      "sha256": "1be12e750ee46c7f2c928dcc9a5eaaabdb13ba4127e07ef6030eeba13cd4e4c8"
+    },
+    {
+      "document_id": "G04",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G04",
+      "status": "approved",
+      "revision": "d0ad5636b1aa0a2f027b55192cbb27fbe1404c4e7ee25781001b324ef2b2811c",
+      "source_sha256": "8c77637fd867f8d9f26b5e54c403adcffe1688ac57cf020b5b6d32323b5fc963",
+      "sha256": "a59f2e63dc323fb84da6bc9580e2e8630edfa5881b76d93ce9c9f112c61db120"
+    },
+    {
+      "document_id": "G05",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G05",
+      "status": "approved",
+      "revision": "1d08e6b3aae0be9fb35ed205ad6f8c0f8d097e49615a52f0cb0698801919d7d9",
+      "source_sha256": "8b6450a06bf1a23419566a17f4a41e14949fb6741c23771a2ffd0a9f3d2a3d41",
+      "sha256": "0c4f1ef2f3061c2c9aa28f73006303b464af9883f6c2172925222e7a9d1a4063"
+    },
+    {
+      "document_id": "G06",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G06",
+      "status": "approved",
+      "revision": "77624024cad02bf5ba4e4402260570f2919e2a2f179f2b6694a9ab3f2ff39d31",
+      "source_sha256": "594177b1ec7412069f834894288a79e4ea9ebee4f752a3f735e55e0030784fe2",
+      "sha256": "40bf099d58ca17ec5bd47ba2d94410c02ea6f5e8296ab20827812c99c6d31a42"
+    },
+    {
+      "document_id": "G07",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G07",
+      "status": "approved",
+      "revision": "e1823444b1c1d755e465995e6e716f8049a7819d515fcf448a9e9e5de7cac885",
+      "source_sha256": "19ac8fe627f95dbd56d3c67dd967d7bd96e6139ab60dfa01b7109110e445eccf",
+      "sha256": "48631139d84ef81a04b354117a60e6c1084d7c8030a7494cdf70a02b0f126ba0"
+    },
+    {
+      "document_id": "G08",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G08",
+      "status": "approved",
+      "revision": "731e8075648c7d516836031988eda870fe3c7bf5f1a7aeac9062f5fa60d1ac26",
+      "source_sha256": "4e4d7ccbb6482dc356771b537bbe1be105d3b6909a519d0f0a4acfbca947e713",
+      "sha256": "41c4c192a5a6367aed0f395ca4d33e9876d4fd9939bdc05b24ccac22f684a6f4"
+    },
+    {
+      "document_id": "G09",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G09",
+      "status": "approved",
+      "revision": "8be7c416b425593f94c384136187f1228388417aaca05e951c93e6c13787dbdd",
+      "source_sha256": "0a22507a540e26bbbf4bea4fd66a850f62bcb55ad6718372d8eb242666249c3c",
+      "sha256": "53d355cee49d229701dec4cf415df1438902a61e629b89c84244adee442dd0c6"
+    },
+    {
+      "document_id": "G10",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G10",
+      "status": "approved",
+      "revision": "c5a7fffc8f3b35853dfcdc75e9c1f295b388c2d0be5dfd9e51677492a31f09aa",
+      "source_sha256": "72985601a43ed281527fc84b9b53ddf32908e54757264a53488ee7c24ac2fa94",
+      "sha256": "895327707f8cffcc35ff4d9995e8e13d7370a3b4b6f3e804aad06ec1051f1bea"
+    },
+    {
+      "document_id": "G11",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G11",
+      "status": "approved",
+      "revision": "dcc51103bab20ce49b121b0f5807b39e9ae73c345f7078708ea5f95d30f119f9",
+      "source_sha256": "6ab6d8d750b7588aa6aaf3cf865d45c36a38968117f7fdcae12e276f3a99cffb",
+      "sha256": "e96bbb556029d20776bb642f1d5933c945cf931d6ca58fe3747ef8c5073dffa3"
+    },
+    {
+      "document_id": "G12",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G12",
+      "status": "approved",
+      "revision": "ff59e0120127124fc418c6429d1fedd72f8660aedf8ef921a8453ab183f96292",
+      "source_sha256": "784302cd79c537e261497b77c3b4bc8c89fe473df58a626689432ca9a20eae86",
+      "sha256": "3d815425a546e01034a687e30af4ab3d37e15987ef2efeb3ffdfd06b28106084"
+    },
+    {
+      "document_id": "G13",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G13",
+      "status": "approved",
+      "revision": "11f286f4f339893c9ea829108a997999000c4cc1f66771e401031d4b6171a4ca",
+      "source_sha256": "50b111accde03a8072918681fb2dded9164f4e90b4dd632eb47c09165ce77f18",
+      "sha256": "f9334820985e49322591beafd8b8675fc20871da8c80332161d52d1df11d9972"
+    },
+    {
+      "document_id": "G14",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G14",
+      "status": "approved",
+      "revision": "6027700deeb6b449e6bfdbf5456524eff1ec79c5ce31346bf4c5260441deaadf",
+      "source_sha256": "112ea11d4892cda956acfb44e1d5c79d5e9f3a74bb9b446b16fece3cf77b1570",
+      "sha256": "31f12e61d55a5ba6577d35fc4ca9372bf36211e30400d7772d99cbc5c1d84205"
+    },
+    {
+      "document_id": "G15",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G15",
+      "status": "approved",
+      "revision": "702ffca3b1c33dabd9efdf209730fea99c048813061ee40eece335c457f4af28",
+      "source_sha256": "a4d89f83bc4cbfabbc77c34c893a0837ed9e0bba19a4f0593c9b655814c1ed26",
+      "sha256": "986d4ccbab578a792ce262f7bfec78d6e9bd353b8ddc453be2abeeb796b02b44"
+    },
+    {
+      "document_id": "G16",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G16",
+      "status": "approved",
+      "revision": "64ccfbc14edcc910dab7b578cba74fed0f5c532c2e768bb55307c21263696fe9",
+      "source_sha256": "cf0e533ed38aaaa80c1ba35e018cd9a2cfbb624118d66899ee65246fdfb1ea4d",
+      "sha256": "c3a0f1f10d6f91f121289c7c752ee08ef9d26a320025dbc11d6fefa2eed2db6a"
+    },
+    {
+      "document_id": "G17",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G17",
+      "status": "approved",
+      "revision": "82e30388df8568e8e8003ff01c5d1a1428000befac81420ffb666b390ed4e7d9",
+      "source_sha256": "3a7ff8f89bac25df10d111c82d432cd149da8c41ebd36183d4e4be4c2180b8c2",
+      "sha256": "48a6dbdfa2d97081f347d395f277222e149e9b7e9ce34fcef058013ad898a8e2"
+    },
+    {
+      "document_id": "G18",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G18",
+      "status": "approved",
+      "revision": "9639a865d27540aaed62c6d88d569804368e6aedd50f89817b948e6d45500fb5",
+      "source_sha256": "d2a84d7a6f8a93524dd5a1a931964a57e27128efc00b33ea2645a03d30008605",
+      "sha256": "072bcbcc8134f9660d66a01a03243bfc3a98a6ba6db2f0451d600d046e759b64"
+    },
+    {
+      "document_id": "G19",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G19",
+      "status": "approved",
+      "revision": "a366ae744da77920eeedf3fd92a25cfde762f8437f2994c10f4872cb22d5de19",
+      "source_sha256": "505244c7dfda4eccd8477a5c3a65cd317f961e9a0b296f7e7b1ae5f9b716c4a0",
+      "sha256": "41d0c2a807ee44d2d62ab3ba9effa34e8946ad90891e0f018fb2cd8ef17da869"
+    },
+    {
+      "document_id": "G20",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G20",
+      "status": "approved",
+      "revision": "ac678887026fb353a970f4b4205c677eb5468789344a553357a4e951bf0fb5c7",
+      "source_sha256": "44d891847b900743a6f2a657103aaa73edaf460488bb950b9071ce1a5f09dfb8",
+      "sha256": "b2ec1a580c5ac24b8f8e0800745290154459f5442adfadbc6372d2008f575137"
+    },
+    {
+      "document_id": "G21",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G21",
+      "status": "approved",
+      "revision": "a5343b4bf34bdc0b11a04c94ed806343f622f011970f910efd26e4e096bf82ac",
+      "source_sha256": "ee7073fc6bb908242292ae9482c8d02a0bde350d396ad22bf93cb42fbeaea593",
+      "sha256": "7283f33ad3ff60958d5d72afa8c2fa26fbd7257487921f216cb31ca2df65e3e5"
+    },
+    {
+      "document_id": "G22",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G22",
+      "status": "approved",
+      "revision": "81be4ae7a7f1d0dec5f02671e43d989f4bd9a1b39c2e9097edc0f143ed3b2155",
+      "source_sha256": "4b33c51957f8571110ddf8eaaeaa422f6216871372311c35ecbe666565c2ef21",
+      "sha256": "5bfd34fd8fee02f0a2ff5e075ae061fe28a37b915a266f781258fec179e9d79c"
+    },
+    {
+      "document_id": "G23",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G23",
+      "status": "approved",
+      "revision": "05d2034a4a08eb0a234a597e30fa56380869b367b356bfa9663590797a4be4e1",
+      "source_sha256": "5852a2f64659243419de99af8b2bbd43750456655094e4953c2be8d7ba5b9890",
+      "sha256": "65c449bc07d863e71df2e8c6e197b7aca6072dc08ff44971370b35ea893d867a"
+    },
+    {
+      "document_id": "G24",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G24",
+      "status": "approved",
+      "revision": "6b835fa5ed1fbee0fbb9e714c3a5c2e505d4a84608a97473c7d4cd739afb1e85",
+      "source_sha256": "a0248e03a2eb1bbd479fb63c893b21302d3ef77c9eb7ff2c063a764e281bee8d",
+      "sha256": "cf8260c33361a9605ebdfae47df1423bef33591b019c067c01b53d001e59c108"
+    },
+    {
+      "document_id": "G25",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G25",
+      "status": "approved",
+      "revision": "4f3bd22fdf807777e7554cdefb08ac4eae7cc12bb0ac21b8e19c35af8d5a0bca",
+      "source_sha256": "984e0ca5c35a3ab5512280c231d717988118700ee38102064d287a786ffc5aff",
+      "sha256": "cc765fade34a45e2d10ea7cb6fcf83c9b7c597e391cdd020d0fe9abba9fe6cc1"
+    },
+    {
+      "document_id": "G26",
+      "domain": "bestiary",
+      "slug": "Hostile-Group-G26",
+      "status": "approved",
+      "revision": "5de31160da672d979736a187bda534b31c6ef4aa83a754cf217f90bbe98e1a7e",
+      "source_sha256": "b53ada4a62a983fa79fc935a421e5d5c7afc53d8ca7a6ef8eb90f2468f336a56",
+      "sha256": "e8910a93b99851beff78f9bb70b152636eca5ebc2a489c6f299db2210cbe6271"
+    },
+    {
+      "document_id": "DOC:Cast-Corridors-Index",
+      "domain": "characters",
+      "slug": "cast-corridors-index",
+      "status": "approved",
+      "revision": "cf9c31782f61d2f0aa8fd1e4694ae78b3f9028992f0ef2e5c4270c2723280339",
+      "source_sha256": "f5559d94c835634960ad7b88e7b9fdfdc2995df81efd763658f5aeba3c142917",
+      "sha256": "692f8ec130eb2ab5528c889bf2a42c4a881f3d4f747ba287cc70b73045a8c16b"
+    },
+    {
+      "document_id": "DOC:Characters-Factions-and-Professions",
+      "domain": "characters",
+      "slug": "characters-factions-and-professions",
+      "status": "approved",
+      "revision": "53845743fff433329b817bc5b2850dee606c629913354ce92c7a9d452be0587e",
+      "source_sha256": "25f38dc14f9a62da957e33faf339ccf0d555bec594ccff2e3f60cbcfc2024092",
+      "sha256": "cb4fbd8de227d54e4605c9b515de0d83c3376625e0ed47a2ac283a7c75301f94"
+    },
+    {
+      "document_id": "DOC:Food-Culture",
+      "domain": "culture",
+      "slug": "food-culture",
+      "status": "approved",
+      "revision": "13681fd294b3118d7326c0738fa9983760116fbc574504383f5f6528033f3f79",
+      "source_sha256": "99726219d5d50f3a2d8fb08365c5b3e9ace5a3f4ae87c0cacd333fb5df8f891c",
+      "sha256": "14bebde161ac0a1442aeac354676421f2005b7182ece8853054326e993e00d71"
+    },
+    {
+      "document_id": "DOC:Oral-Stories",
+      "domain": "culture",
+      "slug": "oral-stories",
+      "status": "approved",
+      "revision": "358e9549bd137f05d61883283fce57586dea7a9a1335e69097a239adde784c38",
+      "source_sha256": "32f8922c625f472a2d29ae996a8d518771854879c75eaa8e340cc094b84eb265",
+      "sha256": "23933fb29f54591d32c5d78f9bdf82deff4177779a9f9f4b4528ef77b42a8e09"
+    },
+    {
+      "document_id": "DOC:External-Theaters",
+      "domain": "factions",
+      "slug": "External-Theaters",
+      "status": "approved",
+      "revision": "c8777559283afd3d7420bde5234af95ca06e6c25e93b50fd32b37cf049b29ee8",
+      "source_sha256": "83f16b6e17847b8e3247210a4b196742e80120aee585d19cdbe1993a5f47fe6c",
+      "sha256": "f5ce2c10081f38acd7ea8d596d2e5e29057f70b13e66cf49f621933977c868e8"
+    },
+    {
+      "document_id": "DOC:Sixteen-States",
+      "domain": "factions",
+      "slug": "sixteen-states",
+      "status": "approved",
+      "revision": "433ad0d4cdcdfbeaaaa0e2174bd1447f5b4a9334e222dd0e167de15f791caf13",
+      "source_sha256": "73b19e6af00df16fb06adfbaab7c386aea6930ff01587dd6a0dc69fbae557a3c",
+      "sha256": "e3c565a5a8dc7f87df8a864673f8814e7e0fc08eaac30e28563488782d163999"
+    },
+    {
+      "document_id": "DOC:Era-Arms-and-Tech-Level",
+      "domain": "goods",
+      "slug": "era-arms-and-tech-level",
+      "status": "approved",
+      "revision": "9ac83368afce4c497a7601cffd8063de827cd3c25dbb304ba96044aecff8badf",
+      "source_sha256": "14ae87324392aabaeb137f0d5e320004f42a6e2942c9680af080f9fffa62f665",
+      "sha256": "e29daf33d260302ef6dc59e75da373858c828d0efa2093076500ee92264e1576"
+    },
+    {
+      "document_id": "DOC:Station-Interior-Construction",
+      "domain": "places",
+      "slug": "station-interior-construction",
+      "status": "approved",
+      "revision": "1169af7b5bdabceca9fc49ae29207073f6dc5aafe92fc269fdfe24d0c196c6ab",
+      "source_sha256": "dcc01cf9c30798ec2ed8c2713ed2d94d2bc0ce8713cf81e3cb72ec1417a2d659",
+      "sha256": "4cdff310c964b2d0cee99b63c7ed411b5b94c2471a698bf65779e6f5433ce634"
+    },
+    {
+      "document_id": "DOC:World-Map-Construction",
+      "domain": "places",
+      "slug": "world-map-construction",
+      "status": "approved",
+      "revision": "1fcbdcd55eea8dc603c07de4a06dcd9b40a86367c712590d16f01bc872f72e69",
+      "source_sha256": "48b5ac4c516a65058cb36980aedb8d138c8d4a615601e3c6f3d5c0f25b048ebe",
+      "sha256": "888108548fc14f905fe59729a1c7391a850f1151f0357a0a22fafaa91fd309fe"
+    },
+    {
+      "document_id": "DOC:Operating-Houses",
+      "domain": "root",
+      "slug": "Operating-Houses",
+      "status": "approved",
+      "revision": "a4c04228db74ffbab05abb411ab85415ba0662c193736fdc93ef1dc64a7c49b3",
+      "source_sha256": "9ab174b2959c1ba5ffd012857b8dfc1709ef85a61b99d7cd2aefcda19bb28474",
+      "sha256": "d9b0ec2a66a52710db3262a952dc2f114806eebb7d082429603d0614d9e40d43"
+    },
+    {
+      "document_id": "DOC:Regional-Physical-AI-Arcs",
+      "domain": "root",
+      "slug": "Regional-Physical-AI-Arcs",
+      "status": "approved",
+      "revision": "61c79587c914c899e3345d65c313c7448a1dd6a7e0a0694501c753df30427837",
+      "source_sha256": "26c57909916e128398c3e6722de3691ff2a41326be4b22fc7c0ce3d9d969cbc8",
+      "sha256": "e3e309c4dc95e9eade310f547d78b6ad524eac4aee2e8c83eab9bba04db800e9"
+    },
+    {
+      "document_id": "DOC:Synthetic-Actors",
+      "domain": "root",
+      "slug": "Synthetic-Actors",
+      "status": "approved",
+      "revision": "1c481775cd52675d97cd256a6a74643319c10f6a94f05697ac7d6b03382489c9",
+      "source_sha256": "118d106658559bac5b0da10ca55a2f98277e8448f164403de9ef987ebf78ded9",
+      "sha256": "3968ad6302176c3e41bb4b84ecaad04f87f0d999023b4699d95a063bcaa386e8"
+    },
+    {
+      "document_id": "DOC:World-Expansion-Index",
+      "domain": "root",
+      "slug": "World-Expansion-Index",
+      "status": "approved",
+      "revision": "16ee8d1211b69e1c9907f40dcc5ae1f464b31f587d4cd79278210f48f53969aa",
+      "source_sha256": "0ee4767f205f87a562f26fbd463f5e5d5787b803bd65a24df2d16ac5dd721867",
+      "sha256": "24dbd176f414e4992f8f17f704b9c55ae8882bdb9f5a512dccb647fab51c6849"
+    },
+    {
+      "document_id": "WNA-001",
+      "domain": "root",
+      "slug": "World-Narrative-Atlas",
+      "status": "approved",
+      "revision": "343cc396ce017934e15f863226b8b69c96a57bb7ee7d76cf650abed25b139dae",
+      "source_sha256": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+      "sha256": "37602aecfb900024a38c85395fa65fb156b73960c89887824df3a9a019f69d39"
+    },
+    {
+      "document_id": "DOC:World-Relation-Ledger",
+      "domain": "root",
+      "slug": "World-Relation-Ledger",
+      "status": "approved",
+      "revision": "8a904cc8eebd90c228a99836ec8a7b88aee1754ffcd9f26a7655d43b386517f7",
+      "source_sha256": "c3f9d78dd5741e5ea11022bf20bed86df7813c79f85bcda194e38a070fa642ff",
+      "sha256": "ee1a38ef3425aaa80c79a5b9b9c64a8b5259f4add1d1dfa5c45fe104e8e91f15"
+    },
+    {
+      "document_id": "DOC:Structures",
+      "domain": "structures",
+      "slug": "structures",
+      "status": "approved",
+      "revision": "4a8a4788d7750bfca73e331f46e3e10c4398f03e1f6ac6718a4b9546d4886c41",
+      "source_sha256": "caed5524d6cb5cd1c84cf48e824c2c3154abba32021728443b596a7fbe222ce5",
+      "sha256": "322ef235871d3d15a1307f1dac430d30f6bf1d790dac36ddba27cfb97a3342f0"
+    }
+  ]
+}

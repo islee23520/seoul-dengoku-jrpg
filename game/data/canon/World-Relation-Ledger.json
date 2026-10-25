@@ -1,0 +1,782 @@
+{
+  "version": 1,
+  "domain": "root",
+  "id": "DOC:World-Relation-Ledger",
+  "slug": "World-Relation-Ledger",
+  "status": "approved",
+  "categories": [
+    "factions"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.projection_pages.World-Relation-Ledger"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "World Expansion Relation Ledger",
+      "summary": "World Expansion Relation Ledger",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "세계 확장 관계 원장",
+      "summary": "세계 확장 관계 원장",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "World-Relation-Ledger-generated-page-title-heading-1",
+      "publicAnchors": [
+        "World-Relation-Ledger-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "세계 확장 관계 원장",
+        "en": "World Expansion Relation Ledger"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "World-Relation-Ledger-generated-page-title-table-1",
+      "columns": [
+        {
+          "ko": "출발",
+          "en": "From"
+        },
+        {
+          "ko": "유형",
+          "en": "Kind"
+        },
+        {
+          "ko": "도착",
+          "en": "To"
+        },
+        {
+          "ko": "근거",
+          "en": "Reason"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "HC01",
+            "en": "HC01"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S01",
+            "en": "S01"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC02",
+            "en": "HC02"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S01",
+            "en": "S01"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC03",
+            "en": "HC03"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S03",
+            "en": "S03"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC04",
+            "en": "HC04"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S04",
+            "en": "S04"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC05",
+            "en": "HC05"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S10",
+            "en": "S10"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC06",
+            "en": "HC06"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S08",
+            "en": "S08"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC07",
+            "en": "HC07"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S02",
+            "en": "S02"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC08",
+            "en": "HC08"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S11",
+            "en": "S11"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC09",
+            "en": "HC09"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S06",
+            "en": "S06"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC10",
+            "en": "HC10"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S03",
+            "en": "S03"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC11",
+            "en": "HC11"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S07",
+            "en": "S07"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC12",
+            "en": "HC12"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S02",
+            "en": "S02"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC13",
+            "en": "HC13"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S06",
+            "en": "S06"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HC14",
+            "en": "HC14"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S01",
+            "en": "S01"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HP01",
+            "en": "HP01"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S01",
+            "en": "S01"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "HP02",
+            "en": "HP02"
+          },
+          {
+            "ko": "operates_in",
+            "en": "operates_in"
+          },
+          {
+            "ko": "S07",
+            "en": "S07"
+          },
+          {
+            "ko": "가문-국가 운영 연결",
+            "en": "house–state operating link"
+          }
+        ],
+        [
+          {
+            "ko": "XT03",
+            "en": "XT03"
+          },
+          {
+            "ko": "pressures",
+            "en": "pressures"
+          },
+          {
+            "ko": "S07",
+            "en": "S07"
+          },
+          {
+            "ko": "전구-국가 압력",
+            "en": "theater–state pressure"
+          }
+        ],
+        [
+          {
+            "ko": "H01",
+            "en": "H01"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K001",
+            "en": "K001"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H02",
+            "en": "H02"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K029",
+            "en": "K029"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H03",
+            "en": "H03"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K057",
+            "en": "K057"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H04",
+            "en": "H04"
+          },
+          {
+            "ko": "historically_custodied_by",
+            "en": "historically_custodied_by"
+          },
+          {
+            "ko": "K086",
+            "en": "K086"
+          },
+          {
+            "ko": "임하준의 실종 전 보관 기록. 2125년 겨울 실종 이후 현재 보관·법적 책임자는 미확인이다.",
+            "en": "Custody record before Im Hajun disappeared in winter 2125. Current custody and legal responsibility remain unverified."
+          }
+        ],
+        [
+          {
+            "ko": "H05",
+            "en": "H05"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K115",
+            "en": "K115"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H06",
+            "en": "H06"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K144",
+            "en": "K144"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H07",
+            "en": "H07"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K169",
+            "en": "K169"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H08",
+            "en": "H08"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K194",
+            "en": "K194"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H09",
+            "en": "H09"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K219",
+            "en": "K219"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H10",
+            "en": "H10"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K245",
+            "en": "K245"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H11",
+            "en": "H11"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K271",
+            "en": "K271"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H12",
+            "en": "H12"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K296",
+            "en": "K296"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H13",
+            "en": "H13"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K322",
+            "en": "K322"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H14",
+            "en": "H14"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K348",
+            "en": "K348"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H15",
+            "en": "H15"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K373",
+            "en": "K373"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "H16",
+            "en": "H16"
+          },
+          {
+            "ko": "custodied_by",
+            "en": "custodied_by"
+          },
+          {
+            "ko": "K398",
+            "en": "K398"
+          },
+          {
+            "ko": "합성-인간 보관",
+            "en": "synthetic–human custody"
+          }
+        ],
+        [
+          {
+            "ko": "HC02 · 신정차륜가",
+            "en": "HC02 · Sinjeong Wheel House"
+          },
+          {
+            "ko": "supply-rivalry",
+            "en": "supply-rivalry"
+          },
+          {
+            "ko": "HC07 · 구로합금가",
+            "en": "HC07 · Guro Alloy House"
+          },
+          {
+            "ko": "붕괴 전 강판 단가 분쟁이 부품 규격 협상으로 이어진다",
+            "en": "a pre-collapse steel-price dispute carried into parts-specification negotiations"
+          }
+        ],
+        [
+          {
+            "ko": "HC17 · 구로디지털단지전지가",
+            "en": "HC17 · Guro Digital Complex Battery House"
+          },
+          {
+            "ko": "supply-partner",
+            "en": "supply-partner"
+          },
+          {
+            "ko": "HC22 · 마곡시험선가",
+            "en": "HC22 · Magok Test-Line House"
+          },
+          {
+            "ko": "전지 셀 공급 계약이 저장에너지 창고 감사권과 묶여 있다",
+            "en": "the battery-cell supply contract was bound to audit rights over the energy-storage depot"
+          }
+        ],
+        [
+          {
+            "ko": "HC15 · 디지털미디어시티색인가",
+            "en": "HC15 · Digital Media City Index House"
+          },
+          {
+            "ko": "platform-rivalry",
+            "en": "platform-rivalry"
+          },
+          {
+            "ko": "HC21 · 디지털미디어시티결제가",
+            "en": "HC21 · Digital Media City Payments House"
+          },
+          {
+            "ko": "검색 인덱스와 메신저 중계가 상암 송신 대역을 두고 경쟁한다",
+            "en": "the search index and the message relay competed for the Sangam transmission band"
+          }
+        ],
+        [
+          {
+            "ko": "HC10 · 마곡종자가",
+            "en": "HC10 · Magok Seed House"
+          },
+          {
+            "ko": "affiliate",
+            "en": "affiliate"
+          },
+          {
+            "ko": "HC11 · 용산호송가",
+            "en": "HC11 · Yongsan Convoy House"
+          },
+          {
+            "ko": "같은 계열의 식자재와 운송 계약이 가락 경매장 물량을 나눈다",
+            "en": "kindred food-supply and transport contracts split the Garak auction-floor volume"
+          }
+        ],
+        [
+          {
+            "ko": "HC18 · 용산선박가",
+            "en": "HC18 · Yongsan Ship House"
+          },
+          {
+            "ko": "build-contract",
+            "en": "build-contract"
+          },
+          {
+            "ko": "HC12 · 금천구청중기가",
+            "en": "HC12 · Geumcheon District Office Machinery House"
+          },
+          {
+            "ko": "컨테이너 선복 수선 대금이 용산 강변 부두 이용권과 맞바뀐다",
+            "en": "container ship-repair payments traded against rights to the Yongsan riverside wharf"
+          }
+        ],
+        [
+          {
+            "ko": "HC19 · 동대입구객사가",
+            "en": "HC19 · Dongdaeipgu Trading House"
+          },
+          {
+            "ko": "retail-rivalry",
+            "en": "retail-rivalry"
+          },
+          {
+            "ko": "HC09 · 서울역재고가",
+            "en": "HC09 · Seoul Station Inventory House"
+          },
+          {
+            "ko": "서울역 의전 물자와 면세 창고 접근권을 두고 입찰이 갈린다",
+            "en": "bids split over protocol goods at Seoul Station and access to the bonded warehouse"
+          }
+        ]
+      ]
+    }
+  ],
+  "data": {}
+}

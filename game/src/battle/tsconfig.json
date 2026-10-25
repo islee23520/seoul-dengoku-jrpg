@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": { "typeRoots": ["../../../engine/node_modules/@types"] },
+  "include": ["./*.ts", "../runtime/*.ts", "../save/*.ts", "../../ui/realtimeBattle.ts"]
+}

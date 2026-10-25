@@ -1,0 +1,853 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G21",
+  "slug": "Hostile-Group-G21",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G21]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G21 · Wall-knocker",
+      "summary": "G21 · Wall-knocker",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G21 · 벽두드리기",
+      "summary": "G21 · 벽두드리기",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G21-generated-G21-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G21-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G21 · 벽두드리기",
+        "en": "G21 · Wall-knocker"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G21-generated-G21-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G21-generated-G21-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G21-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G21-generated-G21-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "초겨울 밤의 중계 벽감에서 사람은 난방 배관 쪽 관벽에 이마를 대고 있다. 입가와 목이 젖어 있으며 숨마다 이마가 철판을 친다. 같은 벽면에 선 사람들의 두드림이 분기 쪽으로 촘촘하다.",
+        "en": "In the relay niche on an early winter night a person holds the brow to the duct wall on the heating-pipe side. The mouth and neck are wet, and the brow strikes the plate with each breath. The knocking of the people standing along the same wall grows more closely spaced toward the junction."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G21-generated-G21-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "두억시니의 머리가 분기 벽감 상단을 누르고 있다. 손톱긁개의 손톱이 그 아래 손 높이 홈에 들어가 있다. 야광귀의 푸른 빛은 벽감 밖 어두운 구간에 있으며 벽두드리기의 몸은 분기 쪽이고 얼굴은 빛 쪽이다.",
+        "en": "Dueoksini's head presses the upper end of the junction niche. The Nail-scratcher's nails are in the groove at hand height below it. The Yagwanggwi's blue light is in the dark stretch outside the niche, the Wall-knockers' bodies are toward the junction, and their faces are toward the light."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G21-generated-G21-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G21-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G21-generated-G21-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "동방사 관로 당직이 광진선 동방사 지하 관로 중계 벽감의 철문 앞에 서 있다. 초겨울 밤이다. 벽감 안에 사람이 관벽에 이마를 대고 있다. / 입가와 목이 젖어 있으며 숨마다 목에서 그르렁 소리가 난다. 숨이 나갈 때마다 이마가 철판을 한 번 친다. 양손은 리벳 옆에 놓여 있다. 손끝에는 철판의 검은 때가 묻어 있다. 가슴은 난방 배관이 지나는 이음새 쪽이다.",
+            "en": "The Eastern Command duct watch stands in front of the iron door of the relay niche in the underground duct of the Eastern Command on the Gwangjin Line. It is an early winter night. Inside the niche a person holds the brow to the duct wall. / The mouth and neck are wet, and a gurgle comes from the throat with each breath. At each outgoing breath the brow strikes the plate once. Both hands lie beside the rivets. Black plate grime lies on the fingertips. The chest is toward the joint where the heating pipe runs."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "광진선 동방사 지하 관로 중계 벽감이다. 초겨울 밤이다. 벽두드리기는 벽감 안 관벽에 모여 있다. 입가와 목이 젖어 있으며 숨마다 목에서 그르렁 소리가 난다. 가슴은 난방 배관이 지나는 이음새 쪽이다. / 문 쪽 사람은 숨마다 이마로 철판을 한 번 친다. 가운데 사람은 양손바닥으로 리벳을 빠른 간격으로 친다. 분기 쪽 사람은 가슴을 관벽에 붙이고 있다. 손끝의 두드림과 이마의 두드림이 같은 간격으로 철판을 울린다. 손끝에는 철판의 검은 때가 묻어 있다. / 동방사 관로 당직이 벽감 철문 앞에 서 있다. 당직이 철문의 걸쇠를 건다. 두드림이 철문을 타고 당직의 손등으로 온다. 당직은 귀마개를 쓴 채 철문에 등을 대고 있다.",
+            "en": "It is the relay niche in the underground duct of the Eastern Command on the Gwangjin Line. It is an early winter night. The wall-knockers are gathered at the duct wall inside the niche. Mouths and necks are wet, and a gurgle comes from the throat with each breath. Chests face the joint where the heating pipe runs. / The person toward the door strikes the plate once with the brow at each breath. The person in the middle strikes the rivets with both palms at a short interval. The person toward the junction has the chest flat to the duct wall. The knocking of the fingertips and the knocking of the brow ring the plate at the same interval. Black plate grime lies on the fingertips. / The Eastern Command duct watch stands in front of the niche's iron door. The watch sets the latch of the iron door. The knocking travels through the iron door into the back of the watch's hand. The watch has ear covers on and the back against the iron door."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "방수 테이프와 예비 걸쇠와 손전등 전지가 중계함에서 동방사 관로 당직의 조끼와 함 뚜껑으로 나뉘어 있다. 덧장갑이 손톱긁개 앞 철판 아래에 놓여 있다. 암사·고덕 상수단의 보수 자루가 야광귀의 빛 가장자리에 있다.",
+            "en": "Waterproof tape, a spare latch, and flashlight cells are divided from the relay box into the Eastern Command duct watch's vest and onto the box lid. Over-gloves lie under the plate in front of the Nail-scratcher. The Amsa–Godeok merchant band's repair sack is at the edge of the Yagwanggwi's light."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "입가와 목이 젖어 있고 목에서 그르렁 소리가 나는 사람이 관벽에 이마를 대고 있다. 숨이 나갈 때마다 그르렁거리며 이마가 철판을 친다. 손끝에는 철판의 검은 때가 묻어 있다.",
+            "en": "A person with a wet mouth and wet neck, a gurgle coming from the throat, holds the brow to the duct wall. At each outgoing breath the brow strikes the plate together with the gurgle. Black plate grime lies on the fingertips."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "벽두드리기의 가슴은 이음새 철판 쪽이며 고개는 두드림이 길게 남는 판 쪽을 향한다. 손바닥은 리벳 줄에 놓여 있다. 야광귀가 선 구간에서는 얼굴이 푸른 빛 쪽으로 돌아가 있다.",
+            "en": "The Wall-knocker's chest faces the joint plate, and the head is toward the plate where the knocking lingers. The palms lie on the rivet line. In the stretch where the Yagwanggwi stands, the face is turned toward the blue light."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "두억시니는 분기 벽감 안쪽에 있다. 손톱긁개는 두억시니 아래 손 높이 철판에 있다. 벽두드리기는 분기에서 문 쪽으로 벽을 따라 서 있으며 야광귀는 문 밖 어두운 구간에 있다.",
+            "en": "Dueoksini is inside the junction niche. The Nail-scratcher is at the plate at hand height below Dueoksini. The Wall-knockers stand along the wall from the junction toward the door, and the Yagwanggwi is in the dark stretch outside the door."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G21-generated-G21-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G21-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G21-generated-G21-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "두억시니는 분기 벽감 안쪽에 있으며 정수리가 천장 배관에 닿아 있다. 벽두드리기는 그 분기에서 철문 쪽으로 벽을 따라 서 있다. 줄의 이마가 두억시니의 이마가 누른 벽면을 향한다.",
+        "en": "Dueoksini is inside the junction niche, and the crown touches the ceiling pipe. The Wall-knockers stand along the wall from that junction toward the iron door. The brows of the line face the wall face that Dueoksini's brow presses."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G21-generated-G21-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G21E01 · 두억시니",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G21",
+                  "anchor": "g21e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G21E01 · Dueoksini",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G21",
+                  "anchor": "g21e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "분기 벽감에서 머리로 관벽 상단과 천장 배관에 닿아 있는 자리다.",
+            "en": "The place in the junction niche where the head is against the upper duct wall and the ceiling pipe."
+          },
+          {
+            "ko": "보스",
+            "en": "Boss"
+          },
+          {
+            "ko": "M033",
+            "en": "M033"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G21E08 · 손톱긁개",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G21",
+                  "anchor": "g21e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G21E08 · Nail-scratcher",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G21",
+                  "anchor": "g21e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "손 높이 철판의 홈에 손톱이 들어가 있는 자리다.",
+            "en": "The place where the nails are in the grooves of the plate at hand height."
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M033",
+            "en": "M033"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G21E15 · 야광귀",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G21",
+                  "anchor": "g21e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G21E15 · Yagwanggwi",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G21",
+                  "anchor": "g21e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "어두운 관로 구간에서 가슴과 손등의 푸른 빛 안에 서 있는 자리다.",
+            "en": "The place standing in the blue light of the chest and the backs of the hands in a dark stretch of duct."
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M034",
+            "en": "M034"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G21-generated-G21E01-title-heading-1",
+      "publicAnchors": [
+        "g21e01",
+        "Hostile-Group-G21-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G21E01 · 두억시니",
+        "en": "G21E01 · Dueoksini"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G21-generated-G21E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M033",
+          "en": "Source batch: M033"
+        },
+        {
+          "ko": "기존 역할군: 보스",
+          "en": "Former role class: Boss"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP07\"],\"states\":[\"S05\",\"S10\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"houses\":[\"HP07\"],\"states\":[\"S05\",\"S10\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G21-generated-G21E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "분기 벽감에서 머리로 관벽 상단과 천장 배관에 닿아 있는 자리다.",
+            "en": "The place in the junction niche where the head is against the upper duct wall and the ceiling pipe."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "초겨울 밤 광진선 동방사 지하 관로 분기 벽감이다.",
+            "en": "The junction niche of the Eastern Command underground duct on the Gwangjin Line, early winter night."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M033-entries-1-prose-04009",
+      "items": [
+        {
+          "ko": "두억시니는 광진선 동방사 지하 관로 분기 벽감에 서 있다.",
+          "en": "Dueoksini stands in the junction niche of the Eastern Command underground duct on the Gwangjin Line."
+        },
+        {
+          "ko": "머리는 어깨보다 넓으며 목은 가슴 쪽으로 굽어 있다.",
+          "en": "The head is broader than the shoulders, and the neck is bent toward the chest."
+        },
+        {
+          "ko": "이마는 관벽 상단 철판을 누르고 있다.",
+          "en": "The brow presses the plate at the top of the duct wall."
+        },
+        {
+          "ko": "정수리가 천장 배관을 친다.",
+          "en": "The crown strikes the ceiling pipe."
+        },
+        {
+          "ko": "친 자리의 보온재가 배관 아래로 내려앉아 있다.",
+          "en": "The insulation at the struck place has slumped below the pipe."
+        },
+        {
+          "ko": "바깥 벽의 벽두드리기가 두억시니의 이마가 닿은 벽을 따라 서 있다.",
+          "en": "The Wall-knockers on the outer wall stand along the wall that Dueoksini's brow touches."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G21-generated-G21E08-title-heading-1",
+      "publicAnchors": [
+        "g21e08",
+        "Hostile-Group-G21-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G21E08 · 손톱긁개",
+        "en": "G21E08 · Nail-scratcher"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G21-generated-G21E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M033",
+          "en": "Source batch: M033"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"states\":[\"S05\",\"S10\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"states\":[\"S05\",\"S10\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G21-generated-G21E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "손 높이 철판의 홈에 손톱이 들어가 있는 자리다.",
+            "en": "The place where the nails are in the grooves of the plate at hand height."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "초겨울 밤 광진선 동방사 지하 관로 중계 벽감의 손 높이 철판 앞이다.",
+            "en": "In front of the plate at hand height in the relay niche of the Eastern Command underground duct on the Gwangjin Line, early winter night."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M033-entries-8-prose-04016",
+      "items": [
+        {
+          "ko": "손톱긁개는 중계 벽감의 손 높이 철판 앞에 서 있다.",
+          "en": "The Nail-scratcher stands in front of the plate at hand height in the relay niche."
+        },
+        {
+          "ko": "손톱은 손가락보다 길며 끝이 하얗다.",
+          "en": "The nails are longer than the fingers, and the tips are white."
+        },
+        {
+          "ko": "열 손톱이 리벳 사이 홈에 들어가 있다.",
+          "en": "All ten nails are in the grooves between the rivets."
+        },
+        {
+          "ko": "홈 밑의 철이 긁힌 줄로 빛난다.",
+          "en": "The iron under the grooves shines in scratched lines."
+        },
+        {
+          "ko": "긁는 소리가 이마의 두드림 사이에 난다.",
+          "en": "The scratching sound comes between the knocks of the brow."
+        },
+        {
+          "ko": "동방사 관로 당직의 덧장갑이 긁힌 철판 아래 바닥에 놓여 있다.",
+          "en": "The Eastern Command duct watch's over-gloves lie on the floor under the scratched plate."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G21-generated-G21E15-title-heading-1",
+      "publicAnchors": [
+        "g21e15",
+        "Hostile-Group-G21-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G21E15 · 야광귀",
+        "en": "G21E15 · Yagwanggwi"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G21-generated-G21E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M034",
+          "en": "Source batch: M034"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"states\":[\"S05\",\"S10\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"states\":[\"S05\",\"S10\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G21-generated-G21E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "어두운 관로 구간에서 가슴과 손등의 푸른 빛 안에 서 있는 자리다.",
+            "en": "The place standing in the blue light of the chest and the backs of the hands in a dark stretch of duct."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "초겨울 밤 광진선 동방사 지하 관로 중계 벽감 밖 어두운 구간이다.",
+            "en": "The dark stretch outside the relay niche of the Eastern Command underground duct on the Gwangjin Line, early winter night."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M034-entries-5-prose-04023",
+      "items": [
+        {
+          "ko": "야광귀는 중계 벽감 밖 어두운 관로 구간에 서 있다.",
+          "en": "The Yagwanggwi stands in the dark duct stretch outside the relay niche."
+        },
+        {
+          "ko": "가슴과 손등에서 푸른 빛이 난다.",
+          "en": "Blue light comes from the chest and the backs of the hands."
+        },
+        {
+          "ko": "빛은 젖은 관벽에 비쳐 바닥까지 내려와 있다.",
+          "en": "The light reflects on the wet duct wall and comes down to the floor."
+        },
+        {
+          "ko": "벽두드리기의 고개가 그 빛 쪽으로 돌아가 있다.",
+          "en": "A Wall-knocker's head is turned toward that light."
+        },
+        {
+          "ko": "동방사 관로 당직의 얼굴이 푸른 빛 안에 있다.",
+          "en": "The Eastern Command duct watch's face is inside the blue light."
+        },
+        {
+          "ko": "빛 가장자리에 북한산보국문 피난 연맹의 중계함 꼬리표가 놓여 있다.",
+          "en": "A relay-box tag of the Bukhansan Bogukmun Refugee League lies at the edge of the light."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G21-generated-G21-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G21-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-21-dossier_prose-01597",
+      "text": {
+        "ko": "광진선 동방사 지하 관로 중계 벽감에 초겨울 밤의 습기가 배어 있다. 동방사 관로 당직이 철문 앞에 서 있다. 문 안 관벽에 사람이 이마를 대고 있다.",
+        "en": "Early-winter-night damp has soaked into the relay niche of the Eastern Command underground duct on the Gwangjin Line. The Eastern Command duct watch stands in front of the iron door. Inside the door a person holds the brow to the duct wall."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-21-dossier_prose-01598",
+      "text": {
+        "ko": "그 사람의 입가와 목이 젖어 있으며 목에서는 그르렁 소리가 난다. 이마는 난방 배관이 지나는 철판에 닿아 있다. 숨이 나갈 때마다 이마가 철판을 친다.",
+        "en": "That person's mouth and neck are wet, and a gurgle comes from the throat. The brow touches the plate where the heating pipe runs. At each outgoing breath the brow strikes the plate."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-21-dossier_prose-01599",
+      "text": {
+        "ko": "문 쪽 사람은 숨마다 이마로 한 번 친다. 가운데 사람은 양손을 리벳에 붙인 채 빠른 간격으로 친다. 분기 쪽 사람은 가슴과 이마를 관벽에 함께 붙이고 있다.",
+        "en": "The person toward the door strikes once with the brow at each breath. The person in the middle keeps both hands on the rivets and strikes at a short interval. The person toward the junction has both chest and brow flat against the duct wall."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-21-dossier_prose-01600",
+      "text": {
+        "ko": "세 사람의 가슴은 이음새 철판 쪽이다. 고개는 두드림이 길게 남는 판 쪽을 향한다. 동방사 관로 당직의 손전등이 그 판의 리벳 줄을 비춘다.",
+        "en": "The three people's chests face the joint plate. The heads are toward the plate where the knocking lingers. The Eastern Command duct watch's flashlight lights the rivet line of that plate."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-21-dossier_prose-01601",
+      "text": {
+        "ko": "두억시니는 분기 벽감에 있다. 머리는 어깨보다 넓으며 이마가 관벽 상단을 누르고 있다. 정수리가 천장 배관의 보온재를 친다. 바깥의 벽두드리기는 그 이마가 닿은 벽을 따라 서 있다.",
+        "en": "Dueoksini is in the junction niche. The head is broader than the shoulders, and the brow presses the upper duct wall. The crown strikes the insulation of the ceiling pipe. The Wall-knockers outside stand along the wall that brow touches."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-21-dossier_prose-01602",
+      "text": {
+        "ko": "손톱긁개는 손 높이 철판 앞에 서 있다. 손톱은 길고 끝이 하얗다. 손톱 끝이 리벳 사이 홈에 들어가 있으며 긁힌 철이 손전등에 빛난다.",
+        "en": "The Nail-scratcher stands in front of the plate at hand height. The nails are long and the tips are white. The nail tips are in the grooves between the rivets, and the scratched iron shines in the flashlight."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-21-dossier_prose-01603",
+      "text": {
+        "ko": "야광귀는 벽감 밖 어두운 관로에 서 있다. 가슴과 손등에서 푸른 빛이 난다. 벽두드리기의 얼굴이 그 빛 안에 있으며 빛 옆에는 암사·고덕 상수단의 보수 자루가 놓여 있다.",
+        "en": "The Yagwanggwi stands in the dark duct outside the niche. Blue light comes from the chest and the backs of the hands. A Wall-knocker's face is inside that light, and the Amsa–Godeok merchant band's repair sack lies beside the light."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-21-dossier_prose-01604",
+      "text": {
+        "ko": "중계함의 방수 테이프와 예비 걸쇠가 동방사 관로 당직의 조끼에 있다. 손전등의 예비 전지가 함 뚜껑 위에 놓여 있다. 동방사 당직과 안국총림 당직의 교대 표가 함 뚜껑에 붙어 있다.",
+        "en": "Waterproof tape and a spare latch from the relay box are in the Eastern Command duct watch's vest. Spare flashlight cells lie on the box lid. The shift slip of the Eastern Command watch and the Anguk Order watch is stuck to the box lid."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-21-dossier_prose-01605",
+      "text": {
+        "ko": "한강진교량공회의 자물쇠가 벽감 걸쇠에 걸려 있다. 송신중계의 표식과 안국·신내 명부 회랑 우회선 번호가 함 뚜껑에 적혀 있다. 동방사 관로 당직이 철문 걸쇠를 건다. 당직의 헬멧이 문턱에 금 간 채로 놓여 있다.",
+        "en": "Hangangjin Bridge Council's lock hangs on the niche latch. A Transmission Relay mark and the Anguk–Sinnae register corridor bypass number are written on the box lid. The Eastern Command duct watch sets the iron-door latch. The watch's helmet lies on the threshold with a crack in it."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "In the relay niche on an early winter night a person holds the brow to the duct wall on the heating-pipe side. The mouth and neck are wet, and the brow strikes the plate with each breath. The knocking of the people standing along the same wall grows more closely spaced toward the junction.",
+        "ko": "초겨울 밤의 중계 벽감에서 사람은 난방 배관 쪽 관벽에 이마를 대고 있다. 입가와 목이 젖어 있으며 숨마다 이마가 철판을 친다. 같은 벽면에 선 사람들의 두드림이 분기 쪽으로 촘촘하다."
+      },
+      "variants": [
+        {
+          "id": "G21E01",
+          "source_batch": "M033"
+        },
+        {
+          "id": "G21E08",
+          "source_batch": "M033"
+        },
+        {
+          "id": "G21E15",
+          "source_batch": "M034"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

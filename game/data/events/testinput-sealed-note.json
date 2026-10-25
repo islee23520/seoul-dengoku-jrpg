@@ -1,0 +1,32 @@
+{
+  "id": "TESTINPUT-sealed-note",
+  "provenance": "TESTINPUT",
+  "title": "[합성 시험 사건] 봉인된 메모",
+  "speaker": "시험용 전달자 (정식 인물 아님)",
+  "body": "전달자가 봉인된 메모를 내민다. 지금 열어 내용을 확인할지, 봉인을 보존하고 확인 요청만 남길지 정해야 한다. 이 장면은 실제 인물이나 사건을 나타내지 않는다.",
+  "stakes": "내용을 확인하면 개봉 기록이 남는다. 봉인을 보존하면 확인 요청 기록만 남는다. 어느 쪽도 자원·권한·정보를 자동으로 부여하지 않는다.",
+  "portrait": { "resourceId": "generated-enemy-slime-king" },
+  "traits": ["TESTINPUT-meticulous"],
+  "trigger": [{ "kind": "switch", "switchId": "TESTINPUT-note-ready", "value": true }],
+  "once": true,
+  "options": [
+    {
+      "id": "inspect",
+      "text": "[시험 특성: 꼼꼼함] 봉인을 확인하고 개봉 기록을 남긴다.",
+      "requires": [{ "kind": "trait", "trait": "TESTINPUT-meticulous", "present": true }],
+      "effects": [{ "kind": "setSwitch", "switchId": "TESTINPUT-note-opened", "value": true }]
+    },
+    {
+      "id": "preserve",
+      "text": "[시험 특성: 꼼꼼함] 봉인을 보존하고 확인 요청을 남긴다.",
+      "requires": [{ "kind": "trait", "trait": "TESTINPUT-meticulous", "present": true }],
+      "effects": [{ "kind": "setSwitch", "switchId": "TESTINPUT-note-review-requested", "value": true }]
+    },
+    {
+      "id": "defer",
+      "text": "지금은 판단을 보류했다는 기록만 남긴다.",
+      "requires": [],
+      "effects": [{ "kind": "setSwitch", "switchId": "TESTINPUT-note-deferred", "value": true }]
+    }
+  ]
+}

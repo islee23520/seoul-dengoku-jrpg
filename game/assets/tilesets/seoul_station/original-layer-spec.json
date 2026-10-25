@@ -1,0 +1,153 @@
+{
+  "author": "Seoul Dengoku contributors",
+  "license": "CC0-1.0",
+  "dedication": "All original pixel geometry and data in this station package dedicated under CC0-1.0.",
+  "palette": {
+    "ink": "#303539",
+    "steel": "#7b8587",
+    "light": "#c9d0cd",
+    "brass": "#cbb781",
+    "dark": "#42464a",
+    "paper": "#ede5cb"
+  },
+  "sign_text": "출구",
+  "font": "none; original strokes",
+  "sign_strokes": [
+    [
+      [
+        6,
+        3,
+        8,
+        3
+      ],
+      [
+        3,
+        5,
+        11,
+        5
+      ],
+      [
+        4,
+        6,
+        10,
+        8
+      ],
+      [
+        10,
+        6,
+        4,
+        8
+      ],
+      [
+        3,
+        10,
+        11,
+        10
+      ],
+      [
+        7,
+        10,
+        7,
+        12
+      ],
+      [
+        4,
+        13,
+        11,
+        13
+      ]
+    ],
+    [
+      [
+        3,
+        4,
+        11,
+        4
+      ],
+      [
+        11,
+        4,
+        11,
+        7
+      ],
+      [
+        3,
+        9,
+        12,
+        9
+      ],
+      [
+        7,
+        9,
+        7,
+        13
+      ]
+    ]
+  ],
+  "tiles": [
+    {
+      "id": 16,
+      "name": "track",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "tactile",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "edge",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "sign_left",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "sign_right",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "arrow",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "floor_seam",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "concourse",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    }
+  ]
+}

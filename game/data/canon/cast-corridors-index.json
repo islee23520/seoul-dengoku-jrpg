@@ -1,0 +1,256 @@
+{
+  "version": 1,
+  "domain": "characters",
+  "id": "DOC:Cast-Corridors-Index",
+  "slug": "cast-corridors-index",
+  "status": "approved",
+  "categories": [
+    "characters"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "original-fiction",
+    "refs": [
+      "lore/characters/Cast-Corridors-Index.md"
+    ]
+  },
+  "provenance": {
+    "original_anchor": "lore/characters/Cast-Corridors-Index.md",
+    "original_hash": "a7c4ad731b2e45320e18368c71ac845bf16887f441bc4c75818a379cead343ce",
+    "history": [
+      "Korean lore/characters/Cast-Corridors-Index.md SHA-256 a7c4ad731b2e45320e18368c71ac845bf16887f441bc4c75818a379cead343ce.",
+      "English SHA-256 132d555a1984584bc41c37ea4c73a373ce22690bf9572d624f213841dc7441e9; translated from Korean during the JSON migration (no committed EN existed).",
+      "KO from the sweep-w1 WEB working tree (clean). EN needs human review."
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Corridor Cast Index",
+      "summary": "These six named people are listed by their Seoul corridors and conscription records; the index does not determine their political membership.",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "회랑 인물 총람",
+      "summary": "서울의 이주민 회랑과 징집 잔존에 이름이 있는 여섯 인물을 생활권과 징집 이력으로 살핀다. 이 목록만으로 정치적 소속을 정하지 않는다.",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "회랑-인물-총람",
+      "depth": 1,
+      "text": {
+        "ko": "회랑 인물 총람",
+        "en": "Corridor Cast Index"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "회랑-인물-총람-p1",
+      "text": {
+        "ko": "대림·가리봉, 이태원, 동대문, 구로·가산, 용산 생활권에는 이주민과 용역 인물이 있다. 회랑의 생업은 현행 세력이나 존속 봉신의 소속 여부를 가르지 않는다.",
+        "en": "Migrant and service workers live and work along the Daerim–Garibong, Itaewon, Dongdaemun, Guro–Gasan, and Yongsan corridors of Seoul. Their work in these corridors does not exclude membership in a current faction or surviving vassal."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "회랑-인물-총람-table2",
+      "columns": [
+        {
+          "ko": "이름",
+          "en": "Name"
+        },
+        {
+          "ko": "회랑",
+          "en": "Corridor"
+        },
+        {
+          "ko": "직위",
+          "en": "Office"
+        },
+        {
+          "ko": "징집 이력",
+          "en": "Conscription record"
+        },
+        {
+          "ko": "무장 접근",
+          "en": "Arms access"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "린샤오메이 (임소매)",
+            "en": "Lin Xiaomei (Im Somae)"
+          },
+          {
+            "ko": "대림·가리봉 통역시장",
+            "en": "Daerim-Gari-bong interpretation market"
+          },
+          {
+            "ko": "이중장부 중개",
+            "en": "dual-ledger brokerage"
+          },
+          {
+            "ko": "없음",
+            "en": "none"
+          },
+          {
+            "ko": "생업 공구",
+            "en": "livelihood tools"
+          }
+        ],
+        [
+          {
+            "ko": "팜반득 (범반득)",
+            "en": "Phạm Văn Đức (Beom Bandeuk)"
+          },
+          {
+            "ko": "구로·가산 생활권",
+            "en": "Guro and Gasan corridor"
+          },
+          {
+            "ko": "야간 정비 조장",
+            "en": "night maintenance crew chief"
+          },
+          {
+            "ko": "없음",
+            "en": "none"
+          },
+          {
+            "ko": "공구·방호복",
+            "en": "tools and protective clothing"
+          }
+        ],
+        [
+          {
+            "ko": "아미라 카심",
+            "en": "Amira Qasim"
+          },
+          {
+            "ko": "이태원 통행 골목",
+            "en": "Itaewon passage alley"
+          },
+          {
+            "ko": "다국어 통행증 판독",
+            "en": "multilingual pass reader"
+          },
+          {
+            "ko": "없음",
+            "en": "none"
+          },
+          {
+            "ko": "없음",
+            "en": "none"
+          }
+        ],
+        [
+          {
+            "ko": "조엘 박",
+            "en": "Joel Park"
+          },
+          {
+            "ko": "환적국 내부 용역",
+            "en": "Junction internal service"
+          },
+          {
+            "ko": "창고 열람 통역",
+            "en": "warehouse-inspection interpreter"
+          },
+          {
+            "ko": "병 만기",
+            "en": "enlisted term complete"
+          },
+          {
+            "ko": "열쇠만",
+            "en": "keys only"
+          }
+        ],
+        [
+          {
+            "ko": "나르기즈 유수포바",
+            "en": "Nargiz Yusupova"
+          },
+          {
+            "ko": "다섯 호 밖의 자양·건대 하숙",
+            "en": "Jayang and Konkuk lodging outside the five corridors"
+          },
+          {
+            "ko": "두 말 피난 전령",
+            "en": "two-language refuge courier"
+          },
+          {
+            "ko": "없음",
+            "en": "none"
+          },
+          {
+            "ko": "없음",
+            "en": "none"
+          }
+        ],
+        [
+          {
+            "ko": "최일석",
+            "en": "Choi Ilseok"
+          },
+          {
+            "ko": "구로·금천 동원잔존",
+            "en": "Guro–Geumcheon mobilization remnant"
+          },
+          {
+            "ko": "동원 명부 서기",
+            "en": "mobilization-register clerk"
+          },
+          {
+            "ko": "병 만기, 예비 서기",
+            "en": "enlisted term complete, reserve clerk"
+          },
+          {
+            "ko": "부키, 제식 봉",
+            "en": "hand key, regulation staff"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "출처",
+      "depth": 2,
+      "text": {
+        "ko": "출처",
+        "en": "Sources"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "출처-list1",
+      "items": [
+        {
+          "ko": [
+            {
+              "text": "세력과 외교, 전쟁과 공성 규칙",
+              "link": {
+                "domain": "gdd",
+                "slug": "rules/Rules-FactionsWarfare"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Factions, Diplomacy, War and Siege Rules",
+              "link": {
+                "domain": "gdd",
+                "slug": "rules/Rules-FactionsWarfare"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data": {}
+}

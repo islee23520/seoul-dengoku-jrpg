@@ -1,0 +1,12 @@
+**
+!hosting/**
+!scripts/tools/build-web-game.mjs
+!game/project.json
+!engine/**
+engine/.git
+engine/node_modules
+engine/.env*
+engine/openwiki
+engine/test
+engine/verify-shots
+engine/dist

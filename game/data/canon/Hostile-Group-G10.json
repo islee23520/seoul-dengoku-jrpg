@@ -1,0 +1,1012 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G10",
+  "slug": "Hostile-Group-G10",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G10]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G10 · Bogukmun Zealots",
+      "summary": "G10 · Bogukmun Zealots",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G10 · 보국문 광신도",
+      "summary": "G10 · 보국문 광신도",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G10-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G10 · 보국문 광신도",
+        "en": "G10 · Bogukmun Zealots"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G10-generated-G10-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G10-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G10-generated-G10-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "보국문 광신도는 사람이며 북한산보국문 대피 회랑의 물 빠짐이 느린 구간에 머문다. 국지 융설수와 배수가 흘러가는 길, 배급 주기의 물자를 따라 가락·잠실 하층으로 옮겨 간다. 가락 환기구에서 역풍이 오면 외곽 계단에 인원을 더 세운다. 마른 구간에서는 문턱을 비우고 배급고 쪽에 선다. 안국총림·명동대교구 당직과 같은 문을 쓴다.",
+        "en": "The Bogukmun Zealots are human and stay in slow-draining stretches of the Bukhansan Bogukmun shelter corridors. They move toward the lower levels of Garak and Jamsil along local snowmelt and drainage paths and with ration-cycle goods. When backdraft comes from the Garak vents, they post more people on the outer stairs. In dry stretches, they leave thresholds clear and stand toward the granaries. They use the same doors as Anguk Order and Myeongdong Archdiocese watches."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G10-generated-G10-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "광신도 인도자는 회랑 분기에 있고 광신도 정예조는 배수로와 문짝에 붙는다. 광신도 척후조는 광신도 정예조보다 바깥인 환기구와 배급 동선에 서며 두 근무지의 시간이 겹치는 날 인원이 는다. 셋은 같은 표식 천을 쓰며 그 매듭은 명동대교구 표식과 다르다.",
+        "en": "The Zealot Leader is at the corridor junction, and the Zealot Elite Squad stays on the drain and the doors. The Zealot Scouts stand farther out than the Zealot Elite Squad, on the vents and the ration route, and their number grows on days when the hours of the two workplaces overlap. The three use the same marker cloth, and its knot differs from the Myeongdong Archdiocese markers."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G10-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G10-generated-G10-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "안국총림 회랑 당직은 배수 유입이 늘어난 밤 북한산보국문 대피 회랑 분기에서 이 무리를 처음 본다. 광신도 인도자는 배수로 문턱에 서 있고 뒤 발판의 수행은 표식 천을 든다. 철문 손잡이에는 명동대교구 표식과 매듭이 다른 천이 매여 있다.",
+            "en": "The Anguk Order corridor watch first sees this group at the Bukhansan Bogukmun shelter junction on a night of increased drainage inflow. The Zealot Leader stands on the drain threshold, with attendants holding marker cloth on the tread behind. Cloth tied to the iron-door handle has a knot different from Myeongdong Archdiocese markers."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "보국문 광신도는 북한산보국문 대피 회랑의 배수 불량 구간에 모인다. 국지 융설수·배수 유입과 배급 주기에는 가락과 잠실의 하층 배급고와 환기구에 선다. 가락 환기구의 국지 역풍이 들어오면 외곽 계단의 인원이 늘고 회랑 안쪽에는 수행이 남는다. 회랑이 마르면 인원이 배급고 문 쪽으로 빠진다.",
+            "en": "The Bogukmun Zealots gather on the poorly drained stretches of the Bukhansan Bogukmun shelter corridors. In the local snowmelt and drainage inflow and the ration cycle they stand at the lower granaries and vents of Garak and Jamsil. When local backdraft from Garak ventilation comes in, the number on the outer stair grows and attendants remain inside the corridor. When the corridor dries, the people shift toward the granary doors."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "잠실 하층 배급고에서 곡물 자루와 마른 반찬 통을 광신도 쪽으로 넘긴다. 가락 환기구의 손전등과 우의는 광신도 정예조 쪽에 있다. 마곡종자가가 출고를 멈춘 뒤 윗층 선반의 종자 포대는 묶인 채 있고 아래층 자루만 문 앞에 있다.",
+            "en": "At the Jamsil lower granary, grain sacks and tins of dry side dishes are passed to the zealots' side. At the Garak vent, the flashlights and rain capes are on the Zealot Elite Squad's side. After the Magok Seed House stops issue, the seed bags on the upper shelves stay tied, and only the lower sacks are in front of the door."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "배급일 낮에는 북한산보국문 회랑 쪽 인원이 가락과 잠실 하층에 붙는다. 가락 환기구의 국지 역풍이 회랑으로 들어오면 외곽 계단의 인원이 늘고 안쪽 문턱에는 수행이 남는다. 회랑이 마르면 광신도 정예조가 배급고 문 앞에 서고 배수로 손잡이에는 표식 천만 매여 있다.",
+            "en": "On ration-day afternoons, people from the Bukhansan Bogukmun corridor side join the lower levels at Garak and Jamsil. When local backdraft from Garak ventilation enters the corridor, the number on the outer stair grows and attendants remain on the inner threshold. When the corridor dries, the Zealot Elite Squad stands before the granary doors, and only marker cloth stays tied to the drain handle."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "보국문 광신도는 북한산보국문 대피 회랑의 배수 불량 구간과 가락·잠실 하층 배급고 문을 살핀다. 안국총림 쪽 회랑 입구와 명동대교구 쪽 표식 기둥을 등지고 선다. 국지 융설수와 배수 유입철에는 환기구 발판에 서서 배급 자루를 내가는 쪽을 본다.",
+            "en": "The Bogukmun Zealots watch the poorly drained stretches of the Bukhansan Bogukmun shelter corridors and the doors of the lower granaries at Garak and Jamsil. They stand with their backs to the corridor mouth on the Anguk Order side and to the marker posts on the Myeongdong Archdiocese side. In the local snowmelt and drainage inflow they stand on the vent walkways and watch the side where the ration sacks are carried out."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "광신도 인도자는 회랑 분기 문턱에 선다. 광신도 정예조는 배수로와 배급고 문짝을 맡는다. 광신도 척후조는 환기구와 배급 동선에 서서 인도자 쪽을 향한다. 수행은 인도자 뒤 마른 발판에서 자루와 물통을 든다.",
+            "en": "The Zealot Leader stands on the threshold of the corridor junction. The Zealot Elite Squad takes the drain and the granary doors. The Zealot Scouts stand on the vents and the ration route and face the leader's side. Attendants hold sacks and water cans on the dry tread behind the leader."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G10-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G10-generated-G10-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "광신도 인도자의 자리는 북한산보국문 대피 회랑 분기와 그 문턱이다. 광신도 정예조의 자리는 인도자가 보는 배수로에서 가락·잠실 하층 문짝까지다. 광신도 척후조의 자리는 환기구 발판과 배급 자루를 나르는 동선과 가락 환기 역풍이 닿는 외곽 계단이다.",
+        "en": "The Zealot Leader's post is the junction of the Bukhansan Bogukmun shelter corridor and its threshold. The Zealot Elite Squad's post runs from the drain in the leader's sight to the lower doors at Garak and Jamsil. The Zealot Scouts' post is the vent walkways and the route where the ration sacks are carried, and it includes the outer stair that the local backdraft from Garak ventilation reaches."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G10-generated-G10-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G10E01 · 광신도 인도자",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G10",
+                  "anchor": "g10e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G10E01 · Zealot Leader",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G10",
+                  "anchor": "g10e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "북한산보국문 대피 회랑 분기 문턱에 서서 수행과 광신도 정예조가 보는 방향을 정한다.",
+            "en": "Stands on the threshold of the Bukhansan Bogukmun shelter-corridor junction and sets the direction the attendants and the Zealot Elite Squad face."
+          },
+          {
+            "ko": "두목",
+            "en": "Leader"
+          },
+          {
+            "ko": "M015",
+            "en": "M015"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G10E08 · 광신도 정예조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G10",
+                  "anchor": "g10e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G10E08 · Zealot Elite Squad",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G10",
+                  "anchor": "g10e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "배수로 양쪽과 하층 배급고 문짝에 서서 통로와 출고 쪽을 막는다.",
+            "en": "Stands on both sides of the drain and at the lower-granary doors and blocks the passage and the issue side."
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M016",
+            "en": "M016"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G10E15 · 광신도 척후조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G10",
+                  "anchor": "g10e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G10E15 · Zealot Scouts",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G10",
+                  "anchor": "g10e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "환기구 발판과 배급 동선에 늘어서 자루를 내가는 쪽과 외곽 계단을 맡는다.",
+            "en": "Lines the vent walkways and the ration route and takes the side where the sacks are carried out and the outer stair."
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M016",
+            "en": "M016"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10E01-title-heading-1",
+      "publicAnchors": [
+        "g10e01",
+        "Hostile-Group-G10-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G10E01 · 광신도 인도자",
+        "en": "G10E01 · Zealot Leader"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G10-generated-G10E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M015",
+          "en": "Source batch: M015"
+        },
+        {
+          "ko": "기존 역할군: 두목",
+          "en": "Former role class: Leader"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC10\"],\"scenarios\":[\"G10-SC1\",\"G10-SC2\",\"G10-SC3\"],\"states\":[\"S10\",\"S15\"],\"synthetics\":[\"H10\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HC10\"],\"scenarios\":[\"G10-SC1\",\"G10-SC2\",\"G10-SC3\"],\"states\":[\"S10\",\"S15\"],\"synthetics\":[\"H10\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G10-generated-G10E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "북한산보국문 대피 회랑 분기 문턱에 서서 수행과 광신도 정예조가 보는 방향을 정한다.",
+            "en": "Stands on the threshold of the Bukhansan Bogukmun shelter-corridor junction and sets the direction the attendants and the Zealot Elite Squad face."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "자리는 회랑 분기와 그 문턱이며 가락·잠실 문짝은 광신도 정예조가 맡는다.",
+            "en": "The post is the corridor junction and its threshold; the doors at Garak and Jamsil are taken by the Zealot Elite Squad."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M015-entries-5-prose-03279",
+      "items": [
+        {
+          "ko": "표식 천",
+          "en": "Marker cloth"
+        },
+        {
+          "ko": "회랑 철문 열쇠",
+          "en": "Corridor iron-door key"
+        },
+        {
+          "ko": "물통",
+          "en": "Water can"
+        },
+        {
+          "ko": "손전등",
+          "en": "Flashlight"
+        },
+        {
+          "ko": "목봉",
+          "en": "Wooden staff"
+        },
+        {
+          "ko": "우의",
+          "en": "Rain cape"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10E08-title-heading-1",
+      "publicAnchors": [
+        "g10e08",
+        "Hostile-Group-G10-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G10E08 · 광신도 정예조",
+        "en": "G10E08 · Zealot Elite Squad"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G10-generated-G10E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M016",
+          "en": "Source batch: M016"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"states\":[\"S10\",\"S15\"]}",
+          "en": "Links: {\"states\":[\"S10\",\"S15\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G10-generated-G10E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "배수로 양쪽과 하층 배급고 문짝에 서서 통로와 출고 쪽을 막는다.",
+            "en": "Stands on both sides of the drain and at the lower-granary doors and blocks the passage and the issue side."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "인도자가 보는 배수로에서 가락·잠실 하층 문짝까지이며 환기구 발판은 광신도 척후조 자리이다.",
+            "en": "From the drain in the leader's sight to the lower doors at Garak and Jamsil; the vent walkway is the Zealot Scouts' post."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M016-entries-2-prose-03340",
+      "items": [
+        {
+          "ko": "우의",
+          "en": "Rain cape"
+        },
+        {
+          "ko": "손전등",
+          "en": "Flashlight"
+        },
+        {
+          "ko": "문빗장",
+          "en": "Door bar"
+        },
+        {
+          "ko": "목봉",
+          "en": "Wooden staff"
+        },
+        {
+          "ko": "표식 천",
+          "en": "Marker cloth"
+        },
+        {
+          "ko": "배급 자루 끈",
+          "en": "Ration-sack cord"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10E15-title-heading-1",
+      "publicAnchors": [
+        "g10e15",
+        "Hostile-Group-G10-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G10E15 · 광신도 척후조",
+        "en": "G10E15 · Zealot Scouts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G10-generated-G10E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M016",
+          "en": "Source batch: M016"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"states\":[\"S10\"],\"synthetics\":[\"H10\"]}",
+          "en": "Links: {\"states\":[\"S10\"],\"synthetics\":[\"H10\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G10-generated-G10E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "환기구 발판과 배급 동선에 늘어서 자루를 내가는 쪽과 외곽 계단을 맡는다.",
+            "en": "Lines the vent walkways and the ration route and takes the side where the sacks are carried out and the outer stair."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "국지 융설수·배수 유입과 배급 주기가 겹치는 가락·잠실 하층과 가락 환기 역풍이 닿는 외곽 계단이다.",
+            "en": "The Garak and Jamsil lower levels when the local snowmelt and drainage inflow and the ration cycle overlap, and the outer stair that the local backdraft from Garak ventilation reaches."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M016-entries-9-prose-03347",
+      "items": [
+        {
+          "ko": "배급 자루",
+          "en": "Ration sack"
+        },
+        {
+          "ko": "배급 명단",
+          "en": "Ration name list"
+        },
+        {
+          "ko": "손전등",
+          "en": "Flashlight"
+        },
+        {
+          "ko": "물통",
+          "en": "Water can"
+        },
+        {
+          "ko": "우의",
+          "en": "Rain cape"
+        },
+        {
+          "ko": "표식 천",
+          "en": "Marker cloth"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G10-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-10-dossier_prose-01024",
+      "text": {
+        "ko": "배수 유입이 늘어난 밤, 안국총림 회랑 당직이 북한산보국문 대피 회랑 분기에 선다. 철문 문턱에는 발목까지 물이 찼다. 광신도 인도자는 그 앞에 서 있고 수행은 마른 발판에서 명동대교구 표식과 매듭이 다른 천을 들고 있다.",
+        "en": "On a night of increased drainage inflow, the Anguk Order corridor watch stands at the Bukhansan Bogukmun shelter junction. Water reaches ankle depth at the iron-door threshold. The Zealot Leader stands before it, and attendants on the dry tread hold cloth knotted differently from Myeongdong Archdiocese markers."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-10-dossier_prose-01025",
+      "text": {
+        "ko": "같은 시각 광신도 인도자는 분기 쪽을 보고 수행은 인도자의 등을 본다. 광신도 정예조는 배수로 이음에 한 줄로 서 있다. 정예조는 손전등을 꺼 두고 목봉을 발 옆에 놓아 둔다.",
+        "en": "At the same hour the Zealot Leader faces the junction and the attendants face the leader's back. The Zealot Elite Squad stands in one line at the drain joint. The squad has left the flashlights off and set the wooden staves beside their feet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-10-dossier_prose-01026",
+      "text": {
+        "ko": "국지 융설수와 배수 유입철 밤 배수로의 물이 무릎까지 차 있다. 광신도 정예조가 물 양쪽에 서 있고 우의가 물에 닿아 있다. 안국총림 회랑 당직은 마른 쪽 계단에 있으며 철문은 잠겨 있다. 문 손잡이의 표식 천은 젖어 있다.",
+        "en": "On a local snowmelt and drainage inflow night the water in the drain reaches the knee. The Zealot Elite Squad stands on both sides of the water, and the rain capes touch the water. The Anguk Order corridor watch is on the stair on the dry side, and the iron door is locked. The marker cloth on the door handle is wet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-10-dossier_prose-01027",
+      "text": {
+        "ko": "배급일 낮 마곡종자가 배급 당직이 잠실 하층 배급고에 있다. 광신도 척후조가 문 앞을 채우고 곡물 자루와 마른 반찬 통이 문 안쪽에 있다. 당직은 윗층에서 대기 인원의 이름을 부른다. 이름을 불린 인원이 계단에 서 있고 자루는 광신도 척후조 쪽에 있다.",
+        "en": "On a ration-day afternoon the Magok Seed House ration watch is at the Jamsil lower granary. The Zealot Scouts fill the space before the door, and grain sacks and tins of dry side dishes are inside the door. The watch calls the names of the waiting people from the upper level. The people whose names are called stand on the stair, and the sacks are on the Zealot Scouts' side."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-10-dossier_prose-01028",
+      "text": {
+        "ko": "같은 배급일에 가락 하층 배급고 문짝 앞에도 광신도 정예조가 서 있다. 안국총림 당직은 오전에 회랑 쪽 문을 연다. 명동대교구 경계 당직은 오후에 환기구 쪽 발판에 선다. 두 당직의 인원은 문 하나에서 시간을 나누어 선다.",
+        "en": "On the same ration day the Zealot Elite Squad also stands before the door of the Garak lower granary. The Anguk Order watch opens the corridor-side door in the morning. The Myeongdong Archdiocese perimeter watch stands on the vent-side walkway in the afternoon. The people of the two watches stand at one door and divide the hours."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-10-dossier_prose-01029",
+      "text": {
+        "ko": "가락 환기구에서 밀려난 습한 공기가 외곽 계단으로 흐르는 오후, 외곽 계단의 인원이 안쪽보다 많다. 광신도 척후조가 발판에 늘어서 손전등으로 계단 아래를 비춘다. 회랑 안쪽 문턱에는 수행이 물통을 들고 있다. 명동대교구 경계 당직이 외곽 계단에만 등을 켜 둔다.",
+        "en": "On an afternoon when damp air pushed from the Garak vent flows toward the outer stair, the people on the outer stair outnumber those inside. The Zealot Scouts line the walkway and shine flashlights down the stair. On the inner corridor threshold the attendants hold water cans. The Myeongdong Archdiocese perimeter watch leaves the lamps on only along the outer stair."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-10-dossier_prose-01030",
+      "text": {
+        "ko": "윤새론 쪽은 마곡종자가가 종자 포대 출고 목록을 배급 당직에게 넘긴 뒤에 회랑 문 앞에 선다. 목록에 적힌 포대는 오전 문에 있고 나머지 포대는 윗층 선반에 묶여 있다. 광신도 인도자는 그 문의 문턱에서 목록 쪽을 본다.",
+        "en": "The Yunsaeron side stands in front of the corridor door after the Magok Seed House hands the seed-bag issue list to the ration watch. The bags written on the list are at the morning door, and the remaining bags are tied on the upper shelves. The Zealot Leader looks toward the list from the threshold of that door."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-10-dossier_prose-01031",
+      "text": {
+        "ko": "회랑이 마른 날 배수로 바닥이 드러나 있고 표식 천이 손잡이에 남아 있다. 광신도 정예조와 광신도 척후조는 가락 하층 배급고 문 앞에 함께 서 있다. 안국총림 회랑 당직 한 조는 구간 밖 계단에 있으며 손전등으로 문짝을 비춘다. 대기 줄은 그 계단 위까지 이어져 있다.",
+        "en": "On a day when the corridor is dry, the drain floor is exposed and marker cloth remains on the handle. The Zealot Elite Squad and the Zealot Scouts stand together before the door of the Garak lower granary. One shift of the Anguk Order corridor watch is on the stair outside the stretch and shines flashlights on the door. The waiting line runs up that stair."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10-linked-scenarios-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G10-heading-0032"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "연결 시나리오",
+        "en": "Linked scenarios"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10-SC1-title-heading-1",
+      "publicAnchors": [
+        "g10-sc1-회랑-문턱의-포대",
+        "Hostile-Group-G10-heading-0033"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G10-SC1 · 회랑 문턱의 포대",
+        "en": "G10-SC1 · Bags at the Corridor Threshold"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G10-generated-G10-SC1-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 1",
+          "en": "Stage: 1"
+        },
+        {
+          "ko": "촉발: 배수 유입이 늘어난 밤 광신도 인도자가 북한산보국문 대피 회랑 문턱에 선다. 마곡종자가는 종자 포대를 그 문으로 내보내려 하고 윤새론 쪽은 출고 목록을 들고 문 앞에 서 있다.",
+          "en": "Trigger: On a night of increased drainage inflow, the Zealot Leader stands on the Bukhansan Bogukmun shelter threshold. The Magok Seed House is preparing to send seed bags through the door, while Yunsaeron’s side stands before it with the dispatch list."
+        },
+        {
+          "ko": "관련 세력: S10, HC10, H10",
+          "en": "Actors: S10, HC10, H10"
+        },
+        {
+          "ko": "생태 기제: 안국총림 회랑 당직이 철문의 잠금과 계단의 인원을 보고 마곡종자가 배급 당직이 포대의 선반을 본다. 마곡종자가가 목록을 당직에게 넘기면 윤새론 쪽이 문 앞에 남고 수행이 문턱의 포대 옆에 선다.",
+          "en": "Ecological mechanism: The Anguk Order corridor watch watches the iron door's lock and the people on the stair, and the Magok Seed House ration watch watches the shelf of bags. Once the Magok Seed House passes the list to the watch, the Yunsaeron side stays in front of the door and the attendants stand beside the bags on the threshold."
+        },
+        {
+          "ko": "선택지: 안국총림 회랑 당직이 철문을 잠그고 마곡종자가가 종자 포대를 윗층 선반에 둔다. / 당직이 오전에만 철문을 열고 윤새론 쪽 목록에 적힌 포대만 문 밖으로 낸다. / 당직이 문턱에 선 채로 출고를 진행하고 포대를 회랑으로 넘긴다.",
+          "en": "Choices: The Anguk Order corridor watch locks the iron door, and the Magok Seed House places the seed bags on the upper shelves. / The watch opens the iron door only in the morning and sends out only the bags written on the Yunsaeron side's list. / The watch stands on the threshold and carries the issue forward, passing the bags into the corridor."
+        },
+        {
+          "ko": "결과: 철문을 잠근 뒤에는 포대가 윗층 선반에 있고 광신도 인도자는 문 밖에 서 있다. 오전만 연 뒤에는 목록의 포대만 문 밖에 있고 나머지 포대는 선반에 있으며 수행이 문 밖 포대 옆에 서 있다. 출고를 진행한 뒤에는 포대를 문턱 너머 수행 쪽에 쌓아 두고 배급 당직의 빈 수레가 회랑에 있다.",
+          "en": "Outcomes: After the iron door is locked, the bags are on the upper shelves and the Zealot Leader stands outside the door. After the door is opened only in the morning, only the bags on the list are outside the door, the remaining bags are on the shelves, and the attendants stand beside the bags outside. After the issue goes forward, the bags are piled past the threshold on the attendants' side, and the ration watch's empty cart is in the corridor."
+        },
+        {
+          "ko": "도덕 비용: 오전 개방 뒤 목록 밖 대기 인원이 계단에 남고 당일 종자 포대의 일부가 윗층에 묶여 있다. 출고를 넘긴 뒤 마곡종자가의 빈 수레가 회랑에 있고 선반의 자리가 비어 있다.",
+          "en": "Moral cost: After the morning opening, the people waiting outside the list remain on the stair, and part of the day's seed bags stay tied on the upper level. After the issue is passed across, the Magok Seed House's empty cart is in the corridor and the places on the shelves are bare."
+        },
+        {
+          "ko": "원본 항목: G10",
+          "en": "Source dossier: G10"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10-SC2-title-heading-1",
+      "publicAnchors": [
+        "g10-sc2-하층-배급고의-문",
+        "Hostile-Group-G10-heading-0035"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G10-SC2 · 하층 배급고의 문",
+        "en": "G10-SC2 · The Door of the Lower Granary"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G10-generated-G10-SC2-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 2",
+          "en": "Stage: 2"
+        },
+        {
+          "ko": "촉발: 국지 융설수·배수 유입과 배급 주기가 겹친 낮, 광신도 정예조가 잠실 하층 배급고와 가락 하층 배급고 문 앞에 서 있다. 안국총림과 명동대교구 당직이 같은 문에 있고 마곡종자가 배급 당직이 자루의 수를 본다.",
+          "en": "Trigger: On an afternoon when the local snowmelt and drainage inflow and the ration cycle overlap, the Zealot Elite Squad stands before the doors of the Jamsil lower granary and the Garak lower granary. The Anguk Order and Myeongdong Archdiocese watches are at the same door, and the Magok Seed House ration watch looks at the number of sacks."
+        },
+        {
+          "ko": "관련 세력: S10, S15, HC10",
+          "en": "Actors: S10, S15, HC10"
+        },
+        {
+          "ko": "생태 기제: 광신도 정예조가 문짝을 등지고 서 있으며 문 안에는 자루가 쌓여 있다. 안국총림이 오전 회랑을 맡고 명동대교구가 오후 환기구를 맡도록 시간이 나뉘어 있다. 배급 당직이 윗층에서 이름을 부르면 대기 인원이 계단에 선다.",
+          "en": "Ecological mechanism: The Zealot Elite Squad stands with their backs to the door leaf, and the sacks are piled inside the door. The hours are divided so that the Anguk Order takes the morning corridor and the Myeongdong Archdiocese takes the afternoon vent. When the ration watch calls names from the upper level, the waiting people stand on the stair."
+        },
+        {
+          "ko": "선택지: 안국총림과 명동대교구가 오전과 오후로 문 출입을 나누고 그 시간 밖에는 철문을 잠근다. / 마곡종자가 배급 당직이 하층 출고를 멈추고 자루를 윗층 선반으로 올린다. / 명동대교구 경계 당직이 가락 환기구의 등을 끄고 인원을 통로 밖 계단에 세운다.",
+          "en": "Choices: The Anguk Order and the Myeongdong Archdiocese divide passage through the door into morning and afternoon, and lock the iron door outside those hours. / The Magok Seed House ration watch stops lower-level issue and lifts the sacks onto the upper shelves. / The Myeongdong Archdiocese perimeter watch turns off the lamps in the Garak vent and posts people on the stair outside the passage."
+        },
+        {
+          "ko": "결과: 시간을 나눈 뒤에는 오전에는 안국총림 당직이 문에 있고 오후에는 명동대교구 당직이 발판에 있으며 광신도 정예조는 문 앞에 그대로 서 있다. 출고를 멈춘 뒤에는 자루가 윗층 선반에 있고 문 앞 광신도 정예조 쪽 바닥은 비어 있다. 등을 끈 뒤에는 발판이 어둡고 경계 인원이 통로 밖 계단에 서 있으며 광신도 척후조가 손전등으로 계단 아래를 비춘다.",
+          "en": "Outcomes: After the hours are divided, the Anguk Order watch is at the door in the morning and the Myeongdong Archdiocese watch is on the walkway in the afternoon, and the Zealot Elite Squad still stands before the door. After issue stops, the sacks are on the upper shelves and the floor on the Zealot Elite Squad's side of the door is bare. After the lamps go off, the walkway is dark, the perimeter people stand on the stair outside the passage, and the Zealot Scouts shine flashlights down the stair."
+        },
+        {
+          "ko": "도덕 비용: 당일 배급 자루가 줄고 대기 줄이 윗층 계단까지 이어진다. 안국총림 회랑 당직 한 조가 배수 불량 구간 밖 계단에서 밤을 샌다. 환기구 밖 인원이 우의 없이 국지 융설수와 배수 유입 속에 서 있다.",
+          "en": "Moral cost: The day's ration sacks dwindle, and the waiting line runs up to the upper stair. One shift of the Anguk Order corridor watch spends the night on the stair outside the poorly drained stretch. The people outside the vent stand in the local snowmelt and drainage inflow without rain capes."
+        },
+        {
+          "ko": "원본 항목: G10",
+          "en": "Source dossier: G10"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G10-generated-G10-SC3-title-heading-1",
+      "publicAnchors": [
+        "g10-sc3-가락-환기-역풍이-닿는-외곽-계단",
+        "Hostile-Group-G10-heading-0037",
+        "g10-sc3-해풍이-닿는-외곽-계단",
+        "g10-sc3-the-outer-stair-the-sea-wind-reaches"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G10-SC3 · 가락 환기 역풍이 닿는 외곽 계단",
+        "en": "G10-SC3 · The Outer Stairs Reached by Garak Ventilation Backdraft"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G10-generated-G10-SC3-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 3",
+          "en": "Stage: 3"
+        },
+        {
+          "ko": "촉발: 가락 펌프가 세척수를 내보내는 동안 환기구의 역풍이 외곽 계단으로 차고 습한 공기를 밀어낸다. 광신도 척후조가 계단에 늘어서고 안국총림·명동대교구 당직과 마곡종자가의 종자 포대·윤새론 쪽 목록이 같은 문에 모인다.",
+          "en": "Trigger: While Garak pumps discharge washing water, ventilation backflow pushes cold damp air onto the outer stair. Zealot Scouts line that stair; Anguk and Myeongdong watches, Magok Seed House sacks and Yunsaeron’s list meet at the same door."
+        },
+        {
+          "ko": "관련 세력: S10, S15, XT05, HC10, H10",
+          "en": "Actors: S10, S15, XT05, HC10, H10"
+        },
+        {
+          "ko": "생태 기제: 가락 환기구의 역풍이 들어오는 동안 외곽 계단의 인원이 늘고 회랑 안쪽에는 수행이 물통을 들고 남는다. 광신도 인도자는 북한산보국문 쪽 문턱에, 척후조는 인도자를 향해 선다. 윤새론 쪽은 마곡종자가가 출고 목록을 배급 당직에게 넘긴 뒤에도 문 앞에 남는다.",
+          "en": "Ecological mechanism: While backdraft enters from the Garak vents, more people gather on the outer stairs and attendants remain inside holding water cans. The Zealot Leader stands on the threshold toward Bukhansan Bogukmun, with scouts facing the leader. Yunsaeron’s side remains at the door after the Magok Seed House hands its dispatch list to the ration watch."
+        },
+        {
+          "ko": "선택지: 회랑 당직이 외곽 계단의 등만 켜 두고 안쪽 철문을 잠근다. / 마곡종자가 종자 당직이 종자 포대를 배급 자루와 다른 선반에 두고 하층 출고를 멈춘다. / 배급 당직이 윤새론 쪽 목록을 받은 뒤에만 오전 문을 열고 목록의 포대를 낸다.",
+          "en": "Choices: The corridor watch leaves only the outer-stair lamps on and locks the inner iron door. / The Magok Seed House seed watch places the seed bags on a shelf apart from the ration sacks and stops lower-level issue. / The ration watch opens the morning door only after receiving the Yunsaeron side's list and sends out the bags on the list."
+        },
+        {
+          "ko": "결과: 외곽 등만 켠 뒤에는 광신도 척후조가 밝은 계단에 서 있고 안쪽 문턱의 수행이 어두운 쪽에 있다. 포대를 다른 선반에 둔 뒤에는 종자 포대가 윗층에 묶여 있고 아래층 자루가 광신도 척후조 앞에 있다. 목록을 받은 뒤에 문을 연 뒤에는 적힌 포대만 문 밖에 있고 윤새론 쪽이 그 포대 옆에 서 있으며 광신도 인도자는 문턱에서 포대 쪽을 본다.",
+          "en": "Outcomes: After only the outer lamps are left on, the Zealot Scouts stand on the lit stair and the attendants on the inner threshold are on the dark side. After the bags are placed on another shelf, the seed bags are tied on the upper level and the lower sacks are in front of the Zealot Scouts. After the door is opened once the list is received, only the bags written there are outside the door, the Yunsaeron side stands beside those bags, and the Zealot Leader looks toward the bags from the threshold."
+        },
+        {
+          "ko": "도덕 비용: 가락 환기 역풍이 닿는 계단의 대기 인원은 우의 없이 서 있고 명동대교구 경계 당직의 교대는 발판 끝에서 밤까지 이어진다. 종자 포대가 윗층에 남는 동안 잠실 하층 배급 자루는 문 안에 쌓여 있다.",
+          "en": "Moral cost: People waiting on the stairs reached by Garak ventilation backdraft stand without rain capes, while the Myeongdong Archdiocese perimeter watch rotates at the walkway’s end until night. Seed bags remain upstairs as Jamsil lower-level ration sacks pile up inside the door."
+        },
+        {
+          "ko": "원본 항목: G10",
+          "en": "Source dossier: G10"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The Bogukmun Zealots are human and stay in slow-draining stretches of the Bukhansan Bogukmun shelter corridors. They move toward the lower levels of Garak and Jamsil along local snowmelt and drainage paths and with ration-cycle goods. When backdraft comes from the Garak vents, they post more people on the outer stairs. In dry stretches, they leave thresholds clear and stand toward the granaries. They use the same doors as Anguk Order and Myeongdong Archdiocese watches.",
+        "ko": "보국문 광신도는 사람이며 북한산보국문 대피 회랑의 물 빠짐이 느린 구간에 머문다. 국지 융설수와 배수가 흘러가는 길, 배급 주기의 물자를 따라 가락·잠실 하층으로 옮겨 간다. 가락 환기구에서 역풍이 오면 외곽 계단에 인원을 더 세운다. 마른 구간에서는 문턱을 비우고 배급고 쪽에 선다. 안국총림·명동대교구 당직과 같은 문을 쓴다."
+      },
+      "variants": [
+        {
+          "id": "G10E01",
+          "source_batch": "M015"
+        },
+        {
+          "id": "G10E08",
+          "source_batch": "M016"
+        },
+        {
+          "id": "G10E15",
+          "source_batch": "M016"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

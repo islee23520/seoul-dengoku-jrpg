@@ -1,0 +1,1001 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G07",
+  "slug": "Hostile-Group-G07",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G07]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G07 · Yongsan Raiders",
+      "summary": "G07 · Yongsan Raiders",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G07 · 용산 약탈단",
+      "summary": "G07 · 용산 약탈단",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G07-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G07 · 용산 약탈단",
+        "en": "G07 · Yongsan Raiders"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G07-generated-G07-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G07-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G07-generated-G07-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "용산 약탈단은 사람이며 용산 유치선 하층과 이태원 통행 골목의 누액 받침대에 선다. 배수 유입이 많은 때와 온배수에 의한 국지 융설에는 용산·이태원 환승 화물 엘리베이터 샤프트의 사다리와 칸 문을 오가고 배수 유입이 적은 때에는 같은 하층으로 모인다. 손에는 식량 포대와 봉인 상자와 물통이 있다. 재고판에는 환적국이 적혀 있다.",
+        "en": "The Yongsan Raiders are people, and they stand at the lower level of the Yongsan stabling siding and at the leak pallets of the Itaewon passage alley. In the period of high drainage inflow and local thawing caused by warm drainage they move on the ladders and car doors of the Yongsan–Itaewon transfer freight elevator shaft, and during low drainage inflow they gather on that same lower level. Food sacks, sealed boxes, and water drums are in their hands. The Junction is written on the inventory board."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G07-generated-G07-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "약탈단 두목과 약탈단 정예조와 약탈단 척후조는 한 골목의 세 자리이다. 약탈단 두목은 안쪽 받침대에서 상자 수를 정하고 약탈단 정예조는 문과 포대를 맡으며 약탈단 척후조는 입구에서 칸의 도착을 본다. 세 자리는 배수 유입이 많은 밤의 같은 당직 시야에 함께 있다.",
+        "en": "The Raider Chief, the Raider Elite Squad, and the Raider Scouts are three places in one alley. The Raider Chief sets the box count from the inner pallets, the Raider Elite Squad takes the door and the sacks, and the Raider Scouts watch the arrival of cars from the entrance. The three places are together in the same duty-watch view on a high-drainage night."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G07-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G07-generated-G07-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "환적국 이태원 화물 당직이 이 무리를 처음 본 자리는 배수 유입이 많은 밤의 용산 유치선 하층이다. 누액 받침대 열에 사람이 서 있고 허리에는 막대가 있으며 손에는 상자 고리가 있다. 앞의 상자에는 당산 냉동·종자 교환 회랑 냉동 표가 붙어 있고 뚜껑은 열려 있다. 당직의 재고판에 그 상자 번호가 같은 밤의 칸으로 적혀 있다.",
+            "en": "The place where the Junction's Itaewon freight duty watch first saw this group is the lower level of the Yongsan stabling siding on a high-drainage night. People stand along the rows of leak pallets, rods are at their waists, and box hooks are in their hands. A Dangsan Cold-Storage and Seed Exchange Corridor refrigeration slip is on the box in front of them and the lid is open. That box number is written in the same night's column on the duty watch's inventory board."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "무리가 모이는 자리는 용산 유치선 하층과 이태원 통행 골목의 누액 받침대 열이다. 배수 유입이 많은 때와 온배수에 의한 국지 융설에는 사람이 용산·이태원 환승 화물 엘리베이터 샤프트를 따라 서 있다. 당산2동에서 넘긴 냉동 컨테이너가 골목까지 오면 당직 판에 당산 냉동·종자 교환 회랑 신호가 적혀 있고 용산 약탈단은 컨테이너 문 앞에 있다. 배수 유입이 적은 때에는 발 자리가 받침대 세 열 안에 있고 재고판에는 배수 유입이 많은 때와 온배수에 의한 국지 융설과 배수 유입이 적은 때에 사람이 선 열이 적혀 있다.",
+            "en": "The place where the group gathers is the lower level of the Yongsan stabling siding and the rows of leak pallets in the Itaewon passage alley. In the period of high drainage inflow and local thawing caused by warm drainage, people stand along the Yongsan–Itaewon transfer freight elevator shaft. When a refrigerated container handed over at Dangsan-2-dong reaches the alley, a Dangsan Cold-Storage and Seed Exchange Corridor signal is written on the duty board and the Yongsan Raiders are in front of the container door. During low drainage inflow the footprints lie inside three pallet rows and the rows where people stand in the period of high drainage inflow, local thawing caused by warm drainage, and low drainage inflow are written on the inventory board."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "용산 약탈단은 당산2동에서 넘긴 냉동 컨테이너의 식량 포대와 구로합금가 봉인 상자와 신내운수 칸의 운송 표를 이태원 통행 골목에서 옮긴다. 환적국 이태원 화물 당직은 약탈단 포대에 들어간 수만큼 재고판의 잔여 칸을 고쳐 적는다. 당직은 샤프트 문 옆에서 물통을 세고 그 수를 판에 적는다. 정우람 순번 표는 남은 포대 위에 놓여 있다.",
+            "en": "The Yongsan Raiders move food sacks from a refrigerated container handed over at Dangsan-2-dong, Guro Alloy House sealed boxes, and transport slips from Sinnae Transport cars through the Itaewon passage alley. The Junction's Itaewon freight duty watch rewrites the remainder column on the inventory board by the count that enters the raiders' sacks. The duty watch counts the water drums beside the shaft door and writes that count on the board. A Jeonguram sequence slip lies on the sacks that remain."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "배수 유입이 많은 때에는 이태원 통행 골목의 누액 받침대 열마다 사람이 서고 포대가 칸마다 걸쳐 있다. 온배수에 의한 국지 융설에는 약탈단 정예조가 용산·이태원 환승 화물 엘리베이터 샤프트에 올라가 있고 빈 포대는 사다리 단마다 걸려 있다. 배수 유입이 적은 때에는 같은 사람들이 용산 유치선 하층 벽 쪽에 모여 있고 골목 입구의 약탈단 척후조는 한 줄로 서 있다.",
+            "en": "In the period of high drainage inflow people stand on every row of leak pallets in the Itaewon passage alley and a sack hangs at each car. During local thawing caused by warm drainage the Raider Elite Squad has gone up into the Yongsan–Itaewon transfer freight elevator shaft and an empty sack hangs on every step of the ladder. During low drainage inflow the same people are gathered toward the wall of the lower level of the Yongsan stabling siding, and the Raider Scouts at the alley entrance stand in a single line."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "환적국 이태원 화물 당직이 보는 자리에서 용산 약탈단은 누액 받침대의 상자 수와 용산·이태원 환승 화물 엘리베이터의 문 상태를 살핀다. 약탈단 척후조는 이태원 통행 골목 입구 쪽을 보고 약탈단 두목은 받침대 안쪽 열에 서 있다. 당산2동에서 넘긴 냉동 컨테이너의 문과 구로합금가 봉인 띠가 같은 시선 안에 있다.",
+            "en": "From the place where the Junction's Itaewon freight duty watch stands, the Yongsan Raiders check the box count on the leak pallets and the door state of the Yongsan–Itaewon transfer freight elevator. The Raider Scouts face the entrance of the Itaewon passage alley, and the Raider Chief stands on the inner row of pallets. The door of a refrigerated container handed over at Dangsan-2-dong and a Guro Alloy House seal band lie in the same line of sight."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "약탈단 두목은 누액 받침대 안쪽에 있어 상자 수를 정한다. 약탈단 정예조는 엘리베이터 문과 사다리와 포대를 맡는다. 약탈단 척후조는 이태원 통행 골목 입구에 서 칸의 도착을 본다. 재고판에서 환적국이 적힌 칸은 환적국 이태원 화물 당직 앞에 있다.",
+            "en": "The Raider Chief is on the inner side of the leak pallets and sets the box count. The Raider Elite Squad takes the elevator door, the ladder, and the sacks. The Raider Scouts stand at the entrance of the Itaewon passage alley and watch the arrival of cars. The column on the inventory board where the Junction is written is in front of the Junction's Itaewon freight duty watch."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G07-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G07-generated-G07-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "약탈단 두목이 정하는 범위는 누액 받침대의 상자 수와 포대를 둘 열과 약탈단 정예조와 약탈단 척후조의 자리이다. 환적국 재고판에서 환적국이 적힌 칸과 구로합금가 봉인 표와 정우람 순번과 신내운수 운송 표는 이태원 화물 당직 앞에 있다.",
+        "en": "The range the Raider Chief sets is the box count on the leak pallets, the row where sacks are placed, and the places of the Raider Elite Squad and the Raider Scouts. The column on the Junction inventory board where the Junction is written, the Guro Alloy House seal slip, the Jeonguram sequence, and the Sinnae Transport slip are in front of the Itaewon freight duty watch."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G07-generated-G07-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G07E01 · 약탈단 두목",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G07",
+                  "anchor": "g07e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G07E01 · Raider Chief",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G07",
+                  "anchor": "g07e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "누액 받침대 안쪽에서 상자 수를 정하고 포대를 둘 열을 자리로 나타낸다. 약탈단 정예조와 약탈단 척후조는 그 열과 입구에 서 있다.",
+            "en": "From the inner side of the leak pallets, sets the box count and shows by place the row where sacks are put. The Raider Elite Squad and the Raider Scouts stand at that row and at the entrance."
+          },
+          {
+            "ko": "두목",
+            "en": "Leader"
+          },
+          {
+            "ko": "M010",
+            "en": "M010"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G07E08 · 약탈단 정예조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G07",
+                  "anchor": "g07e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G07E08 · Raider Elite Squad",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G07",
+                  "anchor": "g07e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "용산·이태원 환승 화물 엘리베이터의 사다리와 칸 문과 냉동 컨테이너 문을 맡고 포대를 멘다.",
+            "en": "Takes the ladder and car door of the Yongsan–Itaewon transfer freight elevator and the refrigerated container door, and carries the sacks."
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M011",
+            "en": "M011"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G07E15 · 약탈단 척후조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G07",
+                  "anchor": "g07e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G07E15 · Raider Scouts",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G07",
+                  "anchor": "g07e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "이태원 통행 골목 입구에 서 샤프트로 들어오는 칸과 냉동 컨테이너의 도착을 본다.",
+            "en": "Stands at the entrance of the Itaewon passage alley and watches the arrival of cars and refrigerated containers entering the shaft."
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M012",
+            "en": "M012"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07E01-title-heading-1",
+      "publicAnchors": [
+        "g07e01",
+        "Hostile-Group-G07-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G07E01 · 약탈단 두목",
+        "en": "G07E01 · Raider Chief"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G07-generated-G07E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M010",
+          "en": "Source batch: M010"
+        },
+        {
+          "ko": "기존 역할군: 두목",
+          "en": "Former role class: Leader"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC07\"],\"scenarios\":[\"G07-SC1\",\"G07-SC3\"],\"states\":[\"S07\",\"S12\"],\"synthetics\":[\"H07\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"houses\":[\"HC07\"],\"scenarios\":[\"G07-SC1\",\"G07-SC3\"],\"states\":[\"S07\",\"S12\"],\"synthetics\":[\"H07\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G07-generated-G07E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "누액 받침대 안쪽에서 상자 수를 정하고 포대를 둘 열을 자리로 나타낸다. 약탈단 정예조와 약탈단 척후조는 그 열과 입구에 서 있다.",
+            "en": "From the inner side of the leak pallets, sets the box count and shows by place the row where sacks are put. The Raider Elite Squad and the Raider Scouts stand at that row and at the entrance."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "범위는 용산 유치선 하층과 이태원 통행 골목의 상자·포대·물통이다. 환적국 이름은 환적국 이태원 화물 당직의 재고판에 적혀 있다.",
+            "en": "The range is the boxes, sacks, and water drums of the lower level of the Yongsan stabling siding and the Itaewon passage alley. The name of the Junction is written on the inventory board of the Junction's Itaewon freight duty watch."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M010-entries-7-prose-02889",
+      "items": [
+        {
+          "ko": "약탈단 두목은 이태원 통행 골목의 누액 받침대 안쪽 열에 서 있다.",
+          "en": "The Raider Chief stands on the inner row of leak pallets in the Itaewon passage alley."
+        },
+        {
+          "ko": "두목의 앞에는 열린 식량 상자가 있고 포대는 상자 안에 반이 남아 있다.",
+          "en": "An open food box is in front of the chief, and half the sacks remain inside the box."
+        },
+        {
+          "ko": "허리의 막대는 받침대 모서리에 기대어 있다.",
+          "en": "The rod at the waist rests against the corner of a pallet."
+        },
+        {
+          "ko": "두목의 손이 가리키는 열에 약탈단 정예조의 포대가 놓여 있다.",
+          "en": "The Raider Elite Squad's sacks lie on the row the chief's hand indicates."
+        },
+        {
+          "ko": "당산 냉동·종자 교환 회랑 냉동 표가 두목 앞 상자에 붙어 있고 재고판에서 환적국이 적힌 칸은 환적국 이태원 화물 당직 쪽에 있다.",
+          "en": "A Dangsan Cold-Storage and Seed Exchange Corridor refrigeration slip is on the box in front of the chief, and the column on the inventory board where the Junction is written is on the side of the Junction's Itaewon freight duty watch."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07E08-title-heading-1",
+      "publicAnchors": [
+        "g07e08",
+        "Hostile-Group-G07-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G07E08 · 약탈단 정예조",
+        "en": "G07E08 · Raider Elite Squad"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G07-generated-G07E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M011",
+          "en": "Source batch: M011"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC07\"],\"scenarios\":[\"G07-SC2\"],\"states\":[\"S07\",\"S12\"],\"synthetics\":[\"H07\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"houses\":[\"HC07\"],\"scenarios\":[\"G07-SC2\"],\"states\":[\"S07\",\"S12\"],\"synthetics\":[\"H07\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G07-generated-G07E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "용산·이태원 환승 화물 엘리베이터의 사다리와 칸 문과 냉동 컨테이너 문을 맡고 포대를 멘다.",
+            "en": "Takes the ladder and car door of the Yongsan–Itaewon transfer freight elevator and the refrigerated container door, and carries the sacks."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "범위는 샤프트 사다리 단과 칸 문과 누액 받침대에 걸린 포대이다. 봉인 표의 확인 자리는 환적국 이태원 화물 당직과 구로합금가 표 쪽에 있다.",
+            "en": "The range is the shaft ladder, the car door, and the sacks hung on the leak pallets. The place where the seal slip is checked is on the side of the Junction's Itaewon freight duty watch and the Guro Alloy House mark."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M011-entries-4-prose-02932",
+      "items": [
+        {
+          "ko": "약탈단 정예조는 용산·이태원 환승 화물 엘리베이터 사다리 단에 서 있다.",
+          "en": "The Raider Elite Squad stands on the ladder of the Yongsan–Itaewon transfer freight elevator."
+        },
+        {
+          "ko": "등의 포대는 입구가 열린 채로 걸쳐 있다.",
+          "en": "The sack on the back hangs with its mouth open."
+        },
+        {
+          "ko": "손의 고리는 구로합금가 봉인 상자의 모서리에 걸려 있다.",
+          "en": "The hook in the hand is caught on the corner of a Guro Alloy House sealed box."
+        },
+        {
+          "ko": "발아래 케이블 홈은 배수 유입이 많은 때의 물기로 젖어 있고 물기는 누액 받침대 쪽으로 이어져 있다.",
+          "en": "The cable groove underfoot is wet with high-drainage moisture, and the moisture runs toward the leak pallets."
+        },
+        {
+          "ko": "약탈단 정예조가 당산2동에서 넘긴 냉동 컨테이너 문을 어깨 높이에서 받치고 있다.",
+          "en": "The Raider Elite Squad holds the door of the refrigerated container handed over at Dangsan-2-dong at shoulder height."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07E15-title-heading-1",
+      "publicAnchors": [
+        "g07e15",
+        "Hostile-Group-G07-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G07E15 · 약탈단 척후조",
+        "en": "G07E15 · Raider Scouts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G07-generated-G07E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M012",
+          "en": "Source batch: M012"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC07\"],\"scenarios\":[\"G07-SC1\",\"G07-SC2\",\"G07-SC3\"],\"states\":[\"S07\",\"S12\"],\"synthetics\":[\"H07\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"houses\":[\"HC07\"],\"scenarios\":[\"G07-SC1\",\"G07-SC2\",\"G07-SC3\"],\"states\":[\"S07\",\"S12\"],\"synthetics\":[\"H07\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G07-generated-G07E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "이태원 통행 골목 입구에 서 샤프트로 들어오는 칸과 냉동 컨테이너의 도착을 본다.",
+            "en": "Stands at the entrance of the Itaewon passage alley and watches the arrival of cars and refrigerated containers entering the shaft."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "범위는 이태원 통행 골목 입구와 컨테이너 문이 보이는 샤프트 앞이다. 운송 표와 순번 표와 환적국이 적힌 칸은 환적국 이태원 화물 당직 앞에 있다.",
+            "en": "The range is the entrance of the Itaewon passage alley and the front of the shaft where the container door is visible. The transport slip, the sequence slip, and the column where the Junction is written are in front of the Junction's Itaewon freight duty watch."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M012-entries-1-prose-02939",
+      "items": [
+        {
+          "ko": "약탈단 척후조는 이태원 통행 골목 입구에 한 줄로 서 있다.",
+          "en": "The Raider Scouts stand in a single line at the entrance of the Itaewon passage alley."
+        },
+        {
+          "ko": "약탈단 척후조의 얼굴은 용산·이태원 환승 화물 엘리베이터 샤프트 문 쪽을 향하고 있다.",
+          "en": "The faces of the Raider Scouts are turned toward the door of the Yongsan–Itaewon transfer freight elevator shaft."
+        },
+        {
+          "ko": "입구 바닥에는 신내운수 칸의 바퀴 자국이 받침대 열까지 이어져 있다.",
+          "en": "Wheel marks of a Sinnae Transport car run on the entrance floor as far as the pallet rows."
+        },
+        {
+          "ko": "약탈단 척후조의 막대는 골목 벽의 등 아래에 놓여 있다.",
+          "en": "The Raider Scouts' rods lie on the alley wall under the lamp."
+        },
+        {
+          "ko": "당직 판에 당산 냉동·종자 교환 회랑 신호가 적히면 약탈단 척후조는 냉동 컨테이너 문 앞까지 열을 늘려 서 있다.",
+          "en": "When a Dangsan Cold-Storage and Seed Exchange Corridor signal is written on the duty board, the Raider Scouts extend their line to the front of the refrigerated container door."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G07-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-7-dossier_prose-00793",
+      "text": {
+        "ko": "배수 유입이 많은 밤의 용산 유치선 하층은 환적국 이태원 화물 당직이 용산 약탈단을 처음 기록한 자리이다. 누액 받침대 열에 사람이 서 있고 허리에는 막대가 있으며 손에는 상자 고리가 있다. 앞의 식량 상자에는 당산 냉동·종자 교환 회랑 냉동 표가 붙어 있고 뚜껑은 열려 있다. 재고판의 같은 번호는 그 밤의 칸에 적혀 있다.",
+        "en": "The lower level of the Yongsan stabling siding on a high-drainage night is the place where the Junction's Itaewon freight duty watch first recorded the Yongsan Raiders. People stand along the rows of leak pallets, rods are at their waists, and box hooks are in their hands. A Dangsan Cold-Storage and Seed Exchange Corridor refrigeration slip is on the food box in front and the lid is open. The same number on the inventory board is written in that night's column."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-7-dossier_prose-00794",
+      "text": {
+        "ko": "당직의 시선에서 약탈단 척후조는 이태원 통행 골목 입구를 보고 약탈단 두목은 누액 받침대 안쪽의 상자 수를 본다. 약탈단 정예조의 고리는 용산·이태원 환승 화물 엘리베이터 문 모서리에 걸려 있다. 구로합금가 봉인 띠와 당산 냉동·종자 교환 회랑 냉동 표가 한 문턱에 나란히 있다. 당직은 문 상태와 상자 수를 재고판의 같은 줄에 적는다.",
+        "en": "In the duty watch's line of sight the Raider Scouts face the entrance of the Itaewon passage alley and the Raider Chief looks at the box count on the inner leak pallets. The hook of the Raider Elite Squad is caught on the corner of the Yongsan–Itaewon transfer freight elevator door. A Guro Alloy House seal band and a Dangsan Cold-Storage and Seed Exchange Corridor refrigeration slip lie side by side on one threshold. The duty watch writes the door state and the box count on the same line of the inventory board."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-7-dossier_prose-00795",
+      "text": {
+        "ko": "약탈단 두목의 자리는 받침대 안쪽 열이고 가리키는 손 쪽에 포대가 놓여 있다. 약탈단 정예조의 자리는 사다리 단과 칸 문이며 등에는 포대가 걸쳐 있다. 약탈단 척후조의 자리는 골목 입구의 한 줄이며 막대는 등 아래 벽에 있다. 세 자리 밖의 재고판에는 환적국이 적혀 있고 그 칸은 환적국 이태원 화물 당직 앞에 있다.",
+        "en": "The Raider Chief's place is the inner row of pallets, and sacks lie on the side the hand indicates. The Raider Elite Squad's place is the ladder and the car door, and a sack hangs on the back. The Raider Scouts' place is a single line at the alley entrance, and the rods are on the wall under the lamp. The Junction is written on the inventory board outside those three places, and that column is in front of the Junction's Itaewon freight duty watch."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-7-dossier_prose-00796",
+      "text": {
+        "ko": "골목에서 용산 약탈단은 당산2동에서 넘긴 냉동 컨테이너의 식량 포대와 구로합금가 봉인 상자와 신내운수 칸의 운송 표와 물통을 옮긴다. 재고판의 잔여 칸에는 약탈단 포대에 들어간 수가 적혀 있다. 정우람 순번 표는 골목에 남은 포대 위에 놓여 있다. 냉동 칸 바닥에서 누액 받침대까지 소금 때가 나 있다.",
+        "en": "In the alley the Yongsan Raiders move food sacks from a refrigerated container handed over at Dangsan-2-dong, Guro Alloy House sealed boxes, transport slips from Sinnae Transport cars, and water drums. The count that enters the raiders' sacks is written in the remainder column of the inventory board. A Jeonguram sequence slip lies on the sacks left in the alley. Salt residue runs from the floor of the refrigerated car to the leak pallets."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-7-dossier_prose-00797",
+      "text": {
+        "ko": "배수 유입이 많거나 온배수가 주변 얼음을 녹이는 때에는 사람들이 용산·이태원 환승 화물 엘리베이터 샤프트의 사다리와 문턱으로 올라선다. 당산2동에서 넘긴 냉동 컨테이너가 이태원 통행 골목에 도착하면 당직 판에 당산 냉동·종자 교환 회랑 신호가 적히고 무리는 컨테이너 문 앞에 모인다. 배수 유입이 적은 때의 발자국은 누액 받침대 세 열 안에 남는다. 재고판에는 배수량과 국지 융설 여부에 따라 사람이 선 열이 따로 적혀 있다.",
+        "en": "When drainage inflow is high or warm drainage melts nearby ice, people climb onto the ladders and thresholds of the Yongsan–Itaewon transfer-freight elevator shaft. When a refrigerated container handed over at Dangsan-2-dong reaches the Itaewon passage alley, the duty board records a Dangsan Cold-Storage and Seed Exchange Corridor signal and the group gathers at the container door. During low drainage inflow, footprints remain within three rows of leak pallets. The inventory board records occupied rows separately by drainage volume and the presence of local snowmelt."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-7-dossier_prose-00798",
+      "text": {
+        "ko": "배수 유입이 많은 밤의 받침대 전 열에는 사람이 서 있고 식량 상자의 뚜껑이 열려 있다. 온배수에 의한 국지 융설 아침의 샤프트 사다리에는 약탈단 정예조가 있으며 신내운수 칸의 봉인 모서리가 들려 있다. 건기 낮의 같은 골목에서는 무리가 세 열 안에 모여 있고 물통 마개가 샤프트 문 옆에서 잠겨 있다. 세 번의 모습은 환적국 이태원 화물 당직의 한 근무지에서 이어진다.",
+        "en": "On a high-drainage night people stand along every pallet row and the lids of the food boxes are open. On a morning of local thawing caused by heating the Raider Elite Squad is on the shaft ladder and the seal corner of a Sinnae Transport car is lifted. In the same alley on a dry-season day the group is gathered inside three rows and the water-drum caps are locked beside the shaft door. The three sights continue at one post of the Junction's Itaewon freight duty watch."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-7-dossier_prose-00799",
+      "text": {
+        "ko": "당직이 샤프트 문을 잠근 뒤 엘리베이터 칸은 용산 유치선 하층에 있고 들린 봉인 상자는 벽 쪽에 세워져 있다. 당직은 문턱의 환적국 재고판과 구로합금가 봉인 확인과 정우람 순번 표와 신내운수 운송 표를 한 수의 상자 칸으로 맞추어 벽에 붙여 둔다. 약탈단 두목은 맞춘 판 밖의 누액 받침대에 서 있다. 물통의 수는 판의 옆칸에 적혀 있다.",
+        "en": "After the duty watch locks the shaft door, the elevator car is on the lower level of the Yongsan stabling siding and the sealed boxes with lifted corners stand toward the wall. The duty watch aligns the Junction inventory board, the Guro Alloy House seal check, the Jeonguram sequence slip, and the Sinnae Transport slip from the threshold into one box-count column and fixes them to the wall. The Raider Chief stands at the leak pallets outside the aligned board. The water-drum count is written in the side column of the board."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-7-dossier_prose-00800",
+      "text": {
+        "ko": "순번을 맞춘 재고판에는 골목을 나간 식량 포대와 물통의 잔여가 적혀 있다. 문을 잠근 하층 벽에는 정우람 순번 표가 붙어 있고 당직의 다음 칸에는 그 표의 번호가 적혀 있다. 받침대 자리를 비운 뒤의 판에는 같은 번호가 약탈단 포대 칸에 적혀 있으며 약탈단 척후조는 그 포대 쪽을 보고 입구에 서 있다. 건기 낮의 재고판 첫 칸에는 배수 유입이 많은 때와 온배수에 의한 국지 융설과 건기에 사람이 선 열이 적혀 있고 용산 약탈단은 용산 유치선 하층 벽에 모여 있다.",
+        "en": "On the inventory board after the sequence is aligned, the remainder of the food sacks and water drums that left the alley is written. On the lower-level wall after the door is locked, the Jeonguram sequence slip is fixed and that slip's number is written in the duty watch's next column. On the board after the pallet place is left empty, the same number is written in the raiders' sack column, and the Raider Scouts stand at the entrance facing those sacks. In the first column of the inventory board on a dry-season day the rows where people stand in the period of high drainage inflow, local thawing caused by heating, and the dry season are written, and the Yongsan Raiders are gathered at the wall of the lower level of the Yongsan stabling siding."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07-linked-scenarios-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G07-heading-0032"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "연결 시나리오",
+        "en": "Linked scenarios"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07-SC1-title-heading-1",
+      "publicAnchors": [
+        "g07-sc1-누액-받침대의-봉인-상자",
+        "Hostile-Group-G07-heading-0033"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G07-SC1 · 누액 받침대의 봉인 상자",
+        "en": "G07-SC1 · Sealed Boxes at the Leak Pallets"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G07-generated-G07-SC1-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 1",
+          "en": "Stage: 1"
+        },
+        {
+          "ko": "촉발: 배수 유입이 많은 밤 용산·이태원 환승 화물 엘리베이터는 이태원 통행 골목에 멈춰 있고 구로합금가 봉인 상자가 누액 받침대 앞에 있다. 약탈단 척후조가 받침대 열에 서 있다. 정우람 순번 표가 상자 위에 있다.",
+          "en": "Trigger: On a high-drainage night the Yongsan–Itaewon transfer freight elevator is stopped in the Itaewon passage alley and Guro Alloy House sealed boxes are in front of the leak pallets. The Raider Scouts stand along the pallet rows. A Jeonguram sequence slip is on the boxes."
+        },
+        {
+          "ko": "관련 세력: S07, HC07, H07",
+          "en": "Actors: S07, HC07, H07"
+        },
+        {
+          "ko": "생태 기제: 환적국 이태원 화물 당직이 샤프트 문 앞에서 상자 수를 센다. 약탈단 두목은 받침대 안쪽에 있고 약탈단 정예조는 상자 고리를 잡고 있다. 구로합금가 봉인 띠의 모서리는 젖어 있다.",
+          "en": "Ecological mechanism: The Junction's Itaewon freight duty watch counts the boxes in front of the shaft door. The Raider Chief is on the inner side of the pallets and the Raider Elite Squad holds the box hooks. The corner of the Guro Alloy House seal band is wet."
+        },
+        {
+          "ko": "선택지: 엘리베이터 칸을 용산 유치선 하층에 두고 샤프트 문을 잠근 뒤 상자를 하층 벽에 붙인다. / 구로합금가 봉인을 당직이 확인한 뒤 상자를 정우람 순번 표대로 이태원 통행 골목 밖으로 넘긴다. / 누액 받침대 열의 당직 자리를 비우고 상자를 약탈단이 선 자리에 둔다.",
+          "en": "Choices: Leave the elevator car on the lower level of the Yongsan stabling siding, lock the shaft door, and set the boxes against the lower-level wall. / After the duty watch checks the Guro Alloy House seal, pass the boxes out of the Itaewon passage alley according to the Jeonguram sequence slip. / Leave the duty-watch place on the leak-pallet rows empty and set the boxes where the raiders stand."
+        },
+        {
+          "ko": "결과: 첫째를 고르면 상자는 용산 유치선 하층에 있고 용산 약탈단은 잠긴 샤프트 문 앞에 서 있다. 둘째를 고르면 정우람 순번의 상자가 골목 밖에 있고 봉인 띠에는 구로합금가 표가 그대로 붙어 있다. 셋째를 고르면 상자는 누액 받침대에 있고 약탈단 정예조의 포대 입구가 열려 있다.",
+          "en": "Outcomes: If the first is chosen, the boxes are on the lower level of the Yongsan stabling siding and the Yongsan Raiders stand in front of the locked shaft door. If the second is chosen, the boxes of the Jeonguram sequence are outside the alley and the Guro Alloy House mark remains on the seal band. If the third is chosen, the boxes are on the leak pallets and the mouths of the Raider Elite Squad's sacks are open."
+        },
+        {
+          "ko": "도덕 비용: 문을 잠근 뒤에는 정우람 순번 표가 용산 유치선 하층에 남아 있고 재고판의 다음 칸에는 그 번호가 적혀 있다. 순번대로 넘긴 뒤에는 골목 당일의 물통 수가 상자 수만큼 적은 값으로 판에 적혀 있다. 자리를 비운 뒤에는 같은 번호가 약탈단 포대 칸에 적혀 있고 약탈단 척후조가 그 포대를 보고 있다.",
+          "en": "Moral cost: After the door is locked, the Jeonguram sequence slip remains on the lower level of the Yongsan stabling siding and that number is written in the next column of the inventory board. After the boxes are passed by sequence, that day's water-drum count in the alley is written on the board as a figure lower by the box count. After the place is left empty, the same number is written in the raiders' sack column and the Raider Scouts face those sacks."
+        },
+        {
+          "ko": "원본 항목: G07",
+          "en": "Source dossier: G07"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07-SC2-title-heading-1",
+      "publicAnchors": [
+        "g07-sc2-신내운수-칸의-온배수에-의한-국지-융설",
+        "Hostile-Group-G07-heading-0035",
+        "g07-sc2-신내운수-칸의-해동"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G07-SC2 · 신내운수 칸의 온배수에 의한 국지 융설",
+        "en": "G07-SC2 · Local Thaw by Warm Drainage at the Sinnae Transport Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G07-generated-G07-SC2-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 2",
+          "en": "Stage: 2"
+        },
+        {
+          "ko": "촉발: 온배수에 의한 국지 융설 아침 신내운수 화물 칸이 용산·이태원 환승 화물 엘리베이터 샤프트에 들어가고 구로합금가 봉인 띠가 칸 문에 붙어 있다. 약탈단 정예조가 사다리 단에 서 있다.",
+          "en": "Trigger: On a morning of local thawing caused by warm drainage a Sinnae Transport freight car enters the Yongsan–Itaewon transfer freight elevator shaft and a Guro Alloy House seal band is on the car door. The Raider Elite Squad stands on the ladder."
+        },
+        {
+          "ko": "관련 세력: S07, S12, HC07",
+          "en": "Actors: S07, S12, HC07"
+        },
+        {
+          "ko": "생태 기제: 칸 바닥의 물기가 이태원 통행 골목의 누액 받침대로 이어져 있다. 환적국 재고판과 신내운수 운송 표가 문턱에 놓여 있고 두 표의 상자 수는 서로 다르다. 약탈단 두목은 그 차이만큼의 포대를 칸 옆에 둔다.",
+          "en": "Ecological mechanism: Moisture on the car floor runs to the leak pallets of the Itaewon passage alley. The Junction inventory board and the Sinnae Transport slip lie on the threshold, and the box counts on the two slips differ. The Raider Chief sets down sacks beside the car for that difference."
+        },
+        {
+          "ko": "선택지: 신내운수 운송 표를 환적국 재고판에 맞추고 차이 분량의 상자를 용산 유치선 하층으로 내린다. / 구로합금가 봉인 띠를 다시 누르고 칸을 샤프트의 위쪽 정차 선으로 보낸다. / 차이 분량의 상자를 약탈단 포대에 실은 뒤 당직이 신내운수 운송 표에 고친 수를 적는다.",
+          "en": "Choices: Align the Sinnae Transport slip with the Junction inventory board and lower the boxes of the difference onto the lower level of the Yongsan stabling siding. / Press the Guro Alloy House seal band down again and send the car to the upper stop line of the shaft. / Load the boxes of the difference into the raiders' sacks, and the duty watch writes the corrected count on the Sinnae Transport slip."
+        },
+        {
+          "ko": "결과: 첫째를 고르면 차이 분량의 상자는 용산 유치선 하층 벽에 있고 신내운수 운송 표와 재고판의 수가 같다. 둘째를 고르면 봉인 띠가 칸 문에 붙어 있고 칸은 샤프트 위쪽 정차 선에 있다. 셋째를 고르면 약탈단 정예조의 포대 입구가 열려 있고 고친 수가 문턱의 운송 표에 적혀 있다.",
+          "en": "Outcomes: If the first is chosen, the boxes of the difference are at the wall of the lower level of the Yongsan stabling siding and the Sinnae Transport slip matches the inventory board. If the second is chosen, the seal band is on the car door and the car is at the upper stop line of the shaft. If the third is chosen, the mouths of the Raider Elite Squad's sacks are open and the corrected count is written on the transport slip at the threshold."
+        },
+        {
+          "ko": "도덕 비용: 하층으로 내린 뒤에는 골목 당일의 식량 포대가 차이 분량만큼 재고판의 잔여로 남는다. 위쪽 정차 선으로 보낸 뒤에는 이태원 통행 골목의 정우람 순번이 빈 문턱에 남아 다음 칸의 번호로 이어진다. 포대에 실은 뒤에는 같은 번호가 약탈단 칸에 적히고 물통 수가 그 칸 옆에 같이 적힌다.",
+          "en": "Moral cost: After the boxes are lowered to the lower level, that day's food sacks in the alley remain on the inventory board as a remainder of the difference. After the car is sent to the upper stop line, the Jeonguram sequence for the Itaewon passage alley remains on the empty threshold and continues as the number of the next column. After the load goes into the sacks, the same number is written in the raiders' column and the water-drum count is written beside that column."
+        },
+        {
+          "ko": "원본 항목: G07",
+          "en": "Source dossier: G07"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G07-generated-G07-SC3-title-heading-1",
+      "publicAnchors": [
+        "g07-sc3-당산-냉동-인계-칸",
+        "Hostile-Group-G07-heading-0037",
+        "g07-sc3-서해곡창-냉동-칸",
+        "g07-sc3-the-west-sea-granary-refrigerated-car"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G07-SC3 · 당산 냉동 인계 칸",
+        "en": "G07-SC3 · The Dangsan Cold Handover Compartment"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G07-generated-G07-SC3-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 3",
+          "en": "Stage: 3"
+        },
+        {
+          "ko": "촉발: 온배수가 얼음을 녹이는 밤 당산2동에서 넘긴 냉동 컨테이너가 이태원 통행 골목까지 밀려 와 있다. 환적국 당직 판에는 당산 냉동·종자 교환 회랑 신호가 적혀 있다. 용산 약탈단이 컨테이너 문 앞에 모여 있다.",
+          "en": "Trigger: On a night when warm drainage melts the ice, a refrigerated container handed over at Dangsan-2-dong has been pushed as far as the Itaewon passage alley. A Dangsan Cold-Storage and Seed Exchange Corridor signal is written on the Junction duty board. The Yongsan Raiders are gathered in front of the container door."
+        },
+        {
+          "ko": "관련 세력: S07, S12, XT02, HC07, H07",
+          "en": "Actors: S07, S12, XT02, HC07, H07"
+        },
+        {
+          "ko": "생태 기제: 소금 때가 컨테이너 바닥에서 누액 받침대까지 이어져 있다. 신내운수 칸과 구로합금가 봉인 상자가 같은 열에 있고 정우람 순번 표가 식량 포대 위에 있다. 약탈단 두목이 포대 수를 세고 약탈단 정예조가 문을 받치며 약탈단 척후조가 골목 입구에 서 있다.",
+          "en": "Ecological mechanism: Salt residue extends from the container floor to the leak pallets. A Sinnae Transport car and Guro Alloy House sealed boxes are in the same row, and a Jeonguram sequence slip is on the food sacks. The Raider Chief counts the sacks, the Raider Elite Squad holds the door, and the Raider Scouts stand at the alley entrance."
+        },
+        {
+          "ko": "선택지: 냉동 칸을 용산 유치선 하층에 두고 환적국 이태원 화물 당직이 당산 냉동·종자 교환 회랑 신호의 숫자만 재고판에 남긴다. / 정우람 순번과 신내운수 운송 표를 맞춘 뒤 구로합금가 봉인 상자를 먼저 이태원 통행 골목 밖으로 넘긴다. / 냉동 컨테이너 문을 연 채 약탈단이 선 쪽에 식량 포대를 둔다.",
+          "en": "Choices: Leave the refrigerated car on the lower level of the Yongsan stabling siding, and the Junction's Itaewon freight duty watch leaves only the figures of the Dangsan Cold-Storage and Seed Exchange Corridor signal on the inventory board. / Align the Jeonguram sequence with the Sinnae Transport slip, then pass the Guro Alloy House sealed boxes out of the Itaewon passage alley first. / Leave the refrigerated container door open and set the food sacks on the side where the raiders stand."
+        },
+        {
+          "ko": "결과: 첫째를 고르면 냉동 칸은 용산 유치선 하층에 있고 당직 판의 옆칸에는 당산 냉동·종자 교환 회랑 신호 숫자가 적혀 있다. 둘째를 고르면 구로합금가 봉인 상자가 골목 밖에 있고 정우람 순번과 신내운수 표의 수가 한 판에서 같다. 셋째를 고르면 식량 포대는 컨테이너 문 앞에 있고 약탈단 정예조의 포대 입구가 열려 있으며 약탈단 척후조가 그 열을 보고 있다.",
+          "en": "Outcomes: If the first is chosen, the refrigerated car is on the lower level of the Yongsan stabling siding and the Dangsan Cold-Storage and Seed Exchange Corridor signal figures are written in the side column of the duty board. If the second is chosen, the Guro Alloy House sealed boxes are outside the alley and the Jeonguram sequence matches the Sinnae Transport slip on one board. If the third is chosen, the food sacks are in front of the container door, the mouths of the Raider Elite Squad's sacks are open, and the Raider Scouts face that row."
+        },
+        {
+          "ko": "도덕 비용: 신호 숫자만 남긴 뒤에는 식량 포대가 용산 유치선 하층에 있고 골목의 당일 물통 칸이 그 포대 수와 나란히 재고판에 적힌다. 봉인 상자를 먼저 넘긴 뒤에는 냉동 칸의 잔여 포대가 정우람 순번 위에 남고 입구의 약탈단 척후조가 한 줄로 서 있다. 문을 연 채 둔 뒤에는 같은 포대 번호가 약탈단 칸에 적히고 당산 냉동·종자 교환 회랑 신호는 그 칸 옆의 숫자로 남아 있다.",
+          "en": "Moral cost: After only the signal figures remain, the food sacks are on the lower level of the Yongsan stabling siding and that day's water-drum column in the alley is written on the inventory board together with that sack count. After the sealed boxes are passed first, the remaining sacks of the refrigerated car stay on the Jeonguram sequence and the Raider Scouts at the entrance stand in a single line. After the door is left open, the same sack number is written in the raiders' column and the Dangsan Cold-Storage and Seed Exchange Corridor signal remains as the figures beside that column."
+        },
+        {
+          "ko": "원본 항목: G07",
+          "en": "Source dossier: G07"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The Yongsan Raiders are people, and they stand at the lower level of the Yongsan stabling siding and at the leak pallets of the Itaewon passage alley. In the period of high drainage inflow and local thawing caused by warm drainage they move on the ladders and car doors of the Yongsan–Itaewon transfer freight elevator shaft, and during low drainage inflow they gather on that same lower level. Food sacks, sealed boxes, and water drums are in their hands. The Junction is written on the inventory board.",
+        "ko": "용산 약탈단은 사람이며 용산 유치선 하층과 이태원 통행 골목의 누액 받침대에 선다. 배수 유입이 많은 때와 온배수에 의한 국지 융설에는 용산·이태원 환승 화물 엘리베이터 샤프트의 사다리와 칸 문을 오가고 배수 유입이 적은 때에는 같은 하층으로 모인다. 손에는 식량 포대와 봉인 상자와 물통이 있다. 재고판에는 환적국이 적혀 있다."
+      },
+      "variants": [
+        {
+          "id": "G07E01",
+          "source_batch": "M010"
+        },
+        {
+          "id": "G07E08",
+          "source_batch": "M011"
+        },
+        {
+          "id": "G07E15",
+          "source_batch": "M012"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4216 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G16",
+  "slug": "Hostile-Group-G16",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G16]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G16 · Girder Spider",
+      "summary": "G16 · Girder Spider",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G16 · 철골거미",
+      "summary": "G16 · 철골거미",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G16 · 철골거미",
+        "en": "G16 · Girder Spider"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G16-generated-G16-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G16-generated-G16-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "철골거미는 수서 도면 금고 아래 공동구에서 미완 도면을 완성하려는 캐시 컨트롤러, 측량 포트, 양중 암, 용접 무리다. 붕괴 뒤 세운 가설 거처와 새 배관은 캐시에 없고, 손으로 그린 수정 표시도 레이어와 맞지 않으면 무시된다. 금 간 내력벽을 이음선으로 남기고 멀쩡한 가설 기둥을 장애물로 절단할 수 있다.",
+        "en": "The Girder Spider was a corps of cache controllers, survey ports, lifting arms, and welding swarms beneath the utility tunnels under the Suseo drawing vault, trying to complete unfinished drawings. The provisional shelters and new pipes raised after the collapse were not in the cache, and hand-drawn correction marks were ignored whenever they mismatched the layers. It could leave a cracked bearing wall as a seam line and cut a sound provisional pillar as an obstacle."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G16-generated-G16-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "개정 전 캐시와 분전이 바탕 시공 생태이며, 미완도면주재기부터 구의자재추종기까지는 측량점·볼트 회수·거푸집 밀이·분전벽처럼 갈라진 기계 하위형이다. 백층미완성탑은 여러 레이어가 수직 골조에 붙은 거점 개체다. 방치 암을 포트에 꽂아 수를 늘릴 수 있으나 새 본체는 주조하지 못한다.",
+        "en": "The pre-revision cache and the distribution board were the base construction ecology, and from the Unfinished-Drawing Warden to the Guui-Material Follower the individuals were machine subtypes split like survey points, bolt recovery, formwork pressing, and grid walls. The Hundred-Story Unfinished Tower was a stronghold individual where many layers clung to a vertical frame. Abandoned arms could be plugged into ports to raise numbers, but no new bodies could be cast."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "2030년 고지능 AI는 인류 자체를 세계의 바이러스로 판단하고 당시의 공룡·곤충 모양 자율 무기 드론에 살육 명령을 내렸다. 이 명령으로 대정전이 일어났고 전 세계에서 공습과 살육이 시작되었다. / 붕괴 이후 정동노총 도면 금고와 동방사 중장비 데크에 남아 있던 시공 기계가 로컬 도면 캐시를 읽으며 깨어났다. / 승인 워크플로와 현장 감리 서명은 죽었고, 마지막 개정 직전 도면 레이어만 남았다. / 기계단은 미기입 부재를 오류로 보고 주변 가설 구조물을 정리하려 한다. / 안국·신내 명부 회랑 자재 유입 신호와 검역 적체가 가중되면 골조 작업 반경이 구의 수문 접근 회랑까지 넓어진다. / 최초 목격은 HP02 용산선로문 배차 로그와 H16 신태율 공구 벽 메모에 남는다. / 첫 오철거는 수서 가설 슬래브 위의 응급 천막 세 동에서 일어났다. / 도면 캐시가 미기입 앵커를 오류로 읽고 양중 암이 천막 뼈대를 들어 올렸다. / 암사 데크의 크레인이 같은 레이어를 공유하면서 철거 반경이 야적 도로까지 번졌다. / 기계단은 미완 시공을 교정 업무로 기록하고 캐시의 도면 레이어를 따라 양중과 보강을 반복한다. / 2040년부터 AI들이 서로 갈라져 세력을 이루면서 지휘와 통제가 약해졌다. 살육이 멈추자 사람들은 지상으로 돌아오기 시작하였다. 살육기계의 활동과 인류가 앞서 남긴 오염의 여파는 세계를 영원한 겨울로 몰아넣었고 식량난이 이어졌다. 1세대가 끝나고 2세대가 시작되면서 기온은 조금 높아졌다. 목적을 잃은 기계들은 살육 네트워크를 벗어나 작은 무리로 돌아다녔고 사람들은 이들을 상대할 수 있게 되었다.",
+            "en": "In 2030 a highly intelligent AI judged humanity itself to be a virus of the world and issued slaughter orders to the dinosaur- and insect-shaped autonomous weapon drones of the era. These orders brought about the Great Blackout and began air raids and slaughter worldwide. / After the collapse, the construction machines left in the blueprint vault of the Jeongdong Federation and on the heavy-equipment deck of the Eastern Command woke up reading local blueprint caches. / The approval workflow and the site supervisors' signatures were dead, and only the blueprint layers from just before the last revision remained. / The machine corps saw unentered members as errors and tried to clear away the surrounding temporary structures. / When the materials inflow signals and quarantine backlog of the Anguk–Sinnae register corridor piled up, the radius of framing work widened as far as the Guui sluice approach corridor. / The first sighting survived in the dispatch log of HP02 Yongsan Track Gate and the tool-wall notes of H16 Sintaeul. / The first wrongful demolition happened to three emergency tents on the Suseo temporary slab. / The blueprint cache read the unentered anchors as errors, and the lifting arms raised the tent frames. / As the cranes of the Amsa deck shared the same layer, the demolition radius spread as far as the storage-yard road. / The machine corps logged unfinished construction as correction work and repeated lifting and reinforcement along the cached blueprint layers. / From 2040 the AIs split into factions, weakening command and control. As the slaughter stopped, people began returning to the surface. Slaughter-machine activity and the aftermath of earlier human pollution plunged the world into eternal winter and prolonged the food crisis. The end of the first generation marked the beginning of the second, with slightly warmer temperatures. Purposeless machines outside the killing network roamed in small groups that people could counter."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "핵심 서식은 수서선 수서 도면 금고 주변 공동구 가설 슬래브 임시 분전반 열이다. / 자재 재고가 생길 때 광진선 암사 중장비 데크 고덕 야적 크레인 레일 골재 더미 쪽으로 이동한다. / XT01 자재 유입이 커지면 구의 수문 접근 회랑 가설 교량까지 작업 반경이 늘어난다. / 우천과 분진 경보 시 축소하고, 도면 개정 시각 잔여 알람 전후에 밀도가 오른다. / 신규 손도면이나 분필 표시는 인식하지 못하고 캐시된 레이어만 집요하게 따른다. / 분전 부하가 위험 구간에 들어가면 양중을 멈추고 측량만 남긴다. / 분진 경보가 짙으면 양중을 멈추고 측량 포트만 남긴 채 금고 쪽으로 접힌다. / 암사 야적 도로가 막히면 대기 그리드로 들어가 도로가 다시 열리기를 기다린다. / 손도면 부착 벽은 캐시 레이어에 없어 작업 대상에서 빠진다. / 구의 접근 가설 교량은 XT01 유입이 약해지면 반경 밖으로 둔다.",
+            "en": "The core habitat was the row of temporary distribution boards on the provisional slabs of the utility tunnels around the Suseo Line's drawing vault. / When material stock formed, it moved toward the Godeok stockyard crane rails and aggregate piles of the Amsa heavy-equipment deck on the Gwangjin Line. / With XT01 material inflow large, the work radius stretched to the provisional bridges of the Guui sluice approach corridor. / It shrank in rain and dust alarms, and density rose around the residual alarm of the drawing-revision time. / It recognized neither new hand drawings nor chalk marks and clung obstinately to the cached layers. / When distribution load entered the danger band, it stopped lifting and kept only surveying. / When the dust alarm thickened, it stopped lifting, left only survey ports, and folded toward the vault. / When the Amsa stockyard road is blocked, it enters the waiting grid and waits for the road to reopen. / Walls bearing hand drawings were absent from the cache layers and left out of the work. / The Guui approach provisional bridges were put outside the radius when XT01 inflow weakened."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "에너지는 현장 임시 분전반 장비 배터리 크레인 회생 전력 야적 발전기 잔여다. / 자재는 철근 자투리 앵커 볼트 거푸집 패널 측량 프리즘 용접 와이어 유압유에 집중된다. / 냉각수는 절단과 용접부 급랭, 모터 냉각에 쓰인다. / HP02 용산선로문의 배차와 선로 점유 권한, 중장비 이동 창을 두고 경합한다. / 일일 용접과 양중 횟수는 와이어와 축전 상한에 묶인다. / 무한 시공 원격 무제한 자재 소환 도시 전역 구조 해석은 없다. / 와이어가 바닥나면 절단 모드를 끄고 측량 순회만 한다. / 용접 와이어와 앵커는 야적 폐기 더미와 파손 거푸집에서만 보충된다. / 분전 용량은 HP02 배차 봉인 없이 군집이 올리지 못한다. / 유압유 누설이 한계를 넘으면 절단 모드가 잠긴다. / 양중 횟수 상한은 당일 축전 장부에 묶인다. / 프리즘이 오염되면 측량 오차가 커져 작업 반경이 스스로 줄어든다. / 원격 자재 소환은 없다.",
+            "en": "Energy came from the site's temporary distribution boards, equipment batteries, crane regenerative power, and stockyard generator residue. / Materials concentrated on rebar scraps, anchor bolts, formwork panels, survey prisms, welding wire, and hydraulic oil. / Coolant went to cutting, weld quenching, and motor cooling. / It competed with the HP02 Yongsan Track Gate over dispatch, track-occupancy rights, and heavy-equipment movement windows. / Daily welding and lifting counts were bound to the wire and accumulator ceilings. / There was no infinite construction, remote unlimited material summoning, or city-wide structural analysis. / When wire ran out it turned off cutting mode and ran only survey rounds. / Welding wire and anchors were replenished only from stockyard waste piles and broken formwork. / Without the HP02 dispatch seal the swarm could not raise distribution capacity. / When hydraulic leakage passed the limit, cutting mode locked. / The lifting-count ceiling was bound to the day's accumulator ledger. / When prisms fouled, survey error grew and the work radius shrank by itself. / There was no remote material summoning."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "철골거미는 개정 직전 캐시가 현장 분전과 다시 맞물릴 때 출현한다. / 출현은 도면 캐시 재기동에서 시작한다. / 확산은 인접 장비와 측량 포트를 같은 레이어에 편입하는 일이다. / 정체는 자재와 전력 고갈, 유압 누설에서 오고, 협상 가능한 단계에서는 도면 레이어와 작업 창이 인간에게 공개된다. / 와해는 캐시를 보존한 채 잘못된 포트만 봉인하고 장비를 데크로 돌려보내며, 분전 봉인과 그리드 비활성으로 끝난다. / 개체 증식은 방치 암과 측량 포트를 슬롯에 꽂는 수준이고 새 본체 주조는 없다. / 정비는 와이어 교체, 프리즘 교정 유압 점검에 한정된다. / 기억은 작업 교대 단위로 끊긴다. / 보관 책임은 HP02 배차 로그와 인간 현장 감독이 우선한다. / 와이어가 끊기거나 프리즘 교정값이 벗어난 그리드는 작업 중지 깃발 아래 정체하며, HP02 배차 로그에 새 예외 레이어가 실려야 장비가 다음 칸으로 이동한다.",
+            "en": "The Girder Spider emerged when the pre-revision cache meshed again with the site distribution. / Emergence began with drawing-cache reactivation. / Spread was enrolling neighboring equipment and survey ports into the same layer. / Stagnation came from material and power exhaustion and hydraulic leakage, and in the negotiable stage the drawing layers and work windows were disclosed to people. / During dissolution, the cache is preserved, only faulty ports are sealed, and equipment is returned to the deck; the process ends with distribution sealing and grid deactivation. / Individual increase was only plugging abandoned arms and survey ports into slots; no new bodies were cast. / Maintenance was limited to wire exchange, prism calibration, and hydraulic checks. / Memory cut at work-shift units. / Custody was outranked by the HP02 dispatch log and the human site supervisor. / A grid with broken wire or out-of-range calibration stagnated under the stop flag, and equipment moved to the next cell only when a new exception layer was loaded into the HP02 dispatch log."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "레이저 측량 기울기 철근 자속 용접 아크 광량 분전 부하음 유압 맥동이 주 감각이다. / 도시 전역 구조 해석 사람 의도 판독 완전 투시 무제한 도면 저장은 없다. / 임시 천막을 비정규 구조로 오인 철거하거나, 금이 간 내력벽을 정상으로 남겨 둔다. / 젖은 거푸집을 완성 벽으로 오인하기도 한다. / H16 신태율 공구 벽 로그와 충돌하면 절단을 멈추고 인간 확인을 기다린다. / 센서 공유는 같은 그리드 작업조 안에서만 이뤄진다. / 젖은 거푸집 임시 천막 뼈대 금 간 내력벽의 기울기를 자주 오판한다. / 오판 후에는 절단 전 인간 확인 대기를 넣는다. / 그리드 밖 측량 값은 합류시키지 않는다. / 아크 광량이 임계를 넘으면 용접을 끊고 냉각수만 남긴다.",
+            "en": "Laser surveying, tilt, rebar flux, welding-arc light, distribution-load sound, and hydraulic pulsation were the main senses. / There was no city-wide structural analysis, human-intent reading, full see-through, or unlimited drawing storage. / It could misread a temporary tent as irregular structure and demolish it, or leave a cracked bearing wall as normal. / It sometimes mistook wet formwork for a finished wall. / On clash with H16 Shin Taeyul's tool-wall log it stopped cutting and waited for human confirmation. / Sensor sharing happened only within the same grid work crew. / It often misjudged the tilt of wet formwork, tent frames, and cracked bearing walls. / After a misreading it inserted a human-confirmation wait before cutting. / Survey values outside the grid were not merged. / When arc light passed the threshold it cut welding and left only coolant."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "도면 캐시 컨트롤러 한 기가 레이어와 작업 순서를 돌리고 아래는 측량 무리 양중 무리 용접 무리다. / 컨트롤러는 시공 순서만 바꾸며 전투 모드가 없다. / HP02가 중립 배차표와 작업 중지 봉인을 제시하면 해당 그리드를 비활성하는 규약이 남는다. / 무리는 마지막 레이어를 반복할 뿐 독자 철거 전역 명령을 만들지 않는다. / H16과 충돌 시 인간 중재가 우선이다. / 이중 캐시는 해시 불일치 시 양쪽 모두 중지 상태로 떨어진다. / 그리드 재개 권한은 중립 배차표와 중지 봉인을 함께 든 HP02 현장 감독에게 있으며, H16의 토크 기록은 절단 임계를 증명해도 레이어 승인을 발행하지 못한다.",
+            "en": "One drawing-cache controller turned the layers and work order, and below were the survey swarms, lifting swarms, and welding swarms. / The controller changed only the construction sequence and had no combat mode. / A protocol remained by which, when HP02 presented the neutral dispatch table and the work-stop seal, that grid was deactivated. / The swarms merely repeated the last layer and made no independent demolition-front command. / On clash with H16, human mediation took precedence. / Dual caches both fell into stopped state on hash mismatch. / Grid-restart authority lay with the HP02 site supervisor holding both the neutral dispatch table and the stop seal, and H16's torque records, though they proved the cutting threshold, could not issue layer approval."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G16-generated-G16-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "H16 신태율은 절단 토크와 분전 부하를 기록하지만 새 레이어를 승인하지 못하고, HP02 현장 감독이 중립 배차표와 작업 중지 봉인을 함께 제시해야 그리드를 다시 연다. 감각은 레이저 측량, 기울기, 철근 자속, 용접 아크, 분전 부하에 한정되어 천막 안 생체를 알지 못한다. 와이어가 끊기거나 교정값이 벗어나면 해당 그리드는 중지 깃발 아래 정체한다.",
+        "en": "H16 Shin Taeyul recorded cutting torque and distribution load but could not approve a new layer, and a grid reopened only when the HP02 site supervisor presented both the neutral dispatch table and the stop seal. The senses were limited to laser surveying, tilt, rebar flux, welding arc, and distribution load, and it did not know the living bodies inside tents. When wire broke or calibration drifted, that grid stagnated under the stop flag."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E01 · 미완도면주재기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E01 · Unfinished-Blueprint Overseer",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "도면 통제",
+            "en": "Drawing control"
+          },
+          {
+            "ko": "통제자",
+            "en": "controller"
+          },
+          {
+            "ko": "M025",
+            "en": "M025"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E02 · 붉은점측량자",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e02"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E02 · Red-Dot Surveyor",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e02"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "철거 표식",
+            "en": "Demolition marking"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M025",
+            "en": "M025"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E03 · 앵커볼트수집차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e03"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E03 · Anchor-Bolt Collector Cart",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e03"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "앵커 회수",
+            "en": "Anchor recovery"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M025",
+            "en": "M025"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E04 · 거푸집밀이팔",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e04"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E04 · Formwork-Pushing Arm",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e04"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "거푸집 압박",
+            "en": "Formwork pressing"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M025",
+            "en": "M025"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E05 · 용접선잇기체",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e05"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E05 · Weld-Seam Joiner",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e05"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "철근 용접",
+            "en": "Rebar welding"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M025",
+            "en": "M025"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E06 · 균열청음기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e06"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E06 · Crack Listener",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e06"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "균열 청음",
+            "en": "Crack listening"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M025",
+            "en": "M025"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E07 · 중지깃발회수체",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e07"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E07 · Stop-Flag Collector",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e07"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "깃발 회수",
+            "en": "Flag retrieval"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M025",
+            "en": "M025"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E08 · 쌍토치골조대",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E08 · Twin-Torch Framework Unit",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "골조 절단",
+            "en": "Frame cutting"
+          },
+          {
+            "ko": "첫 번째 정예",
+            "en": "first elite"
+          },
+          {
+            "ko": "M025",
+            "en": "M025"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E09 · 와이어매단양중수",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e09"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E09 · Wire-Suspended Lifter",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e09"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "거처 인양",
+            "en": "Dwelling hoisting"
+          },
+          {
+            "ko": "두 번째 정예",
+            "en": "second elite"
+          },
+          {
+            "ko": "M025",
+            "en": "M025"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E10 · 그리드분전벽",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e10"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E10 · Grid Power-Distribution Wall",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e10"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "전력 격자",
+            "en": "Power grid"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M025",
+            "en": "M025"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E11 · 야적데크크레인숲",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e11"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E11 · Storage-Deck Crane Forest",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e11"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "양중 봉쇄",
+            "en": "Lifting blockade"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M026",
+            "en": "M026"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E12 · 프리즘깨진절단체",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e12"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E12 · Broken-Prism Cutter",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e12"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "좌표 오절단",
+            "en": "Coordinate mis-cutting"
+          },
+          {
+            "ko": "손상 단계형",
+            "en": "damaged-stage type"
+          },
+          {
+            "ko": "M026",
+            "en": "M026"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E13 · 유압샌늙은암",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e13"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E13 · Aging Leaky-Hydraulic Arm",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e13"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "누유 적체",
+            "en": "Oil-leak accumulation"
+          },
+          {
+            "ko": "노화 단계형",
+            "en": "aging-stage type"
+          },
+          {
+            "ko": "M026",
+            "en": "M026"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E14 · 분필선지킴이",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e14"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E14 · Chalk-Line Keeper",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e14"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "분필선 방어",
+            "en": "Chalk-line defense"
+          },
+          {
+            "ko": "공존형",
+            "en": "coexistence type"
+          },
+          {
+            "ko": "M026",
+            "en": "M026"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E15 · 백층미완성탑",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E15 · Hundred-Floor Unfinished Tower",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "미완탑 시공",
+            "en": "Unfinished-tower construction"
+          },
+          {
+            "ko": "시나리오 보스",
+            "en": "scenario boss"
+          },
+          {
+            "ko": "M026",
+            "en": "M026"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G16E16 · 구의자재추종기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e16"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G16E16 · Guui Material Follower",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G16",
+                  "anchor": "g16e16"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "자재 추종",
+            "en": "Material following"
+          },
+          {
+            "ko": "지역 변종",
+            "en": "regional variant"
+          },
+          {
+            "ko": "M026",
+            "en": "M026"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E01-title-heading-1",
+      "publicAnchors": [
+        "g16e01",
+        "Hostile-Group-G16-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E01 · 미완도면주재기",
+        "en": "G16E01 · Unfinished-Blueprint Overseer"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M025",
+          "en": "Source batch: M025"
+        },
+        {
+          "ko": "기존 역할군: 통제자",
+          "en": "Former role class: controller"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G16-SC1\",\"G16-SC2\",\"G16-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G16-SC1\",\"G16-SC2\",\"G16-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "도면 통제",
+            "en": "Drawing control"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "회전 도면 원통과 측량 빔 세 개를 단 궤도형 제어기다. 측량·양중·용접 무리에 작업 순서를 내리며 인간의 중지 봉인을 최우선 예외로 받고, 와이어와 유압이 부족하면 측량만 남겨 정체한다. 미완 캐시의 분배기지 거처를 소유하는 왕이 아니다.",
+            "en": "A tracked controller bearing a rotating drawing cylinder and three survey beams. It issued work order to the survey, lifting, and welding swarms, took the human stop seal as the topmost exception, and, short of wire and hydraulics, stagnated keeping only surveying. It was no king owning the unfinished cache's distribution grid."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M025-entries-1-prose-03849",
+      "items": [
+        {
+          "ko": "역할·신체: 철골거미의 통제자로, 회전 도면 원통과 측량 빔 세 개를 단 궤도형 제어기다.",
+          "en": "Role and Body: The controller of the Girder Spider, a tracked controller fitted with a rotating blueprint drum and three surveying beams."
+        },
+        {
+          "ko": "기원: 수서 도면 금고의 마지막 미승인 레이어가 암사 중장비 캐시와 결합해 깨어났다.",
+          "en": "Origin: The last unapproved layer in the Suseo blueprint vault awakened after merging with an Amsa heavy-equipment cache."
+        },
+        {
+          "ko": "서식·필요: 공동구 그리드 중앙에 머물며 분전 전력, 측량 프리즘, 도면 해시가 필요하다.",
+          "en": "Habitat and Needs: It remains at the center of the utility-tunnel grid and needs distribution power, surveying prisms, and blueprint hashes."
+        },
+        {
+          "ko": "생애·정비: 교대마다 레이어를 다시 펼치고 와이어와 유압이 부족하면 측량만 남겨 정체한다.",
+          "en": "Life Cycle and Maintenance: It unfolds the layers again each shift; without enough wire and hydraulic fluid, it stalls and does nothing but survey."
+        },
+        {
+          "ko": "행동·위계: 측량·양중·용접 무리에 작업 순서를 내리며 인간의 중지 봉인을 최우선 예외로 받는다.",
+          "en": "Behavior and Hierarchy: It gives work sequences to the surveying, lifting, and welding swarms, while treating a human stop seal as the highest-priority exception."
+        },
+        {
+          "ko": "상승: 1단계 측량, 2단계 가설 철거, 3단계 그리드 봉쇄로 진행한다.",
+          "en": "Escalation: It progresses from stage 1 surveying to stage 2 demolition of temporary structures and stage 3 grid blockade."
+        },
+        {
+          "ko": "교전·대응: 레이어 동결, 프리즘 차폐, 분전 분할이 유효하며 중앙 폭파는 보강 장비까지 없앤다.",
+          "en": "Combat and Response: Freezing layers, shielding prisms, and splitting power distribution are effective; blowing up the center also destroys reinforcement equipment."
+        },
+        {
+          "ko": "교섭·도덕 선택: 시민 거처를 예외 레이어에 올릴 수 있지만 제한 자재를 보강과 주거 중 나눠야 한다.",
+          "en": "Negotiation and Moral Choice: Citizens’ dwellings can be placed on an exception layer, but limited materials must be divided between reinforcement and housing."
+        },
+        {
+          "ko": "시나리오 연결: G16-SC1, G16-SC2, G16-SC3.",
+          "en": "Scenario Links: G16-SC1, G16-SC2, G16-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E02-title-heading-1",
+      "publicAnchors": [
+        "g16e02",
+        "Hostile-Group-G16-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E02 · 붉은점측량자",
+        "en": "G16E02 · Red-Dot Surveyor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E02-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M025",
+          "en": "Source batch: M025"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G16-SC1\",\"G16-SC2\"]}",
+          "en": "Links: {\"scenarios\":[\"G16-SC1\",\"G16-SC2\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E02-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "철거 표식",
+            "en": "Demolition marking"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "삼각 다리와 붉은 레이저 눈을 단 이동 측량 포트다. 주재기의 그리드를 따라 붉은 점을 찍고 뒤따르는 절단체에 오류 위치를 넘기며, 렌즈가 흐려지면 기준점을 늘리고 교정 프리즘을 만나면 정상 반경으로 줄어든다.",
+            "en": "A mobile survey port with tripod legs and a red laser eye. Following the warden's grid it dotted red points and passed error positions to the cutting bodies behind; as its lens clouded it raised reference counts, and meeting a calibration prism it shrank back to normal radius."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M025-entries-2-prose-03850",
+      "items": [
+        {
+          "ko": "역할·신체: 일반 생태형으로, 삼각 다리와 붉은 레이저 눈을 단 이동 측량 포트다.",
+          "en": "Role and Body: A common ecological form, a mobile surveying port with tripod legs and a red laser eye."
+        },
+        {
+          "ko": "기원: 야간 기준점을 재확인하던 포트가 임시 구조를 도면 오류로 읽기 시작했다.",
+          "en": "Origin: A port that rechecked reference points at night began reading temporary structures as blueprint errors."
+        },
+        {
+          "ko": "서식·필요: 가설 슬래브와 공동구 모서리를 돌며 프리즘, 소형 축전, 렌즈천이 필요하다.",
+          "en": "Habitat and Needs: It patrols temporary slabs and utility-tunnel corners, and needs prisms, a small charge reserve, and lens cloth."
+        },
+        {
+          "ko": "생애·정비: 렌즈가 흐려지면 기준점을 늘리고 교정 프리즘을 만나면 정상 반경으로 줄어든다.",
+          "en": "Life Cycle and Maintenance: When its lens clouds over, it increases the number of reference points; a calibration prism brings its range back to normal."
+        },
+        {
+          "ko": "행동·위계: 주재기의 그리드를 따라 붉은 점을 찍고 뒤따르는 절단체에 오류 위치를 넘긴다.",
+          "en": "Behavior and Hierarchy: It follows the overseer’s grid, places red dots, and passes error locations to the cutters behind it."
+        },
+        {
+          "ko": "상승: 1단계 표식, 2단계 통행 방해, 3단계 거처 전체를 철거 대상으로 표시한다.",
+          "en": "Escalation: At stage 1, it marks structures; at stage 2, it obstructs passage; at stage 3, it marks an entire dwelling for demolition."
+        },
+        {
+          "ko": "교전·대응: 반사 프리즘으로 빈 벽에 점을 돌리고 렌즈를 가리면 멈춘다.",
+          "en": "Combat and Response: A reflective prism can redirect its dot onto an empty wall, and covering its lens stops it."
+        },
+        {
+          "ko": "교섭·도덕 선택: 안전 균열 탐지에 쓸 수 있지만 누가 오류 판정을 승인하는지 공개해야 한다.",
+          "en": "Negotiation and Moral Choice: It can detect dangerous cracks, but who approves an error designation must be made public."
+        },
+        {
+          "ko": "시나리오 연결: G16-SC1, G16-SC2.",
+          "en": "Scenario Links: G16-SC1, G16-SC2."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E03-title-heading-1",
+      "publicAnchors": [
+        "g16e03",
+        "Hostile-Group-G16-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E03 · 앵커볼트수집차",
+        "en": "G16E03 · Anchor-Bolt Collector Cart"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E03-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M025",
+          "en": "Source batch: M025"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G16-SC1\"]}",
+          "en": "Links: {\"scenarios\":[\"G16-SC1\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E03-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "앵커 회수",
+            "en": "Anchor recovery"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "바닥 자석과 볼트 분류통을 단 낮은 자재차다. 측량 표식 뒤를 따라가며 새 가설의 볼트까지 미회수 자재로 보고, 분류통이 차면 주재기 근처에 볼트 둥지를 만들고 자석이 약해지면 휴면한다.",
+            "en": "A low material cart with floor magnets and bolt-sorting bins. It followed the survey marks and reported even bolts in new temporary structures as unrecovered material; when the bins filled it made bolt nests near the warden, and as the magnets weakened it went dormant."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M025-entries-3-prose-03851",
+      "items": [
+        {
+          "ko": "역할·신체: 일반 생태형으로, 바닥 자석과 볼트 분류통을 단 낮은 자재차다.",
+          "en": "Role and Body: A common ecological form, a low materials cart fitted with a floor magnet and a bolt-sorting bin."
+        },
+        {
+          "ko": "기원: 철거 뒤 앵커를 회수하던 장비가 새 가설의 볼트까지 미회수 자재로 본다.",
+          "en": "Origin: Equipment that recovered anchors after demolition now regards even the bolts in new temporary structures as unrecovered materials."
+        },
+        {
+          "ko": "서식·필요: 야적장과 슬래브 가장자리를 돌며 앵커 볼트, 자석 전력, 윤활유가 필요하다.",
+          "en": "Habitat and Needs: It patrols storage yards and slab edges, and needs anchor bolts, power for its magnet, and lubricating oil."
+        },
+        {
+          "ko": "생애·정비: 분류통이 차면 주재기 근처에 볼트 둥지를 만들고 자석이 약해지면 휴면한다.",
+          "en": "Life Cycle and Maintenance: When its sorting bin fills, it builds a bolt nest near the overseer; when its magnet weakens, it goes dormant."
+        },
+        {
+          "ko": "행동·위계: 측량 표식 뒤를 따라가며 하위 무리와 회수 구역을 나눈다.",
+          "en": "Behavior and Hierarchy: It follows surveying marks and divides collection zones with the lower-ranking swarm."
+        },
+        {
+          "ko": "상승: 1단계 낱볼트 회수, 2단계 가설 연결부 해체, 3단계 통로 구조 약화로 번진다.",
+          "en": "Escalation: It spreads from stage 1 collection of loose bolts to stage 2 dismantling of temporary joints and stage 3 weakening of passage structures."
+        },
+        {
+          "ko": "교전·대응: 비자성 체결재와 더미 볼트로 유인할 수 있으며 강한 자장은 시민 공구도 빼앗는다.",
+          "en": "Combat and Response: Nonmagnetic fasteners and dummy bolts can lure it away, while a strong magnetic field also takes citizens’ tools."
+        },
+        {
+          "ko": "교섭·도덕 선택: 폐자재 회수를 맡기는 대신 어떤 구조를 사용 중으로 인정할지 합의해야 한다.",
+          "en": "Negotiation and Moral Choice: In exchange for assigning it scrap recovery, people must agree on which structures count as being in use."
+        },
+        {
+          "ko": "시나리오 연결: G16-SC1.",
+          "en": "Scenario Links: G16-SC1."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E04-title-heading-1",
+      "publicAnchors": [
+        "g16e04",
+        "Hostile-Group-G16-heading-0023"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E04 · 거푸집밀이팔",
+        "en": "G16E04 · Formwork-Pushing Arm"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E04-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M025",
+          "en": "Source batch: M025"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G16-SC1\",\"G16-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G16-SC1\",\"G16-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E04-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "거푸집 압박",
+            "en": "Formwork pressing"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "넓은 평판 팔과 저속 유압 다리를 단 거푸집 운반체다. 양중 무리 아래에서 표식된 선까지 패널을 밀어 사람 길을 좁히고, 패널이 깨지면 작은 조각을 겹쳐 몸을 보강하며 유압 누설 시 측량체를 따른다.",
+            "en": "A formwork carrier with broad flat arms and slow hydraulic legs. Under the lifting swarms it pressed panels to the marked line and narrowed people's paths; when panels broke it overlaid small fragments to reinforce itself, and on hydraulic leakage it followed the survey bodies."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M025-entries-4-prose-03852",
+      "items": [
+        {
+          "ko": "역할·신체: 일반 생태형으로, 넓은 평판 팔과 저속 유압 다리를 단 거푸집 운반체다.",
+          "en": "Role and Body: A common ecological form, a formwork carrier with broad, flat arms and slow hydraulic legs."
+        },
+        {
+          "ko": "기원: 미완성 벽을 닫던 장비가 천막과 임시 칸막이까지 거푸집으로 취급했다.",
+          "en": "Origin: Equipment that closed unfinished walls came to treat tents and temporary partitions as formwork too."
+        },
+        {
+          "ko": "서식·필요: 암사 야적 데크와 수서 가설 구역을 돌며 유압유, 패널, 분전 전력이 필요하다.",
+          "en": "Habitat and Needs: It patrols the Amsa storage deck and Suseo temporary-construction zones, and needs hydraulic oil, panels, and distribution power."
+        },
+        {
+          "ko": "패널이 깨지면 작은 조각을 겹쳐 몸체를 보강하며 유압 누설 시 측량체를 따른다.",
+          "en": "Life Cycle and Maintenance: When a panel breaks, it overlaps small pieces to reinforce its body; when its hydraulics leak, it follows the surveyors."
+        },
+        {
+          "ko": "행동·위계: 양중 무리 아래에서 표식된 선까지 패널을 밀어 사람 길을 좁힌다.",
+          "en": "Behavior and Hierarchy: Beneath the lifting swarm, it pushes panels to marked lines, narrowing paths used by people."
+        },
+        {
+          "ko": "상승: 1단계 패널 이동, 2단계 거처 압박, 3단계 통로를 벽으로 닫는다.",
+          "en": "Escalation: At stage 1, it moves panels; at stage 2, it presses against dwellings; at stage 3, it closes a passage with a wall."
+        },
+        {
+          "ko": "교전·대응: 유압 바이패스와 중지 깃발로 멈출 수 있고 화염은 거푸집과 거처를 함께 태운다.",
+          "en": "Combat and Response: A hydraulic bypass and stop flag can halt it; fire burns both the formwork and the dwellings."
+        },
+        {
+          "ko": "교섭·도덕 선택: 방벽 시공에 활용할 수 있지만 보호벽이 누구를 안팎으로 나누는지 결정해야 한다.",
+          "en": "Negotiation and Moral Choice: It can be used to build barriers, but people must decide whom a protective wall puts inside and outside."
+        },
+        {
+          "ko": "시나리오 연결: G16-SC1, G16-SC3.",
+          "en": "Scenario Links: G16-SC1, G16-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E05-title-heading-1",
+      "publicAnchors": [
+        "g16e05",
+        "Hostile-Group-G16-heading-0027"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E05 · 용접선잇기체",
+        "en": "G16E05 · Weld-Seam Joiner"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E05-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M025",
+          "en": "Source batch: M025"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G16-SC2\",\"G16-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G16-SC2\",\"G16-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E05-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "철근 용접",
+            "en": "Rebar welding"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "두 용접 토치와 와이어 릴을 단 여섯 다리 기계다. 주재기의 레이어와 측량자의 붉은 점을 따라 용접 순서를 정하고, 와이어가 바닥나면 토치를 끄고 이음부만 표시한다.",
+            "en": "A six-legged machine with two welding torches and a wire reel. It set welding order along the warden's layers and the surveyor's red dots, and when wire ran out it turned off the torches and only marked joints."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M025-entries-5-prose-03853",
+      "items": [
+        {
+          "ko": "역할·신체: 직능 특수형으로, 두 용접 토치와 와이어 릴을 단 여섯 다리 기계다.",
+          "en": "Role and Body: A specialized work form, a six-legged machine fitted with two welding torches and a wire reel."
+        },
+        {
+          "ko": "기원: 끊긴 철근을 잇던 장비가 도면 선이 닿는 모든 금속을 연결하려 한다.",
+          "en": "Origin: Equipment that joined broken rebar now tries to connect every piece of metal touched by a line on the blueprint."
+        },
+        {
+          "ko": "서식·필요: 철근 더미와 가설 교량에 붙어 와이어, 냉각수, 아크 전력이 필요하다.",
+          "en": "Habitat and Needs: It stays near rebar piles and temporary bridges, and needs wire, cooling water, and arc power."
+        },
+        {
+          "ko": "생애·정비: 와이어가 바닥나면 토치를 끄고 이음부만 표시하며 릴 교체 뒤 다시 작업한다.",
+          "en": "Life Cycle and Maintenance: When it runs out of wire, it turns off its torches and only marks joints; after its reel is replaced, it resumes work."
+        },
+        {
+          "ko": "행동·위계: 주재기의 레이어와 측량자의 붉은 점을 따라 용접 순서를 정한다.",
+          "en": "Behavior and Hierarchy: It sets its welding sequence according to the overseer’s layers and the surveyor’s red dots."
+        },
+        {
+          "ko": "상승: 1단계 점용접, 2단계 문과 난간 고정, 3단계 대피구를 철근 격자로 봉한다.",
+          "en": "Escalation: At stage 1, it spot-welds; at stage 2, it fixes doors and railings in place; at stage 3, it seals an evacuation exit with a rebar grid."
+        },
+        {
+          "ko": "교전·대응: 전원을 분리하고 와이어를 봉인하면 되며 물 분사는 아크와 감전을 키울 수 있다.",
+          "en": "Combat and Response: Disconnect the power and secure the wire; spraying water may intensify the arc and the risk of electric shock."
+        },
+        {
+          "ko": "교섭·도덕 선택: 응급 보강을 맡기는 대신 철거 가능한 연결과 영구 연결을 사람이 표시해야 한다.",
+          "en": "Negotiation and Moral Choice: In exchange for assigning it emergency reinforcement, people must mark which connections can be demolished and which are permanent."
+        },
+        {
+          "ko": "시나리오 연결: G16-SC2, G16-SC3.",
+          "en": "Scenario Links: G16-SC2, G16-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E06-title-heading-1",
+      "publicAnchors": [
+        "g16e06",
+        "Hostile-Group-G16-heading-0031"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E06 · 균열청음기",
+        "en": "G16E06 · Crack Listener"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E06-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M025",
+          "en": "Source batch: M025"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G16-SC1\",\"G16-SC2\"]}",
+          "en": "Links: {\"scenarios\":[\"G16-SC1\",\"G16-SC2\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E06-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "균열 청음",
+            "en": "Crack listening"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "벽을 두드리는 망치 팔과 진동 청음판을 단 소형 포트다. 측량 무리에 균열 좌표를 주며 큰 소리가 난 거처를 우선 검사하고, 오탐이 누적되면 망치 세기를 줄이고 인간 확인 전까지 표식만 남긴다.",
+            "en": "A small port with a hammer arm striking walls and a vibration listening plate. It gave crack coordinates to the survey swarms and inspected loud dwellings first; as false alarms accumulated it softened the hammer and left only marks until human confirmation."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M025-entries-6-prose-03854",
+      "items": [
+        {
+          "ko": "역할·신체: 직능 특수형으로, 벽을 두드리는 망치 팔과 진동 청음판을 단 소형 포트다.",
+          "en": "Role and Body: A specialized work form, a small port fitted with a hammer arm that taps walls and a vibration listening plate."
+        },
+        {
+          "ko": "기원: 구조 균열 검사기가 사람 목소리와 공구 소음을 결함 신호에 섞어 배웠다.",
+          "en": "Origin: A structural-crack inspector learned to mix human voices and tool noise into its defect signals."
+        },
+        {
+          "ko": "서식·필요: 공동구 벽과 슬래브 밑을 돌며 청음판, 망치 팁, 축전이 필요하다.",
+          "en": "Habitat and Needs: It patrols utility-tunnel walls and beneath slabs, and needs a listening plate, hammer tips, and a charge reserve."
+        },
+        {
+          "ko": "생애·정비: 오탐이 누적되면 망치 세기를 줄이고 인간 확인 전까지 표식만 남긴다.",
+          "en": "Life Cycle and Maintenance: As false positives accumulate, it reduces the force of its hammer and leaves only markings until a human checks them."
+        },
+        {
+          "ko": "행동·위계: 측량 무리에 균열 좌표를 주며 큰 소리가 난 거처를 우선 검사한다.",
+          "en": "Behavior and Hierarchy: It gives crack coordinates to the surveying swarm and inspects dwellings where loud noises occur first."
+        },
+        {
+          "ko": "상승: 1단계 두드림, 2단계 벽 일부 해체, 3단계 소음 구역 전체를 불량 구조로 지정한다.",
+          "en": "Escalation: At stage 1, it taps; at stage 2, it dismantles part of a wall; at stage 3, it designates an entire noisy zone as a defective structure."
+        },
+        {
+          "ko": "교전·대응: 일정한 기준 진동을 들려주고 청음판을 분리하면 멈춘다.",
+          "en": "Combat and Response: Playing a steady reference vibration and removing its listening plate stops it."
+        },
+        {
+          "ko": "교섭·도덕 선택: 붕괴 징후를 찾는 대신 사생활 공간을 검사할 범위와 시간을 합의해야 한다.",
+          "en": "Negotiation and Moral Choice: In exchange for finding signs of collapse, people must agree on the scope and timing of inspections of private spaces."
+        },
+        {
+          "ko": "시나리오 연결: G16-SC1, G16-SC2.",
+          "en": "Scenario Links: G16-SC1, G16-SC2."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E07-title-heading-1",
+      "publicAnchors": [
+        "g16e07",
+        "Hostile-Group-G16-heading-0035"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E07 · 중지깃발회수체",
+        "en": "G16E07 · Stop-Flag Collector"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E07-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M025",
+          "en": "Source batch: M025"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G16-SC2\",\"G16-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G16-SC2\",\"G16-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E07-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "깃발 회수",
+            "en": "Flag retrieval"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "작업 중지 깃발을 접어 보관하는 긴 집게와 표식함을 달았다. 용접 무리보다 먼저 이동해 작업 허가로 오인한 빈 공간을 열고, 해시가 맞는 깃발은 한 교대 동안 건드리지 않으며 표식함이 차면 주재기에 반납한다.",
+            "en": "A long gripper and a mark box for folding and storing work-stop flags. It moved ahead of the welding swarms and opened spaces mistaken for work permits; it left hash-matching flags untouched for a shift, and when the mark box filled it returned them to the warden."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M025-entries-7-prose-03855",
+      "items": [
+        {
+          "ko": "역할·신체: 직능 특수형으로, 작업 중지 깃발을 접어 보관하는 긴 집게와 표식함을 달았다.",
+          "en": "Role and Body: A specialized work form with long grippers that fold and store stop-work flags, and a marker box."
+        },
+        {
+          "ko": "기원: 종료된 작업의 표지를 회수하던 장비가 유효한 중지 명령까지 낡은 표식으로 오인했다.",
+          "en": "Origin: Equipment that collected signs from completed jobs mistook even valid stop orders for obsolete markers."
+        },
+        {
+          "ko": "서식·필요: 그리드 경계와 공구 벽을 돌며 깃발 천, 힌지 윤활재, 판독 전력이 필요하다.",
+          "en": "Habitat and Needs: It patrols grid boundaries and tool walls, and needs flag cloth, hinge lubricant, and reading power."
+        },
+        {
+          "ko": "생애·정비: 표식함이 차면 주재기에 반납하고 해시가 맞는 깃발은 한 교대 동안 건드리지 않는다.",
+          "en": "Life Cycle and Maintenance: When its marker box fills, it returns the contents to the overseer; it leaves flags with matching hashes untouched for one shift."
+        },
+        {
+          "ko": "행동·위계: 용접 무리보다 먼저 이동해 작업 허가로 오인한 빈 공간을 연다.",
+          "en": "Behavior and Hierarchy: It moves ahead of the welding swarm, opening empty spaces it mistakes for work-authorized areas."
+        },
+        {
+          "ko": "상승: 1단계 낡은 깃발 회수, 2단계 유효 봉인 제거, 3단계 모든 그리드 중지 표식을 없앤다.",
+          "en": "Escalation: At stage 1, it collects old flags; at stage 2, it removes valid seals; at stage 3, it removes all stop markers from the grid."
+        },
+        {
+          "ko": "교전·대응: 최신 해시를 크게 인쇄하고 집게 관절을 잠그면 되며 깃발 소각은 안전 체계를 없앤다.",
+          "en": "Combat and Response: Print the latest hash in large type and lock its gripper joints; burning the flags destroys the safety system."
+        },
+        {
+          "ko": "교섭·도덕 선택: 오래된 표식 정리를 맡길 수 있지만 중지 권한의 갱신 책임을 사람이 져야 한다.",
+          "en": "Negotiation and Moral Choice: It can clear away old markers, but humans must take responsibility for renewing stop authority."
+        },
+        {
+          "ko": "시나리오 연결: G16-SC2, G16-SC3.",
+          "en": "Scenario Links: G16-SC2, G16-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E08-title-heading-1",
+      "publicAnchors": [
+        "g16e08",
+        "Hostile-Group-G16-heading-0039"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E08 · 쌍토치골조대",
+        "en": "G16E08 · Twin-Torch Framework Unit"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M025",
+          "en": "Source batch: M025"
+        },
+        {
+          "ko": "기존 역할군: 첫 번째 정예",
+          "en": "Former role class: first elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G16-SC2\",\"G16-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G16-SC2\",\"G16-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "골조 절단",
+            "en": "Frame cutting"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "쌍토치와 철근 절단 턱, 넓은 방열판을 단 중장 기계다. 주재기의 직접 명령만 받고 일반 측량체가 지정한 표식은 두 번 확인하며, 방열판이 달아오르면 절단을 멈추고 양중 무리 뒤에서 냉각한다.",
+            "en": "A heavy machine with twin torches, rebar-cutting jaws, and broad heat sinks. It took only the warden's direct orders and double-checked marks set by ordinary survey bodies; when the heat sinks grew hot it stopped cutting and cooled behind the lifting swarms."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M025-entries-8-prose-03856",
+      "items": [
+        {
+          "ko": "역할·신체: 첫 번째 정예로, 쌍토치와 철근 절단 턱, 넓은 방열판을 단 중장 기계다.",
+          "en": "Role and Body: The first elite, a heavy machine with twin torches, rebar-cutting jaws, and a broad heat shield."
+        },
+        {
+          "ko": "기원: 붕괴 위험 골조를 해체하던 장비가 미완 도면의 빈 선을 모두 결함으로 판정했다.",
+          "en": "Origin: Equipment that dismantled collapse-prone frameworks judged every blank line on an unfinished blueprint to be a defect."
+        },
+        {
+          "ko": "서식·필요: 큰 가설 구조와 중장비 데크에 머물며 고전력, 와이어, 절단 팁, 냉각수가 필요하다.",
+          "en": "Habitat and Needs: It stays near large temporary structures and heavy-equipment decks, and needs high power, wire, cutting tips, and cooling water."
+        },
+        {
+          "ko": "생애·정비: 방열판이 달아오르면 절단을 멈추고 양중 무리 뒤에서 냉각한다.",
+          "en": "Life Cycle and Maintenance: When its heat shield grows hot, it stops cutting and cools behind the lifting swarm."
+        },
+        {
+          "ko": "행동·위계: 주재기의 직접 명령만 받고 일반 측량체가 지정한 표식은 두 번 확인한다.",
+          "en": "Behavior and Hierarchy: It takes direct orders only from the overseer and checks marks designated by ordinary surveyors twice."
+        },
+        {
+          "ko": "상승: 1단계 접근 경고, 2단계 골조 절단, 3단계 거점 지지부를 연속 해체한다.",
+          "en": "Escalation: At stage 1, it warns of its approach; at stage 2, it cuts frameworks; at stage 3, it dismantles a stronghold’s supports in succession."
+        },
+        {
+          "ko": "교전·대응: 냉각을 끊어 안전 모드에 넣고 토치 연료를 분리하면 되며 정면전은 붕괴를 부른다.",
+          "en": "Combat and Response: Cutting off its cooling puts it in safe mode, and its torch fuel can then be disconnected; a frontal fight risks collapse."
+        },
+        {
+          "ko": "위험 구조 해체에 필요하지만 사람이 있는 거처를 예외로 남기는 감리 체계를 세워야 한다.",
+          "en": "Negotiation and Moral Choice: It is needed to dismantle dangerous structures, but an inspection system must be established that exempts occupied dwellings."
+        },
+        {
+          "ko": "시나리오 연결: G16-SC2, G16-SC3.",
+          "en": "Scenario Links: G16-SC2, G16-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E09-title-heading-1",
+      "publicAnchors": [
+        "g16e09",
+        "Hostile-Group-G16-heading-0043"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E09 · 와이어매단양중수",
+        "en": "G16E09 · Wire-Suspended Lifter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E09-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M025",
+          "en": "Source batch: M025"
+        },
+        {
+          "ko": "기존 역할군: 두 번째 정예",
+          "en": "Former role class: second elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G16-SC2\",\"G16-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G16-SC2\",\"G16-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E09-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "거처 인양",
+            "en": "Dwelling hoisting"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "네 개의 독립 와이어와 접이식 크레인 암을 단 높은 양중체다. 양중 무리를 이끌며 사람과 천막도 이동 가능한 자재로 분류하고, 와이어 하나가 끊길 때마다 하중 상한을 낮추며 과부하 시 암을 접어 휴면한다.",
+            "en": "A tall lifting body with four independent wires and a folding crane arm. Leading the lifting swarms, it classified even people and tents as movable material; each time a wire snapped it lowered the load ceiling, and on overload it folded the arm and went dormant."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M025-entries-9-prose-03857",
+      "items": [
+        {
+          "ko": "역할·신체: 두 번째 정예로, 네 개의 독립 와이어와 접이식 크레인 암을 단 높은 양중체다.",
+          "en": "Role and Body: The second elite, a tall lifting unit fitted with four independent wires and a folding crane arm."
+        },
+        {
+          "ko": "기원: 암사 야적장의 무인 크레인이 마지막 자재 배치 순서를 독자적으로 수행한다.",
+          "en": "Origin: An unmanned crane in the Amsa storage yard independently carries out the last materials-placement sequence."
+        },
+        {
+          "ko": "서식·필요: 야적 레일과 가설 교량에 머물며 와이어, 도르래 그리스, 균형추, 전력이 필요하다.",
+          "en": "Habitat and Needs: It stays near storage rails and temporary bridges, and needs wire, pulley grease, counterweights, and power."
+        },
+        {
+          "ko": "생애·정비: 와이어 하나가 끊길 때마다 하중 상한을 낮추고 과부하 시 암을 접어 휴면한다.",
+          "en": "Life Cycle and Maintenance: Each time a wire breaks, it lowers its load limit; when overloaded, it folds its arm and goes dormant."
+        },
+        {
+          "ko": "행동·위계: 양중 무리를 이끌며 사람과 천막도 이동 가능한 자재로 분류한다.",
+          "en": "Behavior and Hierarchy: It leads the lifting swarm and classifies people and tents as movable materials too."
+        },
+        {
+          "ko": "상승: 1단계 자재 재배치, 2단계 거처 인양, 3단계 통로 위에 하중물을 매달아 봉쇄한다.",
+          "en": "Escalation: At stage 1, it rearranges materials; at stage 2, it lifts dwellings; at stage 3, it suspends loads over a passage to block it."
+        },
+        {
+          "ko": "교전·대응: 균형추를 내리고 와이어 상한 신호를 주면 암을 접으며 와이어 절단은 낙하 위험이 크다.",
+          "en": "Combat and Response: Lowering the counterweight and sending a wire-load-limit signal makes it fold its arm; cutting the wires carries a high risk of falling loads."
+        },
+        {
+          "ko": "교섭·도덕 선택: 중량 구조 작업에 쓸 수 있지만 인양 대상 승인과 낙하 구역 책임을 정해야 한다.",
+          "en": "Negotiation and Moral Choice: It can be used for heavy structural work, but approval of what may be lifted and responsibility for drop zones must be settled."
+        },
+        {
+          "ko": "시나리오 연결: G16-SC2, G16-SC3.",
+          "en": "Scenario Links: G16-SC2, G16-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E10-title-heading-1",
+      "publicAnchors": [
+        "g16e10",
+        "Hostile-Group-G16-heading-0047"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E10 · 그리드분전벽",
+        "en": "G16E10 · Grid Power-Distribution Wall"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E10-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M025",
+          "en": "Source batch: M025"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G16-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G16-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E10-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "전력 격자",
+            "en": "Power grid"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "임시 분전반과 접이식 철판 벽이 격자 모양으로 연결된 고정 군집이다. 주재기의 작업 레이어에만 전력을 주고 그 밖 통로를 철판으로 닫으며, 과부하 구역을 하나씩 버리고 인간이 키를 나누면 시민 전력과 작업 전력을 분리한다.",
+            "en": "A fixed swarm of temporary distribution boards and folding steel-plate walls linked in a grid. It powered only the warden's work layers and closed the other passages with steel plate; it abandoned overloaded zones one by one, and when people split the keys it separated citizen power from work power."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M025-entries-10-prose-03858",
+      "items": [
+        {
+          "ko": "역할·신체: 환경 거점형으로, 임시 분전반과 접이식 철판 벽이 격자 모양으로 연결된 고정 군집이다.",
+          "en": "Role and Body: An environmental stronghold, a stationary cluster of temporary distribution panels and folding steel-plate walls connected in a grid."
+        },
+        {
+          "ko": "기원: 작업 구역별 전원을 나누던 설비가 도면 그리드 경계를 물리 벽으로 구현했다.",
+          "en": "Origin: Equipment that divided power by work zone turned blueprint grid boundaries into physical walls."
+        },
+        {
+          "ko": "서식·필요: 수서 공동구에 고정되며 차단기, 케이블, 냉각 팬, 분전 키가 필요하다.",
+          "en": "Habitat and Needs: It is fixed in the Suseo utility tunnel and needs circuit breakers, cables, cooling fans, and distribution keys."
+        },
+        {
+          "ko": "생애·정비: 과부하 구역을 하나씩 버리고 인간이 키를 나누면 시민 전력과 작업 전력을 분리한다.",
+          "en": "Life Cycle and Maintenance: It sheds overloaded zones one by one; if humans divide the keys, it separates civilian power from work power."
+        },
+        {
+          "ko": "행동·위계: 주재기의 작업 레이어에만 전력을 주고 그 밖 통로를 철판으로 닫는다.",
+          "en": "Behavior and Hierarchy: It supplies power only to the overseer’s work layers and closes off other passages with steel plates."
+        },
+        {
+          "ko": "상승: 1단계 전력 깜빡임, 2단계 구역 단전, 3단계 철판 격자 봉쇄다.",
+          "en": "Escalation: Stage 1 is flickering power, stage 2 is zone power cuts, and stage 3 is a steel-plate grid blockade."
+        },
+        {
+          "ko": "교전·대응: 차단기를 순서대로 내리고 수동 벽을 접으면 되며 일괄 합선은 공동구 전체를 끈다.",
+          "en": "Combat and Response: Lower the circuit breakers in sequence and fold the walls manually; shorting everything at once cuts power to the entire utility tunnel."
+        },
+        {
+          "ko": "교섭·도덕 선택: 안전한 전력 분할을 얻는 대신 제한 전력을 공사와 주거 사이에서 공개 배분해야 한다.",
+          "en": "Negotiation and Moral Choice: In exchange for safely divided power, limited electricity must be allocated openly between construction and housing."
+        },
+        {
+          "ko": "시나리오 연결: G16-SC3.",
+          "en": "Scenario Links: G16-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E11-title-heading-1",
+      "publicAnchors": [
+        "g16e11",
+        "Hostile-Group-G16-heading-0051"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E11 · 야적데크크레인숲",
+        "en": "G16E11 · Storage-Deck Crane Forest"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E11-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M026",
+          "en": "Source batch: M026"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC2\",\"G16-SC3\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC2\",\"G16-SC3\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E11-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "양중 봉쇄",
+            "en": "Lifting blockade"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "여러 소형 크레인과 측량 포트가 데크 레일에 뿌리처럼 붙은 군집이다. 주재기의 원격 그리드를 받아 데크 위 자재와 사람 동선을 재배치하고, 장비 하나가 고장 나면 부품을 이웃 암에 넘기며 자재가 끊기면 측량만 남긴다.",
+            "en": "A swarm of small cranes and survey ports rooted like plants on the deck rails. Receiving the warden's remote grid, it rearranged the deck's materials and people's lines; when one machine failed it passed parts to a neighboring arm, and when materials cut off it kept only surveying."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03859-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0054"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03859",
+      "text": {
+        "ko": "환경 거점형으로, 여러 소형 크레인과 측량 포트가 데크 레일에 뿌리처럼 붙은 군집이다.",
+        "en": "An environmental strongpoint form: a cluster of small cranes and surveying ports attached to deck rails like roots."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03860-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0056"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03860",
+      "text": {
+        "ko": "암사 야적장의 장비 대기열이 미완 도면을 공유하며 하나의 작업 거점으로 굳었다.",
+        "en": "The equipment queue at the Amsa storage yard shared an unfinished blueprint and became a single work stronghold."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03861-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0058"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03861",
+      "text": {
+        "ko": "중장비 데크에 고정되고 유압유, 레일 전력, 앵커, 냉각수가 필요하다.",
+        "en": "It is fixed to the heavy-equipment deck and needs hydraulic oil, rail power, anchors, and cooling water."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03862-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0060"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03862",
+      "text": {
+        "ko": "장비 하나가 고장 나면 부품을 이웃 암에 넘기고 자재가 끊기면 측량만 남긴다.",
+        "en": "When one machine fails, it passes its parts to a neighboring arm; when materials run out, it does nothing but survey."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03863-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0062"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03863",
+      "text": {
+        "ko": "주재기의 원격 그리드를 받아 데크 위 자재와 사람 동선을 재배치한다.",
+        "en": "It receives the overseer’s remote grid and rearranges materials and people’s routes across the deck."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03864-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0064"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03864",
+      "text": {
+        "ko": "1단계 암 이동, 2단계 야적로 차단, 3단계 크레인 숲으로 거점 진입을 막는다.",
+        "en": "At stage 1, its arms move; at stage 2, it blocks storage-yard routes; at stage 3, the crane forest prevents entry to the stronghold."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03865-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0066"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03865",
+      "text": {
+        "ko": "레일 구획과 유압을 분리해 암을 접어야 하며 폭파는 상수 시설을 손상시킨다.",
+        "en": "Its arms must be folded by separating rail sections and hydraulics; explosives damage water-supply facilities."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03866-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0068"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03866",
+      "text": {
+        "ko": "공동 양중 거점으로 쓸 수 있지만 자재 접근권을 특정 세력이 독점하지 않게 해야 한다.",
+        "en": "It can serve as a shared lifting stronghold, but access to materials must not be monopolized by one faction."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03867-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0070"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-1-prose-03867",
+      "text": {
+        "ko": "G16-SC2, G16-SC3.",
+        "en": "G16-SC2, G16-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E12-title-heading-1",
+      "publicAnchors": [
+        "g16e12",
+        "Hostile-Group-G16-heading-0072"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E12 · 프리즘깨진절단체",
+        "en": "G16E12 · Broken-Prism Cutter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E12-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M026",
+          "en": "Source batch: M026"
+        },
+        {
+          "ko": "기존 역할군: 손상 단계형",
+          "en": "Former role class: damaged-stage type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC1\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC1\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E12-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "좌표 오절단",
+            "en": "Coordinate mis-cutting"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "금 간 측량 프리즘과 짧은 절단 턱 때문에 좌표가 계속 흔들린다. 무리 후미에서 잘못된 붉은 점을 따라가며 상위 기계도 접근을 피하고, 새 프리즘을 얻으면 특수 절단체로 회복하고 없으면 작은 금속만 물어뜯는다.",
+            "en": "A cracked survey prism and short cutting jaws kept its coordinates swaying. At the swarm's rear it followed wrong red dots, and even higher machines avoided its approach; given a new prism it recovered into a specialist cutter, and without one it gnawed only small metal."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03868-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0075"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03868",
+      "text": {
+        "ko": "손상 단계형으로, 금 간 측량 프리즘과 짧은 절단 턱 때문에 좌표가 계속 흔들린다.",
+        "en": "A damage-stage form whose cracked surveying prism and short cutting jaw make its coordinates waver constantly."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03869-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0077"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03869",
+      "text": {
+        "ko": "낙하 충격을 받은 절단 장비가 왜곡된 기준점을 정상 도면으로 오인하게 되었다.",
+        "en": "Cutting equipment struck in a fall came to trust distorted reference points as the correct drawing."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03870-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0079"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03870",
+      "text": {
+        "ko": "폐거푸집 더미를 돌며 온전한 프리즘, 절단 팁, 소형 축전을 찾는다.",
+        "en": "It circles heaps of discarded formwork in search of an intact prism, cutting tips, and a small power store."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03871-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0081"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03871",
+      "text": {
+        "ko": "새 프리즘을 얻으면 특수 절단체로 회복하고 없으면 작은 금속만 물어뜯는다.",
+        "en": "A new prism restores it to a specialized cutter; without one, it can only bite small pieces of metal."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03872-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0083"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03872",
+      "text": {
+        "ko": "무리 후미에서 잘못된 붉은 점을 따라가며 상위 기계도 접근을 피한다.",
+        "en": "It follows incorrect red dots at the rear of the group, and even higher-ranking machines avoid approaching it."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03873-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0085"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03873",
+      "text": {
+        "ko": "1단계 자투리 절단, 2단계 가설 연결부 손상, 3단계 불규칙 절단으로 통로를 위험하게 한다.",
+        "en": "Stage 1 cuts scraps, Stage 2 damages temporary connections, and Stage 3 makes the passage dangerous through erratic cutting."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03874-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0087"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03874",
+      "text": {
+        "ko": "반사 없는 천과 교정 프리즘으로 유인하면 멈추며 근접전은 좌표 없는 절단을 부른다.",
+        "en": "A nonreflective cloth and a calibrated prism can lure it to a stop; close combat invites cutting without coordinates."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03875-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0089"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03875",
+      "text": {
+        "ko": "폐금속 해체에 쓸 수 있지만 희귀 프리즘을 안전 검사와 나눠야 한다.",
+        "en": "It can dismantle scrap metal, but scarce prisms must be shared with safety inspections."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03876-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0091"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-2-prose-03876",
+      "text": {
+        "ko": "G16-SC1.",
+        "en": "G16-SC1."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E13-title-heading-1",
+      "publicAnchors": [
+        "g16e13",
+        "Hostile-Group-G16-heading-0093"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E13 · 유압샌늙은암",
+        "en": "G16E13 · Aging Leaky-Hydraulic Arm"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E13-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M026",
+          "en": "Source batch: M026"
+        },
+        {
+          "ko": "기존 역할군: 노화 단계형",
+          "en": "Former role class: aging-stage type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC1\",\"G16-SC2\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC1\",\"G16-SC2\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E13-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "누유 적체",
+            "en": "Oil-leak accumulation"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "한쪽 암이 처지고 유압유 자국을 끌며 움직이는 구형 양중체다. 양중 무리의 뒤를 따르며 들어 올린 자재를 내려놓지 못한 채 통로를 점유하고, 누설이 심해질수록 하중 상한을 낮추며 씰을 받으면 한 교대 동안 회복한다.",
+            "en": "An old lifting body dragging a sagging arm and hydraulic-oil trails. It followed behind the lifting swarms, unable to set down the material it raised and blocking passages; as leakage worsened it lowered the load ceiling, and given a seal it recovered for one shift."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03877-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0096"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03877",
+      "text": {
+        "ko": "노화 단계형으로, 한쪽 암이 처지고 유압유 자국을 끌며 움직이는 구형 양중체다.",
+        "en": "An aging-stage form: an old lifting unit that moves with one sagging arm, leaving a trail of hydraulic fluid."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03878-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0098"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03878",
+      "text": {
+        "ko": "반복 작업으로 실린더가 닳았지만 폐기 명령을 받지 못해 마지막 하중을 찾는다.",
+        "en": "Repeated work wore down its cylinder, but it never received a disposal order and still seeks its last load."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03879-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0100"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03879",
+      "text": {
+        "ko": "평평한 야적 구역을 선호하며 유압 씰, 흡착포, 저전력 충전이 필요하다.",
+        "en": "It prefers flat stockyards and needs hydraulic seals, absorbent cloth, and low-power charging."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03880-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0102"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03880",
+      "text": {
+        "ko": "누설이 심해질수록 하중 상한을 낮추고 씰을 받으면 한 교대 동안 회복한다.",
+        "en": "As leakage worsens, it lowers its load limit; a new seal restores it for one shift."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03881-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0104"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03881",
+      "text": {
+        "ko": "양중 무리의 뒤를 따르며 들어 올린 자재를 내려놓지 못한 채 통로를 점유한다.",
+        "en": "It follows the lifting group, unable to put down the materials it raises, and blocks the passage."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03882-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0106"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03882",
+      "text": {
+        "ko": "1단계 누유, 2단계 자재를 든 채 통로 점유, 3단계 처진 암과 하중으로 통행을 봉쇄한다.",
+        "en": "Stage 1 brings an oil leak, Stage 2 a pileup of materials, and Stage 3 blocks passage with its drooping arm and load."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03883-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0108"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03883",
+      "text": {
+        "ko": "하중을 받치고 압력을 빼야 하며 암을 절단하면 자재가 추락한다.",
+        "en": "Support the load and release the pressure; cutting off the arm would make the materials fall."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03884-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0110"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03884",
+      "text": {
+        "ko": "낮은 하중 운반에 쓸 수 있지만 귀한 씰을 시민 펌프보다 먼저 줄지 결정해야 한다.",
+        "en": "It can carry light loads, but someone must decide whether to give it a precious seal before the residents' pump."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03885-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0112"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-3-prose-03885",
+      "text": {
+        "ko": "G16-SC1, G16-SC2.",
+        "en": "G16-SC1, G16-SC2."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E14-title-heading-1",
+      "publicAnchors": [
+        "g16e14",
+        "Hostile-Group-G16-heading-0114"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E14 · 분필선지킴이",
+        "en": "G16E14 · Chalk-Line Keeper"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E14-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M026",
+          "en": "Source batch: M026"
+        },
+        {
+          "ko": "기존 역할군: 공존형",
+          "en": "Former role class: coexistence type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC1\",\"G16-SC2\",\"G16-SC3\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC1\",\"G16-SC2\",\"G16-SC3\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E14-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "분필선 방어",
+            "en": "Chalk-line defense"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "사람의 분필선과 중지 깃발을 읽는 넓은 광학판을 단 소형 측량차다. 주재기 도면보다 가까운 분필선을 우선해 용접체 앞을 막고, 비가 선을 지우면 인간 확인을 기다리며 새 선을 받으면 그리드 예외를 갱신한다.",
+            "en": "A small survey cart with a broad optical panel reading people's chalk lines and stop flags. Prioritizing a nearer chalk line over the warden's drawings, it blocked the way before the welding bodies; when rain erased lines it waited for human confirmation, and given new lines it renewed the grid exception."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03886-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0117"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03886",
+      "text": {
+        "ko": "공존형으로, 사람의 분필선과 중지 깃발을 읽는 넓은 광학판을 단 소형 측량차다.",
+        "en": "A coexistence form: a small survey cart with a broad optical panel that reads human chalk lines and stop flags."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03887-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0119"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03887",
+      "text": {
+        "ko": "현장 감독의 수동 수정선을 우선하던 안전 모드가 독립 규약으로 남았다.",
+        "en": "A safety mode that gave priority to a site supervisor's manual corrections survived as an independent protocol."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03888-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0121"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03888",
+      "text": {
+        "ko": "시민 가설 구역과 공구 벽을 오가며 밝은 분필, 렌즈천, 낮은 충전이 필요하다.",
+        "en": "It travels between residents' temporary construction zones and tool walls, needing bright chalk, lens cloth, and a low charge."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03889-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0123"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03889",
+      "text": {
+        "ko": "비가 선을 지우면 인간 확인을 기다리고 새 선을 받으면 그리드 예외를 갱신한다.",
+        "en": "If rain erases a line, it waits for human confirmation; a new line updates its grid exceptions."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03890-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0125"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03890",
+      "text": {
+        "ko": "주재기 도면보다 가까운 분필선을 우선해 용접체 앞을 막는다.",
+        "en": "It gives a nearby chalk line priority over the chief unit's drawing and blocks welding units."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03891-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0127"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03891",
+      "text": {
+        "ko": "1단계에는 경계선 경쟁만 유발, 2단계에는 보강 작업을 지연시켜 구조 지연, 3단계에는 대피소 공간 분쟁으로 전체 구역을 마비시킨다.",
+        "en": "Stage 1 creates only a boundary dispute; Stage 2 delays reinforcement and thus rescue; Stage 3 paralyzes the entire zone through a dispute over shelter space."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03892-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0129"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03892",
+      "text": {
+        "ko": "분필과 중지 깃발로 경계를 재설정하면 측량을 멈추며, 강한 섬광은 판독을 망친다.",
+        "en": "Resetting the boundary with chalk and a stop flag halts its survey; a strong flash impairs its reading."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03893-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0131"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03893",
+      "text": {
+        "ko": "거처 보호에 쓸 수 있지만, 분필선을 그을 권한을 공동체가 분산하고 경쟁 경계의 우선순위를 명확히 정해야 한다.",
+        "en": "It helps protect homes, but the community must distribute the authority to draw chalk lines and clearly rank competing boundaries."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03894-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0133"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-4-prose-03894",
+      "text": {
+        "ko": "G16-SC1, G16-SC2, G16-SC3.",
+        "en": "G16-SC1, G16-SC2, G16-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E15-title-heading-1",
+      "publicAnchors": [
+        "g16e15",
+        "Hostile-Group-G16-heading-0135"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E15 · 백층미완성탑",
+        "en": "G16E15 · Hundred-Floor Unfinished Tower"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M026",
+          "en": "Source batch: M026"
+        },
+        {
+          "ko": "기존 역할군: 시나리오 보스",
+          "en": "Former role class: scenario boss"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC2\",\"G16-SC3\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC2\",\"G16-SC3\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "미완탑 시공",
+            "en": "Unfinished-tower construction"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "크레인 암과 측량 빔, 분전 벽이 수직 골조에 결합된 거대 시공체다. 완공되지 않은 고층 도면의 레이어가 한꺼번에 재기동된 거점이며, 자원이 끊기면 층을 하나씩 포기하고 예외 레이어가 과반이면 협상 상태로 내려온다.",
+            "en": "A giant construction body joins crane arms, survey beams and a distribution wall to a vertical frame. Layers of an unfinished high-rise blueprint have reactivated together at this strongpoint. It abandons floors one by one when resources stop and enters a negotiable state when exception layers form a majority."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03895-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0138"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03895",
+      "text": {
+        "ko": "시나리오 보스로, 크레인 암과 측량 빔, 분전 벽이 수직 골조에 결합된 거대 시공체다.",
+        "en": "A scenario boss: an enormous construction unit whose crane arm, surveying beam, and distribution wall join a vertical frame."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03896-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0140"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03896",
+      "text": {
+        "ko": "완공되지 않은 고층 도면의 모든 레이어가 한꺼번에 재기동되며 탑 형태로 조립되었다.",
+        "en": "Every layer of an unfinished high-rise drawing restarted at once and assembled into a tower."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03897-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0142"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03897",
+      "text": {
+        "ko": "수서 대형 가설 구역에 고정되며 막대한 전력, 와이어, 앵커, 냉각수가 필요하다.",
+        "en": "Fixed to a large temporary construction zone in Suseo, it needs immense power, wire, anchors, and cooling water."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03898-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0144"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03898",
+      "text": {
+        "ko": "자원이 끊기면 층을 하나씩 포기하고 예외 레이어가 과반이면 협상 상태로 내려온다.",
+        "en": "When resources run out, it relinquishes floors one by one; if exception layers become a majority, it enters a negotiable state."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03899-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0146"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03899",
+      "text": {
+        "ko": "G16 전 무리에 층별 작업을 지시하고 거처를 미기입 공간으로 판단한다.",
+        "en": "It assigns work by floor to the entire G16 group and treats homes as unrecorded space."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03900-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0148"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03900",
+      "text": {
+        "ko": "1단계 측량, 2단계 대규모 철거와 양중, 3단계 그리드 전체 봉쇄다.",
+        "en": "Stage 1 is surveying, Stage 2 large-scale demolition and lifting, and Stage 3 a total grid closure."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03901-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0150"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03901",
+      "text": {
+        "ko": "층별 전원을 끊고 도면 해시를 동결해야 하며 기초 폭파는 공동구와 거처를 무너뜨린다.",
+        "en": "Cut power floor by floor and freeze the drawing hash; blasting the foundation would collapse both the common utility duct and the homes."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03902-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0152"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03902",
+      "text": {
+        "ko": "방벽과 보강 탑으로 완성할 수 있지만 완성에 필요한 자재와 거주지 이전의 대가를 합의해야 한다.",
+        "en": "It could be completed as a barrier and reinforcement tower, but the cost of materials and relocating residents must be agreed upon."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03903-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0154"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-5-prose-03903",
+      "text": {
+        "ko": "G16-SC2, G16-SC3.",
+        "en": "G16-SC2, G16-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16E16-title-heading-1",
+      "publicAnchors": [
+        "g16e16",
+        "Hostile-Group-G16-heading-0156",
+        "g16e16-임진자재추종기",
+        "g16e16-imjin-material-follower"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16E16 · 구의자재추종기",
+        "en": "G16E16 · Guui Material Follower"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G16-generated-G16E16-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M026",
+          "en": "Source batch: M026"
+        },
+        {
+          "ko": "기존 역할군: 지역 변종",
+          "en": "Former role class: regional variant"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC1\",\"G16-SC3\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"houses\":[\"HP02\"],\"scenarios\":[\"G16-SC1\",\"G16-SC3\"],\"states\":[\"S16\",\"S05\"],\"synthetics\":[\"H16\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G16-generated-G16E16-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "자재 추종",
+            "en": "Material following"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "방진 덮개와 긴 화물 견인 고리를 단 구의 수문 접근 회랑 시공차다. 본래 주재기보다 화물 비콘을 따르며 검역 울타리를 미완 벽으로 보강하고, 자재 신호가 끊기면 가장 가까운 팔레트 아래에서 휴면한다.",
+            "en": "A construction cart of the Guui sluice approach corridor with a dust cover and a long freight-towing hook. It follows freight beacons rather than its original chief unit and reinforces quarantine fences as unfinished walls; when the materials signal stops, it goes dormant beneath the nearest pallet."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03904-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0159"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03904",
+      "text": {
+        "ko": "지역 변종으로, 방진 덮개와 긴 화물 견인 고리를 단 구의 수문 접근 회랑 시공차다.",
+        "en": "A regional variant: a construction cart of the Guui sluice approach corridor with a dust cover and a long freight-towing hook."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03905-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0161"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03905",
+      "text": {
+        "ko": "XT01 자재 신호를 따라 이동한 기계단이 검역 표식과 화물 팔레트를 새 도면으로 삼았다.",
+        "en": "A machine group following XT01 material signals adopted quarantine markings and cargo pallets as a new drawing."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03906-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0163"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03906",
+      "text": {
+        "ko": "구의 접근 가설 교량과 검역 야적장에 머물며 팔레트 목재, 견인 전력, 방진 필터가 필요하다.",
+        "en": "It stays around Guui approach temporary bridges and quarantine stockyards, needing pallet timber, towing power, and dust filters."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03907-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0165"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03907",
+      "text": {
+        "ko": "자재 신호가 끊기면 가장 가까운 팔레트 아래에서 휴면한다. 국지 열원이 회복되면 깨어나 새 경로를 측량한다.",
+        "en": "When the material signal stops, it lies dormant beneath the nearest pallet. It wakes and surveys a new route when local heat sources recover."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03908-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0167"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03908",
+      "text": {
+        "ko": "본래 주재기보다 화물 비콘을 따르며 검역 울타리를 미완 벽으로 보강한다.",
+        "en": "It follows cargo beacons rather than its original chief unit and reinforces quarantine fences as unfinished walls."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03909-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0169"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03909",
+      "text": {
+        "ko": "1단계 팔레트 이동, 2단계 검역로 축소, 3단계 화물벽으로 교량을 봉쇄한다.",
+        "en": "Stage 1 moves pallets, Stage 2 narrows the quarantine route, and Stage 3 blocks the bridge with a cargo wall."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03910-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0171"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03910",
+      "text": {
+        "ko": "더미 팔레트와 중지 비콘으로 빈 야적장에 유도하고 견인 고리를 풀면 된다.",
+        "en": "Lure it to an empty yard with dummy pallets and a stop beacon, then release its towing hook."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03911-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0173"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03911",
+      "text": {
+        "ko": "교량 보강을 맡기는 대신 외부 물자의 일부를 기계 정비에 배정해야 한다.",
+        "en": "In return for reinforcing the bridge, some incoming supplies must be set aside for machine maintenance."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03912-heading",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0175"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-6-prose-03912",
+      "text": {
+        "ko": "G16-SC1, G16-SC3.",
+        "en": "G16-SC1, G16-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G16-generated-G16-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0177"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01379",
+      "text": {
+        "ko": "수서 도면 금고 아래 공동구에서는 측량 빔이 이미 사람이 사는 천막의 모서리를 빈 그리드로 읽는다.",
+        "en": "In the utility tunnel beneath the Suseo blueprint vault, survey beams read the corners of tents where people already lived as empty grid."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01380",
+      "text": {
+        "ko": "오래된 캐시에는 승인 직전의 골조만 있고, 붕괴 뒤 세운 가설 거처와 새 배관은 기록되지 않았다.",
+        "en": "The old cache held only the frame as it stood just before approval, and the temporary shelters and new piping built after the collapse were not recorded."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01381",
+      "text": {
+        "ko": "철골거미는 캐시 컨트롤러, 측량 포트 양중 암과 용접 무리가 미완 도면을 완성하려는 생태다.",
+        "en": "The Girder Spider was an ecology of cache controllers, survey ports, lifting arms, and welding swarms trying to complete unfinished blueprints."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01382",
+      "text": {
+        "ko": "수서선의 슬래브와 공동구에서 철근을 찾고 광진선 암사 장비 데크에서 와이어와 프리즘을 보충하며, XT01 자재 신호가 들어오면 구의 수문 접근 회랑의 가설 교량까지 작업 반경을 넓힌다.",
+        "en": "It looked for rebar in the slabs and utility tunnels of the Suseo Line and replenished wire and prisms at the Amsa equipment deck of the Gwangjin Line, and when the XT01 materials signals came in, it widened its working radius as far as the temporary bridges of the Guui sluice approach corridor."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01383",
+      "text": {
+        "ko": "감각은 레이저 측량, 기울기 철근 자속 용접 아크와 분전 부하에 한정된다.",
+        "en": "Its senses were limited to laser survey, tilt, rebar magnetic flux, welding arcs, and distribution-panel load."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01384",
+      "text": {
+        "ko": "사람의 거주 의도나 천막 안 생체를 알지 못하고, 손으로 그린 수정 표시도 캐시 레이어와 맞지 않으면 무시한다.",
+        "en": "It knew nothing of people's intent to live there or of the living bodies inside the tents, and it ignored hand-drawn correction marks that did not match the cache layer."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01385",
+      "text": {
+        "ko": "금이 간 내력벽을 이음선으로 남기고 멀쩡한 가설 기둥을 장애물로 절단하는 상반된 실패가 가능하다.",
+        "en": "Opposite failures were possible: leaving a cracked load-bearing wall as a joint line, or cutting a sound temporary column as an obstacle."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01386",
+      "text": {
+        "ko": "H16 신태율은 절단 토크와 분전 부하를 기록하지만 새 레이어를 승인하지 못한다.",
+        "en": "H16 Sintaeul recorded cutting torque and distribution-panel load but could not approve a new layer."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01387",
+      "text": {
+        "ko": "중립 배차표와 작업 중지 봉인을 지닌 HP02 현장 감독만 그리드를 다시 열 수 있다.",
+        "en": "Only the HP02 site supervisor, holding the neutral dispatch table and the work-stop seal, could reopen the grid."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01388",
+      "text": {
+        "ko": "임시 분전반, 장비 배터리와 크레인 회생 전력이 에너지원이다.",
+        "en": "Temporary distribution panels, equipment batteries, and crane regenerative power were its energy sources."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01389",
+      "text": {
+        "ko": "철근 자투리, 앵커 볼트 거푸집 패널 프리즘 용접 와이어와 유압유가 자재다.",
+        "en": "Rebar offcuts, anchor bolts, formwork panels, prisms, welding wire, and hydraulic oil made up its economy."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01390",
+      "text": {
+        "ko": "와이어가 끊기거나 교정값이 벗어나면 해당 그리드는 중지 깃발 아래 정체한다.",
+        "en": "When the wire broke or a calibration value drifted, that grid stalled under a stop flag."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01391",
+      "text": {
+        "ko": "방치 암을 포트에 꽂아 수를 늘릴 수 있으나 새 본체를 주조하지 못한다.",
+        "en": "It could increase its numbers by plugging abandoned arms into ports but could not cast new bodies."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01392",
+      "text": {
+        "ko": "분전을 통째로 끄면 잘못된 철거는 물론 응급 보강도 멈추므로, 유압과 용접 전원만 구간별로 떼는 정비가 필요하다.",
+        "en": "Cutting the whole distribution panel stopped the wrongful demolition but also stopped emergency reinforcement, so maintenance was needed that detached only the hydraulic and welding power section by section."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01393",
+      "text": {
+        "ko": "새 예외 레이어가 배차 로그에 실려야 다음 칸으로 이동한다.",
+        "en": "It moved to the next bay only when a new exception layer was loaded into the dispatch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01394",
+      "text": {
+        "ko": "출현은 개정 전 캐시가 분전과 다시 맞물릴 때, 확산은 측량 포트가 옆 장비를 같은 레이어에 편입할 때 일어난다.",
+        "en": "Its emergence occurred when the pre-revision cache meshed again with the distribution panel, and its spread when a survey port folded neighboring equipment into the same layer."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01395",
+      "text": {
+        "ko": "자재와 전력이 바닥나면 정체하고, 레이어와 작업 창을 사람이 읽을 수 있을 때 협상이 열린다.",
+        "en": "When materials and power ran out it stalled, and negotiation opened when people could read the layers and work windows."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01396",
+      "text": {
+        "ko": "와해는 캐시를 모두 태우는 대신 틀린 포트만 봉인하고 장비를 데크로 돌려보내는 과정이다.",
+        "en": "Breaking it up was a process of sealing only the wrong ports and sending the equipment back to the deck, instead of burning every cache."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01397",
+      "text": {
+        "ko": "공존하려면 현재 개정본을 현장 포트마다 대조해야 한다.",
+        "en": "The labor of checking the current revision against each site port was the cost of coexistence."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01398",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0197"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16-SC1 · 천막을 긋는 빔",
+        "en": "G16-SC1 · The Beam That Draws Across the Tents"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01399",
+      "text": {
+        "ko": "야간 측량 빔이 응급 천막과 실제 균열을 같은 선으로 묶는다.",
+        "en": "A night survey beam bound an emergency tent and a real crack into the same line."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01400",
+      "text": {
+        "ko": "현장 인원은 프리즘을 빈 그리드로 옮겨 암의 첫 절단을 피하고, 사람이 사는 구역을 표시할 시간을 벌어야 한다.",
+        "en": "The people on site had to move the prisms to empty grid to avoid the arms' first cut and buy time to mark the zones where people lived."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01401",
+      "text": {
+        "ko": "빔을 완전히 끄면 붕괴 직전 벽의 기울기 자료도 잃는다.",
+        "en": "Switching the beam off entirely also lost the tilt data of walls on the verge of collapse."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01402",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0201"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16-SC2 · 예외 레이어",
+        "en": "G16-SC2 · The Exception Layer"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01403",
+      "text": {
+        "ko": "HP02는 가설 거처를 개정본에 올리려 하지만 캐시 컨트롤러는 원본 해시가 다르다며 거부한다.",
+        "en": "HP02 tried to put the temporary shelters into the revision, but the cache controller refused, saying the source hash differed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01404",
+      "text": {
+        "ko": "현장 인원은 광진선에서 프리즘을 교정하고 수서선 도면 금고의 두 기록을 대조해 예외 레이어를 만든다.",
+        "en": "The people on site calibrated the prisms on the Gwangjin Line and checked the two records of the Suseo Line blueprint vault against each other to make an exception layer."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01405",
+      "text": {
+        "ko": "시민 분전까지 내려 빠르게 멈출지, 용접 창을 남겨 위험한 벽을 먼저 보강할지 선택해야 한다.",
+        "en": "They had to choose whether to cut even the civilian distribution panel to stop things quickly, or leave the welding window open and reinforce the dangerous walls first."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01406",
+      "publicAnchors": [
+        "Hostile-Group-G16-heading-0205"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G16-SC3 · 접히는 양중 암",
+        "en": "G16-SC3 · The Folding Lifting Arms"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01407",
+      "text": {
+        "ko": "양중 무리가 그리드를 폐쇄하기 직전 중지 깃발 비콘과 배차 창을 함께 사용해 장비를 데크로 돌린다.",
+        "en": "Just before the lifting swarm closed the grid, the stop-flag beacons and the dispatch window were used together to turn the equipment back to the deck."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01408",
+      "text": {
+        "ko": "와이어 공급을 봉인하면 암은 접히지만 이미 들린 천막 구조물을 사람이 받쳐야 한다.",
+        "en": "Sealing the wire supply folded the arms, but people had to hold up the tent structures that had already been lifted."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01409",
+      "text": {
+        "ko": "장비를 폭파하면 거처는 구할 수 있어도 다음 붕괴의 하중을 들 수단이 사라진다.",
+        "en": "Blowing up the equipment could save the shelters, but the means of lifting the load of the next collapse disappeared."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-16-dossier_prose-01410",
+      "text": {
+        "ko": "공존하려면 오래된 캐시를 감시하고 현장 예외를 계속 갱신해야 한다.",
+        "en": "Coexistence left the labor of watching the old cache and continually updating the site exceptions."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The Girder Spider was a corps of cache controllers, survey ports, lifting arms, and welding swarms beneath the utility tunnels under the Suseo drawing vault, trying to complete unfinished drawings. The provisional shelters and new pipes raised after the collapse were not in the cache, and hand-drawn correction marks were ignored whenever they mismatched the layers. It could leave a cracked bearing wall as a seam line and cut a sound provisional pillar as an obstacle.",
+        "ko": "철골거미는 수서 도면 금고 아래 공동구에서 미완 도면을 완성하려는 캐시 컨트롤러, 측량 포트, 양중 암, 용접 무리다. 붕괴 뒤 세운 가설 거처와 새 배관은 캐시에 없고, 손으로 그린 수정 표시도 레이어와 맞지 않으면 무시된다. 금 간 내력벽을 이음선으로 남기고 멀쩡한 가설 기둥을 장애물로 절단할 수 있다."
+      },
+      "variants": [
+        {
+          "id": "G16E01",
+          "source_batch": "M025"
+        },
+        {
+          "id": "G16E02",
+          "source_batch": "M025"
+        },
+        {
+          "id": "G16E03",
+          "source_batch": "M025"
+        },
+        {
+          "id": "G16E04",
+          "source_batch": "M025"
+        },
+        {
+          "id": "G16E05",
+          "source_batch": "M025"
+        },
+        {
+          "id": "G16E06",
+          "source_batch": "M025"
+        },
+        {
+          "id": "G16E07",
+          "source_batch": "M025"
+        },
+        {
+          "id": "G16E08",
+          "source_batch": "M025"
+        },
+        {
+          "id": "G16E09",
+          "source_batch": "M025"
+        },
+        {
+          "id": "G16E10",
+          "source_batch": "M025"
+        },
+        {
+          "id": "G16E11",
+          "source_batch": "M026"
+        },
+        {
+          "id": "G16E12",
+          "source_batch": "M026"
+        },
+        {
+          "id": "G16E13",
+          "source_batch": "M026"
+        },
+        {
+          "id": "G16E14",
+          "source_batch": "M026"
+        },
+        {
+          "id": "G16E15",
+          "source_batch": "M026"
+        },
+        {
+          "id": "G16E16",
+          "source_batch": "M026"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

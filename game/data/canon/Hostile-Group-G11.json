@@ -1,0 +1,998 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G11",
+  "slug": "Hostile-Group-G11",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G11]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G11 · Gangnam Stray Humanoids",
+      "summary": "G11 · Gangnam Stray Humanoids",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G11 · 강남 이탈 인간형",
+      "summary": "G11 · 강남 이탈 인간형",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G11-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G11 · 강남 이탈 인간형",
+        "en": "G11 · Gangnam Stray Humanoids"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G11-generated-G11-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G11-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G11-generated-G11-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "강남 이탈 인간형은 관리 기록과 배정 구역 밖의 인간형 합성체 무리이며 근무지에서 사람으로 선다. 강남 이탈 인간형은 강남 정비 측선 멸균 전력 콘센트 열에서 지낸다. 배터리 교체 주기마다 수서 야간 호송 창과 클리닉 잔여 복도 입구를 오가며 교환 칸을 채운다. 안국·신내 명부 회랑 당직이 검역과 귀환 명부 절차를 강화하면 강남 이탈 인간형은 창 발판에서 걸음을 늦추고 부품 마모 상한 안에서 움직인다. 창에서는 성하그룹과 정동노총이 만나고 용산호송가가 호송 자리를 지킨다.",
+        "en": "The Gangnam Stray Humanoids are a group of humanoid synthetics outside their management records and assigned zones, and at the post they stand as people. They live on the sterile power-outlet row of the Gangnam maintenance siding. At each battery-exchange cycle they go between the Suseo night convoy window and the mouth of the remaining clinic corridors and fill the exchange bays. When duty staff at the Anguk–Sinnae register corridor tighten quarantine and return-register procedure, they slow their steps on the window step and move inside the parts-wear upper limit. At the window the Seongha Group and the Jeongdong Federation meet, and the Yongsan Convoy House holds the convoy post."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G11-generated-G11-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "이탈 인간형 호위조와 이탈 인간형 척후조는 이탈 인간형 선두의 시야 안 열에 함께 선 같은 무리이다. 이탈 인간형 호위조는 배터리 교환을 연 칸에 서고, 이탈 인간형 척후조는 안국·신내 명부 회랑 귀환 명부 사본의 순서에 선다. 한쪽은 교환 자리에 서고 다른 쪽은 명부 자리에 선다.",
+        "en": "The Stray Humanoid Guard and the Stray Humanoid Scouts are the same group, standing together on the row inside the Stray Humanoid Lead's line of sight. The Stray Humanoid Guard stands in the bays where the battery exchange is open, and the Stray Humanoid Scouts stand on the order of the return-register copy from the Anguk–Sinnae register corridor. One side stands at the exchange place and the other side stands at the register place."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G11-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G11-generated-G11-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "용산호송가 호송 당직은 초겨울 밤 강남 정비 측선 멸균 전력 콘센트 열에서 이 무리를 본다. 콘센트 열의 불빛은 희다. 이탈 인간형 선두는 열 한가운데에 서 있고 손에 뚜껑이 닫힌 교환용 배터리를 들고 있다. 작업복의 배정 표에는 받침대의 측선 칸과 다른 칸이 적혀 있다. 이탈 인간형 호위조는 선두의 좌우 칸에 서 있다.",
+            "en": "On an early-winter night the Yongsan Convoy House convoy duty sees this group at the sterile power-outlet row of the Gangnam maintenance siding. The light of the outlet row is white. The Stray Humanoid Lead stands at the middle of the row and holds a lidded exchange battery in hand. The assignment tag on the work clothes has a bay written on it other than the siding bay on the stand. The Stray Humanoid Guard stands in the bays to the lead's left and right."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "강남 이탈 인간형은 강남 정비 측선의 멸균 전력 콘센트 열에 모인다. 배터리 교체 주기마다 수서 야간 호송 창과 클리닉 잔여 복도 입구를 오간다. 초겨울 밤에는 창 턱에서 배터리 교환을 길게 이어 가고, 안국·신내 명부 회랑 당직이 검역을 강화한 날에는 그 왕복의 걸음을 발판 칸 하나에 맞춘다. 강남 이탈 인간형은 부품 마모 상한 안의 측선에서 움직인다.",
+            "en": "The Gangnam Stray Humanoids gather on the sterile power-outlet row of the Gangnam maintenance siding. On each battery-exchange cycle they go between the Suseo night convoy window and the mouth of the remaining clinic corridors. On early-winter nights they keep the battery exchange at the window ledge long, and on days when duty staff at the Anguk–Sinnae register corridor tighten quarantine they set the spacing of that round trip to a single step bay. They move on the siding inside the parts-wear upper limit."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "교환용 배터리와 클리닉 잔여 복도의 당직 소모품이 이 창을 오간다. 성하그룹 정비 장부에는 콘센트 칸 수와 배터리 수가 적혀 있다. 용산호송가는 수서 야간 호송 창 턱에 그 수만큼의 배터리를 올려 둔다. 정동노총은 복도 출입 시간과 소모품 수를 같은 장부의 이웃 칸에 맞춘다.",
+            "en": "Exchange batteries and the duty consumables of the remaining clinic corridors pass across this window. The Seongha Group maintenance ledger has the outlet-bay count and the battery count written in it. The Yongsan Convoy House sets that many batteries up on the ledge of the Suseo night convoy window. The Jeongdong Federation matches corridor-access time and the consumable count in the neighboring bays of the same ledger."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "배터리 교체 주기가 시작되면 사람은 강남 정비 측선 멸균 전력 콘센트 열에 모인다. 교환용 배터리를 수서 야간 호송 창 턱까지 옮기면 무리는 창 발판과 클리닉 잔여 복도 입구로 나뉘어 선다. 부품 마모 상한 눈금에 닿은 사람은 콘센트 열 한가운데로 모여 그 칸 앞에 머문다.",
+            "en": "When a battery-exchange cycle begins, the people gather on the sterile power-outlet row of the Gangnam maintenance siding. When the exchange batteries are carried to the ledge of the Suseo night convoy window, the group divides and stands on the window step and at the mouth of the remaining clinic corridors. People who reach the parts-wear upper mark gather at the middle of the outlet row and remain in front of that bay."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "강남 이탈 인간형은 강남 정비 측선 멸균 전력 콘센트 열의 칸 수와 수서 야간 호송 창의 배터리 교환 순서를 살핀다. 강남 이탈 인간형은 콘센트 열과 클리닉 잔여 복도 입구로 이어지는 교환 길을 바라본다.",
+            "en": "The Gangnam Stray Humanoids watch the bay count on the sterile power-outlet row of the Gangnam maintenance siding and the battery-exchange order at the Suseo night convoy window. They look at the outlet row and at the exchange path that leads to the mouth of the remaining clinic corridors."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "이탈 인간형 선두는 콘센트 열 한가운데 칸 앞에 선다. 이탈 인간형 호위조는 선두의 손 방향에 배터리 칸을 두고 선다. 이탈 인간형 척후조는 안국·신내 명부 회랑 귀환 명부 사본이 창에 있는 동안 호송 창 발판의 순서 번호에 선다. 선두는 시야 안 열에 선 사람에게 손짓을 보낸다.",
+            "en": "The Stray Humanoid Lead stands in front of the middle bay of the outlet row. The Stray Humanoid Guard stands with the battery bays in the direction of the lead's hand. The Stray Humanoid Scouts stand on the sequence numbers of the convoy-window step while the return-register copy from the Anguk–Sinnae register corridor is at the window. The lead sends a hand signal to the people standing on the row inside the line of sight."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G11-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G11-generated-G11-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "이탈 인간형 선두는 눈앞의 콘센트 열과 수서 야간 호송 창 발판과 클리닉 잔여 복도 입구에 선 사람에게 손짓을 보낸다. 선두는 같은 교체 주기 안에서 창 턱의 칸 수를 발판에서 다시 센다. 각 근무지 당직은 호송 창의 걸쇠와 안국·신내 명부 회랑 명부의 순서를 손에 둔다.",
+        "en": "The Stray Humanoid Lead sends hand signals to the people standing on the outlet row in sight, on the step of the Suseo night convoy window, and at the mouth of the remaining clinic corridors. Within the same exchange cycle the lead counts the ledge's bay count again from the step. Each post's duty holds the convoy-window latch and the order of the Anguk–Sinnae register corridor register."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G11-generated-G11-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G11E01 · 이탈 인간형 선두",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G11",
+                  "anchor": "g11e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G11E01 · Stray Humanoid Lead",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G11",
+                  "anchor": "g11e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "인간형",
+            "en": "Humanoid"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "콘센트 열 한가운데에서 배터리 칸 수를 세고 손 방향으로 이탈 인간형 호위조를 세운다.",
+            "en": "Counts the battery bays from the middle of the outlet row and sets the Stray Humanoid Guard in the direction of the hand."
+          },
+          {
+            "ko": "두목",
+            "en": "Leader"
+          },
+          {
+            "ko": "M017",
+            "en": "M017"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G11E08 · 이탈 인간형 호위조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G11",
+                  "anchor": "g11e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G11E08 · Stray Humanoid Guard",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G11",
+                  "anchor": "g11e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "인간형",
+            "en": "Humanoid"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "배터리 뚜껑을 연 채로 이탈 인간형 선두의 손 방향에서 창 턱과 클리닉 잔여 복도 입구 사이를 메운다.",
+            "en": "With the battery lids open, fills the space between the window ledge and the mouth of the remaining clinic corridors in the direction of the Stray Humanoid Lead's hand."
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M017",
+            "en": "M017"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G11E15 · 이탈 인간형 척후조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G11",
+                  "anchor": "g11e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G11E15 · Stray Humanoid Scouts",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G11",
+                  "anchor": "g11e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "인간형",
+            "en": "Humanoid"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "안국·신내 명부 회랑 귀환 명부 사본의 순서 번호 옆에서 검역 대기를 하며 수서 야간 호송 창 발판을 지킨다.",
+            "en": "Holds the step of the Suseo night convoy window in quarantine waiting, beside the sequence numbers of the return-register copy from the Anguk–Sinnae register corridor."
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M018",
+            "en": "M018"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11E01-title-heading-1",
+      "publicAnchors": [
+        "g11e01",
+        "Hostile-Group-G11-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G11E01 · 이탈 인간형 선두",
+        "en": "G11E01 · Stray Humanoid Lead"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G11-generated-G11E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M017",
+          "en": "Source batch: M017"
+        },
+        {
+          "ko": "기존 역할군: 두목",
+          "en": "Former role class: Leader"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC11\"],\"scenarios\":[\"G11-SC1\",\"G11-SC2\",\"G11-SC3\"],\"states\":[\"S11\",\"S16\"],\"synthetics\":[\"H11\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"houses\":[\"HC11\"],\"scenarios\":[\"G11-SC1\",\"G11-SC2\",\"G11-SC3\"],\"states\":[\"S11\",\"S16\"],\"synthetics\":[\"H11\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G11-generated-G11E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "인간형",
+            "en": "Humanoid"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "콘센트 열 한가운데에서 배터리 칸 수를 세고 손 방향으로 이탈 인간형 호위조를 세운다.",
+            "en": "Counts the battery bays from the middle of the outlet row and sets the Stray Humanoid Guard in the direction of the hand."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "선두는 눈앞의 강남 정비 측선 콘센트 열과 수서 야간 호송 창 발판과 클리닉 잔여 복도 입구에 손짓을 보낸다. 같은 주기 안에서 창 턱의 칸 수를 발판에서 다시 센다. 근무지 당직은 호송 창 걸쇠와 안국·신내 명부 회랑 명부의 순서를 손에 둔다.",
+            "en": "The lead sends hand signals across the Gangnam maintenance siding outlet row in sight, the step of the Suseo night convoy window, and the mouth of the remaining clinic corridors. Within the same cycle the lead counts the window-ledge bay count again from the step. The post duty holds the convoy-window latch and the order of the Anguk–Sinnae register corridor register."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M017-entries-1-prose-03349",
+      "items": [
+        {
+          "ko": "뚜껑이 닫힌 교환용 배터리",
+          "en": "A lidded exchange battery"
+        },
+        {
+          "ko": "측선 칸과 다른 배정 표",
+          "en": "An assignment tag of a bay other than the siding bay"
+        },
+        {
+          "ko": "콘센트 열의 작업등",
+          "en": "A work light for the outlet row"
+        },
+        {
+          "ko": "마모 눈금이 있는 무릎 이음새 덮개",
+          "en": "A knee joint cover with a wear mark"
+        },
+        {
+          "ko": "창 턱 칸 수가 적힌 쪽지",
+          "en": "A slip with the window-ledge bay count written on it"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11E08-title-heading-1",
+      "publicAnchors": [
+        "g11e08",
+        "Hostile-Group-G11-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G11E08 · 이탈 인간형 호위조",
+        "en": "G11E08 · Stray Humanoid Guard"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G11-generated-G11E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M017",
+          "en": "Source batch: M017"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC11\"],\"scenarios\":[\"G11-SC1\",\"G11-SC2\",\"G11-SC3\"],\"states\":[\"S11\",\"S16\"],\"synthetics\":[\"H11\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"houses\":[\"HC11\"],\"scenarios\":[\"G11-SC1\",\"G11-SC2\",\"G11-SC3\"],\"states\":[\"S11\",\"S16\"],\"synthetics\":[\"H11\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G11-generated-G11E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "인간형",
+            "en": "Humanoid"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "배터리 뚜껑을 연 채로 이탈 인간형 선두의 손 방향에서 창 턱과 클리닉 잔여 복도 입구 사이를 메운다.",
+            "en": "With the battery lids open, fills the space between the window ledge and the mouth of the remaining clinic corridors in the direction of the Stray Humanoid Lead's hand."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "이탈 인간형 호위조는 이탈 인간형 선두가 보는 콘센트 열 안에서 일한다. 호위조는 손에 든 순서 판의 현재 칸에서 교환을 이어 간다. 복도 입구의 출입 시간은 정동노총 복도 당직의 시간 표에 적혀 있다.",
+            "en": "The Stray Humanoid Guard works inside the outlet row the Stray Humanoid Lead can see. They carry the exchange on the current bay of the order board in their hands. Access time at the corridor mouth is written on the time sheet of the Jeongdong Federation corridor duty."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M017-entries-8-prose-03419",
+      "items": [
+        {
+          "ko": "뚜껑이 열린 예비 배터리 칸",
+          "en": "A spare battery bay with the lid open"
+        },
+        {
+          "ko": "콘센트 덮개용 장갑",
+          "en": "Gloves for the outlet covers"
+        },
+        {
+          "ko": "현재 칸이 표시된 교환 순서 판",
+          "en": "An exchange order board with the current bay marked"
+        },
+        {
+          "ko": "클리닉 잔여 복도 출입표",
+          "en": "A pass for the remaining clinic corridors"
+        },
+        {
+          "ko": "마모 눈금이 있는 무릎 덮개",
+          "en": "A knee cover with a wear mark"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11E15-title-heading-1",
+      "publicAnchors": [
+        "g11e15",
+        "Hostile-Group-G11-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G11E15 · 이탈 인간형 척후조",
+        "en": "G11E15 · Stray Humanoid Scouts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G11-generated-G11E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M018",
+          "en": "Source batch: M018"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC11\"],\"scenarios\":[\"G11-SC1\",\"G11-SC2\",\"G11-SC3\"],\"states\":[\"S11\",\"S16\"],\"synthetics\":[\"H11\"],\"theaters\":[\"XT01\"]}",
+          "en": "Links: {\"houses\":[\"HC11\"],\"scenarios\":[\"G11-SC1\",\"G11-SC2\",\"G11-SC3\"],\"states\":[\"S11\",\"S16\"],\"synthetics\":[\"H11\"],\"theaters\":[\"XT01\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G11-generated-G11E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "인간형",
+            "en": "Humanoid"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "안국·신내 명부 회랑 귀환 명부 사본의 순서 번호 옆에서 검역 대기를 하며 수서 야간 호송 창 발판을 지킨다.",
+            "en": "Holds the step of the Suseo night convoy window in quarantine waiting, beside the sequence numbers of the return-register copy from the Anguk–Sinnae register corridor."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "이탈 인간형 척후조는 귀환 명부 사본이 수서 야간 호송 창 받침대에 있는 동안 발판에 선다. 대기 번호는 가슴의 검역 대기 표와 같다. 창 안 당직은 명부 순서와 창 걸쇠를 손에 둔다.",
+            "en": "The Stray Humanoid Scouts stand on the step while the return-register copy is on the stand of the Suseo night convoy window. The waiting number matches the quarantine waiting tag on the chest. The duty inside the window holds the register order and the window latch."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M018-entries-5-prose-03489",
+      "items": [
+        {
+          "ko": "안국·신내 명부 회랑 귀환 명부 사본",
+          "en": "A copy of the Anguk–Sinnae register corridor return register"
+        },
+        {
+          "ko": "가슴의 검역 대기 표",
+          "en": "A quarantine waiting tag on the chest"
+        },
+        {
+          "ko": "호송 창 발판의 순서 번호 표시",
+          "en": "A sequence-number mark on the convoy-window step"
+        },
+        {
+          "ko": "부품 마모 상한 눈금 표",
+          "en": "A card of the parts-wear upper mark"
+        },
+        {
+          "ko": "배터리 칸과 복도 시간이 적힌 나눔 쪽지",
+          "en": "A division slip with battery bays and corridor time written on it"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G11-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-11-dossier_prose-01101",
+      "text": {
+        "ko": "초겨울 밤, 용산호송가 호송 당직은 강남 정비 측선 멸균 전력 콘센트 열 끝의 수서 야간 호송 창에 서 있다. 흰빛 아래 이탈 인간형 선두가 열 한가운데에 서 있다. 선두의 배정 표에는 받침대의 측선 칸과 다른 칸이 적혀 있다. 선두는 뚜껑이 닫힌 교환용 배터리를 손에 들고 있다. 이탈 인간형 호위조는 선두의 좌우 칸에 서 있다.",
+        "en": "On an early-winter night the Yongsan Convoy House convoy duty stands at the Suseo night convoy window at the end of the sterile power-outlet row of the Gangnam maintenance siding. Under the white light the Stray Humanoid Lead stands at the middle of the row. The lead's assignment tag has a bay written on it other than the siding bay on the stand. The lead holds a lidded exchange battery in hand. The Stray Humanoid Guard stands in the bays to the lead's left and right."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-11-dossier_prose-01102",
+      "text": {
+        "ko": "이탈 인간형 선두는 콘센트 칸의 숫자와 창 턱의 배터리를 본다. 이탈 인간형 호위조는 순서 판의 현재 칸과 클리닉 잔여 복도 입구의 소모품 상자를 본다. 이탈 인간형 척후조는 안국·신내 명부 회랑 귀환 명부 사본의 순서 번호와 가슴의 검역 대기 표를 본다. 무리는 콘센트 열과 창 발판과 복도 입구에 발을 둔다.",
+        "en": "The Stray Humanoid Lead looks at the outlet-bay numbers and the batteries on the window ledge. The Stray Humanoid Guard looks at the current bay of the order board and the consumables box at the mouth of the remaining clinic corridors. The Stray Humanoid Scouts look at the sequence numbers of the return-register copy from the Anguk–Sinnae register corridor and the quarantine waiting tags on their chests. The group sets its feet on the outlet row, the window step, and the corridor mouth."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-11-dossier_prose-01103",
+      "text": {
+        "ko": "이탈 인간형 선두는 콘센트 열의 한가운데 칸을 차지한다. 이탈 인간형 호위조는 선두의 손이 가리키는 쪽에 배터리 칸을 둔다. 귀환 명부 사본이 받침대에 있는 동안 이탈 인간형 척후조는 수서 야간 호송 창 발판의 순서 번호에 선다. 선두는 시야 안 열에 선 사람에게 손짓을 보낸다.",
+        "en": "The Stray Humanoid Lead occupies the middle bay of the outlet row. The Stray Humanoid Guard sets the battery bays on the side the lead's hand indicates. While the return-register copy is on the stand, the Stray Humanoid Scouts stand on the sequence numbers of the Suseo night convoy window step. The lead sends a hand signal to the people standing on the row inside the line of sight."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-11-dossier_prose-01104",
+      "text": {
+        "ko": "창 턱의 배터리 수는 성하그룹 정비 장부의 칸 수와 같다. 클리닉 잔여 복도 입구의 상자에는 정동노총 복도 당직의 소모품이 들어 있다. 받침대의 한 장부에서 배터리 수와 복도 시간은 이웃 칸에 적혀 있다. 용산호송가는 호송 창 턱에 그 칸 수만큼의 배터리를 올려 둔다.",
+        "en": "The battery count on the window ledge equals the bay count of the Seongha Group maintenance ledger. The box at the mouth of the remaining clinic corridors holds the consumables of the Jeongdong Federation corridor duty. In one ledger on the stand, the battery count and the corridor time are written in neighboring bays. The Yongsan Convoy House sets that many batteries up on the convoy-window ledge."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-11-dossier_prose-01105",
+      "text": {
+        "ko": "초겨울 밤의 앞부분에는 이탈 인간형 선두와 이탈 인간형 호위조가 콘센트 열에 서고 배터리를 손에 든다. 밤의 가운데에는 이탈 인간형 호위조가 클리닉 잔여 복도 입구와 창 턱 사이를 메우고, 장부 칸마다 교환 수량이 찬다. 안국·신내 명부 회랑 명부 사본을 받침대에 올린 뒤 이탈 인간형 척후조는 순서 번호 옆에 서고, 마모 눈금은 성하그룹 정비 장부의 소모 칸에 올라간다.",
+        "en": "In the first part of the early-winter night, the Stray Humanoid Lead and the Stray Humanoid Guard stand on the outlet row and hold the batteries in their hands. In the middle of the night, the Stray Humanoid Guard fills the space between the mouth of the remaining clinic corridors and the window ledge, and the exchange quantity fills each ledger bay. After the register copy from the Anguk–Sinnae register corridor is placed on the stand, the Stray Humanoid Scouts stand beside the sequence numbers, and the wear marks go up into the consumption bays of the Seongha Group maintenance ledger."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-11-dossier_prose-01106",
+      "text": {
+        "ko": "배터리 교체 주기가 시작되면 사람은 멸균 전력 콘센트 열로 모인다. 교환용 배터리를 수서 야간 호송 창 턱까지 옮기면 무리는 창 발판과 클리닉 잔여 복도 입구로 나뉘어 선다. 부품 마모 상한 눈금에 닿은 사람은 열 한가운데 칸 앞에 모여 머문다. 머문 사람은 그 눈금 안의 강남 정비 측선에서 움직인다.",
+        "en": "When a battery-exchange cycle begins, the people gather on the sterile power-outlet row. When the exchange batteries are carried to the ledge of the Suseo night convoy window, the group divides and stands on the window step and at the mouth of the remaining clinic corridors. People who reach the parts-wear upper mark gather and remain in front of the middle bay of the row. The people who remain move on the Gangnam maintenance siding inside that mark."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-11-dossier_prose-01107",
+      "text": {
+        "ko": "성하그룹 정비 당직과 정동노총 복도 당직은 배터리 수와 복도 시간을 한 장부에 적는다. 김도하는 안국·신내 명부 회랑 귀환 명부 사본의 순서를 창 앞 인원수에 맞춘다. 용산호송가 호송 당직은 맞춘 칸 옆에서 창 걸쇠를 잡고 있다. 장부에는 이탈 인간형 선두가 센 칸 수만큼 나눔이 적혀 있다.",
+        "en": "The Seongha Group maintenance duty and the Jeongdong Federation corridor duty write the battery count and the corridor time in one ledger. Kim Doha aligns the order of the return-register copy from the Anguk–Sinnae register corridor to the headcount in front of the window. The Yongsan Convoy House convoy duty holds the window latch beside the aligned bays. The ledger has the division written in it for as many bays as the Stray Humanoid Lead counts."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-11-dossier_prose-01108",
+      "text": {
+        "ko": "용산호송가 호송 당직은 한 손에 배정 표를 들고 다른 손을 잠긴 창 걸쇠 위에 둔다. 성하그룹 정비 당직은 배터리 수를 장부 칸에 다시 적는다. 정동노총 복도 당직은 당직 두 사람이 선 자리에서 클리닉 잔여 복도 입구를 연다. 야간 호송의 출발 인원은 교환이 끝난 칸 뒤에 선다. 복도 입구의 당직 시간 표에는 교환 길에 넘긴 시간이 표시되어 있다. 장부 소모 칸에는 마모 상한에 닿은 덮개 수량이 숫자로 적혀 있다.",
+        "en": "The Yongsan Convoy House convoy duty holds the assignment tags in one hand and sets the other hand on the locked window latch. The Seongha Group maintenance duty writes the battery count back into the ledger bays. The Jeongdong Federation corridor duty opens the mouth of the remaining clinic corridors from the place where the two duty officers stand. The night-convoy departure personnel stand behind the bays whose exchange has finished. The duty-time sheet at the corridor mouth shows the time given over to the exchange path. The consumption bays of the ledger have the quantity of covers that reach the wear upper limit written as a number."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11-linked-scenarios-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G11-heading-0032"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "연결 시나리오",
+        "en": "Linked scenarios"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11-SC1-title-heading-1",
+      "publicAnchors": [
+        "g11-sc1-호송-창의-배터리-칸",
+        "Hostile-Group-G11-heading-0033"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G11-SC1 · 호송 창의 배터리 칸",
+        "en": "G11-SC1 · Battery bays at the convoy window"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G11-generated-G11-SC1-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 1",
+          "en": "Stage: 1"
+        },
+        {
+          "ko": "촉발: 배터리 교체 주기가 되어 강남 이탈 인간형이 수서 야간 호송 창 발판에 선다. 용산호송가 호송 당직과 김도하가 창 안에 있다. 성하그룹 정비 장부가 받침대에 펼쳐져 있다.",
+          "en": "Trigger: A battery-exchange cycle comes due and the Gangnam Stray Humanoids stand on the step of the Suseo night convoy window. The Yongsan Convoy House convoy duty and Kim Doha are inside the window. The Seongha Group maintenance ledger lies open on the stand."
+        },
+        {
+          "ko": "관련 세력: S11, HC11, H11",
+          "en": "Actors: S11, HC11, H11"
+        },
+        {
+          "ko": "생태 기제: 창 턱의 배터리 수와 성하그룹 정비 장부의 칸 수가 같은 동안 창 턱에서 교환이 진행된다. 이탈 인간형 선두는 발판에서 눈앞의 칸을 센다. 용산호송가 호송 당직은 창 걸쇠를 손에 둔다.",
+          "en": "Ecological mechanism: While the battery count on the window ledge and the bay count in the Seongha Group maintenance ledger are the same, they carry out the exchange on the window ledge. The Stray Humanoid Lead counts the bays in sight from the step. The Yongsan Convoy House convoy duty holds the window latch."
+        },
+        {
+          "ko": "선택지: 김도하가 수서 야간 호송 창의 걸쇠를 잠그고 성하그룹 정비 장부에 창 앞 배터리 수를 적는다. / 용산호송가가 강남 정비 측선 콘센트 열의 칸 수만큼 교환을 연다. / 성하그룹 정비 당직이 클리닉 잔여 복도 쪽 배터리 이동을 당직 시간 안의 칸으로 장부에 적는다.",
+          "en": "Choices: Kim Doha locks the latch of the Suseo night convoy window and writes the battery count in front of the window into the Seongha Group maintenance ledger. / The Yongsan Convoy House opens the exchange for as many bays as the outlet row of the Gangnam maintenance siding. / The Seongha Group maintenance duty writes the battery movement toward the remaining clinic corridors into the ledger as bays inside duty time."
+        },
+        {
+          "ko": "결과: 김도하가 걸쇠를 잠그면 배터리는 창 안에 있고 이탈 인간형 선두는 발판에서 칸을 세며 머문다. 용산호송가가 콘센트 칸 수만큼 교환을 열면 그 수량의 배터리를 열 한가운데로 보내고 장부의 잔여 칸을 줄인다. 성하그룹 정비 당직이 복도 쪽 이동을 당직 시간으로 적으면 클리닉 잔여 복도의 교환을 그 시간 안에 끝내고 야간 호송의 출발 인원을 그 시간 뒤에 세운다.",
+          "en": "Outcomes: When Kim Doha locks the latch, the batteries stay inside the window and the Stray Humanoid Lead remains on the step counting the bays. When the Yongsan Convoy House opens the exchange for the outlet-bay count, it sends that quantity of batteries to the middle of the row and reduces the remaining bays in the ledger. When the Seongha Group maintenance duty writes the corridor movement as duty time, it finishes the exchange in the remaining clinic corridors inside that time and sets the night-convoy departure personnel after that time."
+        },
+        {
+          "ko": "도덕 비용: 야간 호송은 교환에 든 시간만큼 창에서 늦게 출발한다. 장부에는 클리닉 잔여 복도의 당직 시간이 배터리 이동의 칸으로 남아 있다.",
+          "en": "Moral cost: The night convoy departs late at the window by the time the exchange takes. In the ledger, the duty time of the remaining clinic corridors remains as bays of battery movement."
+        },
+        {
+          "ko": "원본 항목: G11",
+          "en": "Source dossier: G11"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11-SC2-title-heading-1",
+      "publicAnchors": [
+        "g11-sc2-창-앞의-나눔",
+        "Hostile-Group-G11-heading-0035"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G11-SC2 · 창 앞의 나눔",
+        "en": "G11-SC2 · The division in front of the window"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G11-generated-G11-SC2-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 2",
+          "en": "Stage: 2"
+        },
+        {
+          "ko": "촉발: 정동노총 복도 당직이 클리닉 잔여 복도의 소모품 수를 들고 수서 야간 호송 창에 선다. 성하그룹 정비 장부와 용산호송가의 창 걸쇠는 같은 받침대 옆에 놓여 있다. 강남 이탈 인간형의 이탈 인간형 호위조가 창 발판에 서 있다.",
+          "en": "Trigger: The Jeongdong Federation corridor duty stands at the Suseo night convoy window with the consumable count from the remaining clinic corridors. The Seongha Group maintenance ledger and the window latch of the Yongsan Convoy House lie beside the same stand. The Stray Humanoid Guard of the Gangnam Stray Humanoids stands on the window step."
+        },
+        {
+          "ko": "관련 세력: S11, S16, HC11",
+          "en": "Actors: S11, S16, HC11"
+        },
+        {
+          "ko": "생태 기제: 배터리 칸과 복도 시간은 한 장부의 이웃 칸에 함께 적혀 있다. 이탈 인간형 호위조는 이탈 인간형 선두가 보는 열에서 선두의 손 방향에 선다. 이탈 인간형 호위조는 그 열의 칸 수에 맞춰 호위 인원을 나눈다.",
+          "en": "Ecological mechanism: The battery bays and the corridor time are written together in neighboring bays of one ledger. The Stray Humanoid Guard stands in the direction of the Stray Humanoid Lead's hand on the row the lead can see. They divide the escort personnel according to the bay count of that row."
+        },
+        {
+          "ko": "선택지: 성하그룹과 정동노총이 창 앞에서 배터리 수와 복도 시간을 한 장부에 함께 적는다. / 정동노총이 클리닉 잔여 복도 입구를 맡고 성하그룹이 콘센트 열의 칸을 맡는다. / 용산호송가가 야간 호송 창의 출발을 교환 칸이 빈 때로 미룬다.",
+          "en": "Choices: The Seongha Group and the Jeongdong Federation write the battery count and the corridor time together in one ledger in front of the window. / The Jeongdong Federation takes the mouth of the remaining clinic corridors and the Seongha Group takes the bays of the outlet row. / The Yongsan Convoy House postpones departure from the night convoy window until the exchange bays are clear."
+        },
+        {
+          "ko": "결과: 함께 적으면 배터리 수와 복도 시간이 한 장부의 이웃 칸에 놓인다. 복도와 콘센트 열을 나누면 정동노총 복도 당직은 입구에 서고 성하그룹 정비 당직은 열 끝에 선다. 출발을 미루면 교환 칸을 비운 뒤 야간 호송 인원이 창에 선다.",
+          "en": "Outcomes: When they write together, the battery count and the corridor time go into neighboring bays of one ledger. When they divide the corridor and the outlet row, the Jeongdong Federation corridor duty stands at the mouth and the Seongha Group maintenance duty stands at the end of the row. When departure is postponed, the night-convoy personnel stand at the window after the exchange bays are cleared."
+        },
+        {
+          "ko": "도덕 비용: 정동노총은 복도 소모품을 교환 칸으로 넘기고 그 수량을 장부의 이웃 칸에 적는다. 용산호송가는 야간 출발을 한 교체 주기 동안 창에 둔다.",
+          "en": "Moral cost: The Jeongdong Federation passes the corridor consumables into the exchange bays and writes that quantity in the neighboring bays of the ledger. The Yongsan Convoy House keeps the night departure at the window for one exchange cycle."
+        },
+        {
+          "ko": "원본 항목: G11",
+          "en": "Source dossier: G11"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G11-generated-G11-SC3-title-heading-1",
+      "publicAnchors": [
+        "g11-sc3-귀환-명부와-마모-상한",
+        "Hostile-Group-G11-heading-0037"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G11-SC3 · 귀환 명부와 마모 상한",
+        "en": "G11-SC3 · The return register and the wear upper limit"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G11-generated-G11-SC3-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 3",
+          "en": "Stage: 3"
+        },
+        {
+          "ko": "촉발: 안국·신내 명부 회랑 당직이 검역과 귀환 명부 절차를 강화하고 명부 사본이 수서 야간 호송 창에 도착한다. 김도하가 그 사본을 창 받침대에 둔다. 성하그룹과 정동노총과 용산호송가가 창 안에 있다. 강남 이탈 인간형의 이탈 인간형 척후조가 발판에 서 있다.",
+          "en": "Trigger: The Anguk–Sinnae register corridor tightens quarantine and return-register procedure, and a register copy arrives at the Suseo night convoy window. Kim Doha sets that copy on the window stand. The Seongha Group, the Jeongdong Federation, and the Yongsan Convoy House are inside the window. The Stray Humanoid Scouts of the Gangnam Stray Humanoids stand on the step."
+        },
+        {
+          "ko": "관련 세력: S11, S16, XT01, HC11, H11",
+          "en": "Actors: S11, S16, XT01, HC11, H11"
+        },
+        {
+          "ko": "생태 기제: 이탈 인간형 척후조는 귀환 명부 사본의 대기 번호에 맞추어 발판에서 걸음을 늦춘다. 무릎 이음새 덮개의 마모 눈금은 성하그룹 정비 장부의 소모 칸에 올라간다. 강남 이탈 인간형은 부품 마모 상한 안의 강남 정비 측선에서 움직인다. 각 당직은 안국·신내 명부 회랑의 명부 순서와 호송 창의 걸쇠를 손에 둔다.",
+          "en": "Ecological mechanism: The Stray Humanoid Scouts slow their steps on the step to the waiting numbers on the return-register copy. The wear marks of the knee joint covers go up into the consumption bays of the Seongha Group maintenance ledger. The Gangnam Stray Humanoids move on the Gangnam maintenance siding inside the parts-wear upper limit. Each duty holds the register order of the Anguk–Sinnae register corridor and the convoy-window latch."
+        },
+        {
+          "ko": "선택지: 안국·신내 명부 회랑의 명부 순서를 그대로 두고 용산호송가가 호송 창의 출발을 그 순서가 끝난 뒤에 둔다. / 김도하가 귀환 명부의 순서와 콘센트 배정 표를 수서 야간 호송 창 앞에서 맞춘다. / 성하그룹과 정동노총이 배터리 재고를 강남 정비 측선 콘센트 열과 클리닉 잔여 복도 입구로 나눈다.",
+          "en": "Choices: The register order of the Anguk–Sinnae register corridor is left as it stands, and the Yongsan Convoy House sets departure from the convoy window after that order ends. / Kim Doha matches the return-register order and the outlet assignment tags in front of the Suseo night convoy window. / The Seongha Group and the Jeongdong Federation divide the battery stock between the outlet row of the Gangnam maintenance siding and the mouth of the remaining clinic corridors."
+        },
+        {
+          "ko": "결과: 명부 순서를 그대로 두면 용산호송가는 검역 번호가 끝난 뒤에 호송 창의 출발 줄을 세운다. 김도하가 순서를 맞추면 귀환 명부 순서와 콘센트 배정 표를 같은 받침대에 둔다. 재고를 나누면 성하그룹과 정동노총은 배터리 재고를 강남 정비 측선 열과 클리닉 잔여 복도 입구의 두 더미로 둔다.",
+          "en": "Outcomes: When the register order is left as it stands, the Yongsan Convoy House sets the convoy-window departure line after the quarantine numbers end. When Kim Doha aligns the order, Kim Doha sets the return-register order and the outlet assignment tags on the same stand. When the stock is divided, the Seongha Group and the Jeongdong Federation set the battery stock in two piles, one on the Gangnam maintenance siding row and one at the mouth of the remaining clinic corridors."
+        },
+        {
+          "ko": "도덕 비용: 검역 순서가 이어지는 동안 야간 호송의 출발 인원은 수서 야간 호송 창에 서 있다. 장부 소모 칸에는 마모 상한에 닿은 이음새 덮개의 기록이 남아 있다. 당직은 클리닉 잔여 복도의 당직 시간을 나뉜 재고 쪽 입구에서 쓴다.",
+          "en": "Moral cost: While the quarantine order continues, the night-convoy departure personnel stand at the Suseo night convoy window. Entries for joint covers at the wear limit remain in the ledger consumption bays. The duty spends the duty time of the remaining clinic corridors at the mouth on the side of the divided stock."
+        },
+        {
+          "ko": "원본 항목: G11",
+          "en": "Source dossier: G11"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The Gangnam Stray Humanoids are a group of humanoid synthetics outside their management records and assigned zones, and at the post they stand as people. They live on the sterile power-outlet row of the Gangnam maintenance siding. At each battery-exchange cycle they go between the Suseo night convoy window and the mouth of the remaining clinic corridors and fill the exchange bays. When duty staff at the Anguk–Sinnae register corridor tighten quarantine and return-register procedure, they slow their steps on the window step and move inside the parts-wear upper limit. At the window the Seongha Group and the Jeongdong Federation meet, and the Yongsan Convoy House holds the convoy post.",
+        "ko": "강남 이탈 인간형은 관리 기록과 배정 구역 밖의 인간형 합성체 무리이며 근무지에서 사람으로 선다. 강남 이탈 인간형은 강남 정비 측선 멸균 전력 콘센트 열에서 지낸다. 배터리 교체 주기마다 수서 야간 호송 창과 클리닉 잔여 복도 입구를 오가며 교환 칸을 채운다. 안국·신내 명부 회랑 당직이 검역과 귀환 명부 절차를 강화하면 강남 이탈 인간형은 창 발판에서 걸음을 늦추고 부품 마모 상한 안에서 움직인다. 창에서는 성하그룹과 정동노총이 만나고 용산호송가가 호송 자리를 지킨다."
+      },
+      "variants": [
+        {
+          "id": "G11E01",
+          "source_batch": "M017"
+        },
+        {
+          "id": "G11E08",
+          "source_batch": "M017"
+        },
+        {
+          "id": "G11E15",
+          "source_batch": "M018"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

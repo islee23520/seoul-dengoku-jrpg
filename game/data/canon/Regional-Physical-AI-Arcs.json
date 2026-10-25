@@ -1,0 +1,3092 @@
+{
+  "version": 1,
+  "domain": "root",
+  "id": "DOC:Regional-Physical-AI-Arcs",
+  "slug": "Regional-Physical-AI-Arcs",
+  "status": "approved",
+  "categories": [
+    "overview"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.projection_pages.Regional-Physical-AI-Arcs"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Regional and Physical AI Arcs",
+      "summary": "Regional and Physical AI Arcs",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "권역·피지컬 AI 서사선",
+      "summary": "권역·피지컬 AI 서사선",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-page-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "권역·피지컬 AI 서사선",
+        "en": "Regional and Physical AI Arcs"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC01-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0002"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC01 · 여의도전산가 세 막",
+        "en": "ARC-H-HC01 · Yeouido Computing House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC01-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC01",
+          "en": "Houses: HC01"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 허은찬이 여의도 제2정수 옆 봉인 전산동에서 냉각탑 시계를 급수 당직과 맞춰 돌린다.",
+          "en": "Act 1: Heo Eunchan runs the cooling-tower clock in step with water-supply duty in the sealed computing block beside Yeouido No. 2 waterworks."
+        },
+        {
+          "ko": "2막: 허은찬이 상암 송신키 공유 요구에 관한 공동 점검을 열고 키를 보관한다.",
+          "en": "Act 2: Heo Eunchan opens a joint inspection of Sangam’s request to share the transmission key and retains custody of the key."
+        },
+        {
+          "ko": "3막: 화면이 꺼져도 급수 원장은 남긴다",
+          "en": "Act 3: even with the screens dark, the water ledgers remained"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC02-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0004"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC02 · 신정차륜가 세 막",
+        "en": "ARC-H-HC02 · Sinjeong Wheel House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC02-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC02",
+          "en": "Houses: HC02"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 유세진이 신정기지와 수서 회차선의 회차 슬롯을 화물보다 구급차에 먼저 연다.",
+          "en": "Act 1: Yu Sejin gives ambulances priority over freight in the turnback slots at Sinjeong depot and the Suseo line."
+        },
+        {
+          "ko": "2막: 유세진이 용산 환적 창구 독점 시도를 공동 점검하고 회차 슬롯의 키를 보관한다.",
+          "en": "Act 2: Yu Sejin opens a joint inspection of the Yongsan transfer-window monopoly bid and retains custody of the turnback-slot key."
+        },
+        {
+          "ko": "3막: 선로가 잠겨도 사람 호송은 걷게 연다",
+          "en": "Act 3: even with the tracks locked, passenger convoys kept a walking right of way"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC03-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC03 · 마곡생명가 세 막",
+        "en": "ARC-H-HC03 · Magok Life House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC03-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC03",
+          "en": "Houses: HC03"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 정호준이 마곡 밀폐실험동에서 실험 일지를 병상 이름과 분리해 보관한다.",
+          "en": "Act 1: Jeong Hojun keeps laboratory logs separate from patients’ names in the Magok sealed laboratory wing."
+        },
+        {
+          "ko": "2막: 정호준이 제기동의 원료 선점 문제를 공동 점검하고 격리 키를 보관한다.",
+          "en": "Act 2: Jeong Hojun opens a joint inspection of Jegi-dong’s attempt to secure raw materials first and retains custody of the isolation key."
+        },
+        {
+          "ko": "3막: 표본이 사라져도 동의 기록은 태우지 않는다",
+          "en": "Act 3: even when specimens went missing, the consent records were never burned"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC04-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC04 · 뚝섬열원가 세 막",
+        "en": "ARC-H-HC04 · Ttukseom Heat-Source House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC04-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC04",
+          "en": "Houses: HC04"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 박누리가 뚝섬 펌프의 예비 전력을 채운 뒤 암사 배관의 여열을 판다.",
+          "en": "Act 1: Park Nuri fills the Ttukseom pumps’ reserve power before selling waste heat from the Amsa piping."
+        },
+        {
+          "ko": "2막: 박누리가 여의도의 급수 야간 우선권 주장에 관한 공동 점검을 열고 열원 접속 키를 보관한다.",
+          "en": "Act 2: Park Nuri opens a joint inspection of Yeouido’s claim to night priority for water supply and retains custody of the heat-access key."
+        },
+        {
+          "ko": "3막: 정전 순서를 숨기지 않고 게시판에 붙인다",
+          "en": "Act 3: the blackout order was posted on the board, not hidden"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC05-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0010"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC05 · 북한산보국문기록가 세 막",
+        "en": "ARC-H-HC05 · Bukhansan Bogukmun Records House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC05-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC05",
+          "en": "Houses: HC05"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 북한산 회랑 창고의 습도 경보가 울리자 윤서린은 열람을 멈추고 옛 기록 원본 상자를 옮긴다.",
+          "en": "Act 1: When the humidity alarm sounds in the Bukhansan corridor warehouse, Yun Seorin stops reading access and moves the box of original records."
+        },
+        {
+          "ko": "2막: 윤서린이 서울역 인준 인지 요구를 공동 점검하고 기록고 키를 보관한다.",
+          "en": "Act 2: Yun Seorin opens a joint inspection of the demand for Seoul Station accreditation stamps and retains custody of the archive key."
+        },
+        {
+          "ko": "3막: 공개 범위를 접어도 목록 자체는 남긴다",
+          "en": "Act 3: even when the scope of release was narrowed, the catalog itself remained"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC06-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0012"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC06 · 노량진배달가 세 막",
+        "en": "ARC-H-HC06 · Noryangjin Delivery House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC06-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC06",
+          "en": "Houses: HC06"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 오해린이 노량진 하층 골목과 가락 후문의 수레 배차 순번을 경매 호가와 분리해 지킨다.",
+          "en": "Act 1: O Haerin keeps the cart dispatch order in the lower Noryangjin alleys and at the Garak back gate separate from auction bids."
+        },
+        {
+          "ko": "2막: 오해린이 장거리 배송단의 진입 문제를 공동 점검하고 수레 배차권을 지킨다.",
+          "en": "Act 2: O Haerin opens a joint inspection of the long-haul crews’ entry and retains the cart dispatch rights."
+        },
+        {
+          "ko": "3막: 점포가 비어도 주문 장부는 섞지 않는다",
+          "en": "Act 3: even with shops standing empty, the order ledgers were never mixed"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC07-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0014"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC07 · 구로합금가 세 막",
+        "en": "ARC-H-HC07 · Guro Alloy House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC07-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC07",
+          "en": "Houses: HC07"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 강민서가 구로 고온로의 온도가 흔들리면 주문이 있어도 불을 끈다.",
+          "en": "Act 1: Gang Minseo shuts down the Guro furnace when its temperature wavers, even with orders pending."
+        },
+        {
+          "ko": "2막: 강민서가 궤도 방위문의 군수용 전용 요구를 공동 점검하고 합금 레시피를 지킨다.",
+          "en": "Act 2: Gang Minseo opens a joint inspection of the Orbital Defense Gate’s military-exclusive demand and retains custody of the alloy recipe."
+        },
+        {
+          "ko": "3막: 불량이 나와도 규격 도장은 위조하지 않는다",
+          "en": "Act 3: even with defects coming off the line, the standards stamp was never forged"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC08-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0016"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC08 · 창동방호가 세 막",
+        "en": "ARC-H-HC08 · Changdong Protection House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC08-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC08",
+          "en": "Houses: HC08"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 이홍원이 창동 북문과 신내 환승 차단문의 원격키를 지킨다.",
+          "en": "Act 1: I Hongwon retains custody of the remote key for the Changdong north gate and Sinnae transfer barriers."
+        },
+        {
+          "ko": "2막: 이홍원이 암사 호위단의 원격 잠금 문제를 공동 점검하고 차단문 원격키를 보관한다.",
+          "en": "Act 2: I Hongwon opens a joint inspection of the Amsa escorts’ remote lockdown and retains custody of the barrier remote key."
+        },
+        {
+          "ko": "3막: 시민 통행을 닫기 전에 대피 방송을 먼저 연다",
+          "en": "Act 3: before citizen passage was closed, the evacuation broadcast went out first"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC09-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0018"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC09 · 서울역재고가 세 막",
+        "en": "ARC-H-HC09 · Seoul Station Inventory House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC09-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC09",
+          "en": "Houses: HC09"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 남윤경이 서울역 서편 창고의 열쇠와 생활재 가격표를 서로 다른 사람에게 맡긴다.",
+          "en": "Act 1: Nam Yungyeong assigns the Seoul Station west warehouse key and household-goods price list to different people."
+        },
+        {
+          "ko": "2막: 남윤경이 가락 경매 우선권 문제를 공동 점검하고 창고 열쇠를 보관한다.",
+          "en": "Act 2: Nam Yungyeong opens a joint inspection of Garak auction priority and retains custody of the warehouse key."
+        },
+        {
+          "ko": "3막: 재고가 줄어도 배급 순번을 팔지 않는다",
+          "en": "Act 3: even as stock ran down, the ration queue was never sold"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC10-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0020"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC10 · 마곡종자가 세 막",
+        "en": "ARC-H-HC10 · Magok Seed House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC10-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC10",
+          "en": "Houses: HC10"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 마곡종자가가 발효 종자 금고를 지키는 동안 노량진 냉동 임차 인상 요구가 들어온다.",
+          "en": "Act 1: While the Magok Seed House guards its ferment-seed vault, it faces a demand to raise the Noryangjin cold-storage rent."
+        },
+        {
+          "ko": "2막: 최지우가 노량진 냉동 임차 인상 요구를 공동 점검하고 발효 종자 금고의 키를 보관한다.",
+          "en": "Act 2: Choi Jiwoo opens a joint inspection of the Noryangjin cold-storage rent demand and retains custody of the ferment-seed vault key."
+        },
+        {
+          "ko": "3막: 맛의 표준을 강요하지 않고 위생 수치만 공개한다",
+          "en": "Act 3: no standard of taste was forced; only the hygiene figures were published"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC11-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0022"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC11 · 용산호송가 세 막",
+        "en": "ARC-H-HC11 · Yongsan Convoy House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC11-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC11",
+          "en": "Houses: HC11"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 박태겸이 용산 화물홈과 수서 심야 슬롯에서 의료열차에 먼저 길을 내준 뒤 화물을 보낸다.",
+          "en": "Act 1: Park Taegyeom gives medical trains priority at the Yongsan freight platform and Suseo late-night slots before sending freight."
+        },
+        {
+          "ko": "2막: 박태겸이 신내 의료열차와의 배차 충돌을 공동 점검하고 야간 호송 허가증을 지킨다.",
+          "en": "Act 2: Park Taegyeom joins an inspection of the dispatch conflict with the Sinnae medical train and retains custody of the night convoy permits."
+        },
+        {
+          "ko": "3막: 빈 상자를 채워 무게를 속이지 않는다",
+          "en": "Act 3: empty crates were never weighted to cheat the scales"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC12-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0024"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC12 · 금천구청중기가 세 막",
+        "en": "ARC-H-HC12 · Geumcheon District Office Machinery House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC12-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC12",
+          "en": "Houses: HC12"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 정시우가 아차산 교각 아래 크레인을 세우기 전에 풍속을 기록한다.",
+          "en": "Act 1: Jeong Siwoo records wind speed before positioning a crane beneath the Achasan bridge piers."
+        },
+        {
+          "ko": "2막: 정시우가 뚝섬 펌프 하우징 쟁탈 문제를 공동 점검하고 중장비 운용 키를 보관한다.",
+          "en": "Act 2: Jeong Siwoo opens a joint inspection of the contest over the Ttukseom pump housing and retains custody of the heavy-machinery key."
+        },
+        {
+          "ko": "3막: 정시우는 하중 한도를 넘긴 크레인 작업을 시작하기 전에 멈춘다.",
+          "en": "Act 3: Jeong Siwoo stops crane work that exceeds the load limit before it begins."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC13-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0026"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC13 · 수서건설가 세 막",
+        "en": "ARC-H-HC13 · Suseo Construction House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC13-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC13",
+          "en": "Houses: HC13"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 정유라가 서울역 잔벽과 수서 공동구의 내진 접합 도면을 지킨다.",
+          "en": "Act 1: Jeong Yura retains custody of the seismic-joint drawings for the Seoul Station remnant walls and Suseo utility tunnel."
+        },
+        {
+          "ko": "2막: 정유라는 아차산 감시탑 증축을 대가로 공동구 도면을 넘기지 않는다.",
+          "en": "Act 2: Jeong Yura refuses to hand over the utility-tunnel drawings in exchange for the Achasan watchtower addition."
+        },
+        {
+          "ko": "3막: 정유라는 공동구 도면의 보관 키를 지키며 아차산 감시탑 증축에 관한 공동 점검을 연다.",
+          "en": "Act 3: Jeong Yura retains custody of the utility-tunnel drawing key while opening a joint inspection concerning the Achasan watchtower addition."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC14-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0028"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC14 · 여의도장부가 세 막",
+        "en": "ARC-H-HC14 · Yeouido Ledger House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC14-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC14",
+          "en": "Houses: HC14"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 장필규가 여의도 계약고의 급수 계약을 집행하기 전에 이중서명 장부의 두 서명을 확인한다.",
+          "en": "Act 1: Jang Pilgyu checks both signatures in the Yeouido contract vault’s ledger before executing a water-supply contract."
+        },
+        {
+          "ko": "2막: 장필규가 기록청의 인준 지연을 공동 점검하고 계약고 키를 보관한다.",
+          "en": "Act 2: Jang Pilgyu opens a joint inspection of the Records Bureau’s accreditation delay and retains custody of the contract-vault key."
+        },
+        {
+          "ko": "3막: 손실을 숨기지 않고 보상 순서를 공개한다",
+          "en": "Act 3: losses were not hidden; the compensation order was published"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP01-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0030"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HP01 · 영등포수문가 세 막",
+        "en": "ARC-H-HP01 · Yeongdeungpo Sluice House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP01-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HP01",
+          "en": "Houses: HP01"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 한재목이 영등포·뚝섬·암사·구의 수문 키를 각 당직함에 나누어 보관한다.",
+          "en": "Act 1: Han Jaemok keeps the Yeongdeungpo, Ttukseom, Amsa, and Guui sluice keys in their separate duty boxes."
+        },
+        {
+          "ko": "2막: 한재목이 한 권역의 전면 차수 문제를 공동 점검하고 수문 키의 분할 보관을 지킨다.",
+          "en": "Act 2: Han Jaemok opens a joint inspection of the proposed full flood-barrier closure in one sphere and preserves split custody of the sluice keys."
+        },
+        {
+          "ko": "3막: 물을 무기로 쓰는 명령을 거부한다",
+          "en": "Act 3: any order that used water as a weapon was refused"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP02-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0032"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HP02 · 용산선로문 세 막",
+        "en": "ARC-H-HP02 · Yongsan Track Gate: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP02-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HP02",
+          "en": "Houses: HP02"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 장세화가 용산·신내·창동의 중립 배차표에서 전세 열차가 와도 응급 칸을 유지한다.",
+          "en": "Act 1: Jang Sehwa preserves emergency slots on the neutral Yongsan, Sinnae, and Changdong dispatch table even when a chartered train arrives."
+        },
+        {
+          "ko": "2막: 장세화가 강국의 전세 열차 운행 요구를 공동 점검하고 중립 배차표를 지킨다.",
+          "en": "Act 2: Jang Sehwa opens a joint inspection of the great powers’ chartered-train demand and preserves the neutral dispatch table."
+        },
+        {
+          "ko": "3막: 응급 이송을 화물보다 뒤에 두지 않는다",
+          "en": "Act 3: emergency transport was never queued behind freight"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP03-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0034"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HP03 · 청량리의료원가 세 막",
+        "en": "ARC-H-HP03 · Cheongnyangni Medical House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP03-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HP03",
+          "en": "Houses: HP03"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 류은비가 청량리 이송로와 서울역 재난의료 데스크의 면허 당직표에 따라 응급 순번을 지킨다.",
+          "en": "Act 1: Ryu Eunbi preserves emergency order under the licensed roster for the Cheongnyangni transfer route and Seoul Station disaster-medicine desk."
+        },
+        {
+          "ko": "2막: 류은비가 마곡의 실험 병상 전용 요구를 공동 점검하고 면허 당직표를 지킨다.",
+          "en": "Act 2: Ryu Eunbi opens a joint inspection of Magok’s trial-bed reservation demand and preserves the licensed duty roster."
+        },
+        {
+          "ko": "3막: 병상을 편으로 가르지 않는다",
+          "en": "Act 3: beds were never divided by faction"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP04-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0036"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HP04 · 서울역기록법가 세 막",
+        "en": "ARC-H-HP04 · Seoul Station Record-Law House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP04-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HP04",
+          "en": "Houses: HP04"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 여리안이 기록고 열람실과 송신 교차검증대에서 문서 해시를 대조한 뒤 방송 순서를 정한다.",
+          "en": "Act 1: Yeorian compares document hashes in the archive reading room and at the transmission cross-check desk before setting the broadcast order."
+        },
+        {
+          "ko": "2막: 여리안이 방송국의 단독 공개 요구를 공동 점검하고 원본 해시 봉인을 지킨다.",
+          "en": "Act 2: Yeorian opens a joint inspection of the broadcaster’s exclusive-release demand and preserves the seals on the source hashes."
+        },
+        {
+          "ko": "3막: 유언 사본 세 장을 한 진본으로 합치지 않는다",
+          "en": "Act 3: three copies of a will were never merged into one original"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP05-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0038"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HP05 · 북한산보국문귀환회 세 막",
+        "en": "ARC-H-HP05 · Bukhansan Bogukmun Return Society: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP05-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HP05",
+          "en": "Houses: HP05"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 백온이 은평 피난로와 창동 주거쉘 대기줄에서 가족 재결합 명부를 지킨다.",
+          "en": "Act 1: Baek On safeguards the family-reunion roll along the Eunpyeong evacuation route and the Changdong housing-shell queue."
+        },
+        {
+          "ko": "2막: 백온이 복구복무자 등록 요구를 공동 점검하고 가족 재결합 명부를 지킨다.",
+          "en": "Act 2: Baek On opens a joint inspection of restoration-service registration and preserves the family-reunion roll."
+        },
+        {
+          "ko": "3막: 명부를 인질로 쓰지 않고 본인 동의로만 연다",
+          "en": "Act 3: the rolls were never held hostage; they opened only with the consent of the person concerned"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP06-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0040"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HP06 · 제기동치유문 세 막",
+        "en": "ARC-H-HP06 · Jegi-dong Healing Gate: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP06-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HP06",
+          "en": "Houses: HP06"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 정하린이 제기동 조제실과 마곡 시료실의 로트 불량을 독점 구매서보다 먼저 게시한다.",
+          "en": "Act 1: Jeong Harin posts lot defects from the Jegi-dong dispensary and Magok sample room before monopoly purchase orders."
+        },
+        {
+          "ko": "2막: 정하린이 북한산보국문 약초 독점 구매 문제를 공동 점검하고 처방 이중확인을 지킨다.",
+          "en": "Act 2: Jeong Harin opens a joint inspection of the Bukhansan Bogukmun herb monopoly purchase and preserves double-checking of prescriptions."
+        },
+        {
+          "ko": "3막: 가짜 약을 숨기지 않고 로트 번호를 게시한다",
+          "en": "Act 3: counterfeit medicine was not hidden; its lot numbers went up on the board"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP07-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0042"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HP07 · 한강진교량공회 세 막",
+        "en": "ARC-H-HP07 · Hangangjin Bridge Council: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP07-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HP07",
+          "en": "Houses: HP07"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 고서준이 한강 교각 점검로와 잠수교 잔교에서 풍속이 기준을 넘으면 수운 우선 통행도 멈춘다.",
+          "en": "Act 1: Go Seojun stops even priority waterborne passage at the Han River pier walkways and Jamsu Bridge landing when wind speed exceeds the limit."
+        },
+        {
+          "ko": "2막: 고서준이 여의도의 수운 우선권 주장을 공동 점검하고 풍속 폐쇄 기준을 지킨다.",
+          "en": "Act 2: Go Seojun opens a joint inspection of Yeouido’s waterborne-priority claim and preserves the wind-speed closure standard."
+        },
+        {
+          "ko": "3막: 교량을 통행세로만 계산하지 않는다",
+          "en": "Act 3: a bridge was never reckoned in tolls alone"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP08-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0044"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HP08 · 노량진냉동상단 세 막",
+        "en": "ARC-H-HP08 · Noryangjin Cold-Storage Guild: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP08-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HP08",
+          "en": "Houses: HP08"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 구하온이 노량진 냉동고와 가락 얼음 창고의 모터를 회수하기 전에 온도 로그를 인쇄한다.",
+          "en": "Act 1: Gu Haon prints temperature logs before motors are removed from the Noryangjin freezers and Garak ice warehouse."
+        },
+        {
+          "ko": "2막: 구하온이 제작 동맹의 모터 회수 문제를 공동 점검하고 온도 로그를 보관한다.",
+          "en": "Act 2: Gu Haon opens a joint inspection of the production alliance’s motor recovery and retains the temperature logs."
+        },
+        {
+          "ko": "3막: 온도 로그가 끊기면 경매를 멈춘다",
+          "en": "Act 3: when the temperature log broke off, the auction stopped"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP09-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0046"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HP09 · 디지털미디어시티신탁가 세 막",
+        "en": "ARC-H-HP09 · Digital Media City Trust House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP09-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HP09",
+          "en": "Houses: HP09"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 최은재가 상암 로그 신탁의 학습자료 반출 요청에 원본 대신 집계 자료를 넘긴다.",
+          "en": "Act 1: Choi Eunjae supplies aggregates for requests to export training data from the Sangam log trust."
+        },
+        {
+          "ko": "2막: 최은재가 마곡의 학습자료 반출 요구를 공동 점검하고 원본 자료의 보관권을 지킨다.",
+          "en": "Act 2: Choi Eunjae opens a joint inspection of Magok’s training-data export demand and retains custody of the original data."
+        },
+        {
+          "ko": "3막: 얼굴 원본을 통행권과 바꾸지 않는다",
+          "en": "Act 3: original faces were never traded for passage rights"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP10-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0048"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HP10 · 이태원통역문 세 막",
+        "en": "ARC-H-HP10 · Itaewon Interpretation Gate: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HP10-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HP10",
+          "en": "Houses: HP10"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 표시완이 서울역 통역석과 수서 세관 창구의 인준 문장을 사람이 읽도록 한다.",
+          "en": "Act 1: Pyo Siwan has people read accredited sentences at the Seoul Station interpreters’ seats and Suseo customs window."
+        },
+        {
+          "ko": "2막: 표시완이 상암의 자동번역 우선 요구를 공동 점검하고 언어 쌍 당직을 지킨다.",
+          "en": "Act 2: Pyo Siwan opens a joint inspection of Sangam’s machine-translation-first demand and preserves language-pair duty."
+        },
+        {
+          "ko": "3막: 통역을 자백 도구로 돌리지 않는다",
+          "en": "Act 3: interpretation was never turned into an instrument of confession"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-T-XT01-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0050"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-T-XT01 · 구역 간 명부·검역 인계 회랑 시나리오 연쇄",
+        "en": "ARC-T-XT01 · Inter-district Register and Quarantine Handover Corridor: Scenario Chain"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-T-XT01-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: XT01",
+          "en": "Theaters: XT01"
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 구의로 인계된 가족 명부가 훼손되어 안국 조계사가 재발급을 요구한다.",
+          "en": "Act 1: A family register handed to Guui is damaged, and Jogyesa at Anguk requests reissue."
+        },
+        {
+          "ko": "2막: 강남 그룹 의약 호송이 신내의 명부 대기열 앞에서 멈추자 신내가 가족 대기와 의료 인계를 분리한다",
+          "en": "Act 2: When the Gangnam medicine convoy stops at Sinnae’s register queue, Sinnae separates family waiting from medical handover"
+        },
+        {
+          "ko": "3막: 광화문 청사가 위조 혈연 증서를 가려내고 아차산 관문이 봉인 키를 나눈다",
+          "en": "Act 3: The Gwanghwamun complex screens forged kinship certificates and the Achasan gate splits the sealing key"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-T-XT02-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0052"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-T-XT02 · 당산 냉동·종자 교환 회랑 시나리오 연쇄",
+        "en": "ARC-T-XT02 · Dangsan Cold-Storage and Seed Exchange Corridor: Scenario Chain"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-T-XT02-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: XT02",
+          "en": "Theaters: XT02"
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 영등포 수문 당직이 당산2동 수위와 결빙에 맞춰 배수·인계 순번을 다시 짠다",
+          "en": "Act 1: Yeongdeungpo sluice watch replans drainage and handover order for Dangsan-2-dong water levels and ice"
+        },
+        {
+          "ko": "2막: 서남 제작창이 냉동 압축기 부품을 나누고 마곡이 계측 로그를 검증한다",
+          "en": "Act 2: The southwestern fabrication window divides freezer compressor parts and Magok verifies the instrumentation logs"
+        },
+        {
+          "ko": "3막: 노량진 얼음 신용이 흔들릴 때 상암 송신이 경매 방송만 중계한다",
+          "en": "Act 3: When Noryangjin ice credit shakes, Sangam transmission relays only the auction broadcast"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-T-XT03-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0054"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-T-XT03 · 용산 삼로 환적·회수 회랑 시나리오 연쇄",
+        "en": "ARC-T-XT03 · Yongsan Three-way Transshipment and Recovery Corridor: Scenario Chain"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-T-XT03-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: XT03",
+          "en": "Theaters: XT03"
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 용산 환적창이 삼로 중 한 길을 닫고 수서가 대체 회차선을 연다",
+          "en": "Act 1: The Yongsan shed closes one of three legs and Suseo opens a substitute turn line"
+        },
+        {
+          "ko": "2막: 가락 배급이 통조림 할당을 재조정하고 뚝섬 공방이 밀봉 공구를 보낸다",
+          "en": "Act 2: Garak rations reallocate the canned-goods quota and the Ttukseom workshops send sealed tools"
+        },
+        {
+          "ko": "3막: 노량진 통역 창구가 용어 충돌을 기록하고 협정을 유지한다",
+          "en": "Act 3: The Noryangjin interpretation window records a term clash and keeps the accord in force"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-T-XT04-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0056"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-T-XT04 · 암사 중량·연료 인계 회랑 시나리오 연쇄",
+        "en": "ARC-T-XT04 · Amsa Heavy-Freight and Fuel Handover Corridor: Scenario Chain"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-T-XT04-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: XT04",
+          "en": "Theaters: XT04"
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 동방사 암사 당직이 화차 중량 로그를 공개하고 신내가 환승 슬롯을 조정한다",
+          "en": "Act 1: The Eastern Command's Amsa watch disclosed the freight-car weight log, and Sinnae adjusted the transfer slots"
+        },
+        {
+          "ko": "2막: 창동 차륜방이 동절 연료 큐를 나누고 제기동이 동상 환자를 받는다",
+          "en": "Act 2: The Changdong wheel works divides the winter fuel queue and Jegi-dong receives the frostbitten"
+        },
+        {
+          "ko": "3막: 아차산 관문이 회수 자재 샘플을 검사한 뒤 위조 회수지 표를 구의 증빙 봉투에 보존한다",
+          "en": "Act 3: Achasan Gate inspects recovered-material samples, then preserves falsified recovery-site labels in a Guui evidence envelope"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-T-XT05-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0058"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-T-XT05 · 여의도 공동 접수·지상 중계 회랑 시나리오 연쇄",
+        "en": "ARC-T-XT05 · Yeouido Shared Reception and Ground Relay Corridor: Scenario Chain"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-T-XT05-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: XT05",
+          "en": "Theaters: XT05"
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 상암 송신이 잔여 대역을 공개 추첨하고 여의도가 급수 당직과 시간을 맞춘다",
+          "en": "Act 1: Sangam transmission holds a public lottery on residual bands and Yeouido matches the water watch's times"
+        },
+        {
+          "ko": "2막: 서울역 기록청이 인도 목록 해시를 보관하고 수서가 배송 회차선을 연다",
+          "en": "Act 2: The Seoul Station Records Bureau keeps the manifest hash and Suseo opens the delivery turn line"
+        },
+        {
+          "ko": "3막: 마곡이 양재 지상 중계 단말의 오탐을 교정하고 가락이 서울 내 이산가족 상담 시간을 연장한다",
+          "en": "Act 3: Magok corrects false alarms at Yangjae ground-relay terminals and Garak extends counseling hours for families separated within Seoul"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-S-H-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0060"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-S-H · 인간형 합성: 보관과 구역 한계",
+        "en": "ARC-S-H · Humanoid Synthetic: Custody and Sector Limits"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-S-H-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: H",
+          "en": "Synthetic classes: H"
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 인간형 보조 골격과 교체형 손모듈에는 할당된 배터리와 마모 부품이 필요하고 교대 스냅샷은 장기 완전 기억을 대신하지 못한다.",
+          "en": "Act 1: The human-assist frame and replaceable hand modules require allotted batteries and wear parts; a shift snapshot cannot substitute for complete long-term memory."
+        },
+        {
+          "ko": "2막: 보관 담당자는 포크 분기 로그를 남기고 H급을 담당 구역 망에 한정한다. 비상 연결도 읽기 전용이며 타 시설 제어권은 열리지 않는다.",
+          "en": "Act 2: The custodian logs any fork and restricts the H-class unit to its assigned sector network; an emergency connection is read-only, not facility-wide control."
+        },
+        {
+          "ko": "3막: 일탈 시 오프라인 격리와 교대 스냅샷 롤백을 거친다. 인간 승인 뒤 부분 재연결해도 교차 시설 접근권이 생기지 않는다.",
+          "en": "Act 3: On deviance, the unit is isolated offline and rolled back to a shift snapshot; partial reconnection needs human approval and does not restore cross-facility access."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-S-F-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0062"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-S-F · 시설형 합성: 보관과 구역 한계",
+        "en": "ARC-S-F · Facility-fixed Synthetic: Custody and Sector Limits"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-S-F-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: F",
+          "en": "Synthetic classes: F"
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 시설 고정 랙과 센서 버스·현장 단말에는 할당된 배터리와 마모 부품이 필요하고 교대 스냅샷은 장기 완전 기억을 대신하지 못한다.",
+          "en": "Act 1: The facility-fixed rack, sensor bus, and field terminal require allotted batteries and wear parts; a shift snapshot cannot substitute for complete long-term memory."
+        },
+        {
+          "ko": "2막: 보관 담당자는 포크 분기 로그를 남기고 F급을 담당 구역 망에 한정한다. 비상 연결도 읽기 전용이며 타 시설 제어권은 열리지 않는다.",
+          "en": "Act 2: The custodian logs any fork and restricts the F-class unit to its assigned sector network; an emergency connection is read-only, not facility-wide control."
+        },
+        {
+          "ko": "3막: 일탈 시 오프라인 격리와 교대 스냅샷 롤백을 거친다. 인간 승인 뒤 부분 재연결해도 교차 시설 접근권이 생기지 않는다.",
+          "en": "Act 3: On deviance, the unit is isolated offline and rolled back to a shift snapshot; partial reconnection needs human approval and does not restore cross-facility access."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-S-V-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0064"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-S-V · 기동형 합성: 보관과 구역 한계",
+        "en": "ARC-S-V · Mobile Synthetic: Custody and Sector Limits"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-S-V-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: V",
+          "en": "Synthetic classes: V"
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 기동 차체·배터리 슬롯·차선 센서에는 할당된 배터리와 마모 부품이 필요하고 교대 스냅샷은 장기 완전 기억을 대신하지 못한다.",
+          "en": "Act 1: The mobile chassis, battery slots, and lane sensors require allotted batteries and wear parts; a shift snapshot cannot substitute for complete long-term memory."
+        },
+        {
+          "ko": "2막: 보관 담당자는 포크 분기 로그를 남기고 V급을 담당 구역 망에 한정한다. 비상 연결도 읽기 전용이며 타 시설 제어권은 열리지 않는다.",
+          "en": "Act 2: The custodian logs any fork and restricts the V-class unit to its assigned sector network; an emergency connection is read-only, not facility-wide control."
+        },
+        {
+          "ko": "3막: 일탈 시 오프라인 격리와 교대 스냅샷 롤백을 거친다. 인간 승인 뒤 부분 재연결해도 교차 시설 접근권이 생기지 않는다.",
+          "en": "Act 3: On deviance, the unit is isolated offline and rolled back to a shift snapshot; partial reconnection needs human approval and does not restore cross-facility access."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G01-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0066"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G01 · 멧돼지 세 단계 조우",
+        "en": "ARC-G-G01 · Wild Boar: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G01-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G01",
+          "en": "Ecologies: G01"
+        },
+        {
+          "ko": "1막: 국지 융설수와 배수 유입 예보 전날 수문국 집하장에 모돈과 새끼 발자국이 나타난다. 선택: 집하장 야간 운영을 늦춘다 / 냄새 미끼로 습지 우회로를 연다 / 모돈만 포획한다. 결과: 운영 지연은 배급을 늦추고, 우회로는 장기 이동축을 만든다. 모돈 포획은 48시간 탐색 행동을 촉발한다.",
+          "en": "Act 1: On the day before the local snowmelt and drainage inflow forecast, the prints of a sow and her young appeared at the Sluice collection yard. Choices: Delay the collection yard's night operation / Open a wetland detour with a scent lure / Capture only the sow. Consequences: The operating delay slows the ration, and the detour builds a long-term movement axis. Capturing the sow triggers 48 hours of searching behavior."
+        },
+        {
+          "ko": "2막: HC01이 냉각 폐기물 회수를 앞당기자 무리가 반지하 골목으로 먹이터를 바꾼다. 선택: 관리된 염분 웅덩이를 남긴다 / 골목 음식물 회수를 우선한다 / 수렵 허가로 밀도를 낮춘다. 결과: 웅덩이를 남기면 공존 비용이 고정되고, 회수를 앞세우면 다른 배급 노동이 빠진다. 수렵을 하면 남은 개체가 사람을 더 잘 피하게 된다.",
+          "en": "Act 2: When HC01 brings the cooling-waste recovery forward, the band shifts its feeding ground to the semi-basement alleys. Choices: Leave a managed salt pool / Prioritize alley scrap recovery / Lower the density with a hunting permit. Consequences: The pool fixes the cost of coexistence, and prioritizing recovery takes labor away from other rations. Hunting strengthens the remaining individuals' learned avoidance of people."
+        },
+        {
+          "ko": "3막: 신내 가족 대기열의 잔반과 홍수위 상승이 겹쳐 무리가 수문 계단을 점거한다. 선택: 피난 시간을 분할한다 / 잔반 호송을 미끼 회랑으로 돌린다 / 수문을 먼저 열어 짧은 고수위로 무리 이동을 유도한다. 결과: 시간 분할은 대피를 늦추고, 미끼 회랑은 HC01 자원을 소모한다. 조기 수문 개방은 빠르지만 하류 작업장을 먼저 침수시킬 수 있다.",
+          "en": "Act 3: Leftovers from the Sinnae family queue coincide with rising floodwater, and the boars occupy the sluice stairs. Choices: Split the evacuation times / Turn the leftover convoy into a lure corridor / Open the sluice first and use a short high water to induce the band to move. Consequences: Splitting the times slows the evacuation, and the lure corridor consumes HC01 resources. Opening the sluice early is fast, but it can flood the downstream works first."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G02-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0068"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G02 · 큰부리까마귀 세 단계 조우",
+        "en": "ARC-G-G02 · Large-billed Crow: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G02-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G02",
+          "en": "Ecologies: G02"
+        },
+        {
+          "ko": "1막: 영등포선 작업반의 새 경적 순서가 먹이 투입 신호와 겹쳐 까마귀가 작업 바구니에 모인다. 선택: 경적 순서를 폐기한다 / 별도 먹이 신호를 훈련한다 / 먹이 투입 시간을 경적 없는 야간으로 옮긴다. 결과: 폐기는 작업 안전 절차를 늦추고, 재훈련은 며칠의 오경보를 감수한다. 야간 이동은 낮 통학로를 지키지만 야간 작업자에게 부담을 옮긴다.",
+          "en": "Act 1: The new horn order of the Yeongdeungpo Line work crew overlaps the food-drop signal, and the crows gather on the work basket. Choices: Abolish the horn order / Train a separate food signal / Move the food drop to a hornless night. Consequences: Abolishing it slows the work-safety procedure, and retraining accepts several days of false alarms. The night move protects the daytime school route but shifts the burden onto the night workers."
+        },
+        {
+          "ko": "2막: H02가 반복 급강하 울음을 정전 전조로 분류했지만 실제 원인은 야간 곤충등이다. 선택: 육안 확인 전 송신을 유지한다 / 곤충등을 폐철탑으로 옮긴다 / 까마귀 경보를 관제망에서 제외한다. 결과: 송신 유지는 실제 합선 위험을 감수하고, 이설은 대체 철탑을 생태 거점으로 만든다. 경보 제외는 주민의 침입 감지망을 잃는다.",
+          "en": "Act 2: H02 classified the repeated dive calls as a precursor of a blackout, but the real cause is the night insect lamp. Choices: Keep transmitting until a visual check / Move the insect lamp to an abandoned pylon / Drop the crow alarm from the control net. Consequences: Keeping the transmission accepts the risk of a real short, and relocating makes the substitute pylon an ecological strongpoint. Dropping the alarm loses the residents' intrusion-detection net."
+        },
+        {
+          "ko": "3막: XT02 한강 바람과 번식기가 겹쳐 교량·송신 점검구 상공이 공동 횃대가 된다. 선택: 피난로를 우산 행렬로 운영한다 / 대체 횃대와 새 점검 종을 협상한다 / 송신 점검을 번식기 이후로 미룬다. 결과: 우산 행렬은 통행량을 줄이고, 새 신호는 재학습 기간이 필요하다. 점검 연기는 생태 충돌을 피하지만 송신 고장 위험을 한 계절 떠안는다.",
+          "en": "Act 3: The XT02 river wind overlaps the breeding season, and the air above the bridge and the transmission inspection hatch becomes a communal roost. Choices: Run the evacuation route as an umbrella column / Negotiate an alternate roost and a new inspection bell / Postpone the transmission inspection until after the breeding season. Consequences: The umbrella column reduces throughput, and a new signal needs a relearning period. Postponing the inspection avoids the ecological collision but carries the risk of a transmission failure for one season."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G03-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0070"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G03 · 들개 세 단계 조우",
+        "en": "ARC-G-G03 · Feral Dog: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G03-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G03",
+          "en": "Ecologies: G03"
+        },
+        {
+          "ko": "1막: H03가 하역장 가장자리에서 서로 다른 보호소 코드가 남은 수동형 UHF RFID 목걸이 태그 세 개를 불완전하게 읽는다. 선택: 개체별 대조를 기다린다 / 급식 수레로 가족을 분리한다 / 보호소 코드보다 현재 동행 관계를 우선 등록한다. 결과: 대조는 하역을 늦추고, 분리는 일부 새끼를 놓친다. 현재 관계 우선은 무리를 안정시키지만 옛 보호자의 반환 청구와 충돌한다.",
+          "en": "Act 1: At the edge of the unloading yard, H03 incompletely reads three passive UHF RFID collar tags that still carry different shelter codes. Choices: Wait for the individual-by-individual comparison / Separate the families with the feeding cart / Register the present companionship ahead of the shelter code. Consequences: The comparison slows the unloading, and the separation misses some pups. Prioritizing the present relation stabilizes the band but collides with an old protector's claim for return."
+        },
+        {
+          "ko": "2막: 폐쇄된 경비 통로의 급식차 엔진음이 재현되자 흩어진 가족군이 하역로에 모인다. 선택: 원래 운전자를 찾는다 / 새 운전자를 단계적으로 익숙하게 한다 / 엔진음 없는 이동식 급식소를 도입한다. 결과: 원 운전자 의존은 취약성을 남기고, 재학습은 여러 날이 걸린다. 이동식 급식소는 신뢰 신호를 보존하지만 매일 위치를 바꾸는 인력과 냉장 비용이 든다.",
+          "en": "Act 2: When the engine sound of the feeding cart in the closed guard passage is reproduced, the scattered family groups gather on the unloading road. Choices: Find the original driver / Familiarize a new driver in stages / Introduce a mobile feeding station with no engine sound. Consequences: Dependence on the original driver leaves a vulnerability, and relearning takes many days. The mobile feeding station preserves the trust signal, but it costs the labor of changing the location every day and the refrigeration."
+        },
+        {
+          "ko": "3막: 용산·노량진 하역 진동과 급식 중단이 겹쳐 여러 가족이 냉동고 진입로를 둘러싼다. 선택: 가족별 급식 구역을 연다 / 부상 개체만 비살상 포획한다 / 야간 하역을 다른 냉동고로 이전한다. 결과: 구역 운영은 배급 자원을 소모하고, 제한 포획은 통행 회복이 느리다. 하역 이전은 동물 신뢰를 지키지만 노량진선 상인의 냉동 비용을 높인다.",
+          "en": "Act 3: The Yongsan–Noryangjin unloading vibration overlaps the feeding stop, and several families surround the freezer approach. Choices: Open a feeding zone for each family / Capture only the injured, non-lethally / Move the night unloading to another freezer. Consequences: Running the zones consumes ration resources, and limited capture makes the recovery of passage slow. Moving the unloading protects the animals' trust but raises the refrigeration cost of the Noryangjin Line merchants."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G04-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0072"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G04 · 너구리 세 단계 조우",
+        "en": "ARC-G-G04 · Raccoon Dog: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G04-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G04",
+          "en": "Ecologies: G04"
+        },
+        {
+          "ko": "1막: 비가 오기 전인데 G04 가족군이 낮부터 높은 환기실로 새끼를 옮긴다. 선택: 너구리 이동을 예비 경보로 채택한다 / HP01 수문가의 현장 측정을 기다린다 / 두 신호가 다를 때만 펌프를 예열한다. 결과: 예비 경보는 오탐 책임을 남기고, 현장 측정은 배수 준비를 늦춘다. 교차 조건은 연료를 아끼지만 짧은 국지 호우를 놓칠 수 있다.",
+          "en": "Act 1: Before the rain came, a G04 family group began moving its kits into a high ventilation room from daytime. Choices: Adopt the raccoon movement as a preliminary alarm / Wait for a field measurement by the HP01 sluice house / Preheat the pumps only when the two signals differ. Consequences: A preliminary alarm left responsibility for false positives, and a field measurement delayed drainage preparation. The cross-check condition saved fuel but could miss a short local downpour."
+        },
+        {
+          "ko": "2막: HC04의 야간 준설이 두 가족군의 시간 분할 은신처와 겹친다. 선택: 준설을 두 구간으로 나눈다 / 대체 건조 관을 연다 / 한 가족군의 시간대를 매입해 집중 준설한다. 결과: 분할 준설은 공사 완료를 늦추고, 대체 관은 통신 케이블 공간을 줄인다. 시간대 매입은 빠르지만 다른 가족군과의 공유 규칙을 불공정하게 만든다.",
+          "en": "Act 2: HC04's night dredging overlapped the time-divided hiding places of two family groups. Choices: Split the dredging into two sections / Open a substitute dry pipe / Buy one family group's time slot and dredge in concentration. Consequences: Split dredging delayed completion of the work, and a substitute pipe reduced space for the communications cables. Buying a time slot was fast but made the sharing rule with the other family groups unfair."
+        },
+        {
+          "ko": "3막: 서울의 혹한에 암사 연료 인계가 늦어져 난방이 부족해지자 세 가족군이 유일하게 얼지 않고 마른 펌프 접근로를 겹쳐 점유한다. 선택: 난방 은신관을 제공한다 / 펌프 점검을 지연한다 / 임시 외부 점검 발판을 설치한다. 결과: 은신 관은 전력을 쓰고, 점검 지연은 침수 위험을 높인다. 외부 발판은 통로를 공유하지 않아도 되지만 한파 속 설치 노동과 추락 위험을 감수한다.",
+          "en": "Act 3: When severe cold in Seoul and delayed Amsa fuel handovers reduce heating, three family groups overlap on the only unfrozen, dry pump approach. Choices: Provide a heated refuge pipe / Delay the pump inspection / Install a temporary external inspection platform. Consequences: A refuge pipe used power, and a delayed inspection raised the flood risk. An external platform did not have to share the passage, but it accepted installation labor and fall risk in the cold wave."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G05-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0074"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G05 · 집쥐 세 단계 조우",
+        "en": "ARC-G-G05 · Brown Rat: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G05-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G05",
+          "en": "Ecologies: G05"
+        },
+        {
+          "ko": "1막: H05 열화상에는 한 군락만 보이지만 반대편 트레이에서 새끼 흔적이 발견된다. 선택: 모든 코어를 먼저 조사한다 / HP09 디지털미디어시티신탁가의 오래된 케이블 열지도를 구매한다 / 단방향 퇴로를 한 구획에서 시험한다. 결과: 조사는 피난 통로 개방을 늦추고, 열지도 구매는 빠르지만 통행 기록을 넘겨야 한다. 퇴로 시험은 정보 노출을 피하지만 비점유 구획 하나를 장기간 폐쇄한다.",
+          "en": "Act 1: The H05 thermal image showed only one colony, but kit traces were found on the tray on the opposite side. Choices: Survey every core first / Buy the old cable heat map from the HP09 Digital Media City Trust House / Test a one-way retreat in one section. Consequences: A survey delayed the opening of the evacuation passage, and buying the heat map was fast but required handing over passage records. A retreat test avoided exposing information, but closed one unoccupied section for a long time."
+        },
+        {
+          "ko": "2막: 급식소 쪽 셔터를 먼저 닫자 군락이 여의도선 대피 계단 케이블로 역주행한다. 선택: 뒤쪽부터 다시 밀폐한다 / 잔반 회수를 중단해 미끼를 남긴다 / 피난민을 한밤 동안 지상 우회로로 보낸다. 결과: 재밀폐는 공사 시간을 늘리고, 미끼는 식품 오염을 감수한다. 지상 우회는 케이블층을 비우지만 추위와 경비 인력을 요구한다.",
+          "en": "Act 2: When the shutter on the feeding-station side was closed first, the colony ran back into the cables of the Yeouido Line evacuation stairs. Choices: Seal again from the rear / Stop leftover collection and leave bait / Send the refugees onto a surface detour for one night. Consequences: Resealing lengthened the work time, and bait accepted food contamination. The surface detour emptied the cable layer but demanded cold and guard labor."
+        },
+        {
+          "ko": "3막: XT05 단백질 하역 뒤 군락이 환승 허브를 막자 포식 조류 유입안이 제시된다. 선택: 표식과 모니터링을 갖춘 중정을 연다 / 단계적 퇴로·밀폐만 쓴다 / XT05 하역 일정을 분산해 먹이 유입 자체를 줄인다. 결과: 중정은 장기 관리 인력을 요구하고, 단계 밀폐는 배급 지연을 낳는다. 하역 분산은 비표적 위험을 만들지 않지만 냉동 물류 단가와 식품 손실을 높인다.",
+          "en": "Act 3: After an XT05 protein unloading, the colony blocked the transfer hub, and a proposal to bring in predatory birds was put forward. Choices: Open a courtyard fitted with marks and monitoring / Use only staged retreat and sealing / Spread the XT05 unloading schedule and cut the food inflow itself. Consequences: The courtyard demanded long-term management labor, and staged sealing produced ration delays. Spreading the unloading created no non-target risk, but raised the unit cost of frozen logistics and food loss."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G06-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0076"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G06 · 왜가리·가마우지 세 단계 조우",
+        "en": "ARC-G-G06 · Grey Heron and Cormorant: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G06-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G06",
+          "en": "Ecologies: G06"
+        },
+        {
+          "ko": "1막: 서울역 중앙 수위가 낮아지자 수조류·섭금류·맹금류가 같은 좁은 수면에 겹친다. 선택: 수위를 구획별로 달리한다 / 섭금류 먹이터를 차량기지 밖에 새로 만든다 / 맹금류 대체 횃대를 습지 외곽에 설치한다. 결과: 구획 수위는 펌프 노동을 늘리고, 새 먹이터는 토지와 준설 비용이 들지만 가장자리 밀집을 줄인다. 대체 횃대는 선로 충돌을 줄이지만 설치류 포식 위치가 주거지 쪽으로 바뀔 수 있다.",
+          "en": "Act 1: When the water level at Seoul Station Central fell, waterfowl, waders, and raptors overlapped on the same narrow water. Choices: Set the water level differently by section / Make a new wader feeding ground outside the depot / Install substitute raptor perches on the wetland outskirts. Consequences: Sectioned water levels increased pump labor, and a new feeding ground cost land and dredging but reduced the edge concentration. Substitute perches reduced track collisions, but the rodent-predation location could shift toward the dwellings."
+        },
+        {
+          "ko": "2막: 강남선 차량기지의 감속 시간이 바뀌자 기착 무리가 선로 점검 시간에 솟구친다. 선택: 감속 시간을 원복한다 / 기능군별 대체 횃대를 설치한다 / 경적과 드론으로 즉시 해산한다. 결과: 시간 원복은 물류를 늦추고, 횃대 설치는 장기 관리를 요구한다. 강제 해산은 다음 운행 신호에 대한 회피를 무너뜨린다.",
+          "en": "Act 2: When the slowdown hours at the Gangnam Line depot changed, the stopover flock surged up during the track inspection hours. Choices: Restore the slowdown hours / Install substitute perches by functional group / Disperse them at once with horns and drones. Consequences: Restoring the hours slowed logistics, and installing perches demanded long-term management. Forced dispersal broke the avoidance of the next running signal."
+        },
+        {
+          "ko": "3막: 서울역 중앙 물받이와 강남 차량기지 온배수 수면 사이 새 이동이 수문 점검과 겹쳐 교량 보행로와 입출고선이 반복 점유된다. 선택: 철새 시간표에 맞춰 운행을 감축한다 / 기능군별 수면·횃대 구획을 확장한다 / 수면을 말려 군집을 내보낸다. 결과: 운행 감축은 피난·물류를 늦추고, 구획 확장은 다른 시민 공간을 줄인다. 수면 배수는 먼지·악취와 다른 포식 유입을 만든다.",
+          "en": "Act 3: Bird movement between central Seoul Station water decks and Gangnam depot warm-drainage water overlaps sluice inspections, repeatedly occupying bridge walks and depot access tracks. Choices: Cut running to match the migratory timetable / Expand the water-surface and perch sections by functional group / Dry the water and send the assemblage out. Consequences: Cutting the running slowed evacuation and logistics, and expanding the sections reduced other civic space. Draining the water made dust, stench, and an inflow of other predators."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G07-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0078"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G07 · 용산 약탈단 세 단계 조우",
+        "en": "ARC-G-G07 · Yongsan Raiders: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G07-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G07",
+          "en": "Ecologies: G07"
+        },
+        {
+          "ko": "1막: 배수 유입이 많은 밤 용산·이태원 환승 화물 엘리베이터는 이태원 통행 골목에 멈춰 있고 구로합금가 봉인 상자가 누액 받침대 앞에 있다. 약탈단 척후조가 받침대 열에 서 있다. 정우람 순번 표가 상자 위에 있다. 선택: 엘리베이터 칸을 용산 유치선 하층에 두고 샤프트 문을 잠근 뒤 상자를 하층 벽에 붙인다 / 구로합금가 봉인을 당직이 확인한 뒤 상자를 정우람 순번 표대로 이태원 통행 골목 밖으로 넘긴다 / 누액 받침대 열의 당직 자리를 비우고 상자를 약탈단이 선 자리에 둔다. 결과: 첫째를 고르면 상자는 용산 유치선 하층에 있고 용산 약탈단은 잠긴 샤프트 문 앞에 서 있다. 둘째를 고르면 정우람 순번의 상자가 골목 밖에 있고 봉인 띠에는 구로합금가 표가 그대로 붙어 있다. 셋째를 고르면 상자는 누액 받침대에 있고 약탈단 정예조의 포대 입구가 열려 있다.",
+          "en": "Act 1: On a high-drainage night the Yongsan–Itaewon transfer freight elevator is stopped in the Itaewon passage alley and Guro Alloy House sealed boxes are in front of the leak pallets. The Raider Scouts stand along the pallet rows. A Jeonguram sequence slip is on the boxes. Choices: Leave the elevator car on the lower level of the Yongsan stabling siding, lock the shaft door, and set the boxes against the lower-level wall / After the duty watch checks the Guro Alloy House seal, pass the boxes out of the Itaewon passage alley according to the Jeonguram sequence slip / Leave the duty-watch place on the leak-pallet rows empty and set the boxes where the raiders stand. Consequences: If the first is chosen, the boxes are on the lower level of the Yongsan stabling siding and the Yongsan Raiders stand in front of the locked shaft door. If the second is chosen, the boxes of the Jeonguram sequence are outside the alley and the Guro Alloy House mark remains on the seal band. If the third is chosen, the boxes are on the leak pallets and the mouths of the Raider Elite Squad's sacks are open."
+        },
+        {
+          "ko": "2막: 온배수에 의한 국지 융설 아침 신내운수 화물 칸이 용산·이태원 환승 화물 엘리베이터 샤프트에 들어가고 구로합금가 봉인 띠가 칸 문에 붙어 있다. 약탈단 정예조가 사다리 단에 서 있다. 선택: 신내운수 운송 표를 환적국 재고판에 맞추고 차이 분량의 상자를 용산 유치선 하층으로 내린다 / 구로합금가 봉인 띠를 다시 누르고 칸을 샤프트의 위쪽 정차 선으로 보낸다 / 차이 분량의 상자를 약탈단 포대에 실은 뒤 당직이 신내운수 운송 표에 고친 수를 적는다. 결과: 첫째를 고르면 차이 분량의 상자는 용산 유치선 하층 벽에 있고 신내운수 운송 표와 재고판의 수가 같다. 둘째를 고르면 봉인 띠가 칸 문에 붙어 있고 칸은 샤프트 위쪽 정차 선에 있다. 셋째를 고르면 약탈단 정예조의 포대 입구가 열려 있고 고친 수가 문턱의 운송 표에 적혀 있다.",
+          "en": "Act 2: On a morning of local thawing caused by heating a Sinnae Transport freight car enters the Yongsan–Itaewon transfer freight elevator shaft and a Guro Alloy House seal band is on the car door. The Raider Elite Squad stands on the ladder. Choices: Align the Sinnae Transport slip with the Junction inventory board and lower the boxes of the difference onto the lower level of the Yongsan stabling siding / Press the Guro Alloy House seal band down again and send the car to the upper stop line of the shaft / Load the boxes of the difference into the raiders' sacks, and the duty watch writes the corrected count on the Sinnae Transport slip. Consequences: If the first is chosen, the boxes of the difference are at the wall of the lower level of the Yongsan stabling siding and the Sinnae Transport slip matches the inventory board. If the second is chosen, the seal band is on the car door and the car is at the upper stop line of the shaft. If the third is chosen, the mouths of the Raider Elite Squad's sacks are open and the corrected count is written on the transport slip at the threshold."
+        },
+        {
+          "ko": "3막: 온배수가 얼음을 녹이는 밤 당산2동에서 넘긴 냉동 컨테이너가 이태원 통행 골목까지 밀려 와 있다. 환적국 당직 판에는 당산 냉동·종자 교환 회랑 신호가 적혀 있다. 용산 약탈단이 컨테이너 문 앞에 모여 있다. 선택: 냉동 칸을 용산 유치선 하층에 두고 환적국 이태원 화물 당직이 당산 냉동·종자 교환 회랑 신호의 숫자만 재고판에 남긴다 / 정우람 순번과 신내운수 운송 표를 맞춘 뒤 구로합금가 봉인 상자를 먼저 이태원 통행 골목 밖으로 넘긴다 / 냉동 컨테이너 문을 연 채 약탈단이 선 쪽에 식량 포대를 둔다. 결과: 첫째를 고르면 냉동 칸은 용산 유치선 하층에 있고 당직 판의 옆칸에는 당산 냉동·종자 교환 회랑 신호 숫자가 적혀 있다. 둘째를 고르면 구로합금가 봉인 상자가 골목 밖에 있고 정우람 순번과 신내운수 표의 수가 한 판에서 같다. 셋째를 고르면 식량 포대는 컨테이너 문 앞에 있고 약탈단 정예조의 포대 입구가 열려 있으며 약탈단 척후조가 그 열을 보고 있다.",
+          "en": "Act 3: On a night when warm drainage melts the ice, a refrigerated container handed over at Dangsan-2-dong has been pushed as far as the Itaewon passage alley. A Dangsan Cold-Storage and Seed Exchange Corridor signal is written on the Junction duty board. The Yongsan Raiders are gathered in front of the container door. Choices: Leave the refrigerated car on the lower level of the Yongsan stabling siding, and the Junction's Itaewon freight duty watch leaves only the figures of the Dangsan Cold-Storage and Seed Exchange Corridor signal on the inventory board / Align the Jeonguram sequence with the Sinnae Transport slip, then pass the Guro Alloy House sealed boxes out of the Itaewon passage alley first / Leave the refrigerated container door open and set the food sacks on the side where the raiders stand. Consequences: If the first is chosen, the refrigerated car is on the lower level of the Yongsan stabling siding and the Dangsan Cold-Storage and Seed Exchange Corridor signal figures are written in the side column of the duty board. If the second is chosen, the Guro Alloy House sealed boxes are outside the alley and the Jeonguram sequence matches the Sinnae Transport slip on one board. If the third is chosen, the food sacks are in front of the container door, the mouths of the Raider Elite Squad's sacks are open, and the Raider Scouts face that row."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G08-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0080"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G08 · 동대문 약탈단 세 단계 조우",
+        "en": "ARC-G-G08 · Dongdaemun Raiders: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G08-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G08",
+          "en": "Ecologies: G08"
+        },
+        {
+          "ko": "1막: 초겨울 밤 창동방호가의 필터 상자가 동대문 야간 공임 양압 문짝 앞에 있고 동대문 약탈단이 상자 앞에 서 있다. 중앙정보부 순회 당직과 최다온은 같은 문짝의 차압 판 옆에 있다. 선택: 중앙정보부 순회 당직이 필터 상자를 제기동 쪽 봉인 부속실 안쪽 선반으로 옮긴다 / 창동방호가 물자 당직이 상자 수량을 선반과 약탈단 자루에 반씩 적는다 / 최다온이 차압 판의 이동 시각을 당기고 양압 문짝을 닫는다. 결과: 상자를 선반으로 옮긴 뒤에는 약탈단이 문짝 앞에 서 있고 필터 상자는 부속실 선반에 있으며 양압은 유지된다. 반씩 적은 뒤에는 선반과 자루에 상자가 나뉘어 있고 약탈단 정예조는 골목에 서 있다. 문짝을 닫은 뒤에는 약탈단이 환기 덕트 입구에 서 있고 최다온은 닫힌 문 옆에 있다.",
+          "en": "Act 1: On an early-winter night the filter crates of the Changdong Protection House are before the positive-pressure doors of the Dongdaemun night-wage corridor, and the Dongdaemun Raiders stand before the crates. The Central Intelligence Bureau patrol duty officer and Choidaon are beside the differential-pressure board of the same door. Choices: The Central Intelligence Bureau patrol duty officer moves the filter crates to the inner shelf of the sealed side chamber on the Jegi-dong side / The Changdong Protection House supply duty officer writes the crate count half on the shelf and half on the raider sacks / Choidaon advances the movement time on the differential-pressure board and shuts the positive-pressure doors. Consequences: After the crates are moved to the shelf, the raiders stand before the doors, the filter crates are on the side-chamber shelf, and the positive pressure holds. After the count is written by halves, the crates are divided between the shelf and the sacks, and the raider elite squad stands in the alley. After the doors are shut, the raiders stand at the ventilation-duct mouth and Choidaon is beside the shut door."
+        },
+        {
+          "ko": "2막: 흰십자단 공임 당직이 입구 커튼 앞에 있는 밤에 약탈단 척후조가 하층 방풍 골목 끝에 서 있다. 중앙정보부 순회 당직과 창동방호가 물자 당직은 같은 입구의 차압 판 옆에 있다. 선택: 흰십자단 공임 당직이 커튼을 세 겹으로 두고 공임 통로를 창동방호가 물자 당직 쪽에 연다 / 중앙정보부 순회 당직이 차압 숫자를 약탈단 두목의 판과 당직 기록판에 같이 적는다 / 창동방호가 물자 당직이 야간 공임 자루를 봉인 부속실 선반으로 옮긴다. 결과: 통로를 창동방호가 쪽에 연 뒤에는 약탈단 정예조가 커튼 밖에 서 있고 공임 물자는 부속실 쪽에 있다. 숫자를 같이 적은 뒤에는 약탈단 두목과 흰십자단 공임 당직이 같은 판 앞에 서 있으며 자루는 문짝에 남아 있다. 자루를 부속실로 옮긴 뒤에는 창동방호가 물자 당직이 커튼 앞에 서 있고 약탈단 척후조는 덕트 입구에 있다.",
+          "en": "Act 2: On a night when the White Cross night-wage duty officer is before the entrance curtains, the raider scouts stand at the end of the lower windbreak alley. The Central Intelligence Bureau patrol duty officer and the Changdong Protection House supply duty officer are beside the differential-pressure board of the same entrance. Choices: The White Cross night-wage duty officer keeps the curtains at three layers and opens the night-wage passage toward the Changdong Protection House supply duty officer / The Central Intelligence Bureau patrol duty officer writes the differential-pressure figures on both the raider chief's board and the duty record board / The Changdong Protection House supply duty officer moves the night-wage sacks onto the shelf of the sealed side chamber. Consequences: After the passage is opened toward the Changdong Protection House, the raider elite squad stands outside the curtains and the night-wage goods are on the side-chamber side. After the figures are written on both boards, the raider chief and the White Cross night-wage duty officer stand before the same board, and the sacks remain at the doors. After the sacks are moved into the side chamber, the Changdong Protection House supply duty officer stands before the curtains and the raider scouts are at the duct mouth."
+        },
+        {
+          "ko": "3막: 용산에서 운반한 미세척 포대를 동대문 야간 공임 입구에서 열어 먼지가 쌓인 밤, 차압 판의 눈금이 올라간다. 흰십자단·중앙정보부·창동방호가와 최다온이 같은 입구에서 밀봉과 통행 순서를 나눈다. 선택: 흰십자단 공임 당직이 커튼을 약탈단의 손보다 안쪽에서 겹쳐 입구를 당직 쪽에 둔다 / 중앙정보부 순회 당직이 먼지가 묻지 않은 용산 삼로 환적·회수 회랑 중계 상자를 창동방호가 선반으로 옮긴다 / 최다온이 차압 판의 숫자를 닫힌 문짝 쪽으로 적고 약탈단의 자루를 환기 덕트 입구에 둔다. 결과: 커튼을 안쪽에서 겹친 뒤에는 입구가 흰십자단 공임 당직 쪽에 있고 약탈단 정예조는 바깥 겹에 서 있다. 상자를 선반으로 옮긴 뒤에는 먼지가 묻은 자루가 입구에 있고 방호 상자는 창동방호가 선반에 있다. 차압 판의 숫자를 닫힌 문짝 쪽으로 적은 뒤에는 약탈단이 제기동 쪽 덕트 입구에 모여 있고 최다온은 입구 판 옆에 있다.",
+          "en": "Act 3: On a night when unwashed sacks carried from Yongsan are opened at the Dongdaemun night-wage entrance, dust accumulates and the pressure reading rises. The White Cross, Central Intelligence Bureau, Changdong Protection House and Choi Daon divide sealing and passage order at that entrance. Choices: The White Cross night-wage duty officer layers the curtains from the inner side of the raiders' hands and keeps the entrance on the duty side / The Central Intelligence Bureau patrol duty officer moves the Yongsan Three-way Transshipment and Recovery Corridor relay crates that have no dust on them to the Changdong Protection House shelf / Choidaon writes the figures on the differential-pressure board toward the shut door and leaves the raiders' sacks at the ventilation-duct mouth. Consequences: After the curtains are layered from the inside, the entrance is on the side of the White Cross night-wage duty officer and the raider elite squad stands at the outer layer. After the crates are moved to the shelf, the dust-marked sacks are at the entrance and the protection crates are on the Changdong Protection House shelf. After the figures on the differential-pressure board are written toward the shut door, the raiders are gathered at the duct mouth on the Jegi-dong side and Choidaon is beside the entrance board."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G09-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0082"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G09 · 상암 탈영병 세 단계 조우",
+        "en": "ARC-G-G09 · Sangam Deserters: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G09-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G09",
+          "en": "Ecologies: G09"
+        },
+        {
+          "ko": "1막: 한겨울 밤 상암 냉각 부속 저온 회랑에서 서울역재고가 표식이 붙은 연료통과 탄약 상자가 탈영병 발치에 있다. 조하람 쪽 인원이 회랑 끝 작업등 옆에 서 있고 여의도출자연합회 출자 당직이 냉열 수량 칸을 든 채 문간에 있다. 선택: 서울역재고가 재고 당직이 반출 통로 빗장을 걸고 반출 수량을 재고 장부에 적는다 / 여의도출자연합회 출자 당직이 냉열 수량을 탈영병 분대장 앞의 장부 칸에 넘긴다 / 조하람 쪽 인원이 작업등을 끄고 저온 창고 안쪽에 선다. 결과: 빗장을 걸고 수량을 적은 뒤 탈영병 분대장은 장부 면 앞에 서 있고 탈영병 정예조는 선반을 끼고 서 있으며 조하람 쪽 인원은 작업등 옆에 서 있다. 냉열 수량을 분대장 앞 칸에 넘긴 뒤 출자 당직의 장부 면이 분대장 발치에 놓여 있고 연료통은 그 자리에 있으며 조하람 쪽 인원은 작업등 옆에 서 있다. 작업등을 끄고 창고에 선 뒤 조하람 쪽 인원은 저온 창고 안에 있고 탈영병 분대장과 탈영병 정예조는 연료통 옆에 서 있다.",
+          "en": "Act 1: On a midwinter night in the cold corridor of the Sangam cooling annex, fuel drums and ammunition boxes marked by the Seoul Station Inventory House are at the feet of the Sangam Deserters. Personnel on the Joharam side stand beside the work lamp at the end of the corridor, and the equity watch of the Yeouido Investment Federation stands in the doorway holding the cold-quantity column. Choices: The inventory watch of the Seoul Station Inventory House bars the removal passage and writes the removal quantity in the inventory ledger / The equity watch of the Yeouido Investment Federation passes the cold quantity into the ledger column in front of the deserter squad leader / Personnel on the Joharam side turn off the work lamp and stand inside the cold warehouse. Consequences: After the bar is set and the quantity is written, the deserter squad leader stands in front of the ledger page, the deserter elite squad stands beside the shelves, and the personnel on the Joharam side stand beside the work lamp. After the cold quantity is passed into the column in front of the squad leader, the equity watch's ledger page lies at the squad leader's feet, the fuel drums are in that place, and the personnel on the Joharam side stand beside the work lamp. After the work lamp is turned off and they stand in the warehouse, the personnel on the Joharam side are inside the cold warehouse, and the deserter squad leader and the deserter elite squad stand beside the fuel drums."
+        },
+        {
+          "ko": "2막: 온배수에 의한 국지 융설 무렵 새벽 아차산 검수 창 바닥에 장비 더미가 있고 검수 창 계기판의 열 눈금이 높은 칸에 있다. 아관사 검수 당직이 문간에 서 있고 서울역재고가 재고 당직이 장부를 들고 있으며 여의도출자연합회 출자 당직이 냉열 칸을 들고 있다. 선택: 아관사 검수 당직이 아차산 검수 창 출입문을 잠그고 검수 인원을 저온 창고 안에 세운다 / 서울역재고가 재고 당직이 장비 더미의 수량을 반출 칸에 적고 장부를 더미 앞에 둔다 / 여의도출자연합회 출자 당직이 냉열 수량을 검수 창 낮 칸에서 저온 창고 밤 칸으로 옮긴다. 결과: 출입문을 잠근 뒤 검수 인원은 저온 창고 안에 서 있고 탈영병 정예조와 탈영병 분대장은 검수 창 더미 옆에 서 있다. 반출 칸을 적고 장부를 둔 뒤 장부 면은 더미 앞에 놓여 있으며 분대장은 그 면 앞에 서고 탈영병 정예조는 더미 양쪽에 서 있다. 냉열 수량을 밤 칸으로 옮긴 뒤 출자 당직의 면은 창고 문간에 놓여 있고 검수 창 낮 칸은 잠긴 문 옆에 나란히 있으며 분대장은 남은 연료통 옆에 서 있다.",
+          "en": "Act 2: At dawn around local thawing caused by heating an equipment pile is on the floor of the Achasan inspection window, and the heat needle on the inspection-window panel sits in a high mark. The inspection watch of the Achasan Gate stands in the doorway, the inventory watch of the Seoul Station Inventory House holds the ledger, and the equity watch of the Yeouido Investment Federation holds the cold column. Choices: The inspection watch of the Achasan Gate locks the door of the Achasan inspection window and stands the inspection staff inside the cold warehouse / The inventory watch of the Seoul Station Inventory House writes the quantity of the equipment pile in the removal column and sets the ledger in front of the pile / The equity watch of the Yeouido Investment Federation moves the cold quantity from the daytime column of the inspection window to the night column of the cold warehouse. Consequences: After the entrance is locked, the inspection staff stand inside the cold warehouse, and the deserter elite squad and the deserter squad leader stand beside the pile in the inspection window. After the removal column is written and the ledger is set down, the ledger page lies in front of the pile, the squad leader stands in front of that page, and the deserter elite squad stands on both sides of the pile. After the cold quantity is moved to the night column, the equity watch's page lies at the warehouse doorway, the daytime column of the inspection window lies beside the locked door, and the squad leader stands beside the remaining fuel drums."
+        },
+        {
+          "ko": "3막: 고덕에서 회수한 자재와 암사 보관 연료를 실은 화차가 아차산 검수 창 바깥 선로에 선다. 화물 보냉에 배정한 냉열만큼 상암 저장고의 여유가 줄어든다. 탈영병 척후조는 선로 쪽 문에 서고 여의도출자연합회·아관사·서울역재고가 당직과 조하람 쪽 인원은 저온 창고 문간에서 냉열 배정과 검수 시간을 나눈다. 선택: 아관사 검수 당직이 선로 쪽 문을 잠그고 검수 인원을 저온 창고 안쪽에 세운다 / 여의도출자연합회 출자 당직이 냉열 수량을 암사 중량·연료 인계 회랑 열차 칸에 적는다 / 서울역재고가의 재고 당직이 남은 연료통과 회수 자재 상자 수를 장부 한 면에 적고 조하람 쪽 인원을 그 옆에 세운다. 결과: 선로 쪽 문을 잠그면 검수 인원은 저온 창고 안에, 탈영병 척후조는 문 바깥에 남고 분대장은 남은 연료통 옆에 선다. 냉열을 화차 항목에 배정하면 출자 당직의 장부에 화차 쪽 수량이 적히고 회수 자재 상자는 검수 창 바닥에 남으며 정예조는 그 옆을 지킨다. 수량을 한 면에 모아 적고 조하람 쪽 인원을 세우면 문간 바닥의 장부를 그들이 지켜보는 동안 분대장은 연료통 곁에 남는다.",
+          "en": "Act 3: Cars carrying Godeok recovered materials and Amsa stored fuel wait outside the Achasan inspection window. Cooling allocated to protect the freight reduces the reserve for Sangam stores. Deserter Scouts stand at the track-side door while Yeouido Investment, Achasan Gate and Seoul Station Inventory watches and Joharam’s party divide cooling allocation and inspection time at the cold-store doorway. Choices: The inspection watch of the Achasan Gate locks the track-side door and stands the inspection staff inside the cold warehouse / The equity watch of the Yeouido Investment Federation writes the cold quantity in the train column of the Amsa Heavy-Freight and Fuel Handover Corridor / The Seoul Station Inventory House watch records the remaining fuel drums and recovered-material boxes on one ledger page and places Joharam’s personnel beside it. Consequences: Locking the track-side door leaves inspectors inside the cold warehouse, deserter scouts outside, and the squad leader beside the fuel drums. Allocating cooling to the freight-car entry records that quantity in the contribution watch’s ledger; recovered-material boxes remain on the inspection floor beside the elite squad. Recording all counts on one page and posting Joharam’s personnel beside it leaves them watching the ledger at the doorway while the squad leader remains with the fuel drums."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G10-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0084"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G10 · 보국문 광신도 세 단계 조우",
+        "en": "ARC-G-G10 · Bogukmun Zealots: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G10-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G10",
+          "en": "Ecologies: G10"
+        },
+        {
+          "ko": "1막: 배수 유입이 늘어난 밤 광신도 인도자가 북한산보국문 대피 회랑 문턱에 선다. 마곡종자가는 종자 포대를 그 문으로 내보내려 하고 윤새론 쪽은 출고 목록을 들고 문 앞에 서 있다. 선택: 안국총림 회랑 당직이 철문을 잠그고 마곡종자가가 종자 포대를 윗층 선반에 둔다 / 당직이 오전에만 철문을 열고 윤새론 쪽 목록에 적힌 포대만 문 밖으로 낸다 / 당직이 문턱에 선 채로 출고를 진행하고 포대를 회랑으로 넘긴다. 결과: 철문을 잠근 뒤에는 포대가 윗층 선반에 있고 광신도 인도자는 문 밖에 서 있다. 오전만 연 뒤에는 목록의 포대만 문 밖에 있고 나머지 포대는 선반에 있으며 수행이 문 밖 포대 옆에 서 있다. 출고를 진행한 뒤에는 포대를 문턱 너머 수행 쪽에 쌓아 두고 배급 당직의 빈 수레가 회랑에 있다.",
+          "en": "Act 1: On a night of increased drainage inflow, the Zealot Leader stands on the Bukhansan Bogukmun shelter threshold. The Magok Seed House is preparing to send seed bags through the door, while Yunsaeron’s side stands before it with the dispatch list. Choices: The Anguk Order corridor watch locks the iron door, and the Magok Seed House places the seed bags on the upper shelves / The watch opens the iron door only in the morning and sends out only the bags written on the Yunsaeron side's list / The watch stands on the threshold and carries the issue forward, passing the bags into the corridor. Consequences: After the iron door is locked, the bags are on the upper shelves and the Zealot Leader stands outside the door. After the door is opened only in the morning, only the bags on the list are outside the door, the remaining bags are on the shelves, and the attendants stand beside the bags outside. After the issue goes forward, the bags are piled past the threshold on the attendants' side, and the ration watch's empty cart is in the corridor."
+        },
+        {
+          "ko": "2막: 국지 융설수·배수 유입과 배급 주기가 겹친 낮, 광신도 정예조가 잠실 하층 배급고와 가락 하층 배급고 문 앞에 서 있다. 안국총림과 명동대교구 당직이 같은 문에 있고 마곡종자가 배급 당직이 자루의 수를 본다. 선택: 안국총림과 명동대교구가 오전과 오후로 문 출입을 나누고 그 시간 밖에는 철문을 잠근다 / 마곡종자가 배급 당직이 하층 출고를 멈추고 자루를 윗층 선반으로 올린다 / 명동대교구 경계 당직이 가락 환기구의 등을 끄고 인원을 통로 밖 계단에 세운다. 결과: 시간을 나눈 뒤에는 오전에는 안국총림 당직이 문에 있고 오후에는 명동대교구 당직이 발판에 있으며 광신도 정예조는 문 앞에 그대로 서 있다. 출고를 멈춘 뒤에는 자루가 윗층 선반에 있고 문 앞 광신도 정예조 쪽 바닥은 비어 있다. 등을 끈 뒤에는 발판이 어둡고 경계 인원이 통로 밖 계단에 서 있으며 광신도 척후조가 손전등으로 계단 아래를 비춘다.",
+          "en": "Act 2: On an afternoon when the local snowmelt and drainage inflow and the ration cycle overlap, the Zealot Elite Squad stands before the doors of the Jamsil lower granary and the Garak lower granary. The Anguk Order and Myeongdong Archdiocese watches are at the same door, and the Magok Seed House ration watch looks at the number of sacks. Choices: The Anguk Order and the Myeongdong Archdiocese divide passage through the door into morning and afternoon, and lock the iron door outside those hours / The Magok Seed House ration watch stops lower-level issue and lifts the sacks onto the upper shelves / The Myeongdong Archdiocese perimeter watch turns off the lamps in the Garak vent and posts people on the stair outside the passage. Consequences: After the hours are divided, the Anguk Order watch is at the door in the morning and the Myeongdong Archdiocese watch is on the walkway in the afternoon, and the Zealot Elite Squad still stands before the door. After issue stops, the sacks are on the upper shelves and the floor on the Zealot Elite Squad's side of the door is bare. After the lamps go off, the walkway is dark, the perimeter people stand on the stair outside the passage, and the Zealot Scouts shine flashlights down the stair."
+        },
+        {
+          "ko": "3막: 가락 펌프가 세척수를 내보내는 동안 환기구의 역풍이 외곽 계단으로 차고 습한 공기를 밀어낸다. 광신도 척후조가 계단에 늘어서고 안국총림·명동대교구 당직과 마곡종자가의 종자 포대·윤새론 쪽 목록이 같은 문에 모인다. 선택: 회랑 당직이 외곽 계단의 등만 켜 두고 안쪽 철문을 잠근다 / 마곡종자가 종자 당직이 종자 포대를 배급 자루와 다른 선반에 두고 하층 출고를 멈춘다 / 배급 당직이 윤새론 쪽 목록을 받은 뒤에만 오전 문을 열고 목록의 포대를 낸다. 결과: 외곽 등만 켠 뒤에는 광신도 척후조가 밝은 계단에 서 있고 안쪽 문턱의 수행이 어두운 쪽에 있다. 포대를 다른 선반에 둔 뒤에는 종자 포대가 윗층에 묶여 있고 아래층 자루가 광신도 척후조 앞에 있다. 목록을 받은 뒤에 문을 연 뒤에는 적힌 포대만 문 밖에 있고 윤새론 쪽이 그 포대 옆에 서 있으며 광신도 인도자는 문턱에서 포대 쪽을 본다.",
+          "en": "Act 3: While Garak pumps discharge washing water, ventilation backflow pushes cold damp air onto the outer stair. Zealot Scouts line that stair; Anguk and Myeongdong watches, Magok Seed House sacks and Yunsaeron’s list meet at the same door. Choices: The corridor watch leaves only the outer-stair lamps on and locks the inner iron door / The Magok Seed House seed watch places the seed bags on a shelf apart from the ration sacks and stops lower-level issue / The ration watch opens the morning door only after receiving the Yunsaeron side's list and sends out the bags on the list. Consequences: After only the outer lamps are left on, the Zealot Scouts stand on the lit stair and the attendants on the inner threshold are on the dark side. After the bags are placed on another shelf, the seed bags are tied on the upper level and the lower sacks are in front of the Zealot Scouts. After the door is opened once the list is received, only the bags written there are outside the door, the Yunsaeron side stands beside those bags, and the Zealot Leader looks toward the bags from the threshold."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G11-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0086"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G11 · 강남 이탈 인간형 세 단계 조우",
+        "en": "ARC-G-G11 · Gangnam Stray Humanoids: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G11-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G11",
+          "en": "Ecologies: G11"
+        },
+        {
+          "ko": "1막: 배터리 교체 주기가 되어 강남 이탈 인간형이 수서 야간 호송 창 발판에 선다. 용산호송가 호송 당직과 김도하가 창 안에 있다. 성하그룹 정비 장부가 받침대에 펼쳐져 있다. 선택: 김도하가 수서 야간 호송 창의 걸쇠를 잠그고 성하그룹 정비 장부에 창 앞 배터리 수를 적는다 / 용산호송가가 강남 정비 측선 콘센트 열의 칸 수만큼 교환을 연다 / 성하그룹 정비 당직이 클리닉 잔여 복도 쪽 배터리 이동을 당직 시간 안의 칸으로 장부에 적는다. 결과: 김도하가 걸쇠를 잠그면 배터리는 창 안에 있고 이탈 인간형 선두는 발판에서 칸을 세며 머문다. 용산호송가가 콘센트 칸 수만큼 교환을 열면 그 수량의 배터리를 열 한가운데로 보내고 장부의 잔여 칸을 줄인다. 성하그룹 정비 당직이 복도 쪽 이동을 당직 시간으로 적으면 클리닉 잔여 복도의 교환을 그 시간 안에 끝내고 야간 호송의 출발 인원을 그 시간 뒤에 세운다.",
+          "en": "Act 1: A battery-exchange cycle comes due and the Gangnam Stray Humanoids stand on the step of the Suseo night convoy window. The Yongsan Convoy House convoy duty and Kim Doha are inside the window. The Seongha Group maintenance ledger lies open on the stand. Choices: Kim Doha locks the latch of the Suseo night convoy window and writes the battery count in front of the window into the Seongha Group maintenance ledger / The Yongsan Convoy House opens the exchange for as many bays as the outlet row of the Gangnam maintenance siding / The Seongha Group maintenance duty writes the battery movement toward the remaining clinic corridors into the ledger as bays inside duty time. Consequences: When Kim Doha locks the latch, the batteries stay inside the window and the Stray Humanoid Lead remains on the step counting the bays. When the Yongsan Convoy House opens the exchange for the outlet-bay count, it sends that quantity of batteries to the middle of the row and reduces the remaining bays in the ledger. When the Seongha Group maintenance duty writes the corridor movement as duty time, it finishes the exchange in the remaining clinic corridors inside that time and sets the night-convoy departure personnel after that time."
+        },
+        {
+          "ko": "2막: 정동노총 복도 당직이 클리닉 잔여 복도의 소모품 수를 들고 수서 야간 호송 창에 선다. 성하그룹 정비 장부와 용산호송가의 창 걸쇠는 같은 받침대 옆에 놓여 있다. 강남 이탈 인간형의 이탈 인간형 호위조가 창 발판에 서 있다. 선택: 성하그룹과 정동노총이 창 앞에서 배터리 수와 복도 시간을 한 장부에 함께 적는다 / 정동노총이 클리닉 잔여 복도 입구를 맡고 성하그룹이 콘센트 열의 칸을 맡는다 / 용산호송가가 야간 호송 창의 출발을 교환 칸이 빈 때로 미룬다. 결과: 함께 적으면 배터리 수와 복도 시간이 한 장부의 이웃 칸에 놓인다. 복도와 콘센트 열을 나누면 정동노총 복도 당직은 입구에 서고 성하그룹 정비 당직은 열 끝에 선다. 출발을 미루면 교환 칸을 비운 뒤 야간 호송 인원이 창에 선다.",
+          "en": "Act 2: The Jeongdong Federation corridor duty stands at the Suseo night convoy window with the consumable count from the remaining clinic corridors. The Seongha Group maintenance ledger and the window latch of the Yongsan Convoy House lie beside the same stand. The Stray Humanoid Guard of the Gangnam Stray Humanoids stands on the window step. Choices: The Seongha Group and the Jeongdong Federation write the battery count and the corridor time together in one ledger in front of the window / The Jeongdong Federation takes the mouth of the remaining clinic corridors and the Seongha Group takes the bays of the outlet row / The Yongsan Convoy House postpones departure from the night convoy window until the exchange bays are clear. Consequences: When they write together, the battery count and the corridor time go into neighboring bays of one ledger. When they divide the corridor and the outlet row, the Jeongdong Federation corridor duty stands at the mouth and the Seongha Group maintenance duty stands at the end of the row. When departure is postponed, the night-convoy personnel stand at the window after the exchange bays are cleared."
+        },
+        {
+          "ko": "3막: 안국·신내 명부 회랑 당직이 검역과 귀환 명부 절차를 강화하고 명부 사본이 수서 야간 호송 창에 도착한다. 김도하가 그 사본을 창 받침대에 둔다. 성하그룹과 정동노총과 용산호송가가 창 안에 있다. 강남 이탈 인간형의 이탈 인간형 척후조가 발판에 서 있다. 선택: 안국·신내 명부 회랑의 명부 순서를 그대로 두고 용산호송가가 호송 창의 출발을 그 순서가 끝난 뒤에 둔다 / 김도하가 귀환 명부의 순서와 콘센트 배정 표를 수서 야간 호송 창 앞에서 맞춘다 / 성하그룹과 정동노총이 배터리 재고를 강남 정비 측선 콘센트 열과 클리닉 잔여 복도 입구로 나눈다. 결과: 명부 순서를 그대로 두면 용산호송가는 검역 번호가 끝난 뒤에 호송 창의 출발 줄을 세운다. 김도하가 순서를 맞추면 귀환 명부 순서와 콘센트 배정 표를 같은 받침대에 둔다. 재고를 나누면 성하그룹과 정동노총은 배터리 칸을 강남 정비 측선 열과 클리닉 잔여 복도 입구의 두 더미로 둔다.",
+          "en": "Act 3: The Anguk–Sinnae register corridor tightens quarantine and return-register procedure, and a register copy arrives at the Suseo night convoy window. Kim Doha sets that copy on the window stand. The Seongha Group, the Jeongdong Federation, and the Yongsan Convoy House are inside the window. The Stray Humanoid Scouts of the Gangnam Stray Humanoids stand on the step. Choices: The register order of the Anguk–Sinnae register corridor is left as it stands, and the Yongsan Convoy House sets departure from the convoy window after that order ends / Kim Doha matches the return-register order and the outlet assignment tags in front of the Suseo night convoy window / The Seongha Group and the Jeongdong Federation divide the battery stock between the outlet row of the Gangnam maintenance siding and the mouth of the remaining clinic corridors. Consequences: When the register order is left as it stands, the Yongsan Convoy House sets the convoy-window departure line after the quarantine numbers end. When Kim Doha aligns the order, Kim Doha sets the return-register order and the outlet assignment tags on the same stand. When the stock is divided, the Seongha Group and the Jeongdong Federation set the battery bays in two piles, one on the Gangnam maintenance siding row and one at the mouth of the remaining clinic corridors."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G12-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0088"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G12 · 신내 탈영병 세 단계 조우",
+        "en": "ARC-G-G12 · Sinnae Deserters: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G12-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G12",
+          "en": "Ecologies: G12"
+        },
+        {
+          "ko": "1막: 온배수 부하가 높은 밤 신내 화물 엘리베이터 분진 통로에 신내 탈영병이 서 있고 탄 상자도 있다. 금천구청중기가의 승강 패널은 켜져 있다. 이채온 당직의 상자는 승강장 탁자에 있다. 선택: 신내운수 화물 당직이 화물 철장을 칸 입구에 포갠다 / 금천구청중기가 기계 당직이 승강 패널 차단기를 내린다 / 이채온 당직이 상자를 청정 구간 책상으로 옮긴다. 결과: 철장이 칸 입구에 포개져 있으면 신내 탈영병은 난간과 탁자에 있다. 차단기가 내려가 있으면 엘리베이터 칸은 그 층에 있고 기계 당직은 패널 앞에 있다. 이채온의 상자가 청정 구간 책상에 있으면 탈영병 분대장의 무전기는 승강장 탁자에 있다.",
+          "en": "Act 1: On a high heated-drainage load night the Sinnae Deserters stand with ammunition boxes in the dust passage of the Sinnae freight elevator. The lift panel of the Geumcheon District Office Machinery House is on. The Ichaeon duty's box is on the landing table. Choices: The Sinnae Transport freight duty stacks freight cages at the car entrance / The Geumcheon District Office Machinery House machine duty puts the lift-panel breaker down / The Ichaeon duty moves the box to the desk in the clean section. Consequences: When the cages are stacked at the car entrance, the Sinnae Deserters are at the rail and the table. When the breaker is down, the elevator car is on that level and the machine duty is in front of the panel. When the Ichaeon box is on the clean-section desk, the Deserter Squad Leader's radio is on the landing table."
+        },
+        {
+          "ko": "2막: 필터 세척이 시작된 새벽 여의도 정수 필터 갤러리에서 역세가 돌아간다. 탈영병 척후조는 해치 앞에 있고 신내 화물 엘리베이터 칸은 아래 분진 통로에 있다. 금천구청중기가의 승강 패널에서 그 칸으로 전원선이 이어진다. 선택: 수문국 급수 당직이 역세 밸브를 일정표의 시각에 잠근다 / 신내운수 화물 당직이 화물 칸을 분진 통로 층에 고정한다 / 금천구청중기가 기계 당직이 갤러리 보조 전원을 승강 패널에서 분리한다. 결과: 밸브가 잠겨 있으면 해치 앞의 탈영병 척후조와 급수 당직이 같은 물가에 서 있다. 칸이 분진 통로 층에 고정되면 탈영병 분대장은 그 승강장 탁자에 있다. 보조 전원 선이 패널 밖에 놓이면 해치 자물쇠는 급수 당직의 손에 있다.",
+          "en": "Act 2: At dawn as filter cleaning begins, backwashing runs in the Yeouido filter gallery. Deserter scouts stand before the hatch, while the Sinnae freight-lift car waits in the dusty passage below. A power line links the Geumcheon District Office Machinery House lift panel to the car. Choices: The Sluice water-supply duty locks the backwash valve at the hour on the schedule / The Sinnae Transport freight duty fixes the freight car on the dust-passage level / The Geumcheon District Office Machinery House machine duty separates the gallery auxiliary power from the lift panel. Consequences: When the valve is locked, the Deserter Scouts and the water-supply duty in front of the hatch stand at the same water's edge. When the car is fixed on the dust-passage level, the Deserter Squad Leader is at that landing's table. When the auxiliary power line lies outside the panel, the hatch lock is in the water-supply duty's hand."
+        },
+        {
+          "ko": "3막: 당산에서 신내로 옮긴 미세척 상자를 화물 엘리베이터 앞에서 열자 외곽 통로 바닥에 분진이 쌓인다. 탈영병 척후조는 입구에 선다. 수문국 급수 당직·신내운수 화물 당직·금천구청중기가 기계 당직과 이채온 당직은 세척·역세·화물 인계 시각을 같은 표에서 조정한다. 선택: 당산 인계 당직이 미세척 상자를 여는 칸의 문을 닫는다 / 수문국 급수 당직이 여의도 정수 필터 갤러리 해치를 잠근다 / 신내운수 화물 당직과 금천구청중기가 기계 당직과 이채온 당직이 완전 밀폐 청정 구간에 철장과 차단기 손잡이와 상자를 둔다. 결과: 부두 출입 문이 닫혀 있으면 분진은 문 안쪽 통로에 있고 탈영병 척후조는 문 앞에 있다. 갤러리 해치가 잠겨 있으면 탈영병 척후조는 해치 앞과 외곽 입구에 나뉘어 있고 급수 당직은 밸브 앞에 있다. 청정 구간에 철장과 차단기와 상자가 있으면 신내 탈영병은 분진 통로 승강장에 있다.",
+          "en": "Act 3: Unwashed crates carried from Dangsan are opened before Sinnae freight elevator, leaving dust on the outer-passage floor. Deserter Scouts stand at the entrance. Sluice water-supply staff, Sinnae freight staff, Geumcheon Machinery House’s machine watch and Ichaeon’s watch coordinate washing, backwash and freight handover on the same timetable. Choices: The Dangsan handover watch closes the door of the bay where unwashed crates are opened / The Sluice water-supply duty locks the Yeouido water-filter gallery hatch / The Sinnae Transport freight duty, the Geumcheon District Office Machinery House machine duty, and the Ichaeon duty place the cage, the breaker handle, and the box in the fully sealed clean section. Consequences: When the dock entrance door is closed, the dust is in the passage inside the door and the Deserter Scouts are in front of the door. When the gallery hatch is locked, the Deserter Scouts are divided between the front of the hatch and the outer entrance, and the water-supply duty is in front of the valve. When the cage, the breaker, and the box are in the clean section, the Sinnae Deserters are on the dust-passage landing."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G13-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0090"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G13 · 집게팔 세 단계 조우",
+        "en": "ARC-G-G13 · Pincer Arm: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G13-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G13",
+          "en": "Ecologies: G13"
+        },
+        {
+          "ko": "1막: 1단계 경고 출몰에서는 심야 슈트 오분류 빈 상자 폭주 통로 게이트의 깜빡 잠김이 관측된다.",
+          "en": "Act 1: At stage 1, warning appearance, late-night chute mis-sorts, empty-box runaways, and flickering locks on the passage gates are observed."
+        },
+        {
+          "ko": "2막: 2단계 인프라 교란에서는 비상 의약품과 냉각수 캔이 잘못된 저온칸에 쌓이고 동대문 연합과 영등포선 사이 공동구 이동이 지연된다.",
+          "en": "Act 2: At stage 2, infrastructure disruption, emergency medicines and coolant cans pile in the wrong cold bay, and movement through the utility tunnel between the Dongdaemun union and the Yeongdeungpo Line is delayed."
+        },
+        {
+          "ko": "3막: 3단계 거점 봉쇄에서는 분류동 출입 게이트가 일괄 닫히고 협상 창이 닫히기 직전이 된다.",
+          "en": "Act 3: At stage 3, stronghold lockdown, the sorting hall's entry gates close all at once and the moment just before the negotiation window shuts arrives."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G14-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0092"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G14 · 빈수레 세 단계 조우",
+        "en": "ARC-G-G14 · Empty Cart: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G14-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G14",
+          "en": "Ecologies: G14"
+        },
+        {
+          "ko": "1막: 1단계에서는 빈 차가 정각에 나타나 정류를 막고 호출 대기열이 밀린다.",
+          "en": "Act 1: At stage 1 an empty car appears on the hour, blocks the stop, and the call queue backs up."
+        },
+        {
+          "ko": "2막: 2단계에서는 성북선과 용산선 사이 응급 통행 슬롯이 공차 루프에 잠겨 인력과 물자 이동이 끊긴다.",
+          "en": "Act 2: At stage 2 the emergency-passage slots between the Seongbuk Line and the Yongsan Line lock into the empty-car loop, and the movement of people and supplies breaks."
+        },
+        {
+          "ko": "3막: 3단계에서는 환승 허브 전체가 유령 시간표로 봉쇄되고 협상 창이 닫히기 직전이다.",
+          "en": "Act 3: At stage 3 the whole transfer hub is sealed under the phantom timetable, and the moment just before the negotiation window shuts arrives."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G15-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0094"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G15 · 돌봄바퀴 세 단계 조우",
+        "en": "ARC-G-G15 · Care Wheel: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G15-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G15",
+          "en": "Ecologies: G15"
+        },
+        {
+          "ko": "1막: 야간 첫 순회에서 카트가 문을 두 번 확인하고 물러나는 동안은 1단계다.",
+          "en": "Act 1: Stage one lasted while, on the first night circuit, the cart checked the door twice and withdrew."
+        },
+        {
+          "ko": "2막: 패치 오탐이 겹쳐 동의 없는 병상 락이 닫히고 명동 연합 배급 줄과 뚝섬 연합 보조기 반출이 함께 멎으면 2단계로 올라간다.",
+          "en": "Act 2: It rose to stage two when overlapping patch false positives closed bed locks without consent and the Myeongdong Union ration line and the Ttukseom Union assistive-device carry-out stopped together."
+        },
+        {
+          "ko": "3막: 명단의 모든 칸을 한꺼번에 격리하려는 세 번째 순회가 시작되면 3단계 직전이며, HP01은 흩어 둔 수문 키로 병상별 전원을 끊고 서명한 칸부터 연다.",
+          "en": "Act 3: When the third circuit began, trying to isolate every cell on the roster at once, it was just before stage three, and HP01 cut power cell by cell with the scattered sluice keys and opened from the signed cells."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G16-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0096"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G16 · 철골거미 세 단계 조우",
+        "en": "ARC-G-G16 · Girder Spider: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G16-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G16",
+          "en": "Ecologies: G16"
+        },
+        {
+          "ko": "1막: 측량 빔이 가설 천막 모서리를 한 번 훑고 중지 깃발 앞에서 멈추면 1단계 경고다.",
+          "en": "Act 1: It was a stage-one warning when the survey beam swept the corner of a provisional tent once and stopped before the stop flag."
+        },
+        {
+          "ko": "2막: 캐시가 미기입 앵커를 결함으로 판정해 수서선 임시 거처를 들어 올리거나 광진선 장비 통행을 막으면 2단계가 된다.",
+          "en": "Act 2: It became stage two when the cache judged an unfilled anchor a defect and lifted the Suseo Line's provisional shelters or blocked equipment passage on the Gwangjin Line."
+        },
+        {
+          "ko": "3막: 양중 암과 용접 무리가 같은 오래된 레이어를 받아 도면 금고 아래 그리드를 폐쇄하기 전에 HP02가 분전을 나누고 예외 레이어 해시를 현장 포트에 꽂아야 한다.",
+          "en": "Act 3: Before the lifting arms and the welding swarms, receiving the same old layer, closed the grid under the drawing vault, HP02 had to split the distribution and plug the exception-layer hash into the field ports."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G17-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0098"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G17 · 외눈탑 세 단계 조우",
+        "en": "ARC-G-G17 · One-Eye Tower: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G17-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G17",
+          "en": "Ecologies: G17"
+        },
+        {
+          "ko": "1막: 안개 속 마스트 하나가 황색 플래그를 올렸다가 돔을 닦은 뒤 내리면 경고에 그친다.",
+          "en": "Act 1: When a single mast in the fog raised a yellow flag and lowered it after its dome was wiped, it stopped at a warning."
+        },
+        {
+          "ko": "2막: 수변 열기와 의료 침대의 금속 반사를 침입으로 합쳐 수문국 이송로와 서울역 중앙 기록 회랑을 번갈아 적색으로 잠그면 2단계다.",
+          "en": "Act 2: When it combined waterfront heat and the metal reflection of medical beds into an intrusion and locked the transfer routes of the Sluice and the central Seoul Station records corridor red by turns, it was stage 2."
+        },
+        {
+          "ko": "3막: 여러 마스트가 화이트리스트 비콘까지 같은 표적으로 묶어 송신하기 시작하면 일괄 봉쇄 직전이며, HP03은 의료 분전을 살린 채 대역 필터를 끼우고 회랑 입구의 명부를 헤드마다 대조한다.",
+          "en": "Act 3: When several masts began to transmit even the whitelist beacons bound as the same target, it was on the verge of a total lockdown, and HP03 fitted band filters while keeping the medical distribution panel alive and checked the register at each corridor entrance against each head."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G18-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0100"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G18 · 불다리열차 세 단계 조우",
+        "en": "ARC-G-G18 · Fire-Leg Train: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G18-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G18",
+          "en": "Ecologies: G18"
+        },
+        {
+          "ko": "1막: 폐선 스퍼에서 보수차 한 량이 옛 이음매를 연마하고 측선으로 돌아가면 1단계 징후다.",
+          "en": "Act 1: It was a stage-one sign when one maintenance car on a retired spur ground an old joint and returned to the siding."
+        },
+        {
+          "ko": "2막: 결함 맵의 좌표가 환적 진동에 밀려 본선 레일을 절단하거나 영등포선 출고선과 왕십리 연합 회차선을 한 편성으로 묶으면 2단계가 된다.",
+          "en": "Act 2: It became stage two when the defect map's coordinates, shoved by transshipment vibration, cut the main-line rail or bound the Yeongdeungpo Line's departure track and the Wangsimni Union's turn line into one formation."
+        },
+        {
+          "ko": "3막: 용접 차와 침목 차가 봉인 구간의 포인트를 넘어 응급 배차 킬로정까지 차지하기 전에 HP04가 급전을 구간별로 떼고 원본 해시가 찍힌 제외 목록을 차상 포트에 심어야 한다.",
+          "en": "Act 3: Before the welding car and the sleeper car crossed the points of a sealed section and occupied the emergency-dispatch kilometer posts, HP04 had to pull the traction power section by section and plant the exclusion list stamped with the original hash in the onboard ports."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G19-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0102"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G19 · 그르렁이 세 단계 조우",
+        "en": "ARC-G-G19 · Gurgler: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G19-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G19",
+          "en": "Ecologies: G19"
+        },
+        {
+          "ko": "1막: 노량진선 우회 급수 압력계의 바늘이 표시 눈금 아래에 가 있다. 밸브 앞에 선 사람은 입가와 목이 젖어 있다. 숨마다 목에서 그르렁 소리가 난다. 수문국 급수 당직이 냉각수 밸브를 잠근다. 사람은 잠긴 밸브 손잡이 앞에 있다.",
+          "en": "Act 1: The needle of the Noryangjin Line bypass water-supply pressure gauge has gone below the marked graduation. The person standing in front of the valve has a wet mouth and neck. A gurgle comes from the throat with every breath. The Sluice Bureau supply watch shuts the coolant valve. The person is in front of the shut valve handle."
+        },
+        {
+          "ko": "2막: 온배수 부하가 높은 밤 냉각 회랑의 작업등 아래 철판이 미지근하다. 우회 급수관은 차다. 이음새에서 찬물이 관 밖으로 나와 있다. 물기침의 기침마다 그 찬물이 바닥으로 떨어진다. 배관기기의 몸은 찬 분기 쪽이다.",
+          "en": "Act 2: On a high heated-drainage load night the iron plate under the work lamp of the cooling corridor is lukewarm. The bypass water main is cold. At the joint, cold water has come out of the pipe. With each cough of the Water Cough that cold water falls to the floor. The body of the Pipe Apparatus is toward the cold branch."
+        },
+        {
+          "ko": "3막: 냉각수 밸브는 잠겨 있다. 잠긴 손잡이 앞은 마른 발판이다. 응축수 배수 쪽 밸브는 열려 있다. 배관기기가 열린 관 위에 엎드려 있다. 물귀신은 그 배수로 아래 고인 물에 어깨 위가 나와 있다.",
+          "en": "Act 3: The coolant valve is shut. In front of the shut handle is a dry foothold. The valve on the condensate-drain side is open. The Pipe Apparatus lies prone on the open pipe. The Water Ghost has the part above the shoulders out of the water pooled under that drain."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G20-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0104"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G20 · 철컥이 세 단계 조우",
+        "en": "ARC-G-G20 · Iron-Clicker: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G20-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G20",
+          "en": "Ecologies: G20"
+        },
+        {
+          "ko": "1막: 명부교회 선반으로 이어지는 교량 거더 하부 플랜지에 덧판이 겹쳐 있다. 덧판의 구멍에 얇은 철편이 차 있으며 원 볼트 머리는 거더 옆 불가사리의 입에 물려 있다. 교량 점검 당직의 두께 게이지가 덧판 위에 놓여 있다. 덧판의 철편에서 철컥 소리가 난다.",
+          "en": "Act 1: Cover plates lie layered on the lower flange of the bridge girder that runs to the shelves of Myeongbu Church. Thin iron flakes fill the holes of the cover plates, and the original bolt heads are held in the mouth of Bulgasari beside the girder. The bridge inspection duty's thickness gauge lies on the cover plates. A click sounds from the flakes of the cover plates."
+        },
+        {
+          "ko": "2막: 명부교회 지붕 트러스 하현재의 이음 세 곳에 철편이 이어져 있다. 첫 이음에서 두두리가 판을 두드리며 가운데 이음에서 불가사리의 철편이 볼트를 덮고 있다. 끝 이음에 외발도깨비가 한 발로 서 있다. 지붕 당직의 안전줄이 상현재에 걸려 있다.",
+          "en": "Act 2: Flakes run across three joints of the lower chord of the roof truss of Myeongbu Church. At the first joint Duduri strikes the plate, and at the middle joint Bulgasari's flakes cover the bolts. At the last joint the One-legged Dokkaebi stands on one foot. The roof duty's safety line hangs on the upper chord."
+        },
+        {
+          "ko": "3막: 명부교회 선반 하부 갱구 프레임의 절단선에 얇은 철편이 걸쳐 있다. 외발도깨비가 절단선 쪽 앵글에 한 발로 서 있으며 쇠막대가 절단선에 닿아 있다. 잘린 볼트가 프레임 하부에 쌓여 있다. 도크 야간 당직의 절단 토치가 프레임 밖 받침대에 있다.",
+          "en": "Act 3: Thin iron flakes lie across the cut line of the portal frame under the shelves of Myeongbu Church. The One-legged Dokkaebi stands on one foot on the angle toward the cut line, and the iron bar meets the cut line. Cut bolts are piled under the frame. The dock night duty's cutting torch is on the rest outside the frame."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G21-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0106"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G21 · 벽두드리기 세 단계 조우",
+        "en": "ARC-G-G21 · Wall-knocker: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G21-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G21",
+          "en": "Ecologies: G21"
+        },
+        {
+          "ko": "1막: 동방사 관로 당직이 관벽의 금 위에 겹쳐 둔 보정 철판 앞에 서 있다. 벽두드리기의 이마는 보정 철판 한가운데에 닿아 있다. 두드림이 금의 가장자리 철에서 난다. 나사 두 개가 보정 철판 위에 놓여 있다.",
+          "en": "Act 1: The Eastern Command duct watch stands in front of a correction plate laid over a crack in the duct wall. A Wall-knocker's brow touches the middle of the correction plate. The knocking comes from the iron at the edge of the crack. Two screws lie on the correction plate."
+        },
+        {
+          "ko": "2막: 중계 벽감 왼쪽 관벽과 오른쪽 관벽에 사람이 나뉘어 서 있다. 양쪽 이마가 모서리의 같은 철판에 닿아 있다. 두드림이 모서리에서 하나로 겹쳐 난다. 동방사 관로 당직의 분필 선이 모서리 바닥을 가로지른다.",
+          "en": "Act 2: People stand divided on the left duct wall and the right duct wall of the relay niche. Both brows touch the same plate at the corner. The knocking overlaps into one at the corner. A chalk line of the Eastern Command duct watch crosses the floor at the corner."
+        },
+        {
+          "ko": "3막: 여의도선 안국총림 임시 중계함 쪽 케이블이 광진선 동방사 벽감 바닥에 말려 있다. 안국총림 당직이 케이블 끝 꼬리표를 송신중계 표식 옆에 붙여 둔다. 케이블 피복에 손바닥 자국이 남아 있다. 벽두드리기의 손이 그 피복 위에 놓여 있다.",
+          "en": "Act 3: A cable from the side of the Anguk Order's temporary relay box on the Yeouido Line lies coiled on the floor of the Eastern Command niche on the Gwangjin Line. The Anguk Order watch has set the tag at the cable end beside the Transmission Relay mark. A palm print remains on the cable sheath. A Wall-knocker's hand lies on that sheath."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G22-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0108"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G22 · 불꽃등이 세 단계 조우",
+        "en": "ARC-G-G22 · Flame Lantern: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G22-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G22",
+          "en": "Ecologies: G22"
+        },
+        {
+          "ko": "1막: 보존고 지하 회수조 수면에 푸른 불꽃이 떠 있다. 수면 가장자리의 금속 가지 끝이 밝다. 회수조 전원 램프는 소등 상태이다. 성하그룹 측선 야적 당직의 건전지 바구니가 조 난간에 놓여 있다. 야적 당직은 난간 밖에 서 있다.",
+          "en": "Act 1: A blue flame floats on the surface of the recovery bath under the preservation vault. The tips of the metal branches at the edge of the water are bright. The power lamp of the recovery bath is in the unlit state. The dry-cell basket of the Seongha Group siding yard duty sits on the bath rail. The yard duty stands outside the rail."
+        },
+        {
+          "ko": "2막: 보존고 외벽과 성하그룹 측선 사이의 젖은 철판이 중간에서 잘려 있다. 잘린 면 양쪽에 푸른 불꽃이 따로 머문다. 성하그룹 절단기가 철판 옆에 놓여 있다. 야적 당직이 절단기 손잡이 앞에 서 있다.",
+          "en": "Act 2: The wet steel plate between the preservation-vault outer wall and the Seongha Group siding is cut through at the middle. Blue flame stays separate on each side of the cut face. The Seongha Group cutter lies beside the plate. The yard duty stands before the cutter handle."
+        },
+        {
+          "ko": "3막: 곡물 열차 쪽 밸브가 열려 있다. 열린 밸브의 관 이음새에 불꽃이 모여 있다. 보존고 급수 밸브는 잠긴 채이며 성하그룹 측선 야적 당직이 그 손잡이 앞에 서 있다.",
+          "en": "Act 3: The valve on the grain-train side is open. Flame gathers at the pipe joint of the open valve. The preservation-vault feed valve remains shut, and the Seongha Group siding yard duty stands before that handle."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G23-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0110"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G23 · 우두커니 세 단계 조우",
+        "en": "ARC-G-G23 · Udukeoni: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G23-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G23",
+          "en": "Ecologies: G23"
+        },
+        {
+          "ko": "1막: 보냉고 벽은 온도가 다른 띠로 나뉘어 있다. 우두커니는 더 차가운 띠 앞에 서 있다. 보냉 당직의 벽면 기록에는 그 띠와 코일 이음매와 어두운 칸이 표시되어 있다.",
+          "en": "Act 1: The cold-store wall is divided into bands of differing temperature. The Udukeoni stand before the colder band. The cold-store watch's wall record marks that band, the coil joint, and the dark compartment."
+        },
+        {
+          "ko": "2막: 제상 안개가 차단문 안쪽을 채우고 코일 하우징의 진동은 이음매 철판에 있다. 우두커니는 안개 안에 서 있다. 보냉 당직은 안개 쪽 패널과 하우징 쪽 패널을 서로 다른 걸쇠에 걸어 둔다.",
+          "en": "Act 2: Defrost fog fills the inner side of the barrier door, and the vibration of the coil housing is in the iron plate of the joint. The Udukeoni stand inside the fog. The cold-store watch has hung the fog-side panel and the housing-side panel on different latches."
+        },
+        {
+          "ko": "3막: 밀봉 상자 안에 사람이 서 있다. 상자 안의 냉기는 그대로이고 유리 안쪽은 서리로 덮여 있다. 상자 겉은 마른 천으로 감겨 있으며 보냉 당직의 대차 위에 상자가 있다.",
+          "en": "Act 3: A person stands inside a sealed box. The cold inside the box remains as it is, and the inner side of the glass is covered with frost. The outside of the box is wrapped in dry cloth, and the box is on the cold-store watch's cart."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G24-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0112"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G24 · 울보 세 단계 조우",
+        "en": "ARC-G-G24 · Weeper: Three-Stage Encounter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G24-title-list-1",
+      "items": [
+        {
+          "ko": "가문: ",
+          "en": "Houses: "
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G24",
+          "en": "Ecologies: G24"
+        },
+        {
+          "ko": "1막: 세척실 야간 당직이 야간 세척실의 출입 밸브와 배수 쪽 밸브를 잠가 둔다. 큰울보와 회수백은 잠긴 세척실 안에 있다. 관끌이의 손은 안의 흡인관에 놓여 있다.",
+          "en": "Act 1: The night wash-room duty officer has shut the entry valve and the drain-side valve of the night wash room. The big weeper and the recovery bath are inside the shut wash room. The pipe puller’s hands rest on the suction pipe within."
+        },
+        {
+          "ko": "2막: 젖은 치료 기록 카세트가 복도 바닥에서 서비스 레일 위로 올라가 있다. 세척실 야간 당직의 장갑 자국이 그 카세트 손잡이에 남아 있다. 장산범의 아이 울음은 카세트가 놓여 있던 복도 끝에서 난다.",
+          "en": "Act 2: A wet treatment-record cassette has gone up from the corridor floor onto the service rail. The night wash-room duty officer’s glove mark remains on that cassette handle. The Jangsan tiger’s child’s cry comes from the end of the corridor where the cassette had lain."
+        },
+        {
+          "ko": "3막: 자동 운반대가 정해진 서비스 레일을 따라 세척실 밖에 멈춰 있다. 세척실 야간 당직의 남은 장화는 운반대 발판에 있다. 하수펌프의 운반대는 같은 레일에서 같은 순서로 서 있다.",
+          "en": "Act 3: The automatic conveyor is stopped outside the wash room along the fixed service rail. The night wash-room duty officer’s remaining boot is on the conveyor step. The Sewage Pump conveyor stands on the same rail in the same order."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC15-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0114"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC15 · 디지털미디어시티색인가 세 막",
+        "en": "ARC-H-HC15 · Digital Media City Index House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC15-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC15",
+          "en": "Houses: HC15"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 상암 송신탑 색인에서 수서의 보호조약 위반 기록이 사라진다",
+          "en": "Act 1: the Suseo protection-treaty violation record disappeared from the Sangam tower index"
+        },
+        {
+          "ko": "2막: 류가온이 마곡 검증관과 광고칸 구매자에게 같은 반론 시간을 건다",
+          "en": "Act 2: Ryu Gaon staked the same rebuttal time for the Magok verifier and the advertisement-slot buyer"
+        },
+        {
+          "ko": "3막: 낙찰 원장을 공개한 뒤 디지털미디어시티색인가는 가장 비싼 광고칸을 잃는다",
+          "en": "Act 3: after the award ledger was published, the Digital Media City Index House lost its most expensive advertisement slot"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC16-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0116"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC16 · 용산교환가 세 막",
+        "en": "ARC-H-HC16 · Yongsan Exchange House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC16-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC16",
+          "en": "Houses: HC16"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 용산 철도 창고의 교환기가 꺼져 신내 의료열차 호출이 상암에 닿지 않는다",
+          "en": "Act 1: the warehouse switchboard went dark, and the Sinnae medical-train call could not reach Sangam"
+        },
+        {
+          "ko": "2막: 화물 배차 회선을 줄이고 철도 지붕에 임시 중계기를 이었다.",
+          "en": "Act 2: The freight dispatch circuits were reduced, and a temporary relay was connected on the railway roof."
+        },
+        {
+          "ko": "3막: 의료호출을 살린 대가로 용산 선로 가문에 교환소 한 칸을 내준다",
+          "en": "Act 3: the price of saving the medical calls was one bay of the exchange, ceded to the Yongsan track house"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC17-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0118"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC17 · 구로디지털단지전지가 세 막",
+        "en": "ARC-H-HC17 · Guro Digital Complex Battery House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC17-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC17",
+          "en": "Houses: HC17"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 구로·금천 비축고의 전해액 통이 새며 뚝섬 인증표까지 의심받는다",
+          "en": "Act 1: an electrolyte drum in the Guro–Geumcheon stockpile leaked, and even the Ttukseom certificates came under doubt"
+        },
+        {
+          "ko": "2막: 창동 제동전지 몫을 봉인하고 제작동맹 수리반과 재검사 순서를 다투었다.",
+          "en": "Act 2: The Changdong braking-battery share was sealed while the retesting order was disputed with the production-alliance repair crews."
+        },
+        {
+          "ko": "3막: 오염 묶음을 전량 버려 북부 열차의 예비 운행 한 차례를 포기한다",
+          "en": "Act 3: the contaminated bundles were discarded whole, and one reserve run of the northern trains was given up"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC18-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0120"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC18 · 용산선박가 세 막",
+        "en": "ARC-H-HC18 · Yongsan Ship House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC18-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC18",
+          "en": "Houses: HC18"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 한강 교량 아래 좌초선이 용산 강변 물류와 바지선 항로를 함께 막는다",
+          "en": "Act 1: a ship grounded under the Han River bridges jammed the Yongsan riverside logistics and the barge routes at once"
+        },
+        {
+          "ko": "2막: 부두 협상에서 노량진 냉동 화물과 가락 경매 반입권을 함께 다루었다.",
+          "en": "Act 2: Wharf negotiations tied the Noryangjin cold freight to access at the Garak auction."
+        },
+        {
+          "ko": "3막: 독점 부두를 포기하고 모든 봉인 화물에 같은 선석 원장을 적용한다",
+          "en": "Act 3: the exclusive wharf was given up, and one berth ledger covered every sealed consignment"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC19-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0122"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC19 · 동대입구객사가 세 막",
+        "en": "ARC-H-HC19 · Dongdaeipgu Trading House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC19-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC19",
+          "en": "Houses: HC19"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 서울역 의전 회담을 앞두고 가락 경매장의 연회 물자 인도표가 사라진다",
+          "en": "Act 1: ahead of the Seoul Station protocol talks, the banquet-goods delivery tags vanished from the Garak auction"
+        },
+        {
+          "ko": "2막: 수서 계약감사에서 객실 배정과 잔치 신용의 숨은 보증인이 드러났다.",
+          "en": "Act 2: The Suseo contract audit exposed the hidden guarantor behind room assignments and banquet credit."
+        },
+        {
+          "ko": "3막: 특권 손님용 면세 창고를 열어 기근 배급과 외교 답례품을 분리한다",
+          "en": "Act 3: the privileged guests' bonded warehouse was opened, and famine rations were parted from diplomatic return gifts"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC20-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0124"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC20 · 디지털미디어시티공연가 세 막",
+        "en": "ARC-H-HC20 · Digital Media City Performance House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC20-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC20",
+          "en": "Houses: HC20"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 상암 송신탑의 황금 시간 편성표에서 서울역 의전 공연 한 편이 지워진다",
+          "en": "Act 1: one Seoul Station protocol performance was struck from the tower's prime-time schedule"
+        },
+        {
+          "ko": "2막: 가락 집결장에 위조 입장표가 퍼지자 공연권 원장과 방송 기록을 대조했다.",
+          "en": "Act 2: As forged tickets spread through the Garak assembly ground, the performance-rights ledger was compared with broadcast records."
+        },
+        {
+          "ko": "3막: 독점 공연권을 짧게 풀어 각 국가의 증언을 같은 방송 시간으로 내보낸다",
+          "en": "Act 3: the exclusive performance rights were loosed for a moment, and every state's testimony went out in the same broadcast hours"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC21-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0126"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC21 · 디지털미디어시티결제가 세 막",
+        "en": "ARC-H-HC21 · Digital Media City Payments House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC21-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC21",
+          "en": "Houses: HC21"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 수서 결제 장부 동기가 끊기고 환승 호출이 쌓인다",
+          "en": "Act 1: ledger sync with Suseo broke, and the transfer calls piled up"
+        },
+        {
+          "ko": "2막: 상암 송신 검증과 신내 환승 중립의 회선을 나누는 협상이 열렸다.",
+          "en": "Act 2: Negotiations opened to divide the circuits for Sangam transmission verification and Sinnae transfer neutrality."
+        },
+        {
+          "ko": "3막: 메신저 중계는 줄이지만 결제 원장은 통째로 남긴다",
+          "en": "Act 3: the message relay was cut back, but the payment ledger survived whole"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC22-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0128"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-H-HC22 · 마곡시험선가 세 막",
+        "en": "ARC-H-HC22 · Magok Test-Line House: Three Acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-H-HC22-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC22",
+          "en": "Houses: HC22"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: ",
+          "en": "Ecologies: "
+        },
+        {
+          "ko": "1막: 마곡 시험선 밑 잃어버린 기술 라인 잔류 신호가 다시 오른다",
+          "en": "Act 1: Residual signals from the lost technology line beneath the Magok test line rose again"
+        },
+        {
+          "ko": "2막: 도면 열쇠를 마곡 평의회와 상암 공사에 나누어 맡겼다.",
+          "en": "Act 2: The drawing key was split between the Magok council and the Sangam works."
+        },
+        {
+          "ko": "3막: 시험선은 다시 자물쇠 아래 들어가고 충전 규격만 남는다",
+          "en": "Act 3: the test line went back under lock, and only the charging standard remained"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G25-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0130"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G25 · G25 등불개미 잃어버린 기술 라인 재기동",
+        "en": "ARC-G-G25 · G25 Lantern Ant: Restarting the Lost Technology Line"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G25-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC22",
+          "en": "Houses: HC22"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G25",
+          "en": "Ecologies: G25"
+        },
+        {
+          "ko": "1막: 등불개미가 봉인 구역에서 붕괴 전 루틴으로 깨어난다",
+          "en": "Act 1: the Lantern Ant woke to its pre-collapse routine inside the sealed zone"
+        },
+        {
+          "ko": "2막: 연결 가문이 도면 열쇠와 부품 회수를 두고 협상한다",
+          "en": "Act 2: the linked houses negotiated over the drawing key and the recovery of parts"
+        },
+        {
+          "ko": "3막: 봉인 유지 또는 공생 계약 중 하나가 남는다",
+          "en": "Act 3: either the seal held, or a symbiosis contract remained"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G26-title-heading-1",
+      "publicAnchors": [
+        "Regional-Physical-AI-Arcs-heading-0132"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "ARC-G-G26 · G26 철공룡 잃어버린 기술 라인 재기동",
+        "en": "ARC-G-G26 · G26 Iron Dinosaur: Restarting the Lost Technology Line"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Regional-Physical-AI-Arcs-generated-ARC-G-G26-title-list-1",
+      "items": [
+        {
+          "ko": "가문: HC17, HC22",
+          "en": "Houses: HC17, HC22"
+        },
+        {
+          "ko": "전구: ",
+          "en": "Theaters: "
+        },
+        {
+          "ko": "합성급: ",
+          "en": "Synthetic classes: "
+        },
+        {
+          "ko": "생태: G26",
+          "en": "Ecologies: G26"
+        },
+        {
+          "ko": "1막: 철공룡이 봉인 구역에서 붕괴 전 루틴으로 깨어난다",
+          "en": "Act 1: the Iron Dinosaur woke to its pre-collapse routine inside the sealed zone"
+        },
+        {
+          "ko": "2막: 연결 가문이 도면 열쇠와 부품 회수를 두고 협상한다",
+          "en": "Act 2: the linked houses negotiated over the drawing key and the recovery of parts"
+        },
+        {
+          "ko": "3막: 봉인 유지 또는 공생 계약 중 하나가 남는다",
+          "en": "Act 3: either the seal held, or a symbiosis contract remained"
+        }
+      ]
+    }
+  ],
+  "data": {}
+}

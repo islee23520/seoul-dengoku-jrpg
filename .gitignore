@@ -4,3 +4,9 @@ node_modules/
 dist/
 *.log
 .tmp/
+
+# Do not ignore game layout, scripts, patches, or docs
+!game/
+!scripts/
+!patches/
+!docs/

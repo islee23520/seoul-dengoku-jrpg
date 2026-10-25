@@ -1,0 +1,299 @@
+{
+  "tileSize": 16,
+  "atlasSize": [
+    128,
+    48
+  ],
+  "sourcePack": "Kenney Roguelike Modern City 2.0",
+  "layers": [
+    {
+      "id": 0,
+      "name": "floor",
+      "source": "kenney-source.png",
+      "rect": [
+        272,
+        320,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "wall",
+      "source": "kenney-source.png",
+      "rect": [
+        128,
+        64,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "cap",
+      "source": "kenney-source.png",
+      "rect": [
+        128,
+        48,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "glass",
+      "source": "kenney-source.png",
+      "rect": [
+        224,
+        80,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "pillar",
+      "source": "kenney-source.png",
+      "rect": [
+        304,
+        112,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "bench_l",
+      "source": "kenney-source.png",
+      "rect": [
+        272,
+        240,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "bench_r",
+      "source": "kenney-source.png",
+      "rect": [
+        288,
+        240,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "bin",
+      "source": "kenney-source.png",
+      "rect": [
+        192,
+        208,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "machine",
+      "source": "kenney-source.png",
+      "rect": [
+        400,
+        128,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "door",
+      "source": "kenney-source.png",
+      "rect": [
+        320,
+        336,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "lamp",
+      "source": "kenney-source.png",
+      "rect": [
+        128,
+        224,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "stairs",
+      "source": "kenney-source.png",
+      "rect": [
+        320,
+        160,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "floor_alt",
+      "source": "kenney-source.png",
+      "rect": [
+        288,
+        320,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "utility",
+      "source": "kenney-source.png",
+      "rect": [
+        416,
+        128,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "window",
+      "source": "kenney-source.png",
+      "rect": [
+        432,
+        272,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "cabinet",
+      "source": "kenney-source.png",
+      "rect": [
+        448,
+        400,
+        16,
+        16
+      ],
+      "operations": [
+        "exact crop; no resampling"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "track",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "tactile",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "edge",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "sign_left",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "sign_right",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "arrow",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "floor_seam",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "concourse",
+      "source": "original-layer-spec.json",
+      "operations": [
+        "original pixel geometry; CC0 dedication"
+      ]
+    }
+  ],
+  "compositing": "Separate source-cropped and original cells; no other contributing pixel layers."
+}

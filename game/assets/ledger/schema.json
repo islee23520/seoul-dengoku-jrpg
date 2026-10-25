@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "assets"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "asset_id",
+          "title",
+          "author_or_seller",
+          "source_store",
+          "asset_page_url",
+          "download_url_or_order_id",
+          "acquired_at",
+          "license_name_version",
+          "license_url",
+          "license_snapshot_or_hash",
+          "proof_id",
+          "commercial_game_allowed",
+          "editing_allowed",
+          "public_repo_original_allowed",
+          "public_repo_derivative_allowed",
+          "game_build_redistribution_allowed",
+          "attribution_text",
+          "sharealike_obligation",
+          "source_filename",
+          "source_hash",
+          "derived_filename",
+          "derived_hash",
+          "derivation_notes",
+          "tool_and_version",
+          "grid_and_dimensions",
+          "palette_or_transparency_notes",
+          "engine_import_id",
+          "review_status",
+          "reviewer",
+          "reviewed_at",
+          "usage"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "asset_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "author_or_seller": {
+            "type": "string"
+          },
+          "source_store": {
+            "type": "string"
+          },
+          "asset_page_url": {
+            "type": "string"
+          },
+          "download_url_or_order_id": {
+            "type": "string"
+          },
+          "acquired_at": {
+            "type": "string"
+          },
+          "license_name_version": {
+            "type": "string"
+          },
+          "license_url": {
+            "type": "string"
+          },
+          "license_snapshot_or_hash": {
+            "type": "string"
+          },
+          "proof_id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,95}$",
+            "description": "Logical identifier resolved only by an explicit external proof map."
+          },
+          "commercial_game_allowed": {
+            "type": "boolean"
+          },
+          "editing_allowed": {
+            "type": "boolean"
+          },
+          "public_repo_original_allowed": {
+            "type": "boolean"
+          },
+          "public_repo_derivative_allowed": {
+            "type": "boolean"
+          },
+          "game_build_redistribution_allowed": {
+            "type": "boolean"
+          },
+          "attribution_text": {
+            "type": "string"
+          },
+          "sharealike_obligation": {
+            "type": "boolean"
+          },
+          "source_filename": {
+            "type": "string"
+          },
+          "source_hash": {
+            "type": "string"
+          },
+          "derived_filename": {
+            "type": "string"
+          },
+          "derived_hash": {
+            "type": "string"
+          },
+          "derivation_notes": {
+            "type": "string"
+          },
+          "tool_and_version": {
+            "type": "string"
+          },
+          "grid_and_dimensions": {
+            "type": "string"
+          },
+          "palette_or_transparency_notes": {
+            "type": "string"
+          },
+          "engine_import_id": {
+            "type": "string"
+          },
+          "review_status": {
+            "type": "string"
+          },
+          "reviewer": {
+            "type": "string"
+          },
+          "reviewed_at": {
+            "type": "string"
+          },
+          "usage": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

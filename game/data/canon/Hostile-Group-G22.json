@@ -1,0 +1,841 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G22",
+  "slug": "Hostile-Group-G22",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G22]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G22 · Flame Lantern",
+      "summary": "G22 · Flame Lantern",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G22 · 불꽃등이",
+      "summary": "G22 · 불꽃등이",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G22-generated-G22-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G22-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G22 · 불꽃등이",
+        "en": "G22 · Flame Lantern"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G22-generated-G22-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G22-generated-G22-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G22-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G22-generated-G22-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "불꽃등이는 보존고 외벽의 젖은 철판과 측선 화차와 폐전지 결정 끝에 푸른 불꽃을 달고 있다. 불꽃은 작업등 앞에 있으며 배수로의 김 위에 낮게 떠 있다. 사람은 불꽃이 달린 채로 레일과 벽 쪽에 서 있거나 열차 지붕에 엎드려 있다.",
+        "en": "The Flame Lantern carries a blue flame on the wet steel plate of the preservation-vault outer wall, on the siding cars, and at the tips of the spent-battery crystals. The flame is in front of the work lamp and floats low over the steam of the drainage channel. The person, with the flame attached, stands toward the rail and the wall or lies prone on the train roof."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G22-generated-G22-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "도깨비불은 외벽 상단에 뜬 푸른 불꽃 여럿이다. 불귀신은 그 아래 측선 발판에 선 사람에게서 불꽃이 옷 밖으로 나온 모습이다. 화마는 곡물 열차 지붕에 엎드린 채 등의 불꽃이 화차 열 위에 누운 모습이다. 셋은 온배수 유입이 오래 이어진 같은 밤에 보존고 외벽에서 성하그룹 측선까지 이어진다.",
+        "en": "Dokkaebi Fire consists of several blue flames floating above the outer wall. Bulgwisin is the person on the siding platform below, with flames extending beyond the clothes. Hwama lies prone on a grain-train roof, its back flames stretched over the row of cars. All three extend from the preservation-vault wall to the Seongha Group siding on the same night of prolonged warm-drainage inflow."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G22-generated-G22-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G22-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G22-generated-G22-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "대한민국정부 지하 제습 실패 구간과 창동 차륜방 폐전지 임시 야적이 배수 유입이 많은 같은 시기에 물을 머금었다. 전지 상자 옆 철판에는 전해질 결정이 금속 가지처럼 자랐고, 젖은 철판을 따라 전류가 흐르자 가지 끝에서 불꽃이 튀었다.",
+            "en": "The failed dehumidification section beneath the Government of the Republic of Korea and the Changdong Wheel Chamber’s temporary spent-battery yard became wet during the same period of high drainage inflow. Electrolyte crystals grew like metal branches on steel plates beside the battery boxes. As current passed along the wet plates, sparks flashed at the branch tips."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "서울역 중앙 대한민국정부 지하 보존고 외벽이 불꽃이 머무는 자리다. 야적 검사가 늦은 주에는 불꽃이 강남선 성하그룹 측선 야적에 가 있다. 당산 냉동·종자 교환 회랑에서 온 습기 많은 곡물 열차의 지붕에 응결수가 맺혀 있고 그 옆에 불꽃이 잇따라 있다.",
+            "en": "The outer wall of the underground preservation vault of the Government of the Republic of Korea at central Seoul Station is where the flame stays. In weeks when yard inspection is late, the flame is at the Seongha Group siding yard on the Gangnam Line. Condensate beads on the roofs of the humid grain trains from the Dangsan Cold-Storage and Seed Exchange Corridor, and the flame continues beside that condensate."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "창동 차륜방 폐전지 상자가 측선 야적 앞줄에 놓여 있다. 당산 냉동·종자 교환 회랑 곡물 포대가 불꽃 앉은 화차에서 레일 밖으로 옮겨져 있다. 탄 포대 끈이 배수로 물에 떠 있다. 성하그룹 야적 장부가 차단기 집에 펼쳐져 있으며 화차 번호가 연필로 그어져 있다.",
+            "en": "Spent-battery boxes from the Changdong Wheel Chamber sit in the front row of the siding yard. Grain sacks of the Dangsan Cold-Storage and Seed Exchange Corridor have been moved off the rail from the car where the flame rests. Burned sack cords float on the drainage water. The Seongha Group yard ledger lies open in the breaker hut, and the car numbers are marked in pencil."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "외벽 철판을 두드리던 사람이 같은 철판 앞에 서 있다. 두드리던 손등에 푸른 불꽃이 붙어 있다. 무릎은 벽 하단 배수로 쪽에 있으며 어깨의 불꽃은 작업등 앞에 있다.",
+            "en": "The person who was striking the outer-wall steel plate stands before the same plate. A blue flame is fixed on the back of the hand that was striking. The knees are toward the drainage channel at the foot of the wall, and the flame at the shoulder is in front of the work lamp."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "불꽃등이는 서울역 중앙 대한민국정부 지하 보존고 외벽의 젖은 철판과 강남선 성하그룹 측선 곡물 화차 지붕의 김 쪽으로 몸이 가 있다. 고개는 측선 모퉁이 쪽이다. 손바닥은 창동 차륜방 폐전지 상자의 흰 결정이 선 면 쪽이다.",
+            "en": "The Flame Lantern's body is toward the wet steel plate of the outer wall of the underground preservation vault of the Government of the Republic of Korea at central Seoul Station and toward the steam on the roofs of the grain cars on the Seongha Group siding of the Gangnam Line. The head is toward the siding corner. The palms are toward the face of the spent-battery boxes from the Changdong Wheel Chamber where the white crystals stand."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "도깨비불은 보존고 외벽 상단에 떠 있다. 불귀신은 외벽 하단 측선 레일에 서 있으며 얼굴은 도깨비불 쪽이다. 화마는 불귀신 앞의 곡물 열차 지붕에 엎드려 있고 머리는 뚜껑이 흰 화차 쪽이다. 손등에 불꽃이 점으로 있는 사람들이 화차 사이 발판에 서 있다.",
+            "en": "Dokkaebi Fire floats at the top of the preservation-vault outer wall. Bulgwisin stands on the siding rail at the foot of the wall, and the face is toward Dokkaebi Fire. Hwama lies prone on the grain-train roof in front of Bulgwisin, and the head is toward the cars whose lids are pale. The people with a point of flame on the back of the hand stand on the steps between the cars."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G22-generated-G22-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G22-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G22-generated-G22-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "도깨비불은 서울역 중앙 대한민국정부 지하 보존고 외벽 상단에 있다. 불귀신은 외벽 하단에서 강남선 성하그룹 측선 첫 화차까지의 레일에 있다. 화마는 그 첫 화차에서 곡물 열차 후부까지의 지붕에 있다. 손등에 불꽃이 점으로 있는 사람들은 화마의 불꽃이 닿지 않은 화차 사이 발판에 있다.",
+        "en": "Dokkaebi Fire is at the top of the outer wall of the underground preservation vault of the Government of the Republic of Korea at central Seoul Station. Bulgwisin is on the rail from the foot of the wall to the first car of the Seongha Group siding on the Gangnam Line. Hwama is on the roofs from that first car to the rear of the grain train. The people with a point of flame on the back of the hand are on the steps between the cars that Hwama's flame does not reach."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G22-generated-G22-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G22E01 · 도깨비불",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G22",
+                  "anchor": "g22e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G22E01 · Dokkaebi Fire",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G22",
+                  "anchor": "g22e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "외벽 상단의 불꽃이 측선 모퉁이마다 서 있는 자리",
+            "en": "The place where the flames of the upper wall stand at each siding corner"
+          },
+          {
+            "ko": "보스",
+            "en": "Boss"
+          },
+          {
+            "ko": "M034",
+            "en": "M034"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G22E08 · 불귀신",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G22",
+                  "anchor": "g22e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G22E08 · Bulgwisin",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G22",
+                  "anchor": "g22e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "측선 첫 화차 발판에서 몸의 불꽃이 밖으로 나온 자리",
+            "en": "The place on the step of the first siding car where the body's flame has come outward"
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M035",
+            "en": "M035"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G22E15 · 화마",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G22",
+                  "anchor": "g22e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G22E15 · Hwama",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G22",
+                  "anchor": "g22e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "곡물 열차 지붕을 따라 등의 불꽃이 누워 있는 자리",
+            "en": "The place along the grain-train roof where the flame of the back lies"
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M036",
+            "en": "M036"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G22-generated-G22E01-title-heading-1",
+      "publicAnchors": [
+        "g22e01",
+        "Hostile-Group-G22-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G22E01 · 도깨비불",
+        "en": "G22E01 · Dokkaebi Fire"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G22-generated-G22E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M034",
+          "en": "Source batch: M034"
+        },
+        {
+          "ko": "기존 역할군: 보스",
+          "en": "Former role class: Boss"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP08\"],\"states\":[\"S06\",\"S11\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"houses\":[\"HP08\"],\"states\":[\"S06\",\"S11\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G22-generated-G22E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "외벽 상단의 불꽃이 측선 모퉁이마다 서 있는 자리",
+            "en": "The place where the flames of the upper wall stand at each siding corner"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "서울역 중앙 대한민국정부 지하 보존고 외벽 상단에서 강남선 성하그룹 측선 모퉁이까지이다.",
+            "en": "It runs from the top of the outer wall of the underground preservation vault of the Government of the Republic of Korea at central Seoul Station to the corner of the Seongha Group siding on the Gangnam Line."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M034-entries-7-prose-04025",
+      "items": [
+        {
+          "ko": "도깨비불이 대한민국정부 지하 보존고 외벽 상단에 떠 있다.",
+          "en": "Dokkaebi Fire floats at the top of the outer wall of the underground preservation vault of the Government of the Republic of Korea."
+        },
+        {
+          "ko": "푸른 불꽃이 여럿이며 배수로 김 위에도 불꽃 하나가 낮다.",
+          "en": "The blue flames are several, and one flame is also low over the steam of the drainage channel."
+        },
+        {
+          "ko": "작업등이 모퉁이를 비추면 다음 모퉁이의 불꽃이 작업등보다 앞에 있다.",
+          "en": "When the work lamp lights a corner, the flame of the next corner is in front of the work lamp."
+        },
+        {
+          "ko": "가장 큰 불꽃 안에 사람의 어깨와 손이 있으며 손끝이 밝다.",
+          "en": "A person's shoulder and hand are inside the largest flame, and the fingertips are bright."
+        },
+        {
+          "ko": "외벽에서 성하그룹 측선으로 꺾이는 모퉁이마다 같은 푸른 불꽃이 서 있다.",
+          "en": "The same blue flame stands at each corner where the outer wall turns onto the Seongha Group siding."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G22-generated-G22E08-title-heading-1",
+      "publicAnchors": [
+        "g22e08",
+        "Hostile-Group-G22-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G22E08 · 불귀신",
+        "en": "G22E08 · Bulgwisin"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G22-generated-G22E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M035",
+          "en": "Source batch: M035"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"states\":[\"S06\",\"S11\"],\"synthetics\":[\"F06\"]}",
+          "en": "Links: {\"states\":[\"S06\",\"S11\"],\"synthetics\":[\"F06\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G22-generated-G22E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "측선 첫 화차 발판에서 몸의 불꽃이 밖으로 나온 자리",
+            "en": "The place on the step of the first siding car where the body's flame has come outward"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "보존고 외벽 하단과 성하그룹 측선 첫 곡물 화차 발판 사이이다.",
+            "en": "It is between the foot of the preservation-vault outer wall and the step of the first grain car on the Seongha Group siding."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M035-entries-4-prose-04032",
+      "items": [
+        {
+          "ko": "불귀신이 강남선 성하그룹 측선의 첫 곡물 화차 발판에 서 있다.",
+          "en": "Bulgwisin stands on the step of the first grain car of the Seongha Group siding on the Gangnam Line."
+        },
+        {
+          "ko": "머리와 어깨의 불꽃이 옷깃 밖으로 나와 있다.",
+          "en": "The flame of the head and shoulders has come out past the collar."
+        },
+        {
+          "ko": "검게 갈라진 살 사이에서 불빛이 나온다.",
+          "en": "Light comes from between the black-split flesh."
+        },
+        {
+          "ko": "열린 입안의 불꽃이 턱 아래에 머문다.",
+          "en": "The flame in the open mouth stays below the chin."
+        },
+        {
+          "ko": "발밑 레일에 김이 서 있으며 화차의 포대 끈이 타 들어가 있다.",
+          "en": "Steam stands on the rail under the feet, and the sack cords of the car are burned through."
+        },
+        {
+          "ko": "불귀신의 등은 곡물 열차 쪽이며 얼굴은 외벽 상단 쪽이다.",
+          "en": "Bulgwisin's back is toward the grain train, and the face is toward the top of the outer wall."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G22-generated-G22E15-title-heading-1",
+      "publicAnchors": [
+        "g22e15",
+        "Hostile-Group-G22-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G22E15 · 화마",
+        "en": "G22E15 · Hwama"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G22-generated-G22E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M036",
+          "en": "Source batch: M036"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP08\"],\"states\":[\"S06\",\"S11\"],\"synthetics\":[\"F06\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"houses\":[\"HP08\"],\"states\":[\"S06\",\"S11\"],\"synthetics\":[\"F06\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G22-generated-G22E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "곡물 열차 지붕을 따라 등의 불꽃이 누워 있는 자리",
+            "en": "The place along the grain-train roof where the flame of the back lies"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "성하그룹 측선에 선 곡물 열차의 지붕 열과 폐전지 상자가 닿는 구간이다.",
+            "en": "It is the stretch where the row of grain-train roofs standing on the Seongha Group siding meets the spent-battery boxes."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M036-entries-1-prose-04039",
+      "items": [
+        {
+          "ko": "화마가 당산2동에서 봉인한 보관 곡물 화차의 지붕에 엎드려 있다.",
+          "en": "Hwama lies prone on the roof of the stored-grain cars sealed at Dangsan-2-dong."
+        },
+        {
+          "ko": "네 발이 화차 이음새에 걸쳐 있다.",
+          "en": "The four feet span the joints of the cars."
+        },
+        {
+          "ko": "머리는 뚜껑이 흰 화차 쪽이며 등의 불꽃은 뚜껑이 검게 말린 지붕 위에 누워 있다.",
+          "en": "The head is toward the cars whose lids are pale, and the flame of the back lies over the roofs whose lids are curled black."
+        },
+        {
+          "ko": "코에서 떨어진 불똥 아래의 침목이 붉다.",
+          "en": "The sleeper under the embers fallen from the nose is red."
+        },
+        {
+          "ko": "뒷발이 창동 차륜방 폐전지 상자 위를 누르고 있다.",
+          "en": "The hind feet press on the spent-battery boxes of the Changdong Wheel Chamber."
+        },
+        {
+          "ko": "화마의 머리는 불귀신이 선 화차의 다음 지붕에 있다.",
+          "en": "Hwama's head is on the next roof after the car where Bulgwisin stands."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G22-generated-G22-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G22-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-22-dossier_prose-01636",
+      "text": {
+        "ko": "서울역 중앙 대한민국정부 지하 보존고 외벽과 강남선 성하그룹 측선이 배수로 모퉁이에서 만난다. 온배수 유입이 오래 이어진 밤이다. 성하그룹 측선 야적 당직이 차단기 집에 있다. 외벽 철판에 물이 흐르고 있다. 당산2동에서 봉인한 보관 곡물 화차가 측선에 서 있으며 지붕에 응결수가 맺혀 있다. 창동 차륜방의 폐전지 상자가 배수로 쪽에 기대어 있으며 흰 결정 끝에서 푸른 불꽃이 튀고 있다.",
+        "en": "The outer wall of the underground preservation vault of the Government of the Republic of Korea at central Seoul Station and the Seongha Group siding of the Gangnam Line meet at the drainage corner. It is a night of prolonged warm-drainage inflow. The Seongha Group siding yard duty is in the breaker hut. Water runs on the steel plate of the outer wall. The stored-grain cars sealed at Dangsan-2-dong stand on the siding, and condensate beads on the roofs. Spent-battery boxes from the Changdong Wheel Chamber lean toward the drainage channel, and blue flame spits at the tips of the white crystals."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-22-dossier_prose-01637",
+      "text": {
+        "ko": "도깨비불이 외벽 상단에 떠 있다. 불꽃은 푸르고 여럿이며 하나는 배수로 김 위에 낮다. 야적 당직의 작업등이 모퉁이 철판을 비추면 다음 모퉁이에 불꽃이 먼저 가 있다. 가장 큰 불꽃 안에 사람의 어깨와 손이 있으며 손끝이 밝다. 불꽃의 아래쪽은 젖은 철판과 화차 지붕의 김 쪽이다. 손바닥이 향한 곳은 폐전지 상자의 흰 결정이 선 면이다.",
+        "en": "Dokkaebi Fire floats at the top of the outer wall. The flames are blue and several, and one is low over the steam of the drainage channel. When the yard duty's work lamp lights the steel plate of a corner, the flame is already at the next corner. A person's shoulder and hand are inside the largest flame, and the fingertips are bright. The lower side of the flame is toward the wet steel plate and the steam of the car roofs. The place the palms face is the face of the spent-battery boxes where the white crystals stand."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-22-dossier_prose-01638",
+      "text": {
+        "ko": "첫 곡물 화차 발판에 불귀신이 선다. 머리와 어깨에서는 불꽃이 밤공기 쪽으로 솟고, 검게 갈라진 살 사이에도 불빛이 돈다. 벌어진 입안의 불꽃은 턱 아래에 걸렸다. 발밑 레일에는 김이 서리고 포대 끈은 타 들어간다. 불귀신은 외벽 상단의 도깨비불을 향한다.",
+        "en": "Bulgwisin stands on the step of the first grain car. The flame of the head and shoulders has come out into the night air. The skin is split black, and light comes from the split places. The mouth is open, and the flame inside the mouth is below the chin. Steam stands on the rail under the feet. The sack cords are burned through. Bulgwisin's face is toward Dokkaebi Fire at the top of the outer wall."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-22-dossier_prose-01639",
+      "text": {
+        "ko": "곡물 열차 지붕에 엎드린 화마는 네 발을 화차 이음새에 걸쳤다. 흰 뚜껑의 화차 쪽을 바라보고, 등에 붙은 불꽃은 뚜껑이 검게 말린 지붕을 따라 길게 뻗는다. 코에서 떨어진 불똥 아래의 침목은 붉다. 뒷발 아래에는 폐전지 상자가 깔려 있고, 머리 앞 다음 화차 발판에는 불귀신이 서 있다.",
+        "en": "Hwama lies prone on the roof of the grain train. The four feet span the joints of the cars. The head is toward the cars whose lids are pale. The flame of the back lies long over the roofs whose lids are curled black. The sleeper under the embers fallen from the nose is red. Spent-battery boxes are under the hind feet. Bulgwisin stands on the next step of the car that Hwama's head faces."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-22-dossier_prose-01640",
+      "text": {
+        "ko": "같은 측선의 첫 밤에는 사람의 손등에 푸른 불꽃이 점으로 있다. 다음 밤에는 가슴의 불꽃이 작업등 유리에 비친다. 곡물 열차가 다시 들어찬 밤에는 불꽃이 화차 세 량의 이음새를 따라 이어져 있다.",
+        "en": "On the first night on the same siding a blue flame is a point on the back of a person's hand. On the next night the flame at the chest shows on the glass of the work lamp. On the night the grain train has come in again, the flame runs along the joints of three cars."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-22-dossier_prose-01641",
+      "text": {
+        "ko": "외벽 철판의 주먹 자국에 손을 얹은 사람의 손등에는 푸른 불꽃이 붙었다. 무릎은 벽 하단 배수로 쪽을 향하고, 어깨의 불꽃은 작업등보다 앞에 있다.",
+        "en": "A hand rests on the fist marks of the outer-wall steel plate. A blue flame is fixed on the back of that hand. The same person's knees are toward the drainage channel at the foot of the wall. The flame at the shoulder is in front of the work lamp."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-22-dossier_prose-01642",
+      "text": {
+        "ko": "도깨비불은 외벽 상단에 있다. 불귀신은 외벽 하단 레일에 서 있다. 화마는 불귀신 앞 열차 지붕에 엎드려 있다. 손등에 불꽃이 점으로 있는 사람들이 화차 사이 발판에 서 있다. 폐전지 상자가 야적 앞줄에 놓여 있다. 곡물 포대가 불꽃 앉은 화차에서 레일 밖으로 옮겨져 있다. 탄 포대 끈이 배수로 물에 떠 있다.",
+        "en": "Dokkaebi Fire is at the top of the outer wall. Bulgwisin stands on the rail at the foot of the wall. Hwama lies prone on the train roof in front of Bulgwisin. The people with a point of flame on the back of the hand stand on the steps between the cars. Spent-battery boxes sit in the front row of the yard. Grain sacks have been moved off the rail from the car where the flame rests. Burned sack cords float on the drainage water."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-22-dossier_prose-01643",
+      "text": {
+        "ko": "차단기 집에 대한민국정부 당직 표찰과 성하그룹 당직 표찰이 나란히 걸려 있다. 노량진냉동상단 외벽 열쇠가 야적 당직의 순찰 고리에 달려 있다. 승강기축 순찰등의 전지가 선반에 따로 놓여 있다. 당산2동에서 봉인한 보관 곡물 화차가 성하그룹 야적 검사보다 먼저 측선에 서 있다. 보존고 외벽 순찰의 장화와 야적 당직의 장화가 같은 차단기 앞에 놓여 있다. 측선 차단기가 내려져 있다. 소화 모래가 폐전지 상자 앞 레일에 폭으로 놓여 있다. 장갑 한 짝이 레일 옆에서 타 있다. 알곡이 침목 사이에 깔려 있다. 작업등 유리가 열로 갈라져 있다. 야적 당직은 검사등을 측선 입구에 켜 둔 채 차단기 집에 있다. 보존고 외벽 순찰은 모퉁이 안쪽 계단에 서 있다.",
+        "en": "A Republic of Korea Government duty tag and a Seongha Group duty tag hang side by side in the breaker hut. The Noryangjin Cold-Storage Guild outer-wall key is on the yard duty's patrol ring. The cell of the Elevator Shaft patrol lamp lies separate on the shelf. The stored-grain cars sealed at Dangsan-2-dong stand on the siding ahead of the Seongha Group yard inspection. The boots of the preservation-vault outer-wall patrol and the boots of the yard duty sit before the same breaker. The siding breaker is down. Fire sand lies the width of the rail in front of the spent-battery boxes. One glove is burned beside the rail. Grain is strewn between the sleepers. The work-lamp glass is split by heat. The yard duty is in the breaker hut with the inspection lamp lit at the siding entrance. The preservation-vault outer-wall patrol stands on the stair inside the corner."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The Flame Lantern carries a blue flame on the wet steel plate of the preservation-vault outer wall, on the siding cars, and at the tips of the spent-battery crystals. The flame is in front of the work lamp and floats low over the steam of the drainage channel. The person, with the flame attached, stands toward the rail and the wall or lies prone on the train roof.",
+        "ko": "불꽃등이는 보존고 외벽의 젖은 철판과 측선 화차와 폐전지 결정 끝에 푸른 불꽃을 달고 있다. 불꽃은 작업등 앞에 있으며 배수로의 김 위에 낮게 떠 있다. 사람은 불꽃이 달린 채로 레일과 벽 쪽에 서 있거나 열차 지붕에 엎드려 있다."
+      },
+      "variants": [
+        {
+          "id": "G22E01",
+          "source_batch": "M034"
+        },
+        {
+          "id": "G22E08",
+          "source_batch": "M035"
+        },
+        {
+          "id": "G22E15",
+          "source_batch": "M036"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

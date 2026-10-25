@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "provenance": "TESTINPUT",
+  "approval": "Geometry and structural weight are TESTINPUT, pending GP approval. Production rate is zero; no canonical ecology, pacing or levels inferred.",
+  "candidate": { "troopId": "troop_slime", "enemyId": "enemy_slime", "resourceId": "generated-enemy-slime-01", "usage": "Engine bundled game-use reference only; no asset copied." },
+  "maps": {
+    "station-59656f6e676465756e67706f": {
+      "encounterRate": 0,
+      "troopIds": [],
+      "encounterTable": [],
+      "safeZones": [{ "x": 0, "y": 0, "w": 32, "h": 20 }]
+    },
+    "station-53696e646f72696d": {
+      "encounterRate": 0,
+      "troopIds": [],
+      "encounterTable": [{ "troopId": "troop_slime", "weight": 1, "conditions": { "region": { "x": 8, "y": 5, "w": 12, "h": 1 } } }],
+      "safeZones": [{ "x": 0, "y": 0, "w": 8, "h": 20 }, { "x": 20, "y": 0, "w": 12, "h": 20 }, { "x": 8, "y": 0, "w": 12, "h": 5 }, { "x": 8, "y": 6, "w": 12, "h": 14 }]
+    },
+    "station-4775726f": {
+      "encounterRate": 0,
+      "troopIds": [],
+      "encounterTable": [],
+      "safeZones": [{ "x": 0, "y": 0, "w": 32, "h": 20 }]
+    }
+  }
+}

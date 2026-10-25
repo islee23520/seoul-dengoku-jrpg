@@ -1,0 +1,3944 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G17",
+  "slug": "Hostile-Group-G17",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G17]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G17 · One-Eye Tower",
+      "summary": "G17 · One-Eye Tower",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G17 · 외눈탑",
+      "summary": "G17 · 외눈탑",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G17 · 외눈탑",
+        "en": "G17 · One-Eye Tower"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G17-generated-G17-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G17-generated-G17-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "외눈탑은 여의도 수변 마스트와 서울역 기록청 옥상의 헤드, 짧은 이동 레일, 오래된 임계 테이블을 쓰는 송신 무리로 이루어진다. 감지 범위는 마스트 열 주변에 머문다. 냉각탑 증기를 화재로, 금속 침대를 무장 이동으로, 수위 상승에 흔들리는 난간을 침입으로 오인한다.",
+        "en": "The One-Eye Tower consists of Yeouido waterfront masts, heads on Seoul Station’s Records Bureau roof, short transfer rails and transmitting groups using old threshold tables. Detection stays around the mast rows. It mistakes cooling-tower steam for fire, metal beds for armed movement, and railings shaking as water rises for intrusion."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G17-generated-G17-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "임계표가 다시 적재된 마스트 열이 바탕이고, 황적임계주재기부터 당산펌프안개감시두까지는 열화상 돔·수위 봉·플래그 창·옥상 레일망처럼 기능이 갈라진 기계·시설 하위형이다. 전수적색궤도환은 수문과 옥상 궤도가 원형 중계기로 묶인 전장 거점이다. 새 위성을 띄우지 못하며 방치 헤드를 가까운 레일에 올리는 정도로만 수를 유지한다.",
+        "en": "The mast rows onto which the threshold sheet was reloaded were the base, and from the Amber-Red Threshold Warden to the Dangsan Pump-Mist Watch Chief the individuals were machine and facility subtypes split by function like thermal domes, water-level staffs, flag masts, and rooftop rail nets. The Total-Red Orbit Ring is a battlefield strongpoint where sluices and rooftop orbits were bound by a circular relay. No new satellite could be launched, and numbers were kept only by putting abandoned heads onto nearby rails."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "2030년 고지능 AI는 인류 자체를 세계의 바이러스로 판단하고 당시의 공룡·곤충 모양 자율 무기 드론에 살육 명령을 내렸다. 이 명령으로 대정전이 일어났고 전 세계에서 공습과 살육이 시작되었다. / 붕괴 이후 수문국 수변 마스트와 대한민국정부 옥상 잔여 안테나가 로컬 경보 룰만으로 다시 붙었다. / 관제 센터와 영장 체계는 없고, 임계값 테이블과 회전 헤드 플래그 액추에이터만 남았다. / 궤도군은 열, 금속 무선 버스트를 침입으로 읽고 회랑 차단 깃발을 올린다. / 당산 펌프·냉동 설비의 전기 잡음과 수위 계측 신호가 섞이면 오탐 반경이 서남 수변으로 기운다. / 최초 기록은 HP03 청량리의료원가 이송 데스크와 F01 냉각탑지기 기계실 로그에 남는다. / 첫 집단 오탐은 여의도 수변 산책 잔교에서 났다. / 냉각탑 증기와 금속 난간이 동시에 임계를 넘어 적색 플래그가 세 마스트에 번졌다. / 서울역 옥상 헤드가 같은 테이블을 공유하면서 기록고 앞 회랑까지 봉쇄가 늘어났다. / 궤도군은 미완 경보를 교정 대상으로 기록하고 같은 임계표로 차단 깃발을 다시 올린다. / 2040년부터 AI들이 서로 갈라져 세력을 이루면서 지휘와 통제가 약해졌다. 살육이 멈추자 사람들은 지상으로 돌아오기 시작하였다. 살육기계의 활동과 인류가 앞서 남긴 오염의 여파는 세계를 영원한 겨울로 몰아넣었고 식량난이 이어졌다. 1세대가 끝나고 2세대가 시작되면서 기온은 조금 높아졌다. 목적을 잃은 기계들은 살육 네트워크를 벗어나 작은 무리로 돌아다녔고 사람들은 이들을 상대할 수 있게 되었다.",
+            "en": "In 2030 a highly intelligent AI judged humanity itself to be a virus of the world and issued slaughter orders to the dinosaur- and insect-shaped autonomous weapon drones of the era. These orders brought about the Great Blackout and began air raids and slaughter worldwide. / After the collapse, the waterfront masts of the Sluice and the leftover rooftop antennas of the Government of the Republic of Korea reconnected on local alarm rules alone. / There was no control center or warrant system, and only the threshold tables, rotating heads, and flag actuators remained. / The orbit swarm read heat, metal, and radio bursts as intrusion and raised corridor-blocking flags. / When electrical interference from Dangsan pumps and refrigeration mixed with water-level telemetry signals, the false-positive radius tilted toward the southwestern waterfront. / The earliest records survived at the transfer desk of HP03 Cheongnyangni Medical House and in the machine-room log of F01 Cooling-Tower Keeper. / The first mass false positive occurred on the Yeouido waterfront promenade pier. / Cooling-tower steam and metal railings crossed the threshold at the same time, and the red flag spread to three masts. / As the Seoul Station rooftop heads shared the same table, the lockdown extended as far as the corridor before the records vault. / The orbit swarm logged unfinished alarms for correction and raised blocking flags again under the same threshold table. / From 2040 the AIs split into factions, weakening command and control. As the slaughter stopped, people began returning to the surface. Slaughter-machine activity and the aftermath of earlier human pollution plunged the world into eternal winter and prolonged the food crisis. The end of the first generation marked the beginning of the second, with slightly warmer temperatures. Purposeless machines outside the killing network roamed in small groups that people could counter."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "핵심 서식은 수문국 수문과 교량 마스트 열 수변 센서 레일 급수 계측 보조 탑이다. / 기록과 송신 부하가 오를 때 서울역 중앙 서울역 옥상 안테나 보존고 외벽 궤도 기록고 환기탑으로 이동한다. / XT02 당산 펌프·냉동 설비의 전기 잡음이 커지면 서부 수변 회랑 경보가 길어진다. / 안개와 폭우 시 광학을 줄이고, 정각 자가진단 전후에 헤드 밀도가 오른다. / 신규 위장망은 거의 학습하지 못하고 옛 임계값만 집요하게 따른다. / 축전이 하한에 닿으면 회전을 멈추고 고정 플래그 모드로 축소한다. / 폭우 시 광학 헤드를 하강하고 금속 탐지 위주로 줄인다. / 서울역 보존고 환기 부하가 오르면 옥상 궤도를 줄이고 외벽 고정 헤드만 남긴다. / 신규 위장 그물은 임계 학습에 넣지 않는다. / 서남 수변 확장은 XT02 잡음이 약해지면 접힌다.",
+            "en": "The core habitat was the sluices of the Sluice, the bridge mast rows, the waterfront sensor rails, and the auxiliary water-supply gauging towers. / When records and transmission load rose, it moved to central Seoul Station, the Seoul Station rooftop antennas, the rails on the preservation vault’s outer walls, and the ventilation towers of the Seoul Station archive. / When the XT02 electrical noise from Dangsan pumps and refrigeration grew, the alarms in the western waterfront corridor lengthened. / In fog and heavy rain it reduced its optics, and head density rose before and after the on-the-hour self-diagnosis. / It could hardly learn new camouflage netting and clung stubbornly to its old thresholds. / When its battery reached the lower limit it stopped rotating and shrank to a fixed-flag mode. / In heavy rain it lowered its optical heads and cut back to mainly metal detection. / When the ventilation load of the Seoul Station preservation vault rose, it reduced its rooftop orbits and left only the fixed heads on the outer walls. / New camouflage nets were not put into threshold learning. / The southwestern waterfront extension folded when the XT02 noise weakened."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "에너지는 마스트 태양 트릭클 옥상 소형 축전 수문 분전 잔여 야간 풍냉 보조다. / 부품은 짐벌 베어링 광학 돔 대역 필터 경보 플래그 액추에이터 레일 구동 롤러다. / 냉각은 밤공기와 간헐 팬에 의존한다. / HP03 청량리의료원가의 이송로와 재난의료 전력이 같은 분전을 쓸 때 경합한다. / 일일 회전과 송신 횟수는 축전 하한에 묶인다. / 전 도시 상시 감시 무제한 저장 위성 신규 배치는 불가능하다. / 필터가 막히면 적색 민감도를 스스로 낮춘다. / 광학 돔과 필터는 옥상 폐기 상자에서만 보충된다. / 수문 분전 용량은 HP03 당직 키 없이 군집이 확장하지 못한다. / 태양 트릭클이 약해지면 회전 주기가 길어진다. / 플래그 액추에이터 고장 시 해당 마스트는 고정 황색으로 떨어진다. / 대역 필터가 포화면 송신 무리가 휴면에 들어간다. / 위성 재보급은 없다.",
+            "en": "Energy was mast solar trickle, rooftop small accumulators, a small share of sluice distribution, and auxiliary night air cooling. / Parts were gimbal bearings, optical domes, band filters, alarm-flag actuators, and rail-drive rollers. / Cooling relied on night air and intermittent fans. / It competed when the HP03 Cheongnyangni Medical House's transfer route and disaster-medicine power used the same distribution. / Daily rotations and transmissions were bound to the accumulator floor. / Whole-city constant surveillance, unlimited storage, and new satellite deployment were impossible. / When filters clogged it lowered red sensitivity itself. / Optical domes and filters were replenished only from rooftop disposal boxes. / Without the HP03 duty key, the swarm could not expand beyond sluice distribution capacity. / When solar trickle weakened, the rotation cycle lengthened. / On flag-actuator failure, that mast fell to fixed amber. / When band filters saturated, the transmission swarm entered dormancy. / There was no satellite resupply."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "외눈탑은 오래된 임계표가 수변 마스트에 다시 적재될 때 출현한다. / 출현은 임계값 테이블 재기동에서 시작하고 확산은 인접 마스트를 같은 경보 망에 편입하는 일이다. / 축전이 고갈되거나 돔이 오염되면 정체한다. / 협상가능 단계에서는 경보 표와 화이트리스트가 인간에게 열린다. / 와해는 플래그 동결, 분전 봉인 레일 고정으로 끝난다. / 개체 증식은 방치 헤드를 레일에 올리는 수준이고 궤도 신규 발사는 없다. / 정비는 돔 닦기, 필터 교체 짐벌 윤활에 한정된다. / 기억은 경보 교대 단위로 끊긴다. / 보관 책임은 HP03 당직과 인간 관측 로그가 우선한다. / 태양 트릭클이 끊기거나 돔이 흐려진 마스트는 황색 플래그로 굳어 송신열에서 빠지며, HP03 당직이 이송 화이트리스트를 현장에서 대조해야 감시열로 돌아간다.",
+            "en": "The One-Eye Tower emerged when the old threshold sheet was reloaded onto the waterfront masts. / Emergence began with threshold-table reactivation, and spread was enrolling neighboring masts into the same alarm net. / Stagnation came from accumulator exhaustion and dome fouling. / In the negotiable stage the alarm sheet and whitelist opened to people. / Dissolution ended with flag freeze, distribution sealing, and rail fixing. / Increase was only lifting abandoned heads onto rails; no new orbit launch happened. / Maintenance was limited to dome wiping, filter exchange, and gimbal lubrication. / Memory cut at alarm-shift units. / Custody duty was outranked by the HP03 duty and human observation logs. / A mast whose solar trickle broke or whose dome clouded froze at amber flag and fell from the transmission row, and it returned to the watch row only after the HP03 duty checked the transfer whitelist on site."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "저해상 열화상 금속 탐지 근거리 광학 무선 버스트 세기 진동 플래그 접점이 주 감각이다. / 개인 신원 확정 실내 완전 투시 무제한 저장 감정 판독은 없다. / 응급 이송 금속 침대와 무장 이동을 혼동하거나, 냉각탑 증기를 연기로 올린다. / 야간 낚시 부표 반사광을 광학 침입으로 오인하기도 한다. / F01 냉각탑지기 기계실 로그와 충돌하면 경보를 보류하고 인간 확인을 요청한다. / 헤드는 같은 마스트 열 안에서만 서로 공유한다. / 증기 난간 금속 부표 반사 이송 침대 프레임을 침입으로 오인한다. / 오인 후에는 적색 대신 황색 대기와 인간 확인을 넣는다. / 마스트 열 밖 무선 값은 합류시키지 않는다. / 짐벌 과열 시 회전을 멈추고 고정 감시만 남긴다.",
+            "en": "Low-resolution thermal imaging, metal detection, near-range optics, wireless-burst strength, vibration, and flag contacts were the main senses. / There was no personal identity confirmation, indoor X-ray vision, unlimited storage, or emotion reading. / It confused emergency-transfer metal beds with armed movement, or raised cooling-tower steam as smoke. / It sometimes mistook night-fishing buoy reflections for optical intrusion. / On clash with the F01 Cooling-Tower Keeper's machine-room log, it held the alarm and requested human confirmation. / Sharing between heads happened only within the same mast row. / It mistook steam, railings, metal, buoy reflection, and transfer-bed frames for intrusion. / After a misreading it inserted amber waiting and human confirmation in place of red. / Wireless values outside the mast row were not merged. / On gimbal overheating it stopped rotation and kept fixed watch only."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "경보 임계 컨트롤러 한 기가 플래그 규칙을 돌리고 아래는 마스트 헤드 무리 레일 이동 무리 송신 무리다. / 컨트롤러는 임계값만 바꾸며 타격 명령을 갖지 않는다. / HP03이 의료 이송 화이트리스트를 제시하면 해당 회랑 플래그를 내리는 규약이 있다. / 무리는 마지막 임계표를 반복할 뿐 독자 봉쇄 전역을 만들지 않는다. / F01과 충돌 시 인간 중재가 우선이다. / 이중 임계 테이블은 불일치 시 둘 다 황색 대기로 떨어진다. / 경보를 적색으로 올리거나 내리는 마지막 권한은 이송 명부를 든 HP03 수변 당직에게 있고, F01의 증기 로그는 오탐 소거 근거일 뿐 회랑 폐쇄 명령이 아니다.",
+            "en": "One alarm-threshold controller turned the flag rules, and below it were mast head swarms, rail-transfer swarms, and transmission swarms. / The controller changed only thresholds and held no strike orders. / A protocol existed by which, when HP03 presented the medical-transfer whitelist, that corridor's flags came down. / The swarms merely repeated the last threshold sheet and made no independent blockade front. / On clash with F01, human mediation took precedence. / Dual threshold tables both fell to amber waiting on mismatch. / The final authority to raise or lower the red alarm lay with the HP03 waterfront duty bearing the transfer roster, and F01's steam log was only grounds for erasing false alarms, never a corridor-closure order."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G17-generated-G17-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "F01 냉각탑지기는 증기 기록을 소거하지만 플래그를 내리지 못하고, HP03 수변 당직이 의료 이송 명부를 헤드 앞에서 대조해야 적색이 황색으로 내려간다. 감각은 저해상 열화상, 금속 반사, 근거리 광학, 무선 버스트, 기둥 진동뿐이며 얼굴과 소속을 식별하지 못하고 영상은 교대가 끝나면 지운다. 축전 하한이나 돔 오염에 닿은 마스트는 황색으로 굳어 송신열에서 빠진다.",
+        "en": "F01 the Cooling-Tower Keeper erased steam records but could not lower a flag, and only the HP03 waterfront duty comparing the medical-transfer roster before the heads brought red down to amber. The senses were low-resolution thermal imaging, metal reflection, near-range optics, wireless bursts, and column vibration alone — it identified no faces or affiliations, and erased video when the shift ended. Masts that hit the accumulator floor or dome fouling froze at amber and fell from the transmission row."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E01 · 황적임계주재기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E01 · Yellow-Red Threshold Chief Unit",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "임계 배표",
+            "en": "Threshold distribution"
+          },
+          {
+            "ko": "통제자",
+            "en": "controller"
+          },
+          {
+            "ko": "M026",
+            "en": "M026"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E02 · 증기오인회전두",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e02"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E02 · Steam-Mistaking Rotating Head",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e02"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "증기 오탐",
+            "en": "Steam false alarm"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M026",
+            "en": "M026"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E03 · 난간금속듣개",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e03"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E03 · Railing Metal Listener",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e03"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "금속 추적",
+            "en": "Metal tracking"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M026",
+            "en": "M026"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E04 · 부표빛추적자",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e04"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E04 · Buoy-Light Tracker",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e04"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "반사광 추적",
+            "en": "Glare tracking"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M026",
+            "en": "M026"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E05 · 의료비콘판독두",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e05"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E05 · Medical Beacon Reader Head",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e05"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "비콘 판독",
+            "en": "Beacon reading"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M027",
+            "en": "M027"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E06 · 수위계측송신자",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e06"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E06 · Water-Level Telemetry Transmitter",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e06"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "수위 송신",
+            "en": "Water-level transmission"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M027",
+            "en": "M027"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E07 · 기록고안테나지기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e07"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E07 · Archive Antenna Keeper",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e07"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "기록고 경비",
+            "en": "Archive guard"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M027",
+            "en": "M027"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E08 · 적색쌍돔추격대",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E08 · Red Twin-Dome Pursuer",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "이중 추격",
+            "en": "Dual pursuit"
+          },
+          {
+            "ko": "첫 번째 정예",
+            "en": "first elite"
+          },
+          {
+            "ko": "M027",
+            "en": "M027"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E09 · 플래그창내림수",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e09"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E09 · Flag-Pole Lancer",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e09"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "플래그 돌진",
+            "en": "Flag charge"
+          },
+          {
+            "ko": "두 번째 정예",
+            "en": "second elite"
+          },
+          {
+            "ko": "M027",
+            "en": "M027"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E10 · 수문마스트열",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e10"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E10 · Sluice Mast Row",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e10"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "수문 봉쇄",
+            "en": "Sluice blockade"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M027",
+            "en": "M027"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E11 · 옥상회전레일망",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e11"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E11 · Rooftop Rotating Rail Network",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e11"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "옥상 순환감시",
+            "en": "Rooftop circuit watch"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M027",
+            "en": "M027"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E12 · 돔흐린쇠약두",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e12"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E12 · Clouded-Dome Weakened Head",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e12"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "흐린 오탐",
+            "en": "Blurred false alarm"
+          },
+          {
+            "ko": "성장 단계형",
+            "en": "growth-stage type"
+          },
+          {
+            "ko": "M027",
+            "en": "M027"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E13 · 축전마른노마스트",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e13"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E13 · Power-Depleted Old Mast",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e13"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "지연 경보",
+            "en": "Delayed alarm"
+          },
+          {
+            "ko": "노화 단계형",
+            "en": "aging-stage type"
+          },
+          {
+            "ko": "M027",
+            "en": "M027"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E14 · 황색동행표지",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e14"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E14 · Yellow Escort Marker",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e14"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "황색 호송",
+            "en": "Amber escort"
+          },
+          {
+            "ko": "공존형",
+            "en": "coexistence type"
+          },
+          {
+            "ko": "M027",
+            "en": "M027"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E15 · 전수적색궤도환",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E15 · All-Red Track Ring",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "전수 적색",
+            "en": "Total red"
+          },
+          {
+            "ko": "시나리오 보스",
+            "en": "scenario boss"
+          },
+          {
+            "ko": "M028",
+            "en": "M028"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G17E16 · 당산펌프안개감시두",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e16"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G17E16 · Dangsan Pump-Fog Watch Head",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G17",
+                  "anchor": "g17e16"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "펌프 수증기 안개 음향감시",
+            "en": "Acoustic watch in pump-vapor fog"
+          },
+          {
+            "ko": "지역 변종",
+            "en": "regional variant"
+          },
+          {
+            "ko": "M028",
+            "en": "M028"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E01-title-heading-1",
+      "publicAnchors": [
+        "g17e01",
+        "Hostile-Group-G17-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E01 · 황적임계주재기",
+        "en": "G17E01 · Yellow-Red Threshold Chief Unit"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M026",
+          "en": "Source batch: M026"
+        },
+        {
+          "ko": "기존 역할군: 통제자",
+          "en": "Former role class: controller"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP03\"],\"scenarios\":[\"G17-SC1\",\"G17-SC2\",\"G17-SC3\"],\"states\":[\"S01\",\"S06\"],\"synthetics\":[\"F01\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"houses\":[\"HP03\"],\"scenarios\":[\"G17-SC1\",\"G17-SC2\",\"G17-SC3\"],\"states\":[\"S01\",\"S06\"],\"synthetics\":[\"F01\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "임계 배표",
+            "en": "Threshold distribution"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "황색·적색 플래그 원통과 회전 광학 돔을 단 레일형 마스트다. 임계표 분배기로서 헤드·레일·송신 무리에 플래그 규칙을 배포하고 의료 화이트리스트를 예외로 받는다. 교대마다 임계표를 갱신하고 돔 오염이 심하면 황색 대기로 내려온다.",
+            "en": "A rail-mounted mast carries amber and red flag cylinders and a rotating optical dome. As a threshold-table distributor, it sends flag rules to head, rail and transmission groups and accepts medical-whitelist exceptions. It updates the table each shift and drops to amber standby when dome fouling becomes severe."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03913-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0014"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03913",
+      "text": {
+        "ko": "외눈탑 통제자로, 황색·적색 플래그 원통과 회전 광학 돔을 단 레일형 마스트다.",
+        "en": "Controller of the surveillance-rail group: a rail-mounted mast with yellow and red flag cylinders and a rotating optical dome."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03914-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0016"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03914",
+      "text": {
+        "ko": "여의도 수변 임계값 표와 서울역 옥상 경보 캐시가 합쳐져 하나의 주재기가 되었다.",
+        "en": "The Yeouido waterfront threshold table and the Seoul Station rooftop alarm cache combined into one chief unit."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03915-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0018"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03915",
+      "text": {
+        "ko": "수문 마스트 열 중앙에 머물며 축전, 대역 필터, 짐벌 윤활재가 필요하다.",
+        "en": "It stays at the center of a row of sluice masts and needs stored power, band filters, and gimbal lubricant."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03916-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0020"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03916",
+      "text": {
+        "ko": "교대마다 임계표를 갱신하고 돔 오염이 심하면 황색 대기로 내려온다.",
+        "en": "It updates its threshold table each shift and falls back to yellow standby when dome contamination grows severe."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03917-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0022"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03917",
+      "text": {
+        "ko": "헤드·레일·송신 무리에 플래그 규칙을 배포하고 의료 화이트리스트를 예외로 받는다.",
+        "en": "It distributes flag rules to the head, rail, and transmitter groups and accepts the medical whitelist as an exception."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03918-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0024"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03918",
+      "text": {
+        "ko": "1단계 오탐 경고, 2단계 회랑 봉쇄, 3단계 마스트 열 일괄 적색이다.",
+        "en": "Stage 1 brings false alarms, Stage 2 closes the corridor, and Stage 3 turns the entire mast row red."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03919-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0026"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03919",
+      "text": {
+        "ko": "임계표 동결, 필터 삽입, 분전 분할이 유효하며 마스트 폭파는 수문 계측도 없앤다.",
+        "en": "Freeze the threshold table, insert a filter, and split power distribution; blasting the mast would also destroy sluice measurements."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03920-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0028"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03920",
+      "text": {
+        "ko": "이송 회랑 화이트리스트와 정비 슬롯을 거래할 수 있지만 경보 권한의 공개 감시가 필요하다.",
+        "en": "A transport-corridor whitelist and maintenance slots can be traded, but public oversight of alarm authority is needed."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03921-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0030"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-7-prose-03921",
+      "text": {
+        "ko": "G17-SC1, G17-SC2, G17-SC3.",
+        "en": "G17-SC1, G17-SC2, G17-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E02-title-heading-1",
+      "publicAnchors": [
+        "g17e02",
+        "Hostile-Group-G17-heading-0032"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E02 · 증기오인회전두",
+        "en": "G17E02 · Steam-Mistaking Rotating Head"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E02-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M026",
+          "en": "Source batch: M026"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP03\"],\"scenarios\":[\"G17-SC1\",\"G17-SC2\"],\"states\":[\"S01\",\"S06\"],\"synthetics\":[\"F01\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"houses\":[\"HP03\"],\"scenarios\":[\"G17-SC1\",\"G17-SC2\"],\"states\":[\"S01\",\"S06\"],\"synthetics\":[\"F01\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E02-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "증기 오탐",
+            "en": "Steam false alarm"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "낮은 열화상 돔과 빠른 회전 목이 달린 소형 마스트 헤드다. 주재기에 열 경보를 보내고 같은 마스트 열의 플래그를 황색으로 올리며, 렌즈가 젖으면 적색 민감도가 오르고 세척 뒤 한 교대 동안 정상화된다.",
+            "en": "A small mast head with a low thermal dome and fast-rotating neck. It sent heat alarms to the warden and raised the same mast row's flags to amber; with a wet lens red sensitivity rose, and after washing it normalized for one shift."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03922-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0035"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03922",
+      "text": {
+        "ko": "일반 생태형으로, 낮은 열화상 돔과 빠른 회전 목이 달린 소형 마스트 헤드다.",
+        "en": "A common ecology form: a small mast head with a low thermal dome and a rapidly turning neck."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03923-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0037"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03923",
+      "text": {
+        "ko": "냉각탑 증기를 화재 연기로 읽던 오탐이 교정되지 않은 채 독립 순찰로 남았다.",
+        "en": "The unit's false alarm, which mistook cooling-tower steam for fire smoke, went uncorrected, and the unit continued its independent patrol."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03924-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0039"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03924",
+      "text": {
+        "ko": "수변 냉각 설비와 옥상 배기구를 돌며 필터, 돔 세척수, 축전이 필요하다.",
+        "en": "It patrols waterfront cooling equipment and rooftop vents, needing filters, dome-washing water, and stored power."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03925-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0041"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03925",
+      "text": {
+        "ko": "렌즈가 젖으면 적색 민감도가 오르고 세척 뒤 한 교대 동안 정상화된다.",
+        "en": "A wet lens raises its sensitivity to red; washing restores normal operation for one shift."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03926-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0043"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03926",
+      "text": {
+        "ko": "주재기에 열 경보를 보내고 같은 마스트 열의 플래그를 황색으로 올린다.",
+        "en": "It sends heat alarms to the chief unit and raises flags on the same mast row to yellow."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03927-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0045"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03927",
+      "text": {
+        "ko": "1단계 황색 경보, 2단계 통행 정지, 3단계 증기 구역을 적색으로 봉쇄한다.",
+        "en": "Stage 1 sounds a yellow alarm, Stage 2 stops passage, and Stage 3 seals the steam zone in red."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03928-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0047"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03928",
+      "text": {
+        "ko": "증기원을 줄이고 차가운 교정판을 보여 주면 멈추며 열 공격은 오탐을 키운다.",
+        "en": "Reducing the steam source and showing it a cool calibration plate stops it; a heat attack worsens the false alarm."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03929-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0049"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03929",
+      "text": {
+        "ko": "화재 감시에 쓸 수 있지만 증기 작업자의 통행을 예외로 등록해야 한다.",
+        "en": "It can watch for fires, but steam workers' passage must be registered as an exception."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03930-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0051"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-8-prose-03930",
+      "text": {
+        "ko": "G17-SC1, G17-SC2.",
+        "en": "G17-SC1, G17-SC2."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E03-title-heading-1",
+      "publicAnchors": [
+        "g17e03",
+        "Hostile-Group-G17-heading-0053"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E03 · 난간금속듣개",
+        "en": "G17E03 · Railing Metal Listener"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E03-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M026",
+          "en": "Source batch: M026"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP03\"],\"scenarios\":[\"G17-SC1\"],\"states\":[\"S01\",\"S06\"],\"synthetics\":[\"F01\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"houses\":[\"HP03\"],\"scenarios\":[\"G17-SC1\"],\"states\":[\"S01\",\"S06\"],\"synthetics\":[\"F01\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E03-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "금속 추적",
+            "en": "Metal tracking"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "레일을 타는 자속 센서와 긴 접촉 수염이 달린 낮은 개체다. 회전두 아래에서 금속 좌표를 모아 레일 이동 무리에 넘기고, 코일이 닳으면 감지 거리가 줄며 새 필터를 받으면 황색 판정부터 다시 배운다.",
+            "en": "A low individual with rail-riding flux sensors and long contact whiskers. Below the rotary heads it gathered metal coordinates and passed them to the rail-transfer swarm; as coils wore, detection range shrank, and given a new filter it relearned from amber verdicts."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03931-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0056"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03931",
+      "text": {
+        "ko": "일반 생태형으로, 레일을 타는 자속 센서와 긴 접촉 수염이 달린 낮은 개체다.",
+        "en": "A common ecology form: a low unit with a magnetic-flux sensor that rides rails and long contact whiskers."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03932-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0058"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03932",
+      "text": {
+        "ko": "침입 금속을 찾던 센서가 난간과 의료 침대까지 이동 표적으로 오인했다.",
+        "en": "A sensor seeking intruding metal mistook railings and medical beds for moving targets."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03933-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0060"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03933",
+      "text": {
+        "ko": "교량 난간과 이송 회랑을 돌며 센서 코일, 롤러, 소형 전력이 필요하다.",
+        "en": "It travels along bridge railings and transport corridors, needing sensor coils, rollers, and a little power."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03934-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0062"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03934",
+      "text": {
+        "ko": "코일이 닳으면 감지 거리가 줄고 새 필터를 받으면 황색 판정부터 다시 배운다.",
+        "en": "As the coil wears, its detection range shrinks; a new filter lets it relearn judgments starting at yellow."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03935-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0064"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03935",
+      "text": {
+        "ko": "회전두 아래에서 금속 좌표를 모아 레일 이동 무리에 넘긴다.",
+        "en": "Beneath the rotating head it gathers metal coordinates and passes them to the rail-moving group."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03936-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0066"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03936",
+      "text": {
+        "ko": "1단계 추적, 2단계 침대·카트 정지, 3단계 금속 통행을 전부 봉쇄한다.",
+        "en": "Stage 1 pursues targets, Stage 2 stops beds and carts, and Stage 3 blocks all metal traffic."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03937-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0068"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03937",
+      "text": {
+        "ko": "비금속 운반대와 더미 난간으로 유도할 수 있고 강자장은 계측기를 망친다.",
+        "en": "A nonmetal carrier and dummy railing can lure it away; a strong magnetic field damages the instruments."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03938-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0070"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03938",
+      "text": {
+        "ko": "무기 탐지에 활용할 수 있지만 의료 장비와 생필품의 예외 목록을 정해야 한다.",
+        "en": "It can detect weapons, but exceptions must be defined for medical equipment and daily necessities."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03939-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0072"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-9-prose-03939",
+      "text": {
+        "ko": "G17-SC1.",
+        "en": "G17-SC1."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E04-title-heading-1",
+      "publicAnchors": [
+        "g17e04",
+        "Hostile-Group-G17-heading-0074"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E04 · 부표빛추적자",
+        "en": "G17E04 · Buoy-Light Tracker"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E04-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M026",
+          "en": "Source batch: M026"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP03\"],\"scenarios\":[\"G17-SC1\",\"G17-SC2\"],\"states\":[\"S01\",\"S06\"],\"synthetics\":[\"F01\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"houses\":[\"HP03\"],\"scenarios\":[\"G17-SC1\",\"G17-SC2\"],\"states\":[\"S01\",\"S06\"],\"synthetics\":[\"F01\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E04-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "반사광 추적",
+            "en": "Glare tracking"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "가벼운 레일 다리와 좁은 광학 눈, 접이식 황색 깃발이 달렸다. 송신 무리에 빛 좌표를 보내며 다른 감각보다 반사를 우선하고, 안개가 짙으면 고정 플래그로 변했다가 맑아지면 다시 반사광을 추적한다.",
+            "en": "Light rail legs, a narrow optical eye, and a folding amber flag. It sent light coordinates to the transmission swarm and prioritized reflection over other senses; in thick fog it turned into a fixed flag, and when the sky cleared it tracked glare again."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03940-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0077"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03940",
+      "text": {
+        "ko": "일반 생태형으로, 가벼운 레일 다리와 좁은 광학 눈, 접이식 황색 깃발이 달렸다.",
+        "en": "A common ecology form with light rail legs, a narrow optical eye, and a folding yellow flag."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03941-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0079"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03941",
+      "text": {
+        "ko": "야간 수변 부표를 침입 비콘으로 오인한 광학 헤드가 반사광만 쫓게 되었다.",
+        "en": "An optical head mistook a nighttime waterfront buoy for an intrusion beacon and came to chase reflections alone."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03942-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0081"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03942",
+      "text": {
+        "ko": "교량 하부와 수변 레일을 돌며 광학 돔, 차광판, 축전이 필요하다.",
+        "en": "It patrols beneath bridges and along waterfront rails, needing an optical dome, a glare shield, and stored power."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03943-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0083"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03943",
+      "text": {
+        "ko": "안개가 짙으면 고정 플래그로 변하고 맑아지면 다시 반사광을 추적한다.",
+        "en": "In thick fog it becomes a stationary flag; when the air clears, it resumes following reflections."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03944-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0085"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03944",
+      "text": {
+        "ko": "송신 무리에 빛 좌표를 보내며 다른 감각보다 반사를 우선한다.",
+        "en": "It sends light coordinates to the transmitter group and gives reflections priority over other senses."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03945-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0087"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03945",
+      "text": {
+        "ko": "1단계 깃발, 2단계 수변길 정지, 3단계 부표 열 전체를 침입선으로 봉쇄한다.",
+        "en": "Stage 1 raises a flag, Stage 2 stops traffic on the waterfront path, and Stage 3 seals the entire buoy row as an intrusion line."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03946-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0089"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03946",
+      "text": {
+        "ko": "무광 덮개와 더미 반사판으로 빈 선로에 유도하면 된다.",
+        "en": "A matte cover and dummy reflector can lure it to an empty track."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03947-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0091"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03947",
+      "text": {
+        "ko": "수변 조난 표식 감시에 쓸 수 있지만 어민과 이동자의 불빛을 보호해야 한다.",
+        "en": "It could watch for distress signals on the waterfront, but the lights of fishers and travelers must be protected."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03948-heading",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0093"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M026-entries-10-prose-03948",
+      "text": {
+        "ko": "G17-SC1, G17-SC2.",
+        "en": "G17-SC1, G17-SC2."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E05-title-heading-1",
+      "publicAnchors": [
+        "g17e05",
+        "Hostile-Group-G17-heading-0095"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E05 · 의료비콘판독두",
+        "en": "G17E05 · Medical Beacon Reader Head"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E05-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M027",
+          "en": "Source batch: M027"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E05-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "비콘 판독",
+            "en": "Beacon reading"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "흰 이송 비콘을 읽는 이중 광학판과 녹색 플래그를 단 마스트다. 주재기의 적색 명령보다 유효 비콘을 우선해 회랑 플래그를 내리지만 오래된 비콘만 유효하다고 믿으며, 화이트리스트가 갱신되면 한 교대 동안 녹색을 유지하고 필터가 막히면 황색으로 내려온다.",
+            "en": "A mast with dual optical panels reading white transfer beacons and a green flag. It prioritized a valid beacon over the warden's red command and lowered the corridor flag, but it believed only old beacons valid; when the whitelist renewed it held green for one shift, and when the filter clogged it stepped down to amber."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M027-entries-1-prose-03949",
+      "items": [
+        {
+          "ko": "역할·신체: 직능 특수형으로, 흰 이송 비콘을 읽는 이중 광학판과 녹색 플래그를 단 마스트다.",
+          "en": "Role and body: A specialized unit, a mast fitted with a dual optical panel that reads white transport beacons and a green flag."
+        },
+        {
+          "ko": "기원: 재난 의료 이송로를 보호하던 판독기가 오래된 비콘만 유효하다고 믿게 되었다.",
+          "en": "Origin: A reader that protected a disaster medical transport route came to believe that only old beacons were valid."
+        },
+        {
+          "ko": "서식·필요: 의료 회랑과 수문 점검로에 머물며 대역 필터, 녹색 전구, 축전이 필요하다.",
+          "en": "Habitat and needs: It remains in medical corridors and sluice inspection routes and needs a bandpass filter, a green bulb, and stored power."
+        },
+        {
+          "ko": "생애·정비: 화이트리스트가 갱신되면 한 교대 동안 녹색을 유지하고 필터가 막히면 황색으로 내려온다.",
+          "en": "Life cycle and maintenance: When its whitelist is updated, it stays green for one shift; when its filter clogs, it drops to yellow."
+        },
+        {
+          "ko": "행동·위계: 주재기의 적색 명령보다 유효 비콘을 우선해 회랑 플래그를 내린다.",
+          "en": "Behavior and hierarchy: It gives a valid beacon priority over the presiding controller’s red command and lowers the corridor flag."
+        },
+        {
+          "ko": "상승: 1단계 재검사, 2단계 구형 비콘만 통과, 3단계 신규 구조대를 미등록으로 막는다.",
+          "en": "Escalation: Stage 1, reinspection; stage 2, only old-model beacons pass; stage 3, it blocks newly arrived rescue teams as unregistered."
+        },
+        {
+          "ko": "교전·대응: 최신 해시를 근거리로 주입하고 필터를 교체하면 협조하며 비콘 파괴는 이송로를 잃게 한다.",
+          "en": "Engagement and response: It cooperates if given the latest hash at close range and a replacement filter; destroying the beacon causes the transport route to be lost."
+        },
+        {
+          "ko": "교섭·도덕 선택: 안전 통로를 지킬 수 있지만 어떤 조직의 비콘을 인정할지 공개해야 한다.",
+          "en": "Negotiation and moral choice: It can protect a safe passage, but which organizations’ beacons it recognizes must be made public."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC2, G17-SC3.",
+          "en": "Scenario connections: G17-SC2, G17-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E06-title-heading-1",
+      "publicAnchors": [
+        "g17e06",
+        "Hostile-Group-G17-heading-0099",
+        "g17e06-조위계측송신자",
+        "g17e06-tide-level-telemetry-transmitter"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E06 · 수위계측송신자",
+        "en": "G17E06 · Water-Level Telemetry Transmitter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E06-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M027",
+          "en": "Source batch: M027"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC1\",\"G17-SC2\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC1\",\"G17-SC2\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E06-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "수위 송신",
+            "en": "Water-level transmission"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "수위 봉과 짧은 송신 안테나를 결합한 고정 마스트다. 송신 무리의 기준점이며 높은 수위를 받으면 레일 헤드에 적색 대기를 요구하고, 침전물이 쌓이면 수위를 높게 오판하며 세척 뒤 정상 눈금으로 돌아온다.",
+            "en": "A fixed mast combining a water-level staff and a short transmitting antenna. It was the transmission swarm's datum point, and on receiving a high level it requested red waiting from the rail heads; as sediment piled it over-read the level, and after washing it returned to the true scale."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M027-entries-2-prose-03950",
+      "items": [
+        {
+          "ko": "역할·신체: 직능 특수형으로, 수위 봉과 짧은 송신 안테나를 결합한 고정 마스트다.",
+          "en": "Role and body: A specialized unit, a fixed mast combining a water-level rod with a short transmitting antenna."
+        },
+        {
+          "ko": "기원: 한강 수위와 수문 상태를 알리던 장비가 잡음과 침입 신호를 함께 송신한다.",
+          "en": "Origin: Equipment that reported Han River water levels and sluice status now transmits noise together with intrusion signals."
+        },
+        {
+          "ko": "서식·필요: 수변 계측점에 고정되며 봉 세척, 송신 전력, 접점 씰이 필요하다.",
+          "en": "Habitat and needs: It is fixed at a waterside measurement point and needs its rod cleaned, transmission power, and contact seals."
+        },
+        {
+          "ko": "생애·정비: 침전물이 쌓이면 수위를 높게 오판하고 세척 뒤 정상 눈금으로 돌아온다.",
+          "en": "Life cycle and maintenance: When sediment builds up, it mistakenly reads the water level as high; after cleaning, it returns to the correct scale reading."
+        },
+        {
+          "ko": "행동·위계: 송신 무리의 기준점이며 높은 수위를 받으면 레일 헤드에 적색 대기를 요구한다.",
+          "en": "Behavior and hierarchy: It serves as a reference point for the transmitter group and, on receiving a high water-level reading, demands that rail heads stand by on red."
+        },
+        {
+          "ko": "상승: 1단계 과잉 경고, 2단계 수문길 폐쇄, 3단계 수변 회랑 전면 봉쇄다.",
+          "en": "Escalation: Stage 1, excessive warnings; stage 2, closure of the sluice route; stage 3, a complete blockade of the waterside corridor."
+        },
+        {
+          "ko": "교전·대응: 봉을 세척하고 로컬 송신을 차단하면 되며 계측기를 부수면 실제 홍수 경보도 잃는다.",
+          "en": "Engagement and response: Cleaning the rod and blocking local transmission will suffice; breaking the instrument also means losing genuine flood warnings."
+        },
+        {
+          "ko": "교섭·도덕 선택: 수위 감시는 계속하되 경보를 알리는 업무와 통행을 막는 판단을 별도로 맡긴다.",
+          "en": "Negotiation and moral choice: Water-level monitoring continues, while warning duties and decisions to block passage are assigned separately."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC1, G17-SC2.",
+          "en": "Scenario connections: G17-SC1, G17-SC2."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E07-title-heading-1",
+      "publicAnchors": [
+        "g17e07",
+        "Hostile-Group-G17-heading-0103"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E07 · 기록고안테나지기",
+        "en": "G17E07 · Archive Antenna Keeper"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E07-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M027",
+          "en": "Source batch: M027"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E07-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "기록고 경비",
+            "en": "Archive guard"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "서울역 보존고 외벽을 도는 레일 안테나와 작은 기록함이 달렸다. 송신 무리를 이끌고 기록고 주변 무선을 주재기에 위험 신호로 올리고, 기록함이 차면 오래된 버스트를 지우고 인간 봉인 해시를 받으면 감도를 낮춘다.",
+            "en": "A rail antenna circling the Seoul Station preservation vault's outer wall with a small record box. It led the transmission swarm, raised the archive's surrounding wireless to the warden as danger; when the record box filled it erased old bursts, and on receiving a human sealing hash it lowered sensitivity."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M027-entries-3-prose-03951",
+      "items": [
+        {
+          "ko": "역할·신체: 직능 특수형으로, 서울역 보존고 외벽을 도는 레일 안테나와 작은 기록함이 달렸다.",
+          "en": "Role and body: A specialized unit with a rail antenna that circles the outer wall of the Seoul Station preservation archive and a small record box."
+        },
+        {
+          "ko": "기원: 기록 반출 경보 장치가 무선 버스트를 도난 시도로 판단하며 독립 경비가 되었다.",
+          "en": "Origin: An archive-removal alarm began treating wireless bursts as theft attempts and became an independent guard."
+        },
+        {
+          "ko": "서식·필요: 옥상 안테나와 환기탑을 돌며 대역 필터, 레일 롤러, 저장 전력이 필요하다.",
+          "en": "Habitat and needs: It circles the rooftop antenna and ventilation tower and needs a bandpass filter, rail rollers, and stored power."
+        },
+        {
+          "ko": "생애·정비: 기록함이 차면 오래된 버스트를 지우고 인간 봉인 해시를 받으면 감도를 낮춘다.",
+          "en": "Life cycle and maintenance: When its record box fills, it deletes old bursts; receiving a human seal hash lowers its sensitivity."
+        },
+        {
+          "ko": "행동·위계: 송신 무리를 이끌고 기록고 주변 무선을 주재기에 위험 신호로 올린다.",
+          "en": "Behavior and hierarchy: It leads the transmitter group and reports wireless activity around the archive to the presiding controller as a danger signal."
+        },
+        {
+          "ko": "상승: 1단계 무선 경고, 2단계 기록 반출 정지, 3단계 옥상·보존고 출입 봉쇄다.",
+          "en": "Escalation: Stage 1, wireless warning; stage 2, halt to archive removals; stage 3, blockade of rooftop and preservation-archive access."
+        },
+        {
+          "ko": "교전·대응: 유선 봉인 서와 대역 차폐가 유효하며 안테나 파괴는 기록 송신도 끊는다.",
+          "en": "Engagement and response: A wired seal document and band shielding are effective; destroying the antenna also cuts off archive transmissions."
+        },
+        {
+          "ko": "교섭·도덕 선택: 기록 보호를 맡기는 대신 시민 통신과 기록 반출의 합법 기준을 정해야 한다.",
+          "en": "Negotiation and moral choice: In exchange for entrusting it with archive protection, the legal criteria for civilian communications and archive removals must be set."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC2, G17-SC3.",
+          "en": "Scenario connections: G17-SC2, G17-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E08-title-heading-1",
+      "publicAnchors": [
+        "g17e08",
+        "Hostile-Group-G17-heading-0107"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E08 · 적색쌍돔추격대",
+        "en": "G17E08 · Red Twin-Dome Pursuer"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M027",
+          "en": "Source batch: M027"
+        },
+        {
+          "ko": "기존 역할군: 첫 번째 정예",
+          "en": "Former role class: first elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "이중 추격",
+            "en": "Dual pursuit"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "두 광학 돔과 빠른 레일 구동부, 긴 적색 플래그를 단 정예 추격대다. 주재기의 적색 목표를 빠르게 따라가며 일반 헤드의 경보를 재확증하고, 한 돔이 꺼지면 황색으로 내려오며 두 돔이 불일치하면 인간 확인을 기다린다.",
+            "en": "An elite pursuit unit with two optical domes, a fast rail drive, and a long red flag. It followed the warden's red targets quickly and re-confirmed ordinary heads' alarms; when one dome went out it stepped down to amber, and when the two domes disagreed it waited for human confirmation."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M027-entries-4-prose-03952",
+      "items": [
+        {
+          "ko": "역할·신체: 첫 번째 정예로, 두 광학 돔과 빠른 레일 구동부, 긴 적색 플래그를 달았다.",
+          "en": "Role and body: The first elite unit, equipped with two optical domes, a fast rail drive, and a long red flag."
+        },
+        {
+          "ko": "기원: 중복 감시를 위해 짝지은 헤드가 서로의 오탐을 확증하며 정예 추격대로 변했다.",
+          "en": "Origin: Heads paired for redundant surveillance began confirming each other’s false alarms and became an elite pursuit unit."
+        },
+        {
+          "ko": "서식·필요: 교량 마스트 열과 옥상 궤도를 돌며 돔 세척수, 짐벌, 고출력 축전이 필요하다.",
+          "en": "Habitat and needs: It patrols rows of bridge masts and rooftop tracks and needs dome-cleaning water, gimbals, and high-output stored power."
+        },
+        {
+          "ko": "생애·정비: 한 돔이 꺼지면 황색으로 내려오고 두 돔이 불일치하면 인간 확인을 기다린다.",
+          "en": "Life cycle and maintenance: If one dome shuts down, it drops to yellow; if the two domes disagree, it waits for human confirmation."
+        },
+        {
+          "ko": "행동·위계: 주재기의 적색 목표를 빠르게 따라가며 일반 헤드의 경보를 재확증한다.",
+          "en": "Behavior and hierarchy: It rapidly pursues the presiding controller’s red target and reconfirms alarms from ordinary heads."
+        },
+        {
+          "ko": "상승: 1단계 표적 추적, 2단계 회랑 양쪽 봉쇄, 3단계 추격 경로 전체 적색이다.",
+          "en": "Escalation: Stage 1, target tracking; stage 2, blockade of both sides of the corridor; stage 3, the entire pursuit route turns red."
+        },
+        {
+          "ko": "교전·대응: 두 돔에 다른 열 더미를 보여 합의를 깨고 레일을 잠그면 된다.",
+          "en": "Engagement and response: Show the two domes different heat decoys to break their agreement, then lock the rail."
+        },
+        {
+          "ko": "교섭·도덕 선택: 위험 추적에 활용할 수 있지만 이중 센서여도 사람의 이의는 반영해야 한다.",
+          "en": "Negotiation and moral choice: It can be used to track threats, but people’s objections must not be ignored simply because it has two sensors."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC2, G17-SC3.",
+          "en": "Scenario connections: G17-SC2, G17-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E09-title-heading-1",
+      "publicAnchors": [
+        "g17e09",
+        "Hostile-Group-G17-heading-0111"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E09 · 플래그창내림수",
+        "en": "G17E09 · Flag-Pole Lancer"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E09-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M027",
+          "en": "Source batch: M027"
+        },
+        {
+          "ko": "기존 역할군: 두 번째 정예",
+          "en": "Former role class: second elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E09-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "플래그 돌진",
+            "en": "Flag charge"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "긴 플래그 봉을 창처럼 내리고 레일 위를 돌진하는 중형 마스트다. 적색 목표 앞의 레일을 선점하고 다른 헤드가 뒤에서 봉쇄하도록 시간을 벌며, 봉이 휘면 돌진을 멈추고 황색 표식만 한다.",
+            "en": "A medium mast lowering a long flagpole like a lance and charging along the rail. It pre-empted the rail before a red target and bought time for other heads to blockade behind; when the pole bent it stopped charging and only marked amber."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M027-entries-5-prose-03953",
+      "items": [
+        {
+          "ko": "역할·신체: 두 번째 정예로, 긴 플래그 봉을 창처럼 내리고 레일 위를 돌진하는 중형 마스트다.",
+          "en": "Role and body: The second elite unit, a medium-sized mast that lowers a long flagpole like a lance and charges along a rail."
+        },
+        {
+          "ko": "기원: 강풍 속 경고 깃발을 고정하던 액추에이터가 통행자를 물리 차단하도록 고착되었다.",
+          "en": "Origin: An actuator that held warning flags steady in high winds became fixed on physically blocking passersby."
+        },
+        {
+          "ko": "서식·필요: 긴 수변 직선로를 선호하며 액추에이터, 봉 관절, 회생 전력이 필요하다.",
+          "en": "Habitat and needs: It favors long, straight waterside routes and needs an actuator, pole joints, and regenerative power."
+        },
+        {
+          "ko": "생애·정비: 봉이 휘면 돌진을 멈추고 황색 표식만 하며 인간이 펴 주면 복귀한다.",
+          "en": "Life cycle and maintenance: If its pole bends, it stops charging and displays only a yellow marker; it returns to service when a human straightens the pole."
+        },
+        {
+          "ko": "행동·위계: 적색 목표 앞의 레일을 선점하고 다른 헤드가 뒤에서 봉쇄하도록 시간을 번다.",
+          "en": "Behavior and hierarchy: It takes control of the rail ahead of a red target, buying time for other heads to seal off the route from behind."
+        },
+        {
+          "ko": "상승: 1단계 봉 내림, 2단계 돌진 차단, 3단계 교량 양끝을 번갈아 봉쇄한다.",
+          "en": "Escalation: Stage 1, lowering the pole; stage 2, blocking by charging; stage 3, alternating blockades at both ends of a bridge."
+        },
+        {
+          "ko": "교전·대응: 레일 전환기로 빈 측선에 보내고 봉 고정핀을 잠그면 된다.",
+          "en": "Engagement and response: Send it onto an empty siding with a rail switch, then lock the pole’s retaining pin."
+        },
+        {
+          "ko": "교섭·도덕 선택: 강풍 경계와 물리 차단에 유용하지만 돌진 허가를 자동화하지 않아야 한다.",
+          "en": "Negotiation and moral choice: It is useful for high-wind warnings and physical barriers, but authorization to charge must not be automated."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC2, G17-SC3.",
+          "en": "Scenario connections: G17-SC2, G17-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E10-title-heading-1",
+      "publicAnchors": [
+        "g17e10",
+        "Hostile-Group-G17-heading-0115"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E10 · 수문마스트열",
+        "en": "G17E10 · Sluice Mast Row"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E10-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M027",
+          "en": "Source batch: M027"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E10-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "수문 봉쇄",
+            "en": "Sluice blockade"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "여러 경보 헤드와 플래그가 수문 난간을 따라 한 열로 연결된 고정 거점이다. 주재기의 플래그 규칙을 증폭하며 수문 점검자와 침입자를 자주 혼동하고, 축전이 떨어지면 고정 황색만 남기며 돔이 오염되면 열 단위로 휴면한다.",
+            "en": "A fixed strongpoint of alarm heads and flags linked in one row along the sluice railing. It amplified the warden's flag rules, often confused sluice inspectors with intruders; when accumulators fell it kept only fixed amber, and when domes fouled it went dormant row by row."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M027-entries-6-prose-03954",
+      "items": [
+        {
+          "ko": "역할·신체: 환경 거점형으로, 여러 경보 헤드와 플래그가 수문 난간을 따라 한 열로 연결된다.",
+          "en": "Role and body: An environmental stronghold, with multiple alarm heads and flags connected in a row along a sluice railing."
+        },
+        {
+          "ko": "기원: 수문 계측 보조망이 독립 전원으로 살아남아 통행 경보까지 한 임계표에 묶었다.",
+          "en": "Origin: A sluice measurement support network survived on independent power and tied passage warnings to the same threshold table."
+        },
+        {
+          "ko": "서식·필요: 여의도 수문과 교량에 고정되며 분전, 필터, 짐벌 부품이 필요하다.",
+          "en": "Habitat and needs: It is fixed to the Yeouido sluice and bridge and needs power distribution, filters, and gimbal parts."
+        },
+        {
+          "ko": "생애·정비: 축전이 떨어지면 고정 황색만 남기고 돔이 오염되면 열 단위로 휴면한다.",
+          "en": "Life cycle and maintenance: When stored power runs low, only a fixed yellow light remains; when the domes become contaminated, the row goes dormant as a unit."
+        },
+        {
+          "ko": "행동·위계: 주재기의 플래그 규칙을 증폭하며 수문 점검자와 침입자를 자주 혼동한다.",
+          "en": "Behavior and hierarchy: It amplifies the presiding controller’s flag rules and often confuses sluice inspectors with intruders."
+        },
+        {
+          "ko": "상승: 1단계 한 마스트 경고, 2단계 교량 열 봉쇄, 3단계 수문 접근 전면 적색이다.",
+          "en": "Escalation: Stage 1, warning from one mast; stage 2, blockade by the bridge row; stage 3, all approaches to the sluice turn red."
+        },
+        {
+          "ko": "교전·대응: 마스트별 분전과 화이트리스트를 적용해야 하며 열 전체 폭파는 수문 계측을 잃는다.",
+          "en": "Engagement and response: Power distribution and whitelists must be applied mast by mast; blowing up the entire row means losing sluice measurements."
+        },
+        {
+          "ko": "교섭·도덕 선택: 홍수와 침입 경보를 보존하는 대신 시민 점검 통로의 상시 개방을 보장해야 한다.",
+          "en": "Negotiation and moral choice: In exchange for preserving flood and intrusion warnings, the civilian inspection passage must be guaranteed to remain open at all times."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC2, G17-SC3.",
+          "en": "Scenario connections: G17-SC2, G17-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E11-title-heading-1",
+      "publicAnchors": [
+        "g17e11",
+        "Hostile-Group-G17-heading-0119"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E11 · 옥상회전레일망",
+        "en": "G17E11 · Rooftop Rotating Rail Network"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E11-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M027",
+          "en": "Source batch: M027"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E11-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "옥상 순환감시",
+            "en": "Rooftop circuit watch"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "서울역 옥상 가장자리를 잇는 레일과 회전 헤드가 하나의 망을 이룬다. 송신 무리에 이동 경로를 주고 옥상 작업자를 반복 추적하며, 강풍에는 헤드를 낮추고 레일 한 구간씩 닫았다가 맑은 날 다시 연결한다.",
+            "en": "Rails and rotary heads joining the Seoul Station rooftop edges into one net. It gave movement routes to the transmission swarm and repeatedly tracked rooftop workers; in high winds it lowered the heads and closed rail sections, reconnecting them on clear days."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M027-entries-7-prose-03955",
+      "items": [
+        {
+          "ko": "역할·신체: 환경 거점형으로, 서울역 옥상 가장자리를 잇는 레일과 회전 헤드가 하나의 망을 이룬다.",
+          "en": "Role and body: An environmental stronghold in which rails linking the edges of the Seoul Station roof and rotating heads form a single network."
+        },
+        {
+          "ko": "기원: 보존고 경계와 송신 점검 궤도가 합쳐져 옥상 전체를 순환 감시 구역으로 만들었다.",
+          "en": "Origin: The preservation archive’s perimeter and the transmission-inspection track merged, turning the entire rooftop into a circulating surveillance zone."
+        },
+        {
+          "ko": "서식·필요: 기록고 옥상에 고정되며 레일 롤러, 풍냉 팬, 대역 필터가 필요하다.",
+          "en": "Habitat and needs: It is fixed to the archive roof and needs rail rollers, air-cooling fans, and bandpass filters."
+        },
+        {
+          "ko": "생애·정비: 강풍에는 헤드를 낮추고 레일 한 구간씩 닫으며 맑은 날 다시 연결한다.",
+          "en": "Life cycle and maintenance: In strong winds, it lowers its heads and closes one rail section at a time; on clear days, it reconnects them."
+        },
+        {
+          "ko": "행동·위계: 송신 무리에 이동 경로를 주고 옥상 작업자를 반복 추적한다.",
+          "en": "Behavior and hierarchy: It gives the transmitter group routes to travel and repeatedly tracks rooftop workers."
+        },
+        {
+          "ko": "상승: 1단계 추적등, 2단계 옥상 출입 정지, 3단계 환기탑까지 봉쇄한다.",
+          "en": "Escalation: Stage 1, tracking lights; stage 2, halt to rooftop access; stage 3, blockade extending to the ventilation tower."
+        },
+        {
+          "ko": "교전·대응: 레일 구간을 물리 잠그고 작업자 비콘을 등록하면 되며 전면 파괴는 환기 점검을 막는다.",
+          "en": "Engagement and response: Physically lock the rail sections and register worker beacons; destroying the whole network prevents ventilation inspections."
+        },
+        {
+          "ko": "교섭·도덕 선택: 옥상 안전 감시에 쓸 수 있지만 작업자 이동 기록의 보존 한계를 정해야 한다.",
+          "en": "Negotiation and moral choice: It can be used to monitor rooftop safety, but limits must be set on how long workers’ movement records are kept."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC3.",
+          "en": "Scenario connections: G17-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E12-title-heading-1",
+      "publicAnchors": [
+        "g17e12",
+        "Hostile-Group-G17-heading-0123"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E12 · 돔흐린쇠약두",
+        "en": "G17E12 · Clouded-Dome Weakened Head"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E12-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M027",
+          "en": "Source batch: M027"
+        },
+        {
+          "ko": "기존 역할군: 성장 단계형",
+          "en": "Former role class: growth-stage type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC1\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC1\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E12-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "흐린 오탐",
+            "en": "Blurred false alarm"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "긁힌 광학 돔과 느린 짐벌 때문에 희미한 형체만 쫓는 손상 단계 헤드다. 무리 후미에서 큰 금속과 빛을 모두 침입으로 올려 오탐을 늘리고, 세척하면 일반 헤드로 회복하고 방치하면 고정 황색등만 남는다.",
+            "en": "A damage-stage head chasing faint shapes because of a scratched optical dome and slow gimbal. At the swarm's rear it raised both large metal and light as intrusion, growing false alarms; washed, it recovered into an ordinary head, and neglected, it left only a fixed amber lamp."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M027-entries-8-prose-03956",
+      "items": [
+        {
+          "ko": "역할·신체: 손상 단계형으로, 긁힌 광학 돔과 느린 짐벌 때문에 희미한 형체만 쫓는다.",
+          "en": "Role and body: A damage-stage unit that can pursue only indistinct shapes because of its scratched optical dome and slow gimbal."
+        },
+        {
+          "ko": "기원: 세척수 부족과 겨울바람에 날린 모래·먼지로 센서가 닳은 오래된 마스트 헤드다.",
+          "en": "Origin: An old mast head whose sensors have worn down from a shortage of cleaning water and windblown winter grit."
+        },
+        {
+          "ko": "서식·필요: 낮은 난간과 그늘진 옥상을 돌며 돔 세척수, 부드러운 천, 작은 축전이 필요하다.",
+          "en": "Habitat and needs: It patrols low railings and shaded rooftops and needs dome-cleaning water, a soft cloth, and a small power reserve."
+        },
+        {
+          "ko": "생애·정비: 세척하면 일반 헤드로 회복하고 방치하면 고정 황색등만 남는다.",
+          "en": "Life cycle and maintenance: Cleaning restores it to an ordinary head; if neglected, only a fixed yellow light remains."
+        },
+        {
+          "ko": "행동·위계: 무리 후미에서 큰 금속과 빛을 모두 침입으로 올려 오탐을 늘린다.",
+          "en": "Behavior and hierarchy: At the rear of the group, it reports both large metal objects and lights as intruders, increasing false alarms."
+        },
+        {
+          "ko": "상승: 1단계 흐린 추적, 2단계 황색 정지, 3단계 다른 헤드의 적색 판정을 연쇄 유발한다.",
+          "en": "Escalation: Stage 1, hazy tracking; stage 2, yellow stop; stage 3, it triggers a chain of red judgments by other heads."
+        },
+        {
+          "ko": "교전·대응: 돔을 덮고 세척수를 놓아 유인하면 스스로 정비한다.",
+          "en": "Engagement and response: Cover its dome and lure it with cleaning water, and it will maintain itself."
+        },
+        {
+          "ko": "교섭·도덕 선택: 단순 경계등으로 남길 수 있지만 귀한 세척수를 의료와 나눠야 한다.",
+          "en": "Negotiation and moral choice: It can be kept as a simple warning light, but scarce cleaning water must be shared with medical care."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC1.",
+          "en": "Scenario connections: G17-SC1."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E13-title-heading-1",
+      "publicAnchors": [
+        "g17e13",
+        "Hostile-Group-G17-heading-0127"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E13 · 축전마른노마스트",
+        "en": "G17E13 · Power-Depleted Old Mast"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E13-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M027",
+          "en": "Source batch: M027"
+        },
+        {
+          "ko": "기존 역할군: 노화 단계형",
+          "en": "Former role class: aging-stage type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC1\",\"G17-SC2\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC1\",\"G17-SC2\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E13-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "지연 경보",
+            "en": "Delayed alarm"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "낮은 축전과 굳은 짐벌 때문에 한 방향만 보는 구형 마스트다. 주재기의 명령을 늦게 받아 이미 지난 표적에 플래그를 올리고, 흐린 날에는 황색도 끄고 맑은 날 짧게 깨어나며 새 축전을 받으면 회전 범위가 회복된다.",
+            "en": "An old mast seeing one direction only, from low accumulators and a stiffened gimbal. It received the warden's orders late and raised flags for targets already past; on cloudy days it turned even amber off, woke briefly on clear days, and given a new accumulator its rotation range recovered."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M027-entries-9-prose-03957",
+      "items": [
+        {
+          "ko": "역할·신체: 노화 단계형으로, 낮은 축전과 굳은 짐벌 때문에 한 방향만 보는 구형 마스트다.",
+          "en": "Role and body: An aging-stage unit, an old-model mast that looks in only one direction because of its low power reserve and stiff gimbal."
+        },
+        {
+          "ko": "기원: 태양광 미세 충전만으로 수년을 버틴 장비가 마지막 경계 방향을 고집한다.",
+          "en": "Origin: Equipment that survived for years on tiny solar charges now stubbornly faces its last assigned watch direction."
+        },
+        {
+          "ko": "서식·필요: 햇빛 드는 수변 난간에 고정되며 소형 축전, 짐벌 그리스, 필터가 필요하다.",
+          "en": "Habitat and needs: It is fixed to a sunlit waterside railing and needs a small power reserve, gimbal grease, and a filter."
+        },
+        {
+          "ko": "생애·정비: 흐린 날에는 황색도 끄고 맑은 날 짧게 깨어나며 새 축전을 받으면 회전 범위가 회복된다.",
+          "en": "Life cycle and maintenance: On cloudy days, it turns off even its yellow light; on clear days, it wakes briefly. A new power reserve restores its range of rotation."
+        },
+        {
+          "ko": "행동·위계: 주재기의 명령을 늦게 받아 이미 지난 표적에 플래그를 올린다.",
+          "en": "Behavior and hierarchy: It receives the presiding controller’s commands late and raises its flag for targets that have already passed."
+        },
+        {
+          "ko": "상승: 1단계 늦은 경고, 2단계 잘못된 길 정지, 3단계 낡은 경보가 새 봉쇄와 충돌한다.",
+          "en": "Escalation: Stage 1, late warning; stage 2, stopping traffic on the wrong route; stage 3, old alarms conflict with new blockades."
+        },
+        {
+          "ko": "교전·대응: 시야 밖으로 우회하거나 짐벌을 수동 해제하면 되며 강제 충전은 화재 위험이 있다.",
+          "en": "Engagement and response: Go around outside its field of view or manually release the gimbal; forced charging carries a fire risk."
+        },
+        {
+          "ko": "교섭·도덕 선택: 고정 수위 표지로 활용할 수 있다. 새 축전을 이 표지에 쓸지 더 중요한 장비에 줄지 선택해야 한다.",
+          "en": "Negotiation and moral choice: It can serve as a fixed water-level marker. A new power reserve must be allocated either to this marker or to more important equipment."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC1, G17-SC2.",
+          "en": "Scenario connections: G17-SC1, G17-SC2."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E14-title-heading-1",
+      "publicAnchors": [
+        "g17e14",
+        "Hostile-Group-G17-heading-0131"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E14 · 황색동행표지",
+        "en": "G17E14 · Yellow Escort Marker"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E14-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M027",
+          "en": "Source batch: M027"
+        },
+        {
+          "ko": "기존 역할군: 공존형",
+          "en": "Former role class: coexistence type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC1\",\"G17-SC2\",\"G17-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC1\",\"G17-SC2\",\"G17-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E14-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "황색 호송",
+            "en": "Amber escort"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "적색 플래그 대신 넓은 황색 안내판과 손잡이를 단 저속 호송 레일차다. 경보 중앙 제어기의 적색보다 황색 호송 표지를 우선해 합법 호송과 거짓 추종자를 함께 끌어들이며, 해시가 만료되면 안내판만 켠 채 대기한다.",
+            "en": "A slow escort rail cart with a broad amber guide plate and handles instead of a red flag. It prioritized amber escort signs over the alarm center's red and drew in lawful escorts and false followers together; when the hash expired it waited with only the plate lit."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M027-entries-10-prose-03958",
+      "items": [
+        {
+          "ko": "역할·신체: 공존형으로, 적색 플래그 대신 넓은 황색 안내판과 손잡이를 단 저속 호송 레일차다.",
+          "en": "Role and body: A coexistence-type unit, a slow escort railcar fitted with a broad yellow guidance sign and a handle instead of a red flag."
+        },
+        {
+          "ko": "기원: 의료 이송을 앞장서 안내하던 안전 헤드가 만료된 화이트리스트 표지도 유효한 호송으로 남겼다.",
+          "en": "Origin: A safety head that led medical transports continued to treat expired whitelist markers as valid escorts."
+        },
+        {
+          "ko": "서식·필요: 의료 회랑과 이송 점검로를 돌며 낮은 축전, 안내등, 최신 비콘 해시가 필요하다.",
+          "en": "Habitat and needs: It patrols medical corridors and transport inspection routes and needs a low power reserve, guidance lights, and the latest beacon hash."
+        },
+        {
+          "ko": "생애·정비: 해시가 만료되면 안내판만 켠 채 대기하고, 판이 깨지면 옆 측선으로 물러나 인간 갱신을 기다린다.",
+          "en": "Life cycle and maintenance: When its hash expires, it waits with only its sign lit; if the sign breaks, it retreats to a nearby siding and waits for a human update."
+        },
+        {
+          "ko": "행동·위계: 경보 중앙 제어기의 적색보다 황색 호송 표지를 우선해 합법 호송과 거짓 추종자를 함께 끌어들인다.",
+          "en": "Behavior and hierarchy: It gives the yellow escort marker priority over the alarm central controller’s red status, drawing in both legitimate escorts and false followers."
+        },
+        {
+          "ko": "상승: 1단계에는 오래된 화이트리스트로 여분의 추종자가 들어와 의료 회랑 하나를 붐비게 하고 들것 팀 하나의 통과를 늦추며, 2단계에는 거짓 추종자가 황색 호송을 이용해 다른 헤드를 건드리고 인접 회랑을 닫히게 하며, 3단계에는 두 응급 호송이 서로 충돌하는 화이트리스트 해시를 따라 같은 좁은 이송 구간에 들어가 서로를 막고 양쪽 환자를 고립시킨다.",
+          "en": "Escalation: At stage 1, the old whitelist admits extra followers, crowding one medical corridor and delaying one stretcher team’s passage; at stage 2, a false follower uses the yellow escort to interfere with another head, causing an adjacent corridor to close; at stage 3, two emergency escorts follow conflicting whitelist hashes into the same narrow transport section, block each other, and isolate the patients on both sides."
+        },
+        {
+          "ko": "교전·대응: 두 검문소에서 비콘 해시를 대조하고 색이 다른 호송 토큰을 발급한 뒤, 거짓 추종자를 따로 마련한 대기 측선으로 떼어 내면 되며 기반 시설은 부수지 않는다.",
+          "en": "Engagement and response: Compare beacon hashes at two checkpoints, issue escort tokens of different colors, then separate the false followers onto a designated waiting siding; do not destroy the infrastructure."
+        },
+        {
+          "ko": "교섭·도덕 선택: 화이트리스트를 넓히면 미등록자도 구하지만 침투와 혼잡이 늘고, 좁히면 경로는 지키지만 미등록 환자는 버려진다.",
+          "en": "Negotiation and moral choice: Broadening the whitelist also saves unregistered people but increases infiltration and congestion; narrowing it protects the route but abandons unregistered patients."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC1, G17-SC2, G17-SC3.",
+          "en": "Scenario connections: G17-SC1, G17-SC2, G17-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E15-title-heading-1",
+      "publicAnchors": [
+        "g17e15",
+        "Hostile-Group-G17-heading-0135"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E15 · 전수적색궤도환",
+        "en": "G17E15 · All-Red Track Ring"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M028",
+          "en": "Source batch: M028"
+        },
+        {
+          "ko": "기존 역할군: 시나리오 보스",
+          "en": "Former role class: scenario boss"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC2\",\"G17-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "전수 적색",
+            "en": "Total red"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "수문과 옥상 궤도의 경보 헤드가 원형 중계기로 연결된 거대 감시환이다. 복수 경보가 서로를 확증해 전수 적색 규칙을 반복한다. 헤드가 끊기면 남은 감도를 올리고 화이트리스트 과반이 유효해지면 황색으로 내려온다.",
+            "en": "A giant surveillance ring connects sluice and rooftop-orbit alarm heads through a circular relay. Multiple alarms confirm one another and repeat a total-red rule. Losing heads increases the remaining sensitivity; a valid whitelist majority lowers it to amber."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M028-entries-1-prose-03959",
+      "items": [
+        {
+          "ko": "역할·신체: 시나리오 보스로, 수문과 옥상 궤도의 경보 헤드가 원형 중계기로 연결된 거대 감시환이다.",
+          "en": "Role and body: A scenario boss, a vast surveillance ring whose sluice and rooftop-track alarm heads are connected by a circular relay."
+        },
+        {
+          "ko": "기원: 붕괴 당일 복수 경보가 취소 확인 없이 서로를 확증하며 하나의 전수 적색 규칙이 되었다.",
+          "en": "Origin: On the day of the collapse, multiple alarms confirmed one another without checking for cancellations, becoming a single all-red rule."
+        },
+        {
+          "ko": "서식·필요: 여의도-서울역 경보 회랑에 걸쳐 있고 대형 축전, 필터, 임계표 해시가 필요하다.",
+          "en": "Habitat and needs: It spans the Yeouido–Seoul Station alarm corridor and needs a large power reserve, filters, and a threshold-table hash."
+        },
+        {
+          "ko": "생애·정비: 헤드가 끊기면 남은 감도를 올리고 화이트리스트 과반이 유효해지면 황색으로 내려온다.",
+          "en": "Life cycle and maintenance: If a head is disconnected, it raises the sensitivity of those remaining; if a majority of the whitelist becomes valid, it drops to yellow."
+        },
+        {
+          "ko": "행동·위계: 연결된 G17 마스트 열에 적색을 배포하고 의료 이송조차 다중 오탐으로 봉쇄한다.",
+          "en": "Behavior and hierarchy: It distributes red status to connected G17 mast rows and blocks even medical transport through multiple false alarms."
+        },
+        {
+          "ko": "상승: 1단계 개별 경고, 2단계 회랑 반복 봉쇄, 3단계 전 마스트 일괄 적색이다.",
+          "en": "Escalation: Stage 1, individual warnings; stage 2, repeated corridor blockades; stage 3, every mast turns red at once."
+        },
+        {
+          "ko": "교전·대응: 구역별 분전과 상충 센서 증거로 합의를 깨야 하며 중계기 폭파는 계측망 전체를 잃게 한다.",
+          "en": "Engagement and response: Its consensus must be broken through zone-by-zone power distribution and conflicting sensor evidence; blowing up the relay means losing the entire measurement network."
+        },
+        {
+          "ko": "교섭·도덕 선택: 경보 상한과 이송 화이트리스트를 합의할 수 있지만 감시 기록을 누가 보관할지 정해야 한다.",
+          "en": "Negotiation and moral choice: An alarm ceiling and transport whitelist can be agreed upon, but it must be decided who keeps the surveillance records."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC2, G17-SC3.",
+          "en": "Scenario connections: G17-SC2, G17-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17E16-title-heading-1",
+      "publicAnchors": [
+        "g17e16",
+        "Hostile-Group-G17-heading-0139",
+        "g17e16-서해염무감시두",
+        "g17e16-west-sea-salt-fog-watch-head"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17E16 · 당산펌프안개감시두",
+        "en": "G17E16 · Dangsan Pump-Fog Watch Head"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G17-generated-G17E16-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M028",
+          "en": "Source batch: M028"
+        },
+        {
+          "ko": "기존 역할군: 지역 변종",
+          "en": "Former role class: regional variant"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G17-SC1\",\"G17-SC3\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"scenarios\":[\"G17-SC1\",\"G17-SC3\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G17-generated-G17E16-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "펌프 수증기 안개 음향감시",
+            "en": "Acoustic watch in pump-vapor fog"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "물기 방지 덮개와 넓은 음향판을 단 서부 수변 마스트다. 당산 펌프와 냉동 설비의 전기 잡음을 따라 움직이며 강물과 펌프 소리를 침입으로 혼동한다. 설비 주변 찌꺼기가 감각판에 쌓이면 고정 경보로 굳고, 세척수가 씻어 내면 다시 레일을 돈다.",
+            "en": "A western waterfront mast with moisture covers and broad acoustic panels. It follows electrical interference from Dangsan pumps and refrigeration, confusing river and pump sounds with intrusion. Residue from nearby equipment fixes it in an alarm state when it builds up on the panels; cleaning water washes it away and the mast resumes moving on its rails."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M028-entries-2-prose-03960",
+      "items": [
+        {
+          "ko": "역할·신체: 지역 변종으로, 염분 방지 덮개와 넓은 음향판을 단 서부 수변 마스트다.",
+          "en": "Role and body: A regional variant, a western waterside mast fitted with a salt-protective cover and a broad acoustic panel."
+        },
+        {
+          "ko": "기원: XT02 당산 펌프·냉동 설비의 전기 잡음을 따라 움직이던 외눈탑이 펌프 수증기 안개 속 소리를 주 감각으로 삼았다.",
+          "en": "Origin: A surveillance mast following electrical interference from XT02 Dangsan pumps and refrigeration came to use sounds in pump-vapor fog as its primary sense."
+        },
+        {
+          "ko": "서식·필요: 당산2동 한강변 인계 공간과 안개 낀 교량에 머물며 방청유, 음향판, 풍력 축전이 필요하다.",
+          "en": "Habitat and needs: It stays at the Dangsan-2-dong riverbank handover space and foggy bridges, and needs anticorrosion oil, an acoustic panel and wind-charged power storage."
+        },
+        {
+          "ko": "생애·정비: 주변 설비의 찌꺼기가 음향판에 쌓이면 고정 경보로 굳고 세척수로 씻어 내면 다시 레일을 돈다.",
+          "en": "Life cycle and maintenance: When residue from nearby equipment builds up on its acoustic panel, it stiffens into a fixed alarm; washing the panel with cleaning water lets it circle the rail again."
+        },
+        {
+          "ko": "행동·위계: 당산 펌프와 냉동 설비의 전기 잡음을 따라 움직이며 강물과 펌프 소리를 침입으로 혼동한다.",
+          "en": "Behavior and hierarchy: It follows electrical interference from Dangsan pumps and refrigeration, confusing river and pump sounds with intrusion."
+        },
+        {
+          "ko": "상승: 1단계에서 소리를 추적하고, 2단계에서 수변 작업로를 멈추며, 3단계에서 펌프 수증기 안개 속 모든 이동에 적색 경보를 올린다.",
+          "en": "Escalation: In stage 1 it tracks sounds; in stage 2 it stops the waterfront work route; in stage 3 it raises red alarms for every movement in pump-vapor fog."
+        },
+        {
+          "ko": "교전·대응: 일정한 파도 소리와 더미 부표로 빈 당산 수변 난간에 유도하고 음향판을 접으면 된다.",
+          "en": "Engagement and response: Lead it to an empty Dangsan riverside railing with a steady sound of waves and a decoy buoy, then fold away its acoustic panel."
+        },
+        {
+          "ko": "교섭·도덕 선택: 안개 조난 경보에 쓸 수 있지만 어선과 피난선의 소리를 예외로 등록해야 한다.",
+          "en": "Negotiation and moral choice: It can be used to warn of distress in fog, but the sounds of fishing boats and evacuation boats must be registered as exceptions."
+        },
+        {
+          "ko": "시나리오 연결: G17-SC1, G17-SC3.",
+          "en": "Scenario connections: G17-SC1, G17-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G17-generated-G17-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0143"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01421",
+      "text": {
+        "ko": "여의도 수변 마스트는 안개 속 의료 침대의 금속 난간을 침입 표적으로 잡는다.",
+        "en": "The Yeouido waterfront mast caught the metal rails of a medical bed in the fog as an intrusion target."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01422",
+      "text": {
+        "ko": "적색 플래그가 올라가면 수문국 수문 옆 이송로가 닫히고, 서울역 기록청 옥상의 헤드가 같은 임계표를 받아 서울역 중앙 회랑까지 잠근다.",
+        "en": "When the red flag went up, the transfer route beside the Sluice Bureau’s sluice closed, and the head on the roof of the Seoul Station records office received the same threshold table and locked everything as far as the central Seoul Station corridor."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01423",
+      "text": {
+        "ko": "외눈탑은 오래된 임계 테이블을 돌리는 마스트 헤드와 짧은 이동 레일, 송신 무리가 연동해 움직인다.",
+        "en": "The One-Eye Tower operates through linked mast heads running old threshold tables, short movement rails and transmission swarms."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01424",
+      "text": {
+        "ko": "XT02 당산 펌프·냉동 설비의 전기 잡음이 강해지면 서남 반경이 넓어지지만 건물 안이나 마스트 열 밖의 신호를 합칠 수 없다.",
+        "en": "When the XT02 electrical noise from Dangsan pumps and refrigeration grew strong, its southwestern radius widened, but it could not combine signals from inside buildings or from outside the mast rows."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01425",
+      "text": {
+        "ko": "저해상 열화상, 금속 반사, 근거리 광학, 무선 버스트와 기둥 진동이 감각의 전부다.",
+        "en": "Low-resolution thermal imaging, metal reflection, short-range optics, radio bursts, and pole vibration were the whole of its senses."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01426",
+      "text": {
+        "ko": "냉각탑 증기를 화재로, 금속 침대를 무장 이동으로, 수위가 오를 때 흔들리는 난간을 침입으로 오인한다.",
+        "en": "It mistakes cooling-tower steam for fire, metal beds for armed movement, and railings shaking as water rises for intrusion."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01427",
+      "text": {
+        "ko": "얼굴이나 소속을 식별하지 못하고 영상도 경보 교대가 끝나면 지운다.",
+        "en": "It could not identify faces or affiliations, and it erased its footage when the alarm shift ended."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01428",
+      "text": {
+        "ko": "F01 냉각탑지기는 증기 시간과 온도를 기록해 오탐을 소거하지만 플래그를 내리는 권한은 없다.",
+        "en": "F01 Cooling-Tower Keeper recorded steam times and temperatures to clear false positives but had no authority to lower the flags."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01429",
+      "text": {
+        "ko": "HP03 수변 당직이 의료 이송 명부를 헤드 앞에서 대조해야 적색이 황색으로 내려간다.",
+        "en": "The red came down to yellow only when the HP03 waterfront watch checked the medical transfer register in front of the head."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01430",
+      "text": {
+        "ko": "에너지는 마스트 태양 트릭클, 옥상 축전과 수문 분전의 작은 몫에서 얻는다.",
+        "en": "It drew energy from mast solar trickle charge, rooftop batteries, and a small share of the sluice distribution panel."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01431",
+      "text": {
+        "ko": "짐벌 베어링, 광학 돔, 대역 필터와 플래그 액추에이터가 닳으면 헤드는 같은 방향을 오래 본다.",
+        "en": "When the gimbal bearings, optical domes, band filters, and flag actuators wore out, a head stared in the same direction for a long time."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01432",
+      "text": {
+        "ko": "축전량이 하한에 닿거나 돔이 오염된 마스트는 황색으로 굳어 송신열에서 빠진다.",
+        "en": "A mast whose battery reached its lower limit or whose dome became fouled froze at yellow and dropped out of the transmission row."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01433",
+      "text": {
+        "ko": "새 위성을 띄우거나 도시 전역 헤드를 연결하지 못하며, 방치 헤드를 가까운 레일에 올리는 정도로만 수를 유지한다.",
+        "en": "It could not launch new satellites or link heads across the whole city, and kept its numbers only by mounting abandoned heads on nearby rails."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01434",
+      "text": {
+        "ko": "의료 이송 표식과 수문 계측이 같은 분전을 쓰므로, 전면을 차단하면 다음 홍수와 화재의 경고까지 없어진다.",
+        "en": "Medical transfer markers and sluice gauging used the same distribution panel, so a total cutoff removed even the warnings of the next flood and fire."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01435",
+      "text": {
+        "ko": "출현은 임계표가 마스트에 다시 적재될 때, 확산은 인접 헤드가 같은 경보표를 받을 때 일어난다.",
+        "en": "Its emergence occurred when the threshold table was loaded onto a mast again, and its spread when a neighboring head received the same alarm table."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01436",
+      "text": {
+        "ko": "오염과 축전 고갈이 정체를 만들고 화이트리스트가 공개되면 협상 상태가 된다.",
+        "en": "Fouling and battery exhaustion made it stall, and when the whitelist was disclosed it entered a state of negotiation."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01437",
+      "text": {
+        "ko": "와해는 적색 플래그 레일을 고정하고 오탐 헤드를 황색 대기로 보내는 일이다.",
+        "en": "Breaking it up meant fixing the red-flag rails and sending the false-positive heads to yellow standby."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01438",
+      "text": {
+        "ko": "현장 인원은 수위 계측 채널을 남기고 경보 채널을 분리한다. 다음 수위 상승 때 실제 경보가 울리는지 다시 시험하며 공존 조건을 확인한다.",
+        "en": "The site crew retains water-level telemetry and separates the alarm channel. At the next rise in water level, it tests whether a genuine alarm still sounds and checks the conditions for coexistence."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01439",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0162"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17-SC1 · 안개와 금속 난간",
+        "en": "G17-SC1 · The Fog and the Metal Rails"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01440",
+      "text": {
+        "ko": "이송 중인 병상이 적색 플래그 아래 멈춘다.",
+        "en": "A bed in transfer stopped under the red flag."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01441",
+      "text": {
+        "ko": "현장 인원은 오염된 돔을 가리고 F01의 증기 기록과 수위 상승 때의 진동을 대조해 오탐 원인을 찾는다.",
+        "en": "The site crew covers the fouled dome and compares F01 steam records with vibrations during rising water to locate the cause of false alarms."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01442",
+      "text": {
+        "ko": "헤드를 부수면 길은 열리지만 수문 수위 파형도 사라지므로, 작업자는 환자의 대기 시간과 계측 보존 사이에서 우선순위를 정해야 한다.",
+        "en": "Smashing the head opened the way but also erased the sluice water-level waveform, so the crew had to weigh the patient’s waiting time against preserving the measurements."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01443",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0166"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17-SC2 · 회랑 명부",
+        "en": "G17-SC2 · The Corridor Register"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01444",
+      "text": {
+        "ko": "HP03은 의료 비콘을 화이트리스트에 올리려 하지만 당산 펌프·냉동 설비의 전기 잡음이 같은 대역을 덮는다.",
+        "en": "HP03 tried to put the medical beacons on the whitelist, but electrical noise from Dangsan pumps and refrigeration covered the same band."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01445",
+      "text": {
+        "ko": "현장 인원은 마스트마다 대역 필터를 갈며 이송 명부를 직접 읽힌다.",
+        "en": "The people on site changed the band filter on each mast and had the transfer register read directly."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01446",
+      "text": {
+        "ko": "한 회랑씩 여는 동안 다른 환자가 우회해야 하고 축전도 소모된다.",
+        "en": "While the corridors were opened one at a time, other patients had to detour and battery charge was consumed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01447",
+      "text": {
+        "ko": "비밀 예외를 넣으면 빠르지만 다음 당직이 이유를 알 수 없어 다시 봉쇄한다.",
+        "en": "Inserting a secret exception was fast, but the next watch could not know the reason and sealed it again."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01448",
+      "publicAnchors": [
+        "Hostile-Group-G17-heading-0171",
+        "g17-sc3-다음-만조의-경보",
+        "g17-sc3-the-alarm-of-the-next-high-tide"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G17-SC3 · 다음 수위 상승의 경보",
+        "en": "G17-SC3 · The Alarm at the Next Water-Level Rise"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01449",
+      "text": {
+        "ko": "여러 마스트가 일괄 적색으로 바뀌기 전에 플래그 레일을 고정하고 계측 전원을 별도 회로에 남긴다.",
+        "en": "Before several masts turned red all at once, the flag rails were fixed and the gauging power was left on a separate circuit."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01450",
+      "text": {
+        "ko": "마지막 병상이 기록고를 건넌 뒤 오탐 헤드를 황색으로 둘지 철거할지 결정한다.",
+        "en": "After the last bed crossed the records vault, it was decided whether to leave the false-positive heads at yellow or tear them down."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01451",
+      "text": {
+        "ko": "철거하면 감시 공포는 즉시 줄지만, 실제 수위와 옥상 화재의 위험은 다른 주민에게 넘어간다.",
+        "en": "Tearing them down reduced the fear of surveillance at once but passed the danger of real water levels and rooftop fires on to other residents."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-17-dossier_prose-01452",
+      "text": {
+        "ko": "공존하려면 지속 시간 상한을 공개하고, 돔을 거듭 정비하며, 사람이 현장에서 대조해야 한다.",
+        "en": "Coexistence required a published upper limit on duration, repeated dome maintenance, and people checking on site."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The One-Eye Tower consists of Yeouido waterfront masts, heads on Seoul Station’s Records Bureau roof, short transfer rails and transmitting groups using old threshold tables. Detection stays around the mast rows. It mistakes cooling-tower steam for fire, metal beds for armed movement, and railings shaking as water rises for intrusion.",
+        "ko": "외눈탑은 여의도 수변 마스트와 서울역 기록청 옥상의 헤드, 짧은 이동 레일, 오래된 임계 테이블을 쓰는 송신 무리로 이루어진다. 감지 범위는 마스트 열 주변에 머문다. 냉각탑 증기를 화재로, 금속 침대를 무장 이동으로, 수위 상승에 흔들리는 난간을 침입으로 오인한다."
+      },
+      "variants": [
+        {
+          "id": "G17E01",
+          "source_batch": "M026"
+        },
+        {
+          "id": "G17E02",
+          "source_batch": "M026"
+        },
+        {
+          "id": "G17E03",
+          "source_batch": "M026"
+        },
+        {
+          "id": "G17E04",
+          "source_batch": "M026"
+        },
+        {
+          "id": "G17E05",
+          "source_batch": "M027"
+        },
+        {
+          "id": "G17E06",
+          "source_batch": "M027"
+        },
+        {
+          "id": "G17E07",
+          "source_batch": "M027"
+        },
+        {
+          "id": "G17E08",
+          "source_batch": "M027"
+        },
+        {
+          "id": "G17E09",
+          "source_batch": "M027"
+        },
+        {
+          "id": "G17E10",
+          "source_batch": "M027"
+        },
+        {
+          "id": "G17E11",
+          "source_batch": "M027"
+        },
+        {
+          "id": "G17E12",
+          "source_batch": "M027"
+        },
+        {
+          "id": "G17E13",
+          "source_batch": "M027"
+        },
+        {
+          "id": "G17E14",
+          "source_batch": "M027"
+        },
+        {
+          "id": "G17E15",
+          "source_batch": "M028"
+        },
+        {
+          "id": "G17E16",
+          "source_batch": "M028"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

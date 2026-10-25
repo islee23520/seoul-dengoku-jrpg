@@ -1,0 +1,4399 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G05",
+  "slug": "Hostile-Group-G05",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G05]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G05 · Brown Rat",
+      "summary": "G05 · Brown Rat",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G05 · 집쥐",
+      "summary": "G05 · 집쥐",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G05 · 집쥐",
+        "en": "G05 · Brown Rat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G05-generated-G05-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G05-generated-G05-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "광진선 동방사 환승 상점가 하부와 케이블 트레이, 여의도선 안국총림 대피 계단 사이에 형성된 보통의 쥐 군락이다. 부스러기 탄수화물과 단백질 잔여, 보온 배관 열이 밀도를 만들고 특별한 병원체는 확인되지 않았다. 고정 우두머리가 없으며 먹이 흔적이 바뀌면 중심처럼 보이던 코어도 옮겨 간다.",
+        "en": "It was an ordinary rat colony formed between the underside of the Eastern Command's transfer arcade and cable trays on the Gwangjin Line and the evacuation stairs of the Anguk Order on the Yeouido Line. Crumbs of carbohydrate, protein leftovers, and the heat of insulated piping made its density, and no special pathogen had been identified. It had no fixed leader, and when food traces shifted, even the core that seemed to be the center moved."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G05-generated-G05-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "틈수염과 온핵, 반대핵은 같은 종의 경로·번식 밀집이지 왕과 근위가 아니다. 트레이온기와 폐점그늘은 쥐가 점유한 설비 구간이고, 하역막은 단백질 하역 뒤 여러 가지가 허브 바닥에 모인 현상이다. 냉동틈은 엘리베이터 드립에 맞춘 지역 갈래이며, E01부터 E06은 제외된 배치에 남는다.",
+        "en": "Gap-whisker, warm core, and counter-core were path and breeding concentrations of the same species, not a king and a guard. The tray-warmer and the closed-shop shade were facility sections the rats occupied, and the unloading film was a phenomenon in which, after a protein unloading, several kinds gathered on the hub floor. The cold-gap was a local branch timed to elevator drip, and E01 through E06 remained in an excluded batch."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "광진선 동방사 지하 배급 통로와 여의도선 안국총림 대피 계단 사이 환승 연결부에서 음식물과 보온 배관의 누열이 계속 공급되어 집쥐가 정착했다. / 먹이와 온기, 몸을 숨길 틈이 모인 구획에 개체가 밀집했고, 배설물과 습기가 케이블 피복의 손상을 키워 단락이 잦아졌다. / 군락은 여러 코어 둥지로 갈라졌다. 같은 순서의 방제를 겪고 살아남은 개체들은 열린 퇴로를 먼저 찾아 이동했다. 당직자는 점유 구획을 확인하고 비점유 구획으로 단방향 퇴로를 연 뒤 뒤쪽부터 밀폐했으며, 비표적 동물과 식품의 오염 여부를 함께 점검했다.",
+            "en": "Brown Rats settled at the transfer junction between the Eastern Command’s underground ration passages on the Gwangjin Line and the Anguk Order’s evacuation stairs on the Yeouido Line, where food and leaking heat from insulated pipes remained available. / Animals concentrated in sectors offering food, warmth and hiding places. Droppings and moisture worsened cable-sheathing damage, making short circuits frequent. / The colony split among several core nests. Animals surviving repeated pest-control sequences learned to find open escape routes first. The watch identified occupied sectors, opened a one-way route into an unoccupied sector and sealed from the rear, while checking non-target animals and food for contamination."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "핵심 서식은 광진선 환승 상점가 하부와 케이블 트레이이며, 피난 밀도가 오르면 여의도선 대피 계단·임시 급식소 벽체로 확장한다. / XT05 여의도 공동 접수·지상 중계 회랑 쪽 냉동 보관 식량 단백질 잔여물이 쌓이면 군락이 하역 엘리베이터 통로까지 가지 둥지를 넓힌다. / 소독 주기가 짧은 구역에서는 야간에만 지상으로 오른다.",
+            "en": "The core habitat is the lower level of the Gwangjin Line transfer shopping street and the cable trays, and when refuge density rises it expands into the Yeouido Line evacuation stairs and the walls of the temporary feeding stations. / When frozen stored-food protein remains pile up on the XT05 Yeouido Shared Reception and Ground Relay Corridor side, the colony extends branch nests as far as the unloading elevator shafts. / In zones with a short disinfection cycle it comes up to the surface only at night."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "부스러기 탄수화물·단백질 잔여·보온 배관 열이 주 자원 셋이다. / HC05 북한산보국문기록가가 보관 문서·시약 창고 밀봉을 강화해도 먹이 문제는 해결되지 않으며, 밀도를 좌우하는 요인은 급식 잔반 회수와 트레이 밀폐다. / 군락 배설이 전선 피복을 가속 부식시켜 조명·안내 전광 가용시간을 줄인다.",
+            "en": "Crumb carbohydrates, protein remains, and heat from the warming pipes were the three core resources. / Even when HC05 the Bukhansan Bogukmun Records House tightened the sealing of its document and reagent stores, the food problem was not solved, and the factors that actually governed density were leftover collection from the feeding stations and tray sealing. / Colony droppings accelerated corrosion of the wire sheathing and cut the available hours of the lighting and the guide boards."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "먹이와 보온 배관이 만나는 곳에 코어 둥지 2~3개가 생기고, 각 코어에서 케이블 트레이를 따라 가지 둥지가 뻗는다. / 한 코어가 사라지면 남은 코어가 새 이동로를 열어 군락이 재분배되며, 모든 구획에서 먹이 회수와 건조 상태가 이어져야 밀도가 내려간다.",
+            "en": "Where food and the warming pipes met, two or three core nests formed, and from each core branch nests ran out along the cable trays. / When one core vanished, the remaining cores opened new routes and the colony redistributed, and density fell only when food collection and dry conditions continued in every section."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "후각·수염으로 기류와 먹이를 찾고 발과 몸에 닿는 온도·진동으로 따뜻한 은신처와 열차·카트 접근을 구분한다. / 원거리 열원을 분류하지 못하며 전자 신호도 해독하지 않는다. / H05 윤재의 적외선 맵만 군락·증기·사람 열원을 멀리서 비교하고, 바닥 배설 흔적과 맞춰 판독한다.",
+            "en": "By scent and whisker they found airflow and food, and by the temperature and vibration reaching their feet and bodies they separated warm hiding places from the approach of trains and carts. / They could not classify distant heat sources, and they did not decode electronic signals either. / Only H05 Yunjae's infrared map compared colony, steam, and human heat sources from a distance, and it was read together with the droppings on the floor."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "고정 우두머리는 없고 번식 코어 둥지 2~3곳이 경로망의 중심이다. / 경로 개척 개체가 새 트레이를 열고 먹이 흔적이 많은 코어로 이동량이 쏠린다. / H05는 열점 하나를 우두머리로 추정하지 않고 코어별 이동량을 표시한다. / 코어 하나가 파괴되면 남은 둥지로 개체가 급격히 분산한다.",
+            "en": "There was no fixed leader, and two or three breeding-core nests were the centers of the route net. / Route-pioneering individuals opened new trays, and movement volume concentrated on the core with the most food traces. / H05 did not infer one heat point to be a leader, and displayed movement volume by core. / When one core was destroyed, individuals dispersed sharply into the remaining nests."
+          }
+        ],
+        [
+          {
+            "ko": "장기 적응",
+            "en": "Long-term adaptation"
+          },
+          {
+            "ko": "독성 살포와 초음파, 밀폐가 같은 순서로 반복되자 살아남은 개체들은 그 순서를 피하며 열린 퇴로를 바꾸었다. / 여러 세대 동안 저온과 밝은 승강장을 견디는 개체가 선택될 수 있으나 에너지 소비는 늘고 번식률은 떨어진다. / 한 수단을 반복할수록 경로 회피가 빨라져 복합 방제가 필요해진다.",
+            "en": "As toxic spraying, ultrasound and sealing repeated in the same sequence, surviving animals learned to avoid that order and shifted their open escape routes. / Over many generations, individuals that endured low temperatures and bright platforms could be selected, but energy use rose and the breeding rate fell. / The more one measure was repeated, the faster route avoidance became, and compound pest control became necessary."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G05-generated-G05-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "수염과 후각으로 기류와 잔반을 찾고 발과 배로 열차·카트·사람 진동을 가르지만 화면의 먼 열점과 안내 전광의 내용은 읽지 못한다. 같은 방제 순서가 반복되면 열린 퇴로를 더 빨리 찾을 뿐 명령을 내리지는 않는다. 한 코어를 허물면 개체가 남은 코어로 몰릴 뿐 군락은 붕괴하지 않는다.",
+        "en": "With whiskers and scent they found airflow and leftovers, and with feet and bellies they separated the vibration of trains, carts, and people, but they could not read distant heat points on a screen or the content of the guide boards. When the same pest-control sequence repeated, they only found an open retreat faster, and they gave no orders. Tearing down one core only drove individuals into the remaining cores, and the colony did not collapse."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G05E07 · 집쥐 경로직능 '틈수염'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e07"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G05E07 · Brown Rat Route Specialist 'Gapwhisker'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e07"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "경로 개척",
+            "en": "Route Opening"
+          },
+          {
+            "ko": "직능형",
+            "en": "occupational type"
+          },
+          {
+            "ko": "M008",
+            "en": "M008"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G05E08 · 집쥐 첫정예 '온핵자리'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G05E08 · Brown Rat First Elite 'Warm Core Site'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "번식 밀집",
+            "en": "Breeding Concentration"
+          },
+          {
+            "ko": "첫 번째 정예",
+            "en": "first elite"
+          },
+          {
+            "ko": "M008",
+            "en": "M008"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G05E09 · 집쥐 둘째정예 '반대핵'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e09"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G05E09 · Brown Rat Second Elite 'Opposite Core'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e09"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "은닉 번식",
+            "en": "Hidden Breeding"
+          },
+          {
+            "ko": "두 번째 정예",
+            "en": "second elite"
+          },
+          {
+            "ko": "M008",
+            "en": "M008"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G05E10 · 집쥐 케이블거점 '트레이온기'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e10"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G05E10 · Brown Rat Cable Stronghold 'Tray Warmth'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e10"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "피복 손상",
+            "en": "Cable Sheathing Damage"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M008",
+            "en": "M008"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G05E11 · 집쥐 셔터거점 '폐점그늘'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e11"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G05E11 · Brown Rat Shutter Stronghold 'After-Closing Shade'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e11"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "그늘을 통한 이동 경로 변경",
+            "en": "Rerouting Through Shade"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M008",
+            "en": "M008"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G05E12 · 집쥐 성장형 '새끼자국'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e12"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G05E12 · Brown Rat Juvenile Form 'Young Tracks'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e12"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "은닉 증거",
+            "en": "Hidden Evidence"
+          },
+          {
+            "ko": "성장 단계형",
+            "en": "growth-stage type"
+          },
+          {
+            "ko": "M008",
+            "en": "M008"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G05E13 · 집쥐 노화형 '퇴로기억'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e13"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G05E13 · Brown Rat Aged Form 'Escape-Route Memory'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e13"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "퇴로 학습",
+            "en": "Escape-Route Learning"
+          },
+          {
+            "ko": "노화 단계형",
+            "en": "aging-stage type"
+          },
+          {
+            "ko": "M008",
+            "en": "M008"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G05E14 · 집쥐 공존형 '회수간격'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e14"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G05E14 · Brown Rat Coexistence Form 'Collection Interval'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e14"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "회수 공존",
+            "en": "Coexistence Through Collection"
+          },
+          {
+            "ko": "공존형",
+            "en": "coexistence type"
+          },
+          {
+            "ko": "M008",
+            "en": "M008"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G05E15 · 집쥐 허브보스 '하역막'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G05E15 · Brown Rat Hub Boss 'Unloading Barrier'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "군집 현상",
+            "en": "Swarm phenomenon"
+          },
+          {
+            "ko": "사건·현상",
+            "en": "Event or phenomenon"
+          },
+          {
+            "ko": "허브 적체",
+            "en": "Hub congestion"
+          },
+          {
+            "ko": "시나리오 보스",
+            "en": "scenario boss"
+          },
+          {
+            "ko": "M008",
+            "en": "M008"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G05E16 · 집쥐 하역변종 '냉동틈'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e16"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G05E16 · Brown Rat Unloading Variant 'Frozen Gap'",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G05",
+                  "anchor": "g05e16"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "하역 점유",
+            "en": "Unloading-area occupation"
+          },
+          {
+            "ko": "지역 변종",
+            "en": "regional variant"
+          },
+          {
+            "ko": "M008",
+            "en": "M008"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05E07-title-heading-1",
+      "publicAnchors": [
+        "g05e07",
+        "Hostile-Group-G05-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05E07 · 집쥐 경로직능 '틈수염'",
+        "en": "G05E07 · Brown Rat Route Specialist 'Gapwhisker'"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05E07-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M008",
+          "en": "Source batch: M008"
+        },
+        {
+          "ko": "기존 역할군: 직능형",
+          "en": "Former role class: occupational type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC05\",\"HP09\"],\"scenarios\":[\"G05-SC1\",\"G05-SC2\",\"G05-SC3\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HC05\",\"HP09\"],\"scenarios\":[\"G05-SC1\",\"G05-SC2\",\"G05-SC3\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05E07-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "경로 개척",
+            "en": "Route Opening"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "경로직능 '틈수염'은 트레이 틈에 수염을 밀어 기류가 새는 구멍을 찾는 개척 몸이다. 명령을 내리지 않고 먹이 흔적이 많은 코어로만 가지를 잇는다.",
+            "en": "The route specialist 'Gapwhisker' is a pathfinding individual that pushes its whiskers into gaps in cable trays to find openings where air leaks through. It gives no orders and connects branches only to cores with abundant food traces."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02629-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0014"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02629",
+      "text": {
+        "ko": "직능형으로, 수염을 트레이 틈에 밀어 넣어 기류가 새는 구멍을 찾는 경로 개척 개체다. 발과 배에 전해지는 온도와 진동으로 열차와 배급 카트와 사람의 걸음을 가르지만, 화면 속 먼 열점을 읽거나 안내 전광의 내용을 해독하지는 못한다.",
+        "en": "A specialist pathfinder, it pushes its whiskers into cable-tray gaps to find openings where air leaks through. From the temperature and vibrations transmitted through its feet and belly, it distinguishes trains, supply carts, and human footsteps, but it cannot read distant heat spots on a screen or decipher the text on an electronic information board."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02630-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0016"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02630",
+      "text": {
+        "ko": "같은 순서로 초음파와 밀폐 판이 반복되던 겨울, 살아남은 개체가 열린 쪽만 기억하며 갈라졌다. 광진선 동방사 상점가 하부에서 쓰이지 않던 배관 받침대를 시험한 뒤 그 구멍이 코어 사이의 가지가 되었다.",
+        "en": "During a winter when ultrasound and sealing panels were repeated in the same sequence, survivors split off by remembering only the open side. After testing an unused pipe support beneath the Gwangjin Line Eastern Command shopping arcade, they turned its opening into a branch between cores."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02631-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0018"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02631",
+      "text": {
+        "ko": "낮에는 케이블 트레이 가장자리와 보온 배관 브래킷에 붙어 있고, 소독이 잦은 지상에는 밤에만 코를 내민다. 통행이 끊긴 셔터 뒤는 임시 저장처로만 스친다.",
+        "en": "By day, it clings to the edges of cable trays and insulated-pipe brackets; it ventures onto frequently disinfected ground-level areas only at night. It visits the space behind shutters where traffic has ceased only as temporary storage."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02632-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0020"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요·경제",
+        "en": "Needs and Economy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02632",
+      "text": {
+        "ko": "구멍을 유지하는 힘은 부스러기보다 배관 열이다. 열이 식으면 수염이 둔해져 개척이 멈추고, 잔반이 다른 코어로 옮겨지면 구멍도 하루 안에 버려진다.",
+        "en": "Pipe heat, more than crumbs, supplies the strength needed to keep an opening in use. When the heat fades, its whiskers grow less sensitive and pathfinding stops; if food scraps move to another core, the opening is abandoned within a day."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02633-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0022"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02633",
+      "text": {
+        "ko": "거친 피복에 수염이 닳으면 기류를 놓쳐 잘못된 퇴로를 연다. 밝은 승강장에 오래 노출되면 에너지 소비가 늘어 그 계절의 번식을 건너뛴다.",
+        "en": "When rough cable sheathing wears down its whiskers, it misses air currents and opens the wrong escape route. Prolonged exposure on a bright platform raises its energy expenditure, causing it to skip breeding that season."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02634-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0024"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02634",
+      "text": {
+        "ko": "명령을 내리지 않으며 먹이 흔적이 많은 코어로만 가지를 잇는다. H05 윤재가 열점 하나를 우두머리로 올리면 증기 누열과 섞여 잘못된 봉쇄가 시작된다.",
+        "en": "It gives no orders and connects branches only to cores with abundant food traces. If H05 Yunjae treats one heat spot as the leader, it can be confused with leaking pipe heat, setting off a misguided lockdown."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02635-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0026"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "단계적 위협",
+        "en": "Escalating Threat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02635",
+      "text": {
+        "ko": "1단계에서는 반대편 트레이에 시험 구멍을 낸다. 2단계에서는 한 코어가 막히자 상점 셔터 아래로 가지를 옮긴다. 3단계에서는 급식소 쪽이 먼저 닫혀 대피 계단 케이블로 역주행 구멍을 연다.",
+        "en": "In stage 1, it makes a test opening in the opposite tray. In stage 2, when one core is blocked, it moves the branch beneath a shop shutter. In stage 3, the soup kitchen side is closed first, and it opens a reverse-running passage into the evacuation stairwell cables."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02636-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0028"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "전투·대응",
+        "en": "Combat and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02636",
+      "text": {
+        "ko": "독성 살포와 화염은 아동과 반려동물이 지나는 구간에 닿으므로 최후 수단으로만 남긴다. 점유 구획을 확인한 뒤 사람이 쓰지 않는 쪽으로 단방향 퇴로를 열고 뒤쪽부터 구멍을 막으면, 성과는 포획 수가 아니라 단락 건수와 식품 오염, 비표적 폐사, 피난 통과 시간으로 본다.",
+        "en": "Because toxic spraying and flames can reach areas used by children and companion animals, they remain last resorts. After confirming which sections are occupied, open a one-way escape route toward an area people do not use and seal openings from the rear forward. Judge the result not by the number captured, but by short circuits, food contamination, non-target deaths, and evacuation transit time."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02637-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0030"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02637",
+      "text": {
+        "ko": "비점유 구획 하나를 오래 닫아 퇴로를 시험하면 HP09 디지털미디어시티신탁가에 통행 기록을 넘기지 않아도 되지만, 그 공간이 피난 여유로 쓰이지 못한다. 구멍을 즉시 전부 메우면 위생 조치는 빨라지나 개척은 더 깊은 케이블 층으로 내려가 복구 비용이 커진다.",
+        "en": "Keeping one unoccupied section closed long enough to test an escape route avoids handing passage records to HP09 Digital Media City Trust House, but leaves that space unavailable as evacuation capacity. Sealing every opening at once speeds up sanitation, but drives the pathfinders deeper into the cable layers and raises restoration costs."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02638-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0032"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Connections"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-1-prose-02638",
+      "text": {
+        "ko": "시나리오 연결: G05-SC1의 단방향 퇴로 시험이 이 구멍에서 이뤄지고, G05-SC2의 밀폐 순서 오류는 군락을 같은 구멍을 통해 계단 쪽으로 밀어 올리며, G05-SC3의 단백질 하역 주간에는 엘리베이터 턱까지 가지가 닿는다.",
+        "en": "The one-way escape-route test in G05-SC1 uses this opening as its setting; the sealing-sequence error in G05-SC2 drives the colony up through the same opening toward the stairs; and during the protein unloading week in G05-SC3, the branch reaches the elevator threshold."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05E08-title-heading-1",
+      "publicAnchors": [
+        "g05e08",
+        "Hostile-Group-G05-heading-0034"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05E08 · 집쥐 첫정예 '온핵자리'",
+        "en": "G05E08 · Brown Rat First Elite 'Warm Core Site'"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M008",
+          "en": "Source batch: M008"
+        },
+        {
+          "ko": "기존 역할군: 첫 번째 정예",
+          "en": "Former role class: first elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC1\",\"G05-SC2\",\"G05-SC3\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC1\",\"G05-SC2\",\"G05-SC3\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "번식 밀집",
+            "en": "Breeding Concentration"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "첫정예 '온핵자리'는 먹이와 보온 배관이 겹치는 자리의 번식 밀집체다. 고정 우두머리가 아니며 열화상 큰 덩어리를 군락 전체로 부르면 봉쇄가 빗나간다.",
+            "en": "The first elite, 'Warm Core Site,' is a breeding concentration where food and insulated pipes coincide. It is not a permanent leader; treating a large thermal-imaging mass as the entire colony causes the lockdown to miss its target."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02639-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0037"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02639",
+      "text": {
+        "ko": "첫 번째 정예로, 먹이와 보온 배관이 겹치는 자리에 앉은 번식 코어의 밀집체다. 고정된 우두머리가 아니며 이동량이 잠시 이곳으로 쏠릴 뿐이다. 수염과 후각은 잔반과 열을 찾고, 먼 적외선 무늬는 구분하지 못한다.",
+        "en": "The first elite is a dense breeding core situated where food and insulated pipes coincide. It is not a permanent leader; movement merely concentrates here for a time. Its whiskers and sense of smell locate food scraps and heat, but it cannot distinguish distant infrared patterns."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02640-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0039"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02640",
+      "text": {
+        "ko": "광진선 환승 상점가 하부에서 폐점 뒤 떨어지는 탄수화물 부스러기와 배관 누열이 한 구획에 머물며 이 코어가 굳었다. 사람들이 열화상 속 큰 덩어리를 군락 전체로 부르기 시작했으나, 그런 부름은 화면의 한계일 뿐이다.",
+        "en": "Beneath the Gwangjin Line transfer shopping arcade, carbohydrate crumbs dropped after closing and leaking pipe heat remained in one section, solidifying this core. People began calling the large mass on thermal imaging the entire colony, but that reflects only the limits of the image."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02641-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0041"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02641",
+      "text": {
+        "ko": "서식: 온핵은 상점가 하부 트레이와 배관이 교차하는 자리다. 여의도선 안국총림의 급식 밀도가 오르면 가지가 벽체로 뻗지만, 온핵 자체는 열이 식기 전에는 비우지 않는다.",
+        "en": "Its center is a warm core where trays and pipes cross beneath the shopping arcade. When feeding density rises at the Yeouido Line Anguk Order, branches extend into the walls, but the warm core itself is not vacated until its heat fades."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02642-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0043"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요·경제",
+        "en": "Needs and Economy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02642",
+      "text": {
+        "ko": "부스러기 탄수화물과 배관 열이 동시에 있어야 밀도가 유지된다. HC05 북한산보국문기록가가 문서고와 시약 창고를 밀봉해도 급식 잔반이 남으면 온핵은 줄지 않는다.",
+        "en": "Its density depends on having both carbohydrate crumbs and pipe heat. Even if HC05 Bukhansan Bogukmun Records House seals the document archive and reagent storeroom, the warm core will not shrink while soup-kitchen leftovers remain."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02643-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0045"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02643",
+      "text": {
+        "ko": "한 코어를 허물면 개체가 남은 코어로 몰릴 뿐 군락은 붕괴하지 않는다. 잔반 회수와 건조가 모든 구획에서 이어져야 밀도가 내려가고, 눈에 띄는 둥지 제거는 재배치에 그친다.",
+        "en": "Breaking up one core merely drives its individuals into the remaining cores; it does not collapse the colony. Density falls only when food-scrap collection and drying continue throughout every section. Removing a visible nest merely relocates the colony."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02644-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0047"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02644",
+      "text": {
+        "ko": "경로 개척 개체가 가져온 구멍으로 이동량이 모인다. H05는 열점과 야간 배설, 새끼 발자국, 미끼 소실을 함께 대조하기 전에는 온핵을 활성 코어로 적지 않는다.",
+        "en": "Movement gathers through openings brought by pathfinding individuals. H05 does not record the warm core as active until it has compared heat spots with nighttime droppings, juvenile footprints, and missing bait."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02645-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0049"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "단계적 위협",
+        "en": "Escalating Threat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02645",
+      "text": {
+        "ko": "1단계에서는 배설과 온열만으로 이 코어가 먼저 보인다. 2단계에서는 이곳만 봉쇄하자 상점 셔터와 다른 트레이로 이동량이 재분배된다. 3단계에서는 잘못된 순서로 급식소 쪽을 닫아 비상 계단으로 온핵의 압력이 쏟아진다.",
+        "en": "In stage 1, droppings and warmth make this core the first to become visible. In stage 2, sealing only this site redistributes movement to shop shutters and other trays. In stage 3, closing the soup kitchen side in the wrong order sends pressure from the warm core spilling into the emergency stairwell."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02646-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0051"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "전투·대응",
+        "en": "Combat and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02646",
+      "text": {
+        "ko": "온핵에 화염을 넣으면 피복이 타며 단락이 앞당겨진다. 단방향 퇴로를 연 뒤 뒤쪽부터 밀폐하고 잔반을 회수하는 편이 기본이며, 성공은 절연 저항과 식품 오염 0건, 통과 시간으로 판단한다.",
+        "en": "Putting flames into the warm core burns cable sheathing and hastens a short circuit. The basic approach is to open a one-way escape route, then seal from the rear forward and collect food scraps. Judge success by insulation resistance, zero cases of food contamination, and transit time."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02647-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0053"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02647",
+      "text": {
+        "ko": "보이는 온핵만 급히 제거하면 통로는 잠시 열리지만 반대편 코어가 중심이 되어 다음 단계 비용이 커진다. 모든 코어를 먼저 조사하면 비표적 생물과 피난 동선을 지킬 수 있으나 광진선과 여의도선의 통로 개방은 늦어진다.",
+        "en": "Removing only the visible warm core in haste opens the passage briefly, but the opposite core becomes the center, raising costs in the next stage. Surveying every core first protects non-target animals and evacuation routes, but delays the opening of the Gwangjin Line and Yeouido Line passages."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02648-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0055"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Connections"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-2-prose-02648",
+      "text": {
+        "ko": "G05-SC1에서 열화상의 큰 덩어리가 바로 이 온핵이며, G05-SC2의 재밀폐는 온핵 압력을 잘못 밀어 올린 뒤에 시작되고, G05-SC3의 하역 주간에는 온핵 가지가 허브 바닥까지 내려온다.",
+        "en": "The large mass on thermal imaging in G05-SC1 is this warm core. Resealing in G05-SC2 begins after its pressure has been driven upward in error, and during the unloading week in G05-SC3, its branches reach the hub floor."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05E09-title-heading-1",
+      "publicAnchors": [
+        "g05e09",
+        "Hostile-Group-G05-heading-0057"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05E09 · 집쥐 둘째정예 '반대핵'",
+        "en": "G05E09 · Brown Rat Second Elite 'Opposite Core'"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05E09-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M008",
+          "en": "Source batch: M008"
+        },
+        {
+          "ko": "기존 역할군: 두 번째 정예",
+          "en": "Former role class: second elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC05\",\"HP09\"],\"scenarios\":[\"G05-SC1\",\"G05-SC3\",\"G05-SC2\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HC05\",\"HP09\"],\"scenarios\":[\"G05-SC1\",\"G05-SC3\",\"G05-SC2\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05E09-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "은닉 번식",
+            "en": "Hidden Breeding"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "둘째정예 '반대핵'은 열화상에 거의 안 잡히고 새끼 자국으로만 드러나는 숨은 코어다. 우두머리가 교체되는 것이 아니라 온핵을 건드리면 흔적이 옮겨 갈 뿐이다.",
+            "en": "The second elite, 'Opposite Core,' is a hidden core that barely appears on thermal imaging and is revealed only by juvenile tracks. No leader is replaced; disturbing the warm core merely shifts the traces elsewhere."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02649-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0060"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02649",
+      "text": {
+        "ko": "두 번째 정예로, 열화상에는 거의 안 잡히고 반대편 트레이에서 새끼 흔적으로만 드러나는 숨은 번식 코어다. 몸은 온핵보다 작고 이동량은 밤에 몰린다. 전자 신호는 읽지 못하며 기류와 잔반 냄새로만 자리를 지킨다.",
+        "en": "The second elite is a hidden breeding core, barely visible on thermal imaging and revealed only by juvenile tracks in the opposite tray. Its individuals are smaller than those of the warm core, and movement peaks at night. They cannot read electronic signals and hold their position using only air currents and the smell of food scraps."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02650-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0062"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02650",
+      "text": {
+        "ko": "첫 코어가 소독과 조명에 자주 노출되자 일부가 열이 약한 반대편 트레이로 번식 자리를 옮기며 갈라졌다. 배설은 적고 새끼 발자국만 남아, 한 군락으로 보이던 모습과 달랐다.",
+        "en": "As the first core was repeatedly exposed to disinfection and light, some individuals moved their breeding site to the cooler tray opposite and split off. They left few droppings and only juvenile footprints, breaking the impression that the image showed a single colony mass."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02651-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0064"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02651",
+      "text": {
+        "ko": "광진선 상점가 맞은편 케이블 층과, 피난 밀도가 오를 때의 여의도선 급식소 벽체 뒤다. 밝은 승강장 쪽 온핵이 붐빌수록 이 핵은 더 조용한 트레이에 붙어 있는다.",
+        "en": "It occupies the cable layer opposite the Gwangjin Line shopping arcade and, when evacuation crowds grow dense, the space behind the Yeouido Line soup kitchen wall. The more crowded the warm core becomes near the bright platform, the more this core clings to a quieter tray."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02652-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0066"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요·경제",
+        "en": "Needs and Economy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02652",
+      "text": {
+        "ko": "적은 단백질 잔여와 약한 누열만으로도 새끼를 데운다. 온핵의 잔반을 끊어도 이쪽 미끼 소실이 줄지 않으면 밀도는 이동한 것이지 사라진 것이 아니다.",
+        "en": "Small amounts of protein leftovers and weak leaking heat suffice to keep its young warm. If bait still disappears on this side after scraps are cut off from the warm core, the colony's density has shifted, not vanished."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02653-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0068"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02653",
+      "text": {
+        "ko": "온핵이 사라지는 밤에 개체가 몰리면 반대핵이 임시 중심으로 커진다. 일곱 야간 동안 새 새끼 자국이 끊겨야 비로소 이 핵이 쉬었다고 본다.",
+        "en": "If individuals crowd in on the night the warm core disappears, the opposite core grows into a temporary center. Only after seven nights without new juvenile tracks is this core considered dormant."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02654-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0070"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02654",
+      "text": {
+        "ko": "우두머리가 교체되는 것이 아니라 흔적이 옮겨 갈 뿐이다. H05가 큰 열점만 추적하면 이 핵의 흐름을 놓치고, 한 지점 제거 직후 남은 둥지로 퍼지는 이동을 놓친다.",
+        "en": "No leader is replaced; only the traces move. If H05 tracks only the large heat spot, it misses this core's flow and the movement spreading to surviving nests immediately after one site is removed."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02655-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0072"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "단계적 위협",
+        "en": "Escalating Threat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02655",
+      "text": {
+        "ko": "1단계에서는 온핵만 보이는 열화상과 반대편 새끼 흔적이 어긋난다. 2단계에서는 온핵 봉쇄 뒤 이 핵으로 이동량이 쏠린다. 3단계에서는 조사 없이 첫 둥지만 없애 중심이 이쪽 트레이와 계단 케이블로 넘어간다.",
+        "en": "In stage 1, thermal imaging that shows only the warm core conflicts with juvenile tracks on the opposite side. In stage 2, movement concentrates at this core after the warm core is sealed. In stage 3, removing only the first nest without a survey shifts the center to this tray and the stairwell cables."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02656-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0074"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "전투·대응",
+        "en": "Combat and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02656",
+      "text": {
+        "ko": "반대핵을 독으로 덮으면 비표적 새끼와 다른 야생이 먼저 죽는다. 모든 코어를 확인하거나, 한 구획에서 퇴로만 시험하거나, 열지도를 빌리기 전에는 이쪽 트레이를 막지 않는다.",
+        "en": "Covering the opposite core with poison kills non-target young and other wildlife first. Do not block this tray before checking every core, testing only an escape route in one section, or obtaining a heat map."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02657-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0076"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02657",
+      "text": {
+        "ko": "HP09 디지털미디어시티신탁가의 오래된 케이블 열지도를 사면 조사 시간은 줄지만 과거 통행 기록을 넘겨야 한다. 모든 코어를 사람이 밟으면 사생활은 지키지만 통로 개방이 늦고, 보이지 않는 핵을 무시하면 즉시 위생을 원하는 쪽과 오인 포획을 막는 쪽이 갈라진다.",
+        "en": "Buying HP09 Digital Media City Trust House's old cable heat map shortens the survey but requires handing over past passage records. Surveying every core on foot preserves privacy but delays opening the passage; ignoring the unseen core divides those who want immediate sanitation from those seeking to prevent mistaken captures."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02658-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0078"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Connections"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-3-prose-02658",
+      "text": {
+        "ko": "시나리오 연결: G05-SC1 ‘두 번째 코어 둥지’의 현장이 이 반대핵이며, G05-SC3에서 허브가 막힐 때 숨은 핵이 하역 통로로 가지를 보태고, G05-SC2의 잘못된 셔터는 반대핵 압력을 계단으로 보낸다.",
+        "en": "This opposite core is the setting of G05-SC1, 'The Second Core Nest.' When the hub is blocked in G05-SC3, the hidden core adds a branch into the unloading passage; the wrongly closed shutter in G05-SC2 sends pressure from the opposite core toward the stairs."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05E10-title-heading-1",
+      "publicAnchors": [
+        "g05e10",
+        "Hostile-Group-G05-heading-0080"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05E10 · 집쥐 케이블거점 '트레이온기'",
+        "en": "G05E10 · Brown Rat Cable Stronghold 'Tray Warmth'"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05E10-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M008",
+          "en": "Source batch: M008"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC2\",\"G05-SC1\",\"G05-SC3\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC2\",\"G05-SC1\",\"G05-SC3\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05E10-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "피복 손상",
+            "en": "Cable Sheathing Damage"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "케이블거점 '트레이온기'는 케이블 트레이 자체를 이동로이자 온기 저장으로 쓰는 점유 형태다. 개체 이빨보다 습기 구간이 더 오래가는 위험이다.",
+            "en": "The cable stronghold 'Tray Warmth' is a form of occupation that uses the cable tray itself as both a travel route and a store of warmth. The damp stretch poses a more extensive threat than any individual's teeth."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02659-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0083"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02659",
+      "text": {
+        "ko": "환경 거점형으로, 케이블 트레이 자체를 이동로이자 온기 저장으로 쓰는 점유 형태다. 배설과 습기가 전선 피복을 상하게 하며, 개체 한 마리의 이빨보다 트레이의 습기 구간이 더 오래가는 위협이다.",
+        "en": "An environmental stronghold: a form of occupation that uses the cable tray itself as both a travel route and a store of warmth. Droppings and moisture damage wire sheathing, and the damp stretch of tray poses a more extensive threat than the teeth of any one individual."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02660-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0085"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02660",
+      "text": {
+        "ko": "환승 연결부에 보온 배관과 전원 트레이가 나란히 깔리자, 겨울에도 열이 남는 금속 길이 잠자리가 되었다. 조명이 꺼질 때마다 전염을 떠올렸으나 원인은 병원체가 아니라 피복 손상과 습기다.",
+        "en": "When insulated pipes and power cable trays were laid side by side at the transfer connection, the metal route, still warm in winter, became a sleeping place. Each lighting failure raised fears of contagion, but the cause is damaged sheathing and moisture, not a pathogen."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02661-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0087"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02661",
+      "text": {
+        "ko": "광진선 환승 상점가 하부의 본선 트레이가 중심이다. 피난 밀도가 오르면 여의도선 대피 계단 케이블로 가지가 뻗고, 소독이 잦은 구간은 밤에만 지난다.",
+        "en": "The main-line tray beneath the Gwangjin Line transfer shopping arcade is its center. When evacuation crowds grow dense, branches extend into the Yeouido Line evacuation stairwell cables; frequently disinfected sections are crossed only at night."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02662-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0089"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요·경제",
+        "en": "Needs and Economy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02662",
+      "text": {
+        "ko": "거점은 배관 열과 트레이 위의 미세 잔반으로 유지된다. 트레이를 열어 둔 채 잔반만 줄이면 온기는 남아 밀도가 되돌아온다.",
+        "en": "Pipe heat and fine food scraps on the tray sustain the stronghold. Reducing scraps while leaving the tray open allows its warmth to remain and its density to rebound."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02663-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0091"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02663",
+      "text": {
+        "ko": "피복이 상한 구간은 습기가 머물러 다음 잠자리가 된다. 절연 저항이 기준선으로 돌아오고 사흘간 역주행 흔적이 없어야 이 거점이 줄었다고 본다.",
+        "en": "Moisture lingers where sheathing is damaged, making that stretch the next sleeping place. This stronghold is considered diminished only when insulation resistance returns to baseline and no reverse-running tracks appear for three days."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02664-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0093"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02664",
+      "text": {
+        "ko": "트레이 위의 이동량은 먹이 흔적을 따라 코어 쪽으로 쏠릴 뿐 지휘는 없다. HC05가 월별 피복 손상률과 습도를 대조하지 않으면 열점만으로 거점을 오인한다.",
+        "en": "Movement along the tray follows food traces toward the cores; no one directs it. Unless HC05 compares monthly sheathing-damage rates with humidity, it will mistake heat spots alone for the stronghold."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02665-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0095"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "단계적 위협",
+        "en": "Escalating Threat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02665",
+      "text": {
+        "ko": "1단계에서는 야간 횡단 흔적이 트레이 길이로 늘어난다. 2단계에서는 한 구간을 막자 쥐들이 온기가 남은 다른 트레이로 이동한다. 3단계에서는 계단 케이블까지 습기가 번져 안내 전광 가용시간이 깎인다.",
+        "en": "In stage 1, nighttime crossing tracks extend along the tray. In stage 2, blocking one stretch reroutes movement toward warmth on another tray. In stage 3, dampness reaches the stairwell cables and cuts the time the electronic information boards remain available."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02666-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0097"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "전투·대응",
+        "en": "Combat and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02666",
+      "text": {
+        "ko": "트레이에 물을 채워 쫓으면 단락이 먼저 난다. 저온·건조를 유지하고 뒤쪽부터 뚜껑을 닫으며, 개방 중정의 포식 조류는 충돌 표식과 배설 세척이 있을 때만 검토한다.",
+        "en": "Filling the tray with water to drive the rats out causes a short circuit first. Keep it cool and dry and close the lids from the rear forward. Consider predatory birds in the open courtyard only if collision markings and droppings cleanup are in place."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02667-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0099"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02667",
+      "text": {
+        "ko": "트레이를 전부 밀폐하면 군락 이동은 줄지만 조명 점검 노동이 우회해야 하고 안내 전광이 더 오래 꺼질 수 있다. 뚜껑을 밤에만 열어 점검하면 작업은 편해지나 그 시간에 맞춰 개척 구멍을 익히게 된다.",
+        "en": "Sealing every tray reduces colony movement, but lighting inspectors must take detours and the electronic information boards may remain off longer. Opening the lids only at night makes inspection easier, but the pathfinders learn to time their openings accordingly."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02668-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0101"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Connections"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-4-prose-02668",
+      "text": {
+        "ko": "G05-SC2의 역주행은 이 트레이 거점이 계단 케이블로 이어질 때 일어나고, G05-SC1의 반대편 트레이 역시 같은 온기 구조이며, G05-SC3의 허브 정전은 피복 손상이 중정까지 번진 결과다.",
+        "en": "The reverse movement in G05-SC2 occurs when this tray stronghold connects to the stairwell cables. The opposite tray in G05-SC1 has the same warmth-providing structure, and the hub power outage in G05-SC3 results from sheathing damage spreading as far as the courtyard."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05E11-title-heading-1",
+      "publicAnchors": [
+        "g05e11",
+        "Hostile-Group-G05-heading-0103"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05E11 · 집쥐 셔터거점 '폐점그늘'",
+        "en": "G05E11 · Brown Rat Shutter Stronghold 'After-Closing Shade'"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05E11-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M008",
+          "en": "Source batch: M008"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC2\",\"G05-SC3\",\"G05-SC1\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC2\",\"G05-SC3\",\"G05-SC1\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05E11-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "그늘을 통한 이동 경로 변경",
+            "en": "Rerouting Through Shade"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "셔터거점 '폐점그늘'은 통행이 끊긴 상점 셔터 뒤를 임시 저장처로 쓰는 점유다. 급식소 셔터를 먼저 닫으면 그늘의 개체가 대피 계단으로 역주행한다.",
+            "en": "The shutter stronghold 'After-Closing Shade' is an occupation that uses the space behind shop shutters where traffic has ceased as temporary storage. If the soup kitchen shutter is closed first, the individuals in the shade reverse course into the evacuation stairwell."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02669-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0106"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02669",
+      "text": {
+        "ko": "환경 거점형으로, 통행이 끊긴 상점 셔터 뒤편을 임시 저장처와 이동 그늘로 쓰는 점유다. 몸은 트레이형보다 짧게 웅크리며, 셔터 틈의 기류와 바닥 부스러기에 의존한다.",
+        "en": "An environmental stronghold: an occupation that uses the space behind shop shutters where traffic has ceased as temporary storage and a shaded travel route. Its individuals crouch more compactly than those in the trays and depend on air currents through shutter gaps and crumbs on the floor."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02670-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0108"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02670",
+      "text": {
+        "ko": "폐점 뒤 회수가 늦어진 잔반이 셔터 레일에 끼면서 그늘이 저장처가 되었다. 급식소 셔터를 먼저 닫는 습관 때문에 그늘에 있던 쥐들이 계단 쪽으로 밀려 올라갔다.",
+        "en": "Food scraps collected late after closing became lodged in shutter rails, turning the shaded space into storage. The habit of closing the soup kitchen shutter first pushed the rats in that shade toward the stairs."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02671-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0110"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02671",
+      "text": {
+        "ko": "광진선 환승 상점가의 셔터 라인과, 야간에만 열리는 간격이다. 피난 인파가 낮에 상점 앞을 메우면 그늘에 있던 쥐들은 더 깊숙한 레일 홈으로 들어간다.",
+        "en": "It occupies the shutter line of the Gwangjin Line transfer shopping arcade and the gaps that open only at night. When evacuees fill the area in front of the shops by day, the rats retreat deeper into the rail grooves."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02672-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0112"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요·경제",
+        "en": "Needs and Economy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02672",
+      "text": {
+        "ko": "폐점 잔반과 셔터 틈으로 새는 따뜻한 공기가 자원이다. 야간 간격을 없애면 그늘은 줄지만, 잔반이 레일에 남으면 하루 만에 다시 생긴다.",
+        "en": "Its resources are after-closing food scraps and warm air leaking through shutter gaps. Eliminating the nighttime gaps reduces the occupation, but scraps left in the rails revive it within a day."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02673-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0114"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02673",
+      "text": {
+        "ko": "셔터를 오래 내리면 그늘 속 습기가 레일을 녹슬게 한다. 광진선이 폐점 뒤 잔반 중량과 회수 지연을 재지 않으면 그늘은 계절 거점처럼 굳는다.",
+        "en": "Keeping shutters down for long periods lets moisture in the shade rust the rails. Unless the Gwangjin Line measures the weight of food scraps left after closing and delays in collection, the shade becomes an established seasonal stronghold."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02674-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0116"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02674",
+      "text": {
+        "ko": "그늘은 중심이 아니라 코어 사이의 대기 장소다. 먹이 흔적이 온핵으로 돌아가면 그늘의 이동량도 빠져나간다.",
+        "en": "The shade is not a center but a waiting place between cores. When food traces lead back to the warm core, movement drains out of the shade as well."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02675-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0118"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "단계적 위협",
+        "en": "Escalating Threat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02675",
+      "text": {
+        "ko": "1단계에서는 폐점 그늘에 배설이 쌓인다. 2단계에서는 급식소 셔터를 먼저 닫자 그늘의 개체가 여의도선 대피 계단으로 역주행한다. 3단계에서는 허브 상점 셔터까지 내려 하역 동선이 막힌다.",
+        "en": "In stage 1, droppings accumulate in the after-closing shade. In stage 2, closing the soup kitchen shutter first sends its occupants back toward the Yeouido Line evacuation stairwell. In stage 3, the hub shop shutters also come down, blocking the unloading route."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02676-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0120"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "전투·대응",
+        "en": "Combat and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02676",
+      "text": {
+        "ko": "셔터를 한꺼번에 내리면 열린 비상 계단만 남는다. 야간 간격을 조정하고 뒤쪽 상점부터 닫으며, 잔반 자루를 레일 밖으로 먼저 옮긴다.",
+        "en": "Lowering all the shutters at once leaves only the open emergency stairwell. Adjust the nighttime shutter gaps and close the shops from the rear forward, moving bags of food scraps away from the rails first."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02677-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0122"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02677",
+      "text": {
+        "ko": "HC05가 야간 셔터 간격을 거래하면 상점 노동은 늦어지지만 계단을 비울 수 있다. 배급을 급히 하려고 급식소부터 닫으면 피난민의 통행이 케이블층을 따라 이동하는 쥐들과 겹친다.",
+        "en": "If HC05 negotiates nighttime shutter gaps, shop work is delayed but the stairwell can be cleared. Closing the soup kitchen first to speed up distribution makes evacuee traffic overlap with movement through the cable layer."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02678-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0124"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Connections"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-5-prose-02678",
+      "text": {
+        "ko": "G05-SC2 ‘밀폐 순서의 오류’가 나면 이 그늘에 있던 쥐들이 계단으로 밀려 올라가고, G05-SC3에서는 허브 셔터가 하역 막을 만들며, G05-SC1의 퇴로 시험에서는 비점유 셔터 뒤 하나를 오래 닫아 그늘에 있던 쥐들이 옮겨 간다.",
+        "en": "G05-SC2, 'The Sealing-Sequence Error,' pushes the rats in this shade toward the stairs. In G05-SC3, the hub shutters create a barrier to unloading; the escape-route test in G05-SC1 keeps one unoccupied shuttered space closed for a long period to shift the rats in the shade."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05E12-title-heading-1",
+      "publicAnchors": [
+        "g05e12",
+        "Hostile-Group-G05-heading-0126"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05E12 · 집쥐 성장형 '새끼자국'",
+        "en": "G05E12 · Brown Rat Juvenile Form 'Young Tracks'"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05E12-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M008",
+          "en": "Source batch: M008"
+        },
+        {
+          "ko": "기존 역할군: 성장 단계형",
+          "en": "Former role class: growth-stage type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC05\",\"HP09\"],\"scenarios\":[\"G05-SC1\",\"G05-SC2\",\"G05-SC3\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HC05\",\"HP09\"],\"scenarios\":[\"G05-SC1\",\"G05-SC2\",\"G05-SC3\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05E12-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "은닉 증거",
+            "en": "Hidden Evidence"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "성장형 '새끼자국'은 아직 코어에 매인 새끼와 그 발자국이다. 전염의 증거가 아니라 숨은 핵이 있다는 바닥 표시이며 먼 기류는 읽지 못한다.",
+            "en": "The juvenile form 'Young Tracks' consists of young still bound to a core and their footprints. The tracks are not evidence of contagion but marks on the floor indicating a hidden core; the young cannot sense distant air currents."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02679-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0129"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02679",
+      "text": {
+        "ko": "성장 단계형으로, 아직 코어에 매인 새끼와 그 발자국이다. 수염은 짧아 먼 기류를 못 읽고, 밝은 바닥에서는 금방 지친다. 전염의 증거가 아니라, 숨은 핵이 있다는 바닥의 표시다.",
+        "en": "A life-stage form consisting of young still bound to a core and their footprints. Their whiskers are too short to sense distant air currents, and they tire quickly on brightly lit floors. They are not evidence of contagion but marks on the floor indicating a hidden core."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02680-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0131"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02680",
+      "text": {
+        "ko": "온핵과 반대핵에서 동시에 태어난 새끼가 열이 약한 트레이로 먼저 옮겨지며 자국이 남았다. 사람들이 자국을 질병 확산으로 읽었으나 군락은 별다른 병원체를 퍼뜨리지 않는다.",
+        "en": "Young born in both the warm and opposite cores were moved first to the cooler tray, leaving tracks. People read the tracks as signs of disease spreading, but the colony spreads no unusual pathogen."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02681-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0133"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02681",
+      "text": {
+        "ko": "반대편 트레이의 마른 먼지와 급식소 벽체 하단이다. 소독 강한 승강장에는 잘 올라오지 않으며, 올라오면 에너지 소비가 커져 성장이 늦다.",
+        "en": "Dry dust in the opposite tray and the lower part of the soup kitchen wall. They cannot reach the heavily disinfected platform; if they do, increased energy expenditure slows their growth."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02682-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0135"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요·경제",
+        "en": "Needs and Economy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02682",
+      "text": {
+        "ko": "어미가 물어 오는 부스러기와 약한 온기면 충분하다. 미끼를 새끼 앞에 두면 포획은 쉬워지나 이후 정규 회수에도 어미가 접근하지 않는다.",
+        "en": "Crumbs brought by their mothers and a little warmth are enough. Placing bait in front of the young makes capture easier, but afterward the mothers will not approach even during routine collection."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02683-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0137"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02683",
+      "text": {
+        "ko": "여러 세대가 밝은 승강장을 견디면 야행성이 짙어지는 대신 번식률이 떨어진다. 이는 급격한 변이가 아니라 살아남은 쪽의 치우침이다.",
+        "en": "If several generations endure the bright platform, nocturnal behavior becomes more pronounced, but the breeding rate falls. This is not a sudden mutation but a shift toward those that survived."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02684-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0139"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02684",
+      "text": {
+        "ko": "새끼는 명령을 받지 않으며 어미의 구멍만 따른다. H05가 열점 없이 발자국만 보이면 활성 코어 판정을 보류하고 비표적 확인을 먼저 적는다.",
+        "en": "The young receive no orders and follow only their mothers' openings. If H05 sees footprints without a heat spot, it postpones classifying the core as active and records a non-target check first."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02685-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0141"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "단계적 위협",
+        "en": "Escalating Threat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02685",
+      "text": {
+        "ko": "1단계에서는 열화상과 어긋난 새끼 자국이 나타난다. 2단계에서는 온핵을 건드리자 새끼가 셔터 그늘로 옮겨진다. 3단계에서는 오인 포획이 어미 무리를 계단으로 흩어 놓는다.",
+        "en": "In stage 1, juvenile tracks appear where thermal imaging shows none. In stage 2, disturbing the warm core causes the young to be moved into the shutter shade. In stage 3, mistaken captures scatter the mothers into the stairwell."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02686-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0143"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "전투·대응",
+        "en": "Combat and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02686",
+      "text": {
+        "ko": "새끼를 증거로 일괄 포획하면 비표적 폐사가 바로 오른다. 자국이 있는 구획만 표시하고 단방향 퇴로를 연 뒤, 성체 이동이 빠진 다음에 그 바닥을 닦는다.",
+        "en": "Indiscriminately capturing the young as evidence immediately raises non-target deaths. Mark only the sections with tracks and open a one-way escape route; clean those floors after the adults have moved out."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02687-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0145"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02687",
+      "text": {
+        "ko": "즉시 위생을 원하는 쪽은 자국이 보이면 소독을 요구하고, 오인 포획을 막으려는 쪽은 비표적 확인에 시간을 쓴다. 그 시간을 통로 개방에 쓸 것인지 확인 절차에 쓸 것인지가 이 성장형의 비용이다.",
+        "en": "Those seeking immediate sanitation demand disinfection as soon as tracks appear, while those seeking to prevent mistaken captures spend time checking for non-target animals. Whether that time goes to opening the passage or to verification is the cost posed by this juvenile form."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02688-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0147"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Connections"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-6-prose-02688",
+      "text": {
+        "ko": "G05-SC1은 반대편 트레이의 새끼 흔적으로 시작되며, G05-SC2에서 미끼를 남기면 새끼 앞 잔반이 의도적으로 늘고, G05-SC3의 조류 유입으로 새끼가 비표적 포식 대상이 된다.",
+        "en": "G05-SC1 begins with juvenile tracks in the opposite tray. In G05-SC2, choosing to leave bait deliberately increases scraps in front of the young; the arrival of birds in G05-SC3 exposes them to non-target predation."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05E13-title-heading-1",
+      "publicAnchors": [
+        "g05e13",
+        "Hostile-Group-G05-heading-0149"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05E13 · 집쥐 노화형 '퇴로기억'",
+        "en": "G05E13 · Brown Rat Aged Form 'Escape-Route Memory'"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05E13-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M008",
+          "en": "Source batch: M008"
+        },
+        {
+          "ko": "기존 역할군: 노화 단계형",
+          "en": "Former role class: aging-stage type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC2\",\"G05-SC1\",\"G05-SC3\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC2\",\"G05-SC1\",\"G05-SC3\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05E13-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "퇴로 학습",
+            "en": "Escape-Route Learning"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "노화형 '퇴로기억'은 독성 살포와 초음파, 밀폐 판의 순서를 몸에 새긴 늙은 몸이다. 우두머리가 되지 않으며 먼저 빠지는 쪽을 보일 뿐이다.",
+            "en": "The aged form 'Escape-Route Memory' is an old individual whose body has learned the sequence of toxic spraying, ultrasound, and sealing panels. It does not become a leader; it merely shows which way it escapes first."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02689-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0152"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02689",
+      "text": {
+        "ko": "노화 단계형으로, 독성 살포와 초음파와 밀폐 판의 순서를 몸에 새긴 늙은 개체다. 이빨과 수염은 무디어 사냥보다 열린 방향을 고르는 일에 쓰이며, 전자음을 해독하지는 못하고 진동의 간격만 피한다.",
+        "en": "An aged life-stage form: an old individual whose body has learned the sequence of toxic spraying, ultrasound, and sealing panels. Its teeth and whiskers have dulled and are used less for foraging than for choosing an open direction. It cannot decipher electronic sounds; it only avoids the intervals between vibrations."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02690-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0154"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02690",
+      "text": {
+        "ko": "같은 방제 순서가 여러 계절 반복된 구획에서 살아남은 개체가 위험한 순서를 피해 열린 퇴로를 더 빨리 찾게 되었다. 갑작스러운 신체 변화가 아니라 학습이며, 그 대가로 에너지 소비는 늘고 번식은 줄었다.",
+        "en": "In sections where the same pest-control sequence was repeated over several seasons, survivors learned to avoid the dangerous sequence and find an open escape route more quickly. This is learning, not a sudden bodily change; it comes at the cost of greater energy expenditure and reduced breeding."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02691-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0156"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02691",
+      "text": {
+        "ko": "방제가 잦은 광진선 하부보다, 한 번 열린 적 있는 계단 케이블과 하역 턱의 그늘에 머문다. 저온의 밝은 승강장은 견디지만 오래 머물지 못한다.",
+        "en": "Rather than the frequently treated Gwangjin Line lower level, it stays in the shade of stairwell cables and unloading thresholds that have been open before. It can endure a cold, bright platform but cannot remain there long."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02692-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0158"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요·경제",
+        "en": "Needs and Economy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02692",
+      "text": {
+        "ko": "적은 잔반으로도 하루를 넘기나 열원에서 멀어지면 금방 운신을 줄인다. 같은 초음파 패턴이 다시 울리면 먹이가 있어도 그 구획을 비운다.",
+        "en": "It can survive a day on few food scraps, but quickly curtails movement when far from a heat source. If the same ultrasound pattern sounds again, it leaves that section even if food is present."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02693-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0160"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02693",
+      "text": {
+        "ko": "번식에 거의 가담하지 않고 경로만 남긴다. 늙은 개체가 죽어도 이미 그 탈출 경로를 따라간 남은 개체는 이를 이용하므로, 사체를 치우는 일은 학습을 지우지 못한다.",
+        "en": "It contributes little to breeding and leaves only routes behind. Even after an old individual dies, survivors that had followed its escape routes continue to use them; removing the body does not erase that learning."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02694-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0162"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02694",
+      "text": {
+        "ko": "우두머리가 되지 않으며 먼저 빠지는 쪽을 보일 뿐이다. 젊은 개척 개체가 그 빈자리를 구멍으로 잇는다.",
+        "en": "It does not become a leader; it merely shows which way it escapes first. Younger pathfinders connect the space it leaves behind with openings."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02695-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0164"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "단계적 위협",
+        "en": "Escalating Threat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02695",
+      "text": {
+        "ko": "1단계에서는 익숙한 방제 순서에 미리 빠진다. 2단계에서는 한 방향만 열린 밀폐를 기억해 그쪽으로 무리를 유도한다. 3단계에서는 사람들이 급식소를 먼저 닫으면 개체는 계단으로 역주행한다.",
+        "en": "In stage 1, it escapes ahead of a familiar pest-control sequence. In stage 2, it remembers a sealing layout open in only one direction and draws the group that way. In stage 3, when people close the soup kitchen first, it retreats into the stairwell."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02696-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0166"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "전투·대응",
+        "en": "Combat and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02696",
+      "text": {
+        "ko": "같은 독과 같은 초음파를 반복하면 회피만 빨라진다. 순서를 바꾸고 단방향 퇴로를 사람 없는 쪽으로 낸 뒤 뒤쪽부터 닫아야 하며, 화염은 피복과 아동 구간 때문에 쓰지 않는다.",
+        "en": "Repeating the same poison and ultrasound only makes avoidance faster. Change the sequence, open a one-way escape route toward an area without people, then close it from the rear forward. Do not use flames because of cable sheathing and areas used by children."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02697-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0168"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02697",
+      "text": {
+        "ko": "빠른 전면 살포는 늙은 개체를 줄여 보여도 아동·반려 노출을 키우고 남은 개체는 더 깊은 층으로 학습한다. 순서를 공개하고 잔반 회수부터 다시 쌓으면 시간은 걸리지만 비표적 폐사를 0에 가깝게 유지할 수 있다.",
+        "en": "Fast, blanket spraying may appear to reduce the old individuals, but it increases exposure for children and companion animals, while survivors learn to retreat into deeper layers. Making the sequence public and rebuilding the process from food-scrap collection takes time, but can keep non-target deaths close to zero."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02698-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0170"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Connections"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-7-prose-02698",
+      "text": {
+        "ko": "G05-SC2의 코어 간 연결망이 밀폐 순서를 기억한다는 기제가 이 노화형의 몸이며, G05-SC1에서 첫 둥지만 없애면 이 개체가 아는 열린 쪽으로 중심이 옮겨 가고, G05-SC3의 중정 개방은 이 개체가 피하지 못한 새 포식 순서가 된다.",
+        "en": "This aged form embodies the mechanism by which the network connecting the cores remembers the sealing sequence in G05-SC2. Choosing to remove only the first nest in G05-SC1 also shifts the center toward the open side it knows, while opening the courtyard in G05-SC3 introduces a new pattern of predation it has not learned to avoid."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05E14-title-heading-1",
+      "publicAnchors": [
+        "g05e14",
+        "Hostile-Group-G05-heading-0172"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05E14 · 집쥐 공존형 '회수간격'",
+        "en": "G05E14 · Brown Rat Coexistence Form 'Collection Interval'"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05E14-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M008",
+          "en": "Source batch: M008"
+        },
+        {
+          "ko": "기존 역할군: 공존형",
+          "en": "Former role class: coexistence type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC2\",\"G05-SC3\",\"G05-SC1\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC2\",\"G05-SC3\",\"G05-SC1\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05E14-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "회수 공존",
+            "en": "Coexistence Through Collection"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "공존형 '회수간격'은 잔반 회수 주기가 일정한 구획에서만 밀도를 낮춘 채 머문다. 회수 수레의 진동이 지난 뒤에만 나오며 전멸 조건은 없다.",
+            "en": "The coexistence form 'Collection Interval' remains, at reduced density, only in sections where food scraps are collected on a regular schedule. It emerges only after the collection cart's vibrations have passed; eradication is not a condition."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02699-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0175"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Physiology"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02699",
+      "text": {
+        "ko": "공존형으로, 잔반 회수 주기와 셔터 간격이 일정한 구획에서만 밀도를 낮춘 채 머무는 개체다. 사람과 대화를 하지 않으며, 먹이 접근이 줄고 피난 동선과 길이 갈라지면 공격 없이 뒤로 물러난다.",
+        "en": "A coexistence type that remains at low density only in sections where food-waste collection and shutter intervals are regular. It does not communicate with people; when access to food decreases and its path diverges from the evacuation route, it retreats without attacking."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02700-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0177"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02700",
+      "text": {
+        "ko": "전멸을 목표로 한 소독이 반복될수록 군락은 케이블 심층으로 들어갔고, 회수 자루가 매일 같은 시각에 지나자 그 간격 밖에 남는 부스러기만 먹는 개체가 남았다. 낙인이 아니라 배급 노동의 리듬 속에서 이 몸이 생겼다.",
+        "en": "As extermination-focused disinfection was repeated, the colony moved deeper into the cables. Once collection sacks passed at the same time each day, some individuals remained that ate only the crumbs left outside that interval. The rhythm of food-distribution labor, not a stigma, shaped this body."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02701-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0179"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02701",
+      "text": {
+        "ko": "광진선 폐점 통로와 여의도선 급식 잔반 라인의 바깥쪽이다. 하역이 몰리는 주간에는 XT05 쪽 이중 밀봉 라인 너머로는 잘 넘어가지 않는다.",
+        "en": "The closed-shop passages of the Gwangjin Line and the outer edge of the Yeouido Line’s food-waste route. During weeks of heavy unloading, it rarely crosses beyond the double-sealed line toward XT05."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02702-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0181"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요·경제",
+        "en": "Needs and Economy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02702",
+      "text": {
+        "ko": "회수 뒤 남는 미세 잔반과 약한 온기면 충분하다. 배급 속도를 위해 회수를 미루면 이 간격이 무너져 경로 재배선 상태가 고착된다.",
+        "en": "Fine scraps left after collection and a little warmth are enough. If collection is postponed to speed up distribution, the interval breaks down and rerouting becomes entrenched."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02703-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0183"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02703",
+      "text": {
+        "ko": "밀도가 급히 줄면 배수 홈의 잔반이 발효되어 곤충이 늘고, 약품과 세척이 도리어 식품 구역 부담을 키운다. 개체 감소 뒤에도 부패도와 곤충 포획량을 같이 보아야 이 공존형이 정비된다.",
+        "en": "If density drops sharply, scraps in the drainage grooves ferment and insects multiply; chemicals and cleaning then increase the burden on food areas instead. Even after the population falls, maintaining coexistence means tracking both the degree of decay and the number of insects caught."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02704-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0185"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02704",
+      "text": {
+        "ko": "중심 코어를 다투지 않고 회수 수레의 진동이 지난 뒤에만 나온다. HC05가 잔반 주기와 공사 순서와 야간 간격을 한 장부에 적으면 이동량은 피난 통로에서 떨어진다.",
+        "en": "It does not compete for the central core and emerges only after the collection cart’s vibrations have passed. If HC05 records the food-waste cycle, construction sequence, and nighttime intervals in one ledger, its movements shift away from the evacuation passage."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02705-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0187"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "단계적 위협",
+        "en": "Escalating Threat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02705",
+      "text": {
+        "ko": "1단계에서는 회수가 하루 늦어져 간격이 넓어진다. 2단계에서는 미루어진 잔반이 셔터 아래 재배선을 고정한다. 3단계에서는 전염 낙인으로 피난민 구역만 봉쇄되어 공존형이 심층으로 밀려 복구가 어려워진다.",
+        "en": "In stage 1, collection is delayed by a day and the interval widens. In stage 2, the postponed food waste fixes a rerouted path beneath the shutters. In stage 3, only the refugee area is sealed off under the stigma of contagion, pushing the coexistence type deeper and making recovery difficult."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02706-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0189"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "전투·대응",
+        "en": "Combat and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02706",
+      "text": {
+        "ko": "공존형을 포획 실적으로 올리면 회수 노동만 늘고 밀도는 다른 코어로 이동한다. 저온·건조와 정해진 회수가 기본이며, 포식 조류를 들이지 않아도 통로를 비울 수 있다.",
+        "en": "Counting captures of the coexistence type as a success only increases collection labor, while the population shifts to another core. Low temperatures, dry conditions, and collection on a fixed schedule are the basics; the passage can be cleared without introducing predatory birds."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02707-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0191"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02707",
+      "text": {
+        "ko": "전멸 조건은 없다. 안전을 위해 누구의 통행과 청소 노동을 늦출 것인지가 비용이며, 피난민에게만 위험을 넘기면 이후 HC05의 중개 장부가 닫힌다. XT05 하역 주간에는 임시 이중 밀봉을 지원하는 편이 배급을 유지하면서도 이 간격을 지킨다.",
+        "en": "Extermination is not a condition. The cost lies in deciding whose passage and cleaning work to delay for safety; if the risk is passed only to refugees, HC05’s mediation ledger will subsequently close. During XT05 unloading weeks, supporting temporary double sealing preserves both food distribution and this interval."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02708-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0193"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Connections"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-8-prose-02708",
+      "text": {
+        "ko": "G05-SC2의 미끼 유도와 G05-SC3의 하역 분산이 이 간격의 존폐를 가르며, G05-SC1의 조사 지연 역시 회수 주기와 맞물린다.",
+        "en": "The bait diversion of G05-SC2 and the staggered unloading of G05-SC3 determine whether this interval survives, while the investigative delay in G05-SC1 also interacts with the collection cycle."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05E15-title-heading-1",
+      "publicAnchors": [
+        "g05e15",
+        "Hostile-Group-G05-heading-0195"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05E15 · 집쥐 허브보스 '하역막'",
+        "en": "G05E15 · Brown Rat Hub Boss 'Unloading Barrier'"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M008",
+          "en": "Source batch: M008"
+        },
+        {
+          "ko": "기존 역할군: 시나리오 보스",
+          "en": "Former role class: scenario boss"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC3\",\"G05-SC1\",\"G05-SC2\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC3\",\"G05-SC1\",\"G05-SC2\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "군집 현상",
+            "en": "Swarm phenomenon"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "사건·현상",
+            "en": "Event or phenomenon"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "허브 적체",
+            "en": "Hub congestion"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "허브보스 '하역막'은 한 마리가 아니라 XT05 단백질 하역 뒤 여러 코어의 가지가 중정에 모인 고밀도 이동이다. 우두머리가 출현한 것이 아니다.",
+            "en": "The hub boss 'Unloading Barrier' is not a single rat but a high-density movement formed when branches from several cores converge in the concourse after XT05 protein unloading. No leader has appeared."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02709-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0198"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Physiology"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02709",
+      "text": {
+        "ko": "시나리오 보스로, 한 마리가 아니라 XT05 단백질 하역 뒤 환승 허브를 가로막는 고밀도 이동이다. 우두머리가 출현한 것이 아니며, 하역 잔여와 열린 퇴로가 겹친 시간에 여러 코어의 가지가 한 중정에 모일 뿐이다. 코는 해동 냄새를 맡고 수염은 카트 진동을 읽고 먼 열점은 읽지 못한다.",
+        "en": "A scenario boss: not a single rat, but a high-density movement that blocks the transfer hub after XT05 protein unloading. No leader has appeared; branches from several cores simply converge in one concourse when unloading residue coincides with open escape routes. Their noses detect the thawing odor and their whiskers read cart vibrations, but not distant heat spots."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02710-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0200"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02710",
+      "text": {
+        "ko": "여의도 공동 접수·지상 중계 회랑의 하역 중 냉동 단백질이 현장에서 한꺼번에 녹던 주간, 부스러기가 허브 바닥에 남고 상점 셔터가 동시에 내려가며 이 막이 생겼다. 전염의 왕을 찾는 방송은 원인을 가렸다.",
+        "en": "During a week when frozen protein from the Yeouido Shared Reception and Ground Relay Corridor thawed locally during unloading, crumbs remained on the hub floor and shop shutters came down simultaneously, forming this barrier. Broadcasts searching for a king of contagion obscured the cause."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02711-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0202"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02711",
+      "text": {
+        "ko": "환승 허브 중정과 하역 엘리베이터 앞이다. 평소에는 온핵과 반대핵으로 흩어져 있다가, 하역이 겹친 밤에만 허브 바닥을 채운다.",
+        "en": "The transfer-hub concourse and the area in front of the freight elevator. Normally dispersed between the Warm Core and the Counter-Core, they fill the hub floor only on nights when unloading overlaps."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02712-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0204"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요·경제",
+        "en": "Needs and Economy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02712",
+      "text": {
+        "ko": "하역 드립과 탄수화물 부스러기가 막을 유지한다. 하역을 나누면 막은 옅어지고, 잔반을 허브에 쌓아 두면 하룻밤 만에 통행이 멈춘다.",
+        "en": "Unloading drips and carbohydrate crumbs sustain the barrier. Staggered unloading thins it; leaving food waste piled in the hub brings passage to a halt overnight."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02713-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0206"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02713",
+      "text": {
+        "ko": "하역이 끝나면 밀도는 코어로 되돌아가지만, 피복 손상과 배설은 남는다. 사흘간 역주행이 없고 일곱 야간 새 코어 징후가 없으며 통과 시간이 기준선으로 돌아와야 막이 해소된 것이다.",
+        "en": "Once unloading ends, the population returns to its cores, but damaged cable sheathing and droppings remain. The barrier is resolved only when there has been no movement against the designated flow for three days, no sign of a new core for seven nights, and transit times have returned to baseline."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02714-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0208"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02714",
+      "text": {
+        "ko": "허브의 덩어리를 지휘자로 보면 방제가 한곳만 때린다. H05는 열점과 배설과 미끼 소실을 나누어 적고, HC05는 단락·오염·통과 시간·비표적 폐사를 같이 공개한다.",
+        "en": "Treating the mass in the hub as a commander concentrates pest control in one place. H05 records heat spots, droppings, and disappearing bait separately, while HC05 publishes electrical shorts, contamination, transit times, and non-target deaths together."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02715-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0210"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "단계적 위협",
+        "en": "Escalating Threat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02715",
+      "text": {
+        "ko": "1단계에서는 하역 다음 날 허브에 횡단 흔적만 는다. 2단계에서는 코어 봉쇄와 하역이 겹쳐 가지가 중정으로 모인다. 3단계에서는 허브가 막혀 포식 조류 유입안이 올라온다.",
+        "en": "In stage 1, only crossing tracks increase in the hub on the day after unloading. In stage 2, core closures coincide with unloading, drawing branches into the concourse. In stage 3, the hub is blocked and a proposal to introduce predatory birds is raised."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02716-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0212"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "전투·대응",
+        "en": "Combat and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02716",
+      "text": {
+        "ko": "중정에 조류를 들이면 군락은 줄 수 있으나 충돌과 새 배설과 상시 인력이 생긴다. 단계적 퇴로와 밀폐만 쓰면 부작용은 적고 배급은 늦으며, 화염은 허브 전선을 태운다.",
+        "en": "Introducing birds into the concourse may reduce the colony, but it creates collisions, bird droppings, and a need for permanent staffing. Phased escape routes and sealing have fewer side effects but delay distribution; fire burns the hub’s wiring."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02717-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0214"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02717",
+      "text": {
+        "ko": "표식과 모니터링을 갖춘 중정을 여는 선택은 한 생태 문제를 다른 포식 관계로 옮길 뿐 책임은 그대로 남는다. 단계 밀폐는 피난을 늦추고, XT05가 하역 일정을 분산하면 비표적 위험은 안 만들지만 냉동 단가와 식품 손실을 누가 질지가 남는다.",
+        "en": "Opening a concourse equipped with markers and monitoring merely transfers one ecological problem into another predator–prey relationship; it does not transfer responsibility. Phased sealing delays evacuation. If XT05 staggers its unloading schedule, it avoids creating non-target risks, but the question remains of who bears the higher cost of frozen goods and the food losses."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02718-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0216"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Connections"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-9-prose-02718",
+      "text": {
+        "ko": "G05-SC3 ‘개방 중정의 포식자’에서 이 하역막이 나타나며, G05-SC1의 숨은 핵과 G05-SC2의 잘못된 셔터가 막을 키우는 가지다.",
+        "en": "G05-SC3, 'Predators of the Open Concourse,' is the setting for this unloading barrier; the hidden core of G05-SC1 and the wrongly placed shutter of G05-SC2 are branches that make it grow."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05E16-title-heading-1",
+      "publicAnchors": [
+        "g05e16",
+        "Hostile-Group-G05-heading-0218"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05E16 · 집쥐 하역변종 '냉동틈'",
+        "en": "G05E16 · Brown Rat Unloading Variant 'Frozen Gap'"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05E16-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M008",
+          "en": "Source batch: M008"
+        },
+        {
+          "ko": "기존 역할군: 지역 변종",
+          "en": "Former role class: regional variant"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC3\",\"G05-SC2\",\"G05-SC1\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}",
+          "en": "Links: {\"houses\":[\"HC05\"],\"scenarios\":[\"G05-SC3\",\"G05-SC2\",\"G05-SC1\"],\"states\":[\"S05\",\"S10\"],\"synthetics\":[\"H05\"],\"theaters\":[\"XT05\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G05-generated-G05E16-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "하역 점유",
+            "en": "Unloading-area occupation"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "하역변종 '냉동틈'은 해동 드립을 상점 부스러기보다 먼저 따르는 엘리베이터 통로 갈래다. 온핵의 이동량을 따르지 않고 하역 진동만 기다린다.",
+            "en": "The unloading variant 'Frozen Gap' is an elevator-passage branch that follows thawing drips before shop crumbs. It does not follow the Warm Core’s movements, waiting only for unloading vibrations."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02719-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0221"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Physiology"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02719",
+      "text": {
+        "ko": "지역 변종으로, 냉동 보관 식량의 단백질 잔여물이 닿는 하역 엘리베이터 통로에 적응한 개체다. 발바닥은 차가운 금속에 오래 붙어 있고, 코는 해동 드립을 따른다. 간헐적 하역 진동에 맞추어 잠자리로 드나드는 시각을 정한다.",
+        "en": "This regional variant has adapted to freight-elevator passages receiving protein residue from frozen stored food. Its paws remain on cold metal for long periods, and its nose follows thawing drips. Intermittent unloading vibrations set the times when it enters and leaves its sleeping place."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02720-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0223"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02720",
+      "text": {
+        "ko": "XT05 쪽 단백질이 대량 반입되던 주간에 온핵에서 갈라져 엘리베이터 레일 홈으로 들어갔다. 상점가 잔반을 끊어도 이 변종은 줄지 않았고, 하역 주기가 곧 먹이 시간이 되었다.",
+        "en": "During a week of large protein deliveries from the XT05 side, it split from the Warm Core and entered the elevator rail grooves. Cutting off food waste from the shopping area did not reduce this variant; the unloading cycle became its feeding clock."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02721-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0225"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02721",
+      "text": {
+        "ko": "하역 엘리베이터 통로와 그 턱의 그늘이다. 소독이 강한 상점 하부에는 잘 내려오지 않으며, 하역이 없는 주에는 통로 단열재 뒤에 붙어 운신을 줄인다.",
+        "en": "The freight-elevator passage and the shade beneath its threshold. It seldom descends into the heavily disinfected area below the shops; in weeks without unloading, it stays behind the passage insulation and limits its movements."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02722-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0227"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요·경제",
+        "en": "Needs and Economy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02722",
+      "text": {
+        "ko": "해동 드립과 포장 파편이 주 자원이다. 상점 잔반 회수만으로는 밀도가 안 떨어지고, 임시 이중 밀봉 라인이 끊기면 허브 바닥으로 넘친다.",
+        "en": "Thawing drips and packaging fragments are its main resources. Collecting shop food waste alone does not lower its density, and if the temporary double-sealed line is broken, it spills onto the hub floor."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02723-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0229"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02723",
+      "text": {
+        "ko": "하역이 분산되면 번식이 늦고, 한꺼번에 풀리면 통로에 과밀이 생긴다. 차가운 금속에 오래 있으면 에너지 소비가 늘어 새끼 수는 온핵보다 적다.",
+        "en": "Staggered unloading slows breeding, while releasing everything at once causes overcrowding in the passage. Spending long periods on cold metal raises energy use, so it has fewer young than the Warm Core."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02724-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0231"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02724",
+      "text": {
+        "ko": "온핵의 이동량을 따르지 않고 엘리베이터 진동만 기다린다. H05가 상점 열점만 지우면 이 변종의 레일 홈을 놓친다.",
+        "en": "It does not follow the Warm Core’s movements, waiting only for elevator vibrations. If H05 clears only the shop heat spots, it misses this variant in the rail grooves."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02725-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0233"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "단계적 위협",
+        "en": "Escalating Threat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02725",
+      "text": {
+        "ko": "1단계에서는 하역 다음 밤에 레일 홈에 배설이 는다. 2단계에서는 밀봉이 늦어 허브로 넘친다. 3단계에서는 허브를 막은 뒤 중정 포식안이 이 변종까지 한 덩어리로 묶는다.",
+        "en": "In stage 1, droppings increase in the rail grooves on the night after unloading. In stage 2, delayed sealing lets it spill into the hub. In stage 3, after it blocks the hub, a proposal to introduce predators into the courtyard lumps this variant together with the rest."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02726-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0235"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "전투·대응",
+        "en": "Combat and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02726",
+      "text": {
+        "ko": "엘리베이터에 독가스를 넣으면 배기 경로의 사람이 먼저 노출된다. 하역 시간을 나누고 이중 밀봉을 먼저 지원하며, 레일 홈의 드립만 밀폐 통으로 옮긴다.",
+        "en": "Pumping poison gas into the elevator exposes people along the exhaust route first. Stagger unloading, support double sealing first, and move only the drips in the rail grooves into sealed containers."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02727-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0237"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02727",
+      "text": {
+        "ko": "하역을 한 밤에 몰아 배급을 지키면 냉동틈이 허브를 막고 조류 유입 압력이 커진다. 일정을 분산하면 비표적 포식은 피하지만 식품 손실과 물류 단가를 XT05와 광진선이 나눠야 하며, 그 비용을 피난민 봉쇄로 메우면 변종은 더 깊은 샤프트로 들어간다.",
+        "en": "Concentrating unloading into one night to protect food distribution lets Frozen Gap block the hub and increases pressure to introduce birds. Staggering the schedule avoids non-target predation, but XT05 and the Gwangjin Line must share the food losses and higher logistics costs. If those costs are offset by sealing off refugees, the variant moves into deeper shafts."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02728-heading",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0239"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Connections"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M008-entries-10-prose-02728",
+      "text": {
+        "ko": "G05-SC3의 하역 분산과 이중 밀봉이 이 변종의 먹이 시간을 흐트러뜨리고, G05-SC2의 미끼는 쥐들을 허브로 끌어 변종과 온핵을 한 통로에 겹치며, G05-SC1의 코어 조사는 레일 홈을 두 번째 핵과 혼동하지 않도록 구분해 둔다.",
+        "en": "The staggered unloading and double sealing of G05-SC3 disrupt this variant’s feeding clock. The bait in G05-SC2 draws rats into the hub, bringing the variant and the Warm Core into the same passage. The core investigation in G05-SC1 leaves a warning not to mistake the rail grooves for a second core."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0241"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00638",
+      "text": {
+        "ko": "G05 집쥐는 광진선 동방사의 지하 배급 통로와 여의도선 안국총림의 대피 계단이 맞물리는 환승 연결부에서 형성된 도시 동물 군집이다.",
+        "en": "G05, the Brown Rat, was an urban animal community formed at the transfer junction where the underground ration passages of the Eastern Command on the Gwangjin Line met the evacuation stairs of the Anguk Order on the Yeouido Line."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00639",
+      "text": {
+        "ko": "환승 상점가 바닥 아래에는 음식물 부스러기가 떨어지고, 케이블 트레이와 보온 배관 사이에는 겨울에도 열이 남는다.",
+        "en": "Food crumbs fell beneath the floor of the transfer arcade, and heat lingered between the cable trays and insulated pipes even in winter."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00640",
+      "text": {
+        "ko": "사람들은 승강장 틈에서 꼬리가 사라지거나 안내 전광이 갑자기 꺼질 때마다 전염과 오염을 먼저 떠올리지만, 이 군락에서 특별한 병원체는 확인되지 않았다.",
+        "en": "Each time a tail vanished into a gap in the platform or a guide display suddenly went dark, people thought first of contagion and contamination, but no special pathogen had been identified in this colony."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00641",
+      "text": {
+        "ko": "먹이와 온열, 은신처가 겹친 장소에서 밀도가 높아진 평범한 동물 군집에 가깝다.",
+        "en": "It was close to an ordinary animal community whose density rose where food, warmth, and shelter overlapped."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00642",
+      "text": {
+        "ko": "여러 코어 둥지 사이를 오가던 개체들은 반복된 방제 순서에서 열린 길을 익혔다. 당직자는 점유 흔적을 살핀 뒤 비점유 구획으로 이어지는 단방향 퇴로를 열고 뒤쪽부터 밀폐한다.",
+        "en": "Animals moving among several core nests learned which routes stayed open during repeated pest-control sequences. After checking occupancy traces, the watch opens a one-way route into an unoccupied sector and seals from the rear."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00643",
+      "text": {
+        "ko": "따라서 군락의 출현을 특정 집단의 불결함이나 피난민의 책임으로 돌리는 설명은 사실에도 맞지 않고 대응에도 도움이 되지 않는다.",
+        "en": "So explanations that blamed the colony's appearance on the uncleanliness of a particular group or on refugees neither fit the facts nor helped the response."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00644",
+      "text": {
+        "ko": "핵심 서식지는 광진선 환승 상점가 하부와 케이블 트레이지만 군락의 경계는 사람의 이동과 배급 사정에 따라 달라진다.",
+        "en": "The core habitat was the underside of the Gwangjin Line transfer arcade and the cable trays, but the colony's boundaries shifted with human movement and the state of rations."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00645",
+      "text": {
+        "ko": "여의도선 피난 밀도가 오르면 급식소 벽과 계단 케이블로 가지 둥지가 뻗는다. 여의도 공동 접수 장부에 따라 노량진·가락 보관 식량을 나눈 뒤 잔반 회수가 늦어지면 하역 엘리베이터까지 이동 흔적이 이어진다.",
+        "en": "As evacuation density rises on the Yeouido Line, branch nests extend into feeding-station walls and stair cables. After Noryangjin and Garak stored food is distributed under Yeouido shared receipts, delayed leftover collection leaves movement traces as far as unloading elevators."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00646",
+      "text": {
+        "ko": "소독이 잦고 밝은 지상 구역에는 야간에만 올라오며, 통행이 끊긴 셔터 뒤편을 임시 저장처로 쓴다.",
+        "en": "Into the bright surface zones where disinfection was frequent they came up only at night, and they used the backs of shutters where traffic had stopped as temporary stores."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00647",
+      "text": {
+        "ko": "부스러기 탄수화물, 단백질 잔여, 보온 배관의 열이 군락의 경제를 지탱한다.",
+        "en": "Three resources sustained the colony's economy: crumbs of carbohydrate, protein leftovers, and the heat of insulated piping."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00648",
+      "text": {
+        "ko": "HC05 북한산보국문기록가가 문서고와 시약 창고를 아무리 밀봉해도 급식 잔반이 남고 트레이가 열려 있으면 전체 밀도는 줄지 않는다.",
+        "en": "However tightly HC05 Bukhansan Bogukmun Records House sealed its archives and reagent stores, the overall density did not fall as long as meal leftovers remained and the trays were open."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00649",
+      "text": {
+        "ko": "배설물과 습기가 전선 피복의 손상을 앞당기면 조명과 안내 전광의 가용시간이 감소하고, 이는 다시 피난 통로의 혼잡과 불안을 키운다.",
+        "en": "When droppings and moisture hastened damage to wire insulation, the uptime of lighting and guide displays decreased, which in turn increased the congestion and anxiety of the evacuation passages."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00650",
+      "text": {
+        "ko": "먹이와 열이 만나는 구획에는 보통 두세 개의 번식 코어가 생긴다.",
+        "en": "In sectors where food and heat met, two or three breeding cores usually formed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00651",
+      "text": {
+        "ko": "각 코어는 케이블 트레이를 따라 뻗은 가지 둥지와 연결되며, 한 코어가 사라져도 군락 전체가 곧바로 붕괴하지 않는다.",
+        "en": "Each core was linked to branch nests reaching along the cable trays, and even if one core disappeared, the colony as a whole did not collapse at once."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00652",
+      "text": {
+        "ko": "남은 코어로 개체가 몰리고 이전에 덜 쓰던 셔터 틈이나 배관 받침대가 새 이동로가 된다.",
+        "en": "Animals crowded into the remaining cores, and shutter gaps and pipe supports that had been little used became new movement routes."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00653",
+      "text": {
+        "ko": "밀도를 장기간 낮추려면 모든 구획에서 잔반 회수와 건조 상태를 유지해야 하며, 눈에 띄는 둥지 하나를 없애는 일은 일시적인 재배치에 불과하다.",
+        "en": "To lower density over the long term, leftover collection and dry conditions had to be kept in every sector, and removing one conspicuous nest was only a temporary relocation."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00654",
+      "text": {
+        "ko": "독성 물질, 초음파 밀폐 공사의 순서가 반복되면 개체군은 열린 퇴로를 더 빨리 찾아낸다.",
+        "en": "When the sequence of poison, ultrasound, and sealing work repeated, the population found open escape routes ever faster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00655",
+      "text": {
+        "ko": "살아남은 개체와 경로 개척 개체는 위험한 순서를 기억해 피해 간다.",
+        "en": "Surviving animals and route pioneers remember and avoid the dangerous sequence."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00656",
+      "text": {
+        "ko": "여러 세대 동안 저온이나 밝은 승강장을 견디는 성향이 남을 수는 있지만, 그 대가로 에너지 소비가 늘고 번식률이 낮아진다.",
+        "en": "A tendency to endure cold or bright platforms might persist over several generations, but at the price of higher energy use and a lower breeding rate."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00657",
+      "text": {
+        "ko": "집쥐에는 고정된 우두머리가 없다.",
+        "en": "The Brown Rat had no fixed leader."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00658",
+      "text": {
+        "ko": "이동량이 많은 코어가 잠시 중심처럼 보일 뿐이며, 먹이 흔적이 바뀌면 중심도 옮겨 간다.",
+        "en": "A core with heavy traffic only looked like the center for a while, and when the food traces shifted, the center moved too."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00659",
+      "text": {
+        "ko": "경로 개척 개체는 수염과 후각으로 기류와 틈을 살피고, 발과 몸에 전해지는 온도와 진동으로 열차 배급 카트 사람의 접근을 구별한다.",
+        "en": "The route-pioneering animals probed airflow and gaps with whiskers and smell, and told trains, ration carts, and approaching people apart by the temperature and vibration felt through their feet and bodies."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00660",
+      "text": {
+        "ko": "먼 곳의 열원을 정확히 분류하거나 전자 신호를 읽지는 못한다.",
+        "en": "They could not precisely classify distant heat sources or read electronic signals."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00661",
+      "text": {
+        "ko": "H05 윤재의 적외선 맵은 이런 한계를 보완하지만, 화면의 열점 하나를 우두머리나 둥지로 단정해서는 안 된다.",
+        "en": "The infrared maps of H05 Yunjae made up for these limits, but a single hot spot on the screen must not be taken for a leader or a nest."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00662",
+      "text": {
+        "ko": "증기, 사람 배관 누열이 모두 비슷한 덩어리로 나타날 수 있기 때문이다.",
+        "en": "For steam, people, and heat leaking from pipes could all appear as similar masses."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00663",
+      "text": {
+        "ko": "H05는 야간 배설 흔적과 새끼의 발자국, 코어별 이동량을 함께 표시해야 하며 한 지점이 사라진 직후에는 남은 둥지로 퍼지는 흐름을 우선 추적한다.",
+        "en": "H05 had to mark night dropping traces, the footprints of the young, and the traffic of each core together, and just after one spot disappeared, it tracked first the flow spreading to the remaining nests."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00664",
+      "text": {
+        "ko": "상황은 코어 탐색, 경로 재배선 밀폐 순서 위기의 세 단계로 악화된다.",
+        "en": "The situation worsened through three stages: core search, route rewiring, and a crisis of sealing order."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00665",
+      "text": {
+        "ko": "초기에는 서로 떨어진 번식 코어를 먼저 확인한다.",
+        "en": "At first, the key was confirming the separate breeding cores."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00666",
+      "text": {
+        "ko": "하나만 봉쇄하면 개체가 상점 셔터 아래와 다른 트레이로 몰리면서 두 번째 단계가 시작된다.",
+        "en": "If only one was sealed off, animals crowded under the shop shutters and into other trays, and the second stage began."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00667",
+      "text": {
+        "ko": "잘못된 순서로 급식소 쪽을 먼저 닫아 군락이 비상 계단으로 들어가면 기존 작업은 사실상 실패한 셈이다.",
+        "en": "If the feeding-station side was closed first in the wrong order and the colony entered the emergency stairs, the earlier work had in effect failed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00668",
+      "text": {
+        "ko": "점유 구획을 다시 확인하고, 코어에서 사람이 쓰지 않는 구획으로 이어지는 단방향 퇴로를 연 뒤 뒤쪽부터 차례로 밀폐해야 한다.",
+        "en": "The occupied sectors had to be confirmed again, a one-way escape route opened from the cores to sectors people did not use, and the sectors sealed one after another from the back."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00669",
+      "text": {
+        "ko": "전면 독성 살포와 화염은 아동, 반려동물 다른 야생동물의 노출 때문에 최후 수단으로만 남긴다.",
+        "en": "Full-scale poison spraying and fire were kept only as a last resort because of the exposure of children, pets, and other wildlife."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00670",
+      "text": {
+        "ko": "잔반 회수와 저온·건조 유지가 기본 대응이다. 당직자는 전기 단락 건수와 식품 오염 0건, 비표적 폐사 0건, 피난 통과 시간을 대조해 성공 여부를 판단한다.",
+        "en": "Leftover collection and cool, dry conditions are the basic response. The watch judges success through electrical shorts, zero food contamination, zero non-target deaths and evacuation transit time."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00671",
+      "text": {
+        "ko": "군락과 직접 대화할 수는 없지만 주변 인간 집단 사이에는 충분한 협상 여지가 있다.",
+        "en": "There could be no direct dialogue with the colony, but among the surrounding human groups there was ample room for negotiation."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00672",
+      "text": {
+        "ko": "HC05 북한산보국문기록가은 광진선와 여의도선 사이에서 잔반 회수 주기, 트레이 밀폐 공사 순서 야간 상점 셔터의 간격을 중개한다.",
+        "en": "HC05 Bukhansan Bogukmun Records House mediated between the Gwangjin Line and the Yeouido Line over the leftover collection cycle, the order of tray-sealing work, and the intervals of the night shop shutters."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00673",
+      "text": {
+        "ko": "XT05의 단백질 하역 주간에는 임시 이중 밀봉 라인을 먼저 지원하고, 배급 속도를 유지하려면 하역 시간을 나누는 비용을 부담해야 한다.",
+        "en": "During the weeks of XT05 protein unloading, temporary double-sealing lines were supported first, and keeping the ration speed meant bearing the cost of dividing the unloading times."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00674",
+      "text": {
+        "ko": "전멸은 목표가 아니다.",
+        "en": "Extermination was not the goal."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00675",
+      "text": {
+        "ko": "먹이 접근을 줄이고 피난 통로에서 이동 경로를 떼어 놓는 수준이면 공존이 가능하다.",
+        "en": "Coexistence was possible at the level of reducing access to food and keeping movement routes apart from the evacuation passages."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00676",
+      "text": {
+        "ko": "반대로 전염 공포를 내세워 피난민 구역만 봉쇄하면 군락은 더 깊은 케이블 층으로 들어가고 복구 비용은 커진다.",
+        "en": "Conversely, if fear of contagion was used to seal off only the refugee zones, the colony went into deeper cable layers and the cost of recovery grew."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00677",
+      "text": {
+        "ko": "빠른 배급을 이유로 잔반 회수를 미루면 경로 재배선 상태가 고착된다.",
+        "en": "If leftover collection was put off for the sake of fast rations, the rewired routes became fixed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00678",
+      "text": {
+        "ko": "안전을 얻기 위해 누구의 통행과 노동을 늦출 것인지가 이 생태 문제에서 가려야 할 부담이다.",
+        "en": "Whose passage and labor to slow in order to gain safety was the real moral cost of this ecological problem."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00679",
+      "text": {
+        "ko": "G05-SC1 ‘두 번째 코어 둥지’는 H05 열화상에 하나의 큰 군락만 나타나지만 반대편 트레이에서 새끼 흔적이 발견되면서 시작된다.",
+        "en": "G05-SC1 ‘The Second Core Nest’ began when only one large colony appeared on H05's thermal images, but traces of young were found in the tray on the opposite side."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00680",
+      "text": {
+        "ko": "광진선와 HC05는 모든 코어를 먼저 조사해 비표적 생물과 피난 통로를 확인할 수 있다.",
+        "en": "The Gwangjin Line and HC05 could survey every core first to confirm non-target creatures and the evacuation passages."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00681",
+      "text": {
+        "ko": "이 선택은 가장 안전하지만 통로 개방이 늦어진다.",
+        "en": "This choice was the safest but delayed the opening of the passage."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00682",
+      "text": {
+        "ko": "HP09 디지털미디어시티신탁가에서 오래된 케이블 열지도를 구매하면 조사 시간을 줄일 수 있으나, 대가로 과거 통행 기록을 넘겨야 한다.",
+        "en": "Buying an old cable heat map from HP09 Digital Media City Trust House could shorten the survey time, but past passage records had to be handed over as payment."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00683",
+      "text": {
+        "ko": "사생활 노출을 피하려면 한 구획에서 단방향 퇴로를 시험할 수도 있지만, 실패에 대비해 사람이 쓰지 않는 공간 하나를 장기간 폐쇄해야 한다.",
+        "en": "To avoid exposing private lives, a one-way escape route could be tested in a single sector, but a space people did not use had to be closed for a long time in case of failure."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00684",
+      "text": {
+        "ko": "어느 선택이든 즉시 위생 조치를 원하는 사람들과 오인 포획을 막으려는 사람들 사이에 갈등이 생긴다.",
+        "en": "Whichever was chosen, conflict arose between those who wanted immediate sanitation measures and those trying to prevent mistaken captures."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00685",
+      "text": {
+        "ko": "보이지 않는 두 번째 코어를 무시하고 첫 둥지만 제거하면 군락 중심은 반대편으로 옮겨 가며 다음 단계의 비용을 키운다.",
+        "en": "Ignoring the unseen second core and removing only the first nest moved the center of the colony to the opposite side and raised the cost of the next stage."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00686",
+      "text": {
+        "ko": "G05-SC2 ‘밀폐 순서의 오류’에서는 급식소 셔터를 먼저 닫은 뒤 군락이 여의도선 대피 계단 케이블로 역주행한다.",
+        "en": "In G05-SC2 ‘The Sealing-Order Error,’ after the feeding-station shutters were closed first, the colony ran backward into the cables of the Yeouido Line evacuation stairs."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00687",
+      "text": {
+        "ko": "S05, 여의도선 HC05 H05는 공사를 중단하고 뒤쪽부터 다시 밀폐할 수 있다.",
+        "en": "S05, the Yeouido Line, HC05, and H05 could stop the work and seal again from the back."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00688",
+      "text": {
+        "ko": "이 경우 오염은 줄지만 피난 통로 공사와 배급 지연이 길어진다.",
+        "en": "In that case contamination fell, but the evacuation-passage work and ration delays grew longer."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00689",
+      "text": {
+        "ko": "잔반 회수를 잠시 중단하고 미끼를 남겨 군락을 원래 구획으로 유도하면 통행로를 빨리 비울 수 있으나 식품 오염을 의도적으로 감수해야 한다.",
+        "en": "Pausing leftover collection and leaving bait to lure the colony back to its original sector could clear the walkway quickly, but meant deliberately accepting food contamination."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00690",
+      "text": {
+        "ko": "피난민을 한밤 동안 지상 우회로로 보내는 선택은 케이블층 작업을 안전하게 만들지만 추위에 취약한 사람을 보호할 난방과 경비 인력이 필요하다.",
+        "en": "Sending the refugees along a surface detour for the night made the cable-layer work safe, but required heating and guards to protect people vulnerable to the cold."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00691",
+      "text": {
+        "ko": "어느 길도 피난 속도, 식품 안전 비표적 피해를 모두 최선으로 만들지는 못한다.",
+        "en": "No path could make evacuation speed, food safety, and non-target harm all as good as possible."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00692",
+      "text": {
+        "ko": "특히 피난민에게 위험을 떠넘기고 작업 성공만 선언하면 이후의 협상 기반이 무너진다.",
+        "en": "Above all, pushing the danger onto the refugees and declaring the work a success collapsed the basis for later negotiation."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00693",
+      "text": {
+        "ko": "G05-SC3 ‘개방 중정의 포식자’는 XT05 단백질 하역 뒤 군락이 환승 허브를 막았을 때 제기된다.",
+        "en": "G05-SC3 ‘The Predators of the Open Courtyard’ was raised when the colony blocked the transfer hub after the XT05 protein unloading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00694",
+      "text": {
+        "ko": "광진선와 여의도선은 충돌 방지 표식, 배설 세척 비표적종 모니터링을 갖춘 개방 중정으로 포식 조류를 제한적으로 유도할 수 있다.",
+        "en": "The Gwangjin Line and the Yeouido Line could draw predatory birds in on a limited basis into an open courtyard equipped with collision-prevention markers, dropping washing, and non-target species monitoring."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00695",
+      "text": {
+        "ko": "군락을 빠르게 줄일 가능성이 있지만 조류 충돌과 새로운 배설 문제를 관리할 상시 인력이 필요하다.",
+        "en": "This could shrink the colony quickly, but needed standing staff to manage bird collisions and the new dropping problem."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00696",
+      "text": {
+        "ko": "포식 관계를 들이지 않고 단계적 퇴로와 밀폐만 고수하면 생태적 부작용은 적으나 배급과 피난이 오래 지연된다.",
+        "en": "Holding only to stepwise escape routes and sealing without bringing in a predator relationship had few ecological side effects, but delayed rations and evacuation for a long time."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00697",
+      "text": {
+        "ko": "XT05가 하역 일정을 분산해 하역 한 번마다 접근 가능한 해동 잔여물을 줄이면 조류 투입에 따르는 추가 비표적 포식 위험은 피하지만 냉동 물류 단가와 식품 손실이 높아진다.",
+        "en": "If XT05 spread out its unloading schedule to reduce the thawing residue accessible during each unloading window, it avoided the added non-target predation risk of introducing birds, but the unit cost of cold logistics and food losses rose."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00698",
+      "text": {
+        "ko": "HC05와 H05는 어떤 선택에서도 단락, 오염 통과 시간 비표적 폐사를 함께 공개해야 한다.",
+        "en": "Whatever the choice, HC05 and H05 had to disclose shorts, contamination, transit time, and non-target deaths together."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00699",
+      "text": {
+        "ko": "한 생태 문제를 다른 동물의 포식으로 옮기는 순간에도 책임까지 넘어가지는 않으며, 집쥐와 공존하려면 청소 노동과 느려진 배급을 누가 감당할지 정해야 한다.",
+        "en": "The moment one ecological problem was shifted onto another animal's predation, responsibility did not shift with it, and coexistence with the Brown Rat was in the end a matter of deciding who would bear the invisible labor of cleaning and slowed rations."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00700",
+      "text": {
+        "ko": "S05와 여의도선 HC05는 환승 구획별 먹이·열·은신처의 변화를 공동 장부에 누적하며 장기 관리를 이어 간다.",
+        "en": "S05 and HC05 on the Yeouido Line maintain long-term management by recording changes in food, heat and shelter in each transfer sector in a joint ledger."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00701",
+      "text": {
+        "ko": "광진선은 매일 폐점 뒤 잔반 중량과 회수 지연 시간을 재고, 여의도선은 대피 계단 100미터당 야간 횡단 흔적과 통과 시간의 95백분위 값을 기록하며 HC05는 케이블 피복 손상률·절연 저항·습도·비표적 동물 목격을 월별로 대조한다.",
+        "en": "The Gwangjin Line measures leftover weight and collection delays after closing each day. The Yeouido Line records night crossing traces per 100 meters of evacuation stairs and the 95th percentile of transit time. HC05 compares cable-sheathing damage rates, insulation resistance, humidity and non-target animal sightings each month."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00702",
+      "text": {
+        "ko": "H05의 열점은 신선한 배설물 수, 새끼 발자국 트레이별 미끼 소실량과 일치할 때만 활성 코어로 판정하며 단락과 식품 오염이 없더라도 이동 흔적이 두 주 연속 늘면 선제 점검에 들어간다.",
+        "en": "H05's hot spots were judged active cores only when they matched the number of fresh droppings, footprints of young, and bait loss by tray, and even without shorts or food contamination, a preemptive inspection began when movement traces increased two weeks in a row."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00703",
+      "text": {
+        "ko": "밀폐 실패로 군락이 피난 통로에 번지면 추가 봉쇄를 멈추고 이전 퇴로 하나를 다시 열어 압력을 낮춘다. 급식 보관선을 임시 이중화하고 사람의 우회 동선을 먼저 확보한다.",
+        "en": "When sealing failure spreads the colony into evacuation passages, the watch stops further closure and reopens one earlier escape route to reduce pressure. It temporarily duplicates food-storage lines and secures pedestrian detours first."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00704",
+      "text": {
+        "ko": "복구는 사흘간 역주행 흔적이 없고, 일곱 야간 동안 새 코어 징후가 나타나지 않으며 절연 저항과 피난 통과 시간이 기준선으로 돌아왔을 때 완료된다.",
+        "en": "Recovery is complete after three days without traces of backward movement and seven nights without signs of a new core, once insulation resistance and evacuation transit time have returned to baseline."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00705",
+      "text": {
+        "ko": "같은 작업자가 계절마다 구획을 맡아 작은 변화까지 기억하게 하되, 책임이 청소 인력에게만 고착되지 않도록 하역·배급·시설 부문이 순환 비용을 분담한다.",
+        "en": "The same workers took charge of the sectors each season so that they remembered even small changes, while the unloading, ration, and facility divisions shared the rotating costs so that responsibility did not settle on the cleaning staff alone."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00706",
+      "text": {
+        "ko": "군락을 급격히 줄이면 그동안 소비되던 미세 잔반이 배수 홈에서 발효되어 곤충 밀도가 오를 수 있다. 약품 사용과 배수관 세척이 늘면서 식품 구역의 관리 부담도 커진다.",
+        "en": "A sudden reduction in the colony can leave fine food scraps to ferment in drainage grooves and increase insect density. Additional chemical use and drain cleaning then raise the burden of managing food areas."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-5-dossier_prose-00707",
+      "text": {
+        "ko": "따라서 장기 안정을 지키려면 개체 감소 뒤에도 잔반 부패도와 곤충 포획량을 함께 살펴야 한다.",
+        "en": "So watching the decay of leftovers and the insect catch together even after the numbers fell was part of long-term stability."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05-linked-scenarios-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G05-heading-0312"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "연결 시나리오",
+        "en": "Linked scenarios"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05-SC1-title-heading-1",
+      "publicAnchors": [
+        "g05-sc1-두-번째-코어-둥지",
+        "Hostile-Group-G05-heading-0313"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05-SC1 · 두 번째 코어 둥지",
+        "en": "G05-SC1 · The Second Core Nest"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05-SC1-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 1",
+          "en": "Stage: 1"
+        },
+        {
+          "ko": "촉발: H05 열화상에는 한 군락만 보이지만 반대편 트레이에서 새끼 흔적이 발견된다.",
+          "en": "Trigger: The H05 thermal image showed only one colony, but kit traces were found on the tray on the opposite side."
+        },
+        {
+          "ko": "관련 세력: S05, HC05, HP09",
+          "en": "Actors: S05, HC05, HP09"
+        },
+        {
+          "ko": "생태 기제: 분산 코어 둥지망 때문에 한 지점을 제거해도 군락 중심이 다른 구획으로 옮겨 간다.",
+          "en": "Ecological mechanism: Because of the distributed core-nest net, even removing one point moved the colony's center into another section."
+        },
+        {
+          "ko": "선택지: 모든 코어를 먼저 조사한다 / HP09 디지털미디어시티신탁가의 오래된 케이블 열지도를 구매한다 / 단방향 퇴로를 한 구획에서 시험한다",
+          "en": "Choices: Survey every core first / Buy the old cable heat map from the HP09 Digital Media City Trust House / Test a one-way retreat in one section"
+        },
+        {
+          "ko": "결과: 조사는 피난 통로 개방을 늦추고, 열지도 구매는 빠르지만 통행 기록을 넘겨야 한다.",
+          "en": "Outcomes: A survey delayed the opening of the evacuation passage, and buying the heat map was fast but required handing over passage records."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G05-generated-G05-SC1-title-paragraph-1",
+      "text": {
+        "ko": "퇴로 시험은 정보 노출을 피하지만 비점유 구획 하나를 장기간 폐쇄한다.",
+        "en": "A retreat test avoided exposing information, but closed one unoccupied section for a long time."
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05-SC1-title-list-2",
+      "items": [
+        {
+          "ko": "도덕 비용: 즉시 위생 조치와 비표적 생물 확인 절차 중 어느 쪽에 시간을 배정할지 결정한다.",
+          "en": "Moral cost: Decide which side to assign the time to: an immediate sanitation measure, or the procedure for confirming non-target life."
+        },
+        {
+          "ko": "원본 항목: G05",
+          "en": "Source dossier: G05"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05-SC2-title-heading-1",
+      "publicAnchors": [
+        "g05-sc2-밀폐-순서의-오류",
+        "Hostile-Group-G05-heading-0317"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05-SC2 · 밀폐 순서의 오류",
+        "en": "G05-SC2 · The Error in the Sealing Order"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05-SC2-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 2",
+          "en": "Stage: 2"
+        },
+        {
+          "ko": "촉발: 급식소 쪽 셔터를 먼저 닫자 군락이 여의도선 대피 계단 케이블로 역주행한다.",
+          "en": "Trigger: When the shutter on the feeding-station side was closed first, the colony ran back into the cables of the Yeouido Line evacuation stairs."
+        },
+        {
+          "ko": "관련 세력: S05, S10, HC05, H05",
+          "en": "Actors: S05, S10, HC05, H05"
+        },
+        {
+          "ko": "생태 기제: 군락은 밀폐 순서를 익혀 열린 방향으로 새 경로를 집중 개척한다.",
+          "en": "Ecological mechanism: The colony learned the sealing order and concentrated new routes in the direction that stayed open."
+        },
+        {
+          "ko": "선택지: 뒤쪽부터 다시 밀폐한다 / 잔반 회수를 중단해 미끼를 남긴다 / 피난민을 한밤 동안 지상 우회로로 보낸다",
+          "en": "Choices: Seal again from the rear / Stop leftover collection and leave bait / Send the refugees onto a surface detour for one night"
+        },
+        {
+          "ko": "결과: 재밀폐는 공사 시간을 늘리고, 미끼는 식품 오염을 감수한다. 지상 우회는 케이블층을 비우지만 추위와 경비 인력을 요구한다.",
+          "en": "Outcomes: Resealing lengthened the work time, and bait accepted food contamination. The surface detour emptied the cable layer but demanded cold and guard labor."
+        },
+        {
+          "ko": "도덕 비용: 피난민의 빠른 통행과 오염·비표적 피해를 동시에 최소화할 수 없다.",
+          "en": "Moral cost: The refugees' fast passage and contamination and non-target harm could not be minimized at the same time."
+        },
+        {
+          "ko": "원본 항목: G05",
+          "en": "Source dossier: G05"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G05-generated-G05-SC3-title-heading-1",
+      "publicAnchors": [
+        "g05-sc3-개방-중정의-포식자",
+        "Hostile-Group-G05-heading-0319"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G05-SC3 · 개방 중정의 포식자",
+        "en": "G05-SC3 · The Predator of the Open Courtyard"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05-SC3-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 3",
+          "en": "Stage: 3"
+        },
+        {
+          "ko": "촉발: XT05 단백질 하역 뒤 군락이 환승 허브를 막자 포식 조류 유입안이 제시된다.",
+          "en": "Trigger: After an XT05 protein unloading, the colony blocked the transfer hub, and a proposal to bring in predatory birds was put forward."
+        },
+        {
+          "ko": "관련 세력: S05, S10, XT05, HC05, H05",
+          "en": "Actors: S05, S10, XT05, HC05, H05"
+        },
+        {
+          "ko": "생태 기제: 분산 둥지망을 한꺼번에 줄일 수 있지만 조류 충돌·배설·비표적 포식이라는 새 위험이 생긴다.",
+          "en": "Ecological mechanism: The distributed nest net could be reduced all at once, but new risks appeared: bird strikes, droppings, and non-target predation."
+        },
+        {
+          "ko": "선택지: 표식과 모니터링을 갖춘 중정을 연다 / 단계적 퇴로·밀폐만 쓴다 / XT05 하역 일정을 분산해 하역 한 번마다 접근 가능한 해동 잔여물을 줄인다",
+          "en": "Choices: Open a courtyard fitted with marks and monitoring / Use only staged retreat and sealing / Spread the XT05 unloading schedule to reduce the thawing residue accessible in each unloading window"
+        },
+        {
+          "ko": "결과: 중정은 장기 관리 인력을 요구하고, 단계 밀폐는 배급 지연을 낳는다.",
+          "en": "Outcomes: The courtyard demanded long-term management labor, and staged sealing produced ration delays."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G05-generated-G05-SC3-title-paragraph-1",
+      "text": {
+        "ko": "하역 분산은 조류 투입에 따르는 추가 비표적 포식 위험은 피하지만 냉동 물류 단가와 식품 손실을 높인다.",
+        "en": "Spreading the unloading avoided the added non-target predation risk of introducing birds, but raised the unit cost of frozen logistics and food loss."
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G05-generated-G05-SC3-title-list-2",
+      "items": [
+        {
+          "ko": "도덕 비용: 한 생태 문제를 다른 포식 관계로 이전하는 선택의 책임을 남긴다.",
+          "en": "Moral cost: It left the responsibility of a choice that transferred one ecological problem into another predation relationship."
+        },
+        {
+          "ko": "원본 항목: G05",
+          "en": "Source dossier: G05"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "It was an ordinary rat colony formed between the underside of the Eastern Command's transfer arcade and cable trays on the Gwangjin Line and the evacuation stairs of the Anguk Order on the Yeouido Line. Crumbs of carbohydrate, protein leftovers, and the heat of insulated piping made its density, and no special pathogen had been identified. It had no fixed leader, and when food traces shifted, even the core that seemed to be the center moved.",
+        "ko": "광진선 동방사 환승 상점가 하부와 케이블 트레이, 여의도선 안국총림 대피 계단 사이에 형성된 보통의 쥐 군락이다. 부스러기 탄수화물과 단백질 잔여, 보온 배관 열이 밀도를 만들고 특별한 병원체는 확인되지 않았다. 고정 우두머리가 없으며 먹이 흔적이 바뀌면 중심처럼 보이던 코어도 옮겨 간다."
+      },
+      "variants": [
+        {
+          "id": "G05E07",
+          "source_batch": "M008"
+        },
+        {
+          "id": "G05E08",
+          "source_batch": "M008"
+        },
+        {
+          "id": "G05E09",
+          "source_batch": "M008"
+        },
+        {
+          "id": "G05E10",
+          "source_batch": "M008"
+        },
+        {
+          "id": "G05E11",
+          "source_batch": "M008"
+        },
+        {
+          "id": "G05E12",
+          "source_batch": "M008"
+        },
+        {
+          "id": "G05E13",
+          "source_batch": "M008"
+        },
+        {
+          "id": "G05E14",
+          "source_batch": "M008"
+        },
+        {
+          "id": "G05E15",
+          "source_batch": "M008"
+        },
+        {
+          "id": "G05E16",
+          "source_batch": "M008"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

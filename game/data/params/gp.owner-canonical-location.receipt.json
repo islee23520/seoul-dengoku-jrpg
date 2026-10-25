@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "status": "partial-owner-decision-evidence",
+  "role": "owner",
+  "actor": "owner",
+  "rawResponse": "[Answer to question call_HJ3K3KphveojbKpEGmR38h75]\n첫 조사 시나리오: 정본 위치 확정 후 시작",
+  "sourceResponse": {
+    "path": ".omo/ulw-execute/lord-first-investigation-owner-selection.json",
+    "sha256": "ac52c321dc6803d9a572675e15e825bac889c15f6ac8ab206d23e965b4b28ad4",
+    "questionId": "call_HJ3K3KphveojbKpEGmR38h75"
+  },
+  "question": {
+    "path": ".omo/evidence/seoul-dengoku-jrpg/task-26/decision-ready/questions.json",
+    "sha256": "522863da23b169d5fcbf11adecc03ebce298952606673d72dd44516632de7da8",
+    "id": "Q1",
+    "option": "B",
+    "candidateId": "lord-s01-bounded-r1"
+  },
+  "contractSource": {
+    "path": ".omo/evidence/seoul-dengoku-jrpg/task-26/decision-ready/packet.md",
+    "sha256": "9542b71699b92378ffcb28b7d67b02f91e7d3d6518bed9a394d9ac4b471063d1"
+  },
+  "proposalInputSha256": "ca39d29edc09a78b00f7a8ab545e1f3cd10eb56c13707ba84d3c55652b464684",
+  "binding": {
+    "revision": "lord-scenario-gp-v2",
+    "scenarioSha256": "08536eebbadd1a2bd6cb2c0d55b18c56096edbb4ae0a4c892f7a89094d08f02f",
+    "deckSha256": "bb700a96f6459b2b1cfcdb2f967191dba6a22c0b7db889405737c76a4e882ec3"
+  },
+  "scenarioManifestSha256": "3c46f6f33443cded1af47a74b7a420a4706efd59845a0fc4591e237821602ad4",
+  "scope": "S01",
+  "scenarioDecisions": {
+    "firstPlayableSlice": {
+      "group": "D1",
+      "value": "s01-investigation-only",
+      "status": "scoped-policy-decided",
+      "details": "K002 compares received evidence; K568 crosschecks and physically hands over the original ledger; K616 investigates the consented site and reports. End with received or partial evidence and unresolved issues, not forced water release. No exact scene, station, tile or spawn is selected."
+    },
+    "organizationTerms": {
+      "group": "D4",
+      "value": "slice-specific-bounded-contracts",
+      "status": "scoped-policy-decided",
+      "details": "Bounded investigation mandates require recorded delivery and independent acceptance, actual access, availability, safety, tools and compatible reservations. No spending, redelegation, valve opening, new employment or maintenance settlement; existing obligations are not waived. Objective revocation is immediate in the authority ledger and blocks fresh reservations or resource commits; recipient knowledge requires actual notice. Unaware stale-authority activity remains disputed, not authorized output. Notice triggers safe stop and narrowly necessary custody handover only. Preserve completed observations and dispute history; never roll back consumed resources. Return the ledger to the original store; if inaccessible retain custody and report the obstruction, unless an explicitly delivered valid grant names another recipient. Release only unused reservations. B rejects schedule conflicts with reasons and requires a revised request, not a waiting order. Missing lawful provision or unsafe state blocks execution, not free or healthy service."
+    }
+  },
+  "decisions": {
+    "startLocationPolicy": "canonical-only",
+    "scheduleConflictPolicy": "reject-conflict",
+    "saveCheckpointPolicy": "explicit-consistent-boundary"
+  },
+  "startGate": "Block start until canonical location and actual runtime rights and availability are supplied. District prose and candidate reception/store/inspection points do not authorize placement.",
+  "saveBoundary": "Explicit save only after acceptance or result application reaches a consistent boundary; no automatic milestones. Preserve clock, authority revision, reservations, custody, knowledge, notice/disputes, RNG and pending/applied ResultIds.",
+  "preservedReceipt": "gp.owner-time-remote.receipt.json",
+  "unapprovedRuleFields": [
+    "travelCostPolicy", "laborDetailPolicy", "constructionScopePolicy", "cargoSplitPolicy",
+    "titleActivationPolicy", "overCapacityPolicy", "successionDataPolicy", "educationScopePolicy",
+    "battleResolutionPolicy", "reinforcementScopePolicy", "peaceScopePolicy"
+  ],
+  "otherUnapproved": [
+    "exact-opening-scene-spawn", "actual-runtime-rights", "actual-availability", "numeric-formulas",
+    "travel-time", "wages", "health", "prices", "budgets", "durations",
+    "expanded-delegation", "Q2", "Q3", "full-GP-acceptance", "full-task26-completion"
+  ],
+  "boundary": "Actual owner Q1 B policy selection only for bounded S01. Not a production parameter pack, runtime authority grant, numerical approval or complete GP acceptance. The input proposal hash is historical, not a hash of the updated proposal. Existing single clock, actual travel, realtime/no-pause battle and report-view choices remain as recorded; unresolved timing details remain unresolved."
+}

@@ -1,0 +1,682 @@
+{
+  "schema": "townhall-projection.v1",
+  "scenarioId": "townhall-s01-r1",
+  "status": "AUTHORED_NOT_PLAY_START_APPROVED",
+  "executionAllowed": false,
+  "sourceKind": "authored-scenario-data",
+  "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/canonical-locations/report.md",
+  "transform": {
+    "crs": "LOCAL:townhall-s01-r1-fictional-tile-grid",
+    "origin": {
+      "x": 0,
+      "y": 0
+    },
+    "scale": {
+      "tilesPerSceneUnit": 1,
+      "metresPerTile": null
+    },
+    "axes": {
+      "x": "right",
+      "y": "down"
+    },
+    "geographicCoordinates": null,
+    "sourceKind": "authored-scenario-data",
+    "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/canonical-locations/report.md"
+  },
+  "scenes": [
+    {
+      "id": "townhall-s01-r1-reception",
+      "mapId": "townhall-s01-r1-reception",
+      "mapFile": "maps/townhall-s01-r1-reception.json",
+      "regionId": "region:1147063000",
+      "siteId": "osm:node:368899387",
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/canonical-locations/report.md"
+    },
+    {
+      "id": "townhall-s01-r1-archive",
+      "mapId": "townhall-s01-r1-archive",
+      "mapFile": "maps/townhall-s01-r1-archive.json",
+      "regionId": "region:1147063000",
+      "siteId": "osm:node:368899387",
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/canonical-locations/report.md"
+    },
+    {
+      "id": "townhall-s01-r1-yard",
+      "mapId": "townhall-s01-r1-yard",
+      "mapFile": "maps/townhall-s01-r1-yard.json",
+      "regionId": "region:1147063000",
+      "siteId": "osm:node:368899387",
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/canonical-locations/report.md"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "s01:townhall:entry",
+      "sceneId": "townhall-s01-r1-reception",
+      "mapId": "townhall-s01-r1-reception",
+      "tile": {
+        "x": 5,
+        "y": 6
+      },
+      "roles": [
+        "navigation",
+        "portal"
+      ],
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/sites/0"
+    },
+    {
+      "id": "s01:townhall:desk",
+      "sceneId": "townhall-s01-r1-reception",
+      "mapId": "townhall-s01-r1-reception",
+      "tile": {
+        "x": 5,
+        "y": 3
+      },
+      "roles": [
+        "navigation",
+        "interaction",
+        "reception",
+        "custody-handover"
+      ],
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/sites/1"
+    },
+    {
+      "id": "s01:townhall:bench",
+      "sceneId": "townhall-s01-r1-reception",
+      "mapId": "townhall-s01-r1-reception",
+      "tile": {
+        "x": 2,
+        "y": 3
+      },
+      "roles": [
+        "navigation"
+      ],
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/sites/2"
+    },
+    {
+      "id": "s01:townhall:threshold",
+      "sceneId": "townhall-s01-r1-reception",
+      "mapId": "townhall-s01-r1-reception",
+      "tile": {
+        "x": 8,
+        "y": 3
+      },
+      "roles": [
+        "navigation",
+        "custody-return",
+        "portal"
+      ],
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/sites/3"
+    },
+    {
+      "id": "s01:townhall:archive",
+      "sceneId": "townhall-s01-r1-archive",
+      "mapId": "townhall-s01-r1-archive",
+      "tile": {
+        "x": 2,
+        "y": 3
+      },
+      "roles": [
+        "navigation"
+      ],
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/sites/4"
+    },
+    {
+      "id": "s01:townhall:locker",
+      "sceneId": "townhall-s01-r1-archive",
+      "mapId": "townhall-s01-r1-archive",
+      "tile": {
+        "x": 5,
+        "y": 3
+      },
+      "roles": [
+        "navigation",
+        "interaction",
+        "custody-pickup"
+      ],
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/sites/5"
+    },
+    {
+      "id": "s01:townhall:yard",
+      "sceneId": "townhall-s01-r1-yard",
+      "mapId": "townhall-s01-r1-yard",
+      "tile": {
+        "x": 2,
+        "y": 3
+      },
+      "roles": [
+        "navigation"
+      ],
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/sites/6"
+    },
+    {
+      "id": "s01:townhall:cistern",
+      "sceneId": "townhall-s01-r1-yard",
+      "mapId": "townhall-s01-r1-yard",
+      "tile": {
+        "x": 5,
+        "y": 3
+      },
+      "roles": [
+        "navigation",
+        "interaction",
+        "measurement"
+      ],
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/sites/7"
+    },
+    {
+      "id": "s01:townhall:tap",
+      "sceneId": "townhall-s01-r1-yard",
+      "mapId": "townhall-s01-r1-yard",
+      "tile": {
+        "x": 5,
+        "y": 6
+      },
+      "roles": [
+        "navigation",
+        "interaction",
+        "measurement"
+      ],
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/sites/8"
+    }
+  ],
+  "portals": [
+    {
+      "id": "s01:townhall:portal-yard",
+      "fromNode": "s01:townhall:entry",
+      "toNode": "s01:townhall:yard",
+      "bidirectional": true,
+      "requires": [],
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/canonical-locations/report.md"
+    },
+    {
+      "id": "s01:townhall:portal-archive",
+      "fromNode": "s01:townhall:threshold",
+      "toNode": "s01:townhall:archive",
+      "bidirectional": true,
+      "requires": [
+        "grant:townhall-s01-archive-r1",
+        "duty-present",
+        "duty-escort",
+        "designated-seal-exception"
+      ],
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/canonical-locations/report.md"
+    }
+  ],
+  "actors": [
+    {
+      "actorId": "K002",
+      "nodeId": "s01:townhall:desk",
+      "mapId": "townhall-s01-r1-reception",
+      "tile": {
+        "x": 5,
+        "y": 3
+      },
+      "facing": "down",
+      "effectiveAt": "E0",
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/actors/0"
+    },
+    {
+      "actorId": "K568",
+      "nodeId": "s01:townhall:bench",
+      "mapId": "townhall-s01-r1-reception",
+      "tile": {
+        "x": 2,
+        "y": 3
+      },
+      "facing": "right",
+      "effectiveAt": "E0",
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/actors/1"
+    },
+    {
+      "actorId": "K616",
+      "nodeId": "s01:townhall:yard",
+      "mapId": "townhall-s01-r1-yard",
+      "tile": {
+        "x": 2,
+        "y": 3
+      },
+      "facing": "up",
+      "effectiveAt": "E0",
+      "sourceKind": "authored-scenario-data",
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/actors/2"
+    }
+  ],
+  "routes": [
+    {
+      "id": "s01:townhall:route-archive-r1",
+      "orderedNodes": [
+        "s01:townhall:bench",
+        "s01:townhall:desk",
+        "s01:townhall:threshold",
+        "s01:townhall:archive",
+        "s01:townhall:locker"
+      ],
+      "requires": [
+        "grant:townhall-s01-archive-r1",
+        "duty-escort"
+      ],
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/ledger/route",
+      "sourceKind": "authored-scenario-data",
+      "bidirectional": true,
+      "durationInputRef": "external:clock-route",
+      "geometry": [
+        {
+          "fromNode": "s01:townhall:bench",
+          "toNode": "s01:townhall:desk",
+          "portalId": null,
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 2,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 3,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 4,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 3
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/ledger/route"
+        },
+        {
+          "fromNode": "s01:townhall:desk",
+          "toNode": "s01:townhall:threshold",
+          "portalId": null,
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 6,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 7,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 8,
+              "y": 3
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/ledger/route"
+        },
+        {
+          "fromNode": "s01:townhall:threshold",
+          "toNode": "s01:townhall:archive",
+          "portalId": "s01:townhall:portal-archive",
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 8,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-archive",
+              "x": 2,
+              "y": 3
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/ledger/route"
+        },
+        {
+          "fromNode": "s01:townhall:archive",
+          "toNode": "s01:townhall:locker",
+          "portalId": null,
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-archive",
+              "x": 2,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-archive",
+              "x": 3,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-archive",
+              "x": 4,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-archive",
+              "x": 5,
+              "y": 3
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/ledger/route"
+        }
+      ]
+    },
+    {
+      "id": "s01:townhall:route-yard-r1",
+      "orderedNodes": [
+        "s01:townhall:desk",
+        "s01:townhall:entry",
+        "s01:townhall:yard",
+        "s01:townhall:cistern",
+        "s01:townhall:tap",
+        "s01:townhall:yard",
+        "s01:townhall:entry",
+        "s01:townhall:desk"
+      ],
+      "requires": [
+        "grant:townhall-s01-inspect-r1"
+      ],
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/inspection",
+      "sourceKind": "authored-scenario-data",
+      "bidirectional": true,
+      "durationInputRef": "external:clock-route",
+      "geometry": [
+        {
+          "fromNode": "s01:townhall:desk",
+          "toNode": "s01:townhall:entry",
+          "portalId": null,
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 4
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 5
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 6
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/inspection"
+        },
+        {
+          "fromNode": "s01:townhall:entry",
+          "toNode": "s01:townhall:yard",
+          "portalId": "s01:townhall:portal-yard",
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 6
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 2,
+              "y": 3
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/inspection"
+        },
+        {
+          "fromNode": "s01:townhall:yard",
+          "toNode": "s01:townhall:cistern",
+          "portalId": null,
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 2,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 3,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 4,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 5,
+              "y": 3
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/inspection"
+        },
+        {
+          "fromNode": "s01:townhall:cistern",
+          "toNode": "s01:townhall:tap",
+          "portalId": null,
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 5,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 5,
+              "y": 4
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 5,
+              "y": 5
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 5,
+              "y": 6
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/inspection"
+        },
+        {
+          "fromNode": "s01:townhall:tap",
+          "toNode": "s01:townhall:yard",
+          "portalId": null,
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 5,
+              "y": 6
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 4,
+              "y": 6
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 3,
+              "y": 6
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 2,
+              "y": 6
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 2,
+              "y": 5
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 2,
+              "y": 4
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 2,
+              "y": 3
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/inspection"
+        },
+        {
+          "fromNode": "s01:townhall:yard",
+          "toNode": "s01:townhall:entry",
+          "portalId": "s01:townhall:portal-yard",
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 2,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 6
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/inspection"
+        },
+        {
+          "fromNode": "s01:townhall:entry",
+          "toNode": "s01:townhall:desk",
+          "portalId": null,
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 6
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 5
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 4
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 3
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/inspection"
+        }
+      ]
+    },
+    {
+      "id": "s01:townhall:route-duty-notice-r1",
+      "orderedNodes": [
+        "s01:townhall:desk",
+        "s01:townhall:entry",
+        "s01:townhall:yard"
+      ],
+      "requires": [
+        "right:townhall-community-compact-r1"
+      ],
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/rights/dutyWalk",
+      "sourceKind": "authored-scenario-data",
+      "bidirectional": true,
+      "durationInputRef": "external:clock-route",
+      "geometry": [
+        {
+          "fromNode": "s01:townhall:desk",
+          "toNode": "s01:townhall:entry",
+          "portalId": null,
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 3
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 4
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 5
+            },
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 6
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/rights/dutyWalk"
+        },
+        {
+          "fromNode": "s01:townhall:entry",
+          "toNode": "s01:townhall:yard",
+          "portalId": "s01:townhall:portal-yard",
+          "points": [
+            {
+              "mapId": "townhall-s01-r1-reception",
+              "x": 5,
+              "y": 6
+            },
+            {
+              "mapId": "townhall-s01-r1-yard",
+              "x": 2,
+              "y": 3
+            }
+          ],
+          "sourceKind": "authored-scenario-data",
+          "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/rights/dutyWalk"
+        }
+      ]
+    }
+  ],
+  "access": {
+    "archiveGrantId": "grant:townhall-s01-archive-r1",
+    "archivePortalId": "s01:townhall:portal-archive",
+    "custodyRequiresPhysicalReceipt": true,
+    "startApproval": false,
+    "sourceKind": "authored-scenario-data",
+    "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/canonical-locations/report.md"
+  }
+}

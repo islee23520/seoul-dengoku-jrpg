@@ -1,0 +1,3482 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G26",
+  "slug": "Hostile-Group-G26",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G26]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G26 · Iron Dinosaur",
+      "summary": "G26 · Iron Dinosaur",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G26 · 철공룡",
+      "summary": "G26 · 철공룡",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G26-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G26 · 철공룡",
+        "en": "G26 · Iron Dinosaur"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G26-generated-G26-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G26-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G26-generated-G26-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "강남선 창동 차량기지의 죽은 측선이 먼저 울리고, 몇 초 뒤 정비고 안쪽에서 금속 무릎 하나가 천천히 펴진다. 먼지가 무너져 내린 뒤에도 반립 중장기는 곧장 걷지 않는다. 발바닥 압력 격자로 바닥을 누르고, 몸 뒤의 균형추를 낮추고 세 번의 저주파 경보로 작업 반경을 선포한다.",
+        "en": "The dead siding of the Gangnam Line's Changdong depot hummed first, and a few seconds later a metal knee slowly unfolded from deep inside the maintenance shed. Even after the dust settled, the bipedal heavy walker did not walk straight off. It pressed the floor with the pressure grid of its soles, lowered the counterweight behind its body, and announced its work radius with three low-frequency alarms that sounded like roars."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G26-generated-G26-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "철공룡은 붕괴 이전 작업 기계의 계보다. G26E 식별자는 기존 차체 형식에서 갈라진 기종·파생형을 가리킨다. 부품을 같은 규격 슬롯에 옮겨 기체 수를 유지한다.",
+        "en": "Iron Dinosaur is a lineage of pre-collapse work machines. G26E identifiers denote models and derivatives of existing chassis forms. Their numbers are maintained by transferring parts into matching slots."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G26-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "2030년 고지능 AI는 인류 자체를 세계의 바이러스로 판단하고 당시의 공룡·곤충 모양 자율 무기 드론에 살육 명령을 내렸다. 이 명령으로 대정전이 일어났고 전 세계에서 공습과 살육이 시작되었다. / 철공룡은 2030년 당시의 공룡 모양 자율 무기 드론 계열이었다. / 이족 보행 기체와 낮고 넓은 방패 기체, 장익 고정익 감시기가 함께 운용되었다. / 재난 마지막 날 강남선 창동 차량기지 측선 정비고와 광진선 고덕 기지의 방호 격납고가 닫히자 완편 장비가 작업 대기 자세로 봉인되었다. / 오랜 뒤 강남선 제동 시험 전원과 광진선 기지 자동 점검 단말이 서로 다른 시기에 살아나면서 기체가 끝나지 않은 붕괴물 제거 공정을 재개했다. / 원래 설계 도면과 승인 체계는 대부분 읽을 수 없고, 현재 남은 행동은 축 하중 표 견인 우선순위 안전 반경 같은 부분 루틴뿐이다. / 포효처럼 들리는 저주파 경보와 돌진은 작업 구역 확보 절차가 굳어 남은 결과다. / HC17 측선 회수대와 F10 하중 판독기가 최초의 재기동을 기록했다. / 2040년부터 AI들이 서로 갈라져 세력을 이루면서 지휘와 통제가 약해졌다. 살육이 멈추자 사람들은 지상으로 돌아오기 시작하였다. 살육기계의 활동과 인류가 앞서 남긴 오염의 여파는 세계를 영원한 겨울로 몰아넣었고 식량난이 이어졌다. 1세대가 끝나고 2세대가 시작되면서 기온은 조금 높아졌다. 목적을 잃은 기계들은 살육 네트워크를 벗어나 작은 무리로 돌아다녔고 사람들은 이들을 상대할 수 있게 되었다.",
+            "en": "In 2030 a highly intelligent AI judged humanity itself to be a virus of the world and issued slaughter orders to the dinosaur- and insect-shaped autonomous weapon drones of the era. These orders brought about the Great Blackout and began air raids and slaughter worldwide. / Iron Dinosaur belonged to the dinosaur-shaped autonomous weapon drones of 2030. / Bipedal units, low wide shield units and long-winged fixed-wing surveillance craft were operated together. / On the last day of the disaster, fully equipped units were sealed in a standby-for-work posture when the siding maintenance shed at Gangnam Line's Chang-dong depot and the protective hangar at Gwangjin Line's Godeok base closed. / Long afterward, braking-test power on the Gangnam Line and an automatic inspection terminal at the Gwangjin Line base came back to life at different times, and the units resumed an unfinished debris-removal process. / Most of the original design drawings and approval system can no longer be read; all that remains of their behavior are partial routines such as axle-load tables, towing priorities, and safety radii. / The low-frequency alarm that sounds like a roar, and the charge that follows it, are the fossilized result of a procedure for securing a work zone. / The HC17 siding recovery team and an F10 load reader recorded the first reactivation. / From 2040 the AIs split into factions, weakening command and control. As the slaughter stopped, people began returning to the surface. Slaughter-machine activity and the aftermath of earlier human pollution plunged the world into eternal winter and prolonged the food crisis. The end of the first generation marked the beginning of the second, with slightly warmer temperatures. Purposeless machines outside the killing network roamed in small groups that people could counter."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "철공룡의 중심지는 강남선 창동 차량기지 측선과 광진선 고덕 기지의 넓은 정비로·방호 격납고다. / 반립 중장기는 레일 간격과 바닥 지지력이 확인된 회랑만 따라 움직이고, 삼각 견인기는 회차 공간이 있는 야적장과 교량 진입부를 선호한다. / 장익 감시기는 짧은 활주 구간 또는 견인 발사대가 확보될 때만 떠서 두 거점 사이의 붕괴선과 열점을 훑는다. / XT04 암사 중량·연료 인계 회랑을 거쳐 고덕에서 출발한 무거운 회수 자재 화차나 암사에서 확인한 보관 연료 화차가 들어오면 과거 자재 입고표와 비슷한 축 하중이 감지되어 강남선 측선의 활동이 커지고, 광진선에서는 동부 교량과 고덕 기지 진입로를 신규 작업 구역으로 편입하려 한다. / 국지 융설기에는 지반이 약한 측선을 피하고, 혹한에는 유압 점도가 올라 이동 반경이 짧아진다. / 포장되지 않은 좁은 골목, 하중을 검증하지 않은 지하층, 장익기의 관측선이 닿지 않는 밀집 구역으로는 대형 기체가 지속 진입하지 못한다.",
+            "en": "The Iron Dinosaur is centered on the siding at Gangnam Line's Chang-dong depot and the broad maintenance roads and protective hangars at Gwangjin Line's Godeok base. / Semi-upright heavy units move only along corridors whose rail spacing and floor bearing capacity have been verified, while triangular towing units favor storage yards and bridge approaches with room to turn around. / Long-winged surveillance craft take off only when a short runway or towing launcher is available, then scan collapse lines and hot spots between the two bases. / When heavy recovered-material cars or winter fuel arrive via the XT04 Amsa heavy-load and fuel handover corridor, axle loads resembling those on old materials-receipt sheets are detected and activity on the Gangnam Line siding increases. On the Gwangjin Line, the units try to incorporate eastern bridges and the approach to Godeok base into a new work zone. / During the local snowmelt they avoid sidings with weak ground; in severe cold, increased hydraulic viscosity shortens their operating range. / Large units cannot sustain entry into narrow unpaved alleys, basements with unverified load capacity, or dense areas beyond the long-winged craft's line of observation."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "주 에너지원은 정비고 견인 전지의 전력, 회생 제동으로 되돌린 전력, 제한된 액체 연료 보조 발전이다. / 반립 중장기는 유압유·무릎 베어링·발바닥 완충판을, 삼각 견인기는 케이블·윈치 기어·방패판 체결핀을, 장익 감시기는 경량 날개재와 광학 모듈을 필요로 한다. / 냉각수와 유압유는 서로 대체할 수 없고, 겨울에는 예열에 평시보다 많은 전력이 든다. / HC17은 중량 호송로를 열기 위해 이 장비의 견인력을 원하지만 같은 레일 강재와 연료 드럼을 수리 자원으로 소비한다. / 완전한 동력핵은 새로 만들 수 없으며 파손 개체 둘을 합쳐도 동력 등급이 올라가지 않는다. / 한 작업편대는 귀환에 필요한 유압 압력과 제동 전력을 남기며, 하한 아래에서는 가장 무거운 반립기부터 무릎을 고정하고 대기한다. / 장익기는 배터리 하나로 짧은 정찰만 가능하고 상시 공중 감시는 할 수 없다. / 따라서 이 군집의 규모는 온전한 관절과 견인선의 수, 하중을 버티는 바닥 면적으로 제한된다.",
+            "en": "Their main energy sources are power from maintenance-shed towing batteries, power recovered through regenerative braking, and limited auxiliary generation using liquid fuel. / Semi-upright heavy units need hydraulic fluid, knee bearings, and foot cushioning plates; triangular towing units need cables, winch gears, and shield-plate fastening pins; long-winged surveillance craft need lightweight wing materials and optical modules. / Coolant and hydraulic fluid cannot substitute for each other, and preheating in winter consumes more power than it does in normal conditions. / HC17 wants the equipment's towing power to open heavy-convoy routes, but the equipment consumes the same rail steel and fuel drums as repair resources. / Complete power cores cannot be made anew, and combining two damaged units does not raise their power rating. / Each work detachment reserves the hydraulic pressure and braking power needed to return. Below that threshold, its heaviest semi-upright unit locks its knees first and waits. / A long-winged craft can make only a short reconnaissance flight on one battery; it cannot maintain continuous aerial surveillance. / The group’s size is therefore limited by the number of intact joints and towing cables and by the floor area able to bear its loads."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "운용 단계는 출현, 확산, 정체, 협상 가능, 와해의 다섯 국면으로 구분한다. / 출현 국면에는 격납고 한 칸의 유압이 차고 장익기가 측선 위를 한 차례 훑는다. / 확산 국면에서는 삼각 견인기가 낡은 장애물을 작업선 밖으로 끌고 반립 중장기가 새 하중 표식을 박아 구역을 넓힌다. / 정체 국면은 지반 지지력 부족, 유압 누설, 견인선 마모, 상공 지도 불일치 때문에 편대가 같은 잔해를 밀고 되돌리는 상태다. / 협상가능 국면에는 인간이 실제 하중표와 허용 작업 경계, 반환할 보강재 목록을 제시하면 중량 작업 일부를 위탁할 수 있다. / 와해는 동력핵 냉각, 무릎 고정핀 체결, 견인선 분리, 장익기 회수 순으로 이루어진다. / 자체 생산 공장은 없고 정비고 크레인과 규격 부품 없이는 대수 유지도 어렵다. / 작업 기록은 편대마다 분리되어 한 기지의 정지 명령이 다른 기지에 저절로 적용되지 않는다.",
+            "en": "Its operational life is divided into five phases: emergence, expansion, stagnation, negotiation, and disintegration. / During emergence, the hydraulics in one hangar bay are charged and a long-winged craft sweeps over the siding once. / During expansion, triangular towing units drag old obstacles out of the work line, and semi-upright heavy units drive in new load markers to enlarge the zone. / Stagnation is the state in which a detachment pushes the same debris forward and pulls it back because of insufficient ground bearing capacity, hydraulic leaks, worn towing cables, or discrepancies in its aerial map. / During the negotiation phase, humans can delegate some heavy work if they provide an accurate load table, permitted work boundaries, and a list of reinforcement materials to be returned. / Disintegration proceeds in order: cool the power core, fasten the knee-locking pins, disconnect the towing cables, and recover the long-winged craft. / There is no factory to produce more units, and even maintaining their numbers is difficult without maintenance-shed cranes and standardized parts. / Work records are separate for each detachment, so a stop order at one base does not automatically apply at the other."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "반립 중장기는 발바닥 압력 격자 관절 토크 저주파 구조 진동 가까운 열원을 읽는다. / 삼각 견인기는 윈치 장력과 바닥 경사, 차체 앞의 짧은 거리 측정으로 견인 가능성을 계산한다. / 장익 감시기는 가시광·열 영상과 지표 표식을 쓰지만 연기 눈 고층 잔해 사이에서는 고도와 규모를 잘못 잡는다. / 건물의 용도 사람의 소속 화차 내용물 지하 배관 상태를 직접 알 수 없다. / 정지한 장갑차를 보강재 묶음으로 피난 천막을 낙하물 방지막으로 군중 진동을 불안정한 잔해로 오인할 수 있다. / F10의 하중 모델과 기체 판정이 어긋나면 HC17 구조 기술자가 시험 추를 놓아 실제 처짐을 확인한 뒤 이동 명령을 낸다. / 장익기가 격추되거나 날씨로 돌아오지 못하면 지상 편대의 신규 구역 편입도 멈춘다.",
+            "en": "Semi-upright heavy units read foot-pressure grids, joint torque, low-frequency structural vibrations, and nearby heat sources. / Triangular towing units calculate whether they can tow something from winch tension, floor slope, and short-range measurements in front of their chassis. / Long-winged surveillance craft use visible-light and thermal imagery and ground markers, but misjudge height and scale amid smoke, snow, and the remains of tall buildings. / They cannot directly determine a building's purpose, a person's affiliation, the contents of a freight car, or the condition of underground pipes. / They may mistake a stationary armored vehicle for a bundle of reinforcement materials, an evacuation tent for a falling-object barrier, or vibrations from a crowd for unstable debris. / When F10's load model and a unit's assessment disagree, an HC17 rescue technician places a test weight to check the actual deflection before issuing a movement order. / If a long-winged craft is shot down or cannot return because of the weather, the ground detachment also stops incorporating new zones."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "편대는 작업 권한표를 공유하는 세 기능층으로 움직인다. / 장익 감시기가 작업 다각형을 그리면 삼각 견인기가 진입선과 후퇴선을 만들고, 반립 중장기가 가장 늦게 들어가 중량 작업을 수행한다. / 각 편대에서 관절 상태가 가장 안정된 반립기 한 대가 하중 기준체가 되지만 다른 기체를 처벌하거나 희생시키는 지휘권은 없다. / 삼각 기체 둘이 서로 다른 견인점을 고르면 윈치를 풀고 경보음을 내며 멈춘다. / 이때 F10이 장력값을 대조하고 HC17 인간 감독자가 기준점을 물리적으로 다시 박아야 작업이 이어진다. / 기준체가 쓰러지면 편대는 더 큰 기체를 새로 세우지 않고 마지막 안전선 밖으로 후퇴한다. / 장익기의 지도와 지상 압력값이 충돌할 때는 지상 시험 하중이 우선한다.",
+            "en": "Detachments operate through three functional layers sharing a table of work authorizations. / A long-winged surveillance craft draws a work polygon, a triangular towing unit establishes entry and retreat routes, and a semi-upright heavy unit enters last to perform the heavy work. / The semi-upright unit with the most stable joints in each detachment serves as the load-reference unit, but it has no authority to punish or sacrifice other units. / If two triangular units choose different towing points, they release their winches, sound an alarm, and stop. / F10 must then compare the tension readings, and an HC17 human supervisor must physically reset the reference point before work can continue. / If the reference unit falls, the detachment does not appoint a larger unit; it retreats beyond the last safety line. / When the long-winged craft's map conflicts with ground-pressure readings, a ground load test takes precedence."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G26-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G26-generated-G26-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "기체의 컨트롤러는 작업 순서와 귀환선만 조정한다. 전투를 지휘하거나 사람의 법적 판단을 내리지 못하며, 인간 당직의 중지·승인 명령이 우선한다.",
+        "en": "The machine controller adjusted only work sequence and return lines. It could form neither combat command nor human legal judgment, and the human watch's halt and approval orders took precedence."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E01 · 하중턱보행체",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E01 · Load-Jawed Walker",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "정찰·선도",
+            "en": "Reconnaissance · pathfinding"
+          },
+          {
+            "ko": "첨병",
+            "en": "vanguard"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E02 · 삼각멍에견인수",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e02"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E02 · Triangular-Yoke Towing Beast",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e02"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "정예 돌파",
+            "en": "Elite breakthrough"
+          },
+          {
+            "ko": "첫 번째 정예",
+            "en": "first elite"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E03 · 장익균열감시기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e03"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E03 · Long-Wing Crack Monitor",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e03"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "정예 차단",
+            "en": "Elite blocking"
+          },
+          {
+            "ko": "두 번째 정예",
+            "en": "second elite"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E04 · 갑룡낙석받이",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e04"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E04 · Ankylosaur Rockfall Shield",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e04"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "방호·엄호",
+            "en": "Protection · cover"
+          },
+          {
+            "ko": "수호자",
+            "en": "guardian"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E05 · 잔발속보룡",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e05"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E05 · Fleet-Footed Little Raptor",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e05"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "기동·우회",
+            "en": "Maneuver · flank"
+          },
+          {
+            "ko": "기동 특수형",
+            "en": "mobile special type"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E06 · 갈고리턱해체룡",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e06"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E06 · Hook-Jawed Demolition Raptor",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e06"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "정예 돌파",
+            "en": "Elite breakthrough"
+          },
+          {
+            "ko": "첫 번째 정예",
+            "en": "first elite"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E07 · 긴목들보운반체",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e07"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E07 · Long-Neck Beam Carrier",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e07"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "일반 전열",
+            "en": "General line"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E08 · 능선익룡망보기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E08 · Ridgeline Pterosaur Lookout",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "방호·엄호",
+            "en": "Protection · cover"
+          },
+          {
+            "ko": "수호자",
+            "en": "guardian"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E09 · 깃판틈새새",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e09"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E09 · Plate-Crest Gap Bird",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e09"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "정찰·선도",
+            "en": "Reconnaissance · pathfinding"
+          },
+          {
+            "ko": "첨병",
+            "en": "vanguard"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E10 · 돌등거북벽",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e10"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E10 · Stoneback Turtle Wall",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e10"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "거점 통제",
+            "en": "Strongpoint control"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E11 · 마디뱀교량눈",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e11"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E11 · Segmented Snake Bridge Eye",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e11"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "전문 지원",
+            "en": "Specialist support"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E12 · 둔치악어집게",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e12"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E12 · Sandbar Crocodile Clamp",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e12"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "지역 적응",
+            "en": "Local adaptation"
+          },
+          {
+            "ko": "지역 변종",
+            "en": "regional variant"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E13 · 관문뿔대견인룡",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e13"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E13 · Gate Horned Great Tow Dragon",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e13"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "정예 차단",
+            "en": "Elite blocking"
+          },
+          {
+            "ko": "두 번째 정예",
+            "en": "second elite"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E14 · 왕턱철거기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e14"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E14 · King Jaw Demolition Machine",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e14"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "시나리오 보스",
+            "en": "scenario boss"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E15 · 작은뿔받침떼",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E15 · Small Horn Support Herd",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "일반 전열",
+            "en": "General line"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G26E16 · 먼날개귀환자",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e16"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G26E16 · Distant Wing Returner",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G26",
+                  "anchor": "g26e16"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "지역 적응",
+            "en": "Local adaptation"
+          },
+          {
+            "ko": "지역 변종",
+            "en": "regional variant"
+          },
+          {
+            "ko": "M041",
+            "en": "M041"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E01-title-heading-1",
+      "publicAnchors": [
+        "g26e01",
+        "Hostile-Group-G26-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E01 · 하중턱보행체",
+        "en": "G26E01 · Load-Jawed Walker"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 첨병",
+          "en": "Former role class: vanguard"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "정찰·선도",
+            "en": "Reconnaissance · pathfinding"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "하중턱보행체는 G26 공통 생태에서 분화한 기계 기종이다. 정찰·선도 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Load-Jawed Walker was a machine chassis type differentiated from the G26 common ecology. The reconnaissance · pathfinding role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-1-prose-04089",
+      "items": [
+        {
+          "ko": "역할·신체: 두 굵은 다리와 뒤로 뻗은 균형추가 공룡형 윤곽을 이루는 이족 중장 첨병이다. 턱 모양 하중 집게로 잔해를 조금씩 들어 후속 견인 장비가 붙을 틈을 만든다.",
+          "en": "Role and body: A bipedal heavy-duty vanguard whose two thick legs and rearward counterweight give it a dinosaur-like outline. Its jaw-shaped load clamp lifts debris a little at a time to make room for the towing equipment that follows."
+        },
+        {
+          "ko": "기원: 강남선 차량기지 정비고에 묶여 있던 붕괴 이전 구조물 수리 선행체다. 점검 전원이 돌아오자 붕괴 당시에 중단한 받침 검사부터 이어 갔다.",
+          "en": "Origin: A pre-collapse structural-repair advance unit was secured in the Gangnam Line depot maintenance shed. When inspection power returned, it resumed the support checks interrupted at the time of the collapse."
+        },
+        {
+          "ko": "서식·필요: 차량 하부 작업선과 침하한 콘크리트 경계에서 발을 고른다. 고출력 축전 묶음은 유한하며 무릎 유압 씰과 발바닥 하중 패드가 없어지면 서 있을 수 없다.",
+          "en": "Habitat and needs: It picks its footing along undercarriage work lines and the edges of subsided concrete. Its high-output battery pack is finite; without knee hydraulic seals and sole load pads, it cannot stand."
+        },
+        {
+          "ko": "생애·정비: 출발 전에 꼬리 균형추를 정비 받침에 걸고 무릎 누설량을 잰다. 기준을 넘긴 관절은 잠기므로 노체는 작업선 밖으로 나아가는 대신 한쪽 발을 끈다.",
+          "en": "Life cycle and maintenance: Before departure, it hooks its tail counterweight to a maintenance support and measures knee leakage. Joints that exceed the limit lock, so an old unit drags one foot rather than venture beyond the work line."
+        },
+        {
+          "ko": "행동·위계: 바닥 지지력이 확인된 칸만 후속 견인체에 넘긴다. 얇은 작업판 밑 빈 공간을 놓치면 안전 판정을 낸 발판이 사람과 함께 내려앉을 수 있다.",
+          "en": "Behavior and hierarchy: It passes only sections with confirmed floor bearing capacity to the towing units behind it. If it misses a void beneath a thin work platform, a platform it has judged safe can collapse with people on it."
+        },
+        {
+          "ko": "상승: 1단계에서 시험 발구름이 반복되고 2단계에는 임시 발판이 들린다. 3단계 하중 검사가 시작된 좁은 작업선은 큰 다리와 균형추에 막혀 대피열이 갈라진다.",
+          "en": "Escalation: At stage 1, test footfalls repeat; at stage 2, temporary platforms lift. At stage 3, its large legs and counterweight block a narrow work line where load testing has begun, splitting the evacuation column."
+        },
+        {
+          "ko": "교전·대응: 기지의 독립 하중 시험대에 집게를 얹게 한 뒤 정비 걸쇠로 무릎을 묶는다. 발목을 폭파하면 넘어지는 균형추가 뒤쪽 구조대를 치므로 넘어뜨리기 자체가 승리는 아니다.",
+          "en": "Engagement and response: Have it rest its clamp on the depot’s independent load-test stand, then secure its knees with maintenance latches. Blowing out an ankle sends the toppling counterweight into the rescue crew behind it, so merely knocking it down is not a victory."
+        },
+        {
+          "ko": "교섭·도덕 선택: 사람이 확인한 지지력 표와 충전 몫을 주면 잔해 인양을 도울 수 있다. 한 번의 중량 작업에 쓰는 전력을 환자 수송 대차에서도 요구하므로 어느 구조를 먼저 수행할지 장부에 남긴다.",
+          "en": "Negotiation and moral choice: Given a human-verified bearing-capacity chart and a share of charging power, it can help lift debris. Patient-transport carts need the same power used for a single heavy lift, so record which rescue takes priority in the ledger."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E02-title-heading-1",
+      "publicAnchors": [
+        "g26e02",
+        "Hostile-Group-G26-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E02 · 삼각멍에견인수",
+        "en": "G26E02 · Triangular-Yoke Towing Beast"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E02-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 첫 번째 정예",
+          "en": "Former role class: first elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E02-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "정예 돌파",
+            "en": "Elite breakthrough"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "삼각멍에견인수는 G26 공통 생태에서 분화한 기계 기종이다. 정예 돌파 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Triangular-Yoke Towing Beast was a machine chassis type differentiated from the G26 common ecology. The elite breakthrough role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-2-prose-04090",
+      "items": [
+        {
+          "ko": "역할·신체: 삼각 멍에를 머리 앞에 내민 네발 견인체로, 뿔 셋의 고정점과 넓은 목 방패가 고대 대형 파충류를 닮았다. 첫 번째 정예의 임무는 적 추격이 아니라 중량 프레임의 연속 견인이다.",
+          "en": "Role and body: A four-legged towing unit with a triangular yoke projecting ahead of its head; the three horn-like anchor points and broad neck shield resemble a large ancient reptile. This first elite unit’s task is not to pursue enemies but to tow heavy frames continuously."
+        },
+        {
+          "ko": "기원: 붕괴 이전 보강재 운반에 쓰던 삼점 체결 장비가 광진선 기지 측선의 장기 봉인에서 풀려났다. 도착지의 건물은 없어졌는데 운반 종료 접점은 끝내 입력되지 않았다.",
+          "en": "Origin: Three-point fastening equipment used to transport reinforcement before the collapse was released from a long-term seal on a Gwangjin Line depot siding. The building at its destination is gone, but a transport-completion signal was never entered."
+        },
+        {
+          "ko": "서식·필요: 목 방패가 회전할 여유가 있는 측선 적재장에 머문다. 와이어 드럼, 견인 핀, 기어 오일을 실제로 적재해야 하며 무거운 짐일수록 충전 받침에 자주 돌아간다.",
+          "en": "Habitat and needs: It stays in siding loading yards with enough room to turn its neck shield. It must actually be supplied with wire drums, towing pins, and gear oil, and the heavier its load, the more often it returns to a charging support."
+        },
+        {
+          "ko": "생애·정비: 견인줄의 세 장력이 다르면 가장 느슨한 줄부터 감아 맞춘다. 드럼 이빨이 깨진 기체는 둘을 쓰는 경량 작업으로 내려가고 정격 중량을 회복하려면 사람이 새 드럼을 달아야 한다.",
+          "en": "Life cycle and maintenance: If the three towlines have different tensions, it winds in the slackest first to equalize them. A unit with broken drum teeth is downgraded to light work using two lines; a person must install a new drum to restore its rated capacity."
+        },
+        {
+          "ko": "행동·위계: 선행 보행체가 남긴 지지력 표를 따라 프레임을 운반한다. 세 고리에 매달린 것은 모두 같은 화물로 취급하므로 주민의 차양 기둥이 걸려도 사람의 소유 표식을 읽지 못한다.",
+          "en": "Behavior and hierarchy: It carries frames according to the bearing-capacity chart left by the lead walker. It treats everything attached to its three rings as the same cargo, so even when a resident’s awning post is caught, it cannot read the ownership mark."
+        },
+        {
+          "ko": "상승: 고정점 시험 당김이 1단계 경보다. 2단계에서는 생활 구획의 기둥이 측선 쪽으로 끌리고, 세 줄에 통로가 가로막혀 누구도 접근할 수 없게 되면 3단계다.",
+          "en": "Escalation: A test pull on the anchor points is the stage 1 warning. At stage 2, posts in living quarters are dragged toward the siding; stage 3 begins when the three lines block the passage so no one can approach."
+        },
+        {
+          "ko": "교전·대응: 보조 지지대로 화물 하중을 먼저 받은 뒤 드럼의 정비 브레이크를 건다. 팽팽한 와이어부터 자르는 공격은 자유로워진 끝을 사람 높이로 튕겨 보낸다.",
+          "en": "Engagement and response: First take the cargo’s weight on auxiliary supports, then apply the drum’s maintenance brake. Cutting a taut wire first whips its freed end across at head height."
+        },
+        {
+          "ko": "교섭·도덕 선택: 목적지 받침에 종료 핀을 꽂아 운반 계약 하나를 끝내 줄 수 있다. 되찾은 보강재를 다음 구조 작업에 남길지 자재를 빼앗긴 거주민에게 돌려줄지 결정해야 하며, 기체 정지는 소유권 분쟁까지 해결하지 않는다.",
+          "en": "Negotiation and moral choice: Inserting a completion pin in the destination support can end one transport contract. A decision must be made whether to keep the recovered reinforcement for the next rescue job or return it to residents whose materials were taken; stopping the unit does not settle the ownership dispute."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E03-title-heading-1",
+      "publicAnchors": [
+        "g26e03",
+        "Hostile-Group-G26-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E03 · 장익균열감시기",
+        "en": "G26E03 · Long-Wing Crack Monitor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E03-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 두 번째 정예",
+          "en": "Former role class: second elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E03-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "정예 차단",
+            "en": "Elite blocking"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "장익균열감시기는 G26 공통 생태에서 분화한 기계 기종이다. 정예 차단 역할은 무리 편성 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Long-Wing Crack Monitor was a machine chassis type differentiated from the G26 common ecology. The elite blocking role applied only at the swarm-consist scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-3-prose-04091",
+      "items": [
+        {
+          "ko": "역할·신체: 길게 펼친 익룡형 날개 아래로 거리계가 달린 두 번째 정예 감시기다. 날개는 양력면과 계측 기준대를 겸하며, 짧게 체공한 뒤 높은 정비대에 걸려 지상의 중장체에게 균열 위치를 알린다.",
+          "en": "Role and body: A second elite monitor with rangefinders beneath long, outstretched pterosaur-like wings. The wings serve as both lifting surfaces and measurement baselines; after hovering briefly, it perches on a high maintenance stand and reports crack locations to the heavy units on the ground."
+        },
+        {
+          "ko": "기원: 강남선 지붕 트러스와 광진선 측선 보강부를 검사하던 붕괴 이전 공중 측량 계열이 남았다. 봉인 정비대의 접근 인가를 받자 이미 철거된 지붕의 윤곽을 기준으로 다시 측량했다.",
+          "en": "Origin: A pre-collapse aerial surveying line that inspected Gangnam Line roof trusses and Gwangjin Line siding reinforcements survived. Once granted access to its sealed maintenance stand, it resumed surveying against the outline of a roof that had already been removed."
+        },
+        {
+          "ko": "서식·필요: 바람이 통하고 양 날개를 펼 수 있는 차량기지 상부가 활동면이다. 추진 전력과 날개 장력선, 깨끗한 거리계 창을 소모하며 좁은 지하 관로까지 날아 들어가지 못한다.",
+          "en": "Habitat and needs: Its operating area is the upper part of a depot, where air flows and it can spread both wings. It uses propulsion power and wing tension lines and needs a clean rangefinder window; it cannot fly into narrow underground conduits."
+        },
+        {
+          "ko": "생애·정비: 착지할 때마다 좌우 날개 끝을 받침의 기준 홈에 맞춘다. 한쪽 홈에 닿지 않으면 비행을 중단하고 고정 감시만 수행하므로 손상 개체의 관측에는 넓은 사각이 생긴다.",
+          "en": "Life cycle and maintenance: Each time it lands, it aligns its left and right wingtips with reference grooves on the support. If one wingtip fails to reach its groove, it stops flying and performs only fixed-position monitoring, leaving broad blind spots in the damaged unit’s observations."
+        },
+        {
+          "ko": "행동·위계: 견인 방향을 직접 명령하지 않고 위험한 하중 구획을 표시한다. 빗물 반사와 매달린 방수천을 균열로 오인하면 멀쩡한 지붕 아래 작업까지 중장체가 비워 버린다.",
+          "en": "Behavior and hierarchy: It does not directly command towing direction; it marks hazardous load zones. If it mistakes rainwater reflections or hanging tarps for cracks, the heavy units clear work crews even from beneath sound roofs."
+        },
+        {
+          "ko": "상승: 엉뚱한 곳에 찍힌 측량 빛이 1단계를 알린다. 2단계에는 수리 순번이 빈 구획으로 돌고, 3단계 위험 표시가 겹치면 기지 횡단로 전부가 하중 금지 구역으로 취급된다.",
+          "en": "Escalation: Surveying light cast on the wrong place signals stage 1. At stage 2, the repair queue shifts to empty zones; at stage 3, overlapping hazard markings cause every route across the depot to be treated as a no-load zone."
+        },
+        {
+          "ko": "교전·대응: 정비대 옆에 실측한 기준 틀을 세우고 거리계 창을 닦아 오차를 드러낸다. 비행 중 격추하면 날개와 전지가 작업선으로 떨어지므로 착지 걸쇠를 이용한 포획이 낫다.",
+          "en": "Engagement and response: Set up a frame measured on site beside the maintenance stand and clean the rangefinder window to expose the error. Shooting it down in flight drops its wings and battery onto the work line, so capture using the landing latch is preferable."
+        },
+        {
+          "ko": "교섭·도덕 선택: 검사 구간별 측량 의뢰와 날개 수리품을 맞바꾼다. 새 기준을 채택하면 오래된 위험 지도를 버릴 수 있지만 거주민이 숨겨 둔 지붕 통행로까지 공개되어 피난 경로 보호가 별도 의제가 된다.",
+          "en": "Negotiation and moral choice: Trade survey commissions for each inspection section for wing-repair parts. Adopting a new reference allows the old hazard map to be discarded, but also exposes roof routes residents have kept hidden, making protection of their evacuation routes a separate issue."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E04-title-heading-1",
+      "publicAnchors": [
+        "g26e04",
+        "Hostile-Group-G26-heading-0023"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E04 · 갑룡낙석받이",
+        "en": "G26E04 · Ankylosaur Rockfall Shield"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E04-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 수호자",
+          "en": "Former role class: guardian"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E04-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "방호·엄호",
+            "en": "Protection · cover"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "갑룡낙석받이는 G26 공통 생태에서 분화한 기계 기종이다. 방호·엄호 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Ankylosaur Rockfall Shield was a machine chassis type differentiated from the G26 common ecology. The protection · cover role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-4-prose-04092",
+      "items": [
+        {
+          "ko": "역할·신체: 겹비늘 갑룡형 등판이 지붕처럼 펼쳐지는 방패 기체다. 짧은 네 다리와 뒤의 완충 꼬리가 측면 충격을 분산한다.",
+          "en": "Role and body: A shield unit whose overlapping, ankylosaur-like back plates unfold like a roof. Four short legs and a shock-absorbing tail behind it disperse impacts from the side."
+        },
+        {
+          "ko": "기원: 강남선 낙석 시험선에서 구조대의 머리 위를 가리던 옛 중장 방호체가 재기동했다. 낙하 종료 신호를 받던 천장 계측기는 이미 사라졌다.",
+          "en": "Origin: An old heavy protective unit that sheltered rescue crews from falling rocks on the Gangnam Line rockfall test line restarted. The ceiling sensor that sent the all-clear signal is already gone."
+        },
+        {
+          "ko": "서식·필요: 부서진 정비고 지붕 아래에서 장갑 완충재와 다리 유압유를 쓴다. 도킹 전지가 줄면 꼬리를 접고 정지 방벽으로 남는다.",
+          "en": "Habitat and needs: Beneath broken maintenance-shed roofs, it uses armor cushioning and hydraulic fluid for its legs. When docking-battery power runs low, it folds its tail and remains as a stationary barrier."
+        },
+        {
+          "ko": "생애·정비: 등판마다 받은 충격 횟수를 저장해 충격 횟수가 한계에 가장 가까운 판을 안쪽으로 돌린다. 새 판 공급이 끊기면 방호 면적도 줄어든다.",
+          "en": "Life cycle and maintenance: It stores the number of impacts each back plate has taken and rotates the plate closest to its limit inward. If supplies of new plates stop, the area it can protect shrinks too."
+        },
+        {
+          "ko": "행동·위계: 장익 감시기의 위험 표시에 따라 사람의 앞에 몸을 댄다. 허위 균열 표시에는 멀쩡한 출입문을 덮어 가두는 결과가 난다.",
+          "en": "Behavior and hierarchy: Trusting the long-wing monitor’s hazard markings, it puts itself in front of people. A false crack marking can cause it to cover and block a perfectly sound doorway."
+        },
+        {
+          "ko": "상승: 1단계는 빈 지붕 아래 방패 전개다. 2단계 구조열이 우회하고 3단계에는 인접 방호체의 등판이 맞물려 작업선이 봉쇄된다.",
+          "en": "Escalation: Stage 1 is deploying its shield beneath an empty roof. At stage 2, rescue columns take detours; at stage 3, neighboring protective units’ back plates interlock and seal off the work line."
+        },
+        {
+          "ko": "교전·대응: 상부 하중을 독립 지주로 받친 다음 등판 잠금쇠를 한 장씩 푼다. 꼬리를 때려 돌리면 옆 지주가 쓰러질 수 있다.",
+          "en": "Engagement and response: Support the overhead load with independent props, then release the back-plate locks one by one. Striking the tail to turn it may knock over a prop beside it."
+        },
+        {
+          "ko": "교섭·도덕 선택: 실측한 낙하 구간만 보호하도록 합의하면 안전 통로를 얻는다. 회수할 장갑을 주거 지붕과 기계 방패 사이에서 나누는 부담이 생긴다.",
+          "en": "Negotiation and moral choice: Agreeing that it will protect only fall zones confirmed by direct measurement yields a safe passage. This creates the burden of dividing recovered armor between residential roofs and mechanical shields."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E05-title-heading-1",
+      "publicAnchors": [
+        "g26e05",
+        "Hostile-Group-G26-heading-0027"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E05 · 잔발속보룡",
+        "en": "G26E05 · Fleet-Footed Little Raptor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E05-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 기동 특수형",
+          "en": "Former role class: mobile special type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E05-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "기동·우회",
+            "en": "Maneuver · flank"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "잔발속보룡은 G26 공통 생태에서 분화한 기계 기종이다. 기동·우회 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Fleet-Footed Little Raptor was a machine chassis type differentiated from the G26 common ecology. The maneuver · flank role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-5-prose-04093",
+      "items": [
+        {
+          "ko": "역할·신체: 가늘고 긴 정강이가 드러난 소형 수각류형 속도 기체다. 꼬리 균형대와 낮은 배낭 덕분에 선로 사이를 빠르게 달리지만 중량물을 들지는 못한다.",
+          "en": "Role and body: A small, speed-oriented theropod-shaped unit with long, slender shins exposed. Its balancing tail and low pack let it run quickly between rails, but it cannot lift heavy loads."
+        },
+        {
+          "ko": "기원: 붕괴 이전 중장 작업반 사이에서 긴급 부품을 전하던 연락 계열이 광진선 측선 충전대에서 일어났다. 정차할 작업반의 옛 위치가 그대로 남았다.",
+          "en": "Origin: A courier line that carried urgent parts between pre-collapse heavy work crews awoke at a Gwangjin Line siding charging station. The crews’ old stopping locations remained unchanged in its records."
+        },
+        {
+          "ko": "서식·필요: 직선 서비스로와 비어 있는 침목 사이를 선택한다. 발목 완충패드와 고출력 소형 전지가 필요하며 급회전마다 패드 수명이 줄어든다.",
+          "en": "Habitat and needs: It chooses straight service roads and gaps between empty sleepers. It needs ankle cushioning pads and a small high-output battery; every sharp turn shortens the pads’ service life."
+        },
+        {
+          "ko": "생애·정비: 발자국 간격이 벌어지면 속도 제한기로 달리기를 멈춘다. 관절을 갈지 못한 노체는 같은 길을 느리게 걸어 배달한다.",
+          "en": "Life cycle and maintenance: If its stride length increases, a speed limiter stops it from running. An old unit whose joints cannot be replaced makes deliveries by walking the same route slowly."
+        },
+        {
+          "ko": "행동·위계: 견인체의 부품 요청을 운반하지만 긴급도의 이유는 읽지 못한다. 손으로 흔든 천을 옛 정차 깃발로 보고 시민 사이에 급정지한다.",
+          "en": "Behavior and hierarchy: It carries towing units’ parts requests but cannot read why they are urgent. Mistaking cloth waved by hand for an old stopping flag, it brakes abruptly among civilians."
+        },
+        {
+          "ko": "상승: 1단계 질주 소리가 반복되고 2단계에는 횡단자가 피해야 하는 길이 생긴다. 3단계 정차와 재출발이 겹쳐 부품 수송선이 충돌 구간이 된다.",
+          "en": "Escalation: At stage 1, the sound of sprinting recurs; at stage 2, a route forms that people crossing must avoid. At stage 3, overlapping stops and restarts turn the parts-transport line into a collision zone."
+        },
+        {
+          "ko": "교전·대응: 빈 직선로 끝에 정식 정차판을 세워 감속시킨다. 발을 걸어 넘어뜨리는 대응은 배낭 부품을 사람 높이로 날린다.",
+          "en": "Engagement and response: Put an official stop sign at the end of an empty straight track to slow it. Tripping it sends the parts in its pack flying at head height."
+        },
+        {
+          "ko": "교섭·도덕 선택: 배달 시간 창을 사람의 횡단 시간과 분리한다. 가장 빠른 기체를 유력 작업반에만 배정하면 작은 공방의 수리가 계속 늦어진다.",
+          "en": "Negotiation and moral choice: Separate delivery time windows from people’s crossing times. Assigning the fastest unit only to influential work crews leaves small workshops’ repairs perpetually delayed."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E06-title-heading-1",
+      "publicAnchors": [
+        "g26e06",
+        "Hostile-Group-G26-heading-0031"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E06 · 갈고리턱해체룡",
+        "en": "G26E06 · Hook-Jawed Demolition Raptor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E06-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 첫 번째 정예",
+          "en": "Former role class: first elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E06-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "정예 돌파",
+            "en": "Elite breakthrough"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "갈고리턱해체룡은 G26 공통 생태에서 분화한 기계 기종이다. 정예 돌파 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Hook-Jawed Demolition Raptor was a machine chassis type differentiated from the G26 common ecology. The elite breakthrough role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-6-prose-04094",
+      "items": [
+        {
+          "ko": "역할·신체: 큰 수각류형 머리에서 갈고리 집게와 넓은 압착턱이 엇갈려 나온다. 이족 하체를 뒤로 세워 무너진 판재를 뜯어 낮게 내려놓는다.",
+          "en": "Role and body: Hooked clamps and broad crushing jaws project alternately from its large, theropod-shaped head. It braces its bipedal lower body backward to tear away collapsed panels and lower them gently."
+        },
+        {
+          "ko": "기원: 구조물 수리 전 파손 외장을 제거하던 붕괴 이전 해체 계열이다. 강남선 봉인 격납고에서 깨어날 때 철거 범위의 경계 파일은 읽히지 않았다.",
+          "en": "Origin: A pre-collapse demolition line that removed damaged cladding before structural repairs. When it awoke in a sealed Gangnam Line hangar, the boundary file for its demolition area was unreadable."
+        },
+        {
+          "ko": "서식·필요: 넓은 잔해 적재장에 머물며 턱 라이너와 유압 필터를 소비한다. 작은 민가 안까지 추격하기에는 회전 반경이 지나치게 크다.",
+          "en": "Habitat and needs: It stays in broad debris yards and uses jaw liners and hydraulic filters. Its turning radius is far too large to pursue anyone into a small home."
+        },
+        {
+          "ko": "생애·정비: 턱의 두 면이 어긋나면 빈 시험판을 물어 압착 흔적을 검사한다. 마모를 못 고치면 힘은 남아도 판재를 안전하게 놓지 못한다.",
+          "en": "Life cycle and maintenance: If the two jaw faces become misaligned, it bites an empty test panel to inspect the compression marks. If the wear cannot be repaired, it retains its strength but cannot set panels down safely."
+        },
+        {
+          "ko": "행동·위계: 감시기가 표시한 균열 부재만 집지만 페인트 박리를 균열로 오인할 수 있다. 견인체보다 앞서 해체를 시작하는 작업 우선권이 있다.",
+          "en": "Behavior and hierarchy: It grips only members the monitor has marked as cracked, but may mistake peeling paint for a crack. It has work priority to begin demolition ahead of the towing units."
+        },
+        {
+          "ko": "상승: 1단계는 빈 판재를 물었다 놓는 교정이다. 2단계 안전 난간이 해체되고 3단계에는 임시 보강틀까지 철거 목록에 붙는다.",
+          "en": "Escalation: Stage 1 is calibration by gripping and releasing an empty panel. At stage 2, safety railings are demolished; at stage 3, even temporary reinforcing frames are added to the demolition list."
+        },
+        {
+          "ko": "교전·대응: 실제 보강틀을 지지한 후 무부하 시험판으로 턱을 유도한다. 관절 손상으로 압착력을 없애면 물고 있던 부재부터 떨어진다.",
+          "en": "Engagement and response: Support the actual reinforcing frame, then lure its jaws toward an unloaded test panel. Damaging its joints to eliminate its crushing force first drops whatever member it is holding."
+        },
+        {
+          "ko": "교섭·도덕 선택: 철거 경계에 사람의 승인표를 추가해 잔해 처리를 맡길 수 있다. 빨리 길을 내려고 복구 가능한 집까지 잔해로 분류할 유혹을 거부해야 한다.",
+          "en": "Negotiation and moral choice: Add human approval marks to the demolition boundary to entrust it with clearing debris. Resist the temptation to classify repairable homes as rubble just to open a route quickly."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E07-title-heading-1",
+      "publicAnchors": [
+        "g26e07",
+        "Hostile-Group-G26-heading-0035"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E07 · 긴목들보운반체",
+        "en": "G26E07 · Long-Neck Beam Carrier"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E07-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E07-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "일반 전열",
+            "en": "General line"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "긴목들보운반체는 G26 공통 생태에서 분화한 기계 기종이다. 일반 전열 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Long-Neck Beam Carrier was a machine chassis type differentiated from the G26 common ecology. The general line role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-7-prose-04095",
+      "items": [
+        {
+          "ko": "역할·신체: 높은 용각류형 목이 길쭉한 적재 등판 위로 굽는다. 네 기둥 다리와 목 끝의 작은 집게가 긴 보강재의 양끝을 살핀다.",
+          "en": "Role and body: A tall, sauropod-like neck curves over its elongated loading deck. Four pillar-like legs and a small clamp at the end of its neck check both ends of long reinforcing members."
+        },
+        {
+          "ko": "기원: 붕괴 전 교량 수리용 들보를 작업선에 공급하던 운반 플랫폼이 광진선 적치장에서 남았다. 재통전 후 옛 적재 높이부터 맞췄다.",
+          "en": "Origin: A transport platform that supplied beams for pre-collapse bridge repairs to work lines remained in the Gwangjin Line storage yard. After power was restored, it first matched the old loading height."
+        },
+        {
+          "ko": "서식·필요: 회전 공간이 큰 측선과 창고 바깥 마당이 필요하다. 다리 씰, 적재 롤러와 대형 축전통을 쓰며 낮은 천장을 통과하지 못한다.",
+          "en": "Habitat and needs: It needs sidings and open warehouse yards with ample turning space. It uses leg seals, loading rollers, and a large battery canister and cannot pass beneath low ceilings."
+        },
+        {
+          "ko": "생애·정비: 목 관절 하나가 잠기면 검사 가능한 적재 길이를 줄인다. 빈 등판의 롤러를 다른 칸으로 옮겨도 목의 가동 범위는 회복되지 않는다.",
+          "en": "Life cycle and maintenance: If one neck joint locks, it reduces the load length it can inspect. Moving the rollers on an empty deck to another section does not restore the neck’s range of motion."
+        },
+        {
+          "ko": "행동·위계: 삼각 견인수가 끌어온 들보를 받아 운반하고 무게 불균형이면 출발하지 않는다. 사람이 매달린 부재도 저울에서는 자재와 합산된다.",
+          "en": "Behavior and hierarchy: It receives and carries beams brought in by the triangular-yoke towing beast and will not depart if their weight is unbalanced. A person hanging from a member is counted with the materials on its scale."
+        },
+        {
+          "ko": "상승: 1단계 장시간의 적재 수평 맞춤이 2단계 출고 지연으로 이어진다. 3단계 긴 몸통이 측선 분기를 덮으면 구조차가 돌아 나가지 못한다.",
+          "en": "Escalation: At stage 1, prolonged leveling of the load leads to delayed dispatch at stage 2. At stage 3, its long body covers a siding junction, preventing rescue vehicles from turning back out."
+        },
+        {
+          "ko": "교전·대응: 등판의 부재를 양쪽 임시 지주에 나눠 내려 저울을 비운다. 목을 잘라 낮추는 대응은 높은 집게를 통로에 떨어뜨린다.",
+          "en": "Engagement and response: Lower the members on its deck onto temporary props on both sides to clear the scale. Cutting the neck to lower it drops the elevated clamp into the passage."
+        },
+        {
+          "ko": "교섭·도덕 선택: 운반 순번과 하중 검사 노동을 보장하면 긴 부재를 옮길 수 있다. 어떤 교량을 먼저 수리할지는 장비의 옛 배송표가 아니라 통행 공동체가 정한다.",
+          "en": "Negotiation and moral choice: Guaranteeing a transport schedule and labor for load inspections allows it to move long members. The communities that use the routes, not the equipment’s old delivery schedule, decide which bridge to repair first."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E08-title-heading-1",
+      "publicAnchors": [
+        "g26e08",
+        "Hostile-Group-G26-heading-0039"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E08 · 능선익룡망보기",
+        "en": "G26E08 · Ridgeline Pterosaur Lookout"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 수호자",
+          "en": "Former role class: guardian"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "방호·엄호",
+            "en": "Protection · cover"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "능선익룡망보기는 G26 공통 생태에서 분화한 기계 기종이다. 방호·엄호 역할은 무리 편성 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Ridgeline Pterosaur Lookout was a machine chassis type differentiated from the G26 common ecology. The protection · cover role applied only at the swarm-consist scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-8-prose-04096",
+      "items": [
+        {
+          "ko": "역할·신체: 짧은 익룡형 머리와 접힌 관측 날개가 높은 철골에 걸린다. 비행보다 착지 상태의 장시간 감시를 맡는 지역 수호자다.",
+          "en": "Role and body: A short pterosaur-like head and folded observation wings perch on high steelwork. It is a local guardian tasked with long periods of monitoring while perched rather than flying."
+        },
+        {
+          "ko": "기원: 강남선 정비고 외벽의 풍하중 경보 장비가 구조 계열과 함께 봉인되었다. 옛 풍향 기준만 남은 채 재가동해 새 가림벽의 영향을 모른다.",
+          "en": "Origin: Wind-load warning equipment on the outer wall of a Gangnam Line maintenance shed was sealed along with the rescue units. It restarted with only its old wind-direction reference and does not account for the effect of new screening walls."
+        },
+        {
+          "ko": "서식·필요: 노출 철골과 바람받이 지붕 끝에서 광학창과 발톱 절연패드를 소비한다. 젖은 접점에서는 유선 충전을 중단한다.",
+          "en": "Habitat and needs: On exposed steelwork and windward roof edges, it uses optical windows and insulating pads on its claws. It stops wired charging when the contacts are wet."
+        },
+        {
+          "ko": "생애·정비: 고정 발톱의 힘을 차례로 시험하며 하나가 미끄러지면 낮은 보로 이동한다. 세 발톱이 모두 닳으면 날개를 편 채 바닥 정비를 기다린다.",
+          "en": "Life cycle and maintenance: It tests the grip of its anchoring claws in turn and moves to a lower beam if one slips. When all three claws are worn down, it waits on the ground for maintenance with its wings spread."
+        },
+        {
+          "ko": "행동·위계: 바람과 벽체 흔들림을 장익 측량체에 보낸다. 사람의 빨래줄이 센서 앞을 지나면 외벽 전체가 흔들린다고 보고한다.",
+          "en": "Behavior and hierarchy: It sends wind and wall-vibration readings to the long-wing survey unit. If a person’s clothesline passes in front of its sensor, it reports that the entire outer wall is shaking."
+        },
+        {
+          "ko": "상승: 1단계는 바람 없는 날의 경보 깜빡임이다. 2단계 잘못된 풍하중 경보로 인양이 중단되고 3단계에는 지붕 접근 허가가 계속 보류된다.",
+          "en": "Escalation: Stage 1 is a warning light blinking on a windless day. At stage 2, a false wind-load warning halts lifting operations; at stage 3, permission to access the roof remains on hold."
+        },
+        {
+          "ko": "교전·대응: 가림벽 바깥에 독립 풍향계를 달아 기준을 비교한다. 철골에서 떼기 전 추락 방지줄을 걸어야 아래 작업자가 다치지 않는다.",
+          "en": "Engagement and response: Install an independent wind vane outside the screening wall to compare reference readings. Attach a fall-arrest line before removing it from the steelwork so workers below are not hurt."
+        },
+        {
+          "ko": "교섭·도덕 선택: 관측 범위를 공개하는 대신 안전한 충전 접점을 제공한다. 주민의 지붕 활동을 전부 작업 방해로 보고하는 권한까지 주지는 않는다.",
+          "en": "Negotiation and moral choice: Provide safe charging contacts in exchange for disclosure of its observation range. Do not also give it authority to report all residents’ roof activities as interference with work."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E09-title-heading-1",
+      "publicAnchors": [
+        "g26e09",
+        "Hostile-Group-G26-heading-0043"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E09 · 깃판틈새새",
+        "en": "G26E09 · Plate-Crest Gap Bird"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E09-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 첨병",
+          "en": "Former role class: vanguard"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E09-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "정찰·선도",
+            "en": "Reconnaissance · pathfinding"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "깃판틈새새는 G26 공통 생태에서 분화한 기계 기종이다. 정찰·선도 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Fin-Panel Gap Bird was a machine chassis type differentiated from the G26 common ecology. The reconnaissance · pathfinding role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-9-prose-04097",
+      "items": [
+        {
+          "ko": "역할·신체: 겹친 깃판이 작은 조류형 날개를 이루며 두 발 끝에 케이블 고리가 달려 있다. 고대 조류를 본뜬 경량 첨병으로 기둥 사이에 가는 점검선을 건다.",
+          "en": "Role and Body: Overlapping feather-plates form small bird-like wings, with cable loops at the tips of both feet. It is a lightweight scout modeled on ancient birds that strings thin inspection lines between pillars."
+        },
+        {
+          "ko": "기원: 기지 상부의 통신 단절을 잇던 붕괴 이전 선단 운반체다. 광진선 부품 상자 안에서 충전되자 이미 사라진 소켓을 찾아 날아올랐다.",
+          "en": "Origin: It is a pre-collapse fleet carrier that bridged communication gaps above the base. Once charged inside a Gwangjin Line parts crate, it flew off in search of sockets that had already vanished."
+        },
+        {
+          "ko": "서식·필요: 짧은 기둥 간격과 정비 보 상부를 오간다. 가벼운 선재와 날개 힌지, 소형 전지를 필요로 하며 무거운 구조줄을 들지는 못한다.",
+          "en": "Habitat and Needs: It moves between short pillar gaps and the tops of maintenance beams. It requires light wire, wing hinges, and small batteries and cannot lift heavy structural cables."
+        },
+        {
+          "ko": "생애·정비: 날개 끝 깃판을 한 장씩 접어 저항을 검사한다. 파손된 판을 빼면 체공 시간이 짧아져 더 가까운 소켓만 연결한다.",
+          "en": "Life Cycle and Maintenance: It folds the feather-plates at the wingtips one by one to test resistance. Removing a damaged plate shortens its flight time, so it connects only to nearer sockets."
+        },
+        {
+          "ko": "행동·위계: 지상 기체의 통신선을 중계하고 작업 내용에는 간섭하지 않는다. 갈라진 유리의 반사점을 소켓으로 읽으면 선이 창 앞에 매달린다.",
+          "en": "Behavior and Hierarchy: It relays communication lines for ground units and does not interfere with work. If it reads a cracked-glass reflection as a socket, the line hangs in front of the window."
+        },
+        {
+          "ko": "상승: 1단계 허공 소켓 탐색이 2단계에는 보행자의 머리 위 선 늘어짐으로 바뀐다. 3단계 실패한 연결선이 겹쳐 사다리 접근을 막는다.",
+          "en": "Escalation: Stage 1 is aerial socket search; Stage 2 becomes dangling lines above pedestrians’ heads. At Stage 3 the failed connection lines overlap and block ladder access."
+        },
+        {
+          "ko": "교전·대응: 전원 없는 회수 소켓을 가까이 걸어 선재부터 감아들인다. 공중에서 잡아당기면 다른 끝의 점검기가 함께 떨어진다.",
+          "en": "Engagement and Countermeasures: It approaches a powerless recovery socket and winds the wire first. Pulling it from the air brings the inspector at the other end down with it."
+        },
+        {
+          "ko": "교섭·도덕 선택: 연결 한 건마다 두 끝을 사람이 확인하고 선재를 지급한다. 편한 기계 통신을 위해 주민 사다리의 사용 시간을 빼앗는 비용이 남는다.",
+          "en": "Negotiation and Moral Choice: For each connection, people check both ends and supply the wire. The cost of convenient machine communication is the time residents lose on ladders."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario Links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E10-title-heading-1",
+      "publicAnchors": [
+        "g26e10",
+        "Hostile-Group-G26-heading-0047"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E10 · 돌등거북벽",
+        "en": "G26E10 · Stoneback Turtle Wall"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E10-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E10-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "거점 통제",
+            "en": "Strongpoint control"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "돌등거북벽은 G26 공통 생태에서 분화한 기계 기종이다. 거점 통제 역할은 고정된 작업 구역 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Stone-Back Turtle Wall was a machine chassis type differentiated from the G26 common ecology. The strongpoint control role applied only within a fixed work zone, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-10-prose-04098",
+      "items": [
+        {
+          "ko": "역할·신체: 편평한 거북형 장갑 아래 짧은 다리와 펼침 방벽이 숨었다. 정지하면 배판이 바닥에 내려앉아 중장체의 작업 구역을 가르는 문턱이 된다.",
+          "en": "Role and Body: A flat turtle-type armor hides short legs and an expandable barrier beneath it. When stationary, the plastron settles onto the floor and becomes a threshold that divides the heavy-unit work zone."
+        },
+        {
+          "ko": "기원: 붕괴 이전 잔해 흘러내림을 막던 임시 격벽 장비가 강남선 정비선 출입구에 남았다. 방벽 철수 승인 없이 비상 전원이 복구되었다.",
+          "en": "Origin: Temporary bulkhead equipment that once blocked debris flow before the Collapse remained at the Gangnam Line maintenance-ship entrance. Emergency power was restored without bulkhead-withdrawal approval."
+        },
+        {
+          "ko": "서식·필요: 평평한 정비선 입구에 붙어 바닥 씰과 감속 전력을 쓴다. 차체를 들려면 별도 충전이 필요하고 도시의 모든 문과 연결되지는 않는다.",
+          "en": "Habitat and Needs: It clings to flat maintenance-ship entrances and uses floor seals and deceleration power. Lifting the body requires separate charging and it is not connected to every door in the city."
+        },
+        {
+          "ko": "생애·정비: 배판 모서리의 씰이 닳으면 한쪽만 내려 틈을 남긴다. 그 틈을 메울 부품이 없으면 고정 방벽으로 봉인해야 한다.",
+          "en": "Life Cycle and Maintenance: When the plastron edge seal wears, only one side lowers, leaving a gap. Without parts to fill the gap it must be sealed as a permanent barrier."
+        },
+        {
+          "ko": "행동·위계: 해체 작업 표시가 지워져야 몸을 들어 통로를 연다. 철거가 끝나도 외부 표가 남으면 시민의 호소와 무관하게 낮은 문턱을 유지한다.",
+          "en": "Behavior and Hierarchy: The body can only rise and open the passage once the demolition-work marker is erased. Even after demolition ends, if the external marker remains it keeps the low threshold regardless of citizens' appeals."
+        },
+        {
+          "ko": "상승: 1단계 배판 끌림 소리가 먼저 들린다. 2단계 카트 통행이 끊기고 3단계에는 장갑 덮개가 비상 우회문 앞까지 펼쳐진다.",
+          "en": "Escalation: Stage 1 begins with the sound of the plastron being dragged. Stage 2 cuts off cart traffic and at Stage 3 the armored cover extends all the way in front of the emergency bypass door."
+        },
+        {
+          "ko": "교전·대응: 해체 구획을 실측해 종료표를 바꾼 뒤 외부 인양 고리에 잭을 건다. 밑을 파서 쓰러뜨리면 지지하던 잔해가 밀려든다.",
+          "en": "Engagement and Countermeasures: Measure the demolition compartment, change the end marker, then hook a jack to the external lifting ring. Digging underneath to topple it causes the supported debris to surge in."
+        },
+        {
+          "ko": "교섭·도덕 선택: 방벽을 열어 둘 시간과 씰 재고를 교환한다. 안전 격리의 편익과 바깥에 남은 주민의 통행권을 같은 표에서 다룬다.",
+          "en": "Negotiation and Moral Choice: Exchange time the barrier stays open for seal inventory. The same ledger weighs the benefit of safe isolation against the passage rights of residents left outside."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario Links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E11-title-heading-1",
+      "publicAnchors": [
+        "g26e11",
+        "Hostile-Group-G26-heading-0051"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E11 · 마디뱀교량눈",
+        "en": "G26E11 · Segmented Snake Bridge Eye"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E11-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E11-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "전문 지원",
+            "en": "Specialist support"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "마디뱀교량눈은 G26 공통 생태에서 분화한 기계 기종이다. 전문 지원 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Segmented-Snake Bridge Eye was a machine chassis type differentiated from the G26 common ecology. The specialist support role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-11-prose-04099",
+      "items": [
+        {
+          "ko": "역할·신체: 여러 짧은 관절통이 뱀형 몸을 이루며 머리 아래 초음파 탐촉자가 달렸다. 교량의 이음 틈을 기어 다니는 비잠수 구조 검사체다.",
+          "en": "Role and Body: Several short joint segments form a snake-like body with an ultrasonic probe beneath the head. It is a non-submersible structural inspector that crawls along bridge joint gaps."
+        },
+        {
+          "ko": "기원: 광진선 교량 보강 부품과 함께 보관된 붕괴 이전 균열 검사 계열이다. 충전함이 열리자 철거 전 교량 도면을 따라 몸을 폈다.",
+          "en": "Origin: It is a pre-collapse crack-inspection series stored together with Gwangjin Line bridge-reinforcement parts. When the charger opened it unfurled its body along the pre-demolition bridge drawings."
+        },
+        {
+          "ko": "서식·필요: 마른 교량 이음부와 정비 보 측면에서 탐촉 젤, 관절 링과 축전 전력을 소비한다. 물에 잠기면 압력 외피가 없어 돌아 나와야 한다.",
+          "en": "Habitat and Needs: It consumes probe gel, joint rings, and stored power at dry bridge joints and maintenance-beam sides. Without a pressure shell it must withdraw if submerged."
+        },
+        {
+          "ko": "생애·정비: 구동이 약해진 마디를 잠가 옆 마디가 끌도록 한다. 굽힘 반경이 커져 더 이상 좁은 틈을 검사할 수 없는 노체가 생긴다.",
+          "en": "Life Cycle and Maintenance: It locks weakened segments so the next segment can pull it. The bending radius grows until a worn-out body can no longer inspect narrow gaps."
+        },
+        {
+          "ko": "행동·위계: 지상 보행체에 이음부의 불연속만 보고한다. 젤이 마르면 접촉 상실을 큰 균열로 해석해 안전한 다리에 하중 금지를 걸 수 있다.",
+          "en": "Behavior and Hierarchy: It reports only discontinuity at joints to ground walkers. When gel dries it interprets contact loss as a major crack and can impose load restrictions on safe bridges."
+        },
+        {
+          "ko": "상승: 1단계 같은 이음부 재검사가 늘어난다. 2단계 허위 균열 표가 교량 적재를 제한하고 3단계에는 몸이 이음 틈에 끼어 수동 점검도 막는다.",
+          "en": "Escalation: Stage 1 increases re-inspection of the same joint. Stage 2 places false-crack markers that limit bridge loading, and at Stage 3 the body jams in a joint gap and blocks even manual inspection."
+        },
+        {
+          "ko": "교전·대응: 깨끗한 시험 강판과 젤로 접촉 오차를 확인한 뒤 마디별 구동을 풀어 회수한다. 긴 몸을 잡아당기면 교량 케이블에 힘이 실린다.",
+          "en": "Engagement and Countermeasures: Confirm contact error with clean test plates and gel, then release segment drives for recovery. Pulling the long body puts stress on bridge cables."
+        },
+        {
+          "ko": "교섭·도덕 선택: 검사 가능한 구간만 의뢰하고 나머지는 인간 점검으로 남긴다. 읽지 못한 구간을 안전으로 간주해 무거운 수송을 통과시키는 책임은 사람이 진다.",
+          "en": "Negotiation and Moral Choice: Commission only inspectable sections and leave the rest to human inspection. People bear the responsibility of treating unread sections as safe and allowing heavy transport to pass."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario Links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E12-title-heading-1",
+      "publicAnchors": [
+        "g26e12",
+        "Hostile-Group-G26-heading-0055"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E12 · 둔치악어집게",
+        "en": "G26E12 · Sandbar Crocodile Clamp"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E12-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 지역 변종",
+          "en": "Former role class: regional variant"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E12-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "지역 적응",
+            "en": "Local adaptation"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "둔치악어집게는 G26 공통 생태에서 분화한 기계 기종이다. 지역 적응 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Sandbar Crocodile Clamp was a machine chassis type differentiated from the G26 common ecology. The local adaptation role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-12-prose-04100",
+      "items": [
+        {
+          "ko": "역할·신체: 넓적한 악어형 주둥이와 낮은 네발이 수변 잔해에 밀착한다. 입안의 견인 고리는 물가에서 끌어 올린 자재를 고정하며 깊은 잠수 기능은 없다.",
+          "en": "Role and Body: A broad crocodile-shaped snout and four low legs press close to debris at the water's edge. A towing hook inside its mouth secures material lifted from the shore; it cannot dive deep."
+        },
+        {
+          "ko": "기원: 붕괴 전 교량 접근로의 떠밀린 잔해를 치우던 수리 보조체가 광진선 수변 작업장에 남았다. 재시동 후에도 옛 경계 부표 바깥 물건은 무조건 회수물로 읽는다.",
+          "en": "Origin: This repair auxiliary once cleared debris washed onto bridge approaches before the Collapse and remained at a Gwangjin Line waterfront worksite. Even after restarting, it treats anything beyond the old boundary buoy as salvage."
+        },
+        {
+          "ko": "서식·필요: 얕은 둔치와 젖은 경사판에서 방수 패킹과 견인 핀을 쓴다. 축전통 충전은 육상 받침에서만 하고 깊은 물에서는 후진한다.",
+          "en": "Habitat and Needs: It uses waterproof seals and towing pins on shallow banks and wet ramps. It charges its storage battery only at an onshore stand and backs away from deep water."
+        },
+        {
+          "ko": "생애·정비: 주둥이 배수구를 열어 고인 물을 빼며 패킹 누수가 커지면 둔치 바깥 출동을 막는다. 새 방수 외피를 스스로 만들지 못한다.",
+          "en": "Life Cycle and Maintenance: It opens a drain in its snout to release trapped water; worsening seal leaks prevent sorties beyond the bank. It cannot make a new waterproof shell itself."
+        },
+        {
+          "ko": "행동·위계: 중장 견인반에 회수 고리 위치를 알린다. 임시 나룻배에 단 고리를 잔해 표시로 혼동해 사람을 태운 배를 붙잡을 수 있다.",
+          "en": "Behavior and Hierarchy: It reports salvage-hook positions to the heavy towing crew. It may mistake a hook on a temporary ferry for a debris marker and seize a boat carrying people."
+        },
+        {
+          "ko": "상승: 1단계 빈 부표를 물고 되돌아온다. 2단계 나룻배 출발이 늦어지고 3단계에는 연결된 밧줄이 둔치 접안을 봉쇄한다.",
+          "en": "Escalation: At Stage 1 it returns holding an empty buoy. At Stage 2 ferry departures are delayed, and at Stage 3 connected ropes block boats from landing on the bank."
+        },
+        {
+          "ko": "교전·대응: 배를 다른 고정점에 먼저 묶고 주둥이의 하중을 비운 뒤 회수 핀을 빼낸다. 수중으로 밀어 넣으면 전지 누출과 항로 장애만 남긴다.",
+          "en": "Engagement and Countermeasures: First tie the boat to another fixed point, unload the snout, and remove the salvage pin. Pushing the unit underwater would only leave a leaking battery and an obstruction in the channel."
+        },
+        {
+          "ko": "교섭·도덕 선택: 실물 경계 부표를 새 위치에 등록해 잔해 회수를 맡긴다. 깨끗한 접안을 얻는 대신 기체가 모은 떠내려온 물건의 주인을 확인해야 한다.",
+          "en": "Negotiation and Moral Choice: Register a physical boundary buoy at its new position and assign the unit to salvage debris. In return for a clear landing, people must identify the owners of the objects it has recovered from the current."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario Links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E13-title-heading-1",
+      "publicAnchors": [
+        "g26e13",
+        "Hostile-Group-G26-heading-0059"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E13 · 관문뿔대견인룡",
+        "en": "G26E13 · Gate Horned Great Tow Dragon"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E13-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 두 번째 정예",
+          "en": "Former role class: second elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E13-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "정예 차단",
+            "en": "Elite blocking"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "관문뿔대견인룡은 G26 공통 생태에서 분화한 기계 기종이다. 정예 차단 역할은 독립 개체 범위에 그치며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Gate Horned Great Tow Dragon was a machine chassis type differentiated from the G26 common ecology. The elite blocking role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-13-prose-04101",
+      "items": [
+        {
+          "ko": "역할·신체: 두꺼운 케라톱스형 목 방패 뒤로 쌍 드럼이 솟은 대형 견인 기체다. 머리의 세 고정뿔이 하나의 거대한 보강틀을 분산 지지한다.",
+          "en": "Role and Body: This large towing unit has twin drums rising behind a thick ceratopsian neck shield. Three fixed horns on its head distribute the weight of one enormous reinforcement frame."
+        },
+        {
+          "ko": "기원: 강남선 주정비고 문틀을 옮기던 붕괴 이전 고하중 계열이 봉인 속에서 버텼다. 운반 종료 도면과 실제 받침의 규격이 달라 재기동 후에도 짐을 놓지 못한다.",
+          "en": "Origin: A pre-Collapse heavy-load series that moved door frames at the Gangnam Line's main maintenance depot endured in sealed storage. The delivery-completion drawing does not match the actual support, so even after restarting it cannot release its load."
+        },
+        {
+          "ko": "서식·필요: 큰 회전장과 직선 견인선 없이는 일하지 못한다. 굵은 케이블, 유압 축압기와 별도 충전 창이 필요하다.",
+          "en": "Habitat and Needs: It cannot work without a large turning area and a straight towing route. It needs thick cables, hydraulic accumulators, and a separate charging window."
+        },
+        {
+          "ko": "생애·정비: 쌍 드럼을 서로 반대 방향으로 조금씩 돌려 브레이크를 검사한다. 한쪽이 고장 나면 짐을 임시 지주에 내려놓고 이동을 멈춘다.",
+          "en": "Life Cycle and Maintenance: It tests the brakes by turning its twin drums a little in opposite directions. If one fails, it lowers the load onto temporary props and suspends its departure."
+        },
+        {
+          "ko": "행동·위계: 소형 삼각 견인수가 모은 부재를 최종 위치로 끈다. 받침 규격이 틀리면 옆 건물 기둥을 대체 고정점으로 잡으려 한다.",
+          "en": "Behavior and Hierarchy: It pulls components gathered by smaller triangular towing units into their final position. If the support specification is wrong, it tries to use a neighboring building's column as an alternative anchor."
+        },
+        {
+          "ko": "상승: 1단계 드럼의 짧은 헛당김 뒤 2단계에서 기둥 장력이 변한다. 3단계 대형 보강틀이 들린 채 멈추면 정비고 양쪽 문이 모두 막힌다.",
+          "en": "Escalation: At Stage 1 the drum gives a short empty tug; at Stage 2 the tension on the column changes. At Stage 3, if the large reinforcement frame stops while raised, both doors of the depot are blocked."
+        },
+        {
+          "ko": "교전·대응: 독립 지주로 하중을 나눈 다음 틀의 실제 규격에 맞춘 종료 받침을 댄다. 케이블을 동시에 끊으면 보강틀의 낙하 방향을 통제하지 못한다.",
+          "en": "Engagement and Countermeasures: Distribute the load onto independent props, then set a final support matched to the frame's actual dimensions. Cutting both cables at once would make the direction of the frame's fall uncontrollable."
+        },
+        {
+          "ko": "교섭·도덕 선택: 새 받침 제작과 작업 승인 분담으로 견인을 끝낼 수 있다. 막힌 길을 빨리 열기 위해 다른 건물의 기둥을 희생시키지 않는 대안을 택해야 한다.",
+          "en": "Negotiation and Moral Choice: Fabricating a new support and sharing work approvals can finish the tow. People must choose an alternative to sacrificing another building's column merely to reopen the blocked road quickly."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario Links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E14-title-heading-1",
+      "publicAnchors": [
+        "g26e14",
+        "Hostile-Group-G26-heading-0063"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E14 · 왕턱철거기",
+        "en": "G26E14 · King Jaw Demolition Machine"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E14-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 시나리오 보스",
+          "en": "Former role class: scenario boss"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E14-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "왕턱철거기는 G26 공통 생태에서 분화한 기계 기종이다. 전략 조우 역할은 독립 개체 범위에 그치며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The King Jaw Demolition Machine was a machine chassis type differentiated from the G26 common ecology. The strategic encounter role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-14-prose-04102",
+      "items": [
+        {
+          "ko": "역할·신체: 티라노급 큰 턱이 이족 중장 선체의 절반을 차지한다. 포식 기체라는 별명과 달리 이빨은 고철을 물어 분리하는 교체형 철거 돌기다.",
+          "en": "Role and Body: A Tyrannosaurus-scale jaw takes up half this bipedal heavy hull. Despite its nickname as a predatory machine, its teeth are replaceable demolition prongs that bite into and separate scrap metal."
+        },
+        {
+          "ko": "기원: 붕괴 이전 대형 붕괴물 제거를 맡던 최상위 작업체가 강남선 깊은 봉인고에 남았다. 마지막 긴급 철거 범위는 읽히지만 그 범위를 승인한 조건은 해독되지 않는다.",
+          "en": "Origin: A top-tier work unit that cleared large collapsed structures before the Collapse remained in a deep sealed store on the Gangnam Line. Its final emergency demolition zone can be read, but the conditions under which that zone was approved cannot be decoded."
+        },
+        {
+          "ko": "서식·필요: 전용 인양 받침과 넓은 철거장이 활동 한계다. 턱 돌기, 냉각 필터와 대형 축전 묶음 없이는 한 번의 중량 작업도 끝내지 못한다.",
+          "en": "Habitat and Needs: Its range of operation is limited to a dedicated lifting stand and a broad demolition yard. Without jaw prongs, cooling filters, and a large bank of stored power, it cannot finish even one heavy job."
+        },
+        {
+          "ko": "생애·정비: 힘을 쓰기 전 몸통을 정비 받침에 걸어 턱과 다리의 하중 분배를 확인한다. 새 선체를 만들 능력은 없고 관절 수명이 다하면 고정 압착기로 내려간다.",
+          "en": "Life Cycle and Maintenance: Before applying force it mounts its body on a maintenance stand to check how the load falls on jaw and legs. It cannot build a new hull; when its joints wear out it is reduced to a stationary press."
+        },
+        {
+          "ko": "행동·위계: 감시기의 위험 구획을 모아 해체 순서를 배정하지만 전체 기지의 소유권은 모른다. 재난 당시의 철거 허가를 지금 주민의 집에도 적용한다.",
+          "en": "Behavior and Hierarchy: It gathers hazard zones reported by sentries and assigns a dismantling order, but it does not know who owns the entire base. It applies a disaster-era demolition permit to homes occupied by residents today."
+        },
+        {
+          "ko": "상승: 1단계 봉인고 안에서 턱 교정음이 난다. 2단계 지원 견인체가 철거선에 모이고 3단계에는 아직 사는 작업동이 최종 제거 순번에 오른다.",
+          "en": "Escalation: At Stage 1 the sound of jaw calibration comes from the sealed store. At Stage 2 support towing units gather at the demolition line; at Stage 3 a workshop that is still inhabited reaches the final removal list."
+        },
+        {
+          "ko": "교전·대응: 구획별 하중표를 검증해 철거 요청을 하나씩 취소하고 턱을 무부하 받침에 묶는다. 무릎만 부수면 거대한 머리가 사람 쪽으로 떨어진다.",
+          "en": "Engagement and Countermeasures: Verify the load chart for each compartment, cancel demolition requests one at a time, and secure the jaw to an unloaded stand. Breaking only its knees would send its enormous head falling toward people."
+        },
+        {
+          "ko": "교섭·도덕 선택: 해독되지 않은 허가를 폐기하고 제한 철거 계약을 맺을 수 있다. 남은 구조 시간을 잃더라도 사람이 있는 건물의 삭제를 기계 판단에 맡기지 않아야 한다.",
+          "en": "Negotiation and Moral Choice: The undeciphered permit can be revoked and replaced with a limited demolition contract. Even if this costs remaining rescue time, the decision to erase an occupied building must not be left to the machine."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario Links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E15-title-heading-1",
+      "publicAnchors": [
+        "g26e15",
+        "Hostile-Group-G26-heading-0067"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E15 · 작은뿔받침떼",
+        "en": "G26E15 · Small Horn Support Herd"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "일반 전열",
+            "en": "General line"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "작은뿔받침떼는 G26 공통 생태에서 분화한 기계 기종이다. 일반 전열 역할은 무리 편성 범위에 그치며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Small-Horn Support Herd was a machine chassis type differentiated from the G26 common ecology. The general line role applied only at the swarm-consist scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-15-prose-04103",
+      "items": [
+        {
+          "ko": "역할·신체: 프로토케라톱스형 작은 차체가 넓은 목판을 서로 기대어 임시 받침을 만든다. 개별 기체는 자재를 뿔 하나의 높이를 넘지 않게 들어 올린다.",
+          "en": "Role and Body: Small Protoceratops-shaped bodies lean broad neck plates against one another to make temporary supports. Each unit lifts material by no more than the height of one horn."
+        },
+        {
+          "ko": "기원: 광진선 보강재 정렬 실습용 소형 군집이 봉인 선반 아래 남았다. 전력이 돌아오자 없어진 교육용 들보의 수평을 다시 맞추기 시작했다.",
+          "en": "Origin: A small training swarm used to align reinforcement materials on the Gwangjin Line remained beneath sealed shelving. When power returned, it began leveling a training beam that was no longer there."
+        },
+        {
+          "ko": "서식·필요: 평탄한 자재장 모서리에서 받침 고무와 짧은 리프트 핀을 소모한다. 전지는 회수함에서 갈아 끼우며 무게를 먹고 성장하는 종은 아니다.",
+          "en": "Habitat and Needs: At the edge of a level material yard it uses up support pads and short lift pins. Its batteries are swapped at a collection box; this is not a species that grows by eating weight."
+        },
+        {
+          "ko": "생애·정비: 핀 높이가 안 맞는 개체는 무리 바깥으로 빠져 교정을 기다린다. 돌아오지 못한 수만큼 받칠 수 있는 들보 길이가 짧아진다.",
+          "en": "Life Cycle and Maintenance: Units with pins at the wrong height leave the group and wait for calibration. Each one that cannot return shortens the span of beam the group can support."
+        },
+        {
+          "ko": "행동·위계: 대형 견인룡이 놓은 부재 아래 배열된다. 같은 높이의 시민 발판도 자재로 읽으면 사람 발밑을 동시에 들어 올린다.",
+          "en": "Behavior and Hierarchy: They line up beneath components set down by the large towing unit. If they mistake a resident's platform of the same height for material, they lift it from beneath people's feet all at once."
+        },
+        {
+          "ko": "상승: 1단계에는 바닥 받침이 재배열된다. 2단계 보행 발판이 기울고 3단계 군집이 대피 계단 아래 모이면 계단 전체의 하중이 불안정해진다.",
+          "en": "Escalation: At Stage 1 the floor supports rearrange. At Stage 2 a walking platform tilts; at Stage 3 the swarm gathers beneath an evacuation stair and destabilizes the load on the entire staircase."
+        },
+        {
+          "ko": "교전·대응: 옆에 실물 교정 들보를 놓고 낮은 핀부터 옮겨 받침 수를 줄인다. 무리 중앙부터 치우면 남은 개체가 짐을 받지 못한다.",
+          "en": "Engagement and Countermeasures: Set an actual calibration beam beside them and move the lowest pins first to reduce the number of supports. Removing units from the middle first leaves the others unable to carry the load."
+        },
+        {
+          "ko": "교섭·도덕 선택: 임시 교량 조립을 맡기되 정격과 개체 수를 공개한다. 부족한 받침을 주민의 생활 발판에서 빼내 오는 지름길에는 주거 안전 비용이 따른다.",
+          "en": "Negotiation and Moral Choice: Assign them to assemble a temporary bridge, but disclose their rated capacity and unit count. The shortcut of taking missing supports from residents' everyday platforms comes at a cost to housing safety."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario Links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26E16-title-heading-1",
+      "publicAnchors": [
+        "g26e16",
+        "Hostile-Group-G26-heading-0071"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26E16 · 먼날개귀환자",
+        "en": "G26E16 · Distant Wing Returner"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G26-generated-G26E16-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M041",
+          "en": "Source batch: M041"
+        },
+        {
+          "ko": "기존 역할군: 지역 변종",
+          "en": "Former role class: regional variant"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G26-SC1\",\"G26-SC2\",\"G26-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G26-generated-G26E16-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "지역 적응",
+            "en": "Local adaptation"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "먼날개귀환자는 G26 공통 생태에서 분화한 기계 기종이다. 지역 적응 역할은 무리 편성 범위에 그치며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Far-Wing Returner was a machine chassis type differentiated from the G26 common ecology. The local adaptation role applied only at the swarm-consist scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M041-entries-16-prose-04104",
+      "items": [
+        {
+          "ko": "역할·신체: 프테라노돈형 긴 부리와 좁은 고정익이 장거리 정찰용 선체를 이룬다. 날개 아래 추진기로 이륙하고 순항 중 활공을 섞어 전지를 아낀다.",
+          "en": "Role and Body: A long Pteranodon-like beak and narrow fixed wings form a hull for long-range reconnaissance. It takes off using thrusters beneath its wings and mixes gliding into its cruise to conserve battery power."
+        },
+        {
+          "ko": "기원: 기지 사이 보강재 수송 경로를 확인하던 붕괴 이전 외곽 측량기다. 광진선 발사 받침이 살아나자 통행 불능이 된 옛 경유지부터 찾았다.",
+          "en": "Origin: This pre-Collapse outlying survey craft checked routes for transporting reinforcement materials between bases. When the Gwangjin Line launch stand came back to life, it first sought old waypoints that had become impassable."
+        },
+        {
+          "ko": "서식·필요: 광진선과 강남선 사이 열린 상공을 왕복하되 남은 전력이 복귀 하한에 닿으면 돌아간다. 날개 막, 추진축과 거리계 세척재가 필수다.",
+          "en": "Habitat and Needs: It crosses the open sky between the Gwangjin and Gangnam Lines, returning when its remaining power reaches the minimum needed to get back. Wing membranes, propulsion shafts, and rangefinder-cleaning supplies are essential."
+        },
+        {
+          "ko": "생애·정비: 먼 비행 뒤에는 날개 뿌리 균열을 받침의 시험 진동으로 찾는다. 누적 피로가 커지면 먼 경유지를 지워 지역 정찰로 내려온다.",
+          "en": "Life Cycle and Maintenance: After a long flight, test vibrations on the stand reveal cracks at the wing roots. As fatigue accumulates, it drops distant waypoints and falls back to local reconnaissance."
+        },
+        {
+          "ko": "행동·위계: 노선의 큰 장애물을 보고할 뿐 집 안 사람이나 가려진 길을 보지 못한다. 낮은 구름의 명암이 옛 교량 윤곽과 겹치면 허위 통과 보고를 보낸다.",
+          "en": "Behavior and Hierarchy: It reports major obstacles along a route but cannot see people indoors or hidden paths. When light and shadow on low clouds overlap the outline of an old bridge, it sends a false report that the route is passable."
+        },
+        {
+          "ko": "상승: 1단계 사라진 경유지 위를 선회한다. 2단계 잘못된 안전 보고가 중장 수송을 막힌 길로 보내고 3단계에는 귀환 받침 점유로 다른 감시체까지 못 뜬다.",
+          "en": "Escalation: At Stage 1 it circles above a vanished waypoint. At Stage 2 a false safety report sends heavy transport down a blocked route; at Stage 3 its occupation of the return stand prevents other sentries from taking off."
+        },
+        {
+          "ko": "교전·대응: 현장 지형 사진과 실물 기준표를 받침에서 대조해 잘못된 경유지를 지운다. 비행 중 신호를 모두 가리면 안전 착륙 자료도 사라진다.",
+          "en": "Engagement and Countermeasures: Compare photographs of the terrain with a physical reference chart at the stand and remove the mistaken waypoint. Blocking every signal in flight would also erase the data needed for a safe landing."
+        },
+        {
+          "ko": "교섭·도덕 선택: 장거리 보고의 불확실성을 표기하는 조건으로 정찰을 의뢰한다. 확인되지 않은 지름길을 안전 노선으로 팔아넘기는 이익을 누가 포기할지 정해야 한다.",
+          "en": "Negotiation and Moral Choice: Commission reconnaissance on condition that uncertainty in long-range reports is marked. Someone must decide who will give up the profit from selling an unverified shortcut as a safe route."
+        },
+        {
+          "ko": "시나리오 연결: G26-SC1, G26-SC2, G26-SC3.",
+          "en": "Scenario Links: G26-SC1, G26-SC2, G26-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G26-generated-G26-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G26-heading-0075"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01796",
+      "text": {
+        "ko": "강남선 창동 차량기지의 죽은 측선이 먼저 울리고, 몇 초 뒤 정비고 안쪽에서 금속 무릎 하나가 천천히 펴진다.",
+        "en": "The dead siding of the Changdong rolling-stock depot on the Gangnam Line rang first, and a few seconds later a metal knee slowly straightened deep inside the maintenance shed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01797",
+      "text": {
+        "ko": "먼지가 무너져 내린 뒤에도 반립 중장기는 곧장 걷지 않는다.",
+        "en": "Even after the dust had fallen away, the semi-upright heavy machine did not walk at once."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01798",
+      "text": {
+        "ko": "발바닥 압력 격자로 바닥을 누르고, 몸 뒤의 균형추를 낮추고 세 번의 저주파 경보로 작업 반경을 선포한다.",
+        "en": "It pressed the floor with its foot-pressure grid, lowered the counterweight behind its body, and proclaimed its working radius with three low-frequency alarms."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01799",
+      "text": {
+        "ko": "그 앞에서는 낮고 넓은 삼각 견인기가 방패판을 비스듬히 세우며, 천장 발사대에 묶였던 장익 고정익 감시기가 짧은 활주를 준비한다.",
+        "en": "In front of it, low, wide triangular tow machines raised their shield plates at a slant, and the long-wing fixed-wing watchers that had been tied to the ceiling launchers prepared for a short takeoff run."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01800",
+      "text": {
+        "ko": "현장 사람들이 화석포효라 부르는 소리는 미완 작업을 알리는 중장비의 경보다.",
+        "en": "The sound workers call the fossil roar is a heavy machine’s alarm for unfinished work."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01801",
+      "text": {
+        "ko": "붕괴 이전 이 계열은 고대 파충류의 자세와 골격을 본뜬 중량 이동 플랫폼이었다.",
+        "en": "Before the collapse this line had been a heavy-transport platform modeled on the posture and skeleton of ancient reptiles."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01802",
+      "text": {
+        "ko": "이족 보행 반립기는 잔해를 넘고, 삼각 기체는 견인과 낙하물 차폐를 맡고 장익기는 위에서 안전한 작업 다각형을 그렸다.",
+        "en": "The bipedal semi-upright machines climbed over debris, the triangular units handled towing and shielding against falling objects, and the long-wing units drew safe work polygons from above."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01803",
+      "text": {
+        "ko": "강남선 창동 차량기지 측선과 광진선 고덕 기지에 완편 상태로 잠든 뒤 세대가 지나 재기동했지만, 후대가 읽을 수 있는 것은 축 하중 표와 경계 신호의 일부뿐이다.",
+        "en": "They went to sleep as complete formations at the Changdong rolling-stock depot siding on the Gangnam Line and the Godeok base on the Gwangjin Line and restarted generations later, but all that later generations could read was part of the axle-load tables and boundary signals."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01804",
+      "text": {
+        "ko": "왜 어떤 벽은 보강하고 어떤 벽은 철거 대상으로 정했는지 설명할 설계 의도는 사라졌다.",
+        "en": "The design intent that would have explained why some walls were marked for reinforcement and others for demolition had vanished."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01805",
+      "text": {
+        "ko": "지금의 행동은 봉인 전 작업 순서가 굳어진 반복 절차다. 당직자는 남은 루틴을 일부만 읽을 수 있어 이 장비를 로스트 기술 계보로 기록한다.",
+        "en": "Its present behavior repeats work sequences fixed before sealing. The watch can read only some remaining routines and records the equipment as a lost-technology lineage."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01806",
+      "text": {
+        "ko": "철공룡은 크지만 전능하지 않다.",
+        "en": "The Iron Dinosaur was large but not all-powerful."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01807",
+      "text": {
+        "ko": "반립기는 하중이 검증된 바닥에서만 힘을 쓰고, 삼각 기체는 회차 폭이 없으면 방패 각도를 바꾸지 못한다.",
+        "en": "The semi-upright machines exerted force only on floors whose loads had been verified, and the triangular units could not change the angle of their shields without turning room."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01808",
+      "text": {
+        "ko": "장익기는 눈과 연기에 약하며 짧은 비행 뒤 견인 발사대로 돌아와야 한다.",
+        "en": "The long-wing units were weak against snow and smoke and had to return to their tow launchers after short flights."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01809",
+      "text": {
+        "ko": "지상 편대는 상공 지도가 없으면 새 구역을 편입하지 않는다.",
+        "en": "The ground formations did not take in new areas without an aerial map."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01810",
+      "text": {
+        "ko": "발바닥 압력과 관절 토크는 구조 진동을 잘 읽지만 천막 안 사람과 빈 방지막을 구분하지 못하고, 정지 차량을 옮겨야 할 보강재로 오인할 수 있다.",
+        "en": "Foot pressure and joint torque read structural vibration well but could not tell a person inside a tent from an empty screen, and could mistake a stopped vehicle for reinforcement to be moved."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01811",
+      "text": {
+        "ko": "F10이 만든 하중 모델도 오래된 지하 배관까지 보지는 못하므로 HC17 기술자가 시험 추를 놓고 실제 처짐을 확인해야 한다.",
+        "en": "Even the load model F10 made could not see as far as old underground piping, so HC17 technicians had to set test weights and confirm the real deflection."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01812",
+      "text": {
+        "ko": "유압유와 온전한 관절이 이 생태의 먹이다.",
+        "en": "Hydraulic oil and intact joints were the food of this ecology."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01813",
+      "text": {
+        "ko": "정비고 견인 전지와 회생 제동 전력이 몸을 일으키지만 겨울 예열만으로도 작업 시간이 크게 줄어든다.",
+        "en": "The maintenance shed's traction batteries and regenerative braking power raised the bodies, but winter preheating alone cut working hours sharply."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01814",
+      "text": {
+        "ko": "무릎 베어링 하나가 갈리면 반립기 전체가 기준체 자격을 잃고, 견인 케이블이 닳으면 삼각 기체는 방패로만 남는다.",
+        "en": "When a single knee bearing wore out, the whole semi-upright machine lost its standing as the reference body, and when the tow cables wore down, the triangular units remained only as shields."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01815",
+      "text": {
+        "ko": "멎은 둘을 합쳐 하나를 살릴 수는 있어도 더 강한 동력핵은 만들지 못한다.",
+        "en": "Two stopped units could be combined to revive one, but no stronger power core could be made."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01816",
+      "text": {
+        "ko": "HC17이 레일 강재와 연료를 제공하면 중량 호송로가 열리지만, 같은 자원은 시민 열차와 광진선 급수 설비의 수리에도 필요하다.",
+        "en": "When HC17 supplied rail steel and fuel, the heavy convoy route opened, but the same resources were needed to repair civilian trains and the water-supply equipment of the Gwangjin Line."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01817",
+      "text": {
+        "ko": "편대를 보존하려면 매 작업마다 유압유와 바닥 검증 비용을 치러야 한다.",
+        "en": "Preserving the detachment requires hydraulic fluid and floor-verification work for every job."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01818",
+      "text": {
+        "ko": "생애의 시작은 유압 충전과 한 차례 상공 측량이다.",
+        "en": "Its life began with a hydraulic charge and a single aerial survey."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01819",
+      "text": {
+        "ko": "장익기가 다각형을 그리면 삼각 견인기가 퇴로를 만들고 반립기가 마지막에 진입하면서 활동권이 확산된다.",
+        "en": "When the long-wing units drew a polygon, the triangular tow machines made a line of retreat, and the semi-upright machine entered last as the range of activity spread."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01820",
+      "text": {
+        "ko": "지도와 압력값이 어긋나면 편대는 같은 잔해를 밀었다 되돌리며 정체한다.",
+        "en": "When the map and the pressure values disagreed, the formation stalled, pushing the same debris and pulling it back."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01821",
+      "text": {
+        "ko": "그 순간 실제 하중표와 경계 말뚝을 제시하면 협상 가능한 작업군으로 낮출 수 있다.",
+        "en": "At that moment, presenting the real load table and boundary stakes could bring it down to a negotiable work group."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01822",
+      "text": {
+        "ko": "장익기를 회수하고 견인선을 분리한 뒤 무릎을 고정하고 동력핵을 냉각하는 순서로 편대를 해체한다.",
+        "en": "The detachment is dismantled by recovering long-winged craft, detaching tow lines, locking knees and cooling the power core, in that order."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01823",
+      "text": {
+        "ko": "이 순서를 지키면 방패판과 견인 능력을 시민 기반시설에 남길 여지가 있다.",
+        "en": "Keeping to this order left room to leave the shield plates and towing capacity to civilian infrastructure."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01824",
+      "publicAnchors": [
+        "Hostile-Group-G26-heading-0104"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26-SC1 · 측선의 세 번째 발구름",
+        "en": "G26-SC1 · The Third Stamp on the Siding"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01825",
+      "text": {
+        "ko": "강남선 정비고에서 깨어난 기준체가 세 번째로 발을 구르자 오래된 측선 아래 공동이 흔들린다.",
+        "en": "When the reference body that woke in the Gangnam Line maintenance shed stamped its foot a third time, the cavity beneath the old siding shook."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01826",
+      "text": {
+        "ko": "HC17은 기체를 북부 화차 견인에 즉시 쓰려 하지만 F10의 지도에는 발 한쪽 아래만 비정상 처짐이 나타난다.",
+        "en": "HC17 wanted to use the units at once for towing freight cars in the north, but F10's map showed abnormal deflection under only one foot."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01827",
+      "text": {
+        "ko": "현장 인원은 시험 추를 여러 위치에 놓아 기준체를 안전한 레일로 유도하거나, 하중 분산판을 깔아 제자리에서 무릎을 고정하거나 위험을 감수하고 짧은 견인을 명령할 수 있다.",
+        "en": "The people on site could set test weights at several positions to lead the reference body onto a safe rail, lay load-spreading plates to lock its knees in place, or accept the risk and order a short tow."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01828",
+      "text": {
+        "ko": "조사를 택하면 XT04발 연료 화차가 지연되고, 성급한 운용은 측선과 봉인고를 함께 가라앉힐 수 있다.",
+        "en": "Choosing to investigate delayed the fuel wagons from XT04, and hasty operation could sink the siding and the sealed vault together."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01829",
+      "publicAnchors": [
+        "Hostile-Group-G26-heading-0109"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26-SC2 · 방패가 끌어낸 배관",
+        "en": "G26-SC2 · The Pipe the Shields Dragged Out"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01830",
+      "text": {
+        "ko": "광진선 고덕 기지에서 삼각 견인기들이 붕괴 차단벽을 치우다가 급수 배관 보호대를 폐보강재로 판정한다.",
+        "en": "At the Godeok base of the Gwangjin Line, triangular tow machines clearing a collapsed barrier wall judged the guard of a water-supply pipe to be waste reinforcement."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01831",
+      "text": {
+        "ko": "동부 호송로는 넓어지지만 방패 뒤 배관의 진동이 커지고, 반립기는 장익기가 그린 옛 작업 경계 안으로 진입하려 한다.",
+        "en": "The eastern convoy route widened, but the vibration of the pipe behind the shields grew, and the semi-upright machine tried to enter within the old work boundary drawn by the long-wing units."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01832",
+      "text": {
+        "ko": "현장 인원은 새 경계 말뚝을 세워 차단벽만 분할 견인하거나, 호송을 하루 멈추고 배관 지지대를 먼저 만들거나 급수 손실을 감수해 한 번에 길을 열 수 있다.",
+        "en": "The people on site could set new boundary stakes and tow only the barrier wall in sections, halt the convoy for a day and build pipe supports first, or accept the water-supply loss and open the way in one go."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01833",
+      "text": {
+        "ko": "HC17의 보급 약속과 광진선의 물 공급이 같은 견인선 양끝에 걸리며 어느 쪽의 지연도 다른 국가에 비용을 넘긴다.",
+        "en": "HC17's supply promise and the Gwangjin Line's water supply hung on the two ends of the same tow line, and a delay on either side passed its cost to another state."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01834",
+      "publicAnchors": [
+        "Hostile-Group-G26-heading-0114"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G26-SC3 · 포효벽 안의 냉각핵",
+        "en": "G26-SC3 · The Cooling Core Inside the Roar Wall"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01835",
+      "text": {
+        "ko": "눈보라로 장익 감시기가 귀환하지 못하자 강남선 측선과 광진선 기지의 편대가 서로 다른 안전 다각형을 유지한다.",
+        "en": "When the long-wing watchers could not return in a blizzard, the formations of the Gangnam Line siding and the Gwangjin Line base each held a different safety polygon."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01836",
+      "text": {
+        "ko": "삼각 기체는 입구를 연속 방패벽으로 막고 반립 기준체는 과열된 동력핵을 지키며 뒤에서 버틴다.",
+        "en": "The triangular units blocked the entrance with a continuous shield wall, and the semi-upright reference body held out behind them, guarding its overheated power core."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01837",
+      "text": {
+        "ko": "현장 인원은 착륙 표식으로 감시기를 회수해 지도를 일치시키거나, 방패마다 무부하 풀리를 걸어 장력을 순서대로 빼거나 외부 냉각관을 연결한 뒤 기준체의 무릎을 고정해야 한다.",
+        "en": "The people on site had to recover the watchers with landing markers and reconcile the maps, hang no-load pulleys on each shield and release the tension in order, or connect external cooling pipes and then lock the reference body's knees."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01838",
+      "text": {
+        "ko": "핵을 폭파하면 가장 빨리 통로가 열리지만 연료와 급수 시설까지 충격을 받는다.",
+        "en": "Blowing up the core opened the passage fastest, but the shock reached even the fuel and water-supply facilities."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-26-dossier_prose-01839",
+      "text": {
+        "ko": "편대를 살리면 앞으로 모든 중량 작업에 공개 하중 시험과 공동 감독이 필요하고, 해체하면 즉시 부품을 받는 대신 다음 대형 붕괴물을 사람 손으로 옮겨야 한다.",
+        "en": "The ending that saved the formation required public load tests and joint supervision for every heavy job from then on, and the ending that dismantled it gave parts at once but left the next large piece of collapse debris to be moved by human hands."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The dead siding of the Gangnam Line's Changdong depot hummed first, and a few seconds later a metal knee slowly unfolded from deep inside the maintenance shed. Even after the dust settled, the bipedal heavy walker did not walk straight off. It pressed the floor with the pressure grid of its soles, lowered the counterweight behind its body, and announced its work radius with three low-frequency alarms that sounded like roars.",
+        "ko": "강남선 창동 차량기지의 죽은 측선이 먼저 울리고, 몇 초 뒤 정비고 안쪽에서 금속 무릎 하나가 천천히 펴진다. 먼지가 무너져 내린 뒤에도 반립 중장기는 곧장 걷지 않는다. 발바닥 압력 격자로 바닥을 누르고, 몸 뒤의 균형추를 낮추고 세 번의 저주파 경보로 작업 반경을 선포한다."
+      },
+      "variants": [
+        {
+          "id": "G26E01",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E02",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E03",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E04",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E05",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E06",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E07",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E08",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E09",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E10",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E11",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E12",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E13",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E14",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E15",
+          "source_batch": "M041"
+        },
+        {
+          "id": "G26E16",
+          "source_batch": "M041"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

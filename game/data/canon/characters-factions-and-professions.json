@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "domain": "characters",
+  "id": "DOC:Characters-Factions-and-Professions",
+  "slug": "characters-factions-and-professions",
+  "status": "approved",
+  "categories": [
+    "characters"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "original-fiction",
+    "refs": [
+      "lore/characters/Characters-Factions-and-Professions.md",
+      "https://github.com/islee23520/seoul-dengoku-gdd/blob/ec4d7f983fbe2ac733ce869a20441b21326872eb/canon/locales/ko-KR/art/character-art-direction.json"
+    ]
+  },
+  "provenance": {
+    "original_anchor": "lore/characters/Characters-Factions-and-Professions.md",
+    "original_hash": "ae95a71e0d1b186ad3a89650fb10a6fb8a1915e7b3d72df25a955aabcb5809a3",
+    "history": [
+      "Korean lore/characters/Characters-Factions-and-Professions.md SHA-256 ae95a71e0d1b186ad3a89650fb10a6fb8a1915e7b3d72df25a955aabcb5809a3.",
+      "English SHA-256 200e2e92d8b8618a2b3fccf8a7c4c3fbb34f6bd981f72c2c9643250588a30f33; translated from Korean during the JSON migration (no committed EN existed).",
+      "KO from the sweep-w1 WEB working tree (dirty). EN needs human review.",
+      "2026-10-09 user-authorized remediation of PR #544: retain regional temperature, three environmental levels, occupational protection and individual variation; reconcile clothing with the accepted GDD WW2 silhouette, thinner higher-tier clothing and surface-exposure rules (GDD PR #63). Preserve existing identities, individual outfits and portraits; update the introductory political wording to current three-state canon.",
+      "2026-10-10 user-authorized clothing-rule completion: prioritize actual indoor conditions, retain regional surface references and floor defaults, allow cold-air exceptions, preserve occupational and personal variety, and apply outdoor protection to every character. This updates common authoring rules, not individual cards, portraits or implemented movement mechanics."
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Characters, Factions, and Trades",
+      "summary": "People, their trades, and clothing suited to winter exposure and station depth.",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "인물·세력·생업",
+      "summary": "생업과 지상 노출도, 역사의 깊이에 따라 달라지는 사람들의 옷차림.",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "인물세력생업",
+      "depth": 1,
+      "text": {
+        "ko": "인물·세력·생업",
+        "en": "Characters, Factions, and Trades"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "인물",
+      "depth": 2,
+      "text": {
+        "ko": "인물",
+        "en": "Characters"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "인물-p1",
+      "text": {
+        "ko": "2126년 개막에는 세 국가와 봉신이 영토를 보유하며 각자의 장부와 시설을 관리한다.",
+        "en": "At the opening in 2126, the three states and their vassals hold land and maintain their own registers and facilities."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "생업",
+      "depth": 2,
+      "text": {
+        "ko": "생업",
+        "en": "Trades"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "생업-p1",
+      "text": {
+        "ko": "정수장·차량기지·병원·공방·교구에서는 서로 다른 직능의 사람이 당직을 맡았다.",
+        "en": "People with different trades kept duty shifts at water-treatment plants, depots, hospitals, workshops, and parishes."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "깊이와-생업에-따른-옷차림",
+      "depth": 2,
+      "text": {
+        "ko": "깊이와 생업에 따른 옷차림",
+        "en": "Clothing by Depth and Trade"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "겨울-복식의-기본형",
+      "text": {
+        "ko": "옷의 기본 형태는 제2차 세계대전 시기인 1940년대 복장을 따른다. 티어가 높은 인물일수록 얇게 입으며, 지상에 자주 나가거나 추위에 오래 노출되는 사람일수록 두꺼운 겨울옷을 갖춘다. 가벼운 차림으로 지하에 머물던 사람도 지상 야외로 나갈 때에는 서울 지상의 노출과 추위에 맞는 외투를 입는다.",
+        "en": "Clothing follows the basic silhouettes of the 1940s, during the Second World War. Higher-tier characters wear thinner clothing, while people who go above ground often or spend longer exposed to cold wear thicker winter clothes. Someone dressed lightly underground still puts on outerwear suited to the cold and exposure on Seoul’s surface before going outdoors."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "옷차림을-가르는-순서",
+      "text": {
+        "ko": "사람들의 옷차림은 지상, 중간 깊이 지하, 깊은 지하의 생활 환경을 바탕으로 달라진다. 난방으로 따뜻해진 방과 찬 공기가 드는 통로에서는 같은 층에 있어도 입는 겹이 다르며, 실제로 머무는 공간의 기온에 맞춰 보온을 조절한다. 같은 기온에서는 활동량과 작업 환경, 개인이 추위를 느끼는 정도가 차이를 만든다. 옷의 형태와 주머니·장구 배치는 생업을 드러내고, 두께와 소재, 덧입는 겹이 주변 온도에 맞춰 바뀐다. 서울의 지상 노출과 난방 공간의 차이는 옷차림의 보온 겹에 드러난다.",
+        "en": "Clothing varies with life on the surface, at intermediate depth, or deep underground. A heated room and a draughty passage can call for different layers on the same floor; insulation follows the temperature of the space a person actually occupies. At the same temperature, activity, working conditions, and individual sensitivity to cold create further differences. Garment cuts, pockets, and equipment reflect trades, while thickness, fabric, and removable layers adapt to the surroundings. Differences between exposed surface routes and heated spaces in Seoul show in the layers people wear."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "생업과-소속에-따른-차이",
+      "text": {
+        "ko": "같은 생업의 사람들도 소속 조직과 작위령, 개인의 취향에 따라 서로 다른 옷을 입는다. 전령에게 필요한 움직임과 수납 기능이 같아도 재킷의 재단과 색, 주머니 배치까지 같지는 않다. 서울의 노출 통로와 난방 공간에서 보온 차이를 비교할 때 같은 형태의 옷을 예로 들 수 있지만, 실제 사람들의 옷차림은 생업만으로 하나가 되지 않는다.",
+        "en": "People in the same trade dress differently according to their organization, titled domain, and personal taste. Couriers share a need for mobility and storage without sharing every jacket cut, colour, or pocket arrangement. The same garment may illustrate differences in insulation between exposed passages and heated spaces in Seoul, but a shared trade does not give everyone an identical outfit."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "지상의-복장",
+      "depth": 3,
+      "text": {
+        "ko": "지상 생활권",
+        "en": "Surface Quarters"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "지상-이동과-정지",
+      "text": {
+        "ko": "전 세계의 영원한 겨울 속 서울 지상에서는 방한복을 갖춘다. 2021년 1월 8일 서울 관측소의 일최저 −18.6℃는 방한 설계의 과거 참고값이지 현재 모든 지상의 실측 기온이 아니다. 전령과 운반자는 익숙한 작업 재킷의 형태를 유지하면서 바람을 막는 겉감과 보온 내피를 더하고, 장갑과 목을 감싸는 옷으로 노출을 줄인다. 밖에서 오래 서 있는 경비와 매대 상인은 움직이는 사람보다 보온 겹을 더하며, 운반자도 짐을 내려놓고 쉴 때에는 풀어 두었던 옷깃과 여밈을 닫는다.",
+        "en": "Under the worldwide perpetual winter, people on Seoul’s surface wear cold-weather clothing. The −18.6°C daily minimum recorded at the Seoul station on January 8, 2021 is a historical design reference, not a measured temperature for every current outdoor space. Couriers and porters retain the familiar cut of their work jackets while adding wind-resistant fabric and insulating liners, gloves, and neck coverings. Guards standing watch and merchants at outdoor stalls add more insulation than people on the move. Porters close loosened collars and fastenings when they set down their loads to rest."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "지역별-전령의-외투",
+      "text": {
+        "ko": "같은 여성 전령도 서울의 바람 맞는 지상으로 나설 때에는 두꺼운 보온 내피로 재킷의 몸통과 소매가 부풀고 옷깃과 소맷단에도 두께가 드러난다. 난방된 실내에서는 같은 재킷의 주머니와 장구 배치를 유지하면서 안감과 덧입는 겹을 줄여 좁은 소매와 유연한 주름을 만든다. 다시 밖으로 나갈 때에는 바람을 막는 겉감과 장갑, 다리를 덮는 보온 겹을 갖춘다. 이 차이는 목도리 같은 소품뿐 아니라 외투 자체의 부피와 소재에 드러난다.",
+        "en": "The same female courier wears a thick insulating liner when she goes onto Seoul’s wind-exposed surface: her jacket fills out at the torso, sleeves, collar, and cuffs. In a heated interior she retains its pocket and equipment layout while reducing lining and removable layers, leaving narrower sleeves and more flexible folds. Before going outdoors again she adds wind-resistant outer fabric, gloves, and insulating leg coverings. The difference shows in the coat’s bulk and material, not just accessories such as a scarf."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "지상-보호복",
+      "text": {
+        "ko": "지상에서 일하는 정비공은 팔과 손을 보호하는 작업복에 방한 안감을 더한다. 물을 다루는 사람은 물이 스미지 않는 앞치마와 장화 안쪽에도 보온 겹을 갖춘다. 작업 도구를 다루는 손의 움직임과 필요한 보호 기능을 살리면서 두께와 소재를 고르며, 남녀 모두 비슷한 수준의 방한을 갖춘다.",
+        "en": "Mechanics working above ground add insulating lining to clothing that protects their arms and hands. People handling water also insulate beneath water-resistant aprons and inside boots. Fabric and thickness preserve the hand movement and protection their work requires, while men and women maintain similar levels of protection from the cold."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "지상의-바람과-노출",
+      "text": {
+        "ko": "지상에서는 기온뿐 아니라 바람을 직접 맞는 정도와 밖에 머무는 시간도 옷차림에 영향을 준다. 바람이 드는 승강장에서는 겉감과 여밈으로 찬 공기를 막고, 바람을 피한 작업장에서는 일하는 동안 쌓이는 열에 맞춰 겹을 조절한다. 서울 안의 두 공간을 비교할 때에는 작은 기온 차이만으로 한쪽의 외투를 크게 부풀리지 않는다.",
+        "en": "On the surface, exposure to wind and time spent outdoors matter as well as air temperature. On draughty platforms, outer fabric and fastenings block cold air; in sheltered workplaces, people adjust layers to the heat generated by their work. A small temperature difference between two spaces in Seoul alone does not produce a dramatic difference in coat bulk."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "중간-깊이의-복장",
+      "depth": 3,
+      "text": {
+        "ko": "중간 깊이의 지하 생활권",
+        "en": "Intermediate Underground Quarters"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "중간-깊이-이동과-정주",
+      "text": {
+        "ko": "중간 깊이 지하는 기본 기온이 8–18℃지만, 서울 지상의 외기가 많이 드는 출입 통로는 8℃ 아래로 내려가기도 한다. 그런 곳도 서울의 노출된 지상보다는 따뜻하며, 사람들은 층 이름보다 머무는 공간의 추위에 맞춰 입는다. 전령과 운반자는 보온 내의 위에 움직임이 편한 작업 재킷을 입고, 더 따뜻한 곳에서 계속 움직일 때에는 덧옷을 벗어 가방에 묶는다. 같은 층에서 오래 앉아 일하는 기록원과 상담 담당자는 울 내의나 조끼·가디건을 더하며, 순찰하던 경비도 한곳에 서서 문을 지킬 때에는 보온 겹을 다시 입는다.",
+        "en": "Intermediate underground quarters have a baseline range of 8–18°C, but entrance passages admitting much outdoor air from Seoul’s surface can fall below 8°C. Even these remain warmer than the exposed surface, and people dress for the space rather than its floor label. Couriers and porters wear work jackets over insulating base layers, removing outer layers and tying them to their bags while moving continuously in warmer areas. Clerks and advisers seated for long periods on the same level add wool base layers, vests, or cardigans; patrolling guards put insulation back on when they stop to stand watch."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "중간-깊이-작업-소재",
+      "text": {
+        "ko": "같은 깊이의 정비공과 공방 노동자는 활동량에 맞춰 안감의 두께를 고르되 긴 보호 소매와 작업 장갑을 유지한다. 의료 담당자는 세탁하기 쉬운 긴소매와 업무에 필요한 보호구를 갖추고, 정수 담당자는 물을 막는 앞치마와 장화 안쪽의 보온을 조절한다. 기온이 같아도 움직임과 물기, 작업 중 닿는 재료가 다르므로 입는 겹과 소재가 달라진다.",
+        "en": "Mechanics and workshop workers at the same depth choose lining thickness for their activity while retaining protective long sleeves and work gloves. Medical workers wear washable long sleeves with the protection their tasks require; water-treatment workers adjust insulation beneath water-resistant aprons and inside boots. At the same air temperature, people still need different layers and fabrics because their movement, exposure to water, and contact with materials differ."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "깊은-지하의-복장",
+      "depth": 3,
+      "text": {
+        "ko": "깊은 지하 생활권",
+        "en": "Deep Underground Quarters"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "깊은-지하-직업별-차이",
+      "text": {
+        "ko": "기본 기온이 18~22℃인 깊은 지하 생활권에서는 활동량이 많은 전령과 운반자가 얇은 셔츠를 입고, 작업에 지장이 없을 때에는 소매를 걷거나 반소매를 고른다. 같은 구역에서 앉아 일하는 기록원이나 추위를 타는 상인은 얇은 긴소매와 가벼운 덧옷을 유지한다. 더 깊이 내려왔다고 모든 사람이 피부를 드러내거나 같은 수의 겹을 입지는 않는다.",
+        "en": "In deep underground quarters with a baseline of 18–22°C, active couriers and porters wear thin shirts, rolling their sleeves or choosing short sleeves when their tasks permit. Seated clerks and merchants sensitive to cold retain thin long sleeves and light outer layers in the same area. Greater depth does not make everyone expose skin or wear the same number of layers."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "깊은-지하-보호와-귀환",
+      "text": {
+        "ko": "깊은 구역에서도 정비공은 손과 팔을 덮는 작업복을 유지하고, 물을 다루는 사람은 앞치마와 장화를 벗지 않는다. 지상 야외로 나갈 사람은 누구나 서울 지상의 노출과 추위에 맞는 방한 외투를 마련해 밖으로 나서기 전에 입는다. 평소 지하에서 일하던 기록원이나 상인에게도 같은 조건이 따른다. 지상층의 실내 입구까지만 다녀오는 사람은 야외용 외투를 무조건 더하지 않고 그곳의 실내 기온에 맞춰 입는다.",
+        "en": "Even in deep areas, mechanics keep clothing that covers their hands and arms, and workers handling water retain their aprons and boots. Anyone going outdoors above ground obtains outerwear suited to the cold and exposure on Seoul’s surface and puts it on before stepping outside. This also applies to clerks and merchants who normally work underground. Someone visiting only an indoor ground-level entrance dresses for its indoor temperature rather than automatically adding an outdoor coat."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "같은-깊이의-개인차",
+      "depth": 3,
+      "text": {
+        "ko": "같은 깊이에서 드러나는 개인차",
+        "en": "Individual Differences at the Same Depth"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "성별보다-앞서는-일과-체감",
+      "text": {
+        "ko": "지하에서는 같은 일을 하는 남성이 여성보다 가볍게 입는 경향이 있으나, 이 차이는 하는 일과 개인의 체감보다 앞서지 않는다. 추위를 타는 남성 기록원은 조끼를 입을 수 있고, 바쁘게 움직이는 여성 전령은 재킷을 벗을 수 있다. 지상에 나서면 남녀 모두 비슷한 수준의 방한복을 갖추며, 지하에서의 가벼운 옷차림을 그대로 이어 가지 않는다.",
+        "en": "Underground, men doing comparable work tend to dress more lightly than women, but that tendency does not override their tasks or individual comfort. A male clerk sensitive to cold may wear a vest, while a busy female courier may remove her jacket. Above ground, both use a comparable level of cold-weather protection rather than keeping their light underground clothing."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "겉옷에-드러나는-차이",
+      "text": {
+        "ko": "보온의 차이는 외투의 부피와 천의 주름, 열려 있는 옷깃이나 소매 끝에서 보이는 안감에 드러난다. 겉으로 드러나지 않는 내피가 사람을 구별하는 표지가 되지는 않는다. 외투를 입거나 벗어도 얼굴과 머리 모양, 체형, 눈에 보이는 고유한 특징은 이어지며, 달라진 옷차림 속에서도 같은 사람의 인상을 남긴다.",
+        "en": "Insulation shows through coat volume, folds, and lining visible at an open collar or sleeve end. Hidden lining does not distinguish one person from another. When a coat is added or removed, the face, hairstyle, physique, and visible distinctive features remain, preserving the impression of the same person across outfits."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "십육국과-핵심-인물",
+      "depth": 2,
+      "text": {
+        "ko": "세 국가와 봉신",
+        "en": "The Three States and Their Vassals"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "출처",
+      "depth": 2,
+      "text": {
+        "ko": "출처",
+        "en": "Sources"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "출처-list1",
+      "items": [
+        {
+          "ko": [
+            {
+              "text": "서울 2021년 관측 일최저와 방한 설계 참고값",
+              "link": {
+                "domain": "places",
+                "slug": "World-and-Subway-Layers",
+                "anchor": "시도별-지상-기온"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Seoul 2021 daily minimum and cold-weather design reference",
+              "link": {
+                "domain": "places",
+                "slug": "World-and-Subway-Layers",
+                "anchor": "시도별-지상-기온"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "역사의 깊이와 겨울 생활 환경",
+              "link": {
+                "domain": "places",
+                "slug": "World-and-Subway-Layers",
+                "anchor": "겨울과-역사의-깊이"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Station depth and winter living conditions",
+              "link": {
+                "domain": "places",
+                "slug": "World-and-Subway-Layers",
+                "anchor": "겨울과-역사의-깊이"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "세력과 외교, 전쟁과 공성 규칙",
+              "link": {
+                "domain": "gdd",
+                "slug": "rules/Rules-FactionsWarfare"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Factions, Diplomacy, War and Siege Rules",
+              "link": {
+                "domain": "gdd",
+                "slug": "rules/Rules-FactionsWarfare"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "회랑 인물 총람",
+              "link": {
+                "domain": "characters",
+                "slug": "Cast-Corridors-Index"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Corridor Cast Index",
+              "link": {
+                "domain": "characters",
+                "slug": "Cast-Corridors-Index"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "서울전국 연표 2030–2126",
+              "link": {
+                "domain": "chronology",
+                "slug": "Century-Annals"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Seoul Subway States Timeline 2030–2126",
+              "link": {
+                "domain": "chronology",
+                "slug": "Century-Annals"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "세 국가와 봉신",
+              "link": {
+                "domain": "factions",
+                "slug": "Sixteen-States"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "The Three States and Their Vassals",
+              "link": {
+                "domain": "factions",
+                "slug": "Sixteen-States"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data": {}
+}
