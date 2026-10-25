@@ -13,6 +13,9 @@ import { parseCampaignCommand, orderCausalEvents } from './commands.ts';
 import type { CommandEvent, CommandState } from './commands.ts';
 import { colocated, communicationSteps, contactReadiness, progressContact } from './commandSchedule.ts';
 import { nodeLocation } from './locations.ts';
+import { prepareS01Effects, nextS01Boundary, advanceS01Effects } from './s01Effects.ts';
+import { requestS01Care, nextS01CareBoundary, advanceS01Care } from './s01Care.ts';
+import { s01VisibleState } from './s01View.ts';
 
 type Order = CampaignState['mandates'][number];
 type Execution = CommandState['executions'][number];
@@ -248,13 +251,14 @@ function advanceContact(input: CampaignState, until: CampaignState['clock']['wor
 }
 
 /** Exact event-time reducer supplied to the existing clock owner; no timer or alternate clock. */
-export function advanceCampaignCommands(input: CampaignState, until: CampaignState['clock']['worldMilliseconds'], content: CampaignContent): CampaignState {
+export function advanceCampaignCommands(input: CampaignState, until: CampaignState['clock']['worldMilliseconds'], content: CampaignContent, physical = false): CampaignState {
   let state = parseCampaignState(input, content);
   const origin = state.clock.worldMilliseconds;
   requireBoundary(until >= origin, 'clock');
   while (state.clock.worldMilliseconds < until) {
+    if (physical) state = prepareS01Effects(state, content);
     const from = state.clock.worldMilliseconds;
-    let nextAt: number = until;
+    let nextAt: number = physical ? nextS01CareBoundary(state, nextS01Boundary(state, until, content), content) : until;
     const active = state.commands.executions.filter(e => e.status !== 'terminal');
     const expires = Math.min(state.clock.closedAt ?? Infinity, content.data.operations.clock.scheduledCloseSeconds * 1000);
     if (active.length && expires > from) nextAt = Math.min(nextAt, expires);
@@ -277,13 +281,14 @@ export function advanceCampaignCommands(input: CampaignState, until: CampaignSta
       phases.set(order.orderId, phases.get(order.orderId) ?? (step.kind === 'walk' ? 1 : 2));
     }
     const at = integer('WorldMilliseconds', nextAt);
-    const events = active.map((execution, index) => ({ id: execution.orderId + ':boundary:' + at, at,
+    const events = active.filter(execution => !physical || execution.status !== 'awaiting-effects' || execution.cancellation !== null || !state.s01.tracks.some(t => t.orderId === execution.orderId && t.status === 'running')).map((execution, index) => ({ id: execution.orderId + ':boundary:' + at, at,
       phase: phases.get(execution.orderId) ?? 2, predecessorId: null, acceptanceSequence: index,
       apply: (current: CampaignState) => advanceContact({ ...current, clock: { ...current.clock, worldMilliseconds: from } }, at, content, execution.orderId),
     }));
     // Frame partitions are integration intervals, not durable physical handler identities.
     // Physical handlers use settleCampaignBoundary; command step receipts are persisted above.
     for (const event of orderCausalEvents(events, state.commands.events.map(e => e.id))) state = event.apply(state);
+    if (physical) state = advanceS01Effects(advanceS01Care(state, at, content), from, at, content);
     state = parseCampaignState({ ...state, clock: { ...state.clock, worldMilliseconds: at } }, content);
   }
   return parseCampaignState({ ...state, revision: input.revision + until - origin }, content);
@@ -295,7 +300,7 @@ export class CampaignApplication {
   readonly #content: CampaignContent;
   constructor(options: Omit<SessionOptions, 'advance'>) {
     this.#content = options.content;
-    this.#session = new CampaignSession({ ...options, advance: (state, until) => advanceCampaignCommands(state, until, options.content) });
+    this.#session = new CampaignSession({ ...options, advance: (state, until) => advanceCampaignCommands(state, until, options.content, true) });
   }
   submit(input: unknown) {
     let receipt: CommandState['receipts'][number] | undefined;
@@ -303,6 +308,8 @@ export class CampaignApplication {
     requireBoundary(receipt !== undefined, 'cross-link');
     return receipt;
   }
+  care(input: unknown): void { this.#session.command(state => requestS01Care(state, input, this.#content)); }
+  settlement(personId: string) { return s01VisibleState(this.#session.state, personId, this.#content); }
   view(personId: string) {
     const state = this.#session.state;
     return Object.freeze({ revision: state.revision, worldMilliseconds: state.clock.worldMilliseconds, speed: state.clock.speed,

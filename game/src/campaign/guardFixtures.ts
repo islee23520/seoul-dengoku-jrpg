@@ -30,7 +30,7 @@ export const received = reportedState(true);
 export const emptyOrder = parseCampaignState({ ...active, facts: [], reports: [] }, content);
 export const reserved = parseCampaignState({ ...emptyOrder,
   mandates: emptyOrder.mandates.map(m => ({ ...m, reservationIds: ['reservation:1'], stage: 'reserved' })),
-  reservations: [{ id: 'reservation:1', orderId: 'order:observation', resource: { kind: 'body', entityId: 'K616' }, from: 1140000, until: 1464000 }],
+  reservations: [{ id: 'reservation:1', orderId: 'order:observation', resource: { kind: 'body', entityId: 'K616' }, from: 1152000, until: 1476000 }],
 }, content);
 export const revisionState = parseCampaignState({ ...emptyOrder, grants: revoke(emptyOrder, 1500000) }, content);
 const revokedGrant = revisionState.grants[0];

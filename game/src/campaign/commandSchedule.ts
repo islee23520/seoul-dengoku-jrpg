@@ -60,6 +60,7 @@ export function contactReadiness(state: CampaignState, order: Order, content: Ca
   let tired = false;
   for (const person of people) {
     const body = state.bodies.find(b => b.entityId === person);
+    requireBoundary(!state.s01.care.some(c => c.entityId === person && c.status === 'running'), 'rejected-conflict');
     requireBoundary(body !== undefined && body.location.kind === 'node', 'body-unavailable');
     requireBoundary(body.regions.every(r => r.effortMilliseconds < o.body.restRequiredAtEffortSeconds * 1000), 'body-unavailable');
     tired ||= body.regions.some(r => r.effortMilliseconds >= o.body.tiredAtEffortSeconds * 1000);

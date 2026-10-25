@@ -1,0 +1,4 @@
+{
+  "extends": "../../game/tsconfig.json",
+  "include": ["s01-physical.ts"]
+}

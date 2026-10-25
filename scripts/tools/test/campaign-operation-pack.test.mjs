@@ -37,14 +37,14 @@ test('recomputes the sequential baseline and finite accounting when the approved
   const result = await validateOperationPack(input);
   // Then durations, individual effort and finite inventory follow the approved tables.
   assert.deepEqual(result.baseline, {
-    ledgerReceivedAt: 684, handoverAt: 858, ledgerFinishedAt: 990,
-    cisternObservedAt: 1320, tapObservedAt: 1464, observationReceivedAt: 1590,
+    ledgerReceivedAt: 684, handoverAt: 858, ledgerFinishedAt: 1002,
+    cisternObservedAt: 1332, tapObservedAt: 1476, observationReceivedAt: 1602,
     K568: { walkingSeconds: 54, carryingSeconds: 96, stationarySeconds: 720, activeSeconds: 870,
       effort: { 'left-arm': 912, 'right-arm': 912, 'left-leg': 246, 'right-leg': 246, head: 720, torso: 246 } },
     accounting: { originalCount: 1, newSpending: 0, prepaymentCount: 4, initialFoodPacks: 8,
       emergencyFoodPacks: 4, initialWaterMl: 2000, paperUsed: 2,
-      foodConsumedBy1590: 0, waterConsumedMlBy1590: 0, afterExtensionFoodPacks: 4,
-      afterExtensionWaterMl: 0, payRemainingAt990: 4410, coverageRemainingAt990: 2610 },
+      foodConsumedAtSequentialReceipt: 0, waterConsumedMlAtSequentialReceipt: 0, afterExtensionFoodPacks: 4,
+      afterExtensionWaterMl: 0, payRemainingAtDutyReturn: 4398, coverageRemainingAtDutyReturn: 2598 },
   });
 });
 
