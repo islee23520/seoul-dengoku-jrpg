@@ -5,6 +5,8 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createHash } from 'node:crypto';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import { assertServedFileSizes } from './build-web-game.mjs';
+import { assertServedOutputPrivacy } from './served-output-privacy.mjs';
 const exec = promisify(execFile);
 const root = fileURLToPath(new URL('../../', import.meta.url));
 export const ENGINE_REVISION = '6d4907e65e315787ce49b0d20dd48b68e1277395';
@@ -88,6 +90,8 @@ export async function buildRealtimeGame(output) {
     // NotoSansKR ships under SIL OFL 1.1, which requires the license beside redistributed fonts.
     await mkdir(path.join(output, 'fonts'), { recursive: true });
     await cp(path.join(root, 'hosting/fonts/LICENSE.txt'), path.join(output, 'fonts/NotoSansKR-OFL.txt'));
+    await assertServedFileSizes(output);
+    await assertServedOutputPrivacy(output);
     return { ...prepared.provenance, entryTypecheck };
   } finally { await rm(scratch, { recursive: true, force: true }); }
 }
