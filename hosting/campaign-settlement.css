@@ -1,0 +1,88 @@
+/* Settlement execution screen and received-report inbox (task14), per the approved task26 design
+   contract: 48px header, 303px docks at x16/x331(w618)/x961, panel y60..704 (644 = 16pad + heading48
+   + body484 + footer80 + 16pad). Every value traces to unity-theme.css tokens; nothing is invented. */
+#realtime[data-screen=campaign-settlement],#realtime[data-screen=campaign-reports]{height:100dvh;overflow:hidden}
+.cs{position:relative;height:100%;--cs-top:calc(var(--layout-header-h) + var(--layout-gutter));
+  /* Contract: panel 644 = pad16 + heading48 + body484 + footer80 + pad16; docks end above the footer. */
+  --cs-bottom:calc(var(--space-80) + var(--layout-margin))}
+
+/* header 48: place name left, clock status, trail actions right (foundation-common-navigation) */
+.cs-nav{position:absolute;inset:0 0 auto;height:var(--layout-header-h);display:flex;align-items:stretch;gap:var(--space-8);padding-inline:var(--layout-margin);
+  background:color-mix(in srgb,var(--color-canvas) 92%,transparent);border-bottom:var(--border-hairline) solid var(--color-rule-brass);z-index:1}
+.cs-nav__place{flex:0 1 auto;align-self:center;font:var(--weight-bold) var(--type-h3)/1 var(--font-ui);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cs-nav__clock{flex:1 1 auto;align-self:center;padding-inline:var(--space-12);font:var(--weight-regular) var(--type-caption)/1 var(--font-ui);color:var(--color-ink-secondary);white-space:nowrap}
+.cs-nav__trail{display:flex;align-items:stretch;margin-left:auto}
+.cs-nav__button{min-height:var(--layout-header-h);padding-inline:var(--space-12);font-size:var(--type-caption);white-space:nowrap}
+
+/* three docks: people 303 / place 618 / custody 303 */
+.cs-dock{position:absolute;top:var(--cs-top);bottom:var(--cs-bottom);width:var(--layout-dock-w);padding:var(--layout-panel-padding);z-index:1;
+  display:flex;flex-direction:column;min-height:0;box-sizing:border-box}
+.cs-dock--people{left:var(--layout-margin)}
+.cs-dock--custody{right:var(--layout-margin)}
+.cs-panel{position:absolute;top:var(--cs-top);bottom:var(--cs-bottom);left:calc(var(--layout-margin) + var(--layout-dock-w) + var(--layout-gutter));
+  width:618px;padding:var(--layout-panel-padding);z-index:1;display:flex;flex-direction:column;min-height:0;box-sizing:border-box}
+.cs-h{flex:0 0 var(--space-48);display:flex;align-items:center;margin:0;font:var(--weight-bold) var(--type-h3)/1 var(--font-ui)}
+.cs-body{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;display:flex;flex-direction:column;gap:var(--space-8);padding-block-end:var(--space-8)}
+
+/* people rows */
+.cs-person{padding:var(--space-8);border-radius:var(--radius-lg);background:color-mix(in srgb,var(--color-surface-sunken) 60%,transparent)}
+.cs-person.is-returning{background:color-mix(in srgb,var(--color-focus) 12%,transparent)}
+.cs-person__name{margin:0;font:var(--weight-medium) var(--type-body)/1.3 var(--font-ui)}
+.cs-person__role{margin:0 0 var(--space-8);font:var(--weight-regular) var(--type-caption)/1.4 var(--font-ui);color:var(--color-ink-secondary)}
+.cs-facts{margin:0;display:flex;flex-direction:column;gap:var(--space-4)}
+.cs-fact{display:flex;flex-direction:column;gap:2px}
+.cs-fact dt{font:var(--weight-regular) var(--type-caption)/1.2 var(--font-ui);color:var(--color-ink-muted)}
+.cs-fact dd{margin:0;font:var(--weight-regular) var(--type-label)/1.4 var(--font-ui);overflow-wrap:anywhere}
+.cs-empty{margin:0;padding:var(--space-12) var(--space-8);font:var(--weight-regular) var(--type-label)/1.5 var(--font-ui);color:var(--color-ink-secondary)}
+.cs-note{margin:var(--space-4) 0 0;font:var(--weight-regular) var(--type-caption)/1.4 var(--font-ui);color:var(--color-ink-muted)}
+.cs-caption{margin:var(--space-8) 0 0;font:var(--weight-regular) var(--type-caption)/1.3 var(--font-ui);color:var(--color-ink-muted)}
+.cs-warning{margin:var(--space-8) 0 0;padding:var(--space-8);border-radius:var(--radius-lg);font:var(--weight-medium) var(--type-caption)/1.4 var(--font-ui);
+  color:var(--color-ink);background:color-mix(in srgb,var(--color-focus) 16%,transparent)}
+[data-support=expired] .cs-nav__clock::after{content:" · 지원 만료"}
+
+/* work rows (place panel) */
+.cs-work{flex:0 0 auto;display:flex;flex-direction:column;align-items:stretch;gap:var(--space-4);min-height:var(--layout-row-h);
+  padding:var(--space-8) var(--space-12);text-align:start;background:transparent;color:var(--color-ink)}
+.cs-work:hover:not(:disabled){background:color-mix(in srgb,var(--color-ink) 8%,transparent)}
+.cs-work.is-selected{background:color-mix(in srgb,var(--color-focus) 14%,transparent);border-color:var(--color-focus)}
+.cs-work__head{font:var(--weight-medium) var(--type-body)/1.3 var(--font-ui)}
+.cs-work__meta{font:var(--weight-regular) var(--type-label)/1.3 var(--font-ui);color:var(--color-ink-secondary)}
+.cs-work__id{font:var(--weight-regular) var(--type-caption)/1.2 var(--font-ui);color:var(--color-ink-muted);overflow-wrap:anywhere}
+
+/* custody */
+.cs-custody__name{margin:0 0 var(--space-4);font:var(--weight-medium) var(--type-body)/1.3 var(--font-ui)}
+
+/* footer 80: [뒤로] + one primary; blocked primary keeps its readable reason beside it */
+.cs-footer{position:absolute;left:var(--layout-margin);right:var(--layout-margin);bottom:var(--layout-margin);height:80px;z-index:1;box-sizing:border-box;
+  display:flex;align-items:center;gap:var(--space-8);padding:calc((80px - var(--button-h)) / 2) 0}
+.cs-footer .ui-button--menu{min-height:var(--button-h);padding-inline:var(--space-24)}
+.cs-command-reason{flex:1 1 auto;margin:0;font:var(--weight-regular) var(--type-caption)/1.4 var(--font-ui);color:var(--color-ink-secondary)}
+
+/* inbox */
+.cr-row{flex:0 0 auto;display:flex;flex-direction:column;align-items:stretch;gap:2px;min-height:var(--layout-row-h);
+  padding:var(--space-8) var(--space-12);text-align:start;background:transparent;color:var(--color-ink)}
+.cr-row:hover:not(:disabled){background:color-mix(in srgb,var(--color-ink) 8%,transparent)}
+.cr-row.is-selected{background:color-mix(in srgb,var(--color-focus) 14%,transparent);border-color:var(--color-focus)}
+.cr-row__head{display:flex;align-items:center;gap:var(--space-8);font:var(--weight-medium) var(--type-body)/1.3 var(--font-ui)}
+.cr-unread{flex:0 0 auto;padding:2px var(--space-8);border-radius:var(--radius-pill);font:var(--weight-medium) var(--type-caption)/1.2 var(--font-ui);
+  color:var(--color-canvas);background:var(--color-focus)}
+.cr-row__meta{font:var(--weight-regular) var(--type-label)/1.3 var(--font-ui);color:var(--color-ink-secondary)}
+.cr-row__id{font:var(--weight-regular) var(--type-caption)/1.2 var(--font-ui);color:var(--color-ink-muted);overflow-wrap:anywhere}
+.cr-detail__title{margin:0 0 var(--space-8);font:var(--weight-medium) var(--type-h3)/1.3 var(--font-ui)}
+.cr-sub{margin:var(--space-16) 0 var(--space-4);font:var(--weight-medium) var(--type-label)/1.3 var(--font-ui)}
+.cr-lines{margin:0;padding-inline-start:var(--space-16);display:flex;flex-direction:column;gap:var(--space-4)}
+.cr-lines li{font:var(--weight-regular) var(--type-label)/1.5 var(--font-ui);overflow-wrap:anywhere}
+
+/* mobile / narrow (NEW_CANDIDATE per contract §3): one column, document scroll, footer in flow */
+@media (max-width:1000px){
+  #realtime[data-screen=campaign-settlement],#realtime[data-screen=campaign-reports]{height:auto;overflow:auto}
+  .cs{height:auto;min-height:100dvh;display:flex;flex-direction:column}
+  .cs-nav{position:sticky;top:0;flex-wrap:wrap;height:auto;min-height:var(--layout-header-h)}
+  .cs-nav__place{flex:1 1 100%}
+  .cs-nav__clock{flex:1 1 100%;order:3;padding:0 0 var(--space-8)}
+  .cs-nav__trail{margin-left:0}
+  .cs-dock,.cs-panel{position:relative;inset:auto;width:auto;height:auto;left:auto;right:auto;margin:var(--layout-gutter) var(--layout-margin) 0;flex:none;box-sizing:border-box}
+  .cs-body{overflow:visible;max-height:none}
+  .cs-footer{position:relative;inset:auto;height:auto;margin:var(--layout-gutter) var(--layout-margin) var(--layout-margin);flex-wrap:wrap;padding:0}
+  .cs-command-reason{flex-basis:100%}
+}

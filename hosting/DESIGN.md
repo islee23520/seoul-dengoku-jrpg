@@ -14,6 +14,13 @@ links underline on hover. No animation, card stripes, or decorative imagery.
 One document scroll owner; runtime owns its existing viewport separately.
 System light/dark does not change the deliberately dark game canvas.
 
+## Settlement execution + received reports (task14, task26 contract)
+
+Layout: settlement - place with people/work/custody -> three-region bounded shell (people 303 / place+work 618 / custody 303 under a 48px header, footer [뒤로][수행자에게 지시]); scroll owners: cs-people body, cs-work body, cs-custody body separately; anti-patterns: battle outcome substituted for a location view, camera grants knowledge, instant remote custody.
+Layout: reports - received list with selected report -> list-detail at the same shell (list 303 / detail 618 / provenance 303); scroll owners: cr-rows, cr-detail, cr-prov separately; anti-patterns: undelivered report content, live truth detail, arrival stealing focus.
+
+Primary actions: settlement \uc218\ud589\uc790\uc5d0\uac8c \uc9c0\uc2dc (blocked with a readable lawful reason until the task13 command unit lands); reports \ubcf4\uace0 \uc5f4\uae30, with \uba85\ub839 \ubcf4\uae30 blocked for the same reason. Priorities: settlement 1 the place and what K002 actually knows, 2 named people and their work, 3 original custody/return obligations; reports 1 received evidence and its limits, 2 observed/received timing, 3 provenance/omissions. Left out: battle outcomes, live remote truth, undelivered payload, interpolated measurements, fake progress.
+
 ## Scenario opening (Unity UI port, task22 wave 1)
 
 Tokens: `unity-theme.css` copies the Unity source `Data/Ui/Source/ui-tokens.json`
