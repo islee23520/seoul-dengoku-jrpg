@@ -31,9 +31,10 @@ Layout: selection - 48px header + 303px left candidate dock + centre stage + 303
 
 Primary action: title any key/click -> 새 게임 -> 이 인물로 시작한다 -> 시작한다.
 Priorities: selected person, actual start placement, start action. Required
-content: K002 이서담, K568 백산석, K616 성달현; title and place; map, tile,
-facing, liege; source/status distinction; after start, each missing input and
-affected action. Left out: portraits, campaign map, faction filters, search and
+content: K002 이서담, K568 백산석, K616 성달현; title, start place and liege
+name when it is an admitted actor (no raw ids, tiles, facings or status codes);
+after start, each missing input and affected action. Copy comes verbatim from
+Unity ui-strings.json through `ui-strings.ts`. Left out: portraits, campaign map, faction filters, search and
 biography (no approved web data); fabricated stats.
 Runtime uses named occupancy labels; appearance remains unapproved, so no
 TESTINPUT sprite becomes a person. The post-start world view is token-styled

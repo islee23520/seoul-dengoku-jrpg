@@ -40,7 +40,7 @@ export async function typecheckRealtimeEntry(engine) {
   const { API } = await import(pathToFileURL(path.join(root, 'engine/node_modules/typescript/dist/api/sync/api.js')).href);
   const configPath = path.join(root, 'hosting/tsconfig.realtime.virtual.json');
   const entry = path.join(root, 'hosting/realtime-entry.ts');
-  const entries = [entry, ...['hosting/opening-project.ts', 'hosting/opening-flow.ts', 'hosting/sampling-assets.ts', 'game/src/assets/sampling.ts', 'game/src/runtime/openingScenario.ts'].map(file => path.join(root, file)), ...(process.env.THREE_STATION_QA === '1' ? [path.join(root, 'hosting/three-station-qa.ts'), path.join(root, 'hosting/three-station-presenter.ts')] : []), ...(process.env.NATURAL_CHARSET_QA === '1' ? [path.join(root, 'hosting/natural-charset-qa.ts')] : [])];
+  const entries = [entry, ...['hosting/opening-project.ts', 'hosting/opening-flow.ts', 'hosting/ui-strings.ts', 'hosting/sampling-assets.ts', 'game/src/assets/sampling.ts', 'game/src/runtime/openingScenario.ts'].map(file => path.join(root, file)), ...(process.env.THREE_STATION_QA === '1' ? [path.join(root, 'hosting/three-station-qa.ts'), path.join(root, 'hosting/three-station-presenter.ts')] : []), ...(process.env.NATURAL_CHARSET_QA === '1' ? [path.join(root, 'hosting/natural-charset-qa.ts')] : [])];
   const config = JSON.stringify({
     extends: path.join(root, 'engine/tsconfig.json'),
     compilerOptions: {
