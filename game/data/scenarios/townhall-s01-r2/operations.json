@@ -9,7 +9,9 @@
     "candidateId": "s01-operations-candidate-r1",
     "candidateSha256": "51127020aaef915a299eae182af66861cef11f1a856c0d7cba19de17dbd38381",
     "response": "지도 판본: 현재 위키로 함께 이관\n조사편 운영값: S01 한정 채택 (Recommended)\n승인: 계획 작성·검토 승인 (Recommended)",
-    "responseSource": ".omo/drafts/seoul-dengoku-campaign-map.md#owner-approval-received-migration-scope-replaces-preservation-recommendation",
+    "approvalId": "s01-operations-candidate-r1",
+    "ownerStartReceiptSha256": "a9cc766895f9afefc6796dc76ae26df0d8eeb158bec55bd40c8c340df2bd6d96",
+    "decisionIds": ["current-wiki-migration", "S01-only-operational-adoption", "plan-creation-and-review", "S01-play-start"],
     "scope": "S01-only-operational-adoption",
     "excludes": [
       "play-start",

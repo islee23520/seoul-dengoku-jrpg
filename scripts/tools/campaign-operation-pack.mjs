@@ -9,7 +9,7 @@ export class OperationPackError extends Error {
 }
 const fail = (code, field) => { throw new OperationPackError(code, field); };
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
-const schemaHash = '0f148f30ab547d0f432508836f2799895bad95300e2d33b54af46482c5bb75ad';
+const schemaHash = '35d9ccb9c7e5717e417fc76f0a1abcde40333cca7de09039795f4e5c3a98ac0f';
 const descriptorHash = 'cf7a4d964bb73b60f55638dbfeaef14d4d98e7f5516f8950faa33a5eb3988859';
 
 export function recomputeBaseline(pack) {

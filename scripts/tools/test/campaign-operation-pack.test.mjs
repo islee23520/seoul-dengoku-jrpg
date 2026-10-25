@@ -12,6 +12,15 @@ const scenario = join(root, 'game/data/scenarios/townhall-s01-r2');
 const manifest = join(root, 'game/data/campaign/source-manifest.json');
 const cli = join(root, 'scripts/tools/campaign-operation-pack.mjs');
 const receipts = [];
+test('contains no private source paths when the scenario pack ships', async () => {
+  // Given every file in the production scenario pack.
+  const files = await readdir(scenario, { recursive: true, withFileTypes: true });
+  const forbidden = [['.omo', '/'], ['/', 'Users', '/'], ['drafts', '/']].map(parts => parts.join(''));
+  // When inspecting the bytes that will ship.
+  const contents = await Promise.all(files.filter(file => file.isFile()).map(file => readFile(join(file.parentPath, file.name), 'utf8')));
+  // Then no private source reference is exposed by any pack file.
+  for (const content of contents) for (const path of forbidden) assert.equal(content.includes(path), false, 'private source path in scenario pack');
+});
 const run = args => new Promise((resolveResult, reject) => {
   const child = spawn(process.execPath, [cli, ...args], { timeout: 30000, stdio: ['ignore', 'pipe', 'pipe'] });
   let stdout = '', stderr = '';
