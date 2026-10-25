@@ -40,7 +40,7 @@ export async function typecheckRealtimeEntry(engine) {
   const { API } = await import(pathToFileURL(path.join(root, 'engine/node_modules/typescript/dist/api/sync/api.js')).href);
   const configPath = path.join(root, 'hosting/tsconfig.realtime.virtual.json');
   const entry = path.join(root, 'hosting/realtime-entry.ts');
-  const entries = [entry, ...['hosting/opening-project.ts', 'hosting/opening-flow.ts', 'hosting/sampling-assets.ts', 'game/src/assets/sampling.ts', 'game/src/runtime/openingScenario.ts'].map(file => path.join(root, file)), ...(process.env.THREE_STATION_QA === '1' ? [path.join(root, 'hosting/three-station-qa.ts'), path.join(root, 'hosting/three-station-presenter.ts')] : []), ...(process.env.NATURAL_CHARSET_QA === '1' ? [path.join(root, 'hosting/natural-charset-qa.ts')] : [])];
+  const entries = [entry, ...['hosting/opening-project.ts', 'hosting/opening-flow.ts', 'hosting/ui-strings.ts', 'hosting/opening-errors.ts', 'hosting/sampling-assets.ts', 'game/src/assets/sampling.ts', 'game/src/runtime/openingScenario.ts'].map(file => path.join(root, file)), ...(process.env.THREE_STATION_QA === '1' ? [path.join(root, 'hosting/three-station-qa.ts'), path.join(root, 'hosting/three-station-presenter.ts')] : []), ...(process.env.NATURAL_CHARSET_QA === '1' ? [path.join(root, 'hosting/natural-charset-qa.ts')] : [])];
   const config = JSON.stringify({
     extends: path.join(root, 'engine/tsconfig.json'),
     compilerOptions: {
@@ -85,6 +85,9 @@ export async function buildRealtimeGame(output) {
     await exec(process.execPath, [path.join(root, 'engine/node_modules/vite/bin/vite.js'), 'build', '--config', path.join(root, 'hosting/vite.realtime.config.mjs'), '--configLoader', 'runner', '--outDir', path.resolve(output)], {
       cwd: prepared.engine, env: { ...process.env, GIT_MASTER: '1', REALTIME_ENGINE_SOURCE: prepared.engine }, maxBuffer: 16 * 1024 * 1024,
     });
+    // NotoSansKR ships under SIL OFL 1.1, which requires the license beside redistributed fonts.
+    await mkdir(path.join(output, 'fonts'), { recursive: true });
+    await cp(path.join(root, 'hosting/fonts/LICENSE.txt'), path.join(output, 'fonts/NotoSansKR-OFL.txt'));
     return { ...prepared.provenance, entryTypecheck };
   } finally { await rm(scratch, { recursive: true, force: true }); }
 }

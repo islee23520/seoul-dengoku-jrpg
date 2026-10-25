@@ -1,0 +1,16 @@
+{
+  "family": "Noto Sans KR (Noto Sans CJK, Korean subset)",
+  "license": "SIL Open Font License 1.1",
+  "licenseFile": "LICENSE.txt",
+  "licenseSha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+  "source": "https://github.com/notofonts/noto-cjk/releases/tag/Sans2.004",
+  "asset": "https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/17_NotoSansKR.zip",
+  "assetSha256": "ac7eeb4e2b0d41de8ff31b2d6e1e2a41caf253fd5cefb380bfa1f40f1747b612",
+  "files": {
+    "NotoSansKR-Regular.otf": "69975a0ac8472717870aefeab0a4d52739308d90856b9955313b2ad5e0148d68",
+    "NotoSansKR-Medium.otf": "b46988ef13e8bac08f3933af686eaf770972994f9b6d335be0184d60169b5431",
+    "NotoSansKR-Bold.otf": "5a6ceb287ed2fc6cfc6213144ebea68cbd94b20fc9eb873d8486493bf02d9bda"
+  },
+  "retrievedOn": "2026-10-11",
+  "decision": "owner U6 2026-10-11: license-free CJK-compatible font instead of NanumGothic"
+}
