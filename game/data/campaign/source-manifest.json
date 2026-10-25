@@ -2093,7 +2093,8 @@
                 "path": "/regions",
                 "sha256": "1e42c4d2c8b4e0a3b6528c44e322e7fd7bf0ec38b3e268201a6a3c2696910d45"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11140.json",
@@ -2106,7 +2107,8 @@
                 "path": "/regions",
                 "sha256": "04496588fdcfea7bdd80a0569b6675d88437cf5678dc64e49746dc3b038f9006"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11170.json",
@@ -2117,9 +2119,10 @@
             "resolved": [
               {
                 "path": "/regions",
-                "sha256": "a5c41f2ef5b56bb9b8caa00f77e5469998dc7fdd92d1db054f11185b86be9339"
+                "sha256": "9da97a9552e3a6406e5b3abf9659b01348bedbdb31a698186f1cd52df9ecd824"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11200.json",
@@ -2132,7 +2135,8 @@
                 "path": "/regions",
                 "sha256": "fb31aefbe117df328b50881f6dbd81c8feef1cbea41e688055f3069ad1915905"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11215.json",
@@ -2145,7 +2149,8 @@
                 "path": "/regions",
                 "sha256": "8026827b2bfded52f27f21d17297af0c41864d4f8a22ca7a7f66b4cb950f2eb8"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11230.json",
@@ -2158,7 +2163,8 @@
                 "path": "/regions",
                 "sha256": "b3d0808e9affa2b4a6c0fc7e436304ee618d4a76330de5f9a81ed9a3bb1883c3"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11260.json",
@@ -2171,7 +2177,8 @@
                 "path": "/regions",
                 "sha256": "a84dace34e99d952c5d0f7dbcaa6d5f019c991c2f247123fe7616de9ede74743"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11290.json",
@@ -2184,7 +2191,8 @@
                 "path": "/regions",
                 "sha256": "1167fcb51daed25a54542169e4b59b6dd7be0d6ab9ab333dee0e24b6fe5ee396"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11305.json",
@@ -2197,7 +2205,8 @@
                 "path": "/regions",
                 "sha256": "97a4addd9cedaa8d21c8f6ec49895b98b0883000bb1ca4550919783bf514bb20"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11320.json",
@@ -2210,7 +2219,8 @@
                 "path": "/regions",
                 "sha256": "039e68179fa1b86f11c3d9a962dd10685aa9695bd4c2e2087a60035bc049e422"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11350.json",
@@ -2223,7 +2233,8 @@
                 "path": "/regions",
                 "sha256": "c53baa0ca47558acb112250a45f33df6dfb039893d87a3eca988bdd8d4ef9d68"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11380.json",
@@ -2236,7 +2247,8 @@
                 "path": "/regions",
                 "sha256": "60478b598a207a95793fb943db0d9328c73977f73a1ed92b33707503bb3ff433"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11410.json",
@@ -2249,7 +2261,8 @@
                 "path": "/regions",
                 "sha256": "f6faa1db62363fdeab28e7ff58df182ab951b5b2dea8e39ab60fd835fd81db23"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11440.json",
@@ -2262,7 +2275,8 @@
                 "path": "/regions",
                 "sha256": "bfca35ab00d78d6dc199c04e626d1cc95151b000d2a5f8dd311a35e1385ffe67"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11470.json",
@@ -2275,7 +2289,8 @@
                 "path": "/regions",
                 "sha256": "50de04e3abfff0873e84e8b1e6fd4bd189f4ce8dd45f9d8930363e551596f915"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11500.json",
@@ -2288,7 +2303,8 @@
                 "path": "/regions",
                 "sha256": "9fe6f0230bda1ae4431c46ff9941e4caa778e87543abfad31fc8959b87487cb9"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11530.json",
@@ -2301,7 +2317,8 @@
                 "path": "/regions",
                 "sha256": "ed14c63464c4cffb9f7f7aa0af28d58b44e144b69b9cb4e3e48c6c3461b00931"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11545.json",
@@ -2314,7 +2331,8 @@
                 "path": "/regions",
                 "sha256": "73b78cc1b500eb33e9390a6c40868a4ac0f75881a630fc0ae6359cf05f2f1551"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11560.json",
@@ -2327,7 +2345,8 @@
                 "path": "/regions",
                 "sha256": "f6a833011bd104f973761ee08164b4e3ec6c9be707ad3079d5e2442e48b0d690"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11590.json",
@@ -2340,7 +2359,8 @@
                 "path": "/regions",
                 "sha256": "3ebcb5e6519cc7ba6dd999f3e9364e1714990400823b6ab949255382a78d03db"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11620.json",
@@ -2353,7 +2373,8 @@
                 "path": "/regions",
                 "sha256": "32f0e4c33c2b919cbbc7264e7a8e1a1b5fe259280f87f6fb5308ea925f007bac"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11650.json",
@@ -2366,7 +2387,8 @@
                 "path": "/regions",
                 "sha256": "55e6f3657c07e2ef3caa51633eb8e093f686652b5a3b58dff0dff987e8876666"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11680.json",
@@ -2379,7 +2401,8 @@
                 "path": "/regions",
                 "sha256": "a8d2fa4b1cbf3cf624ca96d7acdda89a8d970018cd69b1ad8b22137dc861c3c5"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11710.json",
@@ -2392,7 +2415,8 @@
                 "path": "/regions",
                 "sha256": "c332e3a0ceeef104c916345f636eff344b2a9d55e607c21f3cd9eca307183bcc"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11740.json",
@@ -2405,7 +2429,31 @@
                 "path": "/regions",
                 "sha256": "5239cf13c1ad18259dc397f82bc3e874957318d489654c13ca0572b4beca8809"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
+          },
+          {
+            "path": "typed:current-region-rights",
+            "sha256": "33fc48dbcf335b05bf64391279faa48dbdeabbb03932e97f07886b683bba7859",
+            "selectors": [
+              "/regionDispositions",
+              "/rightRetirements"
+            ],
+            "resolved": [
+              {
+                "path": "/regionDispositions",
+                "sha256": "869e007e3c9c1cf338a620de9658fd4d56305b1055917ba877371b5814351ebb"
+              },
+              {
+                "path": "/rightRetirements",
+                "sha256": "dd1e71307ceca179fc3df0eb964587d5229bd69efd481b905e57793a8de7bcc6"
+              }
+            ],
+            "tables": {
+              "regionDispositions": "current_region_disposition",
+              "rightRetirements": "current_right_retirement"
+            },
+            "view": "public columns of validated readCiaCurrentRights successor; actor/reason excluded"
           },
           {
             "path": "typed:affiliation",
@@ -2475,7 +2523,8 @@
                 "path": "/regions",
                 "sha256": "1e42c4d2c8b4e0a3b6528c44e322e7fd7bf0ec38b3e268201a6a3c2696910d45"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11140.json",
@@ -2488,7 +2537,8 @@
                 "path": "/regions",
                 "sha256": "04496588fdcfea7bdd80a0569b6675d88437cf5678dc64e49746dc3b038f9006"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11170.json",
@@ -2499,9 +2549,10 @@
             "resolved": [
               {
                 "path": "/regions",
-                "sha256": "a5c41f2ef5b56bb9b8caa00f77e5469998dc7fdd92d1db054f11185b86be9339"
+                "sha256": "9da97a9552e3a6406e5b3abf9659b01348bedbdb31a698186f1cd52df9ecd824"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11200.json",
@@ -2514,7 +2565,8 @@
                 "path": "/regions",
                 "sha256": "fb31aefbe117df328b50881f6dbd81c8feef1cbea41e688055f3069ad1915905"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11215.json",
@@ -2527,7 +2579,8 @@
                 "path": "/regions",
                 "sha256": "8026827b2bfded52f27f21d17297af0c41864d4f8a22ca7a7f66b4cb950f2eb8"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11230.json",
@@ -2540,7 +2593,8 @@
                 "path": "/regions",
                 "sha256": "b3d0808e9affa2b4a6c0fc7e436304ee618d4a76330de5f9a81ed9a3bb1883c3"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11260.json",
@@ -2553,7 +2607,8 @@
                 "path": "/regions",
                 "sha256": "a84dace34e99d952c5d0f7dbcaa6d5f019c991c2f247123fe7616de9ede74743"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11290.json",
@@ -2566,7 +2621,8 @@
                 "path": "/regions",
                 "sha256": "1167fcb51daed25a54542169e4b59b6dd7be0d6ab9ab333dee0e24b6fe5ee396"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11305.json",
@@ -2579,7 +2635,8 @@
                 "path": "/regions",
                 "sha256": "97a4addd9cedaa8d21c8f6ec49895b98b0883000bb1ca4550919783bf514bb20"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11320.json",
@@ -2592,7 +2649,8 @@
                 "path": "/regions",
                 "sha256": "039e68179fa1b86f11c3d9a962dd10685aa9695bd4c2e2087a60035bc049e422"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11350.json",
@@ -2605,7 +2663,8 @@
                 "path": "/regions",
                 "sha256": "c53baa0ca47558acb112250a45f33df6dfb039893d87a3eca988bdd8d4ef9d68"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11380.json",
@@ -2618,7 +2677,8 @@
                 "path": "/regions",
                 "sha256": "60478b598a207a95793fb943db0d9328c73977f73a1ed92b33707503bb3ff433"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11410.json",
@@ -2631,7 +2691,8 @@
                 "path": "/regions",
                 "sha256": "f6faa1db62363fdeab28e7ff58df182ab951b5b2dea8e39ab60fd835fd81db23"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11440.json",
@@ -2644,7 +2705,8 @@
                 "path": "/regions",
                 "sha256": "bfca35ab00d78d6dc199c04e626d1cc95151b000d2a5f8dd311a35e1385ffe67"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11470.json",
@@ -2657,7 +2719,8 @@
                 "path": "/regions",
                 "sha256": "50de04e3abfff0873e84e8b1e6fd4bd189f4ce8dd45f9d8930363e551596f915"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11500.json",
@@ -2670,7 +2733,8 @@
                 "path": "/regions",
                 "sha256": "9fe6f0230bda1ae4431c46ff9941e4caa778e87543abfad31fc8959b87487cb9"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11530.json",
@@ -2683,7 +2747,8 @@
                 "path": "/regions",
                 "sha256": "ed14c63464c4cffb9f7f7aa0af28d58b44e144b69b9cb4e3e48c6c3461b00931"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11545.json",
@@ -2696,7 +2761,8 @@
                 "path": "/regions",
                 "sha256": "73b78cc1b500eb33e9390a6c40868a4ac0f75881a630fc0ae6359cf05f2f1551"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11560.json",
@@ -2709,7 +2775,8 @@
                 "path": "/regions",
                 "sha256": "f6a833011bd104f973761ee08164b4e3ec6c9be707ad3079d5e2442e48b0d690"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11590.json",
@@ -2722,7 +2789,8 @@
                 "path": "/regions",
                 "sha256": "3ebcb5e6519cc7ba6dd999f3e9364e1714990400823b6ab949255382a78d03db"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11620.json",
@@ -2735,7 +2803,8 @@
                 "path": "/regions",
                 "sha256": "32f0e4c33c2b919cbbc7264e7a8e1a1b5fe259280f87f6fb5308ea925f007bac"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11650.json",
@@ -2748,7 +2817,8 @@
                 "path": "/regions",
                 "sha256": "55e6f3657c07e2ef3caa51633eb8e093f686652b5a3b58dff0dff987e8876666"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11680.json",
@@ -2761,7 +2831,8 @@
                 "path": "/regions",
                 "sha256": "a8d2fa4b1cbf3cf624ca96d7acdda89a8d970018cd69b1ad8b22137dc861c3c5"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11710.json",
@@ -2774,7 +2845,8 @@
                 "path": "/regions",
                 "sha256": "c332e3a0ceeef104c916345f636eff344b2a9d55e607c21f3cd9eca307183bcc"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
           },
           {
             "path": "lore/regions/content/11740.json",
@@ -2787,7 +2859,31 @@
                 "path": "/regions",
                 "sha256": "5239cf13c1ad18259dc397f82bc3e874957318d489654c13ca0572b4beca8809"
               }
-            ]
+            ],
+            "view": "immutable predecessor before currentRegionContent"
+          },
+          {
+            "path": "typed:current-region-rights",
+            "sha256": "33fc48dbcf335b05bf64391279faa48dbdeabbb03932e97f07886b683bba7859",
+            "selectors": [
+              "/regionDispositions",
+              "/rightRetirements"
+            ],
+            "resolved": [
+              {
+                "path": "/regionDispositions",
+                "sha256": "869e007e3c9c1cf338a620de9658fd4d56305b1055917ba877371b5814351ebb"
+              },
+              {
+                "path": "/rightRetirements",
+                "sha256": "dd1e71307ceca179fc3df0eb964587d5229bd69efd481b905e57793a8de7bcc6"
+              }
+            ],
+            "tables": {
+              "regionDispositions": "current_region_disposition",
+              "rightRetirements": "current_right_retirement"
+            },
+            "view": "public columns of validated readCiaCurrentRights successor; actor/reason excluded"
           },
           {
             "path": "typed:affiliation",

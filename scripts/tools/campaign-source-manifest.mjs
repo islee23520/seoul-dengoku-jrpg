@@ -6,7 +6,9 @@ import { pathToFileURL, fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
 import { execFileSync } from 'node:child_process';
 import { isDeepStrictEqual } from 'node:util';
-import { checkTitles, consumeRail, selectDependencies, titleSelectors, railConsumedFields, allocationPath, railPath } from './campaign-source-selectors.mjs';
+import { checkTitles, consumeRail, selectDependencies, validateDependencies, titleSelectors, railConsumedFields, allocationPath, railPath } from './campaign-source-selectors.mjs';
+
+export const currentRightsFields = Object.freeze(['/regionDispositions', '/rightRetirements']);
 
 class CampaignError extends Error {
   constructor(code, field) { super(`${code}: ${field}`); this.code = code; }
@@ -98,7 +100,7 @@ async function projectMap(context) {
   register('typed:atlas', atlas); register('typed:geography', geography); register('typed:boundary', readBoundaryGeometries(db));
   register('typed:affiliation', { data: { currentAffiliation: contract } }); register('typed:graph', graph);
   register('lore/places/Seoul-Station-Catalog.json', catalog); register('lore/places/station-control-overrides.json', { ledger });
-  for (const [logicalPath, expectedSourceHash] of Object.entries(REGION_CONTENT_SOURCE_HASHES)) register(logicalPath, readRegionContentDocument(db, { logicalPath, expectedSourceHash }));
+  for (const [logicalPath, expectedSourceHash] of Object.entries(REGION_CONTENT_SOURCE_HASHES)) register(logicalPath, readRegionContentDocument(db, { logicalPath, expectedSourceHash, predecessor: true }));
   return { projection, atlas, geography, contract, excluded, aliases: catalog.data.station_aliases, publicGeographicId, regionContent };
 }
 export async function buildManifest(options) {
@@ -113,6 +115,14 @@ export async function buildManifest(options) {
   let manifest;
   try {
     const documents = new Map(), register = (path, value) => documents.set(path, value);
+    const { readCiaCurrentRights } = await load('scripts/cast-sqlite/cia-current-rights.mjs');
+    if (!readCiaCurrentRights(db)) fail('E_CAMPAIGN_SOURCE', 'current rights successor required');
+    const currentRights = {
+      regionDispositions: db.prepare('SELECT region_id,status FROM current_region_disposition ORDER BY region_id').all(),
+      rightRetirements: db.prepare('SELECT kind,right_id FROM current_right_retirement ORDER BY kind').all(),
+    };
+    validateDependencies(currentRights, options.currentRightsSelectors ?? currentRightsFields, currentRightsFields);
+    register('typed:current-region-rights', currentRights);
     const map = await projectMap({ db, load, wikiRoot, generated, register, options });
     const { readFeudalAllocationInputs } = await load('scripts/cast-sqlite/feudal-allocation-inputs.mjs');
     const allocation = readFeudalAllocationInputs(db); register(allocationPath, allocation);
@@ -144,7 +154,11 @@ export async function buildManifest(options) {
     const atlasRef = ref('typed:atlas', ['/regions']), graphRef = ref('typed:graph', ['/stations']);
     const affiliationRef = { ...ref('typed:affiliation', ['/data/currentAffiliation']), logicalPath: admitted.source.logical_path, revision: admitted.source.revision_id, semanticSha256: admitted.source.semantic_sha256 };
     const { REGION_CONTENT_SOURCE_HASHES } = await load('scripts/cast-sqlite/region-content-documents.mjs');
-    const regionRefs = Object.keys(REGION_CONTENT_SOURCE_HASHES).map(path => ref(path, ['/regions']));
+    const regionRefs = Object.keys(REGION_CONTENT_SOURCE_HASHES).map(path => ({ ...ref(path, ['/regions']), view: 'immutable predecessor before currentRegionContent' }));
+    const currentRightsRef = { ...ref('typed:current-region-rights', options.currentRightsSelectors ?? currentRightsFields),
+      tables: { regionDispositions: 'current_region_disposition', rightRetirements: 'current_right_retirement' },
+      view: 'public columns of validated readCiaCurrentRights successor; actor/reason excluded' };
+    regionRefs.push(currentRightsRef);
     const controlRef = { ...ref('lore/places/station-control-overrides.json', ['/ledger']), view: 'typed rail document wrapped as ledger; absent optional segmentOverrides/passageDecisions remain absent' };
     const aliasRef = ref('lore/places/Seoul-Station-Catalog.json', ['/data']);
     const railRef = ref(railPath, options.railSelectors ?? railConsumedFields);

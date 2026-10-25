@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { buildManifest, verifyParity } from '../campaign-source-manifest.mjs';
+import { buildManifest, verifyParity, currentRightsFields } from '../campaign-source-manifest.mjs';
 import { titleSelectors, railConsumedFields, allocationPath, railPath } from '../campaign-source-selectors.mjs';
 
 const wikiRoot = process.env.WIKI_ROOT;
@@ -35,11 +35,28 @@ test('admits real semantic parity with executed title and complete rail provenan
   const refs = manifest.rights.allowlist.flatMap(entry => entry.sources);
   assert.deepEqual(refs.find(ref => ref.path === allocationPath).selectors, titleSelectors);
   assert.deepEqual(refs.find(ref => ref.path === railPath).selectors, railConsumedFields);
+  for (const field of ['parity/regions', 'parity/stations', 'parity/edges']) {
+    const entry = manifest.rights.allowlist.find(entry => entry.fields.includes(field));
+    const successor = entry.sources.find(ref => ref.path === 'typed:current-region-rights');
+    assert.ok(successor, `${field} requires its consumed successor dependency`);
+    assert.equal(successor.sha256, manifest.source.databaseSha256);
+    assert.deepEqual(successor.selectors, ['/regionDispositions', '/rightRetirements']);
+    assert.deepEqual(successor.tables, { regionDispositions: 'current_region_disposition', rightRetirements: 'current_right_retirement' });
+  }
   for (const ref of refs) assert.ok(ref.resolved.length && ref.resolved.every(row => row.path.startsWith('/') && /^[a-f0-9]{64}$/u.test(row.sha256)));
   assert.equal(manifest.rights.newConsentGranted, false);
   assert.equal(manifest.rights.playStartAdmission, false);
   assert.equal(JSON.stringify(manifest).includes(wikiRoot), false);
   assert.ok(manifest.quality.importer.length);
+});
+test('rejects either omitted current-rights dependency before manifest admission', async () => {
+  // Given authenticated rows and each incomplete successor selection.
+  for (const selected of currentRightsFields.map(field => [field])) {
+    // When constructing a manifest without one consumed dependency.
+    const result = buildManifest({ wikiRoot, exportDb, currentRightsSelectors: selected });
+    // Then a global database hash cannot substitute for the missing selection.
+    await assert.rejects(result, { code: 'E_SELECTOR_DEPENDENCY' });
+  }
 });
 test('rejects same-count changed geometry control and passage', () => {
   // Given an independently specified semantic projection.
