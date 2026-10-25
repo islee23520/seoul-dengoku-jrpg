@@ -71,7 +71,7 @@ export function mountOpening(parent: HTMLElement, spawn: Spawn): void {
       + '<p class="ui-select__scenario">야간 배급 창구 · 신정2동 · 세 번째 급수계약 개막일</p>'
       + '<p class="ui-select__hint"><kbd class="ui-key-cap">' + t('ui.key.move') + '</kbd></p></header>'
       + '<aside class="ui-select__dock ui-panel" aria-label="후보 인물"><p class="ui-select__count"></p><div class="ui-select__list" role="listbox" aria-label="개막 인물"></div></aside>'
-      + '<div class="ui-select__stage"><p>캠페인 지도는 아직 연결되지 않았다. 시작 위치는 오른쪽 상세에 표시한다.</p></div>'
+      + '<div class="ui-select__stage" aria-hidden="true"></div>'
       + '<section class="ui-select__dock ui-select__detail ui-panel" aria-live="polite" aria-label="선택한 인물"><div class="ui-select__bio"></div>'
       + '<footer class="ui-select__actions"><button class="ui-button ui-button--menu" id="select-back" type="button"><kbd class="ui-key-cap">' + t('ui.key.cancel') + '</kbd> ' + t('ui.character-select.back') + '</button>'
       + '<button class="ui-button ui-button--primary" id="select-confirm" type="button"><kbd class="ui-key-cap ui-key-cap--on-primary">' + t('ui.key.submit') + '</kbd> ' + t('ui.character-select.confirm') + '</button></footer>'

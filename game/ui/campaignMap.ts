@@ -16,10 +16,7 @@ export * from './campaignMapModel.ts';
 export const webOnlyStrings = {
   rail: '철도',
   railNote: '철도 표시 · 실행 경로 아님',
-  legendJurisdiction: '관할',
-  legendReported: '보고된 통제 · 없음',
   mapLabel: '서울 캠페인 지도',
-  zoomIn: '확대', zoomOut: '축소', zoomReset: '원래 크기',
   outOfScope: '알려진 범위 밖의 지역이다',
   site: '시설',
 } as const;
@@ -77,39 +74,36 @@ export function mountCampaignMap(parent: HTMLElement, options: CampaignMapOption
   parent.innerHTML = '<div class="cm">'
     + '<div class="cm__stage" id="cm-stage"><svg class="cm__map" id="cm-map" tabindex="0" role="group" aria-label="' + webOnlyStrings.mapLabel + '" aria-describedby="cm-map-help"></svg>'
     + '<p id="cm-map-help" class="cm-visually-hidden">↑↓←→ · + − · 0</p>'
-    + '<div class="cm-zoom" role="group" aria-label="' + webOnlyStrings.mapLabel + '">'
-    + '<button class="ui-button cm-zoom__button" type="button" data-zoom="in" aria-label="' + webOnlyStrings.zoomIn + '" title="' + webOnlyStrings.zoomIn + '">' + icon('plus') + '</button>'
-    + '<button class="ui-button cm-zoom__button" type="button" data-zoom="out" aria-label="' + webOnlyStrings.zoomOut + '" title="' + webOnlyStrings.zoomOut + '">' + icon('minus') + '</button>'
-    + '<button class="ui-button cm-zoom__button" type="button" data-zoom="reset" aria-label="' + webOnlyStrings.zoomReset + '" title="' + webOnlyStrings.zoomReset + '">' + icon('locate') + '</button></div>'
     + '<output class="cm-toast" id="cm-toast" role="status"></output>'
-    + '<div class="cm-legend ui-panel" aria-label="범례">'
-    + '<span class="cm-legend__item"><i class="cm-swatch cm-swatch--jurisdiction"></i>' + webOnlyStrings.legendJurisdiction + '</span>'
-    + '<span class="cm-legend__item"><i class="cm-swatch cm-swatch--reported"></i>' + webOnlyStrings.legendReported + '</span>'
-    + '<span class="cm-legend__item"><i class="cm-swatch cm-swatch--unknown"></i>' + t('ui.hud.pov.unknown') + '</span>'
-    + '<span class="cm-legend__item" id="cm-legend-rail" hidden><i class="cm-swatch cm-swatch--rail"></i>' + webOnlyStrings.railNote + '</span></div></div>'
+    + '</div>'
     + '<header class="cm-nav"><h1 class="cm-nav__person">' + esc(actor.name) + '</h1>'
     + '<div class="cm-nav__group" role="group" aria-label="' + t('ui.key.map-mode') + '">'
     + navButton('cm-mode-political', t('ui.character-select.mode.political')) + navButton('cm-mode-titles', t('ui.character-select.mode.titles')) + '</div>'
     + '<div class="cm-nav__group cm-nav__ranks" role="group" aria-label="' + t('ui.character-select.mode.titles') + '">'
     + ranks.map(rank => navButton('cm-rank-' + rank, t(('ui.map.rank.' + rank) as UiStringKey), rankAvailable(view, rank) ? '' : 'disabled')).join('') + '</div>'
-    + navButton('cm-rail', webOnlyStrings.rail)
+    + navButton('cm-rail', webOnlyStrings.rail, 'aria-description="' + webOnlyStrings.railNote + '"')
     + '<div class="cm-nav__trail">' + navButton('cm-settings', t('ui.main-menu.settings'), 'disabled')
     + navButton('cm-pov', 'POV', 'aria-pressed="true" aria-disabled="true"') + navButton('cm-back', t('ui.main-menu.back'))
     + '<span class="cm-nav__legend"><i class="cm-swatch cm-swatch--unclaimed"></i>' + t('ui.map.unclaimed') + '</span></div></header>'
     + '<section class="cm-dock cm-dock--identity ui-panel" aria-label="' + esc(actor.name) + '">'
-    + '<h2 class="cm-identity__name">' + esc(actor.name) + '</h2><p class="cm-identity__role">' + esc(actor.title) + '</p>'
+    + '<div class="cm-identity__head">' + portrait('cm-portrait--lg') + '<div><h2 class="cm-identity__name">' + esc(actor.name) + '</h2><p class="cm-identity__role">' + esc(actor.title) + '</p></div></div>'
     + '<dl class="cm-facts">' + fact('flag', t('ui.hud.pov.state'), stateName) + fact('map-pin', t('ui.hud.pov.current-location'), actor.place)
     + fact('user', t('ui.hud.pov.direct-liege'), liegeName) + '</dl></section>'
     + '<section class="cm-dock cm-dock--context ui-panel" aria-label="' + t('ui.hud.pov.territorial-control') + '"><dl class="cm-facts">'
     + fact('map', t('ui.hud.pov.territorial-control'), t('ui.hud.pov.state-control-value', stateName, t('ui.hud.pov.unknown'))) + '</dl></section>'
     + '<section class="cm-dock cm-dock--detail ui-panel" aria-label="' + t('ui.hud.pov.held-titles') + '">'
-    + '<h2 class="cm-detail__name">' + esc(actor.name) + '</h2>'
+    + '<div class="cm-detail__head">' + portrait('cm-portrait--sm') + '<h2 class="cm-detail__name">' + esc(actor.name) + '</h2></div>'
     + '<div class="cm-tabs" role="tablist">'
     + '<button class="ui-button cm-tab" type="button" role="tab" id="cm-tab-titles" aria-controls="cm-rows">' + icon('shield') + t('ui.hud.pov.held-titles') + '</button>'
     + '<button class="ui-button cm-tab" type="button" role="tab" id="cm-tab-sites" aria-controls="cm-rows">' + icon('home') + t('ui.hud.pov.personal-holdings') + '</button></div>'
     + '<div class="cm-detail__scroll"><div class="cm-rows" id="cm-rows" role="tabpanel"></div><div class="cm-context" id="cm-context" aria-live="polite"></div></div></section>'
     + '</div>';
 
+  /** No portrait texture is registered for K002/K568/K616 in the Unity OpeningPortraitCatalog, so this is
+   * Unity's own fallback (FoundationPovHud.Portrait): an empty portrait area holding the 'user' icon. */
+  function portrait(size: string): string {
+    return '<span class="cm-portrait ' + size + '" aria-hidden="true">' + icon('user') + '</span>';
+  }
   function fact(name: string, label: string, value: string): string {
     return '<div class="cm-fact"><dt>' + icon(name) + esc(label) + '</dt><dd>' + esc(value) + '</dd></div>';
   }
@@ -210,10 +204,6 @@ export function mountCampaignMap(parent: HTMLElement, options: CampaignMapOption
     }
     event.preventDefault(); apply();
   }, { signal });
-  for (const button of parent.querySelectorAll<HTMLButtonElement>('[data-zoom]')) button.addEventListener('click', () => {
-    const [cx, cy] = center(); const kind = button.dataset.zoom;
-    if (kind === 'reset') reset(); else zoomAt(kind === 'in' ? 1.25 : 1 / 1.25, cx, cy);
-  }, { signal });
 
   // ---- state transitions
   function update(next: MapViewState): void {
@@ -281,7 +271,6 @@ export function mountCampaignMap(parent: HTMLElement, options: CampaignMapOption
     const outline = rankOutline(view, state);
     titleLayer.replaceChildren(...(outline ? [node('path', { d: outline, class: 'cm-title' })] : []));
     const rail = railOverlay(view, scope, state);
-    q<HTMLElement>('#cm-legend-rail').hidden = !state.rail;
     railLayer.replaceChildren(
       ...rail.segments.map(s => node('line', { x1: String(s.x1), y1: String(s.y1), x2: String(s.x2), y2: String(s.y2), class: 'cm-rail__edge' })),
       ...rail.stations.map(s => node('circle', { cx: String(s.x), cy: String(s.y), r: '1.6', class: 'cm-rail__station' + (s.label ? ' is-known' : '') })),

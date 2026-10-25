@@ -36,6 +36,16 @@ test('county minimum polygons cover every current region exactly once', () => {
   assert.equal(view.titles.some(title => title.rank === 'barony'), false, 'barony detail slots are empty in this atlas');
 });
 
+test('every title above county has exactly the atlas membership (county currentSlots via countyIds)', () => {
+  // Independent recomputation from atlas.json, not from the generator.
+  const titles = new Map<string, { rank: string; countyIds: string[]; currentSlots: { dongId: string }[] }>(atlas.geography.titles.map((t: { id: string }) => [t.id, t]));
+  const members = (id: string): string[] => { const t = titles.get(id)!; return t.rank === 'county' ? t.currentSlots.map(s => s.dongId) : t.countyIds.flatMap(members); };
+  for (const title of view.titles) assert.deepEqual(new Set(title.regionIds), new Set(members(title.id)), title.id + ' ' + title.name);
+  const byName = (name: string) => view.titles.find(t => t.rank === 'duchy' && t.name === name)!.regionIds.length;
+  // Constituency counties cross gu lines, so these duchies include neighbouring dong as the atlas records them.
+  assert.equal(byName('중구'), 19); assert.equal(byName('성동구'), 32); assert.equal(byName('양천구'), 18);
+});
+
 test('measured source geometry bounds stay inside the atlas canvas', () => {
   const bounds = geometryBounds(view.regions.map(region => region.path));
   assert(bounds.minX >= 0 && bounds.minY >= 0 && bounds.maxX <= view.width && bounds.maxY <= view.height, JSON.stringify(bounds));
@@ -124,9 +134,7 @@ test('title layer draws the chosen rank and refuses an empty rank', () => {
   assert(empire.length < duchy.length && duchy.length < county.length * 1.2 && empire.length > 0);
   assert.equal(setRank(view, initialViewState, 'barony'), initialViewState);
   assert.equal(rankOutline(view, initialViewState), null);
-  // Duchies partition the 427 dong by administrative code; 양천구 is exactly the 18-dong K002 holding.
-  const duchies = view.titles.filter(t => t.rank === 'duchy').flatMap(t => t.regionIds);
-  assert.equal(duchies.length, 427); assert.equal(new Set(duchies).size, 427);
+  // 양천구 is exactly the 18-dong K002 holding.
   assert.deepEqual(new Set(view.titles.find(t => t.id === 'geography:duchy:11470')!.regionIds), k002.jurisdiction);
 });
 

@@ -1,7 +1,8 @@
 /** Read-only campaign map view model (task12). No DOM, no campaign state writes.
  * Inputs are the admitted task2 atlas projection (map-view.json) and identity map.
  *
- * Scope boundary (interim, until tasks 4/10 provide the lord-visible knowledge snapshot):
+ * Scope boundary: an INTERIM rule chosen by task12, not defined by the plan. It stands in until tasks 4/10
+ * provide the lord-visible knowledge snapshot from delivered reports. Until then:
  * a lord sees only the regions named by the admitted holding record they hold
  * (atlas.selection.holding.adminRefs). A person without a holding sees only the region
  * of the admitted start site when they start there. Everything else is unknown. */

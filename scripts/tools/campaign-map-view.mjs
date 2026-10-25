@@ -32,12 +32,16 @@ const inside = (poly, x, y) => {
   return hit;
 };
 
-/** Dissolves dong rings into the boundary of one title rank. Each dong segment is kept only when the two
- * sides of its midpoint (probed 0.25 atlas units along the normal) belong to different titles or one side is
- * outside every dong. Neighbouring dong do not always share vertices, so a segment-identity test is not enough. */
-export function rankBoundary(regions, titleOf) {
+/** Outline of every title of one rank. Membership comes only from the atlas (county currentSlots, and the
+ * union of countyIds above county), so titles of one rank may overlap (constituency counties cross gu lines).
+ * A dong segment belongs to a title's outline when exactly one side of its midpoint (probed 0.25 atlas units
+ * along the normal) lies in a member dong; neighbouring dong do not always share vertices, so a
+ * segment-identity test is not enough. Identical segments from several titles are drawn once. */
+export function rankBoundary(regions, titles) {
   const polys = regions.map(polygonOf);
-  const owner = (x, y) => { const hit = polys.find(poly => inside(poly, x, y)); return hit ? titleOf.get(hit.id) ?? hit.id : null; };
+  const regionAt = (x, y) => polys.find(poly => inside(poly, x, y))?.id ?? null;
+  const memberOf = new Map(regions.map(region => [region.id, []]));
+  titles.forEach((title, index) => { for (const id of title.regionIds) memberOf.get(id)?.push(index); });
   const seen = new Set(), kept = [];
   for (const poly of polys) for (const ring of poly.rings) for (let i = 0; i + 1 < ring.length; i++) {
     const [ax, ay] = ring[i], [bx, by] = ring[i + 1];
@@ -45,8 +49,8 @@ export function rankBoundary(regions, titleOf) {
     if (seen.has(key)) continue; seen.add(key);
     const length = Math.hypot(bx - ax, by - ay); if (length === 0) continue;
     const mx = (ax + bx) / 2, my = (ay + by) / 2, nx = -(by - ay) / length * 0.25, ny = (bx - ax) / length * 0.25;
-    const left = owner(mx + nx, my + ny), right = owner(mx - nx, my - ny);
-    if (left !== right) kept.push({ a: a < b ? a : b, b: a < b ? b : a });
+    const left = new Set(memberOf.get(regionAt(mx + nx, my + ny)) ?? []), right = new Set(memberOf.get(regionAt(mx - nx, my - ny)) ?? []);
+    if ([...left].some(t => !right.has(t)) || [...right].some(t => !left.has(t))) kept.push({ a: a < b ? a : b, b: a < b ? b : a });
   }
   const adjacency = new Map();
   for (const s of kept) for (const [p, q] of [[s.a, s.b], [s.b, s.a]]) (adjacency.get(p) ?? adjacency.set(p, []).get(p)).push({ q, s });
@@ -74,13 +78,6 @@ export function buildMapView(atlasBytes) {
     if (!title) throw new Error('Unresolved title: ' + id);
     // currentSlots bind the current (2026) dong regions; datedSlots carry historical slots outside this atlas.
     if (title.rank === 'county') return title.currentSlots.map(slot => slot.dongId);
-    // A duchy is a gu: its countyIds are constituencies that can cross gu lines, so membership is the
-    // 5-digit administrative code shared by the duchy id and the dong region id (region:NNNNN.....).
-    if (title.rank === 'duchy') {
-      const code = /^geography:duchy:(\d{5})$/.exec(title.id)?.[1];
-      if (!code) throw new Error('Unexpected duchy id: ' + title.id);
-      return atlas.regions.filter(region => region.id.startsWith('region:' + code)).map(region => region.id);
-    }
     return title.countyIds.flatMap(dongs);
   };
   const regionIds = new Set(atlas.regions.map(region => region.id));
@@ -106,14 +103,8 @@ export function buildMapView(atlasBytes) {
         regionIds: members };
     }),
     // Display boundaries per rank, dissolved from the region topology (title.path is the undissolved dong union).
-    rankBoundaries: Object.fromEntries(['county', 'duchy', 'kingdom', 'empire'].map(rank => {
-      const titleOf = new Map();
-      for (const title of atlas.geography.titles.filter(t => t.rank === rank)) for (const id of dongs(title.id)) {
-        if (titleOf.has(id)) throw new Error('Region in two ' + rank + ' titles: ' + id);
-        titleOf.set(id, title.id);
-      }
-      return [rank, rankBoundary(atlas.regions, titleOf)];
-    })),
+    rankBoundaries: Object.fromEntries(['county', 'duchy', 'kingdom', 'empire'].map(rank =>
+      [rank, rankBoundary(atlas.regions, atlas.geography.titles.filter(t => t.rank === rank).map(t => ({ regionIds: [...new Set(dongs(t.id))] })))])),
     stations: atlas.stations.map(station => ({ id: station.id, name: station.name, x: station.x, y: station.y,
       lineIds: station.lineIds, regionId: stationRegion(station) })),
     edges: atlas.edges.map(edge => ({ id: edge.id, a: edge.a, b: edge.b, lineIds: edge.lineIds })),
