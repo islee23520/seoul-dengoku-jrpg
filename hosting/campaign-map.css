@@ -1,0 +1,124 @@
+/* Campaign map (task12), ported from Unity StrategyMapScreen flat route + FoundationPovHud (R4).
+   1280x720 grid: 48px header, 303px docks, margin 16, gutter 12. Every value traces to unity-theme.css. */
+#realtime[data-screen=campaign-map]{height:100dvh;overflow:hidden}
+/* StrategyMapScreen.BuildWorldControls starts the mode buttons at x=250 of the 1280 canvas; station labels are 6 atlas units. */
+.cm{position:relative;height:100%;--cm-panel-top:calc(var(--layout-header-h) + var(--layout-gutter));--cm-nav-modes-x:250px;--cm-station-label:6px;
+  /* FoundationPovHud literals: identity panel height 280, first fact y 104, fact pitch 56 (104/160/216); 48 = role rect pad+32..pad+80 */
+  --cm-identity-h:280px;--cm-fact-y:104px;--cm-fact-pitch:56px;--space-48:48px;--cm-pad:calc(var(--layout-panel-padding) - var(--border-hairline))}
+.cm-visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+/* map stage: full-bleed under the chrome, as in R4 */
+.cm__stage{position:absolute;inset:0;background:var(--color-canvas)}
+.cm__map{display:block;width:100%;height:100%;cursor:grab;touch-action:none}
+.cm__map.is-panning{cursor:grabbing}
+.cm__map:focus-visible{outline:var(--border-focus) solid var(--color-accent);outline-offset:calc(-1*var(--border-focus))}
+.cm-region{vector-effect:non-scaling-stroke;stroke:var(--color-canvas);stroke-width:var(--border-hairline);fill:color-mix(in srgb,var(--color-faction-neutral) 45%,var(--color-canvas))}
+.cm-region--unknown{fill:color-mix(in srgb,var(--color-faction-neutral) 28%,var(--color-canvas))}
+.cm-region--jurisdiction,.cm-region--known{fill:color-mix(in srgb,var(--cm-fill,var(--color-faction-neutral)) 75%,var(--color-canvas))}
+[data-mode=titles] .cm-region--jurisdiction{fill:color-mix(in srgb,var(--color-focus) 55%,var(--color-canvas))}
+.cm-title{fill:none;vector-effect:non-scaling-stroke;stroke:var(--color-ink-secondary);stroke-width:var(--border-strong);stroke-linejoin:round;pointer-events:none}
+[data-mode=titles] .cm-region{stroke:color-mix(in srgb,var(--color-canvas) 55%,transparent)}
+.cm-target{fill:transparent;stroke:none;cursor:pointer;outline:none}
+.cm-target:hover{fill:color-mix(in srgb,var(--color-ink) 12%,transparent)}
+.cm-target:focus-visible{vector-effect:non-scaling-stroke;stroke:var(--color-accent);stroke-width:var(--border-focus);stroke-dasharray:4 3}
+.cm-scope{pointer-events:auto}
+.cm-selected{fill:color-mix(in srgb,var(--color-focus) 22%,transparent);vector-effect:non-scaling-stroke;stroke:var(--color-ink);stroke-width:var(--border-hairline);pointer-events:none}
+.cm-rail{pointer-events:none}
+.cm-rail__edge{vector-effect:non-scaling-stroke;stroke:var(--color-ink-secondary);stroke-width:var(--border-hairline);opacity:.7}
+.cm-rail__station{fill:var(--color-ink-muted)}
+.cm-rail__station.is-known{fill:var(--color-ink)}
+.cm-rail__label{font:var(--weight-medium) var(--cm-station-label)/1 var(--font-ui);fill:var(--color-ink);paint-order:stroke;stroke:var(--color-canvas);stroke-width:1.5px}
+
+/* common navigation (Unity foundation-common-navigation): canvas at .92, brass rule */
+.cm-nav{position:absolute;inset:0 0 auto;height:var(--layout-header-h);display:flex;align-items:stretch;gap:var(--space-4);padding-inline:var(--layout-margin);
+  background:color-mix(in srgb,var(--color-canvas) 92%,transparent);border-bottom:var(--border-hairline) solid var(--color-rule-brass);z-index:1}
+.cm-nav__person{flex:0 0 auto;width:calc(var(--cm-nav-modes-x) - var(--layout-margin));align-self:center;font:var(--weight-bold) var(--type-h3)/1 var(--font-ui);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cm-nav__group{display:flex}
+.cm-nav__button{min-height:var(--layout-header-h);padding-inline:var(--space-12);font-size:var(--type-caption);white-space:nowrap}
+.cm-nav__button.is-selected{color:var(--color-ink);font-weight:var(--weight-bold)}
+.cm-nav__button[aria-disabled=true]{cursor:default}
+.cm-nav__trail{display:flex;align-items:stretch;margin-left:auto}
+.cm-nav__legend{display:flex;align-items:center;gap:var(--space-8);padding-left:var(--space-24);font:var(--weight-regular) var(--type-caption)/1 var(--font-ui);color:var(--color-faction-neutral);white-space:nowrap}
+
+/* docks */
+.cm-dock{position:absolute;top:var(--cm-panel-top);width:var(--layout-dock-w);padding:var(--layout-panel-padding);z-index:1}
+.cm-dock--identity{left:var(--layout-margin)}
+/* Identity dock = FoundationPovHud.Build lines 126-134: panel PanelTop..PanelTop+280, every child placed in panel
+   coordinates (pad = layout.panel-padding). Portrait 80 at (pad,pad); name type.h2 in pad..pad+32 and role
+   type.label in pad+32..pad+80, both at x = pad+80+gutter; facts at y = 104/160/216, each a 24px icon, a
+   type.caption label in y..y+24 at x+32 and a type.body value in y+24..y+64, all MidlineLeft with normal
+   wrapping (CharacterSelectLayer.Text). Offsets subtract the 1px panel border so text lands on Unity's pixels. */
+.cm-dock--identity{height:var(--cm-identity-h);padding:0;box-sizing:border-box}
+.cm-dock--identity > *{position:absolute;margin:0}
+.cm-dock--identity .cm-identity__head{inset:0;display:block;min-height:0}
+.cm-dock--identity .cm-portrait{position:absolute;left:var(--cm-pad);top:var(--cm-pad)}
+.cm-dock--identity .cm-identity__head > div{display:contents}
+.cm-dock--identity .cm-identity__name,.cm-dock--identity .cm-identity__role{position:absolute;left:calc(var(--cm-pad) + var(--space-80) + var(--layout-gutter));right:var(--cm-pad);display:flex;align-items:center;margin:0;line-height:1.2}
+.cm-dock--identity .cm-identity__name{top:var(--cm-pad);height:var(--space-32);font-weight:var(--weight-regular)}
+/* Label() renders every identity text with FontBody in color.ink (FoundationPovHud.cs:487-491). */
+.cm-dock--identity .cm-identity__role{color:var(--color-ink)}
+.cm-dock--identity .cm-identity__role{top:calc(var(--cm-pad) + var(--space-32));height:var(--space-48)}
+.cm-dock--identity .cm-facts{top:calc(var(--cm-fact-y) - var(--border-hairline));left:var(--cm-pad);right:var(--cm-pad);display:block;margin:0}
+.cm-dock--identity .cm-fact{position:relative;height:var(--cm-fact-pitch)}
+.cm-dock--identity .cm-fact dt{height:var(--space-24);gap:var(--space-8);line-height:1.2}
+.cm-dock--identity .cm-fact dd{position:absolute;top:var(--space-24);left:0;right:0;height:var(--space-40);display:flex;align-items:center;margin:0;line-height:1.2}
+.cm-dock--context{left:calc(var(--layout-margin) + var(--layout-dock-w) + var(--layout-gutter))}
+.cm-dock--detail{right:var(--layout-margin);max-height:calc(100% - var(--cm-panel-top) - var(--layout-margin));display:flex;flex-direction:column}
+/* FoundationPovHud: 80px portrait area at the panel padding, name/role beside it (x = pad + 80 + gutter);
+   the detail dock uses a 40px area with the name at pad + 56. A missing texture shows the 24px 'user' icon. */
+.cm-identity__head{display:grid;grid-template-columns:var(--space-80) 1fr;column-gap:var(--layout-gutter);min-height:var(--space-80)}
+.cm-detail__head{display:grid;grid-template-columns:var(--space-40) 1fr;column-gap:var(--space-16);align-items:center;min-height:var(--space-40)}
+.cm-portrait{display:block;width:var(--space-80);height:var(--space-80)}
+.cm-portrait--sm{width:var(--space-40);height:var(--space-40)}
+.cm-portrait .cm-icon{width:var(--space-24);height:var(--space-24)}
+.cm-identity__name{font:var(--weight-medium) var(--type-h2)/1.3 var(--font-ui)}
+.cm-identity__role{margin-top:var(--space-4);font:var(--weight-regular) var(--type-label)/1.4 var(--font-ui);color:var(--color-ink-secondary)}
+.cm-facts{display:grid;gap:var(--space-12);margin-top:var(--space-16)}
+.cm-dock--context .cm-facts{margin-top:0}
+.cm-fact dt{display:flex;align-items:center;gap:var(--space-8);font:var(--weight-regular) var(--type-caption)/1.4 var(--font-ui);color:var(--color-ink-secondary)}
+.cm-fact dd{margin:var(--space-4) 0 0;font:var(--weight-regular) var(--type-body)/1.4 var(--font-ui);color:var(--color-ink);overflow-wrap:anywhere;word-break:keep-all}
+.cm-icon{flex:none;width:var(--space-24);height:var(--space-24);fill:none;stroke:var(--color-focus);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+.cm-detail__name{font:var(--weight-medium) var(--type-h3)/1.3 var(--font-ui)}
+.cm-tabs{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-8);margin-top:var(--space-16)}
+.cm-tab{min-height:var(--hit-min);padding-inline:var(--space-4);gap:var(--space-4);white-space:nowrap;border-color:var(--color-line);background:var(--color-surface-sunken);color:var(--color-ink);font-size:var(--type-caption)}
+.cm-tab:hover{border-color:var(--color-accent)}
+.cm-tab.is-selected{border:var(--border-strong) solid var(--color-focus)}
+.cm-detail__scroll{min-height:0;overflow-y:auto;margin-top:var(--space-16);display:grid;gap:var(--space-8);align-content:start}
+.cm-rows,.cm-context{display:grid;gap:var(--layout-row-gap);align-content:start}
+.cm-row{justify-content:flex-start;width:100%;min-height:var(--layout-row-h);border-color:var(--color-line);background:var(--color-surface-sunken);color:var(--color-ink);text-align:left}
+.cm-row span{min-width:0;overflow-wrap:anywhere;word-break:keep-all}
+.cm-row:hover{border-color:var(--color-accent)}
+.cm-row.is-selected{border:var(--border-strong) solid var(--color-focus)}
+.cm-row:active,.cm-tab:active,.cm-chip:active{background:var(--color-surface)}
+.cm-empty,.cm-label{font:var(--weight-regular) var(--type-body)/1.4 var(--font-ui)}
+.cm-caption{font:var(--weight-regular) var(--type-caption)/1.4 var(--font-ui);color:var(--color-ink-secondary)}
+.cm-context__title{margin:0;font:var(--weight-bold) var(--type-h3)/1.3 var(--font-ui)}
+.cm-context .cm-facts{margin-top:var(--space-8)}
+.cm-regions-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4)}
+.cm-regions-list li{margin:0}
+.cm-chip{width:100%;min-height:var(--hit-min);padding-inline:var(--space-8);justify-content:flex-start;font-size:var(--type-caption);color:var(--color-ink)}
+.cm-chip:hover{background:var(--color-surface-sunken)}
+
+/* refusal notice and header legend swatch */
+.cm-swatch{display:inline-block;width:var(--space-12);height:var(--space-12);border-radius:var(--radius-sm)}
+.cm-swatch--unclaimed{background:var(--color-faction-neutral)}
+.cm-toast{position:absolute;left:50%;bottom:var(--layout-margin);transform:translateX(-50%);z-index:1;font:var(--weight-medium) var(--type-caption)/1.4 var(--font-ui);color:var(--color-ink)}
+.cm-toast:not(:empty){padding:var(--space-8) var(--space-16);background:var(--color-surface);border:var(--border-hairline) solid var(--color-line);border-radius:var(--radius-md);box-shadow:var(--elevation-card)}
+
+/* Below 1000px (not Unity parity; 390 is a candidate): the three 303px docks cannot sit beside each other,
+   so the map goes on top, docks stack below and the document scrolls. Width must match STACKED_MAX in campaignMap.ts. */
+@media (max-width:1000px){
+  #realtime[data-screen=campaign-map]{height:auto;overflow:visible}
+  .cm{display:flex;flex-direction:column;gap:var(--layout-gutter);height:auto;padding-bottom:var(--layout-margin)}
+  .cm-nav{position:static;order:0;height:auto;flex-wrap:wrap;padding-block:var(--space-4)}
+  .cm-nav__person{width:100%;padding-block:var(--space-8)}
+  .cm-nav__group,.cm-nav__trail{flex-wrap:wrap}
+  .cm-nav__trail{margin-left:0}
+  .cm-nav__button{min-height:var(--hit-min)}
+  .cm__stage{position:relative;order:1;height:60dvh;margin-inline:var(--layout-margin);border:var(--border-hairline) solid var(--color-line);border-radius:var(--radius-lg);overflow:hidden}
+  .cm-dock{position:static;width:auto;margin-inline:var(--layout-margin)}
+  .cm-dock--identity{order:2;position:relative;top:0;left:auto}.cm-dock--context{order:3}.cm-dock--detail{order:4;max-height:none}
+  .cm-toast{bottom:auto;top:var(--space-8);max-width:calc(100% - 2*var(--space-8))}
+}
+@media (prefers-reduced-motion:reduce){.cm *{transition:none!important}}

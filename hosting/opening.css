@@ -1,5 +1,6 @@
 @import './host.css';
 @import './unity-theme.css';
+@import './campaign-map.css';
 /* Opening surfaces ported from Unity MainTitleCanvas (R1, R2) and CharacterSelectLayer (R3/R8).
    Every value traces to unity-theme.css. */
 body{background:var(--color-canvas);color:var(--color-ink);font:var(--weight-regular) var(--type-body)/1.5 var(--font-ui)}
@@ -44,7 +45,6 @@ kbd{font:inherit}
 .ui-select__count{font:var(--weight-regular) var(--type-label)/1 var(--font-ui);color:var(--color-ink-secondary);margin-bottom:var(--space-12)}
 .ui-select__list{display:grid;grid-template-columns:1fr;gap:var(--space-8);overflow-y:auto;min-height:0;padding:var(--space-4)}
 .ui-select__stage{display:grid;place-items:center;padding:var(--space-24);text-align:center}
-.ui-select__stage p{max-width:24em;font:var(--weight-regular) var(--type-caption)/1.5 var(--font-ui);color:var(--color-ink-muted);word-break:keep-all}
 
 /* list-candidate / card-person: hover = accent border, selected = 2px focus frame, keyboard focus = separate outline */
 .ui-card{display:grid;gap:var(--space-4);min-height:var(--hit-min);padding:var(--space-12);text-align:left;cursor:pointer;

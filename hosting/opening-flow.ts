@@ -1,6 +1,10 @@
-import { openingActors, selectOpeningActor, blockedOpeningActions, openingAdmission } from '../game/src/runtime/openingScenario.ts';
+import { openingActors, selectOpeningActor, openingAdmission } from '../game/src/runtime/openingScenario.ts';
 import { t } from './ui-strings.ts';
 import { describeStartFailure } from './opening-errors.ts';
+import { mountCampaignMap } from '../game/ui/campaignMap.ts';
+import type { MapView, IdentityMap } from '../game/ui/campaignMap.ts';
+import mapView from '../game/data/campaign/map-view.json';
+import identityMap from '../game/data/campaign/identity-map.json';
 
 type Actor = (typeof openingActors)[number];
 type Spawn = (id: unknown, surface: HTMLElement) => Promise<void>;
@@ -67,7 +71,7 @@ export function mountOpening(parent: HTMLElement, spawn: Spawn): void {
       + '<p class="ui-select__scenario">야간 배급 창구 · 신정2동 · 세 번째 급수계약 개막일</p>'
       + '<p class="ui-select__hint"><kbd class="ui-key-cap">' + t('ui.key.move') + '</kbd></p></header>'
       + '<aside class="ui-select__dock ui-panel" aria-label="후보 인물"><p class="ui-select__count"></p><div class="ui-select__list" role="listbox" aria-label="개막 인물"></div></aside>'
-      + '<div class="ui-select__stage"><p>캠페인 지도는 아직 연결되지 않았다. 시작 위치는 오른쪽 상세에 표시한다.</p></div>'
+      + '<div class="ui-select__stage" aria-hidden="true"></div>'
       + '<section class="ui-select__dock ui-select__detail ui-panel" aria-live="polite" aria-label="선택한 인물"><div class="ui-select__bio"></div>'
       + '<footer class="ui-select__actions"><button class="ui-button ui-button--menu" id="select-back" type="button"><kbd class="ui-key-cap">' + t('ui.key.cancel') + '</kbd> ' + t('ui.character-select.back') + '</button>'
       + '<button class="ui-button ui-button--primary" id="select-confirm" type="button"><kbd class="ui-key-cap ui-key-cap--on-primary">' + t('ui.key.submit') + '</kbd> ' + t('ui.character-select.confirm') + '</button></footer>'
@@ -144,7 +148,10 @@ export function mountOpening(parent: HTMLElement, spawn: Spawn): void {
         const failure = describeStartFailure(error);
         console.error('[opening] start failed', failure.code, error);
         status.textContent = failure.text;
-        el<HTMLButtonElement>('#select-confirm').disabled = false;
+        const confirm = el<HTMLButtonElement>('#select-confirm');
+        confirm.disabled = false;
+        // The start dialog is gone; return focus to the action that opened it.
+        confirm.focus();
       }
     }
     el('#select-back').addEventListener('click', () => { if (!preparing) menu(); }, { signal });
@@ -160,24 +167,17 @@ export function mountOpening(parent: HTMLElement, spawn: Spawn): void {
     select(initial, true);
   }
 
+  /** Post-start campaign map (task12, Unity R4). The E0 occupancy surface keeps its placement receipts
+   * on the root but is no longer shown here; production entry integration is task15. */
   function world(actor: Actor, surface: HTMLElement): void {
-    screen?.abort(); screen = null;
-    parent.dataset.screen = 'world';
+    screen?.abort(); screen = new AbortController();
     parent.replaceChildren();
-    const title = document.createElement('h1'); title.textContent = actor.name + ' · ' + actor.place;
-    const placement = document.createElement('output');
-    placement.id = 'spawn-state'; placement.textContent = actor.mapId + ' (' + actor.tile.x + ', ' + actor.tile.y + ') · ' + actor.facing;
-    const appearance = document.createElement('p'); appearance.textContent = '외형 미승인: 지도 위 이름으로 인물 위치를 표시합니다.';
-    const heading = document.createElement('h2'); heading.textContent = '입력 미승인으로 차단된 행동';
-    const list = document.createElement('ul'); list.id = 'blocked-actions';
-    for (const gap of blockedOpeningActions) {
-      const row = document.createElement('li'); row.dataset.action = gap.action; row.dataset.gap = gap.input;
-      const button = document.createElement('button'); button.disabled = true; button.textContent = gap.action;
-      const reason = document.createElement('small'); reason.textContent = gap.input + ' · ' + gap.category;
-      row.append(button, reason); list.append(row);
-    }
     parent.dataset.scenario = openingAdmission.scenarioId; parent.dataset.actor = actor.actorId;
-    parent.append(title, placement, surface, appearance, heading, list);
+    parent.dataset.spawn = surface.dataset.mapId + ':' + surface.dataset.tileX + ',' + surface.dataset.tileY;
+    const map = mountCampaignMap(parent, { view: mapView as unknown as MapView, identity: identityMap as unknown as IdentityMap,
+      actor, onBack: () => title() });
+    screen.signal.addEventListener('abort', map.release);
+    el<HTMLButtonElement>('#cm-mode-political').focus();
   }
 
   title();
