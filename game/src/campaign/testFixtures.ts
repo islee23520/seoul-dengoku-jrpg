@@ -32,7 +32,7 @@ export function reportedState(received: boolean) {
     location: nodeLocation('s01:townhall:tap', content), causeId: 'cause:observation', evidence: { kind: 'raw-observation', nodeId: 's01:townhall:tap', measurementValue: null, calibrationReceipt: null, instrumentLabel: 'P-01', rawText: '20~30 표시 사이', unitLabel: 'kPa', uncertainties: ['small-graduations', 'parallax', 'uncalibrated'] } };
   const report = { id: 'report:observation', fact, recipient: 'K002', carrier: 'K616', createdAt: 1464000, deliveredAt: received ? 1530000 : null, receivedAt: received ? 1590000 : null, source: 'K616', omission: ['uncalibrated'], uncertainty: 'partial-evidence', causeId: fact.causeId };
   return parseCampaignState({ ...e0, revision: 1, clock: { ...e0.clock, worldMilliseconds: 1590000 },
-    mandates: [{ orderId: fact.orderId, causeId: fact.causeId, operation: operation.id, issuerPersonId: 'K002', recipientId: operation.recipient, authority,
+    mandates: [{ origin: 'legacy-boundary', orderId: fact.orderId, causeId: fact.causeId, operation: operation.id, issuerPersonId: 'K002', recipientId: operation.recipient, authority,
       compositeVersion: summaryHash({ operation: operation.id, authority }), target: fact.location,
       issuerLocation: nodeLocation('s01:townhall:desk', content), recipientLocation: nodeLocation('s01:townhall:yard', content),
       route: ['s01:townhall:desk', 's01:townhall:entry', 's01:townhall:yard', 's01:townhall:cistern', 's01:townhall:tap'],

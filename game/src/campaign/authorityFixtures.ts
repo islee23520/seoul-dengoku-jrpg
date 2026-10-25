@@ -10,6 +10,7 @@ export function acceptedOrder(operation: 'S01-L' | 'S01-O', orderId: string = op
   const recipientId = operation === 'S01-L' ? 'K568' : 'K616';
   const basis = composeCampaignAuthority(e0, { operation, issuerPersonId: 'K002', recipientId, expectedRevision: 0 }, content);
   return {
+    origin: 'legacy-boundary',
     orderId: id('OrderId', orderId), causeId: id('CauseId', orderId), operation,
     issuerPersonId: basis.issuerPersonId, recipientId: basis.recipientId, authority: basis.authority, compositeVersion: basis.compositeVersion,
     target: nodeLocation('s01:townhall:desk', content), issuerLocation: nodeLocation('s01:townhall:desk', content),
