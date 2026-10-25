@@ -1,0 +1,7 @@
+{
+  "extends": "../../game/tsconfig.json",
+  "compilerOptions": {
+    "typeRoots": ["../../engine/node_modules/@types"]
+  },
+  "include": ["campaign-save.ts"]
+}

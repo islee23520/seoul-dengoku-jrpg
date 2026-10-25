@@ -3,6 +3,8 @@ import { runtimeSchema } from '../runtime/realtimeHost.ts';
 import type { RuntimeState } from '../runtime/realtimeHost.ts';
 import { count, ref, json, hash, canonical, resultId, BattleConflict } from '../battle/realtime.ts';
 import type { BattleOutcome, Json } from '../battle/realtime.ts';
+import { ownInput, CampaignBoundaryError } from '../campaign/errors.ts';
+import { readCheckpoint, writeCheckpoint } from './checkpointStorage.ts';
 
 export const SAVE_NAMESPACE = 'seoul-realtime-campaign-v1';
 const versionsSchema = z.strictObject({ rulesHash: ref, contentHash: ref, approvedInputsHash: ref }).readonly();
@@ -41,6 +43,11 @@ export function checkpoint(runtime: RuntimeState, input: { readonly versions: Ve
   return restoreCheckpoint({ ...payload, checksum: hash(payload) }, input.versions);
 }
 export function restoreCheckpoint(value: unknown, expected: Versions): CampaignCheckpoint {
+  try { ownInput(value); ownInput(expected); }
+  catch (error) {
+    if (error instanceof CampaignBoundaryError) throw new CheckpointCorrupt(error.code);
+    throw error;
+  }
   const parsed = envelopeSchema.safeParse(value);
   if (!parsed.success) throw new CheckpointCorrupt('envelope-shape');
   const envelope = parsed.data;
@@ -64,25 +71,10 @@ export function restoreCheckpoint(value: unknown, expected: Versions): CampaignC
   return envelope;
 }
 export function persistCheckpoint(storage: CheckpointStorage, envelope: CampaignCheckpoint): void {
-  restoreCheckpoint(envelope, envelope.versions);
-  const key = SAVE_NAMESPACE + ':payload:' + envelope.checksum;
-  const payload = canonical(envelope);
-  storage.setItem(key, payload);
-  const readback = storage.getItem(key);
-  if (readback !== payload) throw new CheckpointCorrupt('staged-readback');
-  restoreCheckpoint(JSON.parse(readback), envelope.versions);
-  const pointerKey = SAVE_NAMESPACE + ':active';
-  const previous = storage.getItem(pointerKey);
-  const pointer = previous === null ? null : pointerSchema.parse(JSON.parse(previous));
-  storage.setItem(pointerKey, canonical({ current: key, previous: pointer?.current ?? null }));
+  writeCheckpoint(storage, envelope, { namespace: SAVE_NAMESPACE,
+    parse: value => restoreCheckpoint(value, envelope.versions), checksum: value => value.checksum, encode: canonical });
 }
-const pointerSchema = z.strictObject({ current: ref, previous: ref.nullable() });
 export function loadCheckpoint(storage: CheckpointStorage, expected: Versions): CampaignCheckpoint {
-  const raw = storage.getItem(SAVE_NAMESPACE + ':active');
-  if (raw === null) throw new CheckpointCorrupt('missing-checkpoint');
-  const pointer = pointerSchema.parse(JSON.parse(raw));
-  if (!pointer.current.startsWith(SAVE_NAMESPACE + ':payload:')) throw new CheckpointCorrupt('namespace');
-  const payload = storage.getItem(pointer.current);
-  if (payload === null) throw new CheckpointCorrupt('missing-payload');
-  return restoreCheckpoint(JSON.parse(payload), expected);
+  return readCheckpoint(storage, { namespace: SAVE_NAMESPACE,
+    parse: value => restoreCheckpoint(value, expected), checksum: value => value.checksum });
 }

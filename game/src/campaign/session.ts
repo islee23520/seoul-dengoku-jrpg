@@ -102,6 +102,20 @@ export class CampaignSession {
     this.#publish();
   }
   checkpoint(): CampaignState { this.reconcile(); return this.state; }
+  /** Explicit load discards unsaved elapsed time. Validate and sample before one host commit. */
+  restore(input: unknown): void {
+    this.#requireLive();
+    const state = parseCampaignState(input, this.#content);
+    const origin = this.#sample();
+    const clock = this.#content.data.operations.clock;
+    const worldTime = state.clock.worldMilliseconds;
+    this.#clock.replace({ ...this.#host.state, worldTime,
+      worldTick: Math.floor((worldTime - clock.epochSeconds * clock.worldMillisecondsPerSecond) /
+        (clock.hostIntegrationMaxRealMilliseconds * clock.worldSecondsPerRealSecond)),
+      campaignState: state });
+    this.#origin = origin;
+    this.#publish();
+  }
   close(): void {
     if (!this.#live) return;
     this.reconcile(); this.#live = false; this.#clock.release();
