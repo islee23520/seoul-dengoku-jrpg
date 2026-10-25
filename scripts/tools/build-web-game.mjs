@@ -8,14 +8,14 @@ import { createMapPreview } from '../../hosting/preview.mjs';
 export const ENGINE_REVISION='6d4907e65e315787ce49b0d20dd48b68e1277395';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 const engine=path.join(root,'engine');
-export const MAX_SERVED_FILE_BYTES=25*1024*1024;
+export const MAX_SERVED_FILE_BYTES=20*1024*1024;
 export async function assertServedFileSizes(directory) {
  for(const item of await readdir(directory,{withFileTypes:true})) {
   const file=path.join(directory,item.name);
   if(item.isDirectory()) await assertServedFileSizes(file);
   else {
    const {size}=await stat(file);
-   if(size>=MAX_SERVED_FILE_BYTES) throw new Error('Served file must be below '+MAX_SERVED_FILE_BYTES+' bytes: '+file+' ('+size+')');
+   if(size>MAX_SERVED_FILE_BYTES) throw new Error('Served file must be at most '+MAX_SERVED_FILE_BYTES+' bytes: '+file+' ('+size+')');
   }
  }
 }

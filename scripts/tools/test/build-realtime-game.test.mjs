@@ -9,6 +9,7 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { ENGINE_REVISION, verifyEngine, prepareRealtimeSource, buildRealtimeGame } from '../build-realtime-game.mjs';
 import { createMapPreview } from '../../../hosting/preview.mjs';
+import { assertServedFileSizes } from '../build-web-game.mjs';
 
 const root = fileURLToPath(new URL('../../../', import.meta.url));
 const engine = path.join(root, 'engine');
@@ -60,9 +61,23 @@ test('realtime build retains the patched API and isolates map preview inputs', a
     : await mkdtemp(path.join(tmpdir(), 'realtime-build-test-'));
   try {
     const receipt = await buildRealtimeGame(output);
+    // Then: every deployable output, not just the entry, has Pages headroom.
+    await assertServedFileSizes(output);
     assert.equal(receipt.entryTypecheck.file, 'hosting/realtime-entry.ts');
     assert.equal(receipt.entryTypecheck.diagnostics, 0);
     const names = await readdir(output);
+    const assets = await readdir(path.join(output, 'assets'));
+    const fonts = JSON.parse(await readFile(path.join(root, 'hosting/fonts/provenance.json'), 'utf8'));
+    const css = (await Promise.all(assets.filter(name => name.endsWith('.css'))
+      .map(name => readFile(path.join(output, 'assets', name), 'utf8')))).join('\n');
+    for (const [name, expected] of Object.entries(fonts.files)) {
+      const emitted = assets.find(asset => asset.startsWith(name.replace('.otf', '-')) && asset.endsWith('.otf'));
+      assert(emitted, name);
+      assert.equal(sha(await readFile(path.join(output, 'assets', emitted))), expected);
+      assert(css.includes(emitted), emitted);
+    }
+    assert(!/data:[^;]*font|data:application\/[^;]+;base64/.test(css));
+    assert.equal(sha(await readFile(path.join(output, 'fonts/NotoSansKR-OFL.txt'))), fonts.licenseSha256);
     assert(names.includes('realtime.html'));
     assert(names.includes('realtime.js'));
     for (const name of ['preview.html', 'player.js', 'map-preview.json', 'project.json']) assert(!names.includes(name), name);

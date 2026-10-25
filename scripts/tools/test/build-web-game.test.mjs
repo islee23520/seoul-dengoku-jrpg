@@ -19,7 +19,7 @@ test('public output contains actual player and no private publication records',a
  async function walk(dir){for(const item of await readdir(dir,{withFileTypes:true})){const url=new URL(item.name+(item.isDirectory()?'/':''),dir); assert(!/ledger|receipt|sqlite|canon|proof/i.test(item.name),item.name);if(item.isDirectory())await walk(url);else if(/\.(json|html|css|js|md|txt)$/.test(item.name)){const text=await readFile(url,'utf8');assert(!text.includes('/Users/ilseoblee'),item.name);}}} await walk(out);
  const html=await readFile(new URL('preview.html',out),'utf8');assert(html.includes('projectUrl:"./map-preview.json"')); assert(!html.includes('qaInstrumentation'));
 });
-for(const bytes of [25*1024*1024-1,25*1024*1024,25*1024*1024+1]) {
+for(const bytes of [20*1024*1024-1,20*1024*1024,20*1024*1024+1]) {
  test('served file size gate at '+bytes+' bytes',async()=>{
   // Given a nested served asset, including non-JavaScript files.
   const dir=await mkdtemp(path.join(tmpdir(),'web-size-test-'));
@@ -28,7 +28,7 @@ for(const bytes of [25*1024*1024-1,25*1024*1024,25*1024*1024+1]) {
    const file=await open(path.join(dir,'assets/data.bin'),'w');
    try {await file.truncate(bytes);} finally {await file.close();}
    // When the builder checks the complete served tree, then the limit applies.
-   if(bytes<25*1024*1024) await assert.doesNotReject(assertServedFileSizes(dir));
+   if(bytes<=20*1024*1024) await assert.doesNotReject(assertServedFileSizes(dir));
    else await assert.rejects(assertServedFileSizes(dir));
   } finally {await rm(dir,{recursive:true,force:true});}
  });
