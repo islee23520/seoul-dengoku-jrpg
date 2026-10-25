@@ -8,7 +8,7 @@ import { CampaignBoundaryError, requireBoundary } from './errors.ts';
 import { assertComposedAuthority } from './authorityBasis.ts';
 import { acknowledgeCommandEffect } from './commandEffects.ts';
 import { settleCampaignBoundary } from './scheduler.ts';
-import { s01Steps, s01Progress } from './s01Steps.ts';
+import { s01Steps, s01Progress, s01RetreatDistance } from './s01Steps.ts';
 import type { S01Step, S01Track } from './s01Steps.ts';
 import { z } from '../../../engine/node_modules/zod/index.js';
 import { ref, count } from './contentSchemas.ts';
@@ -22,7 +22,7 @@ const replaceTrack = (state: CampaignState, track: S01Track): CampaignState => (
 
 function newTrack(state: CampaignState, order: Order, lane: S01Track['lane']): S01Track {
   return { id: order.orderId + ':' + lane, orderId: order.orderId, lane, step: 0, startedAt: state.clock.worldMilliseconds,
-    elapsed: 0, progress: 0, initialEffort: {}, status: 'running', retreatMillimetres: 0, noticeId: null };
+    elapsed: 0, progress: 0, initialEffort: {}, status: 'running', retreatMillimetres: 0, noticeId: null, decisionHash: null };
 }
 function requiredResources(step: S01Step, order: Order, content: CampaignContent): CampaignState['reservations'][number]['resource'][] {
   const resources: CampaignState['reservations'][number]['resource'][] = step.people.map(p => ({ kind: 'body', entityId: id(p.id.startsWith('K') ? 'PersonId' : 'DutyId', p.id) }));
@@ -239,7 +239,7 @@ export function advanceS01Effects(input: CampaignState, from: number, until: num
       if (step.kind === 'walk' || step.kind === 'retreat') {
         const speed = step.people.some(p => p.activity === 'carrying') ? content.data.operations.routes.ledgerMetresPerSecond : content.data.operations.routes.walkingMetresPerSecond;
         location = done ? nodeLocation(step.kind === 'retreat' ? step.from : step.to, content) : { kind: 'edge-progress', siteId: id('CampaignSiteId', content.data.operations.authority.siteId),
-          from: id('CampaignNodeId', step.from), to: id('CampaignNodeId', step.to), travelledMillimetres: Math.floor(step.kind === 'retreat' ? track.retreatMillimetres - result.progress * speed : result.progress * speed) };
+          from: id('CampaignNodeId', step.from), to: id('CampaignNodeId', step.to), travelledMillimetres: step.kind === 'retreat' ? s01RetreatDistance(track, state, content) - result.progress * speed : result.progress * speed };
       }
       const efforts = result.effort[body.entityId]; requireBoundary(efforts !== undefined, 'inventory');
       return { ...body, location, activity: done ? 'waiting' : person.activity,
@@ -289,7 +289,19 @@ export function revokeS01ForwardRoute(inputState: CampaignState, input: unknown,
   let next: CampaignState = { ...state, revision: state.revision + 1, grants: state.grants.map(g => g.id === grant.id ? { ...g, revisions: [...g.revisions, { ...revision, version }] } : g),
     notices: [...state.notices, { id: request.id, grantId: grant.id, version, recipient: order.recipientId, carrier: id('DutyId', o.authority.duty), legalEffectiveAt: state.clock.worldMilliseconds, receivedAt: null }] };
   next = interrupt(next, track, 'authority-revoked');
-  if (request.backwardRouteSafe && request.returnConsent) next = { ...next, s01: { ...next.s01, tracks: [...next.s01.tracks,
-    { ...newTrack(next, order, 'cut-return'), retreatMillimetres: location.travelledMillimetres, noticeId: request.id }] } };
+  const interrupted = next.s01.tracks.find(t => t.id === track.id), protection = next.results.find(r => r.id === track.id + ':interrupted');
+  requireBoundary(interrupted !== undefined && protection !== undefined, 'cross-link');
+  const decision = { id: request.id, orderId: order.orderId, interruptedTrackId: track.id, at: state.clock.worldMilliseconds,
+    returnConsent: request.returnConsent, backwardRouteSafe: request.backwardRouteSafe,
+    interruptedHash: summaryHash(interrupted), protectionResultId: protection.id };
+  const hash = summaryHash(decision);
+  requireBoundary(protection.physical !== null, 'custody');
+  const causeId = id('CauseId', request.id + ':' + hash);
+  const physical = { ...protection.physical, after: { ...protection.physical.after, causeId } };
+  next = { ...next, custody: [physical.after], results: next.results.map(r => r.id === protection.id ? { ...r, causeId, physical, payloadHash: summaryHash(physical) } : r),
+    s01: { ...next.s01, incidents: [...next.s01.incidents, { ...decision, hash }] } };
+  const noticeTrack = { ...newTrack(next, order, 'cut-return'), noticeId: request.id, decisionHash: hash };
+  next = { ...next, s01: { ...next.s01, tracks: [...next.s01.tracks,
+    { ...noticeTrack, retreatMillimetres: s01RetreatDistance(noticeTrack, next, content) }] } };
   return parseCampaignState(next, content);
 }

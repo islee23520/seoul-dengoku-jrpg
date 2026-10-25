@@ -17,6 +17,7 @@ if (args.length === 1 && args[0] === '--help') {
   assert.equal(args[0], '--scenario');
   assert.ok(['s01-sequential', 'revoke-cut-return', 'finite-support'].includes(args[1] ?? ''), 'unknown scenario');
   const data = new URL('../../game/data/', import.meta.url);
+  const provisionalTimeline = JSON.parse(await readFile(new URL('scenarios/townhall-s01-r2/derived-timeline.json', data), 'utf8'));
   const files = { manifest: 'campaign/source-manifest.json', atlas: 'campaign/atlas.json', identities: 'campaign/identity-map.json',
     scenario: 'scenarios/townhall-s01-r1/scenario.json', projection: 'scenarios/townhall-s01-r1/projection.json', operations: 'scenarios/townhall-s01-r2/operations.json' };
   const packages = Object.fromEntries(await Promise.all(Object.entries(files).map(async ([name, path]) => [name, await readFile(new URL(path, data), 'utf8')])));
@@ -32,16 +33,16 @@ if (args.length === 1 && args[0] === '--help') {
     let hostTime = 0;
     const app = new CampaignApplication({ content, state: e0, now: () => hostTime });
     app.submit(command(app.checkpoint(), 'S01-L')); app.setSpeed(1);
-    hostTime = 167000; app.reconcile();
+    hostTime = provisionalTimeline.realLedgerAt1x.seconds * 1000; app.reconcile();
     const ledger = app.checkpoint(), duty = ledger.bodies.find(b => b.entityId === content.data.operations.authority.duty);
-    assert.equal(ledger.clock.worldMilliseconds, 1002000);
+    assert.equal(ledger.clock.worldMilliseconds, provisionalTimeline.dutyDesk.seconds * 1000);
     assert.equal(duty?.location.kind === 'node' && duty.location.nodeId, 's01:townhall:desk');
     assert.equal(ledger.custody[0]?.returnState, 'resealed');
     app.submit(command(ledger, 'S01-O'));
-    hostTime = 267000; app.reconcile();
+    hostTime = provisionalTimeline.reportReceived.seconds * 1000 / content.data.operations.clock.worldSecondsPerRealSecond; app.reconcile();
     const final = app.checkpoint();
-    assert.equal(final.clock.worldMilliseconds, 1602000);
-    assert.equal(final.reports.filter(r => r.fact.orderId === 'S01-O' && r.receivedAt === 1602000).length, 2);
+    assert.equal(final.clock.worldMilliseconds, provisionalTimeline.reportReceived.seconds * 1000);
+    assert.equal(final.reports.filter(r => r.fact.orderId === 'S01-O' && r.receivedAt === provisionalTimeline.reportReceived.seconds * 1000).length, 2);
     assert.deepEqual(parseCampaignState(JSON.parse(JSON.stringify(final)), content), final);
     result = { scenario: args[1], clock: 'CampaignApplication/CampaignSession', dutyDeskAt: ledger.clock.worldMilliseconds,
       original: final.custody, effort: final.bodies.map(b => ({ entityId: b.entityId, regions: b.regions })), inventories: final.inventories,
@@ -69,5 +70,6 @@ if (args.length === 1 && args[0] === '--help') {
     assert.equal(state.inventories.reduce((sum, i) => sum + i.waterMl, 0), 0);
     result = { scenario: args[1], at: state.clock.worldMilliseconds, consumption: state.consumption, inventories: state.inventories, bodies: state.bodies };
   }
-  console.log(JSON.stringify({ status: 'passed', appendixSha256: content.data.operations.approval.candidateSha256, result }, null, 2));
+  console.log(JSON.stringify({ status: 'passed', provisional: true, decision: 'section2-route-r2-pending-ratification',
+    provisionalTimeline, appendixSha256: content.data.operations.approval.candidateSha256, result }, null, 2));
 }

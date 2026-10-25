@@ -37,6 +37,7 @@ test('recomputes the sequential baseline and finite accounting when the approved
   const result = await validateOperationPack(input);
   // Then durations, individual effort and finite inventory follow the approved tables.
   assert.deepEqual(result.baseline, {
+    provisional: true, decision: 'section2-route-r2-pending-ratification',
     ledgerReceivedAt: 684, handoverAt: 858, ledgerFinishedAt: 1002,
     cisternObservedAt: 1332, tapObservedAt: 1476, observationReceivedAt: 1602,
     K568: { walkingSeconds: 54, carryingSeconds: 96, stationarySeconds: 720, activeSeconds: 870,

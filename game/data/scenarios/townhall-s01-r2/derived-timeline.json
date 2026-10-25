@@ -1,0 +1,8 @@
+{
+  "dutyDesk": { "seconds": 1002, "provisional": true, "decision": "section2-route-r2-pending-ratification" },
+  "cisternObserved": { "seconds": 1332, "provisional": true, "decision": "section2-route-r2-pending-ratification" },
+  "tapObserved": { "seconds": 1476, "provisional": true, "decision": "section2-route-r2-pending-ratification" },
+  "reportReceived": { "seconds": 1602, "provisional": true, "decision": "section2-route-r2-pending-ratification" },
+  "realLedgerAt1x": { "seconds": 167, "provisional": true, "decision": "section2-route-r2-pending-ratification" },
+  "realLedgerAt4x": { "seconds": 41.75, "provisional": true, "decision": "section2-route-r2-pending-ratification" }
+}

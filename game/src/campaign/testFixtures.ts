@@ -21,6 +21,7 @@ export const e0 = createCampaignE0(content);
 export const rejects = (run: () => unknown, code: CampaignErrorCode) => assert.throws(run, (error: unknown) => error instanceof CampaignBoundaryError && error.code === code);
 
 export function reportedState(received: boolean) {
+  // All sequential timestamps below are provisional: section2-route-r2-pending-ratification.
   const operation = content.data.operations.authority.mandates.find(m => m.id === 'S01-O');
   assert.ok(operation);
   const authority = operation.grants.map(grantId => {

@@ -2,13 +2,24 @@ import { summaryHash } from '../domain/eventLedger.ts';
 import type { CampaignState } from './stateSchemas.ts';
 import type { CampaignContent } from './content.ts';
 import { requireBoundary } from './errors.ts';
-import { s01Steps, s01Progress } from './s01Steps.ts';
+import { s01Steps, s01Progress, s01RetreatDistance } from './s01Steps.ts';
 import { nodeLocation } from './locations.ts';
 
 /** Durable physical activity is recomputed from appendix rates, not trusted as checkpoint prose. */
 export function assertS01Links(state: CampaignState, content: CampaignContent): void {
-  const { tracks, activities, care } = state.s01, now = state.clock.worldMilliseconds, o = content.data.operations;
-  for (const rows of [tracks, activities, care]) requireBoundary(new Set(rows.map(r => r.id)).size === rows.length, 'duplicate-id');
+  const { tracks, activities, care, incidents } = state.s01, now = state.clock.worldMilliseconds, o = content.data.operations;
+  for (const rows of [tracks, activities, care, incidents]) requireBoundary(new Set(rows.map(r => r.id)).size === rows.length, 'duplicate-id');
+  for (const incident of incidents) {
+    const { hash, ...decision } = incident;
+    const interrupted = tracks.find(t => t.id === incident.interruptedTrackId);
+    const protection = state.results.find(r => r.id === incident.protectionResultId);
+    const notice = state.notices.find(n => n.id === incident.id);
+    requireBoundary(hash === summaryHash(decision) && interrupted !== undefined && summaryHash(interrupted) === incident.interruptedHash &&
+      interrupted.orderId === incident.orderId && interrupted.startedAt + interrupted.elapsed === incident.at &&
+      protection?.kind === 'safe-return' && protection.safeReturn?.action === 'protect' && protection.orderId === incident.orderId &&
+      protection.at === incident.at && protection.causeId === incident.id + ':' + hash && notice?.legalEffectiveAt === incident.at, 'cross-link');
+    requireBoundary(tracks.some(t => t.lane === 'cut-return' && t.noticeId === incident.id && t.decisionHash === hash), 'cross-link');
+  }
   for (const handler of state.commands.handlers.filter(h => /:(investigation|duty-return|recipient-return|cut-return):step:\d+:handler$/.test(h.id))) {
     requireBoundary(activities.some(a => a.id === handler.id.replace(/:handler$/, ':activity') && a.completedAt === handler.at), 'cross-link');
   }
@@ -51,16 +62,22 @@ export function assertS01Links(state: CampaignState, content: CampaignContent): 
           if ((step.kind === 'walk' || step.kind === 'retreat') && track.elapsed > 0) {
             const speed = step.people.some(p => p.activity === 'carrying') ? o.routes.ledgerMetresPerSecond : o.routes.walkingMetresPerSecond;
             requireBoundary(body.location.kind === 'edge-progress' && body.location.from === step.from && body.location.to === step.to &&
-              body.location.travelledMillimetres === Math.floor(step.kind === 'retreat' ? track.retreatMillimetres - track.progress * speed : track.progress * speed), 'location-scope');
+              body.location.travelledMillimetres === (step.kind === 'retreat' ? s01RetreatDistance(track, state, content) - track.progress * speed : track.progress * speed), 'location-scope');
           }
         }
       }
     } else requireBoundary(track.elapsed === 0 && track.progress === 0, 'inventory');
     if (track.lane === 'cut-return') {
       const notice = state.notices.find(n => n.id === track.noticeId);
-      requireBoundary(notice !== undefined && notice.recipient === order.recipientId && track.retreatMillimetres > 0, 'cross-link');
+      const decision = incidents.find(i => i.id === track.noticeId && i.orderId === track.orderId);
+      requireBoundary(decision !== undefined && track.decisionHash === decision.hash, 'consent-required');
+      const distance = s01RetreatDistance(track, state, content);
+      const protection = state.results.find(r => r.id === decision.protectionResultId);
+      requireBoundary(track.retreatMillimetres === distance && distance > 0 && protection?.physical?.after.location.kind === 'edge-progress' &&
+        protection.physical.after.location.travelledMillimetres === distance, 'location-scope');
+      requireBoundary(notice !== undefined && notice.recipient === order.recipientId, 'cross-link');
       if (track.step > 0) requireBoundary(notice.receivedAt === history[0]?.completedAt, 'cross-link');
-    }
+    } else requireBoundary(track.decisionHash === null, 'cross-link');
   }
   requireBoundary(activities.every(a => tracks.some(t => t.id === a.trackId)), 'cross-link');
   for (const entry of care) {

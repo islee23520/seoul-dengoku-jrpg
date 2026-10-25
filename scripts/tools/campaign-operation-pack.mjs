@@ -37,6 +37,7 @@ export function recomputeBaseline(pack) {
   const walkingSeconds = (bench + archive + threshold) / walk, carryingSeconds = (archive + threshold) / carry;
   const effort = Object.fromEntries(body.regions.map(region => [region, walkingSeconds * (body.effortPerWorldSecond.walking[region] ?? 0) + carryingSeconds * (body.effortPerWorldSecond.carrying[region] ?? 0) + stationary * (body.effortPerWorldSecond.stationary[region] ?? 0)]));
   return {
+    provisional: true, decision: 'section2-route-r2-pending-ratification',
     ledgerReceivedAt, handoverAt, ledgerFinishedAt, cisternObservedAt, tapObservedAt, observationReceivedAt,
     K568: { walkingSeconds, carryingSeconds, stationarySeconds: stationary, activeSeconds: walkingSeconds + carryingSeconds + stationary, effort },
     accounting: {

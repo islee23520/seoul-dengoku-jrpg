@@ -12,6 +12,8 @@ import { s01Progress } from './s01Steps.ts';
 import { acknowledgeCommandEffect } from './commandEffects.ts';
 import { s01VisibleState } from './s01View.ts';
 
+// Sequential timeline expectations are provisional: section2-route-r2-pending-ratification.
+
 export function issuePhysical(state = e0, operation: 'S01-L' | 'S01-O' = 'S01-L') {
   const recipientId = operation === 'S01-L' ? 'K568' : 'K616';
   const basis = composeCampaignAuthority(state, { operation, issuerPersonId: 'K002', recipientId, expectedRevision: state.revision }, content);
@@ -85,7 +87,7 @@ test('revocation at 780 preserves 3m, notice takes until810 and consented retrea
   for (const change of [{ backwardRouteSafe: false }, { returnConsent: false }]) {
     const blocked = advancePhysical(revokeS01ForwardRoute(before, { ...request, ...change }, content), 816000);
     assert.deepEqual(blocked.custody[0]?.location, original?.location);
-    assert.equal(blocked.notices[0]?.receivedAt, null);
+    assert.equal(blocked.notices[0]?.receivedAt, 810000);
   }
 });
 

@@ -116,6 +116,7 @@ test('keeps all parsed state subtrees frozen', () => {
   assert.throws(() => Object.assign(state.clock, { speed: 4 }), TypeError);
   assert.throws(() => Object.assign(state.reports[0]?.fact ?? {}, { observedAt: 0 }), TypeError);
   // Then the receipt snapshot remains unchanged.
+  // Provisional: section2-route-r2-pending-ratification.
   assert.equal(state.reports[0]?.fact.observedAt, 1476000);
 });
 test('rejects a ledger comparison with an invented document row', () => {

@@ -80,6 +80,7 @@ test('rejects a report read when the report has not been received', () => {
 });
 
 test('preserves the observed payload when newer world facts exist', () => {
+  // Derived observed/received times are provisional: section2-route-r2-pending-ratification.
   // Given a received old report and a later version of its world fact.
   const received = reportedState(true);
   const next = parseCampaignState({ ...received, facts: received.facts.map(f => ({ ...f, version: 1, observedAt: 1602000 })) }, content);

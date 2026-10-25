@@ -10,6 +10,20 @@ export type S01Step = {
 };
 export type S01Track = CampaignState['s01']['tracks'][number];
 
+/** The interrupted action is the distance authority, including exact sub-millimetre progress. */
+export function s01RetreatDistance(track: S01Track, state: CampaignState, content: CampaignContent): number {
+  const incident = state.s01.incidents.find(i => i.id === track.noticeId && i.orderId === track.orderId);
+  const interrupted = state.s01.tracks.find(t => t.id === incident?.interruptedTrackId && t.lane === 'investigation' && t.status === 'interrupted');
+  requireBoundary(interrupted !== undefined, 'cross-link');
+  const step = s01Steps(interrupted, state, content)[interrupted.step];
+  requireBoundary(step?.kind === 'walk' && step.people.some(p => p.activity === 'carrying'), 'cross-link');
+  const edge = content.data.operations.routes.edges.find(e => e.from === step.from && e.to === step.to || e.to === step.from && e.from === step.to);
+  requireBoundary(edge !== undefined && edge.ledgerAllowed, 'location-scope');
+  const replay = s01Progress(step, interrupted.initialEffort, interrupted.elapsed, content);
+  requireBoundary(replay.progress === interrupted.progress, 'inventory');
+  return replay.progress * (edge.metres * 1000 / step.duration);
+}
+
 /** Authored actions only. Durations and distances always come from the admitted appendix. */
 export function s01Steps(track: S01Track, state: CampaignState, content: CampaignContent): readonly S01Step[] {
   const order = state.mandates.find(m => m.orderId === track.orderId);
@@ -34,8 +48,10 @@ export function s01Steps(track: S01Track, state: CampaignState, content: Campaig
     walk(locker, archive, [duty]); walk(archive, threshold, [duty]); walk(threshold, desk, [duty]);
   } else if (track.lane === 'cut-return') {
     stationary('notice', desk, o.durations.revocationNotice, [actor, duty]);
-    steps.push({ kind: 'retreat', from: desk, to: threshold,
-      duration: track.retreatMillimetres / o.routes.ledgerMetresPerSecond,
+    const decision = state.s01.incidents.find(i => i.id === track.noticeId);
+    requireBoundary(decision !== undefined, 'cross-link');
+    if (decision.returnConsent && decision.backwardRouteSafe) steps.push({ kind: 'retreat', from: desk, to: threshold,
+      duration: s01RetreatDistance(track, state, content) / o.routes.ledgerMetresPerSecond,
       people: [{ id: actor, activity: 'carrying' }, { id: duty, activity: 'walking' }] });
   } else if (order.operation === 'S01-L') {
     stationary('archive-check', desk, o.durations.archiveCheck, [actor, duty]);

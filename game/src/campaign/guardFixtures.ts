@@ -26,6 +26,7 @@ export function revoke(state: CampaignState, at: number): CampaignState['grants'
   });
 }
 export const active = reportedState(false);
+// Derived observation reservation is provisional: section2-route-r2-pending-ratification.
 export const received = reportedState(true);
 export const emptyOrder = parseCampaignState({ ...active, facts: [], reports: [] }, content);
 export const reserved = parseCampaignState({ ...emptyOrder,
