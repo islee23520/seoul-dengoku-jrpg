@@ -4,6 +4,8 @@ import { CampaignBoundaryError, requireBoundary } from './errors.ts';
 import { assertComposedAuthority } from './authorityBasis.ts';
 import { assertPhysicalEffect } from './physicalEffects.ts';
 import type { CampaignState } from './stateSchemas.ts';
+import { summaryHash } from '../domain/eventLedger.ts';
+import { s01Steps } from './s01Steps.ts';
 
 export function assertEffectAuthority(state: CampaignState, order: CampaignState['mandates'][number], effect: { readonly at: number; readonly content: CampaignContent }): void {
   try { assertComposedAuthority(state, order, effect); }
@@ -17,6 +19,23 @@ export function assertResultEffects(state: CampaignState, content: CampaignConte
   for (const result of state.results) {
     const order = state.mandates.find(m => m.orderId === result.orderId);
     requireBoundary(order !== undefined && order.acceptedAt !== null && result.at >= order.acceptedAt, 'cross-link');
+    requireBoundary(order.origin !== 'command-ingress' || result.causeId === order.causeId || result.kind === 'safe-return', 'cross-link');
+    requireBoundary(result.kind === 'work' || result.workEvidence === null, 'cross-link');
+    if (result.kind === 'work') {
+      requireBoundary(state.results.filter(r => r.orderId === order.orderId && r.kind === 'work').length === 1, 'duplicate-id');
+      if (order.origin === 'command-ingress') {
+        const track = state.s01.tracks.find(t => t.orderId === order.orderId && t.lane === 'investigation');
+        requireBoundary(track !== undefined && result.id === order.orderId + ':work-completion' && result.workEvidence !== null, 'cross-link');
+        const steps = s01Steps(track, state, content);
+        const observations = state.s01.activities.filter(a => a.trackId === track.id && ['compare', 'observe'].includes(steps[a.step]!.kind));
+        const expected = order.operation === 'S01-L' ? content.data.operations.evidence.ledgerRows.length : content.data.operations.evidence.observations.length;
+        requireBoundary(observations.length === expected && observations.at(-1)?.completedAt === result.at && result.workEvidence.length === expected &&
+          result.workEvidence.every((f, i) => f.id === observations[i]?.id.replace(/:activity$/, ':fact') && f.orderId === order.orderId &&
+            f.causeId === order.causeId && f.sourcePersonId === order.recipientId && f.observedAt === observations[i]?.completedAt &&
+            state.reports.some(r => r.fact.id === f.id && summaryHash(r.fact) === summaryHash(f))) &&
+          result.payloadHash === summaryHash(result.workEvidence), 'cross-link');
+      }
+    }
     switch (result.kind) {
       case 'work': case 'custody':
         requireBoundary(result.safeReturn === null, 'cross-link');
@@ -24,7 +43,12 @@ export function assertResultEffects(state: CampaignState, content: CampaignConte
         if (result.kind === 'custody') assertPhysicalEffect(state, result, content);
         break;
       case 'report':
-        requireBoundary(result.safeReturn === null && state.reports.some(r => r.fact.orderId === order.orderId && r.receivedAt === result.at), 'report-link'); break;
+        requireBoundary(result.safeReturn === null && state.reports.some(r => r.fact.orderId === order.orderId && r.receivedAt === result.at), 'report-link');
+        if (order.origin === 'command-ingress') {
+          const reports = state.reports.filter(r => r.fact.orderId === order.orderId);
+          requireBoundary(reports.every(r => r.receivedAt === result.at) && result.payloadHash === summaryHash(reports), 'report-link');
+        }
+        break;
       case 'safe-return': assertPhysicalEffect(state, result, content); break;
       default: assertNever(result.kind);
     }

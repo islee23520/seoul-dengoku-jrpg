@@ -85,6 +85,7 @@ export const campaignStateSchema = z.strictObject({
   consumption: z.array(z.strictObject({ id: resultId, entityId, kind: z.enum(['food', 'water']), startedAt: milliseconds, completedAt: milliseconds, causeId: cause }).readonly()).readonly(),
   pendingResultIds: z.array(resultId).readonly(), appliedResultIds: z.array(resultId).readonly(),
   results: z.array(z.strictObject({ id: resultId, orderId, causeId: cause, at: milliseconds, kind: z.enum(['work', 'custody', 'report', 'safe-return']), payloadHash: digest,
+    workEvidence: z.array(fact).readonly().nullable().default(null),
     physical: z.strictObject({ previousResultId: resultId.nullable(), before: custody, after: custody,
       bodies: z.array(body).readonly(), dutyAvailable: z.boolean() }).readonly().nullable().default(null),
     safeReturn: z.strictObject({ assetId: ref, action: z.enum(['protect', 'carry-to-threshold', 'handover', 'restock', 'reseal']), custodian: entityId, location: locationSchema,

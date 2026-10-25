@@ -16,6 +16,7 @@ import { nodeLocation } from './locations.ts';
 import { prepareS01Effects, nextS01Boundary, advanceS01Effects } from './s01Effects.ts';
 import { requestS01Care, nextS01CareBoundary, advanceS01Care } from './s01Care.ts';
 import { s01VisibleState } from './s01View.ts';
+import { lordKnowledge } from './reports.ts';
 
 type Order = CampaignState['mandates'][number];
 type Execution = CommandState['executions'][number];
@@ -310,11 +311,15 @@ export class CampaignApplication {
   }
   care(input: unknown): void { this.#session.command(state => requestS01Care(state, input, this.#content)); }
   settlement(personId: string) { return s01VisibleState(this.#session.state, personId, this.#content); }
+  knowledge(input: unknown) { return lordKnowledge(this.#session.state, input); }
   view(personId: string) {
     const state = this.#session.state;
     return Object.freeze({ revision: state.revision, worldMilliseconds: state.clock.worldMilliseconds, speed: state.clock.speed,
       orders: Object.freeze(state.mandates.filter(m => m.issuerPersonId === personId).map(m => Object.freeze({ orderId: m.orderId,
-        operation: m.operation, recipientId: m.recipientId, stage: m.stage, receivedAt: m.receivedAt, acceptedAt: m.acceptedAt,
+        operation: m.operation, recipientId: m.recipientId,
+        stage: m.stage === 'result-applied' && !state.knowledge.find(k => k.personId === personId)?.records.some(r =>
+          state.reports.some(report => report.id === r.reportId && report.fact.orderId === m.orderId)) ? 'executing' : m.stage,
+        receivedAt: m.receivedAt, acceptedAt: m.acceptedAt,
         cancellationPending: state.commands.executions.some(e => e.orderId === m.orderId && e.cancellation !== null && e.cancellation.receivedAt === null) }))) });
   }
   subscribe(listener: () => void): () => void { return this.#session.subscribe(listener); }

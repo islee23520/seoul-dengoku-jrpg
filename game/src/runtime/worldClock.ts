@@ -67,6 +67,14 @@ export function stepWorld(state: WorldState, tick: number, rules: WorldRules): W
         actor: next.mandate.recipientId, target: next.mandate.orderId, beforeHash, afterHash: summaryHash(payload),
         ruleVersion: rules.versions.ruleVersion, contentVersion: rules.versions.contentVersion, resultId, payload }).ledger;
       receipts.push({ orderId: next.mandate.orderId, serial, tick, stage: next.mandate.stage, resultId });
+      if (original.mandate.stage !== 'result-applied' && next.mandate.stage === 'result-applied') {
+        const completionId = id('ResultId', original.mandate.orderId + ':work-completion');
+        const completion = { orderId: next.mandate.orderId, completedAt: tick };
+        ledger = applyResult(ledger, { causeId: next.mandate.causeId, command: 'work-resolution', worldTime: integer('WorldTick', tick),
+          actor: next.mandate.recipientId, target: next.mandate.orderId, beforeHash: ledger.entries.at(-1)!.afterHash,
+          afterHash: summaryHash(completion), ruleVersion: rules.versions.ruleVersion, contentVersion: rules.versions.contentVersion,
+          resultId: completionId, payload: completion }).ledger;
+      }
     }
     orders.push(next);
   }

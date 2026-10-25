@@ -46,7 +46,7 @@ test('sequential observation follows the complete duty route before reading and 
   const issued = issuePhysical(ledger, 'S01-O');
   const before = advancePhysical(issued, 1601999);
   assert.deepEqual(before.facts.filter(f => f.orderId === 'S01-O').map(f => f.observedAt), [1332000, 1476000]);
-  assert.equal(before.reports.filter(r => r.fact.orderId === 'S01-O').length, 0);
+  assert.equal(before.reports.filter(r => r.fact.orderId === 'S01-O' && r.receivedAt !== null).length, 0);
   const complete = advancePhysical(before, 1602000);
   const reports = complete.reports.filter(r => r.fact.orderId === 'S01-O');
   assert.equal(reports.length, 2);

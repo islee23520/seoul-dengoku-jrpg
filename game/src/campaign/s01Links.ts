@@ -48,7 +48,10 @@ export function assertS01Links(state: CampaignState, content: CampaignContent): 
       const key = track.id + ':step:' + activity.step;
       if (['pickup', 'deliver', 'return-pickup', 'handover', 'reseal'].includes(step.kind) || track.lane === 'duty-return' && step.kind === 'walk' && step.to === content.data.scenario.ledger.container)
         requireBoundary(state.results.some(r => r.id === key && r.at === activity.completedAt && r.orderId === order.orderId && r.physical !== null), 'custody');
-      if (step.kind === 'compare' || step.kind === 'observe') requireBoundary(state.facts.some(f => f.id === key + ':fact' && f.observedAt === activity.completedAt && f.orderId === order.orderId), 'report-link');
+      if (step.kind === 'compare' || step.kind === 'observe') requireBoundary(state.facts.some(f => f.id === key + ':fact' && f.observedAt === activity.completedAt && f.orderId === order.orderId) &&
+        state.reports.some(r => r.id === key + ':fact:report' && r.fact.observedAt === activity.completedAt), 'report-link');
+      if ((step.kind === 'compare' && step.row === o.evidence.ledgerRows.length - 1) || (step.kind === 'observe' && step.row === o.evidence.observations.length - 1))
+        requireBoundary(state.results.some(r => r.id === order.orderId + ':work-completion' && r.kind === 'work' && r.at === activity.completedAt), 'cross-link');
       if (step.kind === 'report') requireBoundary(state.results.some(r => r.id === key && r.kind === 'report' && r.at === activity.completedAt), 'report-link');
     }
     if (Object.keys(track.initialEffort).length) {

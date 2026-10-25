@@ -5,13 +5,14 @@ import { requireBoundary } from './errors.ts';
 import { assertLocation, physicalNodes } from './locations.ts';
 import type { CampaignState } from './stateSchemas.ts';
 import { assertEffectAuthority } from './effectLinks.ts';
+import { s01Steps } from './s01Steps.ts';
 
 export function assertReportLinks(state: CampaignState, content: CampaignContent): void {
   const { authority } = content.data.operations;
   const now = state.clock.worldMilliseconds;
   for (const fact of [...state.facts, ...state.reports.map(r => r.fact)]) {
     const order = state.mandates.find(m => m.orderId === fact.orderId);
-    requireBoundary(order !== undefined && order.recipientId === fact.sourcePersonId && order.acceptedAt !== null && order.acceptedAt <= fact.observedAt, 'report-link');
+    requireBoundary(order !== undefined && order.recipientId === fact.sourcePersonId && order.causeId === fact.causeId && order.acceptedAt !== null && order.acceptedAt <= fact.observedAt, 'report-link');
     assertEffectAuthority(state, order, { at: fact.observedAt, content });
     requireBoundary(fact.observedAt <= now, 'clock');
     assertLocation(fact.location, content);
@@ -30,6 +31,8 @@ export function assertReportLinks(state: CampaignState, content: CampaignContent
     }
   }
   for (const report of state.reports) {
+    const order = state.mandates.find(m => m.orderId === report.fact.orderId);
+    requireBoundary(order !== undefined && report.causeId === order.causeId && report.recipient === order.issuerPersonId, 'report-link');
     requireBoundary(state.people.some(p => p.id === report.recipient) && report.carrier === report.source && report.source === report.fact.sourcePersonId && report.recipient === authority.designator, 'report-link');
     requireBoundary(state.facts.some(f => f.id === report.fact.id && f.version >= report.fact.version), 'report-link');
     const sameVersion = state.facts.find(f => f.id === report.fact.id && f.version === report.fact.version);
@@ -37,6 +40,23 @@ export function assertReportLinks(state: CampaignState, content: CampaignContent
     requireBoundary(report.fact.observedAt <= report.createdAt && report.createdAt <= now, 'clock');
     requireBoundary(report.deliveredAt === null || (report.createdAt <= report.deliveredAt && report.deliveredAt <= now), 'clock');
     requireBoundary(report.receivedAt === null || (report.deliveredAt !== null && report.deliveredAt <= report.receivedAt && report.receivedAt <= now), 'report-unreceived');
+    if (order.origin === 'command-ingress') {
+      const track = state.s01.tracks.find(t => t.orderId === order.orderId && t.lane === 'investigation');
+      requireBoundary(track !== undefined, 'report-link');
+      const steps = s01Steps(track, state, content);
+      const observation = state.s01.activities.find(a => a.trackId === track.id && a.id.replace(/:activity$/, ':fact') === report.fact.id);
+      requireBoundary(observation !== undefined && observation.completedAt === report.fact.observedAt && report.createdAt === report.fact.observedAt && report.id === report.fact.id + ':report', 'report-link');
+      const step = observation && steps[observation.step];
+      requireBoundary(step !== undefined && (step.kind === 'compare' || step.kind === 'observe') && physicalNodes(report.fact.location)[0] === step.from, 'report-link');
+      if (step.kind === 'compare') requireBoundary(report.fact.evidence.kind === 'ledger-comparison' &&
+        summaryHash(report.fact.evidence.rows) === summaryHash([content.data.operations.evidence.ledgerRows[step.row!]!]), 'report-link');
+      const delivery = state.s01.activities.find(a => a.trackId === track.id && steps[a.step]?.kind === 'report');
+      const inTransit = steps[track.step]?.kind === 'report' && Object.keys(track.initialEffort).length > 0;
+      requireBoundary(report.deliveredAt === null || report.deliveredAt === (delivery?.startedAt ?? (inTransit ? track.startedAt : null)), 'report-link');
+      requireBoundary(report.receivedAt === null || report.receivedAt === delivery?.completedAt, 'report-unreceived');
+      const omissions = report.fact.evidence.kind === 'ledger-comparison' ? ['missing-annex', 'unsigned-slot', 'different-event-time'] : report.fact.evidence.uncertainties;
+      requireBoundary(summaryHash(report.omission) === summaryHash(omissions), 'report-link');
+    }
     const records = state.knowledge.flatMap(k => k.records.filter(r => r.reportId === report.id).map(r => ({ personId: k.personId, ...r })));
     requireBoundary(report.receivedAt === null ? records.length === 0 : records.length === 1 && records[0]?.personId === report.recipient, 'report-unreceived');
   }

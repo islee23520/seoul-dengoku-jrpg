@@ -29,6 +29,14 @@ test('T12-11 delivered report enables knowledge exactly once but grants no autho
   assert.doesNotThrow(() => preflightMandate(order, input));
   assert.throws(() => preflightMandate(order, { ...input, authority: revokeGrant(grant, cause) }), InvariantViolation);
 });
+
+test('changed truth remains unknown when an older observation arrives later', () => {
+  const newer = { ...fact, version: fact.version + 1 as typeof fact.version, content: 'TESTINPUT:fire-extinguished' };
+  const informed = receiveReport(knowledge, report, tick);
+  assert.doesNotThrow(() => assertUnreportedFactNotActionable(informed, fact));
+  assert.throws(() => assertUnreportedFactNotActionable(informed, newer), InvariantViolation);
+  assert.equal(informed.records[0]?.version, fact.version);
+});
 test('T12-11 document handover transfers medium and read rights, not practice or skills', () => {
   // Given
   const document = { id: 'TESTINPUT:manual', content: 'TESTINPUT:manual', version: revision, source: 'TESTINPUT:source', authenticity: 'TESTINPUT:unverified', confidentiality: 'TESTINPUT:private', ownership: lord, readRights: [lord] };
