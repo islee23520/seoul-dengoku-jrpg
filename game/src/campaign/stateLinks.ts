@@ -34,7 +34,8 @@ export function assertAuthorityLinks(state: CampaignState, content: CampaignCont
       const atIssue = history?.filter(r => r.effectiveAt <= order.issuedAt).at(-1);
       requireBoundary(atIssue !== undefined && atIssue.version === basis.version && atIssue.state === 'valid', 'grant-version');
     }
-    requireBoundary(order.compositeVersion === summaryHash({ operation: order.operation, authority: order.authority }), 'grant-version');
+    requireBoundary(operation.grants.every((id, index) => order.authority[index]?.grantId === id) &&
+      order.compositeVersion === summaryHash({ operation: order.operation, authority: order.authority }), 'grant-version');
     requireBoundary(order.issuedAt <= now && order.issuedAt < operations.clock.scheduledCloseSeconds * 1000, 'clock');
     requireBoundary(order.receivedAt === null || (order.receivedAt >= order.issuedAt && order.receivedAt <= now), 'clock');
     requireBoundary(order.acceptedAt === null || (order.receivedAt !== null && order.acceptedAt >= order.receivedAt && order.acceptedAt <= now), 'clock');

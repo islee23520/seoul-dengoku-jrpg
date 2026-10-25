@@ -34,7 +34,7 @@ function execution(suffix = 'one', personId = order.recipientId): Execution {
 }
 function rules(): WorldRules {
   return { versions, graph, cut: [], authority: o => ({ ...authority, grantee: o.mandate.recipientId, roster: [o.mandate.recipientId] }), acceptSupply: () => true,
-    execution: { provenance: 'TESTINPUT', ruleVersion: versions.ruleVersion, travelSteps: () => 1, workSteps: () => 2,
+    execution: { provenance: 'TESTINPUT', ruleVersion: versions.ruleVersion, conflictPolicy: 'wait-for-availability', travelSteps: () => 1, workSteps: () => 2,
       acceptance: () => 'accept', admission: () => true,
       ready: o => ({ targetId: o.targetId, targetVersion: o.targetVersion, recipient: { ...retainerCharacter, id: o.recipientId }, resourcesFeasible: true, procedureApproved: true }) } };
 }
@@ -76,6 +76,43 @@ test('shared physical labor is reserved once while separate supervision can proc
   const next = advance(state, 6);
   // Then the shared person is held while the independent supervisor executes.
   assert.deepEqual(next.orders.map(o => o.mandate.stage), ['executing', 'consent', 'executing']);
+});
+
+test('reject-conflict refuses the second request without retrying or replacing the first reservation', () => {
+  // Given incompatible requests and an independently compatible job.
+  const state = initial([execution(), execution('competing'), execution('supervision', id('PersonId', 'TESTINPUT:supervisor'))]);
+  const base = rules();
+  const inputs = { ...base, execution: { ...base.execution, conflictPolicy: 'reject-conflict' as const } };
+  // When both requests reach the same reservation boundary and time continues.
+  const next = advance(state, 12, inputs);
+  // Then the loser remains refused rather than starting after the winner finishes.
+  assert.deepEqual(next.orders.map(o => o.mandate.stage), ['receipt', 'refused', 'receipt']);
+  assert.equal(next.orders[1]?.mandate.refusalReason, 'rejected-conflict');
+  assert.deepEqual(next.orders[1]?.mandate.reservations, []);
+  assert.equal(next.orders[0]?.mandate.acceptedAt, 4);
+});
+
+test('reject-conflict does not convert an unavailable response into automatic held retries', () => {
+  // Given a recipient whose response is currently unavailable.
+  const base = rules();
+  const inputs: WorldRules = { ...base, execution: { ...base.execution, conflictPolicy: 'reject-conflict', acceptance: () => 'hold' } };
+  // When the response boundary is reached and time continues.
+  const next = advance(initial(), 12, inputs);
+  // Then the instruction is refused without a reservation or a later retry.
+  assert.equal(next.orders[0]?.mandate.stage, 'refused');
+  assert.equal(next.orders[0]?.mandate.refusalReason, 'recipient-unavailable');
+  assert.deepEqual(next.orders[0]?.mandate.reservations, []);
+});
+
+test('physical travel rechecks current body readiness before advancing', () => {
+  // Given an executing retainer with a remaining physical leg.
+  const base = rules(), current = advance(initial(), 6), first = current.orders[0]; assert.ok(first);
+  const state = { ...current, orders: [{ ...first, journey: { path: [source, destination], leg: 0, elapsed: 0 } }] };
+  const inputs: WorldRules = { ...base, execution: { ...base.execution,
+    ready: o => ({ targetId: o.targetId, targetVersion: o.targetVersion, recipient: { ...retainerCharacter, captive: true }, resourcesFeasible: true, procedureApproved: true }) } };
+  // When / Then the next physical effect rejects instead of moving first.
+  assert.throws(() => stepWorld(state, 7, inputs), { code: 'recipient-unavailable' });
+  assert.equal(state.orders[0]?.journey.leg, 0);
 });
 
 test('cut graph edge and all eight isolates cannot deliver an order or supply', () => {
