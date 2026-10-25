@@ -309,6 +309,29 @@ export class CampaignApplication {
     requireBoundary(receipt !== undefined, 'cross-link');
     return receipt;
   }
+  /** Atomic compose-and-issue/cancel window: the draft is composed from the reconciled state inside the
+   * session command, so a running clock cannot invalidate the expected revision between review and issue.
+   * Every task8 boundary check still runs; callers supply identifiers only, never authority or effects. */
+  submitComposed(request: { readonly kind: 'issue'; readonly operation: 'S01-L' | 'S01-O'; readonly issuerPersonId: string; readonly recipientId: string; readonly commandId: string }
+    | { readonly kind: 'request-cancellation'; readonly issuerPersonId: string; readonly orderId: string; readonly commandId: string }) {
+    let receipt: CommandState['receipts'][number] | undefined;
+    this.#session.command(state => {
+      // An existing receipt for this command id replays verbatim even while the clock runs on.
+      const replay = state.commands.receipts.find(r => r.command.commandId === request.commandId);
+      if (replay) { const result = submitCampaignCommand(state, replay.command, this.#content); receipt = result.receipt; return result.state; }
+      const command = request.kind === 'issue'
+        ? { kind: 'issue' as const, commandId: request.commandId, issuerPersonId: request.issuerPersonId, recipientId: request.recipientId,
+            operation: request.operation, expectedRevision: state.revision,
+            expectedCompositeVersion: composeCampaignAuthority(state, { operation: request.operation, issuerPersonId: request.issuerPersonId,
+              recipientId: request.recipientId, expectedRevision: state.revision }, this.#content).compositeVersion }
+        : { kind: 'request-cancellation' as const, commandId: request.commandId, issuerPersonId: request.issuerPersonId,
+            orderId: request.orderId, expectedRevision: state.revision };
+      const result = submitCampaignCommand(state, command, this.#content);
+      receipt = result.receipt; return result.state;
+    });
+    requireBoundary(receipt !== undefined, 'cross-link');
+    return receipt;
+  }
   care(input: unknown): void { this.#session.command(state => requestS01Care(state, input, this.#content)); }
   settlement(personId: string) { return s01VisibleState(this.#session.state, personId, this.#content); }
   knowledge(input: unknown) { return lordKnowledge(this.#session.state, input); }

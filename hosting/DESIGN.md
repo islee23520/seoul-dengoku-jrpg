@@ -40,6 +40,40 @@ Runtime uses named occupancy labels; appearance remains unapproved, so no
 TESTINPUT sprite becomes a person. The post-start world view is token-styled
 but not a Unity-ported surface.
 
+## Retainer command composer/detail (task26 design contract §4, task13)
+
+Source: task26 design contract revision-1 (owner-approved missing-UI design)
+over the task21 verified Unity common rules: 48px header, 303px docks,
+margin16/gutter12, colour.focus selection (2px candidate frame), cancel-first
+confirmation, motion/state tokens from unity-theme.css. The runtime is the
+task8 `CampaignApplication` built in-browser from the admitted pack
+(`hosting/campaign-content.ts`), opened only for the designator K002 via the
+map header's 명령 button; opening never changes clock speed.
+
+Layout: campaign-orders - roster 303 / composer 618 / authority 303 docks under the 48px header at 1280x720, each dock body (heading48 + body484 + footer80 inside panel padding16) is its own scroll owner; scroll owners: command.roster-body, command.compose-body, command.authority-body; anti-patterns: whole-document scroll, clipped action footer, raw JSON form, free-text/numeric command input.
+
+Primary action: 명령 검토 (the confirmation stage alone gains 발행). Priorities:
+1 recipient/action scope (composer), 2 lawful basis and availability
+(authority dock), 3 issued order progress (composer body). Required content:
+이서담 identity with personal liege 한재목 shown separately from the site/place,
+the whole court roster with active/retired status and per-member unavailability
+reasons, recipients 백산석(K568, S01-L 원장 대조·운반) and 성달현(K616, S01-O
+현장 조사·보고), scope/exclusions verbatim from the admitted grants, L01
+original whole/count1/container/key note, delivery channel and independent
+30초 response, communal issuer 신정2동 야간배급 공동기록체 with both grant ids
+and the adapter-produced versions (composite version is new adapter output,
+not a scenario grant property), operation close time, issued/delivered/
+received/accepted/… stage timeline with not-yet nulls, received report counts,
+철회 요청 검토 as cancel-first confirmation, world clock and pause/1/2/4.
+Left out: success forecasts, authority inferred from title, fabricated
+schedules, growth/health totals, free numeric budgets, any omniscient field
+(unreceived report content or live remote positions).
+
+One intent keeps one immutable commandId (rapid retries replay the same
+receipt); typed refusals render as readable Korean reasons
+(campaignOrdersModel.reasonText) and never leak hidden values. Below 1000px
+the docks stack in one column (NEW_CANDIDATE, not Unity parity).
+
 ## Campaign map (Unity R4 port, task12)
 
 Source: StrategyMapScreen flat route (BuildWorldControls, BuildPersonHud) and

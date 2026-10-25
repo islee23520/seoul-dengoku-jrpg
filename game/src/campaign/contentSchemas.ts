@@ -37,10 +37,10 @@ export const scenarioShape = z.object({
   id: ref, siteId, regionId: ref,
   sites: z.array(z.object({ id: nodeId, regionId: ref, anchorRef: siteId, name: ref }).readonly()).readonly(),
   actors: z.array(z.object({ id: personId, at: nodeId, access: z.array(nodeId).readonly(), bodyPresent: z.literal(true) }).readonly()).readonly(),
-  rights: z.object({ basis: z.object({ id: ref, issuer: ref }).readonly(), grants: z.array(sourceGrant).readonly(), dutyWalk: z.object({ section: z.array(nodeId).readonly() }) }).readonly(),
+  rights: z.object({ basis: z.object({ id: ref, issuer: ref }).readonly(), grants: z.array(sourceGrant).readonly(), dutyWalk: z.object({ section: z.array(nodeId).readonly() }), forbidden: z.array(ref).readonly() }).readonly(),
   policies: z.object({ scheduleConflictPolicy: z.literal('reject-conflict') }).readonly(),
-  ledger: z.object({ id: ref, owner: ref, custodianAtE0: ref, container: nodeId, key: z.object({ id: ref, holder: ref, transfer: z.literal(false) }).readonly(), route: z.object({ orderedNodes: z.array(nodeId).readonly() }) }).readonly(),
-  availability: z.object({ tools: z.array(z.object({ id: ref, owner: ref, at: nodeId }).readonly()).readonly() }).readonly(),
+  ledger: z.object({ id: ref, name: ref, owner: ref, custodianAtE0: ref, container: nodeId, key: z.object({ id: ref, holder: ref, transfer: z.literal(false), operation: ref }).readonly(), route: z.object({ orderedNodes: z.array(nodeId).readonly() }) }).readonly(),
+  availability: z.object({ tools: z.array(z.object({ id: ref, owner: ref, at: nodeId }).readonly()).readonly(), channels: z.array(z.object({ id: ref, method: ref }).readonly()).readonly() }).readonly(),
 }).readonly();
 export const projectionShape = z.object({
   scenarioId: ref, transform: z.object({ crs: ref }),
