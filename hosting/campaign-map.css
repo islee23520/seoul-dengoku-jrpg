@@ -2,7 +2,9 @@
    1280x720 grid: 48px header, 303px docks, margin 16, gutter 12. Every value traces to unity-theme.css. */
 #realtime[data-screen=campaign-map]{height:100dvh;overflow:hidden}
 /* StrategyMapScreen.BuildWorldControls starts the mode buttons at x=250 of the 1280 canvas; station labels are 6 atlas units. */
-.cm{position:relative;height:100%;--cm-panel-top:calc(var(--layout-header-h) + var(--layout-gutter));--cm-nav-modes-x:250px;--cm-station-label:6px}
+.cm{position:relative;height:100%;--cm-panel-top:calc(var(--layout-header-h) + var(--layout-gutter));--cm-nav-modes-x:250px;--cm-station-label:6px;
+  /* FoundationPovHud literals: identity panel height 280, first fact y 104, fact pitch 56 (104/160/216); 48 = role rect pad+32..pad+80 */
+  --cm-identity-h:280px;--cm-fact-y:104px;--cm-fact-pitch:56px;--space-48:48px;--cm-pad:calc(var(--layout-panel-padding) - var(--border-hairline))}
 .cm-visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 
 /* map stage: full-bleed under the chrome, as in R4 */
@@ -41,6 +43,25 @@
 /* docks */
 .cm-dock{position:absolute;top:var(--cm-panel-top);width:var(--layout-dock-w);padding:var(--layout-panel-padding);z-index:1}
 .cm-dock--identity{left:var(--layout-margin)}
+/* Identity dock = FoundationPovHud.Build lines 126-134: panel PanelTop..PanelTop+280, every child placed in panel
+   coordinates (pad = layout.panel-padding). Portrait 80 at (pad,pad); name type.h2 in pad..pad+32 and role
+   type.label in pad+32..pad+80, both at x = pad+80+gutter; facts at y = 104/160/216, each a 24px icon, a
+   type.caption label in y..y+24 at x+32 and a type.body value in y+24..y+64, all MidlineLeft with normal
+   wrapping (CharacterSelectLayer.Text). Offsets subtract the 1px panel border so text lands on Unity's pixels. */
+.cm-dock--identity{height:var(--cm-identity-h);padding:0;box-sizing:border-box}
+.cm-dock--identity > *{position:absolute;margin:0}
+.cm-dock--identity .cm-identity__head{inset:0;display:block;min-height:0}
+.cm-dock--identity .cm-portrait{position:absolute;left:var(--cm-pad);top:var(--cm-pad)}
+.cm-dock--identity .cm-identity__head > div{display:contents}
+.cm-dock--identity .cm-identity__name,.cm-dock--identity .cm-identity__role{position:absolute;left:calc(var(--cm-pad) + var(--space-80) + var(--layout-gutter));right:var(--cm-pad);display:flex;align-items:center;margin:0;line-height:1.2}
+.cm-dock--identity .cm-identity__name{top:var(--cm-pad);height:var(--space-32);font-weight:var(--weight-regular)}
+/* Label() renders every identity text with FontBody in color.ink (FoundationPovHud.cs:487-491). */
+.cm-dock--identity .cm-identity__role{color:var(--color-ink)}
+.cm-dock--identity .cm-identity__role{top:calc(var(--cm-pad) + var(--space-32));height:var(--space-48)}
+.cm-dock--identity .cm-facts{top:calc(var(--cm-fact-y) - var(--border-hairline));left:var(--cm-pad);right:var(--cm-pad);display:block;margin:0}
+.cm-dock--identity .cm-fact{position:relative;height:var(--cm-fact-pitch)}
+.cm-dock--identity .cm-fact dt{height:var(--space-24);gap:var(--space-8);line-height:1.2}
+.cm-dock--identity .cm-fact dd{position:absolute;top:var(--space-24);left:0;right:0;height:var(--space-40);display:flex;align-items:center;margin:0;line-height:1.2}
 .cm-dock--context{left:calc(var(--layout-margin) + var(--layout-dock-w) + var(--layout-gutter))}
 .cm-dock--detail{right:var(--layout-margin);max-height:calc(100% - var(--cm-panel-top) - var(--layout-margin));display:flex;flex-direction:column}
 /* FoundationPovHud: 80px portrait area at the panel padding, name/role beside it (x = pad + 80 + gutter);
@@ -97,7 +118,7 @@
   .cm-nav__button{min-height:var(--hit-min)}
   .cm__stage{position:relative;order:1;height:60dvh;margin-inline:var(--layout-margin);border:var(--border-hairline) solid var(--color-line);border-radius:var(--radius-lg);overflow:hidden}
   .cm-dock{position:static;width:auto;margin-inline:var(--layout-margin)}
-  .cm-dock--identity{order:2}.cm-dock--context{order:3}.cm-dock--detail{order:4;max-height:none}
+  .cm-dock--identity{order:2;position:relative;top:0}.cm-dock--context{order:3}.cm-dock--detail{order:4;max-height:none}
   .cm-toast{bottom:auto;top:var(--space-8);max-width:calc(100% - 2*var(--space-8))}
 }
 @media (prefers-reduced-motion:reduce){.cm *{transition:none!important}}
