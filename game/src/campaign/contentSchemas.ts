@@ -28,6 +28,12 @@ export const atlasShape = z.object({
 }).readonly();
 export const identityShape = z.object({
   schema: z.literal('campaign-identity-map.v1'), edition: ref, source: z.object({ manifestSha256: digest }),
+  legacyEdition: z.object({ schema: ref, graphSha256: digest, immutable: z.literal(true) }).readonly(),
+  stations: z.array(z.discriminatedUnion('status', [
+    z.object({ oldId: ref, oldMapId: ref, status: z.literal('exact'), newId: ref, newMapId: ref, placement: z.literal('station-identity-only') }).readonly(),
+    z.object({ oldId: ref, oldMapId: ref, status: z.literal('authenticated-alias'), newId: ref, newMapId: ref, placement: z.literal('unsupported') }).readonly(),
+    z.object({ oldId: ref, oldMapId: ref, status: z.literal('excluded'), newId: z.null(), placement: z.literal('unsupported') }).readonly(),
+  ])).readonly(),
   persons: z.array(z.object({ oldId: personId, newId: personId, status: z.literal('exact') }).readonly()).readonly(),
 }).readonly();
 export const sourceGrant = z.object({
