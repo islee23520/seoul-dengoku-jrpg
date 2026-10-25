@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "status": "partial-owner-decision-evidence",
+  "role": "owner",
+  "actor": "owner",
+  "rawResponse": "시간·전투: 기존 전투 계약 유지 (Recommended)\n원격 정착지: 보고 중심 화면 (Recommended)",
+  "sourceResponse": {
+    "path": ".omo/ulw-execute/owner-time-remote-decision.json",
+    "sha256": "e65bc9e617256b1a61d9dc77417114fc12a73339ea8ad1ea1219cc4081eb48bc",
+    "questionId": "call_3rckzZJz1D4FHvncI7BzdPge"
+  },
+  "proposalSha256": "ca39d29edc09a78b00f7a8ab545e1f3cd10eb56c13707ba84d3c55652b464684",
+  "binding": {
+    "revision": "lord-scenario-gp-v2",
+    "scenarioSha256": "08536eebbadd1a2bd6cb2c0d55b18c56096edbb4ae0a4c892f7a89094d08f02f",
+    "deckSha256": "bb700a96f6459b2b1cfcdb2f967191dba6a22c0b7db889405737c76a4e882ec3"
+  },
+  "scenarioManifestSha256": "3c46f6f33443cded1af47a74b7a420a4706efd59845a0fc4591e237821602ad4",
+  "scenarioDecisions": {
+    "timePresentation": {
+      "group": "D2",
+      "value": "source-compatible-single-clock",
+      "status": "partially-decided",
+      "details": "Single world clock and actual travel; preserve existing GDD realtime no-pause battle contract. Peacetime pause/speed, settlement cadence, off-screen fidelity and renderer consistency details remain unresolved.",
+      "approvedScope": [
+        "single-world-clock",
+        "actual-strategic-travel",
+        "existing-gdd-realtime-no-pause-battle"
+      ],
+      "unresolved": [
+        "campaign-advance-contract",
+        "peacetime-pause",
+        "peacetime-speed",
+        "settlement-cadence",
+        "off-screen-fidelity",
+        "renderer-consistency-details"
+      ]
+    },
+    "remotePresentationAction": {
+      "group": "D3",
+      "value": "received-report-projection",
+      "status": "scoped-policy-decided",
+      "details": "Received-report-centered remote settlement display with observation time, source and uncertainty. Camera alone grants neither knowledge nor authority.",
+      "approvedScope": [
+        "received-report-centered-display",
+        "observation-time-source-uncertainty",
+        "camera-grants-neither-knowledge-nor-authority"
+      ]
+    }
+  },
+  "decisions": {},
+  "unapprovedScenarioFields": [
+    "firstPlayableSlice",
+    "organizationTerms"
+  ],
+  "unapprovedRuleFields": [
+    "startLocationPolicy",
+    "travelCostPolicy",
+    "scheduleConflictPolicy",
+    "laborDetailPolicy",
+    "constructionScopePolicy",
+    "cargoSplitPolicy",
+    "titleActivationPolicy",
+    "overCapacityPolicy",
+    "successionDataPolicy",
+    "educationScopePolicy",
+    "battleResolutionPolicy",
+    "reinforcementScopePolicy",
+    "peaceScopePolicy",
+    "saveCheckpointPolicy"
+  ],
+  "otherUnapproved": [
+    "numeric-formulas",
+    "prices",
+    "budgets",
+    "durations",
+    "exact-opening-scene-spawn",
+    "appearance",
+    "organizational-institution-inputs"
+  ],
+  "boundary": "Evidence of only the two scoped owner policies, not an approved parameter pack or complete scenario approval. D2 remains partial. No GP-01 through GP-14 rule choice is approved; group dependency membership does not approve a GP rule. Test-only fixtures are not genuine approvals."
+}

@@ -1,0 +1,753 @@
+{
+  "version": 1,
+  "domain": "culture",
+  "id": "DOC:Food-Culture",
+  "slug": "food-culture",
+  "status": "approved",
+  "categories": [
+    "culture"
+  ],
+  "tense": {
+    "ko": "past",
+    "en": "past"
+  },
+  "source": {
+    "kind": "original-fiction",
+    "refs": [
+      "lore/culture/Food-Culture.md",
+      "lore/culture/Food-Culture.en.md"
+    ]
+  },
+  "provenance": {
+    "original_anchor": "lore/culture/Food-Culture.md",
+    "original_hash": "6edf0b340a1334b575b174128d5b082ec9627b012179f12a7f756f848d3dc1de",
+    "history": [
+      "Korean lore/culture/Food-Culture.md SHA-256 caadc90ded2b3313d91faf1649e29a318f16e1a36862a9b2c724e5d2f6427163.",
+      "English lore/culture/Food-Culture.en.md SHA-256 f423affa6559b4dcc06d221af48b9bdafb3aeb7571a1651ed8eb01347cff944e; copied verbatim, no translation written."
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Food Culture",
+      "summary": "The table of that age survived as the ladle at the station window.",
+      "tense": "past"
+    },
+    "ko": {
+      "title": "식문화",
+      "summary": "당시의 식탁은 역 창구의 국자로 남는다.",
+      "tense": "past"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "식문화",
+      "depth": 1,
+      "text": {
+        "ko": "식문화",
+        "en": "Food Culture"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "식문화-p1-label",
+      "text": {
+        "ko": [
+          {
+            "text": "가. 배급의 출발점",
+            "strong": true
+          }
+        ],
+        "en": [
+          {
+            "text": "A. Where rationing began",
+            "strong": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "식문화-p1",
+      "text": {
+        "ko": [
+          {
+            "text": "2026년 서울의 식량은 가락시장 경매, 노량진 수산시장 새벽 하역, 편의점과 학교 급식으로 유통되었고, "
+          },
+          {
+            "text": "대정전",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2030년"
+            }
+          },
+          {
+            "text": "의 밤에 냉장 설비와 원격 발주가 멈추었다. 남은 쌀과 얼음과 수조의 물은 대합실 배급에 쓰였다."
+          }
+        ],
+        "en": [
+          {
+            "text": "In 2026, Seoul’s food moved through Garak Market auctions, early-morning unloading at Noryangjin Fisheries Market, convenience stores and school meals. On the night of "
+          },
+          {
+            "text": "The Great Blackout",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2030년"
+            }
+          },
+          {
+            "text": ", refrigeration and remote ordering stopped. The remaining rice, ice and water in tanks were used for rations in station concourses."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "식문화-p2",
+      "text": {
+        "ko": [
+          {
+            "text": "2126년 주민은 역 창구에서 배급을 받는다. 물을 먼저 받고 밥을 받는 습관이 남아 있고, 시설과 시장은 주민 몫을 예약한 뒤에 거래한다. 배분 기준은 "
+          },
+          {
+            "text": "경제와 생산",
+            "link": {
+              "domain": "gdd",
+              "slug": "rules/Rules-EconomyLogistics"
+            }
+          },
+          {
+            "text": "에 있다."
+          }
+        ],
+        "en": [
+          {
+            "text": "In 2126, residents collect rations at station windows. The habit of receiving water before rice remains. Facilities and markets reserve residents’ shares before trading. The allocation criteria are set out in "
+          },
+          {
+            "text": "Economy and Production",
+            "link": {
+              "domain": "gdd",
+              "slug": "rules/Rules-EconomyLogistics"
+            }
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "역-배급식",
+      "depth": 2,
+      "text": {
+        "ko": "역 배급식",
+        "en": "The Station Ration Meal"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-배급식-p1-label",
+      "text": {
+        "ko": [
+          {
+            "text": "가. 배급 창구와 급수",
+            "strong": true
+          }
+        ],
+        "en": [
+          {
+            "text": "A. Ration windows and water supply",
+            "strong": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-배급식-p1",
+      "text": {
+        "ko": "지하철역이 있는 동의 배급 창구는 역 대합실에 있다. 학교 운동장과 주민센터 창구에서도 사람들이 배급을 돕는다. 신정 기지의 취사와 수서·가락의 배급에는 물이 필요하다. 개막기 서울 급수 설비와 창구의 당사자·허가 범위는 별도 급수권 심사 대상이다.",
+        "en": "In a dong with a subway station, the ration window was in the station concourse. People also helped distribute rations at school playgrounds and community-center windows. Cooking at Sinjeong depot and rations at Suseo and Garak needed water. The parties and authorization scopes for opening-era Seoul water facilities and windows remain for separate water-rights review."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-배급식-p2",
+      "text": {
+        "ko": "명동대교구는 명동 제대에서 혼인과 위령을 인준한다. 2124년 가짜 약 상자가 서울역 경매에 올랐을 때 흰십자단 단장 류은비는 해당 거래를 모두 끊었다.",
+        "en": "The Myeongdong Archdiocese approves marriages and memorials at its altar. In 2124, White Cross leader Ryu Eunbi ended White Cross transactions at a Seoul Station auction after counterfeit medicine appeared."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-배급식-p3-label",
+      "text": {
+        "ko": [
+          {
+            "text": "나. 죽과 배급고",
+            "strong": true
+          }
+        ],
+        "en": [
+          {
+            "text": "B. Porridge and ration stores",
+            "strong": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-배급식-p3",
+      "text": {
+        "ko": [
+          {
+            "text": "창구의 기본식은 죽이다. 2026년 학교 급식실과 대피소 취사장에서 쓰던 솥은 대합실 한쪽에 있고, 허가 장터는 주민 예약분과 판매분을 나눈다. 잠실·가락 하층 배급고에서 곡물 포대의 열을 관리하지 못하면 벽에 습기가 찬다. 이곳의 기침 환자는 "
+          },
+          {
+            "text": "질병과 증상",
+            "link": {
+              "domain": "ailments",
+              "slug": "Ailments"
+            }
+          },
+          {
+            "text": "에 기재되어 있다."
+          }
+        ],
+        "en": [
+          {
+            "text": "The standard meal at the ration window is porridge. Pots used in school kitchens and shelter cookrooms in 2026 stand at one side of the concourse, and licensed markets separate portions reserved for residents from portions for sale. If the heat of grain sacks is not managed in the lower-floor ration stores at Jamsil and Garak, moisture collects on the walls. Cough patients in those stores are recorded in "
+          },
+          {
+            "text": "Ailments and Symptoms",
+            "link": {
+              "domain": "ailments",
+              "slug": "Ailments"
+            }
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-배급식-p4",
+      "text": {
+        "ko": "2123년 북한산 보국문 방면 피난 행렬이 안국으로 내려왔다.",
+        "en": "In 2123, refugees from Bukhansan Bogukmun descended to Anguk."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-배급식-p5-label",
+      "text": {
+        "ko": [
+          {
+            "text": "다. 정전과 잔반",
+            "strong": true
+          }
+        ],
+        "en": [
+          {
+            "text": "C. Blackouts and leftovers",
+            "strong": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-배급식-p5",
+      "text": {
+        "ko": [
+          {
+            "text": "환승역에 전력이 끊기면 터널이 온전해도 화물 운송이 멈춘다. 이때 노량진의 냉동 재고가 먼저 녹고, 가짜 약이 유통될 때는 얼음 신용과 수질 검사도 지장을 받으며, 시민 창구보다 음식물 봉인을 앞세우면 골목에 잔반이 남아 잔반에 들개와 쥐가 모인다. 사람과 무리는 잔여물을 두고 다툰다."
+          }
+        ],
+        "en": [
+          {
+            "text": "If a transfer station loses power, freight stops even when the tunnel is intact. Noryangjin’s frozen stock then begins to thaw. When counterfeit medicine circulates, ice credit and water-quality inspections are also disrupted. If sealing food waste takes priority over the residents’ ration windows, leftovers remain in the alleys and attract stray dogs and rats. People and animal groups contest those remains."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "수조의-잉어붕어메기",
+      "depth": 2,
+      "text": {
+        "ko": "수조의 잉어·붕어·메기",
+        "en": "Carp, Crucian Carp, and Catfish of the Tanks"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "수조의-잉어붕어메기-p1-label",
+      "text": {
+        "ko": [
+          {
+            "text": "가. 수조 양어의 운영",
+            "strong": true
+          }
+        ],
+        "en": [
+          {
+            "text": "A. Tank fish farming",
+            "strong": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "수조의-잉어붕어메기-p1",
+      "text": {
+        "ko": "2026년 한강과 저수지에서는 잉어와 붕어와 메기를 잡았다. 대정전 이후 원격 안전 관제가 멈추고, 대합실 아래 집수정, 기지 배수 연못, 정수 침전지는 사람이 관리하고 있다. 이곳에서 잉어와 붕어와 메기를 기르는 생업을 수조 양어라 부른다.",
+        "en": "In 2026, people caught carp, crucian carp and catfish in the Han River and reservoirs. After the Great Blackout stopped remote safety control, people managed the collector wells beneath concourses, depot drainage ponds and treatment-plant sedimentation basins. Raising carp, crucian carp and catfish there is called tank aquaculture."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "수조의-잉어붕어메기-p2",
+      "text": {
+        "ko": [
+          {
+            "text": "영등포와 여의도 수문 바깥에는 습지가 있다. 뚝섬 펌프 옆 침전지, 암사 정수 아래 칸, 창동 차량기지 배수 연못에서도 잉어와 붕어와 메기를 기르고, 수조류는 얕은 물에 있으며 맹금은 식용 칸 위 전선에 앉는다. 당직자는 취사와 새와 열차에 쓸 구획 수위를 장부에 적는다. 습지 쪽 군락은 "
+          },
+          {
+            "text": "G06"
+          },
+          {
+            "text": "에 기재되어 있다."
+          }
+        ],
+        "en": [
+          {
+            "text": "There are wetlands outside the Yeongdeungpo and Yeouido sluices. Carp, crucian carp and catfish are also raised in the sedimentation basin beside the Ttukseom pumps, the lower cells beneath the Amsa treatment plant and the Changdong depot drainage ponds. Waterfowl occupy the shallows, and raptors perch on wires above the cells for edible fish. The watch records in a ledger the water levels of sections used for cooking, birds and trains. Wetland-side colonies are recorded in "
+          },
+          {
+            "text": "G06"
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "수조의-잉어붕어메기-p3-label",
+      "text": {
+        "ko": [
+          {
+            "text": "나. 사육수와 식수",
+            "strong": true
+          }
+        ],
+        "en": [
+          {
+            "text": "B. Farm water and drinking water",
+            "strong": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "수조의-잉어붕어메기-p3",
+      "text": {
+        "ko": "사육 칸의 물은 양어와 수질 검사에 쓰고, 저녁 국물에 쓰는 식수는 별도 식수 장부로 관리한다. 사육 칸의 배설물과 사료가 식수에 섞이면 수인병 환자가 늘어나고, 잉어를 기르는 칸의 물을 배급 수도꼭지에 연결하면 그날 저녁의 수질 검사가 실패한다. 메기는 바닥의 유기물을 먹으므로 물의 탁도가 낮아 보일 수 있다. 붕어는 얕은 물에서 빠르게 늘어나며, 의무원은 수조와 약장을 함께 점검한다.",
+        "en": "Water in the rearing cells was used for fish husbandry and water-quality tests; drinking water for the evening soup was tracked in a separate drinking-water ledger. When excrement and feed from the rearing cells mixed with drinking water, cases of waterborne disease increased. Connecting water from a carp-rearing cell to the ration taps caused that evening’s water-quality inspection to fail. Catfish ate organic matter on the bottom, so the water could appear less cloudy. Crucian carp multiplied quickly in shallow water, and the medical officer inspected the tanks and the medicine chest together."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "수조의-잉어붕어메기-p4",
+      "text": {
+        "ko": "한강 본류의 1층은 주로 비어 있다. 거주 구역은 3층 이상에, 취사장은 제방 안쪽에 있고, 지천 변에 오수가 차거나 물이 넘치면 운동장을 우회 제방으로 쓴다. 제방 밖에서 잡은 생선은 허가 장터에서 검사한 뒤 창구에 낸다. 노량진의 냉동 잔여물과 하역 내장에는 밤에 들개가 모이며, 역 수조의 살아 있는 생선은 전력이 없어도 하루 더 보관할 수 있다.",
+        "en": "Ground floors along the main Han River are mostly vacant. Living quarters are on the third floor or above, and cooking areas are inside the embankment. When sewage accumulates or water overflows along the tributaries, playgrounds serve as detour embankments. Fish caught beyond the embankment are inspected at licensed markets before being brought to ration windows. Stray dogs gather at night around Noryangjin’s remaining frozen stock and unloaded fish entrails. Live fish in station tanks can be kept for one more day without power."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "급수협약과-물-배급",
+      "depth": 2,
+      "text": {
+        "ko": "급수협약과 물 배급",
+        "en": "The Water Compacts and Water Rationing"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "급수협약과-물-배급-p1-label",
+      "text": {
+        "ko": [
+          {
+            "text": "가. 2030년 부품 인계와 2026년 밸브 당직",
+            "strong": true
+          }
+        ],
+        "en": [
+          {
+            "text": "A. The 2030 parts handover and 2026 valve duty",
+            "strong": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "급수협약과-물-배급-p1",
+      "text": {
+        "ko": "2030년 11월 6일 여의도 금고층 대표 2명이 영등포아리수정수센터를 찾았다. 한정훈은 비상발전기 부품 2개를 받았다. 2026년의 밸브 당직 기록에는 여의도 방향 송수관 밸브를 매일 06:00부터 12:00까지 여는 시간이 적혀 있다.",
+        "en": "On November 6, 2030, two Yeouido vault representatives visited Yeongdeungpo waterworks, and Han Jeonghun received two emergency-generator parts. The 2026 valve-duty record set the daily opening of the water-pipe valve toward Yeouido at 06:00–12:00."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "급수협약과-물-배급-p2",
+      "text": {
+        "ko": [
+          {
+            "text": "2030년 11월 6일 부품 인계와 별도로 기록된 2026년 밸브 당직은 "
+          },
+          {
+            "text": "대정전과 급수 기록",
+            "link": {
+              "domain": "culture",
+              "slug": "Oral-Stories",
+              "anchor": "2026년-물과-부품-거래"
+            }
+          },
+          {
+            "text": "에도 기재되어 있다."
+          }
+        ],
+        "en": [
+          {
+            "text": "The November 6, 2030 parts handover and separately recorded 2026 valve duty are in "
+          },
+          {
+            "text": "the oral records",
+            "link": {
+              "domain": "culture",
+              "slug": "Oral-Stories",
+              "anchor": "the-2026-water-and-parts-exchange"
+            }
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "급수협약과-물-배급-p3",
+      "text": {
+        "ko": "배급미가 있어도 취사수의 수질을 확인한다. 탁한 물로 죽을 끓이면 수인병 환자가 늘어난다. 같은 시기에 가짜 약도 유통되었다. 급수 서명의 당사자와 허가 범위는 개막기 서울 급수권 심사에서 정한다.",
+        "en": "Cooking water was inspected even when ration rice was available. If porridge was cooked with cloudy water, cases of waterborne disease increased. Counterfeit medicine also circulated at the same time. The parties and scope of any water-supply signature remain for the opening-era Seoul water-rights review."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "급수협약과-물-배급-p4-label",
+      "text": {
+        "ko": [
+          {
+            "text": "나. 2053년 영등포 급수 협약",
+            "strong": true
+          }
+        ],
+        "en": [
+          {
+            "text": "B. The 2053 Yeongdeungpo water agreement",
+            "strong": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "급수협약과-물-배급-p4",
+      "text": {
+        "ko": "2053년 3월 14일 영등포 정수센터 책임자 한석진과 물을 받는 가문 대표 6명이 여의도 가문 대표 7명과 협약하였다. 여의도 일대와 영등포역 주변 급수 설비 11곳의 관리권을 여의도 가문들에 넘기고 차용증 312장을 소멸시켰다. 영등포 정수센터 측은 3월 20일부터 거점을 양평역 지하로 옮겼다.",
+        "en": "On March 14, 2053, Han Seokjin, head of the Yeongdeungpo waterworks, and six representatives of water-receiving families entered into an agreement with seven representatives of Yeouido families. Management rights over eleven water facilities in the Yeouido area and around Yeongdeungpo Station were transferred to the Yeouido families, and 312 debt notes were canceled. From March 20, the Yeongdeungpo waterworks moved its base to the underground part of Yangpyeong Station."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "급수협약과-물-배급-p5",
+      "text": {
+        "ko": "2123년 수문국·규격맹·환적국은 같은 주에 약국에 서로 다른 급수·부품·통행 계약을 보냈다. 정유라는 세 계약서의 종료조건을 한 문서로 옮겼다.",
+        "en": "In 2123, Sumunguk, Gyugyeokmaeng, and Hwanjeokguk sent separate water, parts, and transit contracts to the minor states in the same week. Jeong Yura copied their end conditions into one document."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "급수협약과-물-배급-p6-label",
+      "text": {
+        "ko": [
+          {
+            "text": "다. 수문과 급수구역",
+            "strong": true
+          }
+        ],
+        "en": [
+          {
+            "text": "C. Sluices and water districts",
+            "strong": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "급수협약과-물-배급-p6",
+      "text": {
+        "ko": [
+          {
+            "text": "아리수 표지가 없는 물은 손님물이라 부른다. 2053년 협약 뒤 영등포 정수센터 측이 양평역으로 옮긴 기록은 "
+          },
+          {
+            "text": "대정전과 급수 기록",
+            "link": {
+              "domain": "culture",
+              "slug": "Oral-Stories",
+              "anchor": "2053년-영등포-급수-협약"
+            }
+          },
+          {
+            "text": "에 있다."
+          }
+        ],
+        "en": [
+          {
+            "text": "Water without an Arisu mark is called guest water. The record of the Yeongdeungpo waterworks' move to Yangpyeong Station after the 2053 agreement is in "
+          },
+          {
+            "text": "the oral records",
+            "link": {
+              "domain": "culture",
+              "slug": "Oral-Stories",
+              "anchor": "the-2053-yeongdeungpo-water-agreement"
+            }
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "급수협약과-물-배급-p7",
+      "text": {
+        "ko": "가락시장에는 자체 정수 시설이 없다. 2026년 시설 기록에는 하남의 광암 정수장과 남양주의 강북 정수장, 당시의 공개 급수구역이 남아 있다. 개막기의 서울 급수 설비와 배급 창구의 당사자·허가 범위는 후속 권리 심사의 대상이다.",
+        "en": "Garak Market has no water-treatment facility of its own. The 2026 infrastructure record preserves the Gwangam plant in Hanam, the Gangbuk plant in Namyangju and their published service areas at that time. The parties and authorization scopes for opening-era Seoul water facilities and ration windows await a separate rights review."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "급수협약과-물-배급-table8",
+      "columns": [
+        {
+          "ko": "창구",
+          "en": "Window"
+        },
+        {
+          "ko": "연도별 출발 기록",
+          "en": "Dated starting record"
+        },
+        {
+          "ko": "개막에 남는 밥",
+          "en": "The rice that remained at the opening"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "역 배급",
+            "en": "Station ration"
+          },
+          {
+            "ko": "대합실·주민센터·학교 취사",
+            "en": "Concourses, community centers, school kitchens"
+          },
+          {
+            "ko": "죽·국·배급미, 예약분과 판매분의 분리",
+            "en": "Porridge, soup, ration rice; the split of reserved and sale portions"
+          }
+        ],
+        [
+          {
+            "ko": "수조 양어",
+            "en": "Tank aquaculture"
+          },
+          {
+            "ko": "한강의 잉어·붕어·메기, 역 수조",
+            "en": "Carp, crucian carp, and catfish of the Han; station tanks"
+          },
+          {
+            "ko": "전력 없이 하루를 넘기는 단백질. 식수 원장과 분리",
+            "en": "Protein that got through a day without power. Kept apart from the drinking-water ledger"
+          }
+        ],
+        [
+          {
+            "ko": "시장",
+            "en": "Market"
+          },
+          {
+            "ko": "가락 도매, 노량진 수산",
+            "en": "Garak wholesale, Noryangjin fisheries"
+          },
+          {
+            "ko": "가격 원장과 냉동 신용. 자체 정수 없음",
+            "en": "The price ledger and frozen credit. No treatment of its own"
+          }
+        ],
+        [
+          {
+            "ko": "부품 인계와 밸브 당직",
+            "en": "Parts handover and valve duty"
+          },
+          {
+            "ko": "2026년 여의도 방향 밸브 당직, 2030년 여의도 금고층·영등포 정수센터",
+            "en": "2026 valve duty toward Yeouido; 2030 Yeouido vault and Yeongdeungpo waterworks"
+          },
+          {
+            "ko": "2030년 11월 6일 여의도 금고층 대표 2명이 한정훈에게 비상발전기 부품 2개를 건넸다. 2026년 밸브 당직 기록에는 여의도 방향 송수관 밸브를 매일 06:00부터 12:00까지 여는 시간이 적혀 있다.",
+            "en": "On November 6, 2030, two Yeouido vault representatives delivered two emergency-generator parts to Han Jeonghun. The 2026 valve-duty record set daily 06:00–12:00 opening of the water-pipe valve toward Yeouido."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "출처",
+      "depth": 2,
+      "text": {
+        "ko": "출처",
+        "en": "Sources"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "출처-list1",
+      "items": [
+        {
+          "ko": [
+            {
+              "text": "서울전국 연표 2030–2126",
+              "link": {
+                "domain": "chronology",
+                "slug": "Century-Annals"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Seoul Subway States Timeline 2030–2126",
+              "link": {
+                "domain": "chronology",
+                "slug": "Century-Annals"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "이야기",
+              "link": {
+                "domain": "culture",
+                "slug": "Oral-Stories"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "The Stories",
+              "link": {
+                "domain": "culture",
+                "slug": "Oral-Stories"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "서울 십육국",
+              "link": {
+                "domain": "factions",
+                "slug": "Sixteen-States"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "The Sixteen States of Seoul",
+              "link": {
+                "domain": "factions",
+                "slug": "Sixteen-States"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "정수장과 수문",
+              "link": {
+                "domain": "structures",
+                "slug": "Structures",
+                "anchor": "정수장과-수문"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Treatment Plants and Sluices",
+              "link": {
+                "domain": "structures",
+                "slug": "Structures",
+                "anchor": "정수장과-수문"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "구조물 총람",
+              "link": {
+                "domain": "structures",
+                "slug": "Structures"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "The Structures Compendium",
+              "link": {
+                "domain": "structures",
+                "slug": "Structures"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data": {}
+}

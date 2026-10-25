@@ -1,0 +1,88 @@
+{
+  "schema": "townhall-numeric-gaps.v1",
+  "scenarioId": "townhall-s01-r1",
+  "missingInputBehavior": "BLOCK_AFFECTED_ACTION_NO_DEFAULT",
+  "executionAllowed": false,
+  "gaps": [
+    {
+      "id": "external:clock-route",
+      "category": "time",
+      "blockedActions": [
+        "complete-movement",
+        "deliver-contact",
+        "complete-work"
+      ],
+      "status": "missing",
+      "value": null,
+      "defaultValue": null,
+      "failClosed": true,
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/policies/unapprovedFormulaInputs"
+    },
+    {
+      "id": "external:needs-maintenance",
+      "category": "wages",
+      "blockedActions": [
+        "execute-labor",
+        "settle-resources"
+      ],
+      "status": "missing",
+      "value": null,
+      "defaultValue": null,
+      "failClosed": true,
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/policies/unapprovedFormulaInputs"
+    },
+    {
+      "id": "external:health-cost",
+      "category": "fatigue",
+      "blockedActions": [
+        "execute-time-consuming-labor",
+        "settle-injury-fatigue"
+      ],
+      "status": "missing",
+      "value": null,
+      "defaultValue": null,
+      "failClosed": true,
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/policies/unapprovedFormulaInputs"
+    },
+    {
+      "id": "external:measurement-calibration",
+      "category": "calibration",
+      "blockedActions": [
+        "commit-measurement",
+        "classify-measurement"
+      ],
+      "status": "missing",
+      "value": null,
+      "defaultValue": null,
+      "failClosed": true,
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/policies/unapprovedFormulaInputs"
+    },
+    {
+      "id": "external:travel-coefficients",
+      "category": "travel-coefficients",
+      "dependsOn": "external:clock-route",
+      "blockedActions": [
+        "convert-route-to-duration",
+        "complete-movement",
+        "deliver-contact"
+      ],
+      "status": "missing",
+      "value": null,
+      "defaultValue": null,
+      "failClosed": true,
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/policies/unapprovedFormulaInputs"
+    },
+    {
+      "id": "external:map-projection",
+      "category": "play-start-approval",
+      "blockedActions": [
+        "start-play"
+      ],
+      "status": "missing",
+      "value": null,
+      "defaultValue": null,
+      "failClosed": true,
+      "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json#/policies/unapprovedFormulaInputs"
+    }
+  ]
+}

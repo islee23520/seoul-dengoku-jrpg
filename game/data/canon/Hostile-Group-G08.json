@@ -1,0 +1,1006 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G08",
+  "slug": "Hostile-Group-G08",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G08]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G08 · Dongdaemun Raiders",
+      "summary": "G08 · Dongdaemun Raiders",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G08 · 동대문 약탈단",
+      "summary": "G08 · 동대문 약탈단",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G08-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G08 · 동대문 약탈단",
+        "en": "G08 · Dongdaemun Raiders"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G08-generated-G08-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G08-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G08-generated-G08-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "동대문 약탈단은 사람 무리이며 동대문 야간 공임의 하층 방풍 골목에 있다. 차압 숫자가 적힌 시각에 무리는 양압 문짝과 환기 덕트 입구에 나뉘어 서 있으며 필터와 작업등은 자루에 들어 있다. 골목은 흰십자단 회랑과 이어져 있다.",
+        "en": "The Dongdaemun Raiders are a human group, and they are in the lower windbreak alley of the Dongdaemun night-wage corridor. At the time written in differential-pressure figures the group stands divided between the positive-pressure doors and the ventilation-duct mouth, and the filters and work lamps are inside the sacks. The alley runs on into the White Cross corridor."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G08-generated-G08-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "무리는 약탈단 두목과 약탈단 정예조와 약탈단 척후조로 나뉘어 있다. 셋은 한 무장 무리이며 문짝과 자루와 골목 끝을 나누어 맡고 있다.",
+        "en": "The group is divided into the raider chief, the raider elite squad, and the raider scouts. The three are one armed group, and they divide the doors, the sacks, and the end of the alley among them."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G08-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G08-generated-G08-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "중앙정보부 순회 당직의 기록판에 동대문 야간 공임 문짝과 무장한 무리가 함께 적혀 있다. 무리의 앞자리는 약탈단 두목이고 손 옆의 자루는 역 물자이다.",
+            "en": "On the record board of the Central Intelligence Bureau patrol duty officer, the doors of the Dongdaemun night-wage corridor and an armed group are written together. The front place of the group is the raider chief, and the sack beside the hand is station goods."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "무리는 동대문 야간 공임 하층 방풍 골목과 양압 잔여 문짝 열에 모여 있다. 필터 수량이 준 계절에는 제기동 쪽 봉인 부속실 환기 덕트를 따라 서 있고 용산에서 옮긴 미세척 포대의 먼지가 들어온 밤에는 입구 커튼을 겹친 자리에 서 있다. 차압 판에는 이동 시각이 숫자로 적혀 있으며 골목은 흰십자단 회랑과 이어져 있다.",
+            "en": "The group is gathered in the lower windbreak alley of the Dongdaemun night-wage corridor and along the row of remaining positive-pressure doors. In the season when the filter count falls they stand along the ventilation duct of the sealed side chamber on the Jegi-dong side, and on a night when dust is released when unwashed sacks transferred from Yongsan are opened at the entrance they stand where the entrance curtains are layered. The movement time is written in figures on the differential-pressure board, and the alley runs on into the White Cross corridor."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "자루 안에는 창동방호가 표가 붙은 필터 상자와 흰십자단 공임의 작업등이 들어 있다. 필터 수량은 당직 기록판과 약탈단 두목의 판에 같이 적혀 있다.",
+            "en": "Inside the sacks are filter crates bearing the Changdong Protection House mark and work lamps from the White Cross night-wage corridor. The filter count is written alike on the duty record board and on the raider chief's board."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "자루가 문짝마다 놓인 밤에는 사람이 문짝 열을 따라 늘어서 있다. 차압 숫자가 바뀐 뒤에는 무리가 환기 덕트 입구와 골목 끝으로 나뉘어 서 있다.",
+            "en": "On a night when a sack sits at every door, the people stand in a line along the door row. After the differential-pressure figures change, the group stands divided between the ventilation-duct mouth and the end of the alley."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "동대문 약탈단은 양압 잔여 문짝의 차압 숫자와 입구 커튼의 겹을 살피며 필터 상자가 있는 문짝 열을 앞에 둔다. 약탈단 척후조는 제기동 쪽 환기 덕트 입구와 하층 방풍 골목 끝을 보고 있다.",
+            "en": "The Dongdaemun Raiders watch the differential-pressure figures on the remaining positive-pressure doors and the layers of the entrance curtains, and they keep the door row with the filter crates in front of them. The raider scouts are looking at the ventilation-duct mouth on the Jegi-dong side and the end of the lower windbreak alley."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "약탈단 두목은 문짝과 차압 판 앞에 있고 약탈단 정예조는 자루와 커튼 옆에 있으며 약탈단 척후조는 골목 끝과 덕트 입구에 있다.",
+            "en": "The raider chief is before the doors and the differential-pressure board, the raider elite squad is beside the sacks and the curtains, and the raider scouts are at the end of the alley and the duct mouth."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G08-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G08-generated-G08-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "약탈단 두목의 판에는 문짝 열의 차압 숫자와 자루 수량이 적혀 있다. 약탈단 척후조의 판에는 골목 끝과 덕트 입구의 이동 시각이 적혀 있다. 약탈단 정예조는 두 판 사이의 커튼과 자루 옆에 서 있다.",
+        "en": "The raider chief's board has the differential-pressure figures of the door row and the sack counts written on it. The raider scouts' board has the movement time at the end of the alley and the duct mouth written on it. The raider elite squad stands beside the curtains and the sacks between the two boards."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G08-generated-G08-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G08E01 · 약탈단 두목",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G08",
+                  "anchor": "g08e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G08E01 · Raider Chief",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G08",
+                  "anchor": "g08e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "양압 문짝과 자루 분배의 앞자리",
+            "en": "Front place of the positive-pressure doors and the sack allotment"
+          },
+          {
+            "ko": "두목",
+            "en": "Leader"
+          },
+          {
+            "ko": "M012",
+            "en": "M012"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G08E08 · 약탈단 정예조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G08",
+                  "anchor": "g08e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G08E08 · Raider Elite Squad",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G08",
+                  "anchor": "g08e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "자루와 커튼과 문짝 사이",
+            "en": "Between the sacks, the curtains, and the doors"
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M012",
+            "en": "M012"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G08E15 · 약탈단 척후조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G08",
+                  "anchor": "g08e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G08E15 · Raider Scouts",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G08",
+                  "anchor": "g08e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "골목 끝과 덕트 입구의 이동 시각",
+            "en": "Movement time at the end of the alley and the duct mouth"
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M013",
+            "en": "M013"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08E01-title-heading-1",
+      "publicAnchors": [
+        "g08e01",
+        "Hostile-Group-G08-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G08E01 · 약탈단 두목",
+        "en": "G08E01 · Raider Chief"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G08-generated-G08E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M012",
+          "en": "Source batch: M012"
+        },
+        {
+          "ko": "기존 역할군: 두목",
+          "en": "Former role class: Leader"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC08\"],\"scenarios\":[\"G08-SC1\",\"G08-SC2\",\"G08-SC3\"],\"states\":[\"S08\",\"S13\"],\"synthetics\":[\"H08\"],\"theaters\":[\"XT03\"]}",
+          "en": "Links: {\"houses\":[\"HC08\"],\"scenarios\":[\"G08-SC1\",\"G08-SC2\",\"G08-SC3\"],\"states\":[\"S08\",\"S13\"],\"synthetics\":[\"H08\"],\"theaters\":[\"XT03\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G08-generated-G08E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "양압 문짝과 자루 분배의 앞자리",
+            "en": "Front place of the positive-pressure doors and the sack allotment"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "동대문 야간 공임 하층 방풍 골목의 문짝 열",
+            "en": "The door row of the lower windbreak alley in the Dongdaemun night-wage corridor"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M012-entries-3-prose-02959",
+      "items": [
+        {
+          "ko": "약탈단 두목은 양압 잔여 문짝 앞에 서 있다.",
+          "en": "The raider chief stands before the remaining positive-pressure doors."
+        },
+        {
+          "ko": "차압 숫자는 약탈단 두목 앞의 판에 적혀 있다.",
+          "en": "The differential-pressure figures are written on the board in front of the raider chief."
+        },
+        {
+          "ko": "역 물자 자루의 끈은 약탈단 두목의 손 옆에 있다.",
+          "en": "The cord of the sack of station goods is beside the raider chief's hand."
+        },
+        {
+          "ko": "약탈단 정예조는 약탈단 두목의 양옆에 서 있다.",
+          "en": "The raider elite squad stands on both sides of the raider chief."
+        },
+        {
+          "ko": "약탈단 두목은 문짝 틈을 보고 있다.",
+          "en": "The raider chief looks toward the gap in the door."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08E08-title-heading-1",
+      "publicAnchors": [
+        "g08e08",
+        "Hostile-Group-G08-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G08E08 · 약탈단 정예조",
+        "en": "G08E08 · Raider Elite Squad"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G08-generated-G08E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M012",
+          "en": "Source batch: M012"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC08\"],\"scenarios\":[\"G08-SC1\",\"G08-SC2\",\"G08-SC3\"],\"states\":[\"S08\",\"S13\"],\"synthetics\":[\"H08\"],\"theaters\":[\"XT03\"]}",
+          "en": "Links: {\"houses\":[\"HC08\"],\"scenarios\":[\"G08-SC1\",\"G08-SC2\",\"G08-SC3\"],\"states\":[\"S08\",\"S13\"],\"synthetics\":[\"H08\"],\"theaters\":[\"XT03\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G08-generated-G08E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "자루와 커튼과 문짝 사이",
+            "en": "Between the sacks, the curtains, and the doors"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "양압 잔여 문짝 열과 입구 커튼",
+            "en": "The row of remaining positive-pressure doors and the entrance curtains"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M012-entries-10-prose-03029",
+      "items": [
+        {
+          "ko": "약탈단 정예조는 자루 옆에 서 있다.",
+          "en": "The raider elite squad stands beside the sacks."
+        },
+        {
+          "ko": "약탈단 정예조 허리의 회랑 공구는 끈에 걸려 있다.",
+          "en": "The corridor tools at the raider elite squad's waist hang from cords."
+        },
+        {
+          "ko": "약탈단 정예조는 입구 커튼의 바깥 겹을 잡고 있다.",
+          "en": "The raider elite squad holds the outer layer of the entrance curtains."
+        },
+        {
+          "ko": "필터 상자는 약탈단 정예조의 발 앞에 놓여 있다.",
+          "en": "The filter crates are set before the raider elite squad's feet."
+        },
+        {
+          "ko": "약탈단 정예조는 약탈단 두목과 약탈단 척후조 사이에 서 있다.",
+          "en": "The raider elite squad stands between the raider chief and the raider scouts."
+        },
+        {
+          "ko": "작업등은 약탈단 정예조의 어깨를 비춘다.",
+          "en": "The work lamp lights the raider elite squad's shoulders."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08E15-title-heading-1",
+      "publicAnchors": [
+        "g08e15",
+        "Hostile-Group-G08-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G08E15 · 약탈단 척후조",
+        "en": "G08E15 · Raider Scouts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G08-generated-G08E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M013",
+          "en": "Source batch: M013"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC08\"],\"scenarios\":[\"G08-SC2\",\"G08-SC3\",\"G08-SC1\"],\"states\":[\"S08\",\"S13\"],\"synthetics\":[\"H08\"],\"theaters\":[\"XT03\"]}",
+          "en": "Links: {\"houses\":[\"HC08\"],\"scenarios\":[\"G08-SC2\",\"G08-SC3\",\"G08-SC1\"],\"states\":[\"S08\",\"S13\"],\"synthetics\":[\"H08\"],\"theaters\":[\"XT03\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G08-generated-G08E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "골목 끝과 덕트 입구의 이동 시각",
+            "en": "Movement time at the end of the alley and the duct mouth"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "하층 방풍 골목 끝과 제기동 쪽 환기 덕트 입구",
+            "en": "The end of the lower windbreak alley and the ventilation-duct mouth on the Jegi-dong side"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M013-entries-7-prose-03099",
+      "items": [
+        {
+          "ko": "약탈단 척후조는 골목 끝에 서 있다.",
+          "en": "The raider scouts stand at the end of the alley."
+        },
+        {
+          "ko": "약탈단 척후조는 환기 덕트 입구를 보고 있다.",
+          "en": "The raider scouts look toward the ventilation-duct mouth."
+        },
+        {
+          "ko": "덕트 발판에는 자루가 약탈단 척후조 앞에 한 줄로 놓여 있다.",
+          "en": "On the duct foothold the sacks lie in one line before the raider scouts."
+        },
+        {
+          "ko": "커튼 겹의 수는 약탈단 척후조 앞의 판에 적혀 있다.",
+          "en": "The curtain-layer count is written on the board in front of the raider scouts."
+        },
+        {
+          "ko": "약탈단 척후조의 발소리는 문짝 열까지 난다.",
+          "en": "The raider scouts' footsteps carry as far as the door row."
+        },
+        {
+          "ko": "차압 숫자가 바뀐 판은 약탈단 척후조의 손에 있다.",
+          "en": "The board with the changed differential-pressure figures is in the raider scouts' hands."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G08-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-8-dossier_prose-00856",
+      "text": {
+        "ko": "중앙정보부 순회 당직의 기록판은 동대문 야간 공임 걸쇠 옆 선반에 놓여 있다. 기록판에는 양압 잔여 문짝과 차압 숫자와 무장한 무리가 함께 적혀 있다. 무리의 앞자리인 약탈단 두목은 문짝 틈 쪽에 서 있으며 약탈단 척후조는 하층 방풍 골목 끝에서 환기 덕트 입구를 보고 있다.",
+        "en": "The record board of the Central Intelligence Bureau patrol duty officer lies on the shelf beside the latch in the Dongdaemun night-wage corridor. The remaining positive-pressure doors, the differential-pressure figures, and an armed group are written together on the record board. The raider chief, at the front of the group, stands toward the door gap, and the raider scouts look from the end of the lower windbreak alley toward the ventilation-duct mouth."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-8-dossier_prose-00857",
+      "text": {
+        "ko": "동대문 약탈단은 하층 방풍 골목과 양압 잔여 문짝 열에 모여 있다. 필터 수량이 준 계절의 발판은 제기동 쪽 봉인 부속실 환기 덕트로 이어져 있다. 용산에서 옮긴 미세척 포대의 먼지가 입구에 쌓인 밤에는 입구 커튼이 겹쳐 있고 무리는 그 커튼 앞에 서 있다. 차압 판에는 이동 시각이 숫자로 적혀 있으며 골목은 흰십자단 회랑과 이어져 있다.",
+        "en": "The Dongdaemun Raiders are gathered in the lower windbreak alley and along the row of remaining positive-pressure doors. In the season when the filter count falls, the footholds run on into the ventilation duct of the sealed side chamber on the Jegi-dong side. On a night when dust from the unwashed sacks transferred from Yongsan and opened at this entrance is piled at the entrance, the entrance curtains are layered and the group stands before those curtains. The movement time is written in figures on the differential-pressure board, and the alley runs on into the White Cross corridor."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-8-dossier_prose-00858",
+      "text": {
+        "ko": "약탈단 두목은 차압 판과 자루 끈 앞에 있다. 약탈단 정예조는 두목의 양옆에서 커튼과 필터 상자를 맡고 있다. 약탈단 척후조는 골목 끝의 발판에 있으며 커튼 겹의 수를 판에 적고 있다.",
+        "en": "The raider chief is before the differential-pressure board and the sack cords. The raider elite squad, on both sides of the chief, handles the curtains and the filter crates. The raider scouts are on the foothold at the end of the alley and are writing the curtain-layer count on a board."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-8-dossier_prose-00859",
+      "text": {
+        "ko": "자루 안에는 창동방호가 표의 필터 상자와 흰십자단 공임의 작업등이 들어 있다. 필터 수량은 흰십자단 공임 당직의 기록판과 약탈단 두목의 판에 같은 숫자로 적혀 있다. 작업등은 자루 입구에 걸쳐 있다.",
+        "en": "Inside the sacks are filter crates with the Changdong Protection House mark and work lamps of the White Cross night-wage corridor. The filter count is written as the same figure on the White Cross night-wage duty officer's record board and on the raider chief's board. The work lamps lie across the mouths of the sacks."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-8-dossier_prose-00860",
+      "text": {
+        "ko": "밤 초의 골목 끝에는 약탈단 척후조가 서 있다. 자루가 문짝 앞에 늘어선 뒤에는 약탈단 정예조가 문짝마다 서 있다. 입구 커튼이 겹친 뒤에는 약탈단 두목이 차압 판 앞에 서 있다.",
+        "en": "At the start of the night the raider scouts stand at the end of the alley. After the sacks line up before the doors, the raider elite squad stands at each door. After the entrance curtains are layered, the raider chief stands before the differential-pressure board."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-8-dossier_prose-00861",
+      "text": {
+        "ko": "흰십자단 공임 당직의 손은 양압 문짝의 걸쇠에 있고 작업등은 골목 안쪽을 비춘다. 창동방호가 물자 당직은 봉인 부속실 안쪽 선반 앞에 있다. 필터 상자는 그 선반 위에 놓여 있다.",
+        "en": "The hand of the White Cross night-wage duty officer is on the latch of the positive-pressure door, and the work lamp lights the inner alley. The Changdong Protection House supply duty officer is before the inner shelf of the sealed side chamber. The filter crates are set on that shelf."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-8-dossier_prose-00862",
+      "text": {
+        "ko": "중앙정보부 순회 당직은 차압 숫자를 약탈단 두목의 판과 당직 기록판에 같이 적고 있다. 흰십자단 공임 당직과 창동방호가 물자 당직은 판이 걸린 문짝의 안쪽에 서 있다. 약탈단 두목은 판의 바깥쪽에 서 있다.",
+        "en": "The Central Intelligence Bureau patrol duty officer is writing the differential-pressure figures on both the raider chief's board and the duty record board. The White Cross night-wage duty officer and the Changdong Protection House supply duty officer stand on the inner side of the door where the board hangs. The raider chief stands on the outer side of the board."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-8-dossier_prose-00863",
+      "text": {
+        "ko": "자루로 들어간 필터의 수량만큼 양압 문짝의 필터는 한 겹으로 남아 있다. 흰십자단 공임 당직은 차압 판을 커튼 겹과 나란히 다시 적는다. 입구 커튼은 한 겹 더 겹쳐 있고 중앙정보부 순회 당직은 기록판을 걸쇠 옆 선반에 둔 채로 문짝 안에 서 있다.",
+        "en": "By the count of filters that went into the sacks, the filters on the positive-pressure doors remain as a single layer. The White Cross night-wage duty officer writes the differential-pressure board again together with the curtain layers. The entrance curtains are layered one more time, and the Central Intelligence Bureau patrol duty officer stands inside the door with the record board left on the shelf beside the latch."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08-linked-scenarios-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G08-heading-0032"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "연결 시나리오",
+        "en": "Linked scenarios"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08-SC1-title-heading-1",
+      "publicAnchors": [
+        "g08-sc1-선반의-필터",
+        "Hostile-Group-G08-heading-0033"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G08-SC1 · 선반의 필터",
+        "en": "G08-SC1 · Filters on the shelf"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G08-generated-G08-SC1-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 1",
+          "en": "Stage: 1"
+        },
+        {
+          "ko": "촉발: 초겨울 밤 창동방호가의 필터 상자가 동대문 야간 공임 양압 문짝 앞에 있고 동대문 약탈단이 상자 앞에 서 있다. 중앙정보부 순회 당직과 최다온은 같은 문짝의 차압 판 옆에 있다.",
+          "en": "Trigger: On an early-winter night the filter crates of the Changdong Protection House are before the positive-pressure doors of the Dongdaemun night-wage corridor, and the Dongdaemun Raiders stand before the crates. The Central Intelligence Bureau patrol duty officer and Choidaon are beside the differential-pressure board of the same door."
+        },
+        {
+          "ko": "관련 세력: S08, HC08, H08",
+          "en": "Actors: S08, HC08, H08"
+        },
+        {
+          "ko": "생태 기제: 약탈단 두목이 차압 숫자를 읽고 약탈단 정예조가 상자 끈을 잡는다. 필터가 선반에 있는 동안 양압 문짝은 바깥쪽으로 닫혀 있다.",
+          "en": "Ecological mechanism: The raider chief reads the differential-pressure figures, and the raider elite squad takes the crate cords. While the filters are on the shelf, the positive-pressure doors stay shut toward the outside."
+        },
+        {
+          "ko": "선택지: 중앙정보부 순회 당직이 필터 상자를 제기동 쪽 봉인 부속실 안쪽 선반으로 옮긴다. / 창동방호가 물자 당직이 상자 수량을 선반과 약탈단 자루에 반씩 적는다. / 최다온이 차압 판의 이동 시각을 당기고 양압 문짝을 닫는다.",
+          "en": "Choices: The Central Intelligence Bureau patrol duty officer moves the filter crates to the inner shelf of the sealed side chamber on the Jegi-dong side. / The Changdong Protection House supply duty officer writes the crate count half on the shelf and half on the raider sacks. / Choidaon advances the movement time on the differential-pressure board and shuts the positive-pressure doors."
+        },
+        {
+          "ko": "결과: 상자를 선반으로 옮긴 뒤에는 약탈단이 문짝 앞에 서 있고 필터 상자는 부속실 선반에 있으며 양압은 유지된다. 반씩 적고 상자의 절반을 자루로 옮긴 뒤에는 나머지가 선반에 있고 약탈단 정예조는 골목에 서 있다. 문짝을 닫은 뒤에는 약탈단이 환기 덕트 입구에 서 있고 최다온은 닫힌 문 옆에 있다.",
+          "en": "Outcomes: After the crates are moved to the shelf, the raiders stand before the doors, the filter crates are on the side-chamber shelf, and the positive pressure holds. After writing the count by halves and moving half the crates into the sacks, the rest remain on the shelf, and the raider elite squad stands in the alley. After the doors are shut, the raiders stand at the ventilation-duct mouth and Choidaon is beside the shut door."
+        },
+        {
+          "ko": "도덕 비용: 반씩 나눈 수량에서는 창동방호가의 방호 필터가 한 겹으로 남고 문짝을 닫은 뒤에는 제기동 쪽 통로가 약탈단의 자루 쪽에 있다.",
+          "en": "Moral cost: In the count divided by halves, the protection filters of the Changdong Protection House remain as a single layer, and after the doors are shut the passage on the Jegi-dong side lies on the side of the raiders' sacks."
+        },
+        {
+          "ko": "원본 항목: G08",
+          "en": "Source dossier: G08"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08-SC2-title-heading-1",
+      "publicAnchors": [
+        "g08-sc2-공임의-커튼",
+        "Hostile-Group-G08-heading-0035"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G08-SC2 · 공임의 커튼",
+        "en": "G08-SC2 · Curtains of the night wage"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G08-generated-G08-SC2-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 2",
+          "en": "Stage: 2"
+        },
+        {
+          "ko": "촉발: 흰십자단 공임 당직이 입구 커튼 앞에 있는 밤에 약탈단 척후조가 하층 방풍 골목 끝에 서 있다. 중앙정보부 순회 당직과 창동방호가 물자 당직은 같은 입구의 차압 판 옆에 있다.",
+          "en": "Trigger: On a night when the White Cross night-wage duty officer is before the entrance curtains, the raider scouts stand at the end of the lower windbreak alley. The Central Intelligence Bureau patrol duty officer and the Changdong Protection House supply duty officer are beside the differential-pressure board of the same entrance."
+        },
+        {
+          "ko": "관련 세력: S08, S13, HC08",
+          "en": "Actors: S08, S13, HC08"
+        },
+        {
+          "ko": "생태 기제: 약탈단 척후조가 커튼 겹을 세어 판에 적고 약탈단 두목이 공임 자루의 자리를 문짝 앞으로 정한다. 중앙정보부 순회 당직은 차압 숫자를 기록판에 남긴다.",
+          "en": "Ecological mechanism: The raider scouts count the curtain layers and write them on a board, and the raider chief sets the place of the night-wage sacks before the doors. The Central Intelligence Bureau patrol duty officer leaves the differential-pressure figures on the record board."
+        },
+        {
+          "ko": "선택지: 흰십자단 공임 당직이 커튼을 세 겹으로 두고 공임 통로를 창동방호가 물자 당직 쪽에 연다. / 중앙정보부 순회 당직이 차압 숫자를 약탈단 두목의 판과 당직 기록판에 같이 적는다. / 창동방호가 물자 당직이 야간 공임 자루를 봉인 부속실 선반으로 옮긴다.",
+          "en": "Choices: The White Cross night-wage duty officer keeps the curtains at three layers and opens the night-wage passage toward the Changdong Protection House supply duty officer. / The Central Intelligence Bureau patrol duty officer writes the differential-pressure figures on both the raider chief's board and the duty record board. / The Changdong Protection House supply duty officer moves the night-wage sacks onto the shelf of the sealed side chamber."
+        },
+        {
+          "ko": "결과: 통로를 창동방호가 쪽에 연 뒤에는 약탈단 정예조가 커튼 밖에 서 있고 공임 물자는 부속실 쪽에 있다. 숫자를 같이 적은 뒤에는 약탈단 두목과 흰십자단 공임 당직이 같은 판 앞에 서 있으며 자루는 문짝에 남아 있다. 자루를 부속실로 옮긴 뒤에는 창동방호가 물자 당직이 커튼 앞에 서 있고 약탈단 척후조는 덕트 입구에 있다.",
+          "en": "Outcomes: After the passage is opened toward the Changdong Protection House, the raider elite squad stands outside the curtains and the night-wage goods are on the side-chamber side. After the figures are written on both boards, the raider chief and the White Cross night-wage duty officer stand before the same board, and the sacks remain at the doors. After the sacks are moved into the side chamber, the Changdong Protection House supply duty officer stands before the curtains and the raider scouts are at the duct mouth."
+        },
+        {
+          "ko": "도덕 비용: 통로를 연 쪽에서는 공임 물자가 자루 수량대로 남아 있고, 숫자를 같이 적은 쪽의 당직은 문짝 곁에 남느라 밤 순찰을 하지 못한다.",
+          "en": "Moral cost: Where the passage is opened, the night-wage goods remain in the sack count, and where the figures are written together the duty officer stays beside the door and misses the night patrol."
+        },
+        {
+          "ko": "원본 항목: G08",
+          "en": "Source dossier: G08"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G08-generated-G08-SC3-title-heading-1",
+      "publicAnchors": [
+        "g08-sc3-입구의-먼지",
+        "Hostile-Group-G08-heading-0037"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G08-SC3 · 입구의 먼지",
+        "en": "G08-SC3 · Dust at the entrance"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G08-generated-G08-SC3-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 3",
+          "en": "Stage: 3"
+        },
+        {
+          "ko": "촉발: 용산에서 운반한 미세척 포대를 동대문 야간 공임 입구에서 열어 먼지가 쌓인 밤, 차압 판의 눈금이 올라간다. 흰십자단·중앙정보부·창동방호가와 최다온이 같은 입구에서 밀봉과 통행 순서를 나눈다.",
+          "en": "Trigger: On a night when unwashed sacks carried from Yongsan are opened at the Dongdaemun night-wage entrance, dust accumulates and the pressure reading rises. The White Cross, Central Intelligence Bureau, Changdong Protection House and Choi Daon divide sealing and passage order at that entrance."
+        },
+        {
+          "ko": "관련 세력: S08, S13, XT03, HC08, H08",
+          "en": "Actors: S08, S13, XT03, HC08, H08"
+        },
+        {
+          "ko": "생태 기제: 약탈단이 먼지 위의 커튼을 겹치고 겹 사이로 자루를 입구에 둔다. 커튼이 겹쳐 있고 필터 상자가 입구에 있는 동안 양압 문짝은 바깥쪽으로 닫혀 있다.",
+          "en": "Ecological mechanism: The raiders layer the curtains over the dust and set the sacks at the entrance between the layers. While the curtains are layered and the filter crates are at the entrance, the positive-pressure doors stay shut toward the outside."
+        },
+        {
+          "ko": "선택지: 흰십자단 공임 당직이 커튼을 약탈단의 손보다 안쪽에서 겹쳐 입구를 당직 쪽에 둔다. / 중앙정보부 순회 당직이 먼지가 묻지 않은 용산 삼로 환적·회수 회랑 중계 상자를 창동방호가 선반으로 옮긴다. / 최다온이 차압 판의 숫자를 닫힌 문짝 쪽으로 적고 약탈단의 자루를 환기 덕트 입구에 둔다.",
+          "en": "Choices: The White Cross night-wage duty officer layers the curtains from the inner side of the raiders' hands and keeps the entrance on the duty side. / The Central Intelligence Bureau patrol duty officer moves the Yongsan Three-way Transshipment and Recovery Corridor relay crates that have no dust on them to the Changdong Protection House shelf. / Choidaon writes the figures on the differential-pressure board toward the shut door and leaves the raiders' sacks at the ventilation-duct mouth."
+        },
+        {
+          "ko": "결과: 커튼을 안쪽에서 겹친 뒤에는 입구가 흰십자단 공임 당직 쪽에 있고 약탈단 정예조는 바깥 겹에 서 있다. 상자를 선반으로 옮긴 뒤에는 먼지가 묻은 자루가 입구에 있고 방호 상자는 창동방호가 선반에 있다. 차압 판의 숫자를 닫힌 문짝 쪽으로 적은 뒤에는 약탈단이 제기동 쪽 덕트 입구에 모여 있고 최다온은 입구 판 옆에 있다.",
+          "en": "Outcomes: After the curtains are layered from the inside, the entrance is on the side of the White Cross night-wage duty officer and the raider elite squad stands at the outer layer. After the crates are moved to the shelf, the dust-marked sacks are at the entrance and the protection crates are on the Changdong Protection House shelf. After the figures on the differential-pressure board are written toward the shut door, the raiders are gathered at the duct mouth on the Jegi-dong side and Choidaon is beside the entrance board."
+        },
+        {
+          "ko": "도덕 비용: 바깥 겹에 선 약탈단 정예조의 자루에는 공임 작업등이 들어 있고 덕트 쪽으로 모인 뒤에는 봉인 부속실의 통로가 약탈단의 발판과 이어져 있다.",
+          "en": "Moral cost: The sacks of the raider elite squad standing at the outer layer hold the night-wage work lamps, and after the group gathers toward the duct the passage of the sealed side chamber runs on into the raiders' foothold."
+        },
+        {
+          "ko": "원본 항목: G08",
+          "en": "Source dossier: G08"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The Dongdaemun Raiders are a human group, and they are in the lower windbreak alley of the Dongdaemun night-wage corridor. At the time written in differential-pressure figures the group stands divided between the positive-pressure doors and the ventilation-duct mouth, and the filters and work lamps are inside the sacks. The alley runs on into the White Cross corridor.",
+        "ko": "동대문 약탈단은 사람 무리이며 동대문 야간 공임의 하층 방풍 골목에 있다. 차압 숫자가 적힌 시각에 무리는 양압 문짝과 환기 덕트 입구에 나뉘어 서 있으며 필터와 작업등은 자루에 들어 있다. 골목은 흰십자단 회랑과 이어져 있다."
+      },
+      "variants": [
+        {
+          "id": "G08E01",
+          "source_batch": "M012"
+        },
+        {
+          "id": "G08E08",
+          "source_batch": "M012"
+        },
+        {
+          "id": "G08E15",
+          "source_batch": "M013"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3635 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G04",
+  "slug": "Hostile-Group-G04",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G04]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G04 · Raccoon Dog",
+      "summary": "G04 · Raccoon Dog",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G04 · 너구리",
+      "summary": "G04 · 너구리",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G04 · 너구리",
+        "en": "G04 · Raccoon Dog"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G04-generated-G04-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G04-generated-G04-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "뚝섬 연합 명부교회 펌프장 연결 관로와 공방 하부 대피공, 마포 연합 여의도출자연합회 케이블 갤러리를 오가는 너구리 가족군이다. 낮에는 맨홀 아래, 밤에는 출구 약 50미터 골목을 돌며 수생 먹이와 쓰레기, 사체와 미생물막을 먹는다. 연장자 암컷은 새끼 이동과 좁은 통과에서만 우선권을 갖고 전투 지휘는 없다.",
+        "en": "They were raccoon family groups going back and forth between the pipelines connected to the pumping station of the Myeongbu Church in the Ttukseom Union, the shelters beneath the workshops, and the cable galleries of the Yeouido Investment Federation in the Mapo Union. By day they stayed beneath manholes and by night they circled the alleys within about 50 meters of the exits, eating aquatic food, trash, carcasses, and microbial mats. The elder female held priority only in moving the young and at narrow passages, and there was no battle command."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G04-generated-G04-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "관로순회부터 관로잔뼈까지는 도시 하천에 적응한 보통의 너구리다. 펌프보다 먼저 높은 환기실로 오르는 일은 침수 기억을 나눈 가족 학습이지 초능력이 아니며, 마른대피공과 케이블 트레이는 동물이 채운 은신처이지 기계 거점이 아니다. 이 배치에는 돌연변이 개체가 없고, 빠진 E13부터 E16은 제외된 배치의 몫이다.",
+        "en": "From conduit patrol to conduit bones, these were ordinary raccoons adapted to the urban streams. Climbing to a high ventilation room before the pumps did was family learning shared from flood memory, not a supernatural power, and the dry refuge cavities and cable trays were hiding places animals had filled, not machine strongholds. This batch held no mutant individuals, and the missing E13 through E16 belonged to an excluded batch."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "붕괴 뒤 중랑·탄천·내부 빗물 간선의 점검이 끊기자 너구리 가족군은 수생 먹이와 쓰레기·사체를 따라 사람이 비운 관로로 옮겼다. / 가족군은 뚝섬 연합 명부교회 펌프 옆 관로와 마포 연합 여의도출자연합회 지하 케이블 갤러리의 마른 은신처에 정착했다.",
+            "en": "After inspections stopped on the Jungnang, Tancheon and inner storm-water trunks, raccoon-dog families followed aquatic food, garbage and carcasses into pipes people had left. / Families settled in pipes beside the Myeongbu Church pumps of the Ttukseom Union and in dry shelters in the Mapo Union Yeouido Investment Federation’s underground cable gallery."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "핵심 서식은 뚝섬 연합 펌프장 연결 관로와 공방 하부의 건조 대피공이다. / 홍수위가 오르면 마포 연합 송신 지하 갤러리와 환기구로 분산하고, 서울의 혹한과 암사 연료 인계 지연이 사료 밀도를 바꾸면 동부 지선으로 잠시 이동한다. / 낮에는 관로, 밤에는 지상 골목 50m 안을 순회한다.",
+            "en": "The core habitat is the pump-house connecting pipes of the Ttukseom Union and the dry refuge cavities under the workshops. / When flood stage rises they disperse into the Mapo Union's transmission underground galleries and vents, and when severe cold in Seoul and delayed Amsa fuel handover change feed density they move briefly onto the eastern branch lines. / By day they patrol the pipes, and by night the surface alleys within 50m."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "수생 먹이·유기 쓰레기·사체 잔여가 주 자원이고, 건조한 은신처와 낮은 유속이 유지 비용이다. / HC04 뚝섬열원가가 관로 퇴적 준설을 건너뛰면 먹이막이 두꺼워져 밀도가 오르고, 과준설하면 가족군이 지상 시장으로 밀려 난다. / 배설물과 미생물막이 수질 센서 값을 가려 펌프 판단을 늦춘다.",
+            "en": "Aquatic prey, organic refuse, and carcass remains were the main resources, and dry hiding places and low flow were the upkeep cost. / When HC04 the Ttukseom Heat-Source House skipped dredging the pipe deposits, the food film thickened and density rose, and when it over-dredged, the family groups were pushed out into the surface markets. / Droppings and biofilm masked the water-quality sensor readings and delayed pump judgment."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "건기에는 가족군마다 건조 은신처와 먹이터를 따로 쓰고, 강우 전에 수위가 먼저 오르는 간선에서 높은 환기실로 새끼를 옮긴다. / 홍수 뒤 먹이막이 두꺼워지면 여러 가족이 시간대를 나눠 같은 관로를 쓰며, 은신처가 연속 수몰되면 지상 골목으로 분산한다.",
+            "en": "In the dry season each family group used its own dry hiding place and feeding ground, and before the rain they moved their kits into the high ventilation rooms along trunks where the water rose first. / After a flood, when the food film thickened, several families shared the same pipe by time slot, and when hiding places flooded in succession they dispersed into the surface alleys."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "수염으로 물살과 좁은 틈의 공기 흐름을 느끼고, 발과 몸에 전해지는 압력 변화로 펌프 기동 전 수위 상승을 감지한다. / 후각은 먹이·소독제·부패를 구분하며 청각은 펌프와 사람 발걸음을 가른다. / H04 강별의 관로 로봇 로그는 너구리·부유 잔해·사람을 혼동하기 쉬워 인간 육안 확인이 필수다.",
+            "en": "With their whiskers they felt the current and the air moving through narrow gaps, and through pressure changes in their feet and bodies they sensed the water rising before a pump start. / Scent separated food, disinfectant, and rot, and hearing separated the pumps from human footsteps. / H04 Gangbyeol's pipe-robot logs easily confused raccoons, floating debris, and people, so confirmation by human eye was required."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "느슨한 가족군과 공유 은신처가 전부다. / 연장자 암컷이 이동 우선권만 갖고 전투 지휘는 없다. / 여러 가족군이 같은 간선을 시간 분할로 쓴다. / H04가 단일 군락으로 합산하면 HC04 배수 당직이 은신처 단위로 다시 쪼갠다.",
+            "en": "Loose family groups and shared hiding places were all there was. / The elder females held only movement priority, and had no combat command. / Several family groups used the same trunk by time division. / When H04 summed them as a single colony, the HC04 drainage watch split them again by hiding place."
+          }
+        ],
+        [
+          {
+            "ko": "장기 적응",
+            "en": "Long-term adaptation"
+          },
+          {
+            "ko": "개체는 펌프 기동 전의 압력 변화와 안전한 준설 시간표를 학습한다. / 세대를 거쳐 관로 생활에 유리한 작은 체구와 야행성이 선택될 수 있으나, 좁은 관로에 특화될수록 지상 횡단과 한파에 취약해진다. / 가족군은 선행지표를 따라 이동한 경험을 공유하며 은신처를 바꾸는 순서를 익힌다.",
+            "en": "Individuals learned the pressure changes before a pump start and the safe dredging timetable. / Across generations a smaller body and a nocturnal habit favorable to pipe life could be selected, but the more they specialized for narrow pipes, the more vulnerable they became to surface crossings and cold waves. / Family groups share experience of following early indicators and learn the sequence for changing shelters."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G04-generated-G04-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "수염으로 물살과 틈의 공기 흐름을 읽고 발과 몸으로 펌프 기동 전 압력 변화를 느낀다. 관이 가득 차거나 공기층이 끊기면 같은 감각이 먹통이 되고, 공식 센서보다 앞서는 이동도 언제나 맞지는 않는다. H04 강별의 로봇이 열원을 한 군락으로 합산해도 배수 당직은 잠자리와 출입 시각으로 다시 쪼갠다.",
+        "en": "They read the current and the air moving through gaps with their whiskers, and felt pre-start pressure changes through their feet and bodies. When a pipe filled or an air layer broke, the same senses went dead, and a move that ran ahead of the official sensors was not always right. Even when H04 Gangbyeol's robot summed the heat sources into one colony, the drainage watch split them again by sleeping place and entry time."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E01 · 마른굴연장암컷",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E01 · Dry-Cavern Elder Female",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "대피 우선",
+            "en": "Evacuation priority"
+          },
+          {
+            "ko": "통제자",
+            "en": "controller"
+          },
+          {
+            "ko": "M005",
+            "en": "M005"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E02 · 관로순회너구리",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e02"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E02 · Pipe-巡回 Raccoon",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e02"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "야간 순회",
+            "en": "Night patrol"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M005",
+            "en": "M005"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E03 · 물살수염",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e03"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E03 · Current-Whiskers",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e03"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "수위 선행",
+            "en": "Early water-level signal"
+          },
+          {
+            "ko": "일반 생태",
+            "en": "common ecology"
+          },
+          {
+            "ko": "M006",
+            "en": "M006"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E04 · 오십미터밤발",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e04"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E04 · Fifty-Meter Nightwalker",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e04"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "골목 출몰",
+            "en": "Alley appearances"
+          },
+          {
+            "ko": "일반 생태",
+            "en": "common ecology"
+          },
+          {
+            "ko": "M006",
+            "en": "M006"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E05 · 준설시각지기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e05"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E05 · Dredging-Time Keeper",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e05"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "공사 회피",
+            "en": "Construction avoidance"
+          },
+          {
+            "ko": "직능",
+            "en": "occupational"
+          },
+          {
+            "ko": "M006",
+            "en": "M006"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E06 · 막먹이채집자",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e06"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E06 · Biofilm Forager",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e06"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "센서 가림",
+            "en": "Sensor obscuration"
+          },
+          {
+            "ko": "직능",
+            "en": "occupational"
+          },
+          {
+            "ko": "M006",
+            "en": "M006"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E07 · 들것어미",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e07"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E07 · Litter-Carrier Mother",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e07"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "새끼 이송",
+            "en": "Transporting young"
+          },
+          {
+            "ko": "직능",
+            "en": "occupational"
+          },
+          {
+            "ko": "M006",
+            "en": "M006"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E08 · 교대굴지기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E08 · Shift-Change Burrow Keeper",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "입구 교대",
+            "en": "Entrance shift change"
+          },
+          {
+            "ko": "첫 번째 정예",
+            "en": "first elite"
+          },
+          {
+            "ko": "M006",
+            "en": "M006"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E09 · 해빙길안내",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e09"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E09 · Thaw-Path Guide",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e09"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "온기 안내",
+            "en": "Guiding toward warmth"
+          },
+          {
+            "ko": "두 번째 정예",
+            "en": "second elite"
+          },
+          {
+            "ko": "M006",
+            "en": "M006"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E10 · 마른대피공지기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e10"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E10 · Dry Refuge Keeper",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e10"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "은신 점유",
+            "en": "Shelter occupancy"
+          },
+          {
+            "ko": "환경 거점",
+            "en": "environmental stronghold"
+          },
+          {
+            "ko": "M006",
+            "en": "M006"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E11 · 케이블틈살림",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e11"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E11 · Cable-Gap Dweller",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e11"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "건조 은신",
+            "en": "Dry shelter"
+          },
+          {
+            "ko": "환경 거점",
+            "en": "environmental stronghold"
+          },
+          {
+            "ko": "M006",
+            "en": "M006"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G04E12 · 관로잔뼈",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e12"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G04E12 · Pipe-Bound Youngling",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G04",
+                  "anchor": "g04e12"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "협소 잔류",
+            "en": "Remaining in narrow spaces"
+          },
+          {
+            "ko": "성장 단계",
+            "en": "growth stage"
+          },
+          {
+            "ko": "M006",
+            "en": "M006"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E01-title-heading-1",
+      "publicAnchors": [
+        "g04e01",
+        "Hostile-Group-G04-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E01 · 마른굴연장암컷",
+        "en": "G04E01 · Dry-Cavern Elder Female"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M005",
+          "en": "Source batch: M005"
+        },
+        {
+          "ko": "기존 역할군: 통제자",
+          "en": "Former role class: controller"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\",\"HP01\"],\"scenarios\":[\"G04-SC1\",\"G04-SC2\",\"G04-SC3\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\",\"HP01\"],\"scenarios\":[\"G04-SC1\",\"G04-SC2\",\"G04-SC3\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "대피 우선",
+            "en": "Evacuation priority"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "마른굴연장암컷은 새끼 이동과 좁은 턱의 우선권을 가진 이름 있는 통제자다. 펌프 기동 전 압력을 몸으로 읽고 높은 환기실로 먼저 오른다.",
+            "en": "The Dry-Cavern Elder Female is a named controller whose authority covers moving the young and priority at narrow ledges. It reads pressure with its body before the pump starts and climbs first to the high ventilation room."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02558",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0014"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02559",
+      "text": {
+        "ko": "마른굴연장암컷은 새끼 이동과 좁은 통과 지점의 우선권을 가진 너구리의 이름 있는 통제자다.",
+        "en": "The Dry-Cavern Elder Female is a named raccoon-dog controller whose authority covers moving the young and priority at narrow passages."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02560",
+      "text": {
+        "ko": "수염이 길고 발바닥에 관로 녹이 배어 있으며, 펌프 기동 전 압력 변화를 몸으로 읽고 높은 환기실로 먼저 오른다.",
+        "en": "Her whiskers were long and the rust of the pipes had soaked into her paw pads; she read the change in pressure before the pumps started with her body and climbed first to the high ventilation room."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02561",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0017"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02562",
+      "text": {
+        "ko": "중랑·탄천 간선 점검이 끊긴 뒤 뚝섬 연합 펌프 옆 건조 대피공에 정착한 가족군의 연장자 암컷이다.",
+        "en": "She was the elder female of a family group that settled in the dry refuge chamber beside the Ttukseom Union pumps after the inspection of the Jungnang and Tancheon trunk lines broke off."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02563",
+      "text": {
+        "ko": "발과 가슴으로 느낀 압력 변화가 펌프 기동보다 먼저 닿으면 이 암컷은 새끼를 높은 환기실로 이끈다. 당직자는 이동 시각과 실제 수위를 함께 적어 예비 경보의 오차를 확인한다.",
+        "en": "When pressure changes felt through her paws and chest precede pump start-up, this female leads the young to a high ventilation room. The watch records movement times alongside measured water levels to check the preliminary warning’s error."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02564",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0020"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02565",
+      "text": {
+        "ko": "머무는 곳은 뚝섬 연합 펌프장 연결 관로의 마른 굴과 공방 하부 대피공이다.",
+        "en": "Her core was the dry burrows in the pipes connected to the Ttukseom Union pumping station and the refuge chamber under the workshop."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02566",
+      "text": {
+        "ko": "홍수위가 오르면 마포 연합 송신 지하 갤러리로 새끼를 옮기고, 서울 혹한·암사 연료 지연에는 유일한 마른 접근로를 다른 가족과 겹쳐 쓴다.",
+        "en": "When the flood level rose she moved her young to the underground transmission gallery of the Mapo Union, and in the Seoul severe cold and delayed Amsa fuel she shared the only dry approach with other families."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02567",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0023"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요",
+        "en": "Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02568",
+      "text": {
+        "ko": "수생 먹이와 유기 쓰레기, 사체 잔여가 에너지이며 낮은 유속과 건조 은신처가 유지 비용이다.",
+        "en": "Aquatic food, organic garbage, and carcass leftovers were her energy, and low current speeds and dry shelters were her upkeep costs."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02569",
+      "text": {
+        "ko": "HC04가 준설을 건너뛰면 먹이막이 두꺼워져 밀도가 오르고, 과준설하면 이 암컷이 지상 시장으로 새끼를 민다.",
+        "en": "When HC04 skipped dredging, the food film thickened and the density rose, and when it overdredged, this female pushed her young into the surface markets."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02570",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0026"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02571",
+      "text": {
+        "ko": "건기에는 가족마다 은신처를 따로 쓰고, 강우 전 선행 압력에 환기실로 옮긴다.",
+        "en": "In the dry season each family used its own shelter, and at the leading pressure before rain they moved to the ventilation room."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02572",
+      "text": {
+        "ko": "은신처가 연속 수몰되면 시간 분할을 포기하고 골목으로 분산한다.",
+        "en": "When the shelters were flooded again and again, they gave up the division of time and scattered into the alleys."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02573",
+      "text": {
+        "ko": "우선권은 살아남아 익힌 이동 경험에서 나온다.",
+        "en": "Her priority comes from movement experience learned through survival."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02574",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0030"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02575",
+      "text": {
+        "ko": "다른 가족에게 전투 명령을 내리지 않는다.",
+        "en": "She gave no combat orders to the other families."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02576",
+      "text": {
+        "ko": "H04 로봇이 열원을 단일 군락으로 합산해도 HC04 배수 당직은 잠자리와 출입 시각으로 쪼개며, 인간 육안이 최종이다.",
+        "en": "Even when the H04 robot summed the heat sources into a single colony, the HC04 drainage duty split them by sleeping places and times of coming and going, and the human eye had the final word."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02577",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0033"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02578",
+      "text": {
+        "ko": "1단계 비가 오기 전 환기실 이동이 비공식 경보가 된다.",
+        "en": "In the first stage, her move to the ventilation room before rain became an unofficial alarm."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02579",
+      "text": {
+        "ko": "2단계 배설·미생물막이 수위 센서를 가려 점검 로봇과 충돌하고, 3단계 한파·홍수에 마른 관 하나에서 펌프 정비와 피난이 경합한다.",
+        "en": "In the second stage, droppings and microbial film covered the water-level sensors and clashed with the inspection robots, and in the third stage, in a cold wave or flood, pump maintenance and evacuation competed in the one dry pipe."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02580",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0036"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02581",
+      "text": {
+        "ko": "독먹이와 전면 수몰은 사체 부패로 하류와 노동자를 함께 해친다.",
+        "en": "Poison bait and full flooding harmed both the downstream and the workers through rotting carcasses."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02582",
+      "text": {
+        "ko": "부분 차수, 대체 은신 관 센서 세척 야간 지상 통행 제한이 기본이며, 펌프 회복 시간과 센서 신뢰도, 지상 교상 0건으로 성공을 본다.",
+        "en": "Partial damming, substitute shelter pipes, washing the sensors, and restricting night passage on the surface were the basics, and success was the pump recovery time, the reliability of the sensors, and zero bites on the surface."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02583",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0039"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02584",
+      "text": {
+        "ko": "너구리 이동을 예비 경보로 채택하면 준비 시간을 벌지만 오탐 책임이 남고, HP01 수문가의 측정을 기다리면 급한 유입에 늦을 수 있다.",
+        "en": "Adopting the raccoons' movement as a preliminary alarm bought preparation time but left the responsibility for false positives, and waiting for the measurements of the HP01 Sluice House could be too late for a sudden inflow."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02585",
+      "text": {
+        "ko": "두 신호가 다를 때만 펌프를 예열하면 연료는 아끼나 짧은 국지 호우를 놓친다.",
+        "en": "Preheating the pumps only when the two signals differed saved fuel but missed short local downpours."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02586",
+      "text": {
+        "ko": "비공식 생태 신호에 공공 안전을 맡길지는 이 통제자의 도덕적 부담으로 남는다.",
+        "en": "Whether to entrust public safety to an unofficial ecological signal was this controller's moral cost."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02587",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0043"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-9-prose-02588",
+      "text": {
+        "ko": "G04-SC1 ‘맨홀 아래의 선행지표’의 중심 이동을 만들고, G04-SC2에서는 준설창과 겹치는 시간 분할의 한쪽 가족 우선권을 가지며 G04-SC3 한파의 마른 통로에서 난방 은신 관·점검 지연·외부 발판 중 하나를 강제한다.",
+        "en": "She made the central movement of G04-SC1 \"The Leading Indicator Beneath the Manhole,\" in G04-SC2 she held one family's priority in the division of time that overlapped with the dredging window, and in the dry passage of the G04-SC3 cold wave she forced one of three choices: heated shelter pipes, delayed inspection, or outside footholds."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E02-title-heading-1",
+      "publicAnchors": [
+        "g04e02",
+        "Hostile-Group-G04-heading-0045"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E02 · 관로순회너구리",
+        "en": "G04E02 · Pipe-巡回 Raccoon"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E02-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M005",
+          "en": "Source batch: M005"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC1\",\"G04-SC2\",\"G04-SC3\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC1\",\"G04-SC2\",\"G04-SC3\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E02-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "야간 순회",
+            "en": "Night patrol"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "관로순회너구리는 낮 관로, 밤 출구 50미터 골목을 도는 일반 성체다. 연장자 암컷의 우선권은 통과 지점에서만 인정하고 그 외에는 자기 시간표를 따른다.",
+            "en": "The Pipe-巡回 Raccoon is an ordinary adult that circles pipes by day and alleys within 50 meters of an exit at night. It recognizes the elder female's priority only at chokepoints and follows its own schedule elsewhere."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02589",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0048"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02590",
+      "text": {
+        "ko": "관로순회너구리는 너구리의 일반 생태형으로, 낮에는 맨홀 아래 관로에 숨고 밤에는 출구에서 약 50미터 안의 골목을 돈다.",
+        "en": "The Pipe-Patrol Raccoon was an ordinary ecological type of the Raccoon Dog that hid in the pipes beneath the manholes by day and circled the alleys within about 50 meters of an exit at night."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02591",
+      "text": {
+        "ko": "수염으로 물살과 틈의 공기 흐름을 읽고, 청각으로 펌프 진동과 장화 소리를 가르며, 젖은 털과 좁은 어깨로 관의 틈을 지난다.",
+        "en": "It read the current and the airflow of the gaps with its whiskers and told pump vibration apart from the sound of boots by hearing, and its wet fur and narrow shoulders fit through pipe gaps."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02592",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0051"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02593",
+      "text": {
+        "ko": "수생 먹이와 쓰레기, 사체를 따라 사람이 비운 빗물 간선에 들어온 가족군의 평범한 성체다.",
+        "en": "It was an ordinary adult of a family group that came into the stormwater trunk lines emptied by people, following aquatic food, garbage, and carcasses."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02594",
+      "text": {
+        "ko": "도시 하천 출현 기록을 바탕으로, 2126년 관로 운영에 영향을 미치는 생태 질서를 관찰한다.",
+        "en": "On the basis of records of appearances in urban streams, it observed the ecological order affecting pipe operations in 2126."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02595",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0054"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식",
+        "en": "Habitat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02596",
+      "text": {
+        "ko": "뚝섬 연합 낮은 유속 관로가 기본이며, 수위가 오르면 마포 연합 환기구 쪽으로 잠시 분산한다.",
+        "en": "The low-current pipes of the Ttukseom Union were its base, and when the water level rose it dispersed briefly toward the Mapo Union vents."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02597",
+      "text": {
+        "ko": "한파에 사료 밀도가 바뀌면 동부 지선으로 이동했다가 해빙 뒤 익숙한 관으로 돌아온다.",
+        "en": "When the density of food changed in a cold wave, it moved to the eastern branch lines, and after the thaw it came back to its familiar pipes."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02598",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0057"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "필요",
+        "en": "Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02599",
+      "text": {
+        "ko": "미생물막과 유기 쓰레기, 사체 잔여가 먹이이고 건조한 은신처가 없으면 지상 체류가 길어진다.",
+        "en": "Microbial film, organic garbage, and carcass leftovers were its food, and without a dry shelter its stays on the surface grew longer."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02600",
+      "text": {
+        "ko": "준설이 한꺼번에 먹이막을 걷으면 이 개체부터 시장 골목으로 밀려 난다.",
+        "en": "When dredging cleared away the food film all at once, this individual was the first to be pushed out into the market alleys."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02601",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0060"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life Cycle and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02602",
+      "text": {
+        "ko": "건기에는 자기 가족의 먹이터만 돌고, 홍수 뒤에는 시간대를 나눠 같은 간선을 쓴다.",
+        "en": "In the dry season it circled only its own family's feeding grounds, and after a flood the families divided the hours and used the same trunk line."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02603",
+      "text": {
+        "ko": "좁은 관에 유리한 작은 체구가 세대를 넘어 남을 수는 있으나 지상 횡단과 한파에는 더 약해진다.",
+        "en": "A small build suited to narrow pipes could survive across generations, but it grew weaker at surface crossings and in cold waves."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02604",
+      "text": {
+        "ko": "며칠 동안 익힌 안전한 이동 순서를 따라 피난처를 바꾼다.",
+        "en": "It changes refuges by following safe movement sequences learned over several days."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02605",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0064"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02606",
+      "text": {
+        "ko": "연장자 암컷의 우선권을 통과 지점에서만 인정하고, 그 외에는 자기 시간표를 따른다.",
+        "en": "It recognized the elder female's priority only at passing points, and otherwise followed its own timetable."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02607",
+      "text": {
+        "ko": "로봇 로그가 부유 잔해와 이 개체를 혼동하므로 사람이 확인하기 전에는 군락 수로 세지 않는다.",
+        "en": "Because the robot logs confused floating debris with this individual, it was not counted in the colony numbers until people had confirmed it."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02608",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0067"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02609",
+      "text": {
+        "ko": "1단계 강우 전 높은 환기실로 따라 오르고, 2단계 센서가 가려진 관에서 점검 로봇과 마주치며 3단계 마른 관이 하나일 때 펌프 접근로에 겹친다.",
+        "en": "In the first stage it followed up to the high ventilation room before rain, in the second stage it met the inspection robots in pipes where the sensors were covered, and in the third stage, when only one dry pipe was left, it overlapped with the pump approach."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02610",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0069"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02611",
+      "text": {
+        "ko": "골목에서 몰아내면 50미터 순회가 주거 현관으로 짧아질 뿐이다.",
+        "en": "Driving it out of the alleys only shortened its 50-meter rounds to the doorsteps of homes."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02612",
+      "text": {
+        "ko": "야간 통행 창을 나누고 대체 은신 관을 열며 센서를 씻는 일이 대응이고, 살처분은 수질을 더 망친다.",
+        "en": "Dividing the night passage windows, opening substitute shelter pipes, and washing the sensors were the response, and culling ruined the water quality further."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02613",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0072"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "협상·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02614",
+      "text": {
+        "ko": "50미터 골목을 통행 금지 창으로 나누면 사람은 불편하고 너구리는 관로에 남는다.",
+        "en": "Dividing the 50-meter alley into no-passage windows inconvenienced people and kept the raccoons in the pipes."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02615",
+      "text": {
+        "ko": "지상 몰아내기는 즉시 민원을 줄이나 주거 침입을 늘린다.",
+        "en": "Driving them out on the surface reduced complaints at once but increased intrusions into homes."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02616",
+      "text": {
+        "ko": "질병 공포의 독살은 관로 노동자와 하류 식수를 함께 위험에 빠뜨리고 선행지표 종을 잃는다.",
+        "en": "Poisoning out of fear of disease endangered both the pipe workers and the downstream drinking water, and lost a leading-indicator species."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02617",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0076"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M005-entries-10-prose-02618",
+      "text": {
+        "ko": "G04-SC1에서는 암컷을 따라 환기실로 오르는 일반 개체로 경보의 밀도를 만들고, G04-SC2 준설창이 깨지면 지상 시장으로 나오는 첫 물결이 되며 G04-SC3에서는 세 가족 중 한 줄로 마른 통로에 겹친다.",
+        "en": "In G04-SC1 it made the density of the alarm as an ordinary individual climbing to the ventilation room after the female, when the dredging window of G04-SC2 broke it became the first wave to come out into the surface markets, and in G04-SC3 it overlapped with the dry passage as one line among the three families."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E03-title-heading-1",
+      "publicAnchors": [
+        "g04e03",
+        "Hostile-Group-G04-heading-0078"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E03 · 물살수염",
+        "en": "G04E03 · Current-Whiskers"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E03-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M006",
+          "en": "Source batch: M006"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태",
+          "en": "Former role class: common ecology"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC1\"],\"states\":[\"S04\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC1\"],\"states\":[\"S04\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E03-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "수위 선행",
+            "en": "Early water-level signal"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "물살수염은 펌프 옆 낮은 유속 바닥에 배를 붙이고 수염으로 물살을 읽는 몸이다. 관이 가득 차면 같은 감각이 먹통이 되어 지상 순회와는 자리가 갈린다.",
+            "en": "Current-Whiskers presses its belly to the low-flow floor beside a pump and reads the current with its whiskers. When a pipe fills, that same sense goes blind, setting its niche apart from surface patrols."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M006-entries-1-prose-02619",
+      "items": [
+        {
+          "ko": "역할·신체: 너구리의 일반 생태 개체로, 펌프 옆 낮은 유속 관로 바닥에 배를 붙이고 수염으로 물살의 방향과 세기를 읽는다. 체구는 지상 성체보다 작고 발바닥은 미끄러운 콘크리트에 맞게 넓다. 수위가 오르기 전 압력 변화를 발과 가슴으로 느끼지만, 관이 가득 차거나 공기층이 끊기면 같은 감각이 먹통이 된다.",
+          "en": "Role and Body: It was an ordinary ecological individual of the Raccoon Dog that pressed its belly to the floor of the low-current pipes beside the pumps and read the direction and strength of the current with its whiskers. Its build was smaller than a surface adult's, and its paw pads were broad to suit slippery concrete. It felt the change in pressure before the water rose with its feet and chest, but when the pipe filled or the air layer broke off, the same sense went dead."
+        },
+        {
+          "ko": "기원: 붕괴 뒤 중랑·탄천 간선 점검이 끊기자 수생 먹이를 따라 사람이 비운 뚝섬 연합 명부교회 펌프 지선에 남았다. 가족은 압력 변화 뒤 수위가 오르는 순서를 익혔고, 높은 이음새로 먼저 옮기는 행동을 새끼에게 전했다.",
+          "en": "Origin: After the collapse interrupted inspection of the Jungnang and Tancheon trunk lines, it followed aquatic food into the abandoned Ttukseom Union Myeongbu Church pump branch. The family learned the sequence of pressure changes followed by rising water and passed the habit of moving first to high joints to its young."
+        },
+        {
+          "ko": "서식: 낮에는 유속이 느린 관 바닥과 맨홀 아래 턱에 붙고, 밤에도 출구 쪽으로는 거의 나가지 않는다. 홍수위가 오르면 같은 관의 높은 이음새로 옮길 뿐 마포 연합 갤러리까지는 이 개체의 일상 범위가 아니다.",
+          "en": "Habitat: By day it clung to the floors of slow-current pipes and the ledges beneath the manholes, and even at night it hardly went out toward the exits. When the flood level rose it only moved to a high joint of the same pipe; the Mapo Union gallery was not within this individual's daily range."
+        },
+        {
+          "ko": "필요: 작은 수생 먹이와 관벽에 붙은 미생물막이 주식이며, 헤엄 에너지를 아끼려면 완만한 물살이 유지되어야 한다. 소독제가 진하게 흐르면 수염이 며칠 무뎌져 먹이 위치를 놓친다.",
+          "en": "Needs: Small aquatic food and the microbial film on the pipe walls were its staple food, and a gentle current had to be kept for it to save swimming energy. When disinfectant flowed thick, its whiskers were dulled for several days and it lost track of where the food was."
+        },
+        {
+          "ko": "생애·정비: 배수 유입이 적은 때에는 한 지선만 반복해 다니며 수염을 문질러 이물질을 뗀다. 국지 융설수와 배수 유입으로 바닥이 잠기면 자기 몸부터 높은 이음새로 옮기고, 해빙 뒤에는 익숙한 낮은 유속 구간으로 돌아온다.",
+          "en": "Life cycle and maintenance: During low drainage inflow, it repeatedly uses one branch line and rubs its whiskers to remove debris. When local snowmelt and drainage inflow submerge the floor, it moves its own body to high joints first. After the local thaw, it returns to the familiar low-current stretch."
+        },
+        {
+          "ko": "행동·위계: 전투 지휘를 하지 않으며 연장자 암컷이 좁은 턱을 지날 때만 길을 비킨다. H04 강별 로그가 이 개체를 부유 잔해로 찍어도 HC04 배수 당직은 출입 시각과 잠자리로 다시 구분해야 한다.",
+          "en": "Behavior and Hierarchy: It gave no combat orders and stepped aside only when the elder female passed a narrow ledge. Even when the H04 Gangbyeol log marked this individual as floating debris, the HC04 drainage duty had to tell it apart again by its times of coming and going and its sleeping place."
+        },
+        {
+          "ko": "상승: 1단계에서는 비가 오기 전에 이음새로 붙어 비공식 선행 신호가 된다. 2단계에서는 같은 관에 배설이 쌓여 공식 수위계가 낮게 나오고 점검 로봇과 코가 마주친다. 3단계에서는 남은 낮은 유속 구간이 정비 인력의 발판과 겹친다.",
+          "en": "Escalation: In the first stage it clung to the joints before rain and became an unofficial leading signal. In the second stage droppings piled up in the same pipe, the official water gauge read low, and it came nose to nose with the inspection robots. In the third stage the remaining low-current stretch overlapped with the footholds of the maintenance crews."
+        },
+        {
+          "ko": "교전·대응: 독먹이와 전면 수몰은 사체 부패로 하류를 함께 망친다. 부분 차수로 유속을 잠시 낮추고 센서를 씻은 뒤 우회 관을 열면, 물살수염은 익숙한 바닥으로 돌아가 펌프 가동 회복 시간을 줄인다.",
+          "en": "Engagement and Response: Poison bait and full flooding ruined the downstream along with it through rotting carcasses. If partial damming briefly lowered the current, the sensors were washed, and the detour pipes were opened, Current-Whiskers went back to its familiar floor and shortened the time for the pumps to resume."
+        },
+        {
+          "ko": "교섭·도덕 선택: 이 개체의 이음새 이동을 예비 경보로 채택하면 준비 시간은 벌지만 오탐 연료 책임은 뚝섬 연합과 HC04에 남는다. HP01 수문가의 현장 측정만 기다리면 짧은 유입에 늦고, 두 신호가 어긋날 때만 펌프를 예열하면 평소 연료는 아끼나 동시 지연을 놓친다. 물살 읽기를 처벌 근거로 삼을 수는 없다.",
+          "en": "Negotiation and Moral Choice: Adopting this individual's move to the joints as a preliminary alarm bought preparation time, but the fuel responsibility for false positives stayed with the Ttukseom Union and HC04. Waiting only for the on-site measurements of the HP01 Sluice House was too late for short inflows, and preheating the pumps only when the two signals disagreed saved everyday fuel but missed simultaneous delays. Reading the current could not be made grounds for punishment."
+        },
+        {
+          "ko": "시나리오 연결: G04-SC1 ‘맨홀 아래의 선행지표’에서 낮 이음새 이동이 공식 센서보다 먼저 나타난다.",
+          "en": "Scenario Links: In G04-SC1 \"The Leading Indicator Beneath the Manhole,\" its daytime move to the joints appeared before the official sensors."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E04-title-heading-1",
+      "publicAnchors": [
+        "g04e04",
+        "Hostile-Group-G04-heading-0082"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E04 · 오십미터밤발",
+        "en": "G04E04 · Fifty-Meter Nightwalker"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E04-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M006",
+          "en": "Source batch: M006"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태",
+          "en": "Former role class: common ecology"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC2\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC2\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E04-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "골목 출몰",
+            "en": "Alley appearances"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "오십미터밤발은 맨홀 출구에서 골목 약 50미터만 밤에 도는 지상 순회자다. 깊은 관 바닥의 수염 판독은 서툴고 그 선을 넘으면 바로 관으로 물러난다.",
+            "en": "The Fifty-Meter Nightwalker patrols above ground only at night, covering about 50 meters of alley from a manhole exit. It is poor at reading whiskers on deep pipe floors and retreats straight into the pipe if it crosses that boundary."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M006-entries-2-prose-02620",
+      "items": [
+        {
+          "ko": "역할·신체: 너구리의 일반 생태 개체로, 맨홀 출구에서 골목 약 50미터를 밤에만 도는 지상 순회자다. 뒷발 발톱은 젖은 아스팔트에 맞고, 귀는 펌프 진동과 사람 장화 소리를 입구에서 가른다. 깊은 관 바닥의 수염 판독은 서툴다.",
+          "en": "Role and body: An ordinary ecological member of the Raccoon Dog, it patrols above ground only at night, circling alleys about 50 meters from a manhole exit. Its hind claws suit wet asphalt, and at the entrance its ears distinguish pump vibrations from people's boots. It is poor at reading whiskers on deep pipe floors."
+        },
+        {
+          "ko": "기원: 관로 안 먹이가 줄던 해, 출구 쓰레기와 시장 잔여를 따라 지상 회로를 만든 가족에서 나왔다. 하수가 생활권으로 역류하는 불안한 모습으로 보이지만 지하 군대의 정찰병은 아니다.",
+          "en": "Origin: It came from a family that formed a surface circuit around exit refuse and market leftovers in a year when food inside the pipes dwindled. It became the face of fears that sewage would backflow into living areas, but is not a scout for an underground army."
+        },
+        {
+          "ko": "서식: 낮에는 출구 턱 아래의 마른 그늘에 숨고, 밤에는 뚝섬 연합 공방 골목과 마포 연합 송신 쪽 골목을 50미터 안에서만 돈다. 그 선을 넘으면 개와 차량에 노출되어 바로 관으로 물러난다.",
+          "en": "Habitat: By day it hides in dry shade below an exit ledge; at night it circles only within 50 meters of the workshop alleys of the Ttukseom Union and the alleys toward the Mapo Union transmission site. If it crosses that line, exposure to dogs and vehicles drives it straight back into the pipe."
+        },
+        {
+          "ko": "필요: 야간 유기 쓰레기와 사체 잔여가 주식이며, 회로를 유지하려면 출구가 잠기지 않은 마른 턱이 필요하다. 한꺼번에 준설해 출구가 뜨면 회로가 시장 안쪽으로 길어진다.",
+          "en": "Needs: Nighttime refuse and carrion are its staples; it needs a dry ledge with an unblocked exit to maintain its circuit. If dredging lifts the exit all at once, the circuit extends deeper into the market."
+        },
+        {
+          "ko": "생애·정비: 발바닥의 각질이 갈라지면 한동안 지상에 오르지 않고 턱에서 잔여만 기다린다. 한파에 골목이 얼면 회로를 접고 입구 안쪽에 머물며, 해빙 첫밤에 다시 같은 모서리를 밟아 길을 확인한다.",
+          "en": "Life and maintenance: If the pads on its feet crack, it stays off the surface for a while and waits for leftovers on the ledge. When alleys freeze in a cold wave, it folds its circuit and stays inside the entrance; on the first thawed night, it steps on the same corner again to check its route."
+        },
+        {
+          "ko": "행동·위계: 같은 출구를 쓰는 가족과 시간을 나누어 올라오며 누가 먼저인지는 연장자 암컷의 통과 뒤에 결정된다. 전투 대형을 만들지 않고, 장화 소리가 가까우면 회로를 중간에 끊는다.",
+          "en": "Behavior and hierarchy: It shares emergence times with the family that uses the same exit; who goes first is decided after the elder female passes. It forms no combat formation and breaks off its circuit midway when boot sounds approach."
+        },
+        {
+          "ko": "상승: 1단계에서는 골목 모서리에 발자국만 남긴다. 2단계에서는 준설 창과 출입 시각이 겹쳐 두 가족이 동시에 시장으로 나온다. 3단계에서는 출구가 연속 수몰되어 50미터 규칙이 깨지고 통행로까지 밀려 난다.",
+          "en": "Escalation: At stage 1, it leaves only footprints at an alley corner. At stage 2, the dredging window overlaps the access time and two families emerge into the market together. At stage 3, repeated flooding of the exit breaks the 50-meter rule and pushes it into passageways."
+        },
+        {
+          "ko": "교전·대응: 야간 지상 통행을 출구 50미터 안으로 제한하고 대체 마른 턱을 열어 주면 시장 침입을 줄인다. 독먹이는 골목 개와 청소 노동자를 함께 위험에 빠뜨리며, 성공은 지상 교상 0건으로 본다.",
+          "en": "Engagement and response: Limiting nighttime surface passage to within 50 meters of the exit and opening an alternative dry ledge reduces market intrusion. Poison bait endangers alley dogs and sanitation workers alike; success is measured by zero surface bite injuries."
+        },
+        {
+          "ko": "교섭·도덕 선택: 야간 시장을 일찍 닫으면 회로는 짧아지나 상인의 매출 시간이 줄어든다. 통행을 열어 두면 민원은 줄지만 다음 준설 때 동시 출몰 책임이 커진다. 오십미터밤발의 회로를 금지선으로 박는 일과 먹이 시간을 인정하는 일은 같은 비용이 아니다.",
+          "en": "Negotiation and moral choice: Closing the night market early shortens its circuit but reduces merchants' selling hours. Keeping passage open reduces complaints but increases responsibility for simultaneous emergence during the next dredging. Fixing the Fifty-Meter Nightwalker's circuit as a prohibited line and recognizing its feeding hours are not the same cost."
+        },
+        {
+          "ko": "시나리오 연결: G04-SC2 ‘준설창의 두 가족’에서 시간표가 깨지면 이 개체의 50미터 회로가 시장 민원으로 늘어난다.",
+          "en": "Scenario link: In G04-SC2, 'Two Families in the Dredging Window,' a broken timetable extends this individual's 50-meter circuit into market complaints."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E05-title-heading-1",
+      "publicAnchors": [
+        "g04e05",
+        "Hostile-Group-G04-heading-0086"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E05 · 준설시각지기",
+        "en": "G04E05 · Dredging-Time Keeper"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E05-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M006",
+          "en": "Source batch: M006"
+        },
+        {
+          "ko": "기존 역할군: 직능",
+          "en": "Former role class: occupational"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC2\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC2\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E05-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "공사 회피",
+            "en": "Construction avoidance"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "준설시각지기는 HC04 야간 준설 진동 간격을 귀와 발바닥으로 외운 몸이다. 전투 명령 없이 자신이 먼저 지선을 비우면 같은 창의 가족이 그 빈자리를 읽는다.",
+            "en": "The Dredging-Time Keeper has memorized the intervals of HC04's nighttime dredging vibrations through its ears and paws. Without combat orders, when it vacates a branch first, families in the same window read that absence."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M006-entries-3-prose-02621",
+      "items": [
+        {
+          "ko": "역할·신체: 너구리의 직능 개체로, 귀와 발바닥으로 HC04 뚝섬열원가의 야간 준설 진동 간격을 기억한다. 어깨에 묻은 퇴적 가루로 마지막 준설 이후의 날짜가 겉으로 드러나며, 장비가 들어오는 박자가 어긋나면 즉시 은신 방향을 바꾼다.",
+          "en": "Role and body: A specialized member of the Raccoon Dog, it remembers the intervals of nighttime dredging vibrations from HC04, the Ttukseom Heat-Source House, through its ears and paw pads. Sediment dust on its shoulders visibly shows the date of the last dredging; if the equipment's entry rhythm is off, it immediately changes its hiding direction."
+        },
+        {
+          "ko": "기원: 반복된 준설 소음 속에서 살아남은 가족이 안전한 시간표를 학습한 결과다. 창을 놓쳐 죽은 자리를 본 개체가 나머지에게 진동 박자를 전했고, 가족은 그 박자에 맞춰 이동했다.",
+          "en": "Origin: This is the result of a family that survived repeated dredging noise learning a safe timetable. An animal that saw deaths after a missed window passed the vibration rhythm to the others, and the family moved in time with it."
+        },
+        {
+          "ko": "서식: 준설 장비가 드나드는 뚝섬 연합 간선 분기와 그 옆의 비어 있는 지선 입구를 오간다. 공사가 없는 낮에는 그 입구에서 자고, 진동이 시작되면 마포 연합 쪽으로 잠시 몸을 옮긴다.",
+          "en": "Habitat: It moves between the Ttukseom Union main branch visited by dredging equipment and the vacant branch entrance beside it. By day, when there is no construction, it sleeps at that entrance; when vibrations begin, it briefly moves toward the Mapo Union."
+        },
+        {
+          "ko": "필요: 준설과 준설 사이에 쌓인 유기 퇴적과 수생 잔여가 먹이며, 그 간격이 먹이 때다. 시간표가 예고 없이 앞당겨지면 먹이와 은신이 한꺼번에 사라진다.",
+          "en": "Needs: Organic sediment and aquatic leftovers accumulated between dredgings make its feeding calendar. If the schedule is unexpectedly advanced, food and hiding places disappear together."
+        },
+        {
+          "ko": "생애·정비: 한 계절의 진동 주기를 외운 뒤 다음 계절의 첫 장비를 시험 삼아 피한다. 잘못된 박자에 세 번 노출되면 그 간선을 버리고, 되돌아오는 데는 해빙 뒤의 조용한 밤이 필요하다.",
+          "en": "Life and maintenance: After memorizing one season's vibration cycle, it tests the first equipment of the next season by avoiding it. After three exposures to an incorrect rhythm, it abandons that main; returning requires a quiet night after the thaw."
+        },
+        {
+          "ko": "행동·위계: 다른 가족에게 전투 명령을 내리지 않는다. 다만 자신이 먼저 지선을 비우면 같은 시간대를 쓰던 가족이 그 빈자리를 읽는다. H04가 움직임 여러 점을 한 군락으로 합산해도 준설시각지기의 출입 시각은 따로 적어야 한다.",
+          "en": "Behavior and hierarchy: It gives no combat orders to other families. But if it vacates a branch first, families using the same time window read that absence. Even if H04 counts several movement points as one colony, the Dredging-Time Keeper's access times must be logged separately."
+        },
+        {
+          "ko": "상승: 1단계에서는 장비 진입 전 지선이 비는 현상으로만 나타난다. 2단계에서는 야간 준설이 교대 은신과 겹쳐 두 가족이 지상으로 밀린다. 3단계에서는 시간표를 무시하고 한 창에 장비를 몰아넣어 공유 규칙이 무너진다.",
+          "en": "Escalation: At stage 1, it appears only as a branch emptying before equipment enters. At stage 2, nighttime dredging overlaps with rotational hiding, pushing two families above ground. At stage 3, equipment is concentrated into one window regardless of the timetable, breaking the shared rules."
+        },
+        {
+          "ko": "교전·대응: 준설을 두 구간으로 나누고 진동 예고를 같은 박자로 유지하면 이 개체는 지선으로 물러난다. 집중 준설은 빠르나 이후 강우 때 동시 출몰을 키운다.",
+          "en": "Engagement and response: Dividing dredging into two sections and keeping vibration warnings on the same rhythm lets this individual retreat to a branch. Concentrated dredging is faster but increases simultaneous appearances during later rain."
+        },
+        {
+          "ko": "교섭·도덕 선택: 준설 시각을 너구리의 기억에 맞추면 공사 완료가 늦고 야간 노동이 늘어난다. 한 가족의 시간대를 먹이로 매입해 비우면 가장 빠르지만 다른 가족이 지키던 교대를 불공정하게 깬다. 시각지기의 기억을 작업 달력에 올릴지는 HC04 장부의 공정 문제다.",
+          "en": "Negotiation and moral choice: Matching dredging times to raccoon memory delays completion and increases night labor. Buying off one family's time slot with food and clearing it is fastest, but unfairly breaks the rotation another family kept. Whether to put the Time Keeper's memory on the work calendar is a matter of fairness in HC04's ledger."
+        },
+        {
+          "ko": "시나리오 연결: G04-SC2 ‘준설창의 두 가족’의 야간 창이 이 개체가 외운 진동 간격과 겹칠 때 촉발된다.",
+          "en": "Scenario link: The nighttime window of G04-SC2, 'Two Families in the Dredging Window,' is triggered when it overlaps the vibration intervals this individual memorized."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E06-title-heading-1",
+      "publicAnchors": [
+        "g04e06",
+        "Hostile-Group-G04-heading-0090"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E06 · 막먹이채집자",
+        "en": "G04E06 · Biofilm Forager"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E06-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M006",
+          "en": "Source batch: M006"
+        },
+        {
+          "ko": "기존 역할군: 직능",
+          "en": "Former role class: occupational"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC1\",\"G04-SC2\"],\"states\":[\"S04\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC1\",\"G04-SC2\"],\"states\":[\"S04\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E06-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "센서 가림",
+            "en": "Sensor obscuration"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "막먹이채집자는 관벽 미생물막을 먹고 남은 막이 공식 수위계를 가린다. 두꺼운 막을 찾아 관벽을 옮겨 다닌다.",
+            "en": "The Biofilm Forager eats microbial film off pipe walls, while remaining film obscures the official water-level gauge. It moves along pipe walls seeking thick film."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M006-entries-4-prose-02622",
+      "items": [
+        {
+          "ko": "역할·신체: 너구리의 직능 개체로, 코와 앞발로 관벽 미생물막과 배설 더미를 걷어 먹는다. 이 먹이막이 공식 수질·수위 센서를 가리는 부산물이 되지만, 개체는 두꺼운 막을 찾아 관벽을 옮겨 다닌다.",
+          "en": "Role and body: A specialist member of the sewer raccoon clan, it uses its nose and forepaws to scrape biofilm and piles of waste from pipe walls and eat them. This food film can obscure official water-quality and water-level sensors, but the animal moves along pipe walls seeking thick film."
+        },
+        {
+          "ko": "기원: HC04가 퇴적 준설을 미루던 구간에 막이 두꺼워지자, 막을 골라 먹는 채집 습성이 가족 안에 자리 잡았다. 개체가 긁어 먹은 자리에는 하우징 표면이 드러나고 남은 막은 가장자리에 쌓인다.",
+          "en": "Origin: As film thickened where HC04 postponed sediment dredging, selective film feeding became established within the family. Scraped feeding patches expose the housing surface, while remaining film accumulates along the edges."
+        },
+        {
+          "ko": "서식: 센서 하우징 아래와 유속이 거의 없는 침전 주머니에 머문다. 막이 씻겨 나가면 같은 관의 다른 하우징으로 옮기고, 과준설로 바닥이 드러나면 지상 쓰레기 쪽으로 밀려 난다.",
+          "en": "Habitat: It stays beneath sensor housings and in sediment pockets with almost no current. If the film washes away, it moves to another housing in the same pipe; if excessive dredging exposes the bottom, it is driven toward surface garbage."
+        },
+        {
+          "ko": "필요: 두꺼운 유기막과 사체 미생물이 에너지의 전부이며, 소독제 농도가 오르면 코점막이 며칠 동안 먹이 등급을 구분하지 못한다. 마른 은신처가 없으면 젖은 채 막을 먹다 체온을 잃는다.",
+          "en": "Needs: Thick organic film and microbes on carcasses provide all its energy. When disinfectant concentrations rise, its nasal lining cannot distinguish food quality for several days. Without a dry shelter, it loses body heat while eating film with wet fur."
+        },
+        {
+          "ko": "생애·정비: 앞니로 하우징 가장자리의 막을 벗겨 내고, 이가 닳으면 더 부드러운 하류 막만 먹는다. 한 하우징을 비운 뒤에는 며칠 쉬어 막이 다시 생기기를 기다리며, 그 공백이 센서 신뢰도가 잠깐 회복되는 창이다.",
+          "en": "Life cycle and upkeep: It strips film from the edges of housings with its incisors. Once its teeth wear down, it eats only the softer film downstream. After clearing a housing, it rests for several days while the film regrows; that gap is a brief window in which sensor reliability recovers."
+        },
+        {
+          "ko": "행동·위계: 다른 가족을 지휘하지 않고 막이 두꺼운 자리만 선점한다. 연장자 암컷이 지나갈 때는 하우징에서 내려오고, H04 로봇이 잔해로 찍은 점은 사람이 손전등으로 세 번 보아야 채집자와 부유물이 갈린다.",
+          "en": "Behavior and hierarchy: It does not command other families, only claims spots where the film is thick. It climbs down from a housing when an elder female passes. A point that an H04 robot marks as debris must be viewed three times by a person with a flashlight to distinguish a forager from floating debris."
+        },
+        {
+          "ko": "상승: 1단계에서는 센서 값이 낮게만 나온다. 2단계에서는 세척조와 채집자가 같은 하우징에서 만나 점검이 멈춘다. 3단계에서는 막을 한꺼번에 긁어 내 가족이 시장으로 쏟아진다.",
+          "en": "Escalation: At stage 1, sensor readings come back consistently low. At stage 2, the cleaning crew and a forager meet at the same housing, halting inspection. At stage 3, scraping away the film all at once sends the family spilling into the market."
+        },
+        {
+          "ko": "교전·대응: 센서 세척과 부분 차수를 먼저 하고, 막을 한 구간에만 남겨 먹이 우회로를 만든다. 전면 수몰과 독먹이는 사체막을 더 두껍게 만든다. 성과는 센서 신뢰도와 펌프 판단 지연 시간이다.",
+          "en": "Engagement and response: Clean the sensors and partially block the water first, leaving film in one section to create an alternative feeding route. Flooding the entire area and using poisoned bait make the film of decomposing carcasses thicker. The measures of success are sensor reliability and the delay in pump decisions."
+        },
+        {
+          "ko": "교섭·도덕 선택: 하우징을 자주 씻으면 펌프 판단은 유지되나 막먹이채집자의 주식과 은신이 함께 사라진다. 세척을 미루면 공식 수위계에 막이 쌓여 G04-SC1의 선행 신호와 계측이 어긋난다. 당직자는 배수 안전과 채집 생태를 같은 장부에 기록하고 세척 시각과 대체 먹이터를 함께 정한다.",
+          "en": "Negotiation and moral choice: Frequent housing cleaning maintains pump decisions but removes the film forager’s staple food and shelter. Delayed cleaning lets film accumulate on the official water gauge, putting measurements at odds with the preliminary signals in G04-SC1. The watch records drainage safety and foraging ecology in the same ledger and sets cleaning times together with alternative feeding sites."
+        },
+        {
+          "ko": "시나리오 연결: G04-SC1에서는 가려진 수위계가 현장 측정 대기를 만들고, G04-SC2에서는 준설이 막을 한꺼번에 걷어 채집자를 지상으로 민다.",
+          "en": "Scenario connection: In G04-SC1, an obscured water-level gauge forces a wait for on-site measurement. In G04-SC2, dredging removes the film all at once and pushes the foragers to the surface."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E07-title-heading-1",
+      "publicAnchors": [
+        "g04e07",
+        "Hostile-Group-G04-heading-0094"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E07 · 들것어미",
+        "en": "G04E07 · Litter-Carrier Mother"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E07-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M006",
+          "en": "Source batch: M006"
+        },
+        {
+          "ko": "기존 역할군: 직능",
+          "en": "Former role class: occupational"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC1\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC1\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E07-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "새끼 이송",
+            "en": "Transporting young"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "들것어미는 강우 전 압력에 새끼를 물어 환기실로 옮기는 보육 몸이다. 우선권은 이 일에만 쓰이며 다른 가족의 먹이터를 빼앗지 않는다.",
+            "en": "The litter-carrier mother is a caregiving animal that responds to pre-rain pressure changes by carrying her young to a ventilation room in her mouth. She uses her right of way only for this task and does not take feeding grounds from other families."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M006-entries-5-prose-02623",
+      "items": [
+        {
+          "ko": "역할·신체: 너구리의 직능 개체로, 강우 전 압력 변화를 느끼면 새끼를 입과 목덜미로 물어 높은 환기실로 옮긴다. 연장자 암컷의 이동 우선권을 이 일에만 쓰며, 다른 가족에게 전투 명령을 내리지 않는다. 젖은 털 사이로 새끼의 체온을 붙드는 가슴 주머니 같은 주름이 있다.",
+          "en": "Role and body: A specialist member of the sewer raccoon clan, she senses pressure changes before rain and carries her young by mouth, gripping them by the scruff, to a higher ventilation room. She uses an elder female's right of way only for this task and does not give combat orders to other family members. Folds like a chest pouch hold her young's body heat against her wet fur."
+        },
+        {
+          "ko": "기원: 침수 때 새끼를 낮은 관에 남겨 잃은 어미 계통이, 펌프 기동 전의 압력만으로 환기실 이동을 먼저 하도록 가족 안에서 자리를 굳혔다. 살아남은 개체는 안전했던 이동 순서를 새끼에게 전한다.",
+          "en": "Origin: Mothers that lost young left in low-lying pipes during floods established a place within the family for moving them to ventilation rooms as soon as they sensed pressure changes before the pumps started. Surviving animals pass safe movement sequences to their young."
+        },
+        {
+          "ko": "서식: 뚝섬 연합 펌프 옆 환기실 바닥과 그곳으로 오르는 마른 사다리를 주로 쓴다. 환기실이 잠기면 마포 연합 갤러리의 높은 케이블 받침으로 새끼 줄을 잇는다.",
+          "en": "Habitat: She relies chiefly on the floor of the ventilation room beside the Ttukseom Union pumps and the dry ladder leading up to it. If the ventilation room floods, she leads her line of young onto high cable supports in the Mapo Union gallery."
+        },
+        {
+          "ko": "필요: 새끼가 마를 수 있는 높은 공간과, 옮기는 동안의 짧은 먹이 공백을 메울 가까운 잔여가 필요하다. 환기구를 냄새 때문에 닫으면 들것 경로가 골목으로 꺾인다.",
+          "en": "Needs: She needs a high space where her young can dry off and nearby scraps to make up for the brief interruption in feeding while she moves them. Closing a vent because of the smell diverts her carrying route into the alleys."
+        },
+        {
+          "ko": "생애·정비: 한 배에 옮길 수 있는 새끼 수가 목덜미 힘으로 정해지고, 지치면 한 마리를 중간 턱에 두고 왕복한다. 한파에 환기실이 얼면 이동을 멈추고 몸의 주름으로 덮은 채 버틴다.",
+          "en": "Life cycle and upkeep: The strength of her neck determines how many young she can move from one litter. When exhausted, she leaves one on an intermediate ledge and makes a return trip. If the ventilation room freezes during a cold snap, she stops moving and endures by covering them with the folds of her body."
+        },
+        {
+          "ko": "행동·위계: 좁은 통과 지점에서만 우선권을 주장하고, 다른 가족의 먹이터를 빼앗지 않는다. 사람이 환기실에 있으면 새끼 줄을 우회하며, H04 열점이 사람·새끼·잔해를 섞어 보여도 육안 확인 전에는 출동하지 말아야 한다.",
+          "en": "Behavior and hierarchy: She asserts right of way only at narrow passage points and does not take other families' feeding grounds. If people are in the ventilation room, she routes her line of young around them. Even if H04 displays people, young, and debris as a single heat spot, no team should be sent out before visual confirmation."
+        },
+        {
+          "ko": "상승: 1단계에서는 비가 오기 전인데도 낮부터 환기실로 새끼가 올라간다. 2단계에서는 환기실을 닫아 경로가 작업 발판과 겹친다. 3단계에서는 남은 마른 공간이 펌프 접근로 하나뿐이라 정비와 보육이 충돌한다.",
+          "en": "Escalation: At stage 1, young climb to the ventilation room during the day, before any rain. At stage 2, closing the ventilation room puts their route across a work platform. At stage 3, the only dry space left is the pump access route, bringing maintenance and caregiving into conflict."
+        },
+        {
+          "ko": "교전·대응: 대체 은신 관과 제한된 환기실 개방이 우선이다. 전면 수몰은 새끼 줄을 한꺼번에 죽이고 사체 부패로 수질을 악화시킨다. 당직자는 지상 교상 0건과 새끼 생존을 성공 지표로 기록한다.",
+          "en": "Engagement and response: Alternative shelter pipes and limited opening of the ventilation room come first. Full flooding kills the line of young together and worsens water quality as their bodies decay. The watch records zero surface bites and survival of the young as success measures."
+        },
+        {
+          "ko": "교섭·도덕 선택: 들것어미의 낮 이동을 예비 경보로 쓰면 공공 안전을 비공식 보육 행동에 부분 위임하게 된다. 환기실을 닫고 HP01 측정만 기다리면 근거는 분명하나 새끼가 골목으로 나온다. 두 신호가 다를 때만 펌프를 예열하는 타협은 연료를 아끼나, 어미가 이미 옮긴 뒤에야 사람이 움직이는 공백을 남긴다.",
+          "en": "Negotiation and moral choice: Using the mother's daytime movement as an advance warning partially entrusts public safety to informal caregiving behavior. Closing the ventilation room and waiting only for HP01 measurements provides clear evidence, but brings the young into the alleys. A compromise of preheating the pumps only when the two signals differ saves fuel, but leaves a gap in which people act only after the mother has already moved them."
+        },
+        {
+          "ko": "시나리오 연결: G04-SC1 ‘맨홀 아래의 선행지표’는 이 개체의 낮 환기실 들것에서 시작된다.",
+          "en": "Scenario connection: G04-SC1, ‘The Leading Indicator Beneath the Manhole,’ begins with this animal carrying her young to the ventilation room during the day."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E08-title-heading-1",
+      "publicAnchors": [
+        "g04e08",
+        "Hostile-Group-G04-heading-0098"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E08 · 교대굴지기",
+        "en": "G04E08 · Shift-Change Burrow Keeper"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M006",
+          "en": "Source batch: M006"
+        },
+        {
+          "ko": "기존 역할군: 첫 번째 정예",
+          "en": "Former role class: first elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC2\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC2\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "입구 교대",
+            "en": "Entrance shift change"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "교대굴지기는 같은 간선을 쓰는 두 가족의 시간 분할을 몸 막기로 유지한다. 전투 지휘권은 없고 자기 창이 아니면 입구에 가로누워 통과만 늦춘다.",
+            "en": "The shift-change burrow keeper maintains the time-sharing arrangement between two families using the same main pipe by blocking the way with its body. It has no combat command authority; outside its family's allotted window, it lies across the entrance only to slow passage."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M006-entries-6-prose-02624",
+      "items": [
+        {
+          "ko": "역할·신체: 너구리의 첫 번째 정예로, 같은 간선을 쓰는 두 가족의 시간 분할을 냄새 표시와 몸 막기로 유지한다. 전투 지휘권은 없고, 자기 가족의 창이 아니면 입구에 가로누워 통과만 늦춘다. 목덜미 선 냄새는 몇 시간 뒤 옅어져 영구 영토가 되지 않는다.",
+          "en": "Role and body: The sewer raccoon clan's first elite, it maintains the time-sharing arrangement between two families using the same main pipe through scent marks and by blocking the way with its body. It has no combat command authority; outside its family's allotted window, it lies across the entrance only to slow passage. The scent from its neck glands fades after a few hours, so it does not create permanent territory."
+        },
+        {
+          "ko": "기원: 홍수 뒤 먹이막이 두꺼워져 여러 가족이 한 관을 쓰게 되자, 먼저 도착한 쪽이 창을 지키던 습관이 이 개체에서 강해졌다. 몸으로 기억한 교대 규칙에 따라 입구를 지킨다.",
+          "en": "Origin: After a flood thickened the food film and multiple families began using one pipe, the habit of the first arrivals guarding their allotted window grew strong in this animal. It guards the entrance according to the shift rule learned through repeated movement."
+        },
+        {
+          "ko": "서식: 뚝섬 연합 간선과 마포 연합로 갈라지는 분기 맨홀 아래에 머물며, 자기 창이 끝나면 마른 대피공으로 물러난다. 창을 어기는 준설이 시작되면 두 가족과 함께 지상 시장 방향으로 밀린다.",
+          "en": "Habitat: It stays below the branch manhole where the Ttukseom Union main pipe splits toward the Mapo Union route, retreating to a dry refuge chamber when its window ends. If dredging begins in violation of the windows, it is pushed toward the surface market along with both families."
+        },
+        {
+          "ko": "필요: 표시를 유지할 충분한 체취와, 창 사이에 먹을 수 있는 막·잔여가 필요하다. 창이 매입되어 한쪽만 남으면 이 개체는 역할을 잃고 골목으로 흩어진다.",
+          "en": "Needs: It needs enough body scent to maintain its marks, and film and scraps to eat between windows. If one window is bought out, leaving only one family, it loses its role and disperses into the alleys."
+        },
+        {
+          "ko": "생애·정비: 냄새 선을 하루에 두세 번 덧칠하고, 비가 선을 지워 버리면 그 밤은 교대를 포기한다. 부상으로 가로눕지 못하면 다른 성체가 임시로 입구를 지키나 규칙은 금방 헐거워진다.",
+          "en": "Life cycle and upkeep: It renews the scent line two or three times a day. If rain washes it away, it abandons the shift arrangement for that night. If an injury prevents it from lying across the entrance, another adult guards it temporarily, but the rule soon loosens."
+        },
+        {
+          "ko": "행동·위계: 연장자 암컷의 새끼 이동에는 무조건 길을 연다. 그 외에는 자기 가족 창만 주장하며, H04가 두 열원을 한 점으로 합치면 HC04는 출입 시각으로 다시 쪼개야 한다.",
+          "en": "Behavior and hierarchy: It always makes way for an elder female moving her young. Otherwise, it asserts only its family's allotted window. If H04 merges two heat sources into one point, HC04 must separate them again using their entry and exit times."
+        },
+        {
+          "ko": "상승: 1단계에서는 분기 입구의 교대만 보인다. 2단계에서는 야간 준설이 두 창을 동시에 깨 시장 양쪽으로 민원이 난다. 3단계에서는 한 창을 매입한 뒤 남은 가족이 규칙을 포기한다.",
+          "en": "Escalation: At stage 1, only the shifts at the branch entrance are visible. At stage 2, nighttime dredging disrupts both windows at once, prompting complaints from both sides of the market. At stage 3, after one window is bought out, the remaining family abandons the rule."
+        },
+        {
+          "ko": "교전·대응: 준설을 두 구간으로 나누면 교대굴지기는 표시를 다시 칠한다. 대체 건조 관을 열면 입구 쟁탈은 줄지만 마포 연합 케이블 여유 공간이 줄어든다. 입구를 수몰시키면 가족 전체가 골목으로 나간다.",
+          "en": "Engagement and response: If dredging is divided into two sections, the shift-change burrow keeper renews its marks. Opening an alternative dry pipe reduces competition for the entrance but reduces spare cable space for the Mapo Union. Flooding the entrance drives entire families into the alleys."
+        },
+        {
+          "ko": "교섭·도덕 선택: 한 가족의 시간대를 먹이와 안전 통로로 사는 선택은 공사는 가장 빠르지만 교대굴지기가 지키던 공정 창을 대가 거래로 깨는 일이다. 분할 준설은 완료를 늦추고, 대체 관은 통신 여유를 판다. 효율만 올리면 다음 강우의 동시 출몰이 커진다.",
+          "en": "Negotiation and moral choice: Buying one family's time slot with food and a safe passage makes construction fastest, but turns the fair window the burrow keeper guarded into a transaction. Split dredging delays completion, while the alternative pipe trades away communications capacity. Pursuing efficiency alone increases simultaneous surface appearances during the next rain."
+        },
+        {
+          "ko": "시나리오 연결: G04-SC2 ‘준설창의 두 가족’에서 이 개체의 분기 표시가 깨지는 순간 두 가족이 동시에 지상으로 나온다.",
+          "en": "Scenario connection: In G04-SC2, ‘Two Families in the Dredging Window,’ both families surface at once when this animal's branch mark is broken."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E09-title-heading-1",
+      "publicAnchors": [
+        "g04e09",
+        "Hostile-Group-G04-heading-0102"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E09 · 해빙길안내",
+        "en": "G04E09 · Thaw-Path Guide"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E09-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M006",
+          "en": "Source batch: M006"
+        },
+        {
+          "ko": "기존 역할군: 두 번째 정예",
+          "en": "Former role class: second elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC3\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC3\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E09-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "온기 안내",
+            "en": "Guiding toward warmth"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "해빙길안내는 서울의 혹한과 암사 연료 인계 지연 속에서 발바닥과 수염으로 얼지 않은 통로를 먼저 찾는다. 여러 가족은 이 개체가 멈춘 마른 턱을 보고 뒤따른다.",
+            "en": "During severe cold in Seoul and delayed Amsa fuel handovers, the thaw-path guide uses its paw pads and whiskers to find an unfrozen passage first. Several families follow the dry ledge where it stops."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M006-entries-7-prose-02625",
+      "items": [
+        {
+          "ko": "역할·신체: 너구리의 두 번째 정예로, 발바닥과 수염으로 관벽의 결빙과 잔류 온기를 가려 서울의 혹한과 암사 연료 인계 지연 속에서 얼지 않은 통로를 먼저 찾는다. 여러 가족은 이 개체가 멈춘 마른 턱을 보고 뒤따른다. 지상 횡단은 짧고 서툴다.",
+          "en": "Role and body: The raccoon dog’s second elite uses its paw pads and whiskers to distinguish ice from residual warmth on pipe walls and find an unfrozen passage during severe cold in Seoul and delayed Amsa fuel handovers. Several families follow the dry ledge where it stops. Its surface crossings are brief and clumsy."
+        },
+        {
+          "ko": "기원: 서울의 혹한과 암사 연료 인계 지연으로 난방과 사료 분포가 바뀌던 때, 얼지 않은 펌프 접근로에서 살아남은 개체가 온기를 찾는 기억을 가족 학습으로 전했다. 가족은 그 개체가 멈춘 마른 턱을 따라 이동했다.",
+          "en": "Origin: When severe cold in Seoul and delayed Amsa fuel handovers changed heating and feed distribution, an animal that survived on an unfrozen pump approach passed its memory of finding warmth through family learning. The family moved along the dry ledges where it stopped."
+        },
+        {
+          "ko": "서식: 한파 주간에는 마포 연합 여의도출자연합회 지하 갤러리의 난방 여열과 뚝섬 연합 펌프실의 마른 접근로 사이를 오간다. 해빙이 시작되면 동부 지선에서 익숙한 관으로 유도하듯 되돌아온다.",
+          "en": "Habitat: During cold-snap weeks, it moves between the residual heating in the Mapo Union Yeouido Investment Federation's underground gallery and the dry access route to the Ttukseom Union pump room. When thawing begins, it returns along the eastern branch line as though guiding others back to a familiar pipe."
+        },
+        {
+          "ko": "필요: 얼지 않은 바닥과 소량의 여열이 생존의 첫째 조건이며, 먹이보다 먼저 마른 공간을 고른다. 갤러리 난방을 끊으면 세 가족이 펌프 접근로 하나에 겹친다.",
+          "en": "Needs: Unfrozen ground and a little residual heat are central to its survival; it chooses dry space before food. Cutting the gallery's heat brings three families together on a single pump access route."
+        },
+        {
+          "ko": "생애·정비: 발바닥 균열이 깊어지면 결빙 판독이 늦어져 한 계절을 지선에서만 보낸다. 해빙 뒤 첫 따뜻한 물로 상처를 씻는다. 물이 너무 빠르게 유입되면 접근로가 다시 잠긴다.",
+          "en": "Life cycle and upkeep: Deepening cracks in its paw pads slow its detection of ice, keeping it on the branch line for a season. It washes its wounds in the first warm water after the thaw. If that water enters too quickly, the access route floods again."
+        },
+        {
+          "ko": "행동·위계: 온기를 찾아 먼저 움직인다. 연장자 암컷이 새끼를 옮기면 안내 경로를 양보하고, H04가 한 열점으로 합쳐도 HC04는 가족 수와 출입 시각을 나눠 적는다.",
+          "en": "Behavior and hierarchy: It moves first in search of warmth. It yields its route when an elder female moves her young. Even if H04 merges them into one heat spot, HC04 records the number of families and their entry and exit times separately."
+        },
+        {
+          "ko": "상승: 1단계에서는 갤러리 쪽으로 발자국이 먼저 생긴다. 2단계에서는 여열이 줄어 접근로 점유가 겹친다. 3단계에서는 유일한 마른 펌프 통로를 세 가족이 막아 정비가 멈춘다.",
+          "en": "Escalation: At stage 1, tracks appear first toward the gallery. At stage 2, diminished residual heat causes their use of the access route to overlap. At stage 3, three families block the only dry passage to the pumps, stopping maintenance."
+        },
+        {
+          "ko": "교전·대응: 난방 은신 관을 잠시 열고 야간 지상 통행을 제한하면 안내 경로가 분산된다. 독먹이와 수몰은 얼어 죽은 사체까지 더한다. 임시 외부 점검 발판은 통로를 비우지 않고 정비할 수 있으나 한파 속 추락 위험은 작업조 몫이다.",
+          "en": "Engagement and response: Temporarily opening a heated shelter pipe and restricting nighttime surface travel disperses their routes. Poisoned bait and flooding add bodies that have frozen to death. A temporary external inspection platform permits maintenance without clearing the passage, but the work crew bears the risk of falling in the cold snap."
+        },
+        {
+          "ko": "교섭·도덕 선택: 갤러리 일부 난방을 공유 은신으로 열면 마포 연합의 다른 설비가 전력을 내놓는다. 펌프 점검을 미루면 충돌은 피하나 해빙·돌발 강우 때 침수 위험이 커진다. 해빙길안내의 온기 기억을 공식 우회로로 쓸지는 도시 배수와 비인간 피난처를 동시에 확보할 수 없다는 점에서 갈린다.",
+          "en": "Negotiation and moral choice: Opening part of the gallery's heating as shared shelter requires other Mapo Union facilities to give up power. Postponing pump inspection avoids a clash but increases flood risk during a thaw or sudden rain. Whether to use the guide's memory of warmth as an official detour hinges on the inability to secure both city drainage and nonhuman refuge at once."
+        },
+        {
+          "ko": "시나리오 연결: G04-SC3 ‘펌프실의 마른 통로’에서 이 개체가 먼저 멈춘 접근로에 세 가족이 겹친다.",
+          "en": "Scenario connection: In G04-SC3, ‘The Dry Passage to the Pump Room,’ three families converge on the access route where this animal first stops."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E10-title-heading-1",
+      "publicAnchors": [
+        "g04e10",
+        "Hostile-Group-G04-heading-0106"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E10 · 마른대피공지기",
+        "en": "G04E10 · Dry Refuge Keeper"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E10-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M006",
+          "en": "Source batch: M006"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점",
+          "en": "Former role class: environmental stronghold"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC3\"],\"states\":[\"S04\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC3\"],\"states\":[\"S04\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E10-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "은신 점유",
+            "en": "Shelter occupancy"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "마른대피공지기는 뚝섬 연합 펌프장 하부 건조 대피공에 어깨를 걸어 다른 가족이 한꺼번에 들어오지 못하게 채우는 몸이다. 마르고 유속이 낮은 저장 공간을 지킨다.",
+            "en": "The dry refuge keeper braces its shoulders inside the dry refuge chamber beneath the Ttukseom Union pump station, filling the space so other families cannot enter all at once. It guards dry storage space with a low current."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M006-entries-8-prose-02626",
+      "items": [
+        {
+          "ko": "역할·신체: 너구리의 환경 거점형으로, 뚝섬 연합 명부교회 펌프장 하부 건조 대피공에 몸집이 맞게 자리 잡은 굴 지기이다. 어깨 높이가 공의 천장 이음에 걸려 다른 가족이 한꺼번에 들어오지 못하게 물리적으로 채운다. 수염보다 공기 흐름을 옆구리로 느낀다.",
+          "en": "Role and body: An environmental-stronghold form of the Raccoon Dog, this burrow keeper has settled into the dry refuge chamber beneath the pump station of the Ttukseom Union's Myeongbu Church, where its body fits closely. Its shoulders catch against a ceiling joint, physically filling the chamber so other families cannot enter all at once. It senses airflow with its flanks more than with its whiskers."
+        },
+        {
+          "ko": "기원: 사람이 비운 대피공을 건기의 잠자리로 쓰던 가족이, 홍수 때 높은 환기실로 새끼를 보낸 뒤에도 이 마른 공간을 포기하지 않아 거점 개체가 되었다. 마르고 유속이 낮은 저장 공간이 잠자리를 유지한다.",
+          "en": "Origin: A family that used a refuge chamber vacated by people as a dry-season sleeping place refused to give up the dry space even after sending its young to the high ventilation room during a flood, producing this stronghold animal. The dry, low-current storage chamber sustains its sleeping place."
+        },
+        {
+          "ko": "서식: 대피공 안쪽 건조 선반과 공 입구의 턱이 전부이며, 수위가 입구를 넘으면 포기하고 환기실로 옮긴다. 한파에는 이 공이 유일한 얼지 않은 펌프 접근로와 맞붙어 정비 인력과 공간이 겹친다.",
+          "en": "Habitat: Its entire range is the dry shelf inside the refuge chamber and the ledge at its entrance. When the water rises above the entrance, it gives up the chamber and moves to the ventilation room. During a cold snap, the chamber adjoins the only unfrozen pump access route, putting it in the same space as maintenance workers."
+        },
+        {
+          "ko": "필요: 건조함 자체가 에너지 절약이며, 공 안에 흘러든 소량 잔여만으로 버틴다. 공을 인간 전용 점검로로 바꾸면 거점 비용을 지상 골목에 전가한다.",
+          "en": "Needs: Staying dry itself saves energy, and it survives on the small amount of scraps washed into the chamber. Converting the chamber into a human-only inspection route shifts the cost of losing its stronghold onto the surface alleys."
+        },
+        {
+          "ko": "생애·정비: 털이 마르는 시간을 기준으로 출입을 조절하고, 습기가 이틀 이상 남으면 바닥 흙을 긁어 낸다. 입구가 연속 수몰되면 거점을 버리고 공유 규칙을 접는다.",
+          "en": "Life cycle and upkeep: It times its entries and exits by how long its fur takes to dry, and scrapes away floor dirt if dampness persists for more than two days. If the entrance floods repeatedly, it abandons the stronghold and folds the sharing arrangement."
+        },
+        {
+          "ko": "행동·위계: 공 안에서는 먼저 들어온 쪽이 자리를 지키나 전투로 내쫓지 않는다. 연장자 암컷의 새끼 줄이 오면 선반을 내주고, H04 로그의 ‘잔해’ 점은 손전등 육안 확인 뒤에야 굴 지기로 정정된다.",
+          "en": "Behavior and hierarchy: Inside the chamber, the first arrival holds its place but does not drive others out by fighting. It yields the shelf when an elder female arrives with a line of young, and a ‘debris’ point in the H04 log is corrected to burrow keeper only after visual confirmation by flashlight."
+        },
+        {
+          "ko": "상승: 1단계에서는 대피공 입구에 털과 발자국만 보인다. 2단계에서는 점검 로봇과 굴 지기가 공 입구에서 맞닥뜨린다. 3단계에서는 한파로 이 마른 공이 펌프 접근과 피난의 유일한 공간이 된다.",
+          "en": "Escalation: At stage 1, only fur and tracks appear at the refuge chamber entrance. At stage 2, an inspection robot and the burrow keeper meet at the entrance. At stage 3, a cold snap makes this dry chamber the only space available for both pump access and refuge."
+        },
+        {
+          "ko": "교전·대응: 부분 차수로 입구 침수를 늦추고 대체 은신 관을 열어 거점 압력을 분산한다. 공을 전면 수몰시키면 펌프는 당장 열리지만 지상 주거 침입이 늘어난다. 성공 지표는 펌프 가동 회복과 지상 교상 0건이다.",
+          "en": "Engagement and response: Partial water blocking delays flooding at the entrance, while opening an alternative shelter pipe spreads out the pressure on the stronghold. Flooding the entire chamber opens access to the pumps immediately but increases incursions into surface homes. The measures of success are restored pump operation and zero surface bites."
+        },
+        {
+          "ko": "교섭·도덕 선택: 마른대피공을 생태 완충으로 남기면 정비 동선이 길어진다. 인간 전용 샤프트로 봉하면 배수는 빨라지나 한파 때 세 가족이 남은 접근로를 막는다. 임시 외부 발판은 공을 공유하지 않아도 되지만 설치 중 추락의 책임을 누구에게 둘지 정해야 한다.",
+          "en": "Negotiation and moral choice: Leaving the dry refuge chamber as an ecological buffer lengthens the maintenance route. Sealing it as a human-only shaft speeds drainage, but during a cold snap three families block the remaining access route. A temporary external platform avoids sharing the chamber, but someone must decide who bears the fall risk of the installation work."
+        },
+        {
+          "ko": "시나리오 연결: G04-SC3 ‘펌프실의 마른 통로’의 공간 경합은 이 거점이 얼지 않고 남을 때 커진다.",
+          "en": "Scenario connection: The competition for space in G04-SC3, ‘The Dry Passage to the Pump Room,’ intensifies when this stronghold remains unfrozen."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E11-title-heading-1",
+      "publicAnchors": [
+        "g04e11",
+        "Hostile-Group-G04-heading-0110"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E11 · 케이블틈살림",
+        "en": "G04E11 · Cable-Gap Dweller"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E11-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M006",
+          "en": "Source batch: M006"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점",
+          "en": "Former role class: environmental stronghold"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC2\",\"G04-SC3\"],\"states\":[\"S09\",\"S04\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC2\",\"G04-SC3\"],\"states\":[\"S09\",\"S04\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E11-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "건조 은신",
+            "en": "Dry shelter"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "케이블틈살림은 마포 연합 빈 트레이와 환기구 틈에 살림을 차린 두 번째 건조 은신이다. 수위가 오를 때 분산한 가족이 이곳에 머문다.",
+            "en": "The cable-gap dweller has made a home in empty Mapo Union trays and gaps by the vents, forming a second dry shelter. A family dispersed by rising water stays here."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M006-entries-9-prose-02627",
+      "items": [
+        {
+          "ko": "역할·신체: 너구리의 환경 거점형으로, 마포 연합 여의도출자연합회 지하 케이블 갤러리의 여유 트레이와 환기구 틈에 살림을 차린다. 몸은 케이블 피복에 기름을 묻히지 않으려 배를 들고 이동하며, 송신 가청 주파수에는 반응하지 않고 사람의 장화와 펌프 저주파만 가른다.",
+          "en": "Role and body: An environmental-stronghold type of the sewer raccoon clan, it has made a home in spare trays and gaps by the vents of the Mapo Union Yeouido Investment Federation's underground cable gallery. It moves with its belly raised to avoid getting oil on the cable sheathing. It does not respond to audible transmission frequencies, distinguishing only human boots from low-frequency pump sounds."
+        },
+        {
+          "ko": "기원: 수위가 오를 때 뚝섬 연합 관로에서 분산하던 가족이 갤러리의 마른 열과 빈 트레이를 발견해 정착했다. 건조 은신의 두 번째 거점으로 삼아 머문다.",
+          "en": "Origin: A family dispersing from the Ttukseom Union pipes as the water rose discovered the gallery's dry warmth and empty trays and settled there. The family stays there as its second dry-shelter stronghold."
+        },
+        {
+          "ko": "서식: 갤러리 중간의 빈 케이블 단과 환기구 기슭에 산다. 서울의 혹한에 암사 연료 인계까지 늦어져 난방이 줄면 여열이 남은 단으로 옮긴다. 통신 증설로 빈 공간이 메워지면 거점이 펌프 접근로 쪽으로 되밀린다.",
+          "en": "Habitat: It lives among empty cable tiers in the middle of the gallery and at the base of vents. When severe cold in Seoul and delayed Amsa fuel handovers reduce heating, it moves to tiers retaining residual warmth. Communications expansion that fills the spare space pushes its base back toward the pump access route."
+        },
+        {
+          "ko": "필요: 마른 열과 트레이 아래 먼지에 섞인 유기 잔여가 유지 자원이다. 대체 은신 관으로 이 공간을 열면 지상 출몰은 줄지만 송신 여유 코어가 줄어든다.",
+          "en": "Needs: Dry warmth and organic scraps mixed into the dust beneath the trays sustain it. Opening this space as an alternative shelter pipe reduces surface appearances but reduces spare transmission cores."
+        },
+        {
+          "ko": "생애·정비: 털에 묻은 케이블 먼지를 환기구 바람에 털고, 피복이 쓸린 자국이 생기면 그 단을 며칠 비운다. 전력 배급이 줄어 여열이 사라지면 거점을 접고 뚝섬 연합로 돌아간다.",
+          "en": "Life cycle and upkeep: It shakes cable dust from its fur in the vent breeze and vacates a tier for several days if it leaves scuff marks on the sheathing. If power rationing removes the residual heat, it abandons the stronghold and returns to the Ttukseom Union route."
+        },
+        {
+          "ko": "행동·위계: 갤러리 안에서도 가족 단위로만 움직이며 다른 가족을 지휘하지 않는다. 점검자가 손전등을 비추면 트레이 뒤로 들어가고, H04가 열원 하나를 군락으로 찍으면 당직이 단 번호로 다시 나눈다.",
+          "en": "Behavior and hierarchy: Even in the gallery, it moves only with its own family and does not command other families. When an inspector shines a flashlight, it slips behind a tray. If H04 marks one heat source as a colony, the duty officer separates the sightings again by tier number."
+        },
+        {
+          "ko": "상승: 1단계에서는 빈 트레이에 털만 쌓인다. 2단계에서는 대체 건조 관 제안이 이 살림과 통신 증설을 맞바꾼다. 3단계에서는 난방을 공유하지 못해 세 가족이 펌프 통로로 내려간다.",
+          "en": "Escalation: At stage 1, only fur accumulates in the empty trays. At stage 2, a proposal for an alternative dry pipe trades this home against communications expansion. At stage 3, failure to share heating sends three families down to the pump passage."
+        },
+        {
+          "ko": "교전·대응: 야간 지상 금지 테이프와 지정 단의 제한 개방이 유효하다. 갤러리를 독성 소독으로 비우면 피복과 하류 수질이 함께 상한다. 당직자는 송신 가용 시간과 지상 교상 건수를 성과로 기록한다.",
+          "en": "Engagement and response: Tape restricting nighttime surface travel and limited opening of designated tiers are effective. Toxic disinfection of the gallery damages cable sheathing and downstream water quality. The watch records transmission availability and the number of surface bites as outcome measures."
+        },
+        {
+          "ko": "교섭·도덕 선택: 빈 건조 트레이를 대체 은신처로 내주면 G04-SC2의 시장 출몰은 줄지만 마포 연합은 통신 여유를 판다. 난방을 한파 주간에만 공유하면 다른 시설이 추위를 감수한다. 케이블틈살림을 불법 점유로만 지우면 다음 준설·한파 때 비용이 펌프실로 돌아온다.",
+          "en": "Negotiation and moral choice: Providing empty, dry trays as alternative shelter reduces market appearances in G04-SC2, but costs the Mapo Union communications headroom. Sharing heating only during cold-snap weeks makes other facilities endure the cold. Treating the cable-gap dweller solely as an illegal occupant sends the costs back to the pump room during the next dredging operation or cold snap."
+        },
+        {
+          "ko": "시나리오 연결: G04-SC2의 대체 건조 관과 G04-SC3의 난방 은신 관이 이 거점의 트레이와 여열을 가리킨다.",
+          "en": "Scenario connection: The alternative dry pipe in G04-SC2 and the heated shelter pipe in G04-SC3 refer to this stronghold's trays and residual heat."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04E12-title-heading-1",
+      "publicAnchors": [
+        "g04e12",
+        "Hostile-Group-G04-heading-0114"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04E12 · 관로잔뼈",
+        "en": "G04E12 · Pipe-Bound Youngling"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04E12-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M006",
+          "en": "Source batch: M006"
+        },
+        {
+          "ko": "기존 역할군: 성장 단계",
+          "en": "Former role class: growth stage"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC1\",\"G04-SC3\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC04\"],\"scenarios\":[\"G04-SC1\",\"G04-SC3\"],\"states\":[\"S04\",\"S09\"],\"synthetics\":[\"H04\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G04-generated-G04E12-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "공통종",
+            "en": "Common species"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "협소 잔류",
+            "en": "Remaining in narrow spaces"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "관로잔뼈는 좁은 관에 유리한 작은 체구의 성장 단계다. 지상 50미터 회로와 한파 횡단을 거의 못해 성체 거점에 붙어 정비 공간을 더 좁힌다.",
+            "en": "The pipe-bound youngling is a growth stage whose small size suits narrow pipes. It can scarcely complete the 50-meter surface circuit or cross during a cold snap, so it stays close to adult strongholds and further constricts maintenance space."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M006-entries-10-prose-02628",
+      "items": [
+        {
+          "ko": "역할·신체: 너구리의 성장 단계 개체로, 좁은 관에 유리한 작은 체구에 수염은 아직 짧다. 성체 틈으로 들어가 잔여를 먹지만 지상 50미터 회로와 한파 횡단은 거의 못한다. 야행성은 강하나 판단은 서툴러 부유 잔해를 먹이로 오인한다.",
+          "en": "Role and body: A growth-stage member of the sewer raccoon clan, it has a small body suited to narrow pipes and whiskers that are still short. It slips between adults to eat scraps but can scarcely complete the 50-meter surface circuit or cross during a cold snap. It is strongly nocturnal but poor at judging what it finds, mistaking floating debris for food."
+        },
+        {
+          "ko": "기원: 여러 세대가 관로 생활만 반복한 가족에서 체구가 작아진 새끼가 살아남아 붙은 이름이다. 새끼는 어미 줄을 따라 걸으며 선행지표에 맞춰 은신처를 옮기는 순서를 익힌다.",
+          "en": "Origin: The name was given to small-bodied young that survived in families living in pipes for many generations. Young learn when to move shelters in response to early indicators by following their mothers."
+        },
+        {
+          "ko": "서식: 뚝섬 연합 지선의 좁은 이음과 환기 사다리 밑이 주 공간이며, 성체가 갤러리로 분산할 때 따라가지 못하고 대피공 선반 아래에 남는 경우가 많다. 설계 유속이 회복되면 이 서식 자체가 사라진다.",
+          "en": "Habitat: Its main spaces are narrow joints in the Ttukseom Union branch lines and the area beneath ventilation ladders. When adults disperse to the gallery, it often cannot follow and remains beneath a refuge-chamber shelf. Restoring the designed flow rate eliminates this habitat altogether."
+        },
+        {
+          "ko": "필요: 성체가 남긴 막 부스러기와 작은 수생 먹이, 그리고 마르는 데 필요한 낮은 유속이 전부다. 먹이보다 체온 손실이 먼저 목숨을 가른다.",
+          "en": "Needs: It needs only film scraps left by adults, small aquatic prey, and a low current that lets it dry. Loss of body heat threatens its life before lack of food does."
+        },
+        {
+          "ko": "생애·정비: 첫 홍수 전에 환기실 들것에 실리지 못하면 중간 턱에서 지친다. 한 계절을 넘기면 수염이 길어져 물살을 읽기 시작하나, 그 전에 유속을 올리면 성장이 끊긴다.",
+          "en": "Life cycle and upkeep: If it cannot join the group carried to the ventilation room before its first flood, it grows exhausted on an intermediate ledge. After a season, its whiskers lengthen and it begins to read the current, but raising the flow rate before then cuts its growth short."
+        },
+        {
+          "ko": "행동·위계: 위계의 맨 아래이며 연장자 암컷의 들것 순서를 기다린다. 혼자 출구로 나가면 장화 소리와 펌프 소리를 혼동하고, H04는 이 작은 열점을 잔해로 더 자주 놓친다.",
+          "en": "Behavior and hierarchy: It is at the bottom of the hierarchy and waits its turn to be carried by an elder female. If it goes to an exit alone, it confuses the sound of boots with the sound of pumps. H04 misses this small heat spot as debris more often than it misses adults."
+        },
+        {
+          "ko": "상승: 1단계에서는 환기실 이동 줄에 끼지 못한 새끼가 낮에도 이음새에 남는다. 2단계에서는 좁은 관에서 로봇과 정면으로 만난다. 3단계에서는 한파의 마른 통로를 스스로 건너지 못해 성체 거점에 붙어 정비 공간을 더 좁힌다.",
+          "en": "Escalation: At stage 1, young that could not join the group moving to the ventilation room remain at pipe joints even during the day. At stage 2, they meet a robot head-on in a narrow pipe. At stage 3, unable to cross the dry passage during a cold snap on their own, they cling to an adult stronghold and further constrict maintenance space."
+        },
+        {
+          "ko": "교전·대응: 유속을 설계치로 바로 올리는 일과 전면 수몰은 성장 세대를 한꺼번에 끊는다. 부분 차수와 대체 은신, 센서 세척이 우선이며 포획 수는 지표가 될 수 없다.",
+          "en": "Engagement and response: Immediately raising the flow to its design rate or flooding the entire area wipes out a growing generation at once. Partial water blocking, alternative shelter, and sensor cleaning take priority; capture numbers cannot serve as a measure of success."
+        },
+        {
+          "ko": "교섭·도덕 선택: 낮은 유속을 한 계절 더 허용하면 관로잔뼈가 자라 물살을 읽을 수 있으나 펌프 용량은 늦게 회복된다. 유속을 즉시 올리면 배수는 안정되고 다음 세대의 관로 적응력과 지표종 정보는 함께 줄어든다. 한파 때 이 개체를 갤러리 난방으로 옮기면 마포 연합 전력이 빠지고, 대피공에 남겨 두면 정비 발판을 점유한다.",
+          "en": "Negotiation and moral choice: Allowing a low flow rate for one more season lets the pipe-bound younglings grow and learn to read the current, but delays the recovery of pump capacity. Raising the flow immediately stabilizes drainage but also reduces the next generation's ability to adapt to the pipes and the information available from this indicator species. Moving these animals to the gallery's heating during a cold snap draws power from the Mapo Union; leaving them in the refuge chamber lets them occupy the maintenance platform."
+        },
+        {
+          "ko": "시나리오 연결: G04-SC1의 들것 줄에서 빠지는 개체이자, G04-SC3의 마른 통로에 붙어 공간을 더 좁히는 성장 단계다.",
+          "en": "Scenario connection: This is the growth stage left out of the group carried in G04-SC1 and the one that clings to the dry passage in G04-SC3, narrowing the space further."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0118"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00570",
+      "text": {
+        "ko": "너구리는 뚝섬 연합 명부교회의 펌프장 연결 관로와 공방 하부 건조 대피공, 마포 연합 여의도출자연합회의 지하 케이블 갤러리를 오가는 너구리 가족군이다.",
+        "en": "The Raccoon Dog were raccoon family groups going back and forth between the pipelines connected to the pumping station of the Myeongbu Church in the Ttukseom Union, the dry shelters beneath the workshops, and the underground cable galleries of the Yeouido Investment Federation in the Mapo Union."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00571",
+      "text": {
+        "ko": "붕괴 뒤 중랑·탄천·내부 빗물 간선의 점검 주기가 끊기자 수생 먹이와 쓰레기, 사체 잔여를 따라 이동하던 개체들이 사람이 비운 관로에 정착했다.",
+        "en": "After the collapse, when the inspection cycles of the Jungnang, Tancheon, and inner storm-water trunks were cut off, animals that had moved following aquatic food, trash, and carcass remains settled in the pipelines people had abandoned."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00572",
+      "text": {
+        "ko": "낮에는 맨홀 아래에 숨고 밤에는 출구에서 약 50미터 안의 골목을 순회한다.",
+        "en": "By day they hid beneath manholes and by night they patrolled the alleys within about 50 meters of the exits."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00573",
+      "text": {
+        "ko": "빗물관과 복개수로에서 젖은 털이 솟아오르면 하수가 생활권으로 역류하는 것처럼 불안해지지만, 너구리 무리를 하나의 지하 군대로 보아서는 안 된다.",
+        "en": "The sight of wet fur rising from storm drains and covered channels stirred the fear that sewage was flowing back into living spaces, but seeing them as a single underground army was wrong."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00574",
+      "text": {
+        "ko": "도시 하천과 시설물 가장자리를 오가던 너구리 가족은 사람이 비운 관로의 수생 먹이와 마른 턱을 따라 지하에 머물렀다.",
+        "en": "Raccoon-dog families moving along urban streams and facility edges stayed underground, following aquatic food and dry ledges in pipes people had left."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00575",
+      "text": {
+        "ko": "너구리는 발과 가슴으로 관 안의 압력 변화를 느끼고 펌프가 돌기 전에 높은 이음새로 옮긴다. 당직자는 그 이동을 예비 신호로 적되 수위계와 현장 표식을 대조한 뒤 관로 운전을 정한다.",
+        "en": "Raccoon dogs feel pressure changes through their paws and chests and move to high joints before the pumps start. The watch logs that movement as a preliminary signal, then compares water gauges and on-site marks before setting pipe operations."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00576",
+      "text": {
+        "ko": "주 서식지는 뚝섬 연합 펌프 옆의 낮은 유속 관로와 마른 대피공이다.",
+        "en": "The core habitat was the low-velocity pipelines and dry shelters beside the Ttukseom Union pumps."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00577",
+      "text": {
+        "ko": "비가 이어져 수위가 오르면 가족들은 높은 환기실로 새끼를 옮긴 뒤 마포 연합의 송신 갤러리와 환기구로 분산한다.",
+        "en": "When rain continued and the water rose, the families moved their young to the high ventilation rooms and then dispersed into the transmission galleries and ventilation shafts of the Mapo Union."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00578",
+      "text": {
+        "ko": "서울의 혹한과 암사 연료 인계 지연으로 난방 여유·사료·폐기물 분포가 바뀌면 동부 지선으로 잠시 이동한다. 온배수로 얼음이 느슨해진 뒤에도 관로를 다시 확인한 다음 익숙한 관으로 돌아간다.",
+        "en": "Seoul severe cold and delayed Amsa fuel handover change spare heating, feed and waste distribution, prompting temporary movement to eastern branches. Even when warm drainage loosens ice, raccoons recheck pipes before returning to familiar ones."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00579",
+      "text": {
+        "ko": "수생 먹이, 유기 쓰레기 사체와 미생물막이 식량이 되며 건조한 은신처와 완만한 물살이 생존 비용을 낮춘다.",
+        "en": "Aquatic food, organic trash, carcasses, and microbial mats became their food, and dry shelters and gentle currents lowered the cost of survival."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00580",
+      "text": {
+        "ko": "HC04 뚝섬열원가가 퇴적 준설을 지나치게 미루면 먹이막이 두꺼워져 밀도가 오르고, 한꺼번에 긁어내면 가족군이 지상 시장으로 밀려난다.",
+        "en": "When HC04 Ttukseom Heat-Source House put off sediment dredging too long, the food film thickened and density rose, and when it scraped everything out at once, the family groups were pushed out into the surface markets."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00581",
+      "text": {
+        "ko": "배설물과 미생물막은 수질 센서를 가려 펌프 판단까지 늦추므로, 단순히 먹이가 많다는 문제로 축소할 수 없다.",
+        "en": "Droppings and microbial mats covered the water-quality sensors and slowed even the pumps' judgments, so it could not be reduced to a problem of too much food."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00582",
+      "text": {
+        "ko": "너구리에는 고정된 지휘자가 없다.",
+        "en": "The Raccoon Dog had no fixed leader."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00583",
+      "text": {
+        "ko": "건기에는 가족마다 먹이터와 건조 은신처를 따로 쓰고, 여러 가족이 같은 간선을 이용할 때는 시간대를 나눈다.",
+        "en": "In the dry season each family used its own feeding ground and dry shelter, and when several families used the same trunk they divided the hours."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00584",
+      "text": {
+        "ko": "연장자 암컷은 새끼 이동과 좁은 통과 지점에서 우선권을 가질 뿐 다른 가족에게 전투 명령을 내리지 않는다.",
+        "en": "The elder female only held priority in moving the young and at narrow passing points, and gave no battle orders to other families."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00585",
+      "text": {
+        "ko": "홍수 뒤 먹이막이 두꺼워지면 서로 다른 가족이 한 관로를 교대로 쓰며, 은신처가 연속해서 잠기면 공유 규칙을 포기하고 지상 골목으로 흩어진다.",
+        "en": "When the food film thickened after a flood, different families took turns using one pipeline, and when their shelters flooded repeatedly, they gave up the sharing rules and scattered into the surface alleys."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00586",
+      "text": {
+        "ko": "H04 강별의 관로 로봇이 여러 열원과 움직임을 단일 군락으로 합산해도 HC04 배수 당직은 잠자리, 새끼 수 출입 시각을 기준으로 다시 나누어야 한다.",
+        "en": "Even when the pipeline robots of H04 Gangbyeol added up several heat sources and movements into a single colony, the HC04 drainage watch had to divide them again by sleeping places, numbers of young, and times of coming and going."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00587",
+      "text": {
+        "ko": "가족군을 하나의 떼로 취급하면 이동로 예측이 쉬워지지 않고, 서로 다른 피난 방향을 동시에 놓치게 된다.",
+        "en": "Treating the family groups as a single swarm did not make their movement routes easier to predict; it meant missing their different escape directions all at once."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00588",
+      "text": {
+        "ko": "너구리 가족은 수염으로 물살과 좁은 틈의 공기 흐름을 읽고, 발과 몸에 전해지는 압력 변화로 펌프 기동 전의 수위 상승을 감지한다.",
+        "en": "With their whiskers they read currents and the airflow in narrow gaps, and through pressure changes felt in their feet and bodies they sensed the water rising before the pumps started."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00589",
+      "text": {
+        "ko": "후각으로 먹이와 소독제, 부패한 사체를 구분하며 청각으로 펌프 진동과 사람의 장화 소리를 가른다.",
+        "en": "By smell they told food from disinfectant and rotting carcasses, and by hearing they separated pump vibration from the sound of human boots."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00590",
+      "text": {
+        "ko": "공식 센서보다 먼저 높은 곳으로 움직이는 경우가 있지만 언제나 정확한 것은 아니다.",
+        "en": "There were times they moved to high ground before the official sensors did, but they were not always right."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00591",
+      "text": {
+        "ko": "가족이 과거 침수 경험을 공유하고 안전한 준설 시간표를 익힌 결과일 수도 있기 때문이다.",
+        "en": "For it could be the result of families sharing past flood experience and learning the safe dredging timetable."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00592",
+      "text": {
+        "ko": "오랜 세대가 지나면 좁은 관에 유리한 작은 체구와 강한 야행성이 남을 수 있으나, 그런 적응은 지상 횡단 능력과 한파 저항을 떨어뜨린다.",
+        "en": "Over many generations a small build suited to narrow pipes and strong nocturnality might remain, but such adaptations lowered their ability to cross the surface and their resistance to cold."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00593",
+      "text": {
+        "ko": "가족은 며칠 동안 안전했던 이동 순서를 익혀 피난처를 바꾼다.",
+        "en": "The family changes shelters by learning which movement sequences remained safe over several days."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00594",
+      "text": {
+        "ko": "H04의 로그는 너구리와 부유 잔해, 웅크린 사람을 혼동하므로 최종 판단에는 인간의 육안 확인이 필요하다.",
+        "en": "H04's logs confused raccoons with floating debris and crouching people, so the final judgment required human visual confirmation."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00595",
+      "text": {
+        "ko": "충돌은 압력 선행 신호에서 시작해 센서 불일치와 피난처 경합으로 커진다.",
+        "en": "Conflict began with pressure precursor signals and grew through sensor disagreement and competition for shelter."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00596",
+      "text": {
+        "ko": "첫 단계에서는 비가 오기 전 가족군이 높은 환기실로 이동해 비공식 경보 역할을 한다.",
+        "en": "In the first stage, before rain, the family groups moved to the high ventilation rooms and served as an unofficial alarm."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00597",
+      "text": {
+        "ko": "두 번째 단계에서는 배설물과 미생물막 때문에 공식 수위계가 낮은 값을 내고, 점검 로봇과 가족군이 좁은 관에서 맞닥뜨린다.",
+        "en": "In the second stage, droppings and microbial mats made the official water gauges read low, and the inspection robots met the family groups face to face in narrow pipes."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00598",
+      "text": {
+        "ko": "마지막 단계에서는 홍수나 한파로 마른 관이 하나만 남아 펌프 정비 인력과 여러 가족이 같은 공간을 요구한다.",
+        "en": "In the last stage, floods or cold snaps left only one dry pipe, and the pump maintenance crews and several families demanded the same space."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00599",
+      "text": {
+        "ko": "독먹이와 전면 수몰은 빠른 해결처럼 보이지만 사체 부패로 수질을 악화시키고 하류와 노동자를 함께 위험에 빠뜨린다.",
+        "en": "Poison bait and total flooding looked like quick solutions, but the decay of carcasses worsened water quality and endangered both the downstream and the workers."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00600",
+      "text": {
+        "ko": "부분 차수와 센서 세척, 대체 은신 관과 제한된 야간 지상 통행을 먼저 마련한다. 성과는 펌프 가동 회복 시간과 센서 신뢰도, 지상 교상 0건으로 측정한다.",
+        "en": "Partial water-blocking, sensor cleaning, alternative shelter pipes and limited night surface passage come first. Results are measured through pump recovery time, sensor reliability and zero surface bites."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00601",
+      "text": {
+        "ko": "G04-SC1 ‘맨홀 아래의 선행지표’는 비가 오기 전인데도 가족군이 낮부터 새끼를 높은 환기실로 옮기면서 시작된다.",
+        "en": "G04-SC1 ‘The Leading Indicator Beneath the Manhole’ began when, though rain had not yet come, the family groups moved their young to the high ventilation rooms from daytime on."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00602",
+      "text": {
+        "ko": "뚝섬 연합과 HC04는 이 이동을 즉시 예비 경보로 채택할 수 있고, HP01 수문가의 현장 측정이 끝날 때까지 기다릴 수도 있으며 생태 신호와 계측값이 어긋날 때만 펌프를 예열할 수도 있다.",
+        "en": "The Ttukseom Union and HC04 could adopt this movement at once as a preliminary alarm, could wait until the field measurements of HP01 Sluice House were finished, or could preheat the pumps only when the ecological signal and the measured values disagreed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00603",
+      "text": {
+        "ko": "첫 선택은 준비 시간을 벌지만 오탐으로 연료와 인력을 낭비했을 때 책임 소재가 남는다.",
+        "en": "The first choice bought preparation time, but left the question of responsibility when a false alarm wasted fuel and labor."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00604",
+      "text": {
+        "ko": "두 번째는 근거가 명확한 대신 짧고 급한 유입에 늦을 수 있다.",
+        "en": "The second was clear in its grounds but could be late for a short, sudden inflow."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00605",
+      "text": {
+        "ko": "세 번째는 평상시 연료를 아끼지만 두 신호가 동시에 늦어지는 국지 호우를 놓칠 위험이 있다.",
+        "en": "The third saved fuel in ordinary times but risked missing a local downpour in which both signals came late together."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00606",
+      "text": {
+        "ko": "너구리의 행동은 보조 자료가 될 수 있으나 처벌이나 살처분의 근거가 되어서는 안 된다.",
+        "en": "The raccoons' behavior could be useful supplementary data, but must never become grounds for punishment or culling."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00607",
+      "text": {
+        "ko": "비공식 생태 신호에 공공 안전의 일부를 맡길지 정해야 한다.",
+        "en": "Whether to entrust part of public safety to an unofficial ecological signal was the burden of this choice."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00608",
+      "text": {
+        "ko": "G04-SC2 ‘준설창의 두 가족’에서는 HC04가 잡은 야간 준설 시간이 두 가족의 교대 은신 시간과 겹친다.",
+        "en": "In G04-SC2 ‘Two Families at the Dredging Window,’ the night dredging time HC04 had set overlapped with the alternating shelter times of two families."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00609",
+      "text": {
+        "ko": "예정대로 장비를 넣으면 두 가족이 동시에 뚝섬 연합과 마포 연합의 지상 시장으로 나오고, 케이블 통로와 배수로 양쪽에서 민원이 발생한다.",
+        "en": "Putting in the equipment as planned brought both families out into the surface markets of the Ttukseom Union and the Mapo Union at once, and complaints arose on both the cable passage and the drainage side."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00610",
+      "text": {
+        "ko": "준설을 두 구간으로 나누면 가족별 퇴로를 유지할 수 있으나 공사 완료가 늦어진다.",
+        "en": "Dividing the dredging into two sections kept each family's escape route but delayed the completion of the work."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00611",
+      "text": {
+        "ko": "비어 있는 건조 관을 대체 은신처로 열면 지상 출몰을 줄일 수 있지만 마포 연합의 통신 케이블 여유 공간을 내주어야 한다.",
+        "en": "Opening an empty dry pipe as an alternative shelter could reduce surface appearances but meant giving up the Mapo Union's spare space for communication cables."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00612",
+      "text": {
+        "ko": "한 가족의 이용 시간대를 먹이와 안전 통로로 사서 그 구간만 준설하면 가장 빠르지만, 다른 가족이 지켜 온 시간 분할 규칙을 불공정하게 바꾼다.",
+        "en": "Buying out one family's hours of use with food and a safe passage and dredging intensively was fastest, but unfairly changed the time-sharing rules the other family had kept."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00613",
+      "text": {
+        "ko": "효율만 따지면 마지막 선택이 유리할 수 있으나, 한 번 무너진 공유 규칙은 이후 강우 때 더 큰 동시 출몰로 이어진다.",
+        "en": "Judged by efficiency alone the last choice could be advantageous, but sharing rules once broken came back as larger simultaneous appearances in later rains."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00614",
+      "text": {
+        "ko": "G04-SC3 ‘펌프실의 마른 통로’는 서울 혹한·암사 연료 지연 속에서 세 가족이 유일하게 얼지 않은 펌프 접근로를 겹쳐 점유하는 단계다.",
+        "en": "G04-SC3 ‘The Dry Passage of the Pump Room’ was the stage at which, in the Seoul severe cold with delayed Amsa fuel, three families occupied the only unfrozen pump approach together."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00615",
+      "text": {
+        "ko": "난방되는 대체 은신 관을 제공하면 점검로를 비우고 가족을 분산할 수 있지만, 전력 배급이 줄어 마포 연합은 다른 시설의 난방도 줄여야 한다.",
+        "en": "Providing heated alternative shelter pipes could clear the inspection route and disperse the families, but power rations fell and the Mapo Union's other facilities had to endure the cold."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00616",
+      "text": {
+        "ko": "펌프 점검을 미루면 당장의 충돌은 피하나 온배수에 의한 국지 융설이나 돌발 강우 때 침수 위험이 커진다.",
+        "en": "Putting off pump inspection avoided the immediate clash but increased the risk of flooding during local snowmelt caused by warm drainage or in a sudden rain."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00617",
+      "text": {
+        "ko": "임시 외부 점검 발판을 설치하면 관로를 비우지 않고 정비할 수 있지만, 한파 속 설치 노동과 추락 위험을 작업조가 감당해야 한다.",
+        "en": "Installing temporary external inspection platforms allowed maintenance without clearing the pipes, but the work crew had to bear the labor of installation in the cold and the risk of falls."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00618",
+      "text": {
+        "ko": "HC04는 준설 시간, 지상 통행 금지 시간 대체 관의 난방을 한 장부에서 조정한다.",
+        "en": "HC04 adjusted the dredging times, surface curfew times, and heating of the alternative pipes in one ledger."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00619",
+      "text": {
+        "ko": "범람 직전의 마지막 수문 점검에서 뚝섬 연합는 상류 유입량을 늦추. 측구의 퇴적물을 걷어 내는 대신, 너구리가 이용해 온 건조 통로와 먹이터의 연속성을 보전하는 방안을 받아들인다.",
+        "en": "At the last sluice inspection just before the flood, the Ttukseom Union slowed the upstream inflow and, instead of clearing the sediment from the side ditches, accepted a plan to preserve the continuity of the dry passages and feeding grounds the Raccoon Dog had used."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00620",
+      "text": {
+        "ko": "마포 연합은 오염원을 숨겨 온 임시 배출구를 폐쇄하고 수질 기록을 공동 장부에 공개하며, XT04는 경보망과 우회 수로를 연결해 급격한 수위 상승 때에도 대피로가 잠기지 않도록 조정한다.",
+        "en": "The Mapo Union closed the temporary outfalls that had hidden sources of pollution and disclosed its water-quality records in the joint ledger, and XT04 linked the alarm network with bypass channels so that the evacuation routes would not be submerged even when the water rose sharply."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00621",
+      "text": {
+        "ko": "HC04는 부상 개체의 치료와 어린 개체의 이동을 맡되 무분별한 포획을 중단하고, H04는 야간 순찰대와 주민 대표를 묶어 통로 주변의 투기와 먹이 갈등을 줄인다.",
+        "en": "HC04 took on the treatment of injured animals and the moving of the young while stopping indiscriminate capture, and H04 brought night patrols and residents' representatives together to reduce dumping and food conflicts around the passages."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00622",
+      "text": {
+        "ko": "이에 따라 중앙 집수정은 물과 폐기물, 사람과 동물의 이동 시간을 나누어 쓰는 완충지대로 바뀐다.",
+        "en": "The central sump becomes a buffer zone that separates times for water and waste flows and for human and animal movement."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00623",
+      "text": {
+        "ko": "각 집단은 서로의 영역을 존중하고 정해진 시간대에 점검·청소·구조 업무를 교대하며, 피해가 발생하면 원인을 먼저 공동 조사한 뒤 부담을 유입 기여도와 복구 능력에 맞추어 분담하기로 한다.",
+        "en": "Each group respects the others’ territory and takes turns with inspection, cleaning and rescue at set hours. When damage occurs, they investigate its cause jointly and divide the burden according to contribution to inflow and recovery capacity."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00624",
+      "text": {
+        "ko": "첫 비가 지나간 뒤에도 통로가 유지되고 역류가 멎자, 오래된 추방 명령은 철회된다.",
+        "en": "When the passages held and the backflow stopped even after the first rain, the old expulsion order was withdrawn."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00625",
+      "text": {
+        "ko": "너구리는 지하의 합법적 거주자로 인정받고 다섯 주체는 서로를 감시 대상이 아닌 같은 유역의 이웃으로 받아들인다.",
+        "en": "The Raccoon Dog was recognized as lawful residents of the underground, and the five parties accepted one another as neighbors in the same watershed rather than as objects of surveillance."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00626",
+      "text": {
+        "ko": "합의 뒤 당직자들은 수위와 먹이, 대피공의 상태를 함께 기록하며 공동 돌봄을 이어 간다.",
+        "en": "After the agreement, the watches maintain shared care by recording water levels, food and shelter conditions together."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00627",
+      "text": {
+        "ko": "뚝섬 연합과 XT04는 매주 수위, 유속 용존산소 탁도 암모니아성 질소를 측정하고 마포 연합은 월별 불법 배출 흔적과 부유 폐기물 무게를 기록하며 HC04와 H04는 분기마다 개체 수 새끼 생존율 피부·호흡기 이상 비율 통로 이용 횟수 주민 신고 건수와 대응 시간을 함께 공개한다.",
+        "en": "The Ttukseom Union and XT04 measured water level, flow velocity, dissolved oxygen, turbidity, and ammoniacal nitrogen every week, the Mapo Union recorded monthly traces of illegal discharge and the weight of floating waste, and HC04 and H04 disclosed together every quarter the number of animals, survival of the young, rates of skin and respiratory abnormalities, passage use, the number of resident reports, and response times."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00628",
+      "text": {
+        "ko": "배수 유입이 많은 때의 역류를 월 1회 이하로 줄이고 주요 통로 가동률을 95퍼센트 이상 유지하며 부상 개체 비율을 전년보다 낮추는 것을 기준으로 삼는다. 긴급 신고에는 30분 이내 초동 대응한다.",
+        "en": "The standards are no more than one backflow per month during high drainage inflow, at least 95 percent availability of main passages, and a lower proportion of injured animals than in the previous year. Emergency reports receive an initial response within 30 minutes."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00629",
+      "text": {
+        "ko": "두 차례 연속 기준을 벗어나면 경보망이 자동으로 단계 상승하고, 임시 둑 설치와 오염원 차단 취약 개체 이동 독립 표본 재검사를 순서대로 시행한 뒤 원인 구간만 제한적으로 폐쇄한다.",
+        "en": "When the standards were missed twice in a row, the alarm network automatically moved up a stage, and after temporary embankments, cutting off pollution sources, moving vulnerable animals, and independent sample retests were carried out in order, only the section at fault was closed on a limited basis."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00630",
+      "text": {
+        "ko": "자료가 소실되거나 책임 주체가 이탈할 경우에는 종이 장부와 분산 관측자로 기록을 복원하고, 다음 계절의 관리권 일부를 공동위원회에 맡겨 신뢰를 회복한다.",
+        "en": "If data were lost or a responsible party withdrew, the records were restored through paper ledgers and dispersed observers, and part of the next season's management authority was entrusted to the joint committee to restore trust."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00631",
+      "text": {
+        "ko": "예상 밖의 변화도 나타난다.",
+        "en": "Unexpected changes appeared as well."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00632",
+      "text": {
+        "ko": "악취와 쓰레기가 줄자 야간 곤충의 분포가 달라지고, 이를 좇는 박쥐와 조류가 늘어 배수구 주변의 먹이망이 넓어지며, 안전해진 산책로에는 늦은 시간의 주민 활동이 증가한다.",
+        "en": "As the stench and trash lessened, the distribution of night insects changed, the bats and birds that pursued them increased and widened the food web around the drains, and on the now safer walking paths late-hour activity by residents increased."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-4-dossier_prose-00633",
+      "text": {
+        "ko": "그 결과 생태가 회복되면 소음과 조명 압력이 새로 생길 수 있으므로, 조도 상한과 저소음 시간대, 계절별 우회 구간까지 지표에 포함하며 공존의 범위를 계속 수정해 나간다.",
+        "en": "As a result ecological recovery could come back as new pressure from noise and light, so they included light-level limits, low-noise hours, and seasonal detour sections among the indicators and kept revising the scope of coexistence."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04-linked-scenarios-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G04-heading-0183"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "연결 시나리오",
+        "en": "Linked scenarios"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04-SC1-title-heading-1",
+      "publicAnchors": [
+        "g04-sc1-맨홀-아래의-선행지표",
+        "Hostile-Group-G04-heading-0184"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04-SC1 · 맨홀 아래의 선행지표",
+        "en": "G04-SC1 · The Leading Indicator Under the Manhole"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04-SC1-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 1",
+          "en": "Stage: 1"
+        },
+        {
+          "ko": "촉발: 비가 오기 전인데 G04 가족군이 낮부터 높은 환기실로 새끼를 옮긴다.",
+          "en": "Trigger: Before the rain came, a G04 family group began moving its kits into a high ventilation room from daytime."
+        },
+        {
+          "ko": "관련 세력: S04, HC04, HP01",
+          "en": "Actors: S04, HC04, HP01"
+        },
+        {
+          "ko": "생태 기제: 상류 압력 변화에 너구리 가족군이 공식 센서의 수위 변화 판독보다 먼저 이동한다.",
+          "en": "Ecological mechanism: The raccoon-dog family moved in response to the upstream pressure change before official sensors registered the change in water level."
+        },
+        {
+          "ko": "선택지: 너구리 이동을 예비 경보로 채택한다 / HP01 수문가의 현장 측정을 기다린다 / 두 신호가 다를 때만 펌프를 예열한다",
+          "en": "Choices: Adopt the raccoon movement as a preliminary alarm / Wait for a field measurement by the HP01 sluice house / Preheat the pumps only when the two signals differ"
+        },
+        {
+          "ko": "결과: 예비 경보는 오탐 책임을 남기고, 현장 측정은 배수 준비를 늦춘다. 교차 조건은 연료를 아끼지만 짧은 국지 호우를 놓칠 수 있다.",
+          "en": "Outcomes: A preliminary alarm left responsibility for false positives, and a field measurement delayed drainage preparation. The cross-check condition saved fuel but could miss a short local downpour."
+        },
+        {
+          "ko": "도덕 비용: 비공식 생태 신호에 공공 안전 결정을 맡길 수 있는지가 쟁점이다.",
+          "en": "Moral cost: The dispute was whether a public-safety decision could be left to an unofficial ecological signal."
+        },
+        {
+          "ko": "원본 항목: G04",
+          "en": "Source dossier: G04"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04-SC2-title-heading-1",
+      "publicAnchors": [
+        "g04-sc2-준설창의-두-가족",
+        "Hostile-Group-G04-heading-0186"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04-SC2 · 준설창의 두 가족",
+        "en": "G04-SC2 · Two Families in the Dredging Window"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04-SC2-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 2",
+          "en": "Stage: 2"
+        },
+        {
+          "ko": "촉발: HC04의 야간 준설이 두 가족군의 시간 분할 은신처와 겹친다.",
+          "en": "Trigger: HC04's night dredging overlapped the time-divided hiding places of two family groups."
+        },
+        {
+          "ko": "관련 세력: S04, S09, HC04, H04",
+          "en": "Actors: S04, S09, HC04, H04"
+        },
+        {
+          "ko": "생태 기제: 공유 관로의 시간표가 깨지면 가족군이 동시에 지상 시장으로 나온다.",
+          "en": "Ecological mechanism: When the shared pipe's timetable broke, the family groups came out into the surface markets at the same time."
+        },
+        {
+          "ko": "선택지: 준설을 두 구간으로 나눈다 / 대체 건조 관을 연다 / 한 가족군의 시간대를 매입해 집중 준설한다",
+          "en": "Choices: Split the dredging into two sections / Open a substitute dry pipe / Buy one family group's time slot and dredge in concentration"
+        },
+        {
+          "ko": "결과: 분할 준설은 공사 완료를 늦추고, 대체 관은 통신 케이블 공간을 줄인다. 시간대 매입은 빠르지만 다른 가족군과의 공유 규칙을 불공정하게 만든다.",
+          "en": "Outcomes: Split dredging delayed completion of the work, and a substitute pipe reduced space for the communications cables. Buying a time slot was fast but made the sharing rule with the other family groups unfair."
+        },
+        {
+          "ko": "도덕 비용: 배수 효율·통신 공간·가족군 간 공정성을 어느 비율로 나눌지 결정한다.",
+          "en": "Moral cost: Decide in what proportion to divide drainage efficiency, communications space, and fairness among the family groups."
+        },
+        {
+          "ko": "원본 항목: G04",
+          "en": "Source dossier: G04"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G04-generated-G04-SC3-title-heading-1",
+      "publicAnchors": [
+        "g04-sc3-펌프실의-마른-통로",
+        "Hostile-Group-G04-heading-0188"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G04-SC3 · 펌프실의 마른 통로",
+        "en": "G04-SC3 · The Dry Passage of the Pump Room"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04-SC3-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 3",
+          "en": "Stage: 3"
+        },
+        {
+          "ko": "촉발: 서울의 혹한에 암사 연료 인계가 늦어져 난방이 부족해지자 세 가족군이 유일하게 얼지 않고 마른 펌프 접근로를 겹쳐 점유한다.",
+          "en": "Trigger: When severe cold in Seoul and delayed Amsa fuel handovers reduce heating, three family groups overlap on the only unfrozen, dry pump approach."
+        },
+        {
+          "ko": "관련 세력: S04, S09, XT04, HC04, H04",
+          "en": "Actors: S04, S09, XT04, HC04, H04"
+        },
+        {
+          "ko": "생태 기제: 한파에 약하고 높은 은신처가 모자라면 평소 느슨하던 가족군이 한 통로에 모인다.",
+          "en": "Ecological mechanism: Cold-wave vulnerability and a shortage of high hiding places concentrated the usually loose family groups into one passage."
+        },
+        {
+          "ko": "선택지: 난방 은신관을 제공한다 / 펌프 점검을 지연한다 / 임시 외부 점검 발판을 설치한다",
+          "en": "Choices: Provide a heated refuge pipe / Delay the pump inspection / Install a temporary external inspection platform"
+        },
+        {
+          "ko": "결과: 은신 관은 전력을 쓰고, 점검 지연은 침수 위험을 높인다.",
+          "en": "Outcomes: A refuge pipe used power, and a delayed inspection raised the flood risk."
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G04-generated-G04-SC3-title-paragraph-1",
+      "text": {
+        "ko": "외부 발판을 설치하면 통로는 공유하지 않아도 되지만 작업자는 한파 속 설치 노동과 추락 위험을 감수한다.",
+        "en": "An external platform did not have to share the passage, but it accepted installation labor and fall risk in the cold wave."
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G04-generated-G04-SC3-title-list-2",
+      "items": [
+        {
+          "ko": "도덕 비용: 배수의 즉시 안정과 가족군의 피난처를 함께 지키려면 전력 사용·홍수 위험·외부 발판 설치 노동 중 하나를 감수해야 한다.",
+          "en": "Moral cost: Securing immediate drainage stability and refuge for the family groups together requires accepting power use, flood risk, or the labor of installing an external platform."
+        },
+        {
+          "ko": "원본 항목: G04",
+          "en": "Source dossier: G04"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "They were raccoon family groups going back and forth between the pipelines connected to the pumping station of the Myeongbu Church in the Ttukseom Union, the shelters beneath the workshops, and the cable galleries of the Yeouido Investment Federation in the Mapo Union. By day they stayed beneath manholes and by night they circled the alleys within about 50 meters of the exits, eating aquatic food, trash, carcasses, and microbial mats. The elder female held priority only in moving the young and at narrow passages, and there was no battle command.",
+        "ko": "뚝섬 연합 명부교회 펌프장 연결 관로와 공방 하부 대피공, 마포 연합 여의도출자연합회 케이블 갤러리를 오가는 너구리 가족군이다. 낮에는 맨홀 아래, 밤에는 출구 약 50미터 골목을 돌며 수생 먹이와 쓰레기, 사체와 미생물막을 먹는다. 연장자 암컷은 새끼 이동과 좁은 통과에서만 우선권을 갖고 전투 지휘는 없다."
+      },
+      "variants": [
+        {
+          "id": "G04E01",
+          "source_batch": "M005"
+        },
+        {
+          "id": "G04E02",
+          "source_batch": "M005"
+        },
+        {
+          "id": "G04E03",
+          "source_batch": "M006"
+        },
+        {
+          "id": "G04E04",
+          "source_batch": "M006"
+        },
+        {
+          "id": "G04E05",
+          "source_batch": "M006"
+        },
+        {
+          "id": "G04E06",
+          "source_batch": "M006"
+        },
+        {
+          "id": "G04E07",
+          "source_batch": "M006"
+        },
+        {
+          "id": "G04E08",
+          "source_batch": "M006"
+        },
+        {
+          "id": "G04E09",
+          "source_batch": "M006"
+        },
+        {
+          "id": "G04E10",
+          "source_batch": "M006"
+        },
+        {
+          "id": "G04E11",
+          "source_batch": "M006"
+        },
+        {
+          "id": "G04E12",
+          "source_batch": "M006"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

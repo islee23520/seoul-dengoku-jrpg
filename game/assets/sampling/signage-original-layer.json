@@ -1,0 +1,20 @@
+{
+  "author": "Seoul Dengoku contributors",
+  "license": "CC0-1.0",
+  "dedication": "The original pixel glyphs and panel geometry in this file are dedicated under CC0-1.0.",
+  "text": "구로",
+  "font": "none; original hand-authored integer pixel strokes; no font file",
+  "tool": "Node.js 26.4.0 / pngjs 7.0.0; scripts/tools/sample-assets.mjs",
+  "base": { "source": "Kenney Roguelike Modern City 2.0 packed sheet", "rect": [128, 64, 16, 16], "operation": "exact crop, retained one-pixel outer border; original inset panel" },
+  "panel": [2, 2, 12, 12],
+  "panelColor": [48, 53, 57, 255],
+  "inkColor": [237, 229, 203, 255],
+  "glyphs": [
+    [[4, 4, 11, 4], [11, 4, 11, 7], [3, 9, 12, 9], [7, 9, 7, 13]],
+    [[4, 3, 11, 3], [11, 3, 11, 6], [4, 6, 11, 6], [4, 6, 4, 9], [4, 9, 11, 9], [7, 10, 7, 12], [3, 13, 12, 13]]
+  ],
+  "atlasCells": [19, 20],
+  "resampling": "none; integer pixel copies only",
+  "transparency": "RGBA; no colorkey conversion or changes outside replaced cells",
+  "trademarks": "none; generic station name panel with no transit logo"
+}

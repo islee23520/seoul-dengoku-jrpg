@@ -1,0 +1,1010 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G12",
+  "slug": "Hostile-Group-G12",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G12]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G12 · Sinnae Deserters",
+      "summary": "G12 · Sinnae Deserters",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G12 · 신내 탈영병",
+      "summary": "G12 · 신내 탈영병",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G12-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G12 · 신내 탈영병",
+        "en": "G12 · Sinnae Deserters"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G12-generated-G12-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G12-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G12-generated-G12-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "신내 탈영병은 국가 군 조직에서 무기와 장비를 들고 나온 병사의 무리다. 무리가 모이는 곳은 신내 화물 엘리베이터 분진 통로다. 세척과 역세의 시각에는 여의도 정수 필터 갤러리 해치 앞에 선다. 당산에서 신내로 옮긴 미세척 상자의 분진이 외곽에 쌓이면 입구에 선다. 완전 밀폐 청정 구간 앞에서는 입구 쪽에 서 있다. 연결 근무지는 신내운수와 수문국이다.",
+        "en": "The Sinnae Deserters are a group of soldiers who left a national military organization carrying weapons and equipment. The place where the group gathers is the dust passage of the Sinnae freight elevator. At wash and backwash hours they stand before the Yeouido water-filter gallery hatch. When dust released when unwashed crates transferred from Dangsan are opened at Sinnae piles on the outer side, they stand at the entrance. In front of the fully sealed clean section they stand on the entrance side. The connected duties are Sinnae Transport and the Sluice."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G12-generated-G12-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "갈래는 신내 탈영병 한 무리 안의 직책이다. 탈영병 분대장과 탈영병 정예조와 탈영병 척후조는 같은 부대 표식을 달고 있다. 분대장은 승강장 탁자와 무전기를 맡고, 탈영병 정예조는 난간의 화기를 맡으며, 탈영병 척후조는 통로 입구와 갤러리 해치를 맡는다.",
+        "en": "The branches are posts inside the one group of Sinnae Deserters. The Deserter Squad Leader, the Deserter Elite Squad, and the Deserter Scouts wear the same unit insignia. The squad leader has the landing table and the radio, the Deserter Elite Squad has the weapon on the rail, and the Deserter Scouts have the passage entrance and the gallery hatch."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G12-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G12-generated-G12-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "신내운수 화물 당직이 온배수 부하가 높은 밤 신내 화물 엘리베이터 분진 통로에서 이 무리를 처음 본다. 전투복을 입은 병사 여럿이 통로에 서 있다. 어깨에는 소총이 있다. 발치에는 탄 상자와 물통이 있다. 어깨의 표식은 국가 군 조직의 표식이다.",
+            "en": "The Sinnae Transport freight duty first sees this group on a high heated-drainage load night in the dust passage of the Sinnae freight elevator. Several soldiers in combat uniforms stand in the passage. Rifles are on their shoulders. Ammunition boxes and water cans are at their feet. The insignia on the shoulders are the insignia of a national military organization."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "무리가 모이는 자리는 신내 화물 엘리베이터 분진 통로다. 물 세척 주기와 정수 역세 일정에는 여의도 정수 필터 갤러리 해치 앞에 선다. 당산에서 신내로 옮긴 미세척 상자를 열어 분진이 들어오는 낮에는 외곽 통로 입구에 선다. 완전 밀폐 청정 구간 앞에서는 입구 쪽에 머물고 구간 안은 당직의 자리다.",
+            "en": "The place where the group gathers is the dust passage of the Sinnae freight elevator. On the water-wash cycle and the purification backwash schedule they stand before the Yeouido water-filter gallery hatch. During the day, when unwashed crates transferred from Dangsan are opened at Sinnae and release dust, they stand at the outer-passage entrance. In front of the fully sealed clean section they remain on the entrance side, and the inside of the section is the duty's place."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "탄 상자, 전투식량 깡통, 물통, 여벌 전투복, 무전 전지가 화물 엘리베이터 칸과 필터 갤러리 사이에 놓여 있다. 신내운수 화물 목록은 탁자 끝에 있고 그 수량 칸에 줄이 그어져 있다. 수문국 급수 당직의 갤러리 물통은 같은 칸에 있다. 금천구청중기가의 공구 상자는 승강 패널 옆에 열려 있다. 이채온 당직의 상자는 무전기 옆에 있다.",
+            "en": "Ammunition boxes, combat-ration tins, water cans, spare combat uniforms, and radio batteries lie between the freight elevator car and the filter gallery. The Sinnae Transport freight list is at the end of the table, and lines are drawn in its quantity columns. The Sluice water-supply duty's gallery water cans are in the same car. A tool box from the Geumcheon District Office Machinery House is open beside the lift panel. The Ichaeon duty's box is beside the radio."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "온배수 부하가 높은 밤 통로 모퉁이에는 병사 몇이 서 있다. 필터 세척 주기에는 같은 부대 표식의 병사와 나무 상자가 엘리베이터 칸에 더 모인다. 역세가 돌아가는 새벽에는 무리가 승강장과 여의도 정수 필터 갤러리 해치 앞으로 나뉜다.",
+            "en": "On nights of high heated-drainage load, a few soldiers stand at the passage corner. During filter-cleaning cycles, more soldiers with the same unit insignia and more wooden boxes gather in the lift car. At dawn while backwashing runs, the group splits between the landing and the Yeouido filter-gallery hatch."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "신내 탈영병은 신내 화물 엘리베이터 분진 통로의 문턱과 여의도 정수 필터 갤러리의 해치를 살핀다. 문턱에 선 병사는 신내운수 화물 칸을 향하고, 해치에 선 병사는 수문국 역세 배관을 향한다. 당산에서 신내로 옮긴 미세척 상자의 분진이 외곽 통로에 쌓이면 탈영병 척후조는 입구에서 상자 개봉 칸 쪽을 향한다.",
+            "en": "The Sinnae Deserters watch the threshold of the Sinnae freight-elevator dust passage and the hatch of the Yeouido water-filter gallery. The soldier at the threshold faces the Sinnae Transport freight car, and the soldier at the hatch faces the Sluice backwash piping. When dust from unwashed crates transferred from Dangsan to Sinnae accumulates in the outer passage, the Deserter Scouts at the entrance face the crate-opening bay."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "탈영병 분대장은 승강장 탁자의 무전기 앞에 있다. 탈영병 정예조는 난간과 엘리베이터 문짝에 있다. 탈영병 척후조는 분진 통로 입구와 여의도 정수 필터 갤러리 해치에 있다. 탄 상자와 물통은 분대장 발치에 있고 탄창은 탈영병 정예조의 손 쪽에 있다.",
+            "en": "The Deserter Squad Leader is in front of the radio on the landing table. The Deserter Elite Squad is at the rail and the elevator door. The Deserter Scouts are at the dust-passage entrance and at the Yeouido water-filter gallery hatch. Ammunition boxes and water cans are at the squad leader's feet, and magazines are at the Deserter Elite Squad's hands."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G12-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G12-generated-G12-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "지휘는 신내 화물 엘리베이터 승강장의 탈영병 분대장에게 있다. 탈영병 정예조의 구간은 난간과 문짝과 분진 통로 사선이다. 탈영병 척후조의 구간은 외곽 입구와 여의도 정수 필터 갤러리 해치와 당산에서 신내로 옮긴 미세척 상자의 분진이 닿는 통로다. 금천구청중기가의 승강 패널과 이채온 당직의 상자는 같은 승강장에 있다.",
+        "en": "Command is with the Deserter Squad Leader on the landing of the Sinnae freight elevator. The Deserter Elite Squad's sector is the rail, the door, and the fire lane of the dust passage. The Deserter Scouts' sector is the outer entrance, the Yeouido water-filter gallery hatch, and the passage reached by dust released when unwashed crates transferred from Dangsan are opened at Sinnae. The lift panel of the Geumcheon District Office Machinery House and the Ichaeon duty's box are on the same landing."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G12-generated-G12-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G12E01 · 탈영병 분대장",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G12",
+                  "anchor": "g12e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G12E01 · Deserter Squad Leader",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G12",
+                  "anchor": "g12e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "승강장 탁자와 무전의 지휘",
+            "en": "Command of the landing table and the radio"
+          },
+          {
+            "ko": "두목",
+            "en": "Leader"
+          },
+          {
+            "ko": "M018",
+            "en": "M018"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G12E08 · 탈영병 정예조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G12",
+                  "anchor": "g12e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G12E08 · Deserter Elite Squad",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G12",
+                  "anchor": "g12e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "난간과 문짝의 화기",
+            "en": "Weapon at the rail and the door"
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M019",
+            "en": "M019"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G12E15 · 탈영병 척후조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G12",
+                  "anchor": "g12e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G12E15 · Deserter Scouts",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G12",
+                  "anchor": "g12e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "통로 입구와 갤러리 해치",
+            "en": "Passage entrance and gallery hatch"
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M020",
+            "en": "M020"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12E01-title-heading-1",
+      "publicAnchors": [
+        "g12e01",
+        "Hostile-Group-G12-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G12E01 · 탈영병 분대장",
+        "en": "G12E01 · Deserter Squad Leader"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G12-generated-G12E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M018",
+          "en": "Source batch: M018"
+        },
+        {
+          "ko": "기존 역할군: 두목",
+          "en": "Former role class: Leader"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC12\"],\"scenarios\":[\"G12-SC1\",\"G12-SC2\",\"G12-SC3\"],\"states\":[\"S12\",\"S01\"],\"synthetics\":[\"H12\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"houses\":[\"HC12\"],\"scenarios\":[\"G12-SC1\",\"G12-SC2\",\"G12-SC3\"],\"states\":[\"S12\",\"S01\"],\"synthetics\":[\"H12\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G12-generated-G12E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "승강장 탁자와 무전의 지휘",
+            "en": "Command of the landing table and the radio"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "분대장은 신내 화물 엘리베이터 승강장에 있다. 탁자의 무전기와 발치의 탄 상자, 물통이 분대장의 구간이다. 여의도 정수 필터 갤러리에 서는 시각은 세척과 역세 일정과 같다. 탈영병 정예조와 탈영병 척후조의 자리는 그 탁자 앞에서 갈린다.",
+            "en": "The place where the squad leader stands is the landing of the Sinnae freight elevator. The radio on the table and the ammunition boxes and water cans at the feet are the squad leader's sector. The hour of standing at the Yeouido water-filter gallery matches the wash and backwash schedule. The places of the Deserter Elite Squad and the Deserter Scouts divide in front of that table."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M018-entries-7-prose-03509",
+      "items": [
+        {
+          "ko": "소총",
+          "en": "Rifle"
+        },
+        {
+          "ko": "권총",
+          "en": "Pistol"
+        },
+        {
+          "ko": "무전기",
+          "en": "Radio"
+        },
+        {
+          "ko": "탄입대",
+          "en": "Ammunition pouches"
+        },
+        {
+          "ko": "물통",
+          "en": "Water can"
+        },
+        {
+          "ko": "부대 표식 전투복",
+          "en": "Combat uniform with unit insignia"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12E08-title-heading-1",
+      "publicAnchors": [
+        "g12e08",
+        "Hostile-Group-G12-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G12E08 · 탈영병 정예조",
+        "en": "G12E08 · Deserter Elite Squad"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G12-generated-G12E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M019",
+          "en": "Source batch: M019"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC12\"],\"states\":[\"S12\"],\"synthetics\":[\"H12\"],\"theaters\":[\"XT02\"]}",
+          "en": "Links: {\"houses\":[\"HC12\"],\"states\":[\"S12\"],\"synthetics\":[\"H12\"],\"theaters\":[\"XT02\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G12-generated-G12E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "난간과 문짝의 화기",
+            "en": "Weapon at the rail and the door"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "탈영병 정예조는 승강장 난간과 엘리베이터 문짝에 있다. 기관총과 탄 벨트는 그 구간에 있다. 사선은 분진 통로 입구까지 나 있다. 탈영병 정예조는 난간과 문짝에 있다.",
+            "en": "The place where the Deserter Elite Squad stands is the landing rail and the elevator door. The machine gun and the ammunition belt are in that sector. The fire lane runs to the dust-passage entrance. The Deserter Elite Squad is at the rail and the door."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M019-entries-4-prose-03552",
+      "items": [
+        {
+          "ko": "기관총",
+          "en": "Machine gun"
+        },
+        {
+          "ko": "탄 벨트",
+          "en": "Ammunition belt"
+        },
+        {
+          "ko": "소총",
+          "en": "Rifle"
+        },
+        {
+          "ko": "방탄판",
+          "en": "Armor plate"
+        },
+        {
+          "ko": "탄 상자",
+          "en": "Ammunition box"
+        },
+        {
+          "ko": "장갑",
+          "en": "Gloves"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12E15-title-heading-1",
+      "publicAnchors": [
+        "g12e15",
+        "Hostile-Group-G12-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G12E15 · 탈영병 척후조",
+        "en": "G12E15 · Deserter Scouts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G12-generated-G12E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M020",
+          "en": "Source batch: M020"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G12-SC1\",\"G12-SC2\",\"G12-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G12-SC1\",\"G12-SC2\",\"G12-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G12-generated-G12E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "통로 입구와 갤러리 해치",
+            "en": "Passage entrance and gallery hatch"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "탈영병 척후조는 분진 통로 입구와 여의도 정수 필터 갤러리 해치와 당산에서 신내로 옮긴 미세척 상자의 분진이 닿는 외곽에 있다. 세척과 역세 시각에는 해치 앞에 선다. 분진이 외곽에 쌓이면 입구에 선다.",
+            "en": "The place where the Deserter Scouts stand is the dust-passage entrance, the Yeouido water-filter gallery hatch, and the outer side reached by dust from the unwashed crates transferred from Dangsan to Sinnae. At wash and backwash hours they stand before the hatch. When dust piles on the outer side they stand at the entrance."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M020-entries-1-prose-03559",
+      "items": [
+        {
+          "ko": "소총",
+          "en": "Rifle"
+        },
+        {
+          "ko": "관측경",
+          "en": "Field glasses"
+        },
+        {
+          "ko": "신호 전등",
+          "en": "Signal lamp"
+        },
+        {
+          "ko": "분진 마스크",
+          "en": "Dust mask"
+        },
+        {
+          "ko": "수통",
+          "en": "Canteen"
+        },
+        {
+          "ko": "탄창",
+          "en": "Magazine"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G12-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-12-dossier_prose-01179",
+      "text": {
+        "ko": "온배수 부하가 높은 밤 신내 화물 엘리베이터 분진 통로에서 신내운수 화물 당직이 신내 탈영병을 본다. 전투복을 입은 병사 여럿이 통로에 서 있다. 어깨에는 소총이 있다. 발치에는 탄 상자와 물통이 있다. 어깨의 표식은 국가 군 조직의 표식이다. 화물 당직은 문턱 안쪽에 있다.",
+        "en": "On a high heated-drainage load night, in the dust passage of the Sinnae freight elevator, the Sinnae Transport freight duty sees the Sinnae Deserters. Several soldiers in combat uniforms stand in the passage. Rifles are on their shoulders. Ammunition boxes and water cans are at their feet. The shoulder insignia are the insignia of a national military organization. The freight duty is inside the threshold."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-12-dossier_prose-01180",
+      "text": {
+        "ko": "탈영병 분대장은 승강장 탁자의 무전기 앞에 있다. 탈영병 정예조는 난간과 엘리베이터 문짝에 있다. 탈영병 척후조는 분진 통로 입구와 여의도 정수 필터 갤러리 해치에 있다. 탄 상자와 물통은 분대장 발치에 있다. 탄창은 탈영병 정예조의 손 쪽에 있다.",
+        "en": "The Deserter Squad Leader is in front of the radio on the landing table. The Deserter Elite Squad is at the rail and the elevator door. The Deserter Scouts are at the dust-passage entrance and at the Yeouido water-filter gallery hatch. Ammunition boxes and water cans are at the squad leader's feet. Magazines are at the Deserter Elite Squad's hands."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-12-dossier_prose-01181",
+      "text": {
+        "ko": "신내 탈영병은 분진 통로 문턱과 갤러리 해치를 살핀다. 문턱에 선 병사는 신내운수 화물 칸을 향한다. 해치에 선 병사는 수문국 역세 배관을 향한다. 당산에서 신내로 옮긴 미세척 상자의 분진이 외곽에 쌓이면 탈영병 척후조는 입구에서 상자 개봉 칸 쪽을 향한다.",
+        "en": "The Sinnae Deserters watch the dust-passage threshold and the gallery hatch. The soldier at the threshold faces the Sinnae Transport freight car. The soldier at the hatch faces the Sluice backwash piping. When dust released when unwashed crates transferred from Dangsan are opened at Sinnae piles on the outer side, the Deserter Scouts at the entrance face the crate-opening bay."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-12-dossier_prose-01182",
+      "text": {
+        "ko": "무리가 모이는 자리는 신내 화물 엘리베이터 분진 통로다. 물 세척 주기와 정수 역세 일정에는 여의도 정수 필터 갤러리 해치 앞에 선다. 당산에서 신내로 옮긴 미세척 상자를 열어 분진이 들어오는 낮에는 외곽 통로에 선다. 완전 밀폐 청정 구간 앞에서는 입구에 머물며 구간 안은 당직의 자리다.",
+        "en": "The place where the group gathers is the dust passage of the Sinnae freight elevator. On the water-wash cycle and the purification backwash schedule they stand before the Yeouido water-filter gallery hatch. During the day, when opening the unwashed crates transferred from Dangsan to Sinnae releases dust into the outer passage they stand in the outer passage. In front of the fully sealed clean section they remain at the entrance, and the inside of the section is the duty's place."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-12-dossier_prose-01183",
+      "text": {
+        "ko": "탄 상자, 전투식량 깡통, 물통, 여벌 전투복, 무전 전지가 엘리베이터 칸과 필터 갤러리 사이에 있다. 신내운수 화물 목록은 탁자에 있고 수량 칸에 줄이 그어져 있다. 수문국 급수 당직의 갤러리 물통은 같은 칸에 있다. 금천구청중기가의 공구 상자는 승강 패널 옆에 열려 있다. 이채온 당직의 상자는 무전기 옆에 있다.",
+        "en": "Ammunition boxes, combat-ration tins, water cans, spare combat uniforms, and radio batteries are between the elevator car and the filter gallery. The Sinnae Transport freight list is on the table, and lines are drawn in the quantity columns. The Sluice water-supply duty's gallery water cans are in the same car. A tool box from the Geumcheon District Office Machinery House is open beside the lift panel. The Ichaeon duty's box is beside the radio."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-12-dossier_prose-01184",
+      "text": {
+        "ko": "신내운수 화물 당직과 수문국 급수 당직은 세척 시각과 화물 칸 시각을 한 표에 적는다. 금천구청중기가 기계 당직은 그 시각에 승강 패널 앞에 있다. 이채온 당직은 승강장 탁자의 상자 옆에 있다. 당산 인계 당직은 분진 시각을 표의 아래칸에 적는다.",
+        "en": "The Sinnae Transport freight duty and the Sluice water-supply duty write the wash hour and the freight-car hour on one sheet. The Geumcheon District Office Machinery House machine duty is at the lift panel at that hour. The Ichaeon duty is beside the box on the landing table. The Dangsan handoff duty writes the dust hour in the sheet’s lower column."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-12-dossier_prose-01185",
+      "text": {
+        "ko": "같은 분진 통로에 선 모습이 세 차례로 달라져 있다. 처음에는 소총을 멘 병사가 통로 모퉁이에 있다. 다음에는 탈영병 정예조가 난간에 있고 기관총과 탄 상자가 난간 위에 있다. 마지막에는 탈영병 분대장이 화물 칸 앞과 필터 갤러리 계단 앞에 서 있다. 당산에서 신내로 옮긴 미세척 상자의 분진은 바닥에 깔려 있고 분대장과 탈영병 척후조는 외곽을 향한다.",
+        "en": "In the same dust passage the sight has changed three times. At first a soldier with a rifle is at the passage corner. Next the Deserter Elite Squad is at the rail, and a machine gun and ammunition boxes are on the rail. At the last the Deserter Squad Leader stands before the freight car and before the filter-gallery stair. Dust released when unwashed crates transferred from Dangsan are opened at Sinnae lies on the floor, and the squad leader and the Deserter Scouts face the outer side."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-12-dossier_prose-01186",
+      "text": {
+        "ko": "신내운수 화물 당직은 엘리베이터 문을 닫아 두고 화물 전원을 패널에서 내려 둔다. 화물 철장은 칸 입구에 포개져 있다. 수문국 급수 당직은 역세 시각에 갤러리 해치를 잠가 둔다. 금천구청중기가 기계 당직은 차단기를 내린 채 패널 앞에 있다. 화물 당직의 책상은 청정 구간 쪽에 있고 갤러리의 등은 켜져 있다. 급수 당직은 완전 밀폐 청정 구간 안에서 밸브 앞에 있다. 화물 당직은 칸이 막힌 밤에도 승강장에 있고 갤러리 물통은 탈영병 물통 줄에 있으며 역세 물은 밸브 앞에 머문다.",
+        "en": "The Sinnae Transport freight duty keeps the elevator door shut and the freight power down at the panel. Freight cages are stacked at the car entrance. The Sluice water-supply duty keeps the gallery hatch locked at the backwash hour. The Geumcheon District Office Machinery House machine duty is in front of the panel with the breaker down. The freight duty's desk is on the clean-section side, and the gallery lamp is on. The water-supply duty is in front of the valve inside the fully sealed clean section. The freight duty remains on the landing on the night the car is blocked, the gallery water cans are in the deserters' water-can line, and the backwash water stays in front of the valve."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12-linked-scenarios-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G12-heading-0032"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "연결 시나리오",
+        "en": "Linked scenarios"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12-SC1-title-heading-1",
+      "publicAnchors": [
+        "g12-sc1-분진-통로-승강장",
+        "Hostile-Group-G12-heading-0033"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G12-SC1 · 분진 통로 승강장",
+        "en": "G12-SC1 · Dust-passage landing"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G12-generated-G12-SC1-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 1",
+          "en": "Stage: 1"
+        },
+        {
+          "ko": "촉발: 온배수 부하가 높은 밤 신내 화물 엘리베이터 분진 통로에 신내 탈영병이 서 있고 탄 상자도 있다. 금천구청중기가의 승강 패널은 켜져 있다. 이채온 당직의 상자는 승강장 탁자에 있다.",
+          "en": "Trigger: On a high heated-drainage load night the Sinnae Deserters stand with ammunition boxes in the dust passage of the Sinnae freight elevator. The lift panel of the Geumcheon District Office Machinery House is on. The Ichaeon duty's box is on the landing table."
+        },
+        {
+          "ko": "관련 세력: S12, HC12, H12",
+          "en": "Actors: S12, HC12, H12"
+        },
+        {
+          "ko": "생태 기제: 화물 칸과 승강 패널과 이채온의 상자가 한 승강장에 있다. 탈영병 분대장은 무전기 앞에 있다. 탈영병 정예조는 난간에 있다. 신내운수 화물 당직은 문턱에 있다.",
+          "en": "Ecological mechanism: The freight car, the lift panel, and the Ichaeon box are on one landing. The Deserter Squad Leader is in front of the radio. The Deserter Elite Squad is at the rail. The Sinnae Transport freight duty is at the threshold."
+        },
+        {
+          "ko": "선택지: 신내운수 화물 당직이 화물 철장을 칸 입구에 포갠다. / 금천구청중기가 기계 당직이 승강 패널 차단기를 내린다. / 이채온 당직이 상자를 청정 구간 책상으로 옮긴다.",
+          "en": "Choices: The Sinnae Transport freight duty stacks freight cages at the car entrance. / The Geumcheon District Office Machinery House machine duty puts the lift-panel breaker down. / The Ichaeon duty moves the box to the desk in the clean section."
+        },
+        {
+          "ko": "결과: 철장이 칸 입구에 포개져 있으면 신내 탈영병은 난간과 탁자에 있다. 차단기가 내려가 있으면 엘리베이터 칸은 그 층에 있고 기계 당직은 패널 앞에 있다. 이채온의 상자가 청정 구간 책상에 있으면 탈영병 분대장의 무전기는 승강장 탁자에 있다.",
+          "en": "Outcomes: When the cages are stacked at the car entrance, the Sinnae Deserters are at the rail and the table. When the breaker is down, the elevator car is on that level and the machine duty is in front of the panel. When the Ichaeon box is on the clean-section desk, the Deserter Squad Leader's radio is on the landing table."
+        },
+        {
+          "ko": "도덕 비용: 신내운수 화물 당직은 철장 안쪽에 머문다. 그 밤의 화물 칸은 승강장에 있다. 금천구청중기가 기계 당직은 난간의 기관총과 같은 층에서 차단기 앞에 서 있다.",
+          "en": "Moral cost: The Sinnae Transport freight duty remains on the inner side of the stacked cages. That night's freight car is at the landing. The Geumcheon District Office Machinery House machine duty stands at the breaker on the same level as the machine gun on the rail."
+        },
+        {
+          "ko": "원본 항목: G12",
+          "en": "Source dossier: G12"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12-SC2-title-heading-1",
+      "publicAnchors": [
+        "g12-sc2-역세-시각의-해치",
+        "Hostile-Group-G12-heading-0035"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G12-SC2 · 역세 시각의 해치",
+        "en": "G12-SC2 · The hatch at the backwash hour"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G12-generated-G12-SC2-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 2",
+          "en": "Stage: 2"
+        },
+        {
+          "ko": "촉발: 필터 세척이 시작된 새벽 여의도 정수 필터 갤러리에서 역세가 돌아간다. 탈영병 척후조는 해치 앞에 있고 신내 화물 엘리베이터 칸은 아래 분진 통로에 있다. 금천구청중기가의 승강 패널에서 그 칸으로 전원선이 이어진다.",
+          "en": "Trigger: At dawn as filter cleaning begins, backwashing runs in the Yeouido filter gallery. Deserter scouts stand before the hatch, while the Sinnae freight-lift car waits in the dusty passage below. A power line links the Geumcheon District Office Machinery House lift panel to the car."
+        },
+        {
+          "ko": "관련 세력: S12, S01, HC12",
+          "en": "Actors: S12, S01, HC12"
+        },
+        {
+          "ko": "생태 기제: 세척 주기와 역세 일정이 같은 새벽에 겹친다. 수문국 급수 당직은 밸브 앞에 있다. 신내운수 화물 당직은 칸 옆에 있다. 금천구청중기가 기계 당직은 패널 앞에 있다.",
+          "en": "Ecological mechanism: The wash cycle and the backwash schedule overlap on the same dawn. The Sluice water-supply duty is in front of the valve. The Sinnae Transport freight duty is beside the car. The Geumcheon District Office Machinery House machine duty is in front of the panel."
+        },
+        {
+          "ko": "선택지: 수문국 급수 당직이 역세 밸브를 일정표의 시각에 잠근다. / 신내운수 화물 당직이 화물 칸을 분진 통로 층에 고정한다. / 금천구청중기가 기계 당직이 갤러리 보조 전원을 승강 패널에서 분리한다.",
+          "en": "Choices: The Sluice water-supply duty locks the backwash valve at the hour on the schedule. / The Sinnae Transport freight duty fixes the freight car on the dust-passage level. / The Geumcheon District Office Machinery House machine duty separates the gallery auxiliary power from the lift panel."
+        },
+        {
+          "ko": "결과: 밸브가 잠겨 있으면 탈영병 척후조는 해치 밖에 서고 급수 당직은 봉인 구역 안쪽 밸브에 남는다. 칸이 분진 통로 층에 고정되면 탈영병 분대장은 그 승강장 탁자에 있다. 보조 전원 선이 패널 밖에 놓이면 해치 자물쇠는 급수 당직의 손에 있다.",
+          "en": "Outcomes: When the valve is locked, the Deserter Scouts stand outside the hatch while the water-supply duty remains at the valve inside the sealed section. When the car is fixed on the dust-passage level, the Deserter Squad Leader is at that landing's table. When the auxiliary power line lies outside the panel, the hatch lock is in the water-supply duty's hand."
+        },
+        {
+          "ko": "도덕 비용: 역세 물은 밸브 앞에 고여 있다. 급수 당직의 물통은 해치 옆에서 탈영병 척후조 줄에 있다. 화물 칸의 전투식량 깡통은 승강장에 있다.",
+          "en": "Moral cost: Backwash water pools in front of the valve. The water-supply duty's water cans are in the Deserter Scouts' line beside the hatch. The combat-ration tins from the freight car are on the landing."
+        },
+        {
+          "ko": "원본 항목: G12",
+          "en": "Source dossier: G12"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G12-generated-G12-SC3-title-heading-1",
+      "publicAnchors": [
+        "g12-sc3-부두-분진의-외곽",
+        "Hostile-Group-G12-heading-0037"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G12-SC3 · 부두 분진의 외곽",
+        "en": "G12-SC3 · The outer side of the dock dust"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G12-generated-G12-SC3-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 3",
+          "en": "Stage: 3"
+        },
+        {
+          "ko": "촉발: 당산에서 신내로 옮긴 미세척 상자를 화물 엘리베이터 앞에서 열자 외곽 통로 바닥에 분진이 쌓인다. 탈영병 척후조는 입구에 선다. 수문국 급수 당직·신내운수 화물 당직·금천구청중기가 기계 당직과 이채온 당직은 세척·역세·화물 인계 시각을 같은 표에서 조정한다.",
+          "en": "Trigger: Unwashed crates carried from Dangsan are opened in front of the Sinnae freight elevator, leaving dust on the outer-passage floor. Deserter Scouts stand at the entrance. Sluice water-supply staff, Sinnae freight staff, Geumcheon Machinery House’s machine watch and Ichaeon’s watch coordinate washing, backwash and freight handover on the same timetable."
+        },
+        {
+          "ko": "관련 세력: S12, S01, XT02, HC12, H12",
+          "en": "Actors: S12, S01, XT02, HC12, H12"
+        },
+        {
+          "ko": "생태 기제: 분진이 외곽 통로에 있는 동안 탈영병 분대장은 무전기 앞에 있다. 탈영병 정예조는 난간에 있다. 탈영병 척후조는 입구에 있다. 당산 인계 당직의 분진 시각은 승강장 표의 아래칸에 적혀 있다.",
+          "en": "Ecological mechanism: While the dust is in the outer passage, the Deserter Squad Leader is in front of the radio. The Deserter Elite Squad is at the rail. The Deserter Scouts are at the entrance. The dust hour of the Dangsan Cold-Storage and Seed Exchange Corridor dock duty is written in the lower column of the landing sheet."
+        },
+        {
+          "ko": "선택지: 당산 인계 당직이 미세척 상자를 여는 칸의 문을 닫는다. / 수문국 급수 당직이 여의도 정수 필터 갤러리 해치를 잠근다. / 신내운수 화물 당직과 금천구청중기가 기계 당직과 이채온 당직이 완전 밀폐 청정 구간에 철장과 차단기 손잡이와 상자를 둔다.",
+          "en": "Choices: The Dangsan handover watch closes the door of the bay where unwashed crates are opened. / The Sluice water-supply duty locks the Yeouido water-filter gallery hatch. / The Sinnae Transport freight duty, the Geumcheon District Office Machinery House machine duty, and the Ichaeon duty place the cage, the breaker handle, and the box in the fully sealed clean section."
+        },
+        {
+          "ko": "결과: 부두 출입 문이 닫혀 있으면 분진은 문 안쪽 통로에 있고 탈영병 척후조는 문 앞에 있다. 갤러리 해치가 잠겨 있으면 탈영병 척후조는 해치 앞과 외곽 입구에 나뉘어 있고 급수 당직은 밸브 앞에 있다. 청정 구간에 철장과 차단기와 상자가 있으면 신내 탈영병은 분진 통로 승강장에 있다.",
+          "en": "Outcomes: When the dock entrance door is closed, the dust is in the passage inside the door and the Deserter Scouts are in front of the door. When the gallery hatch is locked, the Deserter Scouts are divided between the front of the hatch and the outer entrance, and the water-supply duty is in front of the valve. When the cage, the breaker, and the box are in the clean section, the Sinnae Deserters are on the dust-passage landing."
+        },
+        {
+          "ko": "도덕 비용: 부두의 화물 포대는 출입 문 안에 있다. 갤러리 역세는 밸브 앞에 머문다. 청정 구간의 세 당직은 철장 안쪽에 있고 외곽 통로의 분진은 장화 높이로 쌓여 있다.",
+          "en": "Moral cost: The dock's freight sacks are inside the entrance door. The gallery backwash stays in front of the valve. The three duties of the clean section are inside the cage, and the dust in the outer passage is piled to the height of the boots."
+        },
+        {
+          "ko": "원본 항목: G12",
+          "en": "Source dossier: G12"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The Sinnae Deserters are a group of soldiers who left a national military organization carrying weapons and equipment. The place where the group gathers is the dust passage of the Sinnae freight elevator. At wash and backwash hours they stand before the Yeouido water-filter gallery hatch. When dust released when unwashed crates transferred from Dangsan are opened at Sinnae piles on the outer side, they stand at the entrance. In front of the fully sealed clean section they stand on the entrance side. The connected duties are Sinnae Transport and the Sluice.",
+        "ko": "신내 탈영병은 국가 군 조직에서 무기와 장비를 들고 나온 병사의 무리다. 무리가 모이는 곳은 신내 화물 엘리베이터 분진 통로다. 세척과 역세의 시각에는 여의도 정수 필터 갤러리 해치 앞에 선다. 당산에서 신내로 옮긴 미세척 상자의 분진이 외곽에 쌓이면 입구에 선다. 완전 밀폐 청정 구간 앞에서는 입구 쪽에 서 있다. 연결 근무지는 신내운수와 수문국이다."
+      },
+      "variants": [
+        {
+          "id": "G12E01",
+          "source_batch": "M018"
+        },
+        {
+          "id": "G12E08",
+          "source_batch": "M019"
+        },
+        {
+          "id": "G12E15",
+          "source_batch": "M020"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

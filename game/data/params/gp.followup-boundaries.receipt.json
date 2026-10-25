@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "status": "partial-owner-decision-evidence",
+  "role": "owner",
+  "actor": "owner",
+  "rawResponse": "[Answer to question call_b980b60959ef42c5a6884ae8]\n후속 기능 경계: 권고 범위만 선택 (Recommended)",
+  "sourceResponse": {
+    "path": ".omo/ulw-execute/gp-q3-boundaries-selection.json",
+    "sha256": "77e61ce4d0c0bfba05f85a78e9e9aa6c078a8045a6ecda9aa2077c4fc8b58cf7",
+    "questionId": "followup_feature_boundaries"
+  },
+  "question": {
+    "path": ".omo/evidence/seoul-dengoku-jrpg/task-26/decision-ready/questions.json",
+    "sha256": "522863da23b169d5fcbf11adecc03ebce298952606673d72dd44516632de7da8",
+    "id": "Q3",
+    "option": "A",
+    "candidateId": "lord-s01-bounded-r1"
+  },
+  "proposalInputSha256": "e3012b8bcfcb4b75236dee32a2369cb2d227ae957ccf6f50cf3da7b83e98e0f4",
+  "scope": "followup-feature-boundaries",
+  "decisions": {
+    "titleActivationPolicy": "registered-title-contracts",
+    "overCapacityPolicy": "offer-reorganization",
+    "successionDataPolicy": "registered-institutions-only",
+    "educationScopePolicy": "one-authored-skill",
+    "battleResolutionPolicy": "shared-individual-resolver",
+    "reinforcementScopePolicy": "authored-arrival-entry",
+    "peaceScopePolicy": "registered-item-negotiation"
+  },
+  "preservedReceipts": [
+    "gp.owner-time-remote.receipt.json",
+    "gp.owner-canonical-location.receipt.json",
+    "gp.investigation-rules.receipt.json"
+  ],
+  "otherUnapproved": [
+    "all-numeric-functions",
+    "institutional-inputs",
+    "combat-renderer-adaptation",
+    "whole-game-approval",
+    "full-task26-completion"
+  ],
+  "boundary": "Q3 A selects only GP-07 through GP-13 boundary scope. Actual formulas, institutions, authored entry/placement, prices, rights, feasibility, recruitment and maintenance inputs remain separate prerequisites. Q1 B and Q2 A remain in force. Final staged question receipted, not full GP acceptance or an approved runtime parameter pack."
+}

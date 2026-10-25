@@ -1,0 +1,1273 @@
+{
+  "version": 1,
+  "domain": "goods",
+  "id": "DOC:Era-Arms-and-Tech-Level",
+  "slug": "era-arms-and-tech-level",
+  "status": "approved",
+  "categories": [
+    "goods"
+  ],
+  "tense": {
+    "ko": "past",
+    "en": "past"
+  },
+  "source": {
+    "kind": "original-fiction",
+    "refs": [
+      "lore/goods/Era-Arms-and-Tech-Level.md",
+      "lore/goods/Era-Arms-and-Tech-Level.en.md"
+    ]
+  },
+  "provenance": {
+    "original_anchor": "lore/goods/Era-Arms-and-Tech-Level.md",
+    "original_hash": "e2a2b54a06f90c0f3df307ea98d3a4211626c307cd2a77ded271b7cd929c055e",
+    "history": [
+      "Korean lore/goods/Era-Arms-and-Tech-Level.md SHA-256 e2a2b54a06f90c0f3df307ea98d3a4211626c307cd2a77ded271b7cd929c055e.",
+      "English lore/goods/Era-Arms-and-Tech-Level.en.md SHA-256 76d9a27c3739f03224230a06af43c40f08b64a5e285d0754ac8e5436db84b352; copied verbatim, no translation written."
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "The Arms and Technology of This Era",
+      "summary": "Post-collapse Seoul's equipment was examined in four layers: trade tools, police-issue gear, military remnants, and lost-tech salvage.",
+      "tense": "past"
+    },
+    "ko": {
+      "title": "이 시대의 기술과 무구",
+      "summary": "붕괴 이후 서울의 장비를 생업 도구, 치안 제식, 군용 잔존, 로스트 테크 회수품으로 나눠 검토한다.",
+      "tense": "past"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "이-시대의-기술과-무구",
+      "depth": 1,
+      "text": {
+        "ko": "이 시대의 기술과 무구",
+        "en": "The Arms and Technology of This Era"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "이-시대의-기술과-무구-p1-ko-label-1",
+      "text": {
+        "ko": "가. 장비 분류의 지위",
+        "en": "A. Status of the equipment classification"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "이-시대의-기술과-무구-p1",
+      "text": {
+        "ko": "2026년 서울에는 생업 공구, 치안 장비, 군용 장비가 있었다. 대정전 뒤 정비사들은 남은 공구와 회수한 기체 부품을 수리하였다.",
+        "en": "Seoul had trade tools, police equipment, and military equipment in 2026. After the Great Blackout, mechanics repaired surviving tools and recovered machine parts."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "한-세기가-지난-손",
+      "depth": 2,
+      "text": {
+        "ko": "한 세기 동안 쓰인 장비",
+        "en": "Equipment Used Across a Century"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "한-세기가-지난-손-p1-ko-label-2",
+      "text": {
+        "ko": "가. 연대와 장비",
+        "en": "A. Chronology and equipment"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "한-세기가-지난-손-p1",
+      "text": {
+        "ko": "2030년 10월 14일 영등포아리수정수센터의 당직자들은 원격 제어가 끊긴 뒤 밸브를 수동으로 조작하였다. 2126년 세대는 당시의 공구와 설비를 수리하여 쓴다.",
+        "en": "On October 14, 2030, Yeongdeungpo waterworks staff operated valves manually after remote control failed. The generation of 2126 repairs and uses tools and equipment inherited from that time."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "한-세기가-지난-손-p2-ko-label-3",
+      "text": {
+        "ko": "나. 총포 규제와 잔존",
+        "en": "B. Firearms regulation and remnants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "한-세기가-지난-손-p2",
+      "text": {
+        "ko": "2026년 총포화약법은 총포와 석궁을 허가 대상으로 규정하였다. 당시 K계열 소화기도 존재하였다.",
+        "en": "The 2026 firearms law required permits for firearms and crossbows. K-series small arms also existed at the time."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "한-세기가-지난-손-p3-ko-label-4",
+      "text": {
+        "ko": "다. 로봇 부품의 재사용",
+        "en": "C. Reuse of robot parts"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "한-세기가-지난-손-p3",
+      "text": {
+        "ko": "대정전 뒤 공장 로봇의 호출망이 끊겼다. 정비사들은 남은 호스와 단자와 렌즈를 수리하였다.",
+        "en": "After the Great Blackout, factory robots lost their call network. Mechanics repaired surviving hoses, terminals, and lenses."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "후보-무장-기능소유접근",
+      "depth": 2,
+      "text": {
+        "ko": "후보 무장 — 기능·소유·접근",
+        "en": "Candidate Armaments — Function, Ownership, Access"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "후보-무장-기능소유접근-p1-ko-label-11",
+      "text": {
+        "ko": "가. 후보와 조사 상태",
+        "en": "A. Candidates and research status"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "후보-무장-기능소유접근-table2",
+      "columns": [
+        {
+          "ko": "후보",
+          "en": "Candidate"
+        },
+        {
+          "ko": "기능",
+          "en": "Function"
+        },
+        {
+          "ko": "붕괴 전 제도·민간 소유",
+          "en": "Pre-collapse legal · civilian ownership"
+        },
+        {
+          "ko": "붕괴 후 접근 (허구)",
+          "en": "Post-collapse access (fiction)"
+        },
+        {
+          "ko": "소모·수리·보급",
+          "en": "Consumption · repair · supply"
+        },
+        {
+          "ko": "시점 조건",
+          "en": "Point-of-view condition"
+        },
+        {
+          "ko": "출처",
+          "en": "Source"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "K2 / K2C1",
+            "en": "K2 / K2C1"
+          },
+          {
+            "ko": "제식 소총 후보",
+            "en": "Service rifle candidate"
+          },
+          {
+            "ko": "국군 계통. 민간 일반 보급품으로 보지 않음",
+            "en": "ROK line. Not a civilian retail good"
+          },
+          {
+            "ko": "군 잔존·탈영·회수·거래 경로를 별도로 설정",
+            "en": "Military-remnant, deserter, recovery, trade routes to be set separately"
+          },
+          {
+            "ko": "호환 탄약·부품·정비 숙련 필요. 수량 미정",
+            "en": "Compatible ammunition, parts, maintenance proficiency needed. Counts undecided"
+          },
+          {
+            "ko": "탈영 소대의 이름 없는 제식에 배정할 후보. 다른 POV도 획득 근거가 있으면 검토",
+            "en": "Candidate for the deserter squad's unnamed issue. Other POVs examined if acquisition grounds exist"
+          },
+          {
+            "ko": [
+              {
+                "text": "K2 존재: "
+              },
+              {
+                "text": "위키",
+                "href": "https://en.wikipedia.org/wiki/Daewoo_Precision_Industries_K2"
+              },
+              {
+                "text": ". K계열 라인: "
+              },
+              {
+                "text": "SNT Motiv",
+                "href": "https://www.sntmotiv.com/eng/business/defense.html"
+              },
+              {
+                "text": ". K2C1 2026 지급 범위 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              },
+              {
+                "text": ". 열람 2026-09-12"
+              }
+            ],
+            "en": [
+              {
+                "text": "K2 existence: "
+              },
+              {
+                "text": "Wikipedia",
+                "href": "https://en.wikipedia.org/wiki/Daewoo_Precision_Industries_K2"
+              },
+              {
+                "text": ". K-series line: "
+              },
+              {
+                "text": "SNT Motiv",
+                "href": "https://www.sntmotiv.com/eng/business/defense.html"
+              },
+              {
+                "text": ". K2C1 2026 issue range "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              },
+              {
+                "text": ". Viewed 2026-09-12"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "M16 계열",
+            "en": "M16 family"
+          },
+          {
+            "ko": "예비군·구형 비축 후보",
+            "en": "Reserve · old-stock candidate"
+          },
+          {
+            "ko": "2015년 일반예비군 훈련 지급 사실",
+            "en": "2015 general-reserve training issue fact"
+          },
+          {
+            "ko": "동원잔존·부대 장부·회수 경로가 있는 경우만 접근",
+            "en": "Access only with mobilization-remnant, unit-ledger, or recovery routes"
+          },
+          {
+            "ko": "탄약·탄창·부품·보관 상태가 별도 병목",
+            "en": "Ammunition, magazines, parts, storage state were separate bottlenecks"
+          },
+          {
+            "ko": "빈 소총으로 하는 총검 훈련은 실제 훈련이다. 탄약 접근은 별도 보급·관리 근거가 있어야 하며 훈련만으로 소총 소유나 숙련 수치를 부여하지 않는다",
+            "en": "Bayonet practice with an unloaded rifle is actual training. Ammunition access requires separate supply and custody evidence; training alone grants neither rifle ownership nor a proficiency score"
+          },
+          {
+            "ko": [
+              {
+                "text": "정책브리핑",
+                "href": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148791733"
+              },
+              {
+                "text": ", 열람 2026-09-20"
+              }
+            ],
+            "en": [
+              {
+                "text": "Policy Briefing",
+                "href": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148791733"
+              },
+              {
+                "text": ", viewed 2026-09-20"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "K1A",
+            "en": "K1A"
+          },
+          {
+            "ko": "군용 개인화기 후보",
+            "en": "Military personal-weapon candidate"
+          },
+          {
+            "ko": "국군 지급 계통 후보",
+            "en": "ROK issue-line candidate"
+          },
+          {
+            "ko": "군용 잔존에서 회수·이전되는 경로 설정",
+            "en": "Recovery or transfer from military remnants to be set"
+          },
+          {
+            "ko": "호환 탄약과 부품은 모델별 확인. 다른 소총과 일괄 호환으로 처리하지 않음",
+            "en": "Compatible ammunition and parts checked per model. Not treated as bulk-compatible with other rifles"
+          },
+          {
+            "ko": "탈영·동원잔존 외 인물은 별도 획득·숙련 이력 필요",
+            "en": "Persons other than deserters and mobilization remnants needed separate acquisition and proficiency records"
+          },
+          {
+            "ko": [
+              {
+                "text": "K계열 존재는 SNT Motiv. 모델별 자료와 2026 지급 범위 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              }
+            ],
+            "en": [
+              {
+                "text": "K-series existence: SNT Motiv. Per-model material and 2026 issue range "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "제식 권총",
+            "en": "Service pistol"
+          },
+          {
+            "ko": "측무장. 경비·장교 근접",
+            "en": "Sidearm. Guard and officer close-in"
+          },
+          {
+            "ko": "군·경찰 지급 후보. 민간 일상 없음",
+            "en": "Military and police issue candidate. No civilian daily use"
+          },
+          {
+            "ko": "열쇠·명부가 있는 잔존. 떠돌이 시작 없음",
+            "en": "Remnants with keys and rosters. No drifter start"
+          },
+          {
+            "ko": "권총탄은 소총탄과 별 재고",
+            "en": "Pistol rounds were stock separate from rifle rounds"
+          },
+          {
+            "ko": [
+              {
+                "text": "전직 순찰은 "
+              },
+              {
+                "text": "봉·방패가 기본",
+                "strong": true
+              },
+              {
+                "text": ". 권총은 장부가 열릴 때만"
+              }
+            ],
+            "en": [
+              {
+                "text": "Former patrol: "
+              },
+              {
+                "text": "staff and shield are the default",
+                "strong": true
+              },
+              {
+                "text": ". The pistol only when a ledger opens"
+              }
+            ]
+          },
+          {
+            "ko": [
+              {
+                "text": "2026 지급 모델명 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              }
+            ],
+            "en": [
+              {
+                "text": "2026 issue model name "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "분대지원화기",
+            "en": "Squad support weapon"
+          },
+          {
+            "ko": "제압·호송 엄호",
+            "en": "Suppression, convoy cover"
+          },
+          {
+            "ko": "국군 분대 화기",
+            "en": "ROK squad weapons"
+          },
+          {
+            "ko": "세력 규모. 개인 시작 장비 아님",
+            "en": "Power scale. Not personal starting gear"
+          },
+          {
+            "ko": "탄약 소모가 큼. 수리 공구·냉각·총열은 거점 정비",
+            "en": "Heavy ammunition consumption. Repair tools, cooling, barrels were stronghold maintenance"
+          },
+          {
+            "ko": "구로 거점 방어를 검토할 장비 후보일 뿐이다. 보유자·획득·탄약·정비·배치는 별도 근거가 필요하며 고아·떠돌이의 시작 장비가 아니다",
+            "en": "Equipment candidate for reviewing Guro stronghold defense only. Holder, acquisition, ammunition, maintenance, and deployment need separate evidence; not starting gear for orphans or drifters"
+          },
+          {
+            "ko": [
+              {
+                "text": "2026 제식 모델·배치 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              },
+              {
+                "text": ". 존재 후보만 둠"
+              }
+            ],
+            "en": [
+              {
+                "text": "2026 service models and deployment "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              },
+              {
+                "text": ". Candidate existence only"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "제식 봉·순찰 방패·치안 개인보호구",
+            "en": "Regulation staff · patrol shield · police personal protection"
+          },
+          {
+            "ko": "제압, 방호, 역 경비",
+            "en": "Suppression, protection, station guard"
+          },
+          {
+            "ko": "경찰·자치 경비·역 보안",
+            "en": "Police, autonomous guards, station security"
+          },
+          {
+            "ko": "전직 순찰 기본. 역 경비 공유",
+            "en": "Former patrol default. Shared by station guards"
+          },
+          {
+            "ko": "방패·피복 수리. 탄약 없음",
+            "en": "Shield and clothing repair. No ammunition"
+          },
+          {
+            "ko": "전직 순찰 프리셋. 역장 거점 경비",
+            "en": "Former patrol preset. Stationmaster stronghold guard"
+          },
+          {
+            "ko": [
+              {
+                "text": "프리셋 정본. 경찰 세칙 원문 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              }
+            ],
+            "en": [
+              {
+                "text": "Preset canon. Original police regulations "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "지렛대·도끼·절단기",
+            "en": "Crowbar · axe · cutter"
+          },
+          {
+            "ko": "개방, 해체, 근접",
+            "en": "Opening, dismantling, close-in"
+          },
+          {
+            "ko": "토목·철도·시설 관리·민간 공구",
+            "en": "Civil engineering, rail, facility management, civilian tools"
+          },
+          {
+            "ko": "생업 층. 공사장·차량기지",
+            "en": "Trade layer. Worksites and depots"
+          },
+          {
+            "ko": "날 무뎌짐, 유압유 없음(수공구)",
+            "en": "Blades dull; no hydraulic oil (manual tools)"
+          },
+          {
+            "ko": "떠돌이·탐사원·정비사",
+            "en": "Drifter, explorer, maintenance hand"
+          },
+          {
+            "ko": [
+              {
+                "text": "생업 정본. 특정 브랜드 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              },
+              {
+                "text": " (불필요하면 일반명)"
+              }
+            ],
+            "en": [
+              {
+                "text": "Trade canon. Specific brands "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              },
+              {
+                "text": " (generic names if unneeded)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "유압 구조 장비",
+            "en": "Hydraulic rescue equipment"
+          },
+          {
+            "ko": "잔해 전개, 문·차체 개방",
+            "en": "Debris spreading, door and hull opening"
+          },
+          {
+            "ko": "소방·구조대·철도 구난",
+            "en": "Fire, rescue, rail recovery"
+          },
+          {
+            "ko": "거점 공방, 정비사. 개인 휴대 아님",
+            "en": "Stronghold workshops, maintenance hands. Not personal carry"
+          },
+          {
+            "ko": "유압유·동력·호스. 동력 없으면 짐",
+            "en": "Hydraulic oil, power, hoses. Without power, dead weight"
+          },
+          {
+            "ko": "역장 거점, 규격맹 공병대와 겹침",
+            "en": "Stationmaster strongholds, overlapping The Gauge's engineering corps"
+          },
+          {
+            "ko": [
+              {
+                "text": "소방 장비 제식 목록 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              }
+            ],
+            "en": [
+              {
+                "text": "Fire-equipment issue lists "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "램프·무전기",
+            "en": "Lamps · radios"
+          },
+          {
+            "ko": "시계, 연락",
+            "en": "Watch, contact"
+          },
+          {
+            "ko": "시설·치안·민간 무전기",
+            "en": "Facility, police, civilian radios"
+          },
+          {
+            "ko": "생업·치안. 전지가 병목",
+            "en": "Trade and police layers. Batteries the bottleneck"
+          },
+          {
+            "ko": "전지·충전. 상용 전지는 노화한다",
+            "en": "Batteries, charging. Consumer batteries age"
+          },
+          {
+            "ko": "전령·탐사원·순찰",
+            "en": "Courier, explorer, patrol"
+          },
+          {
+            "ko": [
+              {
+                "text": "상용 랜턴·무전기는 민간 존재. 군용 암호무전기 잔존은 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              }
+            ],
+            "en": [
+              {
+                "text": "Consumer lanterns and radios exist as civilian goods. Military encrypted-radio remnants "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "가스탐지·호흡보호·응급키트·휴대전원",
+            "en": "Gas detection · breathing protection · emergency kit · portable power"
+          },
+          {
+            "ko": "관로 생존, 부상, 단기 전력",
+            "en": "Conduit survival, injury, short-term power"
+          },
+          {
+            "ko": "산업안전·소방·의료·시설",
+            "en": "Industrial safety, fire, medical, facilities"
+          },
+          {
+            "ko": "의무원·탐사원·거점",
+            "en": "Medical officer, explorer, stronghold"
+          },
+          {
+            "ko": "필터·약·전지 소모. 충전 ≠ 발전",
+            "en": "Filters, medicine, batteries consumed. Charging ≠ generation"
+          },
+          {
+            "ko": "의무원 붉은 천 실루엣. 고아는 없음",
+            "en": "Medical officer red-cloth silhouette. No orphans"
+          },
+          {
+            "ko": [
+              {
+                "text": "산업안전 일반. 2026 역무 지급 목록 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              }
+            ],
+            "en": [
+              {
+                "text": "Industrial-safety generalities. 2026 station-staff issue lists "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "방검 / 방탄 / 작업 개인보호구",
+            "en": "Stab / ballistic / work personal protection"
+          },
+          {
+            "ko": "각각 찌름·베임 / 정해진 탄도 위협 / 작업별 위험에 대한 보호",
+            "en": "Protection against stabbing-cutting / defined ballistic threat / per-task hazards"
+          },
+          {
+            "ko": "치안·군·경호·산업 현장",
+            "en": "Police, military, security, industrial sites"
+          },
+          {
+            "ko": "용도와 등급을 구분. 작업복·진압방패를 방탄 장비로 취급하지 않음",
+            "en": "Use and grade distinguished. Work clothes and riot shields not treated as ballistic gear"
+          },
+          {
+            "ko": "손상·노화·교체 부품과 적합한 착용 조건 확인",
+            "en": "Damage, aging, replacement parts, proper wearing conditions checked"
+          },
+          {
+            "ko": "역할에 맞는 보호구를 제안하되 소속만으로 성능을 부여하지 않음",
+            "en": "Propose protection matched to role; grant no performance from affiliation alone"
+          },
+          {
+            "ko": [
+              {
+                "text": "구체적 시험 등급·제식 모델·2026 지급 범위 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              }
+            ],
+            "en": [
+              {
+                "text": "Specific test grades, service models, 2026 issue ranges "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "활 (조건부)",
+            "en": "Bow (conditional)"
+          },
+          {
+            "ko": "저소음 투사. 기본 병과 아님",
+            "en": "Low-noise projectile. Not the basic arm"
+          },
+          {
+            "ko": "생활체육·국궁 동호. 군 제식 아님",
+            "en": "Recreational and gungdo clubs. Not military issue"
+          },
+          {
+            "ko": [
+              {
+                "text": "있을 수 있다. "
+              },
+              {
+                "text": "금지 아님",
+                "strong": true
+              },
+              {
+                "text": ". 기본 원거리도 아님"
+              }
+            ],
+            "en": [
+              {
+                "text": "Could exist. "
+              },
+              {
+                "text": "Not forbidden",
+                "strong": true
+              },
+              {
+                "text": ". Not the default ranged arm either"
+              }
+            ]
+          },
+          {
+            "ko": "화살 제작은 생업 공구 범위에서만 언급. 제조 레시피 없음",
+            "en": "Arrow crafting mentioned only within trade-tool scope. No manufacture recipe"
+          },
+          {
+            "ko": "궁수 스캐폴드와 연결하지 않음. 특정 인물·생업이 조건",
+            "en": "Not linked to the archer scaffold. Specific persons or livelihoods are the condition"
+          },
+          {
+            "ko": [
+              {
+                "text": "민간 활 규제 범위 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              }
+            ],
+            "en": [
+              {
+                "text": "Civilian bow regulation range "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "석궁 (조건부)",
+            "en": "Crossbow (conditional)"
+          },
+          {
+            "ko": "기계식 투사",
+            "en": "Mechanical projectile"
+          },
+          {
+            "ko": "총포화약법상 허가 대상",
+            "en": "A permit item under the Firearms and Swords Act"
+          },
+          {
+            "ko": "드묾. 허가 잔존·밀반입이 서사 조건",
+            "en": "Rare. Permit remnants or smuggling as narrative conditions"
+          },
+          {
+            "ko": "볼트·줄. 총포 장부와 별 장부일 수 있음",
+            "en": "Bolts and strings. Possibly a ledger separate from the firearms ledger"
+          },
+          {
+            "ko": "떠돌이 시작 없음. 기본 병과 아님",
+            "en": "No drifter start. Not the basic arm"
+          },
+          {
+            "ko": [
+              {
+                "text": "총포화약법",
+                "href": "https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EC%B4%9D%ED%8F%AC%C2%B7%EB%8F%84%EA%B2%80%C2%B7%ED%99%94%EC%95%BD%EB%A5%98"
+              },
+              {
+                "text": " 석궁 포함. 열람 2026-09-12"
+              }
+            ],
+            "en": [
+              {
+                "text": "Firearms and Swords Act",
+                "href": "https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EC%B4%9D%ED%8F%AC%C2%B7%EB%8F%84%EA%B2%80%C2%B7%ED%99%94%EC%95%BD%EB%A5%98"
+              },
+              {
+                "text": " includes crossbows. Viewed 2026-09-12"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "센서·검사봇·액추에이터·전원 회수",
+            "en": "Sensor · inspection bot · actuator · power salvage"
+          },
+          {
+            "ko": "탐지, 개폐, 단기 동력. 조건부로 장비·함정·무기",
+            "en": "Detection, opening and closing, short-term power. Conditionally equipment, traps, weapons"
+          },
+          {
+            "ko": "방재·시설 검사 (실측 범주). G25/G26 배치 자체는 허구",
+            "en": "Disaster and facility inspection (measured category). The G25/G26 deployments themselves are fiction"
+          },
+          {
+            "ko": "봉인 갤러리 해체·정지 후 모듈",
+            "en": "Modules after sealed-gallery dismantling or stopping"
+          },
+          {
+            "ko": "충전·노화·공급원. 영구 전지 아님. 프로토콜 카드는 만능 제어가 아님",
+            "en": "Charging, aging, supply source. Not permanent batteries. Protocol cards are not universal control"
+          },
+          {
+            "ko": "탐사원·기록관·운영가문 회수 반",
+            "en": "Explorer, records keeper, operating-house recovery squads"
+          },
+          {
+            "ko": [
+              {
+                "text": "개념은 "
+              },
+              {
+                "text": "이 시대의 기술과 무구",
+                "link": {
+                  "domain": "goods",
+                  "slug": "Era-Arms-and-Tech-Level"
+                }
+              },
+              {
+                "text": ". 실회사 2026 배치 검증 아님"
+              }
+            ],
+            "en": [
+              {
+                "text": "Concept: "
+              },
+              {
+                "text": "The Arms and Technology of This Era",
+                "link": {
+                  "domain": "goods",
+                  "slug": "Era-Arms-and-Tech-Level"
+                }
+              },
+              {
+                "text": ". Not a verification of real 2026 deployment"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "차량·발전기 (세력 규모)",
+            "en": "Vehicles · generators (power scale)"
+          },
+          {
+            "ko": "이동, 거점 전력",
+            "en": "Movement, stronghold power"
+          },
+          {
+            "ko": "철도·시내버스·시설 비상발전기·군 차량",
+            "en": "Rail, city buses, facility emergency generators, military vehicles"
+          },
+          {
+            "ko": "생활권이 굴릴 때만. 개인 프리셋 기본 아님",
+            "en": "Only when a living sphere ran them. Not a personal-preset default"
+          },
+          {
+            "ko": "연료·윤활·타이어·배터리. 발전기 ≠ 축전 모듈",
+            "en": "Fuel, lubricant, tires, batteries. Generator ≠ energy-storage module"
+          },
+          {
+            "ko": "역장 또는 현행 세 세력·존속 봉신의 확인된 운영 조직에서 검토할 차량·발전기 후보. 옛 십육국 군사 명칭만으로 보유·지휘를 정하지 않으며 떠돌이 시작 장비가 아니다",
+            "en": "Vehicle and generator candidates for attested station or present three-faction and surviving-vassal operators. Historical sixteen-state military labels grant neither possession nor command; not drifter starting gear"
+          },
+          {
+            "ko": [
+              {
+                "text": "차량 잔존 규모 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              },
+              {
+                "text": ". 수량 미잠금"
+              }
+            ],
+            "en": [
+              {
+                "text": "Vehicle remnant scale "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              },
+              {
+                "text": ". Counts unlocked"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "ko": "중화기 (세력 규모)",
+            "en": "Heavy weapons (power scale)"
+          },
+          {
+            "ko": "차단문·거점 방어",
+            "en": "Barrier-gate and stronghold defense"
+          },
+          {
+            "ko": "국군 지원화기·차량 탑재",
+            "en": "ROK support weapons, vehicle-mounted"
+          },
+          {
+            "ko": "분대 이상 잔존, 시설 방어. 개인 휴대 시작 없음",
+            "en": "Remnants above squad scale, facility defense. No personal-carry start"
+          },
+          {
+            "ko": "탄약·무거움·정비. 보급이 지휘권 분쟁의 대상",
+            "en": "Ammunition, weight, maintenance. Supply was the object of command disputes"
+          },
+          {
+            "ko": [
+              {
+                "text": "네 잔존 그룹과 현행 세 세력·존속 봉신의 확인된 시설 방어 조직에서 검토할 중화기 후보. 옛 십육국 명칭만으로 보유·지휘를 정하지 않는다. "
+              },
+              {
+                "text": "징집 잔존",
+                "link": {
+                  "domain": "gdd",
+                  "slug": "rules/Rules-FactionsWarfare"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "Heavy-weapon candidates for the four remnant groups and attested facility-defense organizations of the present three factions and surviving vassals. Historical sixteen-state labels grant neither possession nor command. "
+              },
+              {
+                "text": "Conscription Remnants",
+                "link": {
+                  "domain": "gdd",
+                  "slug": "rules/Rules-FactionsWarfare"
+                }
+              }
+            ]
+          },
+          {
+            "ko": [
+              {
+                "text": "2026 제식 목록·수량 "
+              },
+              {
+                "text": "추가 조사 필요",
+                "strong": true
+              }
+            ],
+            "en": [
+              {
+                "text": "2026 service lists and counts "
+              },
+              {
+                "text": "further research needed",
+                "strong": true
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "2026년에-실제로-있는-것",
+      "depth": 2,
+      "text": {
+        "ko": "2026년에 실제로 있는 것",
+        "en": "What Actually Existed in 2026"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "2026년에-실제로-있는-것-p1-ko-label-7",
+      "text": {
+        "ko": "가. 자료의 열람 범위",
+        "en": "A. Scope of the reviewed sources"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "2026년에-실제로-있는-것-p1",
+      "text": {
+        "ko": "2026년에는 총포·석궁 허가 제도와 군 장비, 철도·시설 공구가 있었다. 정수센터 당직자들은 대정전 직후 밸브를 수동으로 조작하였다.",
+        "en": "In 2026, permit rules for firearms and crossbows, military equipment, and railway and facility tools existed. Waterworks staff operated valves manually immediately after the Great Blackout."
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "2026년에-실제로-있는-것-list2",
+      "items": [
+        {
+          "ko": [
+            {
+              "text": "총포화약법 제1조: 총포·도검·화약류·분사기·전자충격기·석궁의 제조·판매·임대·운반·소지·사용을 정한다. 민간이 총을 일상으로 드는 나라는 아니다. 시행일·조문 세부는 법령 원문을 따른다. ("
+            },
+            {
+              "text": "국가법령정보센터",
+              "href": "https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EC%B4%9D%ED%8F%AC%C2%B7%EB%8F%84%EA%B2%80%C2%B7%ED%99%94%EC%95%BD%EB%A5%98"
+            },
+            {
+              "text": ", 열람 2026-09-12; 이전 캡처 `.omo/ulw-research/20260911-200129/browse/01-law-go-kr-firearms-swords.png`)"
+            }
+          ],
+          "en": [
+            {
+              "text": "Firearms and Swords Act, Article 1: it governed the manufacture, sale, lease, transport, possession, and use of guns, swords, explosives, spray devices, electroshock weapons, and crossbows. This was not a country where civilians carried guns as daily routine. Effective dates and clause detail followed the statute's original text. ("
+            },
+            {
+              "text": "Korea Law Service Center",
+              "href": "https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EC%B4%9D%ED%8F%AC%C2%B7%EB%8F%84%EA%B2%80%C2%B7%ED%99%94%EC%95%BD%EB%A5%98"
+            },
+            {
+              "text": ", viewed 2026-09-12; earlier capture `.omo/ulw-research/20260911-200129/browse/01-law-go-kr-firearms-swords.png`)"
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "K2는 대한민국 국군 제식 돌격소총으로 소개되는 공개 자료가 있다. 붕괴 후 군 잔존에서 보유하거나 시장에 유입되는 경로는 별도 창작 배정이다. 2026년 「지금 누구에게 몇 정이 지급되는가」는 이 출처가 말하지 않는다. ("
+            },
+            {
+              "text": "영문 위키, Daewoo K2",
+              "href": "https://en.wikipedia.org/wiki/Daewoo_Precision_Industries_K2"
+            },
+            {
+              "text": ", 열람 2026-09-12)"
+            }
+          ],
+          "en": [
+            {
+              "text": "Public material introduces the K2 as the ROK Armed Forces' service rifle. Post-collapse possession through military remnants or market inflow was a separate creative assignment. Who holds how many in 2026 was not what this source said. ("
+            },
+            {
+              "text": "English Wikipedia, Daewoo K2",
+              "href": "https://en.wikipedia.org/wiki/Daewoo_Precision_Industries_K2"
+            },
+            {
+              "text": ", viewed 2026-09-12)"
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "2015년 정책브리핑은 일반예비군 훈련 때 카빈 대신 M16을 지급한다고 밝혔다. 당시의 훈련 지급 사실은 확인되지만, 2026년 수량·부대별 지급표·창고 위치는 이 자료로 확정하지 않는다. ("
+            },
+            {
+              "text": "정책브리핑",
+              "href": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148791733"
+            },
+            {
+              "text": ", 열람 2026-09-20)"
+            }
+          ],
+          "en": [
+            {
+              "text": "A 2015 policy briefing stated that general reserve training issued M16s in place of carbines. The training issue fact of the time was confirmed, but 2026 counts, per-unit issue tables, and warehouse locations were not fixed by this material. ("
+            },
+            {
+              "text": "Policy Briefing",
+              "href": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148791733"
+            },
+            {
+              "text": ", viewed 2026-09-20)"
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "SNT 모티브의 공개 방산 페이지는 K계열 소화기 생산 계열의 존재를 보여 준다. 제조사의 제품 설명은 국군과 예비군의 실제 지급 수량을 대신하지 않는다. ("
+            },
+            {
+              "text": "SNT 모티브",
+              "href": "https://www.sntmotiv.com/eng/business/defense.html"
+            },
+            {
+              "text": ", 열람 2026-09-20)"
+            }
+          ],
+          "en": [
+            {
+              "text": "SNT Motiv's public defense page shows the existence of the K-series production line. The manufacturer's product descriptions did not stand in for actual issue counts to the armed forces or reserves. ("
+            },
+            {
+              "text": "SNT Motiv",
+              "href": "https://www.sntmotiv.com/eng/business/defense.html"
+            },
+            {
+              "text": ", viewed 2026-09-20)"
+            }
+          ]
+        },
+        {
+          "ko": "치안 쪽 제식 봉·방패는 정본 프리셋이 이미 「제식 봉·순찰 방패」로 적는다. 2026 경찰 장비 세칙 원문·제식 권총 모델의 2026 지급 범위는 추가 조사 필요. 세칙 숫자는 잠그지 않는다.",
+          "en": "The canon preset already wrote the police-issue staff and patrol shield as \"regulation staff · patrol shield.\" The original 2026 police equipment regulations and the 2026 issue range of service pistol models needed further research. The regulation numbers were not locked."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "출처",
+      "depth": 2,
+      "text": {
+        "ko": "출처",
+        "en": "Sources"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "출처-list1",
+      "items": [
+        {
+          "ko": [
+            {
+              "text": "PlayStation",
+              "href": "https://www.playstation.com/en-us/games/horizon-forbidden-west/"
+            }
+          ],
+          "en": [
+            {
+              "text": "PlayStation",
+              "href": "https://www.playstation.com/en-us/games/horizon-forbidden-west/"
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "인물·세력·생업",
+              "link": {
+                "domain": "characters",
+                "slug": "Characters-Factions-and-Professions"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Characters, Factions, and Trades",
+              "link": {
+                "domain": "characters",
+                "slug": "Characters-Factions-and-Professions"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "경제와 생산, 물류 규칙",
+              "link": {
+                "domain": "gdd",
+                "slug": "rules/Rules-EconomyLogistics"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Economy, Production and Logistics Rules",
+              "link": {
+                "domain": "gdd",
+                "slug": "rules/Rules-EconomyLogistics"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "서울 십육국",
+              "link": {
+                "domain": "factions",
+                "slug": "Sixteen-States"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "The Sixteen States of Seoul",
+              "link": {
+                "domain": "factions",
+                "slug": "Sixteen-States"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data": {}
+}

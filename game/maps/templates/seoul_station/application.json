@@ -1,0 +1,12 @@
+{
+  "tileset": "game/assets/tilesets/seoul_station/tileset.json",
+  "defaultTemplate": "platform.json",
+  "secondaryTemplate": "corridor.json",
+  "overrides": {
+    "Yeongdeungpo": "Yeongdeungpo.json",
+    "Sindorim": "Sindorim.json",
+    "Guro": "Guro.json"
+  },
+  "remainingStations": 331,
+  "applicationStatus": "Input package only; task-6 outputs unchanged. Consumer must bind uploaded image and preserve graph-derived events."
+}

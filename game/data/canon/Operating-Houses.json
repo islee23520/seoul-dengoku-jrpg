@@ -1,0 +1,3488 @@
+{
+  "version": 1,
+  "domain": "root",
+  "id": "DOC:Operating-Houses",
+  "slug": "Operating-Houses",
+  "status": "approved",
+  "categories": [
+    "factions"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.projection_pages.Operating-Houses"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Operating Organizations",
+      "summary": "Corporate successors and civic or professional groups kept infrastructure in operation.",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "운영 조직",
+      "summary": "법인 후계 조직과 시민·직능 조직은 급수·물류·기록 등 여러 기반을 운영했다.",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-page-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "운영 조직",
+        "en": "Operating Organizations"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Operating-Houses-generated-page-title-paragraph-1",
+      "text": {
+        "ko": "법인 후계 조직과 시민·직능 조직은 급수·물류·기록 등 여러 기반을 운영했다. 각 조직이 맡은 일과 연결 국가는 계약과 시설에 따라 달랐다.",
+        "en": "Corporate successors and civic or professional groups kept infrastructure in operation. Their duties, named stewards and linked states varied by contract and facility."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC01-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC01 · 여의도전산가",
+        "en": "HC01 · Yeouido Computing House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC01-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S01 수문국, S09 여의도출자연합회",
+          "en": "Linked states: S01 The Sluice, S09 Yeouido Investment Federation"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 허은찬",
+          "en": "Steward: Heo Eunchan"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-1-prose-00001",
+      "text": {
+        "ko": "여의도 제2정수 옆 봉인 전산동에서 여의도전산가가 야간 냉각 분배를 지킨다.",
+        "en": "In the sealed computing block beside Yeouido's Second Water Treatment Plant, the Yeouido Computing House guarded the night distribution of cooling."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-1-prose-00002",
+      "text": {
+        "ko": "허은찬은 냉각탑 시계를 급수 당직과 맞춰 돌린다. 상암의 송신키 공유 요구에는 급수 시각과 냉각 기록을 함께 대조하되 키는 보관한다.",
+        "en": "Heo Eunchan keeps the cooling-tower clock aligned with water-supply duty. When Sangam asks to share the transmission key, he compares the water-duty times with the cooling records while retaining the key."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-1-prose-00003",
+      "text": {
+        "ko": "화면이 꺼져도 급수 원장은 남긴다.",
+        "en": "Even with the screens dark, the water ledgers remained."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC01-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0008"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC01-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 허은찬이 여의도 제2정수 옆 봉인 전산동에서 냉각탑 시계를 급수 당직과 맞춰 돌린다.",
+          "en": "Act 1, the fracture: Heo Eunchan runs the cooling-tower clock in step with water-supply duty in the sealed computing block beside Yeouido No. 2 waterworks."
+        },
+        {
+          "ko": "2막 교섭: 허은찬은 상암에 냉각 기록과 급수 당직 시각을 맞춰 보여 주고 송신키는 보관한다.",
+          "en": "Act 2, the negotiation: Heo Eunchan shows Sangam the cooling records against water-duty times while retaining the transmission key."
+        },
+        {
+          "ko": "3막 대가: 상암은 송신키를 받지 못하고 대조 결과만 확인한다. 화면이 꺼져도 급수 원장은 남는다.",
+          "en": "Act 3, the price: Sangam receives no transmission key, only the compared records; the water ledger remains even if the screens go dark."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC02-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0010"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC02 · 신정차륜가",
+        "en": "HC02 · Sinjeong Wheel House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC02-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S01 수문국, S16 정동노총, S07 환적국",
+          "en": "Linked states: S01 The Sluice, S16 Jeongdong Federation, S07 The Junction"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 유세진",
+          "en": "Steward: Yu Sejin"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-2-prose-00004",
+      "text": {
+        "ko": "신정기지 유치선과 수서 회차선에서 신정차륜가가 배터리 셀 순환을 지킨다.",
+        "en": "On the Sinjeong depot siding and the Suseo turnback line, the Sinjeong Wheel House guarded the circulation of battery cells."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-2-prose-00005",
+      "text": {
+        "ko": "유세진은 회차 슬롯을 화물보다 구급차에 먼저 연다.",
+        "en": "Yu Sejin opened the turnback slots to ambulances before freight."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-2-prose-00006",
+      "text": {
+        "ko": "용산 환적 창구가 회차 시간을 독점하려 하자 유세진은 신정·수서의 구급차 우선 슬롯을 배차표와 대조한다. 용산의 화물은 그 순번 뒤로 간다.",
+        "en": "When the Yongsan transfer window seeks exclusive turnback time, Yu Sejin checks its dispatch against the ambulance-priority slots at Sinjeong and Suseo. Yongsan freight follows that order."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-2-prose-00007",
+      "text": {
+        "ko": "선로가 잠겨도 사람 호송은 걷게 연다.",
+        "en": "Even with the tracks locked, passenger convoys kept a walking right of way."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC02-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0016"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC02-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 유세진이 신정기지와 수서 회차선의 회차 슬롯을 화물보다 구급차에 먼저 연다.",
+          "en": "Act 1, the fracture: Yu Sejin gives ambulances priority over freight in the turnback slots at Sinjeong depot and the Suseo line."
+        },
+        {
+          "ko": "2막 교섭: 유세진은 용산 환적 화물의 회차 요청을 구급차 우선 슬롯 뒤에 배치한다.",
+          "en": "Act 2, the negotiation: Yu Sejin places the Yongsan transfer freight request after the ambulance-priority turnback slots."
+        },
+        {
+          "ko": "3막 대가: 화물 회차는 늦어지고, 선로가 잠기면 사람 호송은 도보 통행을 쓴다.",
+          "en": "Act 3, the price: Freight turnback is delayed; if the tracks close, passenger convoys retain the walking route."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC03-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0018"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC03 · 마곡생명가",
+        "en": "HC03 · Magok Life House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC03-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S03 태욱그룹, S13 흰십자단",
+          "en": "Linked states: S03 Taeuk Group, S13 White Cross"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 정호준",
+          "en": "Steward: Jeong Hojun"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-3-prose-00008",
+      "text": {
+        "ko": "마곡 밀폐실험동 방풍실에서 마곡생명가가 생체 데이터셋 격리 키를 지킨다.",
+        "en": "In the windbreak room of the Magok sealed laboratory block, the Magok Life House guarded the isolation key of the biometric datasets."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-3-prose-00009",
+      "text": {
+        "ko": "정호준은 실험 일지를 병상 이름과 분리해 보관한다.",
+        "en": "Jeong Hojun kept the laboratory logs separate from the names on the sickbeds."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-3-prose-00010",
+      "text": {
+        "ko": "정호준은 제기동의 원료 선점 요구를 검토할 때도 실험 일지와 병상 이름을 분리해 대조한다. 격리 키를 넘기지 않으므로 원료 거래가 환자 기록 열람권이 되지 않는다.",
+        "en": "Even while considering Jegi-dong’s attempt to secure raw materials first, Jeong Hojun checks laboratory logs separately from patient names. Keeping the isolation key prevents a materials claim from becoming access to patient records."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-3-prose-00011",
+      "text": {
+        "ko": "표본이 사라져도 동의 기록은 태우지 않는다.",
+        "en": "Even when specimens went missing, the consent records were never burned."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC03-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0024"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC03-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 정호준이 마곡 밀폐실험동에서 실험 일지를 병상 이름과 분리해 보관한다.",
+          "en": "Act 1, the fracture: Jeong Hojun keeps laboratory logs separate from patients’ names in the Magok sealed laboratory wing."
+        },
+        {
+          "ko": "2막 교섭: 정호준은 제기동의 원료 요청과 실험 일지를 대조하되 병상 이름과 격리 키는 따로 둔다.",
+          "en": "Act 2, the negotiation: Jeong Hojun checks Jegi-dong’s materials request against the lab logs while keeping patient names and the isolation key separate."
+        },
+        {
+          "ko": "3막 대가: 제기동은 병상 이름으로 원료 선점을 입증할 수 없다. 표본이 없어져도 동의 기록은 보존한다.",
+          "en": "Act 3, the price: Jegi-dong cannot use patient names to support its priority claim; consent records remain even when specimens are missing."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC04-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0026"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC04 · 뚝섬열원가",
+        "en": "HC04 · Ttukseom Heat-Source House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC04-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S04 명부교회, S05 동방사, S01 수문국",
+          "en": "Linked states: S04 Myeongbu Church, S05 Eastern Command, S01 The Sluice"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 박누리",
+          "en": "Steward: Park Nuri"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-4-prose-00012",
+      "text": {
+        "ko": "뚝섬 펌프와 암사 여열 배관에서 뚝섬열원가가 지하 열원 접속권을 지킨다.",
+        "en": "At the Ttukseom pumps and the Amsa waste-heat piping, the Ttukseom Heat-Source House guarded the rights of access to the underground heat source."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-4-prose-00013",
+      "text": {
+        "ko": "박누리는 여열을 팔기 전에 펌프 예비 전력을 채운다.",
+        "en": "Park Nuri filled the pumps' reserve power before selling any waste heat."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-4-prose-00014",
+      "text": {
+        "ko": "여의도가 야간 급수 우선권을 주장하자 박누리는 뚝섬 펌프의 예비 전력과 암사 여열 판매 순서를 함께 확인한다. 펌프 몫을 채우기 전에는 여열 판매를 앞당기지 않는다.",
+        "en": "When Yeouido claims night priority for water supply, Park Nuri checks Ttukseom pump reserve power against the order for selling Amsa waste heat. She does not bring sales forward before filling the pump reserve."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-4-prose-00015",
+      "text": {
+        "ko": "정전 순서를 숨기지 않고 게시판에 붙인다.",
+        "en": "The blackout order was not hidden but posted on the notice board."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC04-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0032"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC04-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 박누리가 뚝섬 펌프의 예비 전력을 채운 뒤 암사 배관의 여열을 판다.",
+          "en": "Act 1, the fracture: Park Nuri fills the Ttukseom pumps’ reserve power before selling waste heat from the Amsa piping."
+        },
+        {
+          "ko": "2막 교섭: 박누리는 여의도의 야간 급수 요청을 펌프 예비 전력과 대조하고 남은 여열의 판매 순서를 정한다.",
+          "en": "Act 2, the negotiation: Park Nuri measures Yeouido’s night water request against pump reserves before ordering any remaining waste-heat sales."
+        },
+        {
+          "ko": "3막 대가: 펌프 예비 전력을 먼저 채우느라 여열 판매가 밀린다. 정전 순서는 게시판에 남는다.",
+          "en": "Act 3, the price: Waste-heat sales wait while pump reserves are filled; the blackout order remains posted."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC05-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0034"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC05 · 북한산보국문기록가",
+        "en": "HC05 · Bukhansan Bogukmun Records House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC05-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S10 안국총림, S06 대한민국정부",
+          "en": "Linked states: S10 Anguk Order, S06 Republic of Korea Government"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 윤서린",
+          "en": "Steward: Yun Seorin"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-5-prose-00016",
+      "text": {
+        "ko": "북한산 회랑 창고의 습도 금고에서 북한산보국문기록가가 옛 기록 원본 한 상자를 지킨다.",
+        "en": "In the humidity vault of the Bukhansan corridor warehouse, the Bukhansan Bogukmun Records House guarded a single box of original old records."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-5-prose-00017",
+      "text": {
+        "ko": "윤서린은 습도 알람이 울리면 열람을 멈추고 상자만 옮긴다.",
+        "en": "Yun Seorin stopped the reading and moved only the box when the humidity alarm sounded."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-5-prose-00018",
+      "text": {
+        "ko": "서울역이 인준 인지를 요구하는 동안 습도 경보가 울리자 윤서린은 열람을 멈추고 원본 상자부터 옮긴다. 인지 대조는 상자의 보존보다 앞서지 못한다.",
+        "en": "When the humidity alarm sounds during Seoul Station’s demand for accreditation stamps, Yun Seorin suspends reading and moves the original box first. Checking the stamps cannot take precedence over preserving it."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-5-prose-00019",
+      "text": {
+        "ko": "공개 범위를 접어도 목록 자체는 남긴다.",
+        "en": "Even when the scope of disclosure was folded back, the catalog itself was kept."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC05-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0040"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC05-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 북한산 회랑 창고의 습도 경보가 울리자 윤서린은 열람을 멈추고 옛 기록 원본 상자를 옮긴다.",
+          "en": "Act 1, the fracture: When the humidity alarm sounds in the Bukhansan corridor warehouse, Yun Seorin stops reading access and moves the box of original records."
+        },
+        {
+          "ko": "2막 교섭: 윤서린은 습도 경보에 열람을 중지하고 원본 상자를 옮긴 뒤 인준 인지 요구를 대조한다.",
+          "en": "Act 2, the negotiation: Yun Seorin suspends access at the humidity alarm, moves the original box, and only then checks the accreditation-stamp request."
+        },
+        {
+          "ko": "3막 대가: 원본 열람은 늦어지고 공개 범위는 좁아져도 목록은 남는다.",
+          "en": "Act 3, the price: Access to the originals is delayed; the catalog remains even when disclosure narrows."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC06-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0042"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC06 · 노량진배달가",
+        "en": "HC06 · Noryangjin Delivery House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC06-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S08 중앙정보부, S15 명동대교구",
+          "en": "Linked states: S08 Central Intelligence Bureau, S15 Myeongdong Archdiocese"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 오해린",
+          "en": "Steward: O Haerin"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-6-prose-00020",
+      "text": {
+        "ko": "노량진 하층 골목과 가락 후문에서 노량진배달가가 근거리 수레 배차권을 지킨다.",
+        "en": "In the lower Noryangjin alleys and at the Garak back gate, the Noryangjin Delivery House guarded the short-haul cart dispatch rights."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-6-prose-00021",
+      "text": {
+        "ko": "오해린은 골목 순번을 경매 호가와 바꿔 쓰지 않는다.",
+        "en": "O Haerin did not trade the alley turn order for auction bids."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-6-prose-00022",
+      "text": {
+        "ko": "장거리 배송단이 노량진 골목에 들어오려 하자 오해린은 가락 후문의 수레 순번을 경매 호가와 분리해 대조한다. 높은 호가로 골목 순번을 사들이는 길은 열지 않는다.",
+        "en": "When long-haul crews seek entry into the Noryangjin alleys, O Haerin checks the cart order at the Garak back gate separately from auction bids. A higher bid does not buy a turn in the alley."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-6-prose-00023",
+      "text": {
+        "ko": "점포가 비어도 주문 장부는 섞지 않는다.",
+        "en": "Even when the shops stood empty, the order ledgers were never mixed."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC06-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0048"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC06-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 오해린이 노량진 하층 골목과 가락 후문의 수레 배차 순번을 경매 호가와 분리해 지킨다.",
+          "en": "Act 1, the fracture: O Haerin keeps the cart dispatch order in the lower Noryangjin alleys and at the Garak back gate separate from auction bids."
+        },
+        {
+          "ko": "2막 교섭: 오해린은 장거리 배송단의 진입을 수레 배차 순번에 맞춰 살피고 경매 호가는 배차 판단에서 뺀다.",
+          "en": "Act 2, the negotiation: O Haerin checks the long-haul crews’ entry against cart dispatch order, leaving auction bids out of the dispatch decision."
+        },
+        {
+          "ko": "3막 대가: 고가 입찰의 빠른 배차는 성립하지 않는다. 점포가 비어도 주문 장부는 따로 남는다.",
+          "en": "Act 3, the price: A high bid buys no faster dispatch; order ledgers remain separate even when shops stand empty."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC07-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0050"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC07 · 구로합금가",
+        "en": "HC07 · Guro Alloy House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC07-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S02 규격맹, S04 명부교회",
+          "en": "Linked states: S02 The Gauge, S04 Myeongbu Church"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 강민서",
+          "en": "Steward: Gang Minseo"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-7-prose-00024",
+      "text": {
+        "ko": "구로 고온로와 성수 합금 정에서 구로합금가가 내열 합금 레시피를 지킨다.",
+        "en": "At the Guro high-temperature furnace and the Seongsu alloy works, the Guro Alloy House guarded the heat-resistant alloy recipe."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-7-prose-00025",
+      "text": {
+        "ko": "강민서는 로 온도가 흔들리면 주문을 받아도 불을 끈다.",
+        "en": "Gang Minseo put out the fire when the furnace temperature wavered, even with orders taken."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-7-prose-00026",
+      "text": {
+        "ko": "궤도 방위문이 합금을 군수용으로 전용하라 요구해도 강민서는 구로 고온로의 온도를 먼저 본다. 온도가 흔들리면 주문을 멈추고 불량품에 규격 도장을 찍지 않는다.",
+        "en": "Even under the Orbital Defense Gate’s demand for military-exclusive alloy, Gang Minseo checks the Guro furnace temperature first. If it wavers, she stops the order and does not stamp defective output as compliant."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-7-prose-00027",
+      "text": {
+        "ko": "불량이 나와도 규격 도장은 위조하지 않는다.",
+        "en": "Even when defects turned up, the standards seal was never forged."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC07-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0056"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC07-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 강민서가 구로 고온로의 온도가 흔들리면 주문이 있어도 불을 끈다.",
+          "en": "Act 1, the fracture: Gang Minseo shuts down the Guro furnace when its temperature wavers, even with orders pending."
+        },
+        {
+          "ko": "2막 교섭: 강민서는 군수 전용 요구를 고온로 온도와 생산 규격에 대조하고 불안정한 주문은 중단한다.",
+          "en": "Act 2, the negotiation: Gang Minseo tests the military-exclusive demand against furnace temperature and production standards, stopping an unstable order."
+        },
+        {
+          "ko": "3막 대가: 군수 주문은 기다리고 불량품은 규격품으로 출고되지 않는다.",
+          "en": "Act 3, the price: The military order waits; defective output does not leave as certified stock."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC08-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0058"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC08 · 창동방호가",
+        "en": "HC08 · Changdong Protection House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC08-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S11 성하그룹, S12 신내운수, S05 동방사",
+          "en": "Linked states: S11 Seongha Group, S12 Sinnae Transport, S05 Eastern Command"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 이홍원",
+          "en": "Steward: I Hongwon"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-8-prose-00028",
+      "text": {
+        "ko": "창동 북문과 신내 환승 차단문에서 창동방호가가 통합 방호키를 지킨다.",
+        "en": "At the Changdong north gate and the Sinnae transfer barriers, the Changdong Protection House guarded the integrated protection key."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-8-prose-00029",
+      "text": {
+        "ko": "이홍원은 차단문 원격키를 호위단에 넘기지 않는다.",
+        "en": "I Hongwon did not hand the barrier's remote key over to the escort corps."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-8-prose-00030",
+      "text": {
+        "ko": "암사 호위단이 원격 잠금을 요구하자 이홍원은 창동 북문과 신내 환승 차단문의 원격키를 보관한다. 시민 통행을 닫기 전에 대피 방송을 먼저 보낸다.",
+        "en": "When the Amsa escorts demand remote lockdown, I Hongwon keeps the remote key for Changdong north gate and the Sinnae transfer barriers. The evacuation announcement precedes any closure of civilian passage."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-8-prose-00031",
+      "text": {
+        "ko": "시민 통행을 닫기 전에 대피 방송을 먼저 연다.",
+        "en": "The evacuation broadcast was opened before citizen passage was closed."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC08-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0064"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC08-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 이홍원이 창동 북문과 신내 환승 차단문의 원격키를 지킨다.",
+          "en": "Act 1, the fracture: I Hongwon retains custody of the remote key for the Changdong north gate and Sinnae transfer barriers."
+        },
+        {
+          "ko": "2막 교섭: 이홍원은 암사의 원격 잠금 요청에 앞서 대피 방송 순서를 확인하고 차단문 원격키를 직접 보관한다.",
+          "en": "Act 2, the negotiation: I Hongwon checks the evacuation-broadcast order before acting on Amsa’s remote-lock request and retains the barrier key."
+        },
+        {
+          "ko": "3막 대가: 호위단은 즉시 원격으로 시민 통행을 닫지 못한다. 대피 방송이 먼저 나간다.",
+          "en": "Act 3, the price: The escorts cannot immediately close civilian passage remotely; the evacuation announcement goes first."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC09-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0066"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC09 · 서울역재고가",
+        "en": "HC09 · Seoul Station Inventory House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC09-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S06 대한민국정부, S15 명동대교구, S08 중앙정보부",
+          "en": "Linked states: S06 Republic of Korea Government, S15 Myeongdong Archdiocese, S08 Central Intelligence Bureau"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 남윤경",
+          "en": "Steward: Nam Yungyeong"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-9-prose-00032",
+      "text": {
+        "ko": "서울역 서편 창고와 잠실 하층에서 서울역재고가가 생활재 재고 원장을 지킨다.",
+        "en": "In the warehouses west of Seoul Station and the lower Jamsil level, the Seoul Station Inventory House guarded the household-goods inventory ledger."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-9-prose-00033",
+      "text": {
+        "ko": "남윤경은 창고 열쇠와 가격표를 한 사람이 쥐지 않는다.",
+        "en": "Nam Yungyeong did not let one person hold both the warehouse key and the price list."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-9-prose-00034",
+      "text": {
+        "ko": "가락 경매의 우선권 요구를 받자 남윤경은 서울역 창고 열쇠와 생활재 가격표를 서로 다른 사람에게 두고 재고 원장과 배급 순번을 대조한다.",
+        "en": "Facing Garak’s auction-priority demand, Nam Yungyeong keeps the Seoul Station warehouse key and household-goods price list with different people and checks stock against ration order."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-9-prose-00035",
+      "text": {
+        "ko": "재고가 줄어도 배급 순번을 팔지 않는다.",
+        "en": "Even as stocks dwindled, places in the ration order were never sold."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC09-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0072"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC09-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 남윤경이 서울역 서편 창고의 열쇠와 생활재 가격표를 서로 다른 사람에게 맡긴다.",
+          "en": "Act 1, the fracture: Nam Yungyeong assigns the Seoul Station west warehouse key and household-goods price list to different people."
+        },
+        {
+          "ko": "2막 교섭: 남윤경은 가락 경매 요청을 재고 원장과 배급 순번에 대조하고 열쇠와 가격표의 분리를 지킨다.",
+          "en": "Act 2, the negotiation: Nam Yungyeong checks Garak’s auction request against the inventory and ration queue while keeping the key and price list separate."
+        },
+        {
+          "ko": "3막 대가: 경매 우선권으로 배급 순번을 앞당길 수 없다. 재고가 줄어도 순번은 팔지 않는다.",
+          "en": "Act 3, the price: Auction priority does not move anyone up the ration queue; the queue is not sold even as stock falls."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC10-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0074"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC10 · 마곡종자가",
+        "en": "HC10 · Magok Seed House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC10-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S03 태욱그룹, S09 여의도출자연합회, S08 중앙정보부",
+          "en": "Linked states: S03 Taeuk Group, S09 Yeouido Investment Federation, S08 Central Intelligence Bureau"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 최지우",
+          "en": "Steward: Choi Jiwoo"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-10-prose-00036",
+      "text": {
+        "ko": "마곡 종자 창고와 상암 부엌 방송에서 마곡종자가가 발효 종자 금고를 지킨다.",
+        "en": "In the Magok seed warehouse and the Sangam kitchen broadcast, the Magok Seed House guarded the fermented seed vault."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-10-prose-00037",
+      "text": {
+        "ko": "최지우는 방송 레시피에 재고 위치를 섞어 쓰지 않는다.",
+        "en": "Choi Jiwoo did not mix the locations of stock into the broadcast recipes."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-10-prose-00038",
+      "text": {
+        "ko": "노량진 냉동 임차료 인상 요구를 받자 최지우는 발효 종자의 재고 위치를 상암 방송 레시피에 싣지 않는다. 임차 논의에는 금고 위치 대신 공개 가능한 위생 수치를 쓴다.",
+        "en": "When Noryangjin demands higher cold-storage rent, Choi Jiwoo keeps the ferment-seed stock location out of the Sangam broadcast recipe. Rent discussions use releasable hygiene figures rather than vault locations."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-10-prose-00039",
+      "text": {
+        "ko": "맛의 표준을 강요하지 않고 위생 수치만 공개한다.",
+        "en": "No standard of taste was imposed; only the hygiene figures were published."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC10-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0080"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC10-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 마곡종자가가 발효 종자 금고를 지키는 동안 노량진 냉동 임차 인상 요구가 들어온다.",
+          "en": "Act 1, the fracture: While the Magok Seed House guards its ferment-seed vault, it faces a demand to raise the Noryangjin cold-storage rent."
+        },
+        {
+          "ko": "2막 교섭: 최지우는 노량진 냉동 임차 논의에 위생 수치만 내고 종자 금고의 위치는 방송에서 뺀다.",
+          "en": "Act 2, the negotiation: Choi Jiwoo supplies hygiene figures for the Noryangjin cold-storage rent discussion while omitting seed-vault locations from the broadcast."
+        },
+        {
+          "ko": "3막 대가: 임차 협상에 재고 위치를 담보로 내놓지 않아도 되지만 맛의 표준도 강요하지 못한다.",
+          "en": "Act 3, the price: The stock location is not offered as collateral in the rent discussion, and no standard of taste is imposed."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC11-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0082"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC11 · 용산호송가",
+        "en": "HC11 · Yongsan Convoy House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC11-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S07 환적국, S12 신내운수, S16 정동노총",
+          "en": "Linked states: S07 The Junction, S12 Sinnae Transport, S16 Jeongdong Federation"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 박태겸",
+          "en": "Steward: Park Taegyeom"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-11-prose-00040",
+      "text": {
+        "ko": "용산 화물홈과 수서 심야 슬롯에서 용산호송가가 야간 호송 허가증을 지킨다.",
+        "en": "At the Yongsan freight platform and in the Suseo late-night slots, the Yongsan Convoy House guarded the night convoy permits."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-11-prose-00041",
+      "text": {
+        "ko": "박태겸은 심야 슬롯을 의료열차에 양보한 뒤 화물을 민다.",
+        "en": "Park Taegyeom yielded the late-night slots to the medical trains and then pushed the freight through."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-11-prose-00042",
+      "text": {
+        "ko": "신내 의료열차와 심야 배차가 겹치자 박태겸은 용산 화물홈의 화물을 뒤로 밀고 수서 슬롯을 의료열차에 내준다. 빈 상자를 채워 화물 무게를 부풀리지 않는다.",
+        "en": "When a late-night dispatch conflicts with the Sinnae medical train, Park Taegyeom holds Yongsan freight back and yields the Suseo slot to the medical train. He does not pad empty crates to inflate freight weight."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-11-prose-00043",
+      "text": {
+        "ko": "빈 상자를 채워 무게를 속이지 않는다.",
+        "en": "Empty crates were never weighted to cheat the scales."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC11-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0088"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC11-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 박태겸이 용산 화물홈과 수서 심야 슬롯에서 의료열차에 먼저 길을 내준 뒤 화물을 보낸다.",
+          "en": "Act 1, the fracture: Park Taegyeom gives medical trains priority at the Yongsan freight platform and Suseo late-night slots before sending freight."
+        },
+        {
+          "ko": "2막 교섭: 박태겸은 신내 의료열차의 수서 심야 슬롯을 먼저 확보하고 용산 화물 배차를 뒤로 민다.",
+          "en": "Act 2, the negotiation: Park Taegyeom secures the Suseo late-night slot for the Sinnae medical train and moves Yongsan freight later."
+        },
+        {
+          "ko": "3막 대가: 용산 화물은 늦게 출발하며 빈 상자로 중량 순번을 속이지 못한다.",
+          "en": "Act 3, the price: Yongsan freight departs later; empty crates cannot be used to cheat weight-based order."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC12-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0090"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC12 · 금천구청중기가",
+        "en": "HC12 · Geumcheon District Office Machinery House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC12-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S02 규격맹, S14 아관사, S04 명부교회",
+          "en": "Linked states: S02 The Gauge, S14 Achasan Gate, S04 Myeongbu Church"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 정시우",
+          "en": "Steward: Jeong Siwoo"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-12-prose-00044",
+      "text": {
+        "ko": "금천 크레인과 아차산 교각 하부에서 금천구청중기가가 대형 리깅 자격을 지킨다.",
+        "en": "At the Geumcheon cranes and under the Achasan bridge piers, the Geumcheon District Office Machinery House guarded the qualifications for heavy rigging."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-12-prose-00045",
+      "text": {
+        "ko": "정시우는 교각 아래에 크레인을 세우기 전 풍속을 적는다.",
+        "en": "Jeong Siwoo wrote down the wind speed before setting up a crane beneath the piers."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-12-prose-00046",
+      "text": {
+        "ko": "뚝섬 펌프 하우징을 두고 작업이 겹치자 정시우는 아차산 교각 아래 크레인의 풍속과 하중을 기록한다. 한도를 넘는 인양은 기록을 마칠 때까지가 아니라 시작 전에 멈춘다.",
+        "en": "When crews contest the Ttukseom pump housing, Jeong Siwoo records wind and load for the crane beneath the Achasan bridge. A lift over the limit stops before it starts, not after the paperwork."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-12-prose-00047",
+      "text": {
+        "ko": "하중 한도를 넘긴 작업은 기록 전에 멈춘다.",
+        "en": "Work past the load limit stopped before it could reach the record."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC12-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0096"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC12-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 정시우가 아차산 교각 아래 크레인을 세우기 전에 풍속을 기록한다.",
+          "en": "Act 1, the fracture: Jeong Siwoo records wind speed before positioning a crane beneath the Achasan bridge piers."
+        },
+        {
+          "ko": "2막 교섭: 정시우는 펌프 하우징 인양 순서를 풍속 기록과 하중 한도에 맞춰 확인한다.",
+          "en": "Act 2, the negotiation: Jeong Siwoo checks the pump-housing lift order against wind records and the load limit."
+        },
+        {
+          "ko": "3막 대가: 한도를 넘는 인양은 시작하지 않아 펌프 하우징 작업이 기다린다.",
+          "en": "Act 3, the price: A lift above the limit does not begin; work on the pump housing waits."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC13-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0098"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC13 · 수서건설가",
+        "en": "HC13 · Suseo Construction House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC13-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S06 대한민국정부, S16 정동노총, S14 아관사",
+          "en": "Linked states: S06 Republic of Korea Government, S16 Jeongdong Federation, S14 Achasan Gate"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 정유라",
+          "en": "Steward: Jeong Yura"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-13-prose-00048",
+      "text": {
+        "ko": "서울역 잔벽과 수서 지하 공동구에서 수서건설가가 내진 접합 도면을 지킨다.",
+        "en": "At the remnant walls of Seoul Station and in the Suseo underground utility tunnel, the Suseo Construction House guarded the seismic-joint drawings."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-13-prose-00049",
+      "text": {
+        "ko": "정유라는 공동구 도면을 감시탑 증축과 맞바꿔 팔지 않는다.",
+        "en": "Jeong Yura did not sell the utility-tunnel drawings in exchange for the watchtower addition."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-13-prose-00050",
+      "text": {
+        "ko": "아차산 감시탑 증축 요구가 들어와도 정유라는 서울역 잔벽과 수서 공동구의 내진 접합 도면을 넘기지 않는다. 도면과 현장 치수가 다르면 작업을 멈추고 실측을 다시 확인한다.",
+        "en": "Even under the demand to enlarge the Achasan watchtower, Jeong Yura does not trade away the seismic-joint drawings for the Seoul Station remnant wall and Suseo utility tunnel. A mismatch between drawing and site measurements stops work for a fresh check."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-13-prose-00051",
+      "text": {
+        "ko": "도면과 현장 치수가 다르면 작업을 멈추고 실측을 다시 확인한 뒤 도면의 틀린 치수를 고친다.",
+        "en": "If the drawing and site measurements disagree, work stops while the measurements are checked again; the incorrect figures on the drawing are then corrected."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC13-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0104"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC13-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 정유라가 서울역 잔벽과 수서 공동구의 내진 접합 도면을 지킨다.",
+          "en": "Act 1, the fracture: Jeong Yura retains custody of the seismic-joint drawings for the Seoul Station remnant walls and Suseo utility tunnel."
+        },
+        {
+          "ko": "2막 교섭: 정유라는 감시탑 증축에 쓸 공동구 도면과 현장 치수를 다시 대조하고 불일치한 작업을 멈춘다.",
+          "en": "Act 2, the negotiation: Jeong Yura checks the utility-tunnel drawing against site measurements for the watchtower addition and halts work where they disagree."
+        },
+        {
+          "ko": "3막 대가: 확인 전에는 증축을 진행하지 않고 틀린 치수는 실측에 맞춰 도면에서 고친다.",
+          "en": "Act 3, the price: The addition does not proceed before checking; incorrect figures are corrected on the drawing against site measurements."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC14-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0106"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC14 · 여의도장부가",
+        "en": "HC14 · Yeouido Ledger House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC14-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S01 수문국, S16 정동노총, S06 대한민국정부",
+          "en": "Linked states: S01 The Sluice, S16 Jeongdong Federation, S06 Republic of Korea Government"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 장필규",
+          "en": "Steward: Jang Pilgyu"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-14-prose-00052",
+      "text": {
+        "ko": "여의도 계약고와 수서 중재실에서 여의도장부가가 이중서명 장부를 지킨다.",
+        "en": "In the Yeouido contract vault and the Suseo mediation room, the Yeouido Ledger House guarded the double-signature ledger."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-14-prose-00053",
+      "text": {
+        "ko": "장필규는 한 서명이 비면 급수 계약을 집행하지 않는다.",
+        "en": "Jang Pilgyu did not execute a water contract when one signature was missing."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-14-prose-00054",
+      "text": {
+        "ko": "기록청의 인준이 늦어지자 장필규는 여의도 계약고의 이중서명 장부를 확인한다. 한 서명이 빠진 급수 계약은 집행하지 않고 손실과 보상 순서를 공개한다.",
+        "en": "When Records Bureau accreditation is delayed, Jang Pilgyu checks both signatures in the Yeouido contract-vault ledger. A water-supply contract missing one signature is not executed, and losses and compensation order are disclosed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-14-prose-00055",
+      "text": {
+        "ko": "손실을 숨기지 않고 보상 순서를 공개한다.",
+        "en": "Losses were not hidden; the compensation order was published."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC14-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0112"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC14-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 장필규가 여의도 계약고의 급수 계약을 집행하기 전에 이중서명 장부의 두 서명을 확인한다.",
+          "en": "Act 1, the fracture: Jang Pilgyu checks both signatures in the Yeouido contract vault’s ledger before executing a water-supply contract."
+        },
+        {
+          "ko": "2막 교섭: 장필규는 인준이 늦은 급수 계약의 두 서명을 확인하고 한 칸이라도 비면 집행을 미룬다.",
+          "en": "Act 2, the negotiation: Jang Pilgyu checks both signatures on a delayed water-supply contract and defers execution if either is missing."
+        },
+        {
+          "ko": "3막 대가: 집행이 늦어진 손실과 보상 순서가 공개된다.",
+          "en": "Act 3, the price: The losses from delayed execution and the compensation order are made public."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP01-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0114"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HP01 · 영등포수문가",
+        "en": "HP01 · Yeongdeungpo Sluice House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP01-title-list-1",
+      "items": [
+        {
+          "ko": "분류: INFRA_OPERATOR",
+          "en": "Class: INFRA_OPERATOR"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S01 수문국, S04 명부교회, S05 동방사, S14 아관사",
+          "en": "Linked states: S01 The Sluice, S04 Myeongbu Church, S05 Eastern Command, S14 Achasan Gate"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 한재목",
+          "en": "Steward: Han Jaemok"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-15-prose-00056",
+      "text": {
+        "ko": "영등포·뚝섬·암사·구의 수문 당직함에서 영등포수문가가 수문 키 분할 보관을 지킨다.",
+        "en": "At the sluice duty boxes of Yeongdeungpo, Ttukseom, Amsa, and Guui, the Yeongdeungpo Sluice House guarded the split custody of the sluice keys."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-15-prose-00057",
+      "text": {
+        "ko": "한재목은 네 곳 키를 한 주머니에 모으지 않는다.",
+        "en": "Han Jaemok did not gather the keys of the four sites into one pouch."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-15-prose-00058",
+      "text": {
+        "ko": "한 권역 전체를 차수하라는 요구가 오자 한재목은 영등포·뚝섬·암사·구의 네 당직함에 나뉜 수문 키를 확인한다. 한 곳에 키를 모으지 않고 물을 무기로 쓰는 명령은 거부한다.",
+        "en": "When asked to close the flood barrier across an entire sphere, Han Jaemok checks the sluice keys kept in separate duty boxes at Yeongdeungpo, Ttukseom, Amsa, and Guui. He does not consolidate them or obey an order to use water as a weapon."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-15-prose-00059",
+      "text": {
+        "ko": "물을 무기로 쓰는 명령을 거부한다.",
+        "en": "Any order that used water as a weapon was refused."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP01-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0120"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP01-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 한재목이 영등포·뚝섬·암사·구의 수문 키를 각 당직함에 나누어 보관한다.",
+          "en": "Act 1, the fracture: Han Jaemok keeps the Yeongdeungpo, Ttukseom, Amsa, and Guui sluice keys in their separate duty boxes."
+        },
+        {
+          "ko": "2막 교섭: 한재목은 전면 차수 요구를 각 당직함의 분할 키와 대조하고 네 곳의 키를 한 손에 모으지 않는다.",
+          "en": "Act 2, the negotiation: Han Jaemok checks the full-closure demand against the split keys at each duty box without assembling all four in one hand."
+        },
+        {
+          "ko": "3막 대가: 한 권역의 일방적 전면 차수는 진행되지 않고 물을 무기로 쓰는 명령은 거부된다.",
+          "en": "Act 3, the price: Unilateral full closure of the sphere does not proceed; an order to weaponize water is refused."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP02-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0122"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HP02 · 용산선로문",
+        "en": "HP02 · Yongsan Track Gate"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP02-title-list-1",
+      "items": [
+        {
+          "ko": "분류: INFRA_OPERATOR",
+          "en": "Class: INFRA_OPERATOR"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S07 환적국, S12 신내운수, S11 성하그룹",
+          "en": "Linked states: S07 The Junction, S12 Sinnae Transport, S11 Seongha Group"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 장세화",
+          "en": "Steward: Jang Sehwa"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-16-prose-00060",
+      "text": {
+        "ko": "용산·신내·창동 배차 회의실에서 용산선로문이 중립 배차표를 지킨다.",
+        "en": "In the dispatch meeting rooms of Yongsan, Sinnae, and Changdong, the Yongsan Track Gate guarded the neutral dispatch table."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-16-prose-00061",
+      "text": {
+        "ko": "장세화는 전세 열차가 와도 응급 칸을 지우지 않는다.",
+        "en": "Jang Sehwa did not erase the emergency cars even when a chartered train came."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-16-prose-00062",
+      "text": {
+        "ko": "강국의 전세 열차가 용산·신내·창동의 중립 배차표를 밀어내려 하자 장세화는 응급 칸을 지키고 전세 운행을 나머지 순번과 대조한다.",
+        "en": "When a great power’s chartered train pushes against the neutral Yongsan, Sinnae, and Changdong dispatch table, Jang Sehwa preserves the emergency slots and checks the charter against the remaining queue."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-16-prose-00063",
+      "text": {
+        "ko": "응급 이송을 화물보다 뒤에 두지 않는다.",
+        "en": "Emergency transport was never queued behind freight."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP02-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0128"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP02-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 장세화가 용산·신내·창동의 중립 배차표에서 전세 열차가 와도 응급 칸을 유지한다.",
+          "en": "Act 1, the fracture: Jang Sehwa preserves emergency slots on the neutral Yongsan, Sinnae, and Changdong dispatch table even when a chartered train arrives."
+        },
+        {
+          "ko": "2막 교섭: 장세화는 전세 열차 요청을 응급 이송 슬롯 뒤의 배차표에 맞춰 검토한다.",
+          "en": "Act 2, the negotiation: Jang Sehwa considers the chartered train against the dispatch table after emergency-transport slots."
+        },
+        {
+          "ko": "3막 대가: 전세 운행은 응급 칸을 차지하지 못하고 그만큼 늦어진다.",
+          "en": "Act 3, the price: The charter cannot take an emergency slot and is delayed accordingly."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP03-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0130"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HP03 · 청량리의료원가",
+        "en": "HP03 · Cheongnyangni Medical House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP03-title-list-1",
+      "items": [
+        {
+          "ko": "분류: PROFESSIONAL_GUILD",
+          "en": "Class: PROFESSIONAL_GUILD"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S13 흰십자단, S06 대한민국정부, S03 태욱그룹",
+          "en": "Linked states: S13 White Cross, S06 Republic of Korea Government, S03 Taeuk Group"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 류은비",
+          "en": "Steward: Ryu Eunbi"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-17-prose-00064",
+      "text": {
+        "ko": "청량리 이송로와 서울역 재난의료 데스크에서 청량리의료원가가 면허 당직표를 지킨다.",
+        "en": "On the Cheongnyangni transfer route and at the Seoul Station disaster-medicine desk, the Cheongnyangni Medical House guarded the licensed duty roster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-17-prose-00065",
+      "text": {
+        "ko": "류은비는 실험 병상 요구가 와도 응급 순번을 팔지 않는다.",
+        "en": "Ryu Eunbi did not sell the emergency order even when demands for trial beds came."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-17-prose-00066",
+      "text": {
+        "ko": "마곡이 실험 병상을 전용하려 하자 류은비는 청량리 이송로와 서울역 재난의료 데스크의 면허 당직표를 확인한다. 응급 순번은 소속으로 바꾸지 않는다.",
+        "en": "When Magok seeks exclusive trial beds, Ryu Eunbi checks the licensed duty roster for the Cheongnyangni transfer route and Seoul Station disaster-medicine desk. Emergency order is not changed by affiliation."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-17-prose-00067",
+      "text": {
+        "ko": "병상을 편으로 가르지 않는다.",
+        "en": "Beds were never divided by faction."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP03-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0136"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP03-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 류은비가 청량리 이송로와 서울역 재난의료 데스크의 면허 당직표에 따라 응급 순번을 지킨다.",
+          "en": "Act 1, the fracture: Ryu Eunbi preserves emergency order under the licensed roster for the Cheongnyangni transfer route and Seoul Station disaster-medicine desk."
+        },
+        {
+          "ko": "2막 교섭: 류은비는 실험 병상 전용 요구를 면허 당직표와 응급 이송 순번에 맞춰 확인한다.",
+          "en": "Act 2, the negotiation: Ryu Eunbi checks the trial-bed reservation request against the licensed roster and emergency-transfer order."
+        },
+        {
+          "ko": "3막 대가: 마곡의 전용 병상 요구는 응급 순번을 밀어내지 못한다. 병상은 진영별로 갈리지 않는다.",
+          "en": "Act 3, the price: Magok’s exclusive-bed demand cannot displace the emergency queue; beds are not divided by faction."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP04-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0138"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HP04 · 서울역기록법가",
+        "en": "HP04 · Seoul Station Record-Law House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP04-title-list-1",
+      "items": [
+        {
+          "ko": "분류: PROFESSIONAL_GUILD",
+          "en": "Class: PROFESSIONAL_GUILD"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S06 대한민국정부, S09 여의도출자연합회",
+          "en": "Linked states: S06 Republic of Korea Government, S09 Yeouido Investment Federation"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 여리안",
+          "en": "Steward: Yeorian"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-18-prose-00068",
+      "text": {
+        "ko": "기록고 열람실과 송신 교차검증대에서 서울역기록법가가 원본 해시 봉인을 지킨다.",
+        "en": "In the archive reading room and at the transmission cross-check desk, the Seoul Station Record-Law House guarded the seals on the source hashes."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-18-prose-00069",
+      "text": {
+        "ko": "여리안은 해시가 다른 문서를 먼저 방송하지 않는다.",
+        "en": "Yeorian did not broadcast a document whose hash differed first."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-18-prose-00070",
+      "text": {
+        "ko": "방송국이 단독 공개를 요구하자 여리안은 기록고 원본과 송신 교차검증대의 해시를 먼저 대조한다. 서로 다른 유언 사본 세 장은 한 진본으로 합치지 않는다.",
+        "en": "When a broadcaster demands an exclusive release, Yeorian first checks the archive original’s hash at the transmission cross-check desk. Three different copies of a will are not merged into one authentic document."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-18-prose-00071",
+      "text": {
+        "ko": "유언 사본 세 장을 한 진본으로 합치지 않는다.",
+        "en": "Three copies of a will were never merged into one original."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP04-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0144"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP04-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 여리안이 기록고 열람실과 송신 교차검증대에서 문서 해시를 대조한 뒤 방송 순서를 정한다.",
+          "en": "Act 1, the fracture: Yeorian compares document hashes in the archive reading room and at the transmission cross-check desk before setting the broadcast order."
+        },
+        {
+          "ko": "2막 교섭: 여리안은 단독 공개 요청 전에 기록고와 송신대의 해시를 대조하고 원본 봉인을 확인한다.",
+          "en": "Act 2, the negotiation: Yeorian compares archive and transmission hashes and checks the original seal before an exclusive release."
+        },
+        {
+          "ko": "3막 대가: 해시가 다르면 방송이 늦어지고 유언 사본 셋은 별도로 남는다.",
+          "en": "Act 3, the price: A hash mismatch delays broadcast, and the three will copies remain distinct."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP05-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0146"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HP05 · 북한산보국문귀환회",
+        "en": "HP05 · Bukhansan Bogukmun Return Society"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP05-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CIVIC_COMPACT",
+          "en": "Class: CIVIC_COMPACT"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S10 안국총림, S11 성하그룹, S12 신내운수",
+          "en": "Linked states: S10 Anguk Order, S11 Seongha Group, S12 Sinnae Transport"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 백온",
+          "en": "Steward: Baek On"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-19-prose-00072",
+      "text": {
+        "ko": "은평 피난로와 창동 주거쉘 대기줄에서 북한산보국문귀환회가 가족 재결합 명부를 지킨다.",
+        "en": "On the Eunpyeong evacuation route and in the queues for the Changdong housing shells, the Bukhansan Bogukmun Return Society guarded the family reunion roll."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-19-prose-00073",
+      "text": {
+        "ko": "백온은 대기줄 이름을 복무 명부와 맞바꾸지 않는다.",
+        "en": "Baek On did not trade the names in the queue for the service roll."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-19-prose-00074",
+      "text": {
+        "ko": "복구복무자 등록을 위해 은평·창동의 가족 재결합 명부를 달라는 요구가 오자 백온은 대기줄 이름을 복무 명부에 옮기지 않는다. 본인 동의가 있는 열람만 연다.",
+        "en": "When a restoration-service register requests the Eunpyeong and Changdong family-reunion roll, Baek On does not copy queue names into a service roster. Access depends on the person’s consent."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-19-prose-00075",
+      "text": {
+        "ko": "명부를 인질로 쓰지 않고 본인 동의로만 연다.",
+        "en": "The rolls were never held hostage; they opened only with the consent of the person concerned."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP05-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0152"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP05-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 백온이 은평 피난로와 창동 주거쉘 대기줄에서 가족 재결합 명부를 지킨다.",
+          "en": "Act 1, the fracture: Baek On safeguards the family-reunion roll along the Eunpyeong evacuation route and the Changdong housing-shell queue."
+        },
+        {
+          "ko": "2막 교섭: 백온은 복구복무자 등록 요청에서 가족 재결합 명부의 본인 동의를 한 사람씩 확인한다.",
+          "en": "Act 2, the negotiation: Baek On checks each person’s consent before access to the family-reunion roll for restoration-service registration."
+        },
+        {
+          "ko": "3막 대가: 동의 없는 등록은 명부로 채울 수 없어 등록 절차가 기다린다.",
+          "en": "Act 3, the price: The roll cannot fill registrations without consent, leaving the registration process waiting."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP06-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0154"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HP06 · 제기동치유문",
+        "en": "HP06 · Jegi-dong Healing Gate"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP06-title-list-1",
+      "items": [
+        {
+          "ko": "분류: PROFESSIONAL_GUILD",
+          "en": "Class: PROFESSIONAL_GUILD"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S13 흰십자단, S03 태욱그룹, S10 안국총림",
+          "en": "Linked states: S13 White Cross, S03 Taeuk Group, S10 Anguk Order"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 정하린",
+          "en": "Steward: Jeong Harin"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-20-prose-00076",
+      "text": {
+        "ko": "제기동 조제실과 마곡 방역 시료실에서 제기동치유문이 처방 이중확인을 지킨다.",
+        "en": "In the Jegi-dong dispensary and the Magok epidemic-control sample room, the Jegi-dong Healing Gate guarded the double-checking of prescriptions."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-20-prose-00077",
+      "text": {
+        "ko": "정하린은 독점 구매서보다 로트 불량을 먼저 붙인다.",
+        "en": "Jeong Harin posted lot defects before monopoly purchase orders."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-20-prose-00078",
+      "text": {
+        "ko": "북한산보국문 약초 독점 구매서가 와도 정하린은 제기동 조제실과 마곡 시료실의 로트 불량을 먼저 게시한다. 처방의 두 번째 확인을 생략하지 않는다.",
+        "en": "Even when a Bukhansan Bogukmun exclusive herb order arrives, Jeong Harin first posts defective lots from the Jegi-dong dispensary and Magok sample room. The second prescription check remains."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-20-prose-00079",
+      "text": {
+        "ko": "가짜 약을 숨기지 않고 로트 번호를 게시한다.",
+        "en": "Counterfeit medicine was not hidden; its lot numbers went up on the board."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP06-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0160"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP06-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 정하린이 제기동 조제실과 마곡 시료실의 로트 불량을 독점 구매서보다 먼저 게시한다.",
+          "en": "Act 1, the fracture: Jeong Harin posts lot defects from the Jegi-dong dispensary and Magok sample room before monopoly purchase orders."
+        },
+        {
+          "ko": "2막 교섭: 정하린은 독점 구매서에 앞서 로트 불량을 대조·게시하고 처방을 두 번 확인한다.",
+          "en": "Act 2, the negotiation: Jeong Harin checks and posts defective lots ahead of the exclusive order, then verifies prescriptions twice."
+        },
+        {
+          "ko": "3막 대가: 불량 로트는 독점 구매 물량으로 넘길 수 없고 조제가 늦어진다.",
+          "en": "Act 3, the price: Defective lots cannot pass into the exclusive purchase; dispensing is delayed."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP07-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0162"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HP07 · 한강진교량공회",
+        "en": "HP07 · Hangangjin Bridge Council"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP07-title-list-1",
+      "items": [
+        {
+          "ko": "분류: INFRA_OPERATOR",
+          "en": "Class: INFRA_OPERATOR"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S01 수문국, S07 환적국, S14 아관사, S04 명부교회",
+          "en": "Linked states: S01 The Sluice, S07 The Junction, S14 Achasan Gate, S04 Myeongbu Church"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 고서준",
+          "en": "Steward: Go Seojun"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-21-prose-00080",
+      "text": {
+        "ko": "한강 교각 점검로와 잠수교 잔교에서 한강진교량공회가 풍속 폐쇄 기준을 지킨다.",
+        "en": "On the Han River pier inspection walkways and the Jamsu Bridge landing stage, the Hangangjin Bridge Council guarded the wind-speed closure standard."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-21-prose-00081",
+      "text": {
+        "ko": "고서준은 풍속이 기준을 넘으면 수운 우선도 세운다.",
+        "en": "Go Seojun halted even the water-borne priority when the wind speed passed the standard."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-21-prose-00082",
+      "text": {
+        "ko": "여의도가 수운 우선권을 요구해도 고서준은 한강 교각 점검로와 잠수교 잔교의 풍속을 확인한다. 폐쇄 기준을 넘으면 우선 통행도 멈춘다.",
+        "en": "Even when Yeouido claims waterborne priority, Go Seojun checks wind speed at the Han River pier walkways and Jamsu Bridge landing. Priority passage also stops above the closure threshold."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-21-prose-00083",
+      "text": {
+        "ko": "교량을 통행세로만 계산하지 않는다.",
+        "en": "A bridge was never reckoned in tolls alone."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP07-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0168"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP07-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 고서준이 한강 교각 점검로와 잠수교 잔교에서 풍속이 기준을 넘으면 수운 우선 통행도 멈춘다.",
+          "en": "Act 1, the fracture: Go Seojun stops even priority waterborne passage at the Han River pier walkways and Jamsu Bridge landing when wind speed exceeds the limit."
+        },
+        {
+          "ko": "2막 교섭: 고서준은 여의도의 우선 통행 요청에 앞서 교각과 잔교의 풍속을 측정해 폐쇄 기준과 대조한다.",
+          "en": "Act 2, the negotiation: Go Seojun measures wind at the bridge and landing against the closure standard before Yeouido’s priority passage."
+        },
+        {
+          "ko": "3막 대가: 풍속이 높으면 여의도 수운도 기다리고 교량 통행은 통행세 수입으로 결정되지 않는다.",
+          "en": "Act 3, the price: High winds delay even Yeouido’s vessels; bridge passage is not decided by toll revenue."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP08-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0170"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HP08 · 노량진냉동상단",
+        "en": "HP08 · Noryangjin Cold-Storage Guild"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP08-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CIVIC_COMPACT",
+          "en": "Class: CIVIC_COMPACT"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S08 중앙정보부, S15 명동대교구, S02 규격맹",
+          "en": "Linked states: S08 Central Intelligence Bureau, S15 Myeongdong Archdiocese, S02 The Gauge"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 구하온",
+          "en": "Steward: Gu Haon"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-22-prose-00084",
+      "text": {
+        "ko": "노량진 냉동고와 가락 얼음 창고에서 노량진냉동상단이 전력 슬롯 순환을 지킨다.",
+        "en": "In the Noryangjin freezers and the Garak ice warehouse, the Noryangjin Cold-Storage Guild guarded the rotation of power slots."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-22-prose-00085",
+      "text": {
+        "ko": "구하온은 모터를 빼 가기 전에 온도 로그를 인쇄한다.",
+        "en": "Gu Haon printed the temperature logs before the motors were taken away."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-22-prose-00086",
+      "text": {
+        "ko": "제작 동맹이 모터 회수를 요구하자 구하온은 노량진 냉동고와 가락 얼음 창고의 온도 로그를 먼저 인쇄한다. 로그가 끊긴 물량은 경매에 보내지 않는다.",
+        "en": "When the production alliance demands motors back, Gu Haon prints temperature logs from the Noryangjin freezers and Garak ice warehouse first. Stock with a broken log does not go to auction."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-22-prose-00087",
+      "text": {
+        "ko": "온도 로그가 끊기면 경매를 멈춘다.",
+        "en": "When the temperature log broke off, the auction stopped."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP08-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0176"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP08-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 구하온이 노량진 냉동고와 가락 얼음 창고의 모터를 회수하기 전에 온도 로그를 인쇄한다.",
+          "en": "Act 1, the fracture: Gu Haon prints temperature logs before motors are removed from the Noryangjin freezers and Garak ice warehouse."
+        },
+        {
+          "ko": "2막 교섭: 구하온은 모터 회수 전에 두 창고의 온도 로그를 대조하고 끊긴 구간이 있으면 경매를 멈춘다.",
+          "en": "Act 2, the negotiation: Gu Haon checks both warehouses’ temperature logs before motor removal and stops the auction if a segment is missing."
+        },
+        {
+          "ko": "3막 대가: 모터 회수와 경매가 로그 확인 뒤로 밀리고 온도를 입증 못 한 상자는 팔지 못한다.",
+          "en": "Act 3, the price: Motor recovery and the auction wait for log checks; crates without temperature evidence cannot be sold."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP09-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0178"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HP09 · 디지털미디어시티신탁가",
+        "en": "HP09 · Digital Media City Trust House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP09-title-list-1",
+      "items": [
+        {
+          "ko": "분류: DATA_TRUST",
+          "en": "Class: DATA_TRUST"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S09 여의도출자연합회, S16 정동노총, S03 태욱그룹",
+          "en": "Linked states: S09 Yeouido Investment Federation, S16 Jeongdong Federation, S03 Taeuk Group"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 최은재",
+          "en": "Steward: Choi Eunjae"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-23-prose-00088",
+      "text": {
+        "ko": "상암 로그 신탁과 수서 계약 해시에서 디지털미디어시티신탁가가 모델 카드 공개를 지킨다.",
+        "en": "In the Sangam log trust and the Suseo contract hashes, the Digital Media City Trust House guarded the publication of model cards."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-23-prose-00089",
+      "text": {
+        "ko": "최은재는 학습자료 반출 요청에 원본 대신 집계만 넘긴다.",
+        "en": "Choi Eunjae answered requests to take out training data by handing over only aggregates instead of the originals."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-23-prose-00090",
+      "text": {
+        "ko": "마곡이 학습자료 원본 반출을 요구하자 최은재는 상암 로그 신탁의 모델 카드 공개 범위를 확인하고 집계만 넘긴다. 얼굴 원본을 통행권과 맞바꾸지 않는다.",
+        "en": "When Magok seeks the original training records, Choi Eunjae checks the Sangam log trust’s model-card disclosures and supplies aggregates only. Original faces are not traded for passage rights."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-23-prose-00091",
+      "text": {
+        "ko": "얼굴 원본을 통행권과 바꾸지 않는다.",
+        "en": "Original faces were never traded for passage rights."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP09-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0184"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP09-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 최은재가 상암 로그 신탁의 학습자료 반출 요청에 원본 대신 집계 자료를 넘긴다.",
+          "en": "Act 1, the fracture: Choi Eunjae supplies aggregates for requests to export training data from the Sangam log trust."
+        },
+        {
+          "ko": "2막 교섭: 최은재는 마곡의 자료 요청에 집계 자료를 대조해 내고 원본의 보관을 유지한다.",
+          "en": "Act 2, the negotiation: Choi Eunjae supplies checked aggregates for Magok’s request while retaining the originals."
+        },
+        {
+          "ko": "3막 대가: 마곡은 원본 얼굴 자료를 받지 못하며 집계 범위에서만 검토한다.",
+          "en": "Act 3, the price: Magok receives no original facial records and must examine aggregates instead."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP10-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0186"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HP10 · 이태원통역문",
+        "en": "HP10 · Itaewon Interpretation Gate"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP10-title-list-1",
+      "items": [
+        {
+          "ko": "분류: PROFESSIONAL_GUILD",
+          "en": "Class: PROFESSIONAL_GUILD"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S06 대한민국정부, S16 정동노총, S09 여의도출자연합회",
+          "en": "Linked states: S06 Republic of Korea Government, S16 Jeongdong Federation, S09 Yeouido Investment Federation"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 대니얼 브룩스",
+          "en": "Steward: Daniel Brooks"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-24-prose-00092",
+      "text": {
+        "ko": "서울역 통역석과 수서 세관 창구에서 이태원통역문이 언어 쌍 당직을 지킨다.",
+        "en": "At the Seoul Station interpreters' seats and the Suseo customs window, the Itaewon Interpretation Gate guarded the language-pair duty."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-24-prose-00093",
+      "text": {
+        "ko": "관리자 대니얼 브룩스는 언어 쌍 당직의 최저 가동을 맡는다. 서울역 통역석과 수서 세관 창구에서 표시완은 자동번역이 빨라도 인준 문장을 사람이 읽게 한다.",
+        "en": "Steward Daniel Brooks is responsible for minimum operation of the language-pair duty roster. At the Seoul Station interpreters’ seats and Suseo customs window, Pyo Siwan has people read accredited sentences even when machine translation is faster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-24-prose-00094",
+      "text": {
+        "ko": "대니얼 브룩스는 이태원통역문의 관리자이며 언어 쌍 당직의 최저 가동을 맡는다. 서울역 통역석과 수서 세관 창구에서 표시완은 자동번역이 빨라도 인준 문장을 사람에게 읽힌다.",
+        "en": "Daniel Brooks is the steward of the Itaewon Interpretation Gate, accountable for minimum language-pair duty. At the Seoul Station interpreters’ seats and Suseo customs window, Pyo Siwan has people read accredited sentences even when machine translation is faster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-24-prose-00095",
+      "text": {
+        "ko": "통역을 자백 도구로 돌리지 않는다.",
+        "en": "Interpretation was never turned into an instrument of confession."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HP10-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0192"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HP10-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 균열: 표시완이 서울역 통역석과 수서 세관 창구의 인준 문장을 사람이 읽도록 한다.",
+          "en": "Act 1, the fracture: Pyo Siwan has people read accredited sentences at the Seoul Station interpreters’ seats and Suseo customs window."
+        },
+        {
+          "ko": "2막 교섭: 대니얼 브룩스는 언어 쌍 당직표를 지키고 표시완은 상암의 자동번역 우선 요청에 맞서 인준 문장의 사람 검독을 확인한다.",
+          "en": "Act 2, the negotiation: Daniel Brooks maintains the language-pair duty roster while Pyo Siwan checks human review of accredited sentences against Sangam’s machine-translation-first request."
+        },
+        {
+          "ko": "3막 대가: 자동번역만으로 인준을 앞당길 수 없고 사람의 검독 순번이 남는다. 통역을 자백 도구로 쓰지 않는다.",
+          "en": "Act 3, the price: Machine translation alone cannot accelerate accreditation; human reading remains in the queue, and interpretation is not used to extract confessions."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC15-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0194"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC15 · 디지털미디어시티색인가",
+        "en": "HC15 · Digital Media City Index House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC15-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S09 여의도출자연합회, S16 정동노총, S03 태욱그룹",
+          "en": "Linked states: S09 Yeouido Investment Federation, S16 Jeongdong Federation, S03 Taeuk Group"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 류가온",
+          "en": "Steward: Ryu Gaon"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-25-prose-00096",
+      "text": {
+        "ko": "상암 송신탑 아래 디지털미디어시티색인가는 끊어진 문서와 방송을 하나의 검색 색인에 묶는다.",
+        "en": "Beneath the Sangam transmission tower, the Digital Media City Index House bound severed documents and broadcasts into a single search index."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-25-prose-00097",
+      "text": {
+        "ko": "소문마다 검증표와 반론 시각을 달아 판정 자체를 거래할 수 없게 한다.",
+        "en": "Each rumor carried a verification table and a counter-argument timestamp, so that verdicts themselves could not be traded."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-25-prose-00098",
+      "text": {
+        "ko": "류가온은 수서의 계약 장부를 광고칸 입찰 원장과 나란히 공개한다.",
+        "en": "Ryu Gaon published the Suseo contract ledgers side by side with the advertisement-slot bidding records."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-25-prose-00099",
+      "text": {
+        "ko": "마곡 연구자들은 근거가 바뀔 때마다 이전 판정을 지우지 않고 덧붙인다.",
+        "en": "The Magok researchers appended to the earlier verdicts whenever the evidence changed, and never erased them."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-25-prose-00100",
+      "text": {
+        "ko": "구매자가 노출 순서를 사더라도 검색 결과의 근거 줄은 건드리지 못한다.",
+        "en": "Even when buyers paid for ranking, they could not touch the evidence lines under the search results."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-25-prose-00101",
+      "text": {
+        "ko": "보호조약 위반 기록이 사라지자 색인관과 경매참관인은 서로 다른 금고를 연다.",
+        "en": "When the protection-treaty violation record vanished, the index keeper and the auction observer each opened a different vault."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-25-prose-00102",
+      "text": {
+        "ko": "디지털미디어시티색인가는 조작과 낙찰 원장을 공개한 대가로 가장 큰 광고칸을 잃는다.",
+        "en": "The Digital Media City Index House exposed the manipulation and published the award ledger, losing its largest advertisement slot."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC15-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0203"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC15-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 누락: 상암 송신탑 색인에서 수서의 보호조약 위반 기록이 사라진다",
+          "en": "Act 1, the omission: the Suseo protection-treaty violation record disappeared from the Sangam tower index"
+        },
+        {
+          "ko": "2막 입찰: 류가온이 마곡 검증관과 광고칸 구매자에게 같은 반론 시간을 건다",
+          "en": "Act 2, the bid: Ryu Gaon staked the same rebuttal time for the Magok verifier and the advertisement-slot buyer"
+        },
+        {
+          "ko": "3막 흔적: 낙찰 원장을 공개한 뒤 디지털미디어시티색인가는 가장 비싼 광고칸을 잃는다",
+          "en": "Act 3, the trace: after the award ledger was published, the Digital Media City Index House lost its most expensive advertisement slot"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC16-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0205"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC16 · 용산교환가",
+        "en": "HC16 · Yongsan Exchange House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC16-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S09 여의도출자연합회, S07 환적국, S12 신내운수",
+          "en": "Linked states: S09 Yeouido Investment Federation, S07 The Junction, S12 Sinnae Transport"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 앙투안 르페브르",
+          "en": "Steward: Antoine Lefebvre"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-26-prose-00103",
+      "text": {
+        "ko": "용산 철도 창고의 용산교환가 교환기는 상암과 신내 사이의 말을 갈아 태운다.",
+        "en": "In the Yongsan rail warehouse, the switchboard of the Yongsan Exchange House carried words between Sangam and Sinnae."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-26-prose-00104",
+      "text": {
+        "ko": "철길 옆 기지국은 화물차 전지를 빌려 짧은 중계 구간을 이어 간다.",
+        "en": "The trackside base station borrowed freight-truck batteries to keep a short relay stretch alive."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-26-prose-00105",
+      "text": {
+        "ko": "임대 회선의 사용자는 선로 가문이 아니라 호출 순번으로 정해진다.",
+        "en": "Users of the leased lines were set not by the track houses but by call order."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-26-prose-00107",
+      "text": {
+        "ko": "폭우가 지붕 중계기를 꺾자 신내의 환자 이송 신호부터 우회선에 오른다.",
+        "en": "When a downpour snapped the rooftop relay, the Sinnae patient-transport signal was the first to move onto the detour line."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-26-prose-00108",
+      "text": {
+        "ko": "화물 상인들은 손실을 이유로 전용선을 요구하지만 가입자대표가 이를 막는다.",
+        "en": "The freight merchants demanded a dedicated line to cover their losses, and the subscribers' delegate blocked it."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-26-prose-00109",
+      "text": {
+        "ko": "의료 호출을 살린 대가로 용산교환가는 용산 선로 가문에 용산 교환실 한 칸의 운영권을 넘긴다.",
+        "en": "As the price of restoring the medical calls, the Yongsan Exchange House handed the Yongsan track house operating rights to one bay of the Yongsan exchange room."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC16-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0213"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC16-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 단절: 용산 철도 창고의 교환기가 꺼져 신내 의료열차 호출이 상암에 닿지 않는다",
+          "en": "Act 1, the severance: the warehouse switchboard went dark, and the Sinnae medical-train call could not reach Sangam"
+        },
+        {
+          "ko": "2막 우회: 화물 배차 회선을 줄이고 철도 지붕에 임시 중계기를 이었다.",
+          "en": "Act 2, the bypass: The freight dispatch circuits were reduced, and a temporary relay was connected on the railway roof."
+        },
+        {
+          "ko": "3막 양도: 의료호출을 살린 대가로 용산 선로 가문에 교환소 한 칸을 내준다",
+          "en": "Act 3, the cession: the price of saving the medical calls was one bay of the exchange, ceded to the Yongsan track house"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC17-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0215"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC17 · 구로디지털단지전지가",
+        "en": "HC17 · Guro Digital Complex Battery House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC17-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S02 규격맹, S04 명부교회, S11 성하그룹",
+          "en": "Linked states: S02 The Gauge, S04 Myeongbu Church, S11 Seongha Group"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 변주아",
+          "en": "Steward: Byeon Jua"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-27-prose-00110",
+      "text": {
+        "ko": "구로·금천 제작축에서 구로디지털단지전지가는 전지 낱칸을 수명과 온도에 따라 갈라 쌓는다.",
+        "en": "Along the Guro–Geumcheon production axis, the Guro Digital Complex Battery House sorted loose battery cells into stacks by lifespan and temperature."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-27-prose-00111",
+      "text": {
+        "ko": "뚝섬 공방은 봉인된 전해액 통을 받아 펌프와 소형 기계의 전원 묶음을 만든다.",
+        "en": "The Ttukseom workshop took sealed electrolyte drums and built power bundles for pumps and small machines."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-27-prose-00112",
+      "text": {
+        "ko": "창동 차량기지는 제동장치용 물량을 먼저 요구하되 시험표 없는 재료는 받지 않는다.",
+        "en": "The Changdong rolling-stock depot demanded its braking stock first, and accepted no material without a test certificate."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-27-prose-00114",
+      "text": {
+        "ko": "한 통의 누액이 발견되면 같은 운송 수레에 실린 묶음 전체가 격리된다.",
+        "en": "When one leaking drum was found, every bundle on the same freight cart went into quarantine."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-27-prose-00115",
+      "text": {
+        "ko": "제작 수리반은 부족분을 풀라고 압박하고 북부 기술자는 제동 몫을 지키려 창고문을 막는다.",
+        "en": "The production repair crews pressed for the shortage to be released, and the northern technicians blocked the warehouse door to hold the braking share."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-27-prose-00116",
+      "text": {
+        "ko": "재료인증관이 위조 표식을 찾아낸 뒤 공급 순서는 세 국가의 공개 추첨으로 바뀐다.",
+        "en": "After the materials certifier uncovered forged markings, the supply order changed to an open draw among three states."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-27-prose-00117",
+      "text": {
+        "ko": "구로디지털단지전지가는 신뢰를 남기려고 쓸 수 있는 전지까지 폐기하고 창동의 예비 운행을 줄인다.",
+        "en": "To keep its trust, the Guro Digital Complex Battery House discarded even usable cells and cut Changdong's reserve runs."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC17-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0224"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC17-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 누액: 구로·금천 비축고의 전해액 통이 새며 뚝섬 인증표까지 의심받는다",
+          "en": "Act 1, the leak: an electrolyte drum in the Guro–Geumcheon stockpile leaked, and even the Ttukseom certificates came under doubt"
+        },
+        {
+          "ko": "2막 배분: 창동 제동전지 몫을 봉인하고 제작동맹 수리반과 재검사 순서를 다투었다.",
+          "en": "Act 2, the allocation: The Changdong braking-battery share was sealed while the retesting order was disputed with the production-alliance repair crews."
+        },
+        {
+          "ko": "3막 폐기: 오염 묶음을 전량 버려 북부 열차의 예비 운행 한 차례를 포기한다",
+          "en": "Act 3, the scrapping: the contaminated bundles were discarded whole, and one reserve run of the northern trains was given up"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC18-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0226"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC18 · 용산선박가",
+        "en": "HC18 · Yongsan Ship House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC18-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S07 환적국, S08 중앙정보부, S15 명동대교구",
+          "en": "Linked states: S07 The Junction, S08 Central Intelligence Bureau, S15 Myeongdong Archdiocese"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 피터 얀센",
+          "en": "Steward: Pieter Jansen"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-28-prose-00118",
+      "text": {
+        "ko": "용산 북안의 녹슨 기중기 아래에서 용산선박가가 바지선 선석을 배정한다.",
+        "en": "Under the rusted cranes of the Yongsan north bank, the Yongsan Ship House assigned the barge berths."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-28-prose-00120",
+      "text": {
+        "ko": "노량진에서 실린 냉동 상자는 봉인표가 온전해야 가락 도매 경매장으로 향한다.",
+        "en": "A cold box loaded at Noryangjin reached the Garak wholesale auction floor only with its seal tag intact."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-28-prose-00121",
+      "text": {
+        "ko": "옛 항공 화물 규격은 무게와 파손 책임을 가르는 장부 규칙으로 남아 있다.",
+        "en": "The old air-cargo standard survived as a ledger rule separating weight from liability for damage."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-28-prose-00122",
+      "text": {
+        "ko": "선주들은 빠른 항로를 요구하지만 나루참관은 공공 화물의 우선권을 확인한다.",
+        "en": "The shipowners demanded faster routes, and the landing inspectors confirmed the priority of public freight."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-28-prose-00123",
+      "text": {
+        "ko": "좌초선이 물길을 막자 세 국가는 각자 부두 권리를 내세운다.",
+        "en": "When a grounded ship blocked the channel, three states each pressed their wharf rights."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-28-prose-00124",
+      "text": {
+        "ko": "세 나라의 공동 선석 배정을 위해 용산선박가는 독점 선석을 포기한다. 모든 봉인 화물에는 같은 선석 원장을 적용하고 하역료와 운항 순서를 공개한다.",
+        "en": "To make room for the three states’ shared berth allocation, the Yongsan Ship House gives up its exclusive berth. One berth ledger covers all sealed consignments, with stevedoring fees and sailing order made public."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC18-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0234"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC18-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 잠긴 부두: 한강 교량 아래 좌초선이 용산 강변 물류와 바지선 항로를 함께 막는다",
+          "en": "Act 1, the locked wharf: a ship grounded under the Han River bridges jammed the Yongsan riverside logistics and the barge routes at once"
+        },
+        {
+          "ko": "2막 세 나루의 값: 부두 협상에서 노량진 냉동 화물과 가락 경매 반입권을 함께 다루었다.",
+          "en": "Act 2, the price of the three landings: Wharf negotiations tied the Noryangjin cold freight to access at the Garak auction."
+        },
+        {
+          "ko": "3막 빈 상자의 항로: 독점 부두를 포기하고 모든 봉인 화물에 같은 선석 원장을 적용한다",
+          "en": "Act 3, the route of the empty boxes: the exclusive wharf was given up, and one berth ledger covered every sealed consignment"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC19-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0236"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC19 · 동대입구객사가",
+        "en": "HC19 · Dongdaeipgu Trading House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC19-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S06 대한민국정부, S15 명동대교구, S16 정동노총",
+          "en": "Linked states: S06 Republic of Korea Government, S15 Myeongdong Archdiocese, S16 Jeongdong Federation"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-29-prose-00125",
+      "text": {
+        "ko": "서울역 의전길에는 동대입구객사가가 관리하는 중립 객사가 흩어져 있다.",
+        "en": "Along the protocol road at Seoul Station stood the neutral guest lodges kept by the Dongdaeipgu Trading House."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-29-prose-00126",
+      "text": {
+        "ko": "사절은 무기를 맡기고도 숙박 채무 때문에 붙잡히지 않는다.",
+        "en": "An envoy who had surrendered weapons was still not detained over lodging debts."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-29-prose-00127",
+      "text": {
+        "ko": "연회 물자는 가락 도매 경매장에서 공개 낙찰한 뒤 품목별 표찰을 단다.",
+        "en": "Banquet goods were bought at open auction in the Garak wholesale market and tagged item by item."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-29-prose-00129",
+      "text": {
+        "ko": "오래된 면세 창고에는 화려한 물건보다 조약 답례용 수공품이 쌓인다.",
+        "en": "The old bonded warehouse filled less with splendid goods than with handicrafts owed as treaty gifts."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-29-prose-00130",
+      "text": {
+        "ko": "배급이 모자란 날에는 연회상이 먼저 줄고 일반 숙객의 죽은 그대로 남는다.",
+        "en": "On short rations the banquet tables thinned first, and the ordinary guests' porridge stayed as it was."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-29-prose-00131",
+      "text": {
+        "ko": "숨은 보증인이 드러나면 손님참관이 의전 서열과 무관하게 거래를 취소한다.",
+        "en": "When a hidden guarantor came to light, the guest-observer cancelled the trade regardless of protocol rank."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC19-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0244"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC19-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 빈 연회석: 서울역 의전 회담을 앞두고 가락 경매장의 연회 물자 인도표가 사라진다",
+          "en": "Act 1, the empty banquet seats: ahead of the Seoul Station protocol talks, the banquet-goods delivery tags vanished from the Garak auction"
+        },
+        {
+          "ko": "2막 향응의 장부: 수서 계약감사에서 객실 배정과 잔치 신용의 숨은 보증인이 드러났다.",
+          "en": "Act 2, the ledger of entertainment: The Suseo contract audit exposed the hidden guarantor behind room assignments and banquet credit."
+        },
+        {
+          "ko": "3막 문밖의 선물: 특권 손님용 면세 창고를 열어 기근 배급과 외교 답례품을 분리한다",
+          "en": "Act 3, the gift left outside the gate: the privileged guests' bonded warehouse was opened, and famine rations were parted from diplomatic return gifts"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC20-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0246"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC20 · 디지털미디어시티공연가",
+        "en": "HC20 · Digital Media City Performance House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC20-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S06 대한민국정부, S15 명동대교구, S09 여의도출자연합회",
+          "en": "Linked states: S06 Republic of Korea Government, S15 Myeongdong Archdiocese, S09 Yeouido Investment Federation"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-30-prose-00132",
+      "text": {
+        "ko": "상암 송신탑이 켜지는 저녁마다 디지털미디어시티공연가는 공연 순서를 봉인한다.",
+        "en": "Every evening the Sangam transmission tower lit, the Digital Media City Performance House sealed the performance order."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-30-prose-00134",
+      "text": {
+        "ko": "서울역 의전 무대에 오른 연희자는 기록청의 인준 아래 이름과 귀환 통행을 보장받는다.",
+        "en": "A performer who took the Seoul Station protocol stage had name and return passage guaranteed under the Records Bureau's accreditation."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-30-prose-00135",
+      "text": {
+        "ko": "가락 집결장에서는 유료 입장표 세 장마다 피난민 좌석 하나를 비워 둔다.",
+        "en": "At the Garak assembly ground, every three paid tickets left one refugee seat open."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-30-prose-00136",
+      "text": {
+        "ko": "채널 길드가 인기 순서만 밀어붙이면 관객참관이 편성회의를 중지한다.",
+        "en": "When the channel guild pushed popularity rankings alone, the audience observer suspended the programming meeting."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-30-prose-00137",
+      "text": {
+        "ko": "위조표 소동은 표 수입뿐 아니라 송신탑의 검증 신뢰까지 흔든다.",
+        "en": "The forged-ticket uproar shook not only the ticket revenue but the tower's verification trust as well."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-30-prose-00138",
+      "text": {
+        "ko": "디지털미디어시티공연가는 마지막 방송 시간을 각국 증언에 나누고 독점권 해제 내역을 공개한다.",
+        "en": "The Digital Media City Performance House divided the final broadcast hours among the states' testimonies and published the release of its exclusive rights."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC20-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0254"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC20-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 끊긴 후렴: 상암 송신탑의 황금 시간 편성표에서 서울역 의전 공연 한 편이 지워진다",
+          "en": "Act 1, the broken refrain: one Seoul Station protocol performance was struck from the tower's prime-time schedule"
+        },
+        {
+          "ko": "2막 표 없는 군중: 가락 집결장에 위조 입장표가 퍼지자 공연권 원장과 방송 기록을 대조했다.",
+          "en": "Act 2, the crowd without tickets: As forged tickets spread through the Garak assembly ground, the performance-rights ledger was compared with broadcast records."
+        },
+        {
+          "ko": "3막 마지막 송출: 독점 공연권을 짧게 풀어 각 국가의 증언을 같은 방송 시간으로 내보낸다",
+          "en": "Act 3, the last broadcast: the exclusive performance rights were loosed for a moment, and every state's testimony went out in the same broadcast hours"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC21-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0256"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC21 · 디지털미디어시티결제가",
+        "en": "HC21 · Digital Media City Payments House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC21-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S09 여의도출자연합회, S16 정동노총, S12 신내운수",
+          "en": "Linked states: S09 Yeouido Investment Federation, S16 Jeongdong Federation, S12 Sinnae Transport"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 용소",
+          "en": "Steward: Yong So"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-31-prose-00139",
+      "text": {
+        "ko": "상암 옛 사옥 지하 중계실에서 디지털미디어시티결제가가 환승 결제 회선을 지킨다.",
+        "en": "From the basement relay room of an old Sangam office block, the Digital Media City Payments House kept the transfer-payment lines."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-31-prose-00141",
+      "text": {
+        "ko": "수서 협약도시의 장부 공증 요구가 오면 감사 열람권만 열고 서명 키는 넘기지 않는다.",
+        "en": "When the Suseo charter city demanded notarized ledgers, only audit read-access was opened, and the signing key was never handed over."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-31-prose-00142",
+      "text": {
+        "ko": "신내운수의 호출 창구는 어느 진영의 병력도 우선하지 못하게 대기열 규칙으로 막아 둔다.",
+        "en": "The call window of Sinnae Transport was fenced with queue rules so that no faction's troops could jump the line."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-31-prose-00143",
+      "text": {
+        "ko": "회선이 죽어도 마지막 정산 블록은 종이로 남긴다.",
+        "en": "Even with the lines dead, the last settlement block stayed on paper."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC21-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0262"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC21-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 단절: 수서 결제 장부 동기가 끊기고 환승 호출이 쌓인다",
+          "en": "Act 1, the severance: ledger sync with Suseo broke, and the transfer calls piled up"
+        },
+        {
+          "ko": "2막 중계: 상암 송신 검증과 신내 환승 중립의 회선을 나누는 협상이 열렸다.",
+          "en": "Act 2, Relay: Negotiations opened to divide the circuits for Sangam transmission verification and Sinnae transfer neutrality."
+        },
+        {
+          "ko": "3막 회선: 메신저 중계는 줄이지만 결제 원장은 통째로 남긴다",
+          "en": "Act 3, the circuit: the message relay was cut back, but the payment ledger survived whole"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC22-title-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0264"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "HC22 · 마곡시험선가",
+        "en": "HC22 · Magok Test-Line House"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC22-title-list-1",
+      "items": [
+        {
+          "ko": "분류: CORPORATION",
+          "en": "Class: CORPORATION"
+        },
+        {
+          "ko": "상태: ACTIVE",
+          "en": "Status: ACTIVE"
+        },
+        {
+          "ko": "출처층: original-fiction",
+          "en": "Source layer: original-fiction"
+        },
+        {
+          "ko": "연결 국가: S03 태욱그룹, S09 여의도출자연합회, S11 성하그룹",
+          "en": "Linked states: S03 Taeuk Group, S09 Yeouido Investment Federation, S11 Seongha Group"
+        },
+        {
+          "ko": "전속 국가: 없음",
+          "en": "Exclusive states: None"
+        },
+        {
+          "ko": "관리: 최은재",
+          "en": "Steward: Choi Eunjae"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-32-prose-00144",
+      "text": {
+        "ko": "마곡 연구 부지 끝의 자율 시험선 옆에서 마곡시험선가가 저장에너지 창고를 지킨다.",
+        "en": "Beside the autonomous test line at the edge of the Magok research grounds, the Magok Test-Line House kept the energy-storage depot."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-32-prose-00146",
+      "text": {
+        "ko": "곤충·공룡·심층 형태의 옛 시험 기체가 시험선 밑에서 다시 움직이는 일이 있으면, 도면 열쇠는 절반만 꺼내 마곡 평의회 감시 아래 둔다.",
+        "en": "If the old insect-, dinosaur-, and deep-form test units move again beneath the line, only half of the drawing key is brought out and kept under the Magok council's watch."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-32-prose-00147",
+      "text": {
+        "ko": "창동 기지의 충전 회선이 불안해지면 규격 인증을 잠시 닫고 회선부터 고른다.",
+        "en": "When the Changdong depot's charging circuits turned unstable, the certification was closed for a while and the circuits were settled first."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-houses-32-prose-00148",
+      "text": {
+        "ko": "창고가 비어도 인증 도장은 위조하지 않는다.",
+        "en": "Even with the depot empty, the certification seal was never forged."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Operating-Houses-generated-HC22-three-acts-heading-1",
+      "publicAnchors": [
+        "Operating-Houses-heading-0270"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "3막",
+        "en": "Three acts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Operating-Houses-generated-HC22-three-acts-list-1",
+      "items": [
+        {
+          "ko": "1막 경보: 마곡 시험선 밑 잃어버린 기술 라인 잔류 신호가 다시 오른다",
+          "en": "Act 1, Alarm: Residual signals from the lost technology line beneath the Magok test line rose again"
+        },
+        {
+          "ko": "2막 분할: 도면 열쇠를 마곡 평의회와 상암 공사에 나누어 맡겼다.",
+          "en": "Act 2, the division: The drawing key was split between the Magok council and the Sangam works."
+        },
+        {
+          "ko": "3막 봉인: 시험선은 다시 자물쇠 아래 들어가고 충전 규격만 남는다",
+          "en": "Act 3, the seal: the test line went back under lock, and only the charging standard remained"
+        }
+      ]
+    }
+  ],
+  "data": {}
+}

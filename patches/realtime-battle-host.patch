@@ -1,0 +1,147 @@
+# engine: 6d4907e65e315787ce49b0d20dd48b68e1277395
+# reason: Install a session-scoped simulation port before stock encounter mutations.
+# boundary: Project data/plugins cannot intercept stock encounter mutations at boot;
+# createPlayGame/PlayScene/playSceneMovement require the new runtimeSimulationPort.
+diff --git a/engine/src/player/createPlayGame.ts b/engine/src/player/createPlayGame.ts
+--- a/engine/src/player/createPlayGame.ts
++++ b/engine/src/player/createPlayGame.ts
+@@ -1,4 +1,5 @@
+-import type Phaser from "phaser";
++import { installSimulationPort, type RuntimeSimulationPort } from './runtimeSimulationPort';
++import type Phaser from "phaser";
+ import { ensurePhaser } from "@/app/phaserRuntime";
+ import type { PlaySession } from "@/project/session";
+ import { resolveCameraZoom } from "@/project/cameraZoom";
+@@ -9,7 +10,8 @@
+ import { installRuntimeQaFrames } from "@/player/runtimeQaFrames";
+ import { PLAY_PIXEL_DENSITY_KEY } from "@/player/runtimeViewScale";
+ 
+-export type PlayGameBootOptions = {
++export type PlayGameBootOptions = {
++  readonly simulationPort?: RuntimeSimulationPort;
+   /** Build textures/map behind the opening without advancing gameplay or audio. */
+   readonly initialPresentationPending?: boolean;
+   /** Enables export-player QA locators and mutation hooks. Never enabled by normal export boot. */
+@@ -66,7 +68,8 @@
+     },
+     scene: [PlayScene],
+     callbacks: {
+-      preBoot: (game) => {
++      preBoot: (game) => {
++        if (options.simulationPort) installSimulationPort(game, options.simulationPort);
+         game.registry.set('initialPresentationPending', options.initialPresentationPending === true);
+         game.registry.set(PLAY_PIXEL_DENSITY_KEY, density);
+         if (options.qaInstrumentation === true) {
+diff --git a/engine/src/player/PlayScene.ts b/engine/src/player/PlayScene.ts
+--- a/engine/src/player/PlayScene.ts
++++ b/engine/src/player/PlayScene.ts
+@@ -1,4 +1,5 @@
+-import { syncSessionWithDeviceRecords } from "@/player/deviceRecords";
++import { bindSimulation, simulationBinding } from './runtimeSimulationPort';
++import { syncSessionWithDeviceRecords } from "@/player/deviceRecords";
+ import { setCharacterBaseOrigin } from "./characterOrigin";
+ import { restoreRuntimeTimers } from "@/player/playSceneTimers";
+ import { syncTerrainVision } from "./terrainVision";
+@@ -288,7 +289,9 @@
+       return host instanceof HTMLElement ? host : undefined;
+     }, { qaInstrumentation, playResolution });
+     this.session = this.initialSession(project);
+-    this.zoneFeedback = createPlaySceneZoneFeedback(this.session);
++    const releaseSimulation = bindSimulation(this);
++    if (releaseSimulation) this.events.once("shutdown", releaseSimulation);
++    this.zoneFeedback = createPlaySceneZoneFeedback(this.session);
+     // dialogueHost 는 player.ts 가 게임 생성 후 registry 에 넣으므로 여기선 아직 없을 수 있다.
+     // zoneFeedback 과 동일하게 update 에서 host 를 다시 해석해 붙인다.
+     this.syncHandSlotChip();
+@@ -405,7 +408,13 @@
+ 
+   update(_time: number, deltaMs: number): void {
+     if (this.game.registry.get('initialPresentationPending') === true) return;
+-    this.worldAtlasController?.update();
++    const simulation = simulationBinding(this);
++    if (simulation) {
++      simulation.elapsed(deltaMs);
++      simulation.present(this, deltaMs);
++      return;
++    }
++    this.worldAtlasController?.update();
+     if (this.worldAtlasController?.isOpen) {
+       this.input_.resetEdges();
+       this.input_.clearDirectionTaps();
+@@ -452,7 +461,8 @@
+     this.input_.releaseAllKeys();
+     this.input_.resetEdges();
+     this.input_.setEnabled(true);
+-    updateNpcSchedules(this, false);
++    if (simulationBinding(this)) return;
++    updateNpcSchedules(this, false);
+     const project = store.getCurrent();
+     resumeAudioState(this.session.audio, project);
+     if (!this.session.audio.bgm) startMapBgm(project, this.session, this.session.currentMapId);
+@@ -492,5 +502,5 @@
+     visitAtlasMap(store.getCurrent(), this.session, mapId);
+     syncVehicleSprites(this);
+     syncMapBackgroundLayers(this);
+-    initializeActionCombatForScene(this);
++    if (!simulationBinding(this)) initializeActionCombatForScene(this);
+     resetEncounterCounter();
+diff --git a/engine/src/player/playSceneMovement.ts b/engine/src/player/playSceneMovement.ts
+--- a/engine/src/player/playSceneMovement.ts
++++ b/engine/src/player/playSceneMovement.ts
+@@ -1,4 +1,5 @@
+-import { showBattleAdmissionError } from "@/player/playSceneOverlays";
++import { simulationBinding } from './runtimeSimulationPort';
++import { showBattleAdmissionError } from "@/player/playSceneOverlays";
+ import { transitBlocksCell, tryBoardTransit } from "@/player/playSceneTransit";
+ import { heldInputSnapshot, installHeldKeyTracker } from "@/player/heldKeyTracker";
+ import { applyFieldStepStates } from "@/project/stateFieldSteps";
+@@ -109,7 +110,9 @@
+   return ticks;
+ }
+ 
+-export function updatePlayScene(scene: PlaySceneContext, deltaMs: number): void {
++export function updatePlayScene(scene: PlaySceneContext, deltaMs: number): void {
++  const simulation = simulationBinding(scene);
++  if (simulation) { simulation.present(scene, deltaMs); return; }
+   if (isRuntimeMenuOpen(scene)) {
+     scene.input_.resetEdges();
+     // 메뉴가 열린 동안 누른 방향키가 닫히는 순간 유령 걸음이 되지 않게 탭 래치를 비운다.
+@@ -1047,7 +1050,12 @@
+   return result.defeated;
+ }
+ 
+-export function maybeTriggerRandomEncounter(scene: PlaySceneContext): void {
++export function maybeTriggerRandomEncounter(scene: PlaySceneContext): void {
++  const simulation = simulationBinding(scene);
++  if (simulation) {
++    simulation.completedStep({ mapId: scene.map.id, x: scene.tileX, y: scene.tileY });
++    return;
++  }
+   if (scene.running) return; // 이미 전투/이벤트 진행 중이면 무시
+   // 도망 뒤 무적 걸음·벌레퇴치: 걸음마다 남은 수를 줄인다(조우율이 0인 마을 걸음도 센다). 효과가 끝난 걸음엔 문장을 띄운다.
+   const guard = tickEncounterGuard(scene.session);
+diff --git a/engine/src/player/runtimeSimulationPort.ts b/engine/src/player/runtimeSimulationPort.ts
+new file mode 100644
+--- /dev/null
++++ b/engine/src/player/runtimeSimulationPort.ts
+@@ -0,0 +1,20 @@
++import type { PlaySceneContext } from './playSceneTypes';
++
++export type SimulationBinding = {
++  readonly elapsed: (milliseconds: number) => void;
++  readonly completedStep: (step: { readonly mapId: string; readonly x: number; readonly y: number }) => unknown;
++  readonly present: (scene: PlaySceneContext, milliseconds: number) => void;
++  readonly release: () => void;
++};
++export type RuntimeSimulationPort = { readonly bind: (scene: PlaySceneContext) => SimulationBinding };
++const ports = new WeakMap<object, RuntimeSimulationPort>();
++const bindings = new WeakMap<object, SimulationBinding>();
++export function installSimulationPort(game: object, port: RuntimeSimulationPort): void { ports.set(game, port); }
++export function bindSimulation(scene: PlaySceneContext): (() => void) | undefined {
++  const port = ports.get(scene.game);
++  if (!port) return undefined;
++  const binding = port.bind(scene);
++  bindings.set(scene, binding);
++  return () => { binding.release(); if (bindings.get(scene) === binding) bindings.delete(scene); };
++}
++export function simulationBinding(scene: PlaySceneContext): SimulationBinding | undefined { return bindings.get(scene); }

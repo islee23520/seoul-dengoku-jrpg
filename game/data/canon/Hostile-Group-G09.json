@@ -1,0 +1,998 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G09",
+  "slug": "Hostile-Group-G09",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G09]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G09 · Sangam Deserters",
+      "summary": "G09 · Sangam Deserters",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G09 · 상암 탈영병",
+      "summary": "G09 · 상암 탈영병",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G09-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G09 · 상암 탈영병",
+        "en": "G09 · Sangam Deserters"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G09-generated-G09-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G09-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G09-generated-G09-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "상암 탈영병은 군 피복을 입고 장비와 무기를 든 채 상암 냉각 부속 저온 회랑에 선다. 한겨울에는 회랑 선반 사이에 서고 온배수에 의한 국지 융설 무렵에는 아차산 검수 창과 저온 창고에 선다. 검수 창 바깥 상온 통로에는 문간을 맡은 탈영병 척후조가 서 있고 탈영병 분대장과 탈영병 정예조는 창고와 회랑 안에 서 있다.",
+        "en": "The Sangam Deserters stand in the cold corridor of the Sangam cooling annex, wearing military clothing and carrying equipment and weapons. In midwinter they stand between the shelves of the corridor, and around local snowmelt caused by warm-water discharge they stand at the Achasan inspection window and the cold warehouse. In the room-temperature passage outside the inspection window the deserter scouts assigned to the doorway stand, and the deserter squad leader and the deserter elite squad stand inside the warehouse and the corridor."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G09-generated-G09-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "탈영병 분대장은 저온 회랑 중앙에 서고 탈영병 정예조는 분대장 좌우의 물자 옆에 서며 탈영병 척후조는 문과 선로 쪽에 선다. 탈영병 정예조가 아차산 검수 창에 물자를 두면 탈영병 분대장은 남은 연료통 옆에 서고 탈영병 척후조는 그 통로 끝에 선다. 세 곳의 탈영병은 같은 군 피복을 입고 같은 재고 표식이 붙은 장비를 두고 있다.",
+        "en": "The deserter squad leader stands in the center of the cold corridor, the deserter elite squad stands beside the goods to the squad leader's left and right, and the deserter scouts stand on the door side and the track side. When the deserter elite squad sets the goods at the Achasan inspection window, the deserter squad leader stands beside the remaining fuel drums and the deserter scouts stand at the end of that passage. The deserters in the three places wear the same military clothing and keep equipment with the same inventory marks."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G09-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G09-generated-G09-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "서울역재고가 재고 당직이 한겨울 밤 상암 냉각 부속 저온 회랑에서 이 무리를 본다. 군복 위에 방한 외피를 걸친 사람들이 재고 선반 앞에 서 있고 발치에는 서울역재고가 표식이 붙은 연료통과 탄약 상자가 있다. 가운데 선 사람은 무전기를 발 옆에 둔 채 반출 통로 쪽을 보고 있다.",
+            "en": "The inventory watch of the Seoul Station Inventory House sees this group on a midwinter night in the cold corridor of the Sangam cooling annex. People with cold-weather outer layers over their uniforms stand before the inventory shelves, and at their feet are fuel drums and ammunition boxes marked by the Seoul Station Inventory House. The person standing in the center has set a radio set beside the feet and is looking toward the removal passage."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "무리는 상암 냉각 부속 저온 회랑에 모인다. 온배수에 의한 국지 융설이 되고 검수 창 계기판의 열 눈금이 올라가면 무리는 아차산 검수 창과 저온 창고에 나뉘어 선다. 고덕 회수 자재와 암사 보관 연료 화차가 냉열을 싣고 바깥 선로를 지나면 탈영병 척후조는 회랑 바깥 문에 서 있고 탈영병 정예조는 저온 창고 안에 있다.",
+            "en": "The group gathers in the cold corridor of the Sangam cooling annex. When warm-water discharge causes local snowmelt and the heat needle on the inspection-window panel rises, the group stands divided between the Achasan inspection window and the cold warehouse. After the cars carrying Godeok recovered materials and Amsa stored fuel pass the outer track carrying the cold, the deserter scouts stand at the outer door of the corridor and the deserter elite squad is inside the cold warehouse."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "저온 회랑 선반에 있던 서울역재고가 표식의 연료통·냉각 공구·방한 피복이 탈영병 발치에 놓여 있다. 재고 장부의 반출 칸에는 수량이 적혀 있고 여의도출자연합회 출자 칸에는 같은 물량의 냉열 배정이 적혀 있다. 고덕 회수 자재와 암사 보관 연료를 실은 화차가 선 날에는 회수 자재 상자 한 줄이 아차산 검수 창 바닥에 있다. 남은 연료통 수는 장부 반출 칸에 적힌 수와 같다.",
+            "en": "Fuel drums, cooling tools and cold-weather clothing bearing Seoul Station Inventory House markings lie at the deserters’ feet after removal from the cold-corridor shelves. The inventory ledger records the quantities removed, while the Yeouido Investment Federation’s contribution column records cooling allocated to that freight. On days when cars carrying Godeok recovered materials and Amsa stored fuel stand there, recovered-material boxes line the Achasan inspection floor. The remaining fuel-drum count matches the ledger’s removal column."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "한겨울에는 저온 회랑 선반 사이에 군복과 방한 외피가 놓여 있고 장비 더미가 밸브 앞까지 놓여 있다. 온배수에 의한 국지 융설이 되고 검수 창 계기판의 열 눈금이 올라가면 무리는 아차산 검수 창과 저온 창고 두 곳으로 나뉘어 선다. 열차가 냉열을 싣고 지나간 뒤 검수 창에는 탈영병 정예조가 남고 탈영병 척후조는 저온 창고 문간에 모인다.",
+            "en": "In midwinter uniforms and cold-weather outer layers lie between the shelves of the cold corridor, and the equipment piles lie as far as the front of the valve. When local thawing caused by heating comes and the heat needle on the inspection-window panel rises, the group stands divided between the Achasan inspection window and the cold warehouse. After the train passes carrying the cold, the deserter elite squad remains at the inspection window and the deserter scouts gather at the door of the cold warehouse."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "상암 탈영병은 상암 냉각 부속 저온 회랑의 반출 통로와 냉각 밸브 쪽을 살핀다. 무리는 연료통과 공구 선반을 가운데 두고 서울역재고가 표식이 붙은 선반 쪽에 서며 아차산 검수 창 쪽을 등지고 선다. 암사 중량·연료 인계 회랑의 열차가 회랑 바깥 선로에 서면 탈영병 척후조가 선로 쪽 문을 본다.",
+            "en": "The Sangam Deserters watch the removal passage and the cooling-valve side of the cold corridor in the Sangam cooling annex. The group stands beside the shelves that carry the Seoul Station Inventory House mark, with the fuel drums and tool shelves in the middle, and stands with its back toward the Achasan inspection window. When a train of the Amsa Heavy-Freight and Fuel Handover Corridor stands on the track outside the corridor, the deserter scouts watch the track-side door."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "탈영병 분대장은 저온 회랑 중앙에 서고 탄약 상자와 무전기가 분대장의 발치에 있다. 탈영병 정예조는 연료통과 공구 더미를 끼고 분대장 좌우의 선반에 선다. 탈영병 척후조는 반출 통로와 선로 쪽 문에 나뉘어 서며 분대장 쪽을 향한 채 바깥을 본다.",
+            "en": "The deserter squad leader stands in the center of the cold corridor, and ammunition boxes and a radio set are at the squad leader's feet. The deserter elite squad stands at the shelves to the squad leader's left and right, beside the fuel drums and tool piles. The deserter scouts stand divided between the removal passage and the track-side door, facing the squad leader's side while watching the outside."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G09-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G09-generated-G09-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "탈영병 분대장은 저온 회랑 안에서 연료통과 탄약 상자와 무전기와 선반 공구 옆에 선다. 탈영병 정예조는 그 물자가 놓인 아차산 검수 창과 저온 창고에 서고 탈영병 척후조는 반출 통로와 선로 쪽 문에 선다. 탈영병 분대장 앞에는 여의도출자연합회와 아관사의 창고 시간 칸이 적힌 재고 장부 면이 놓여 있다.",
+        "en": "The deserter squad leader stands inside the cold corridor beside the fuel drums, ammunition boxes, radio set, and shelf tools. The deserter elite squad stands at the Achasan inspection window and the cold warehouse where those goods are set, and the deserter scouts stand at the removal passage and the track-side door. In front of the deserter squad leader lies the inventory-ledger page on which the warehouse time columns of the Yeouido Investment Federation and the Achasan Gate are written."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G09-generated-G09-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G09E01 · 탈영병 분대장",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G09",
+                  "anchor": "g09e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G09E01 · Deserter Squad Leader",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G09",
+                  "anchor": "g09e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "저온 회랑 중앙과 장비 더미 앞에서 재고 장부 면과 탄약 상자 옆에 선다.",
+            "en": "Stands beside the inventory-ledger page and the ammunition boxes, in the center of the cold corridor and in front of the equipment pile."
+          },
+          {
+            "ko": "두목",
+            "en": "Leader"
+          },
+          {
+            "ko": "M013",
+            "en": "M013"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G09E08 · 탈영병 정예조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G09",
+                  "anchor": "g09e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G09E08 · Deserter Elite Squad",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G09",
+                  "anchor": "g09e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "연료통과 냉각 공구와 방한 피복 더미를 옆에 두고 선반과 아차산 검수 창에 선다.",
+            "en": "Stands at the shelves and at the Achasan inspection window, with the fuel drums, cooling tools, and piles of cold-weather clothing beside them."
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M014",
+            "en": "M014"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G09E15 · 탈영병 척후조",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G09",
+                  "anchor": "g09e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G09E15 · Deserter Scouts",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G09",
+                  "anchor": "g09e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "반출 통로와 선로 쪽 문에 나뉘어 서서 바깥 문과 열차를 본다.",
+            "en": "Stands divided between the removal passage and the track-side door and watches the outer door and the train."
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M015",
+            "en": "M015"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09E01-title-heading-1",
+      "publicAnchors": [
+        "g09e01",
+        "Hostile-Group-G09-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G09E01 · 탈영병 분대장",
+        "en": "G09E01 · Deserter Squad Leader"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G09-generated-G09E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M013",
+          "en": "Source batch: M013"
+        },
+        {
+          "ko": "기존 역할군: 두목",
+          "en": "Former role class: Leader"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC09\"],\"scenarios\":[\"G09-SC1\",\"G09-SC2\",\"G09-SC3\"],\"states\":[\"S09\",\"S14\"],\"synthetics\":[\"H09\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC09\"],\"scenarios\":[\"G09-SC1\",\"G09-SC2\",\"G09-SC3\"],\"states\":[\"S09\",\"S14\"],\"synthetics\":[\"H09\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G09-generated-G09E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "저온 회랑 중앙과 장비 더미 앞에서 재고 장부 면과 탄약 상자 옆에 선다.",
+            "en": "Stands beside the inventory-ledger page and the ammunition boxes, in the center of the cold corridor and in front of the equipment pile."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "상암 냉각 부속 저온 회랑과 아차산 검수 창과 저온 창고 문간에서 서며 발 앞에는 여의도출자연합회와 아관사의 시간 칸이 적힌 장부 면이 놓여 있다.",
+            "en": "Stands in the cold corridor of the Sangam cooling annex, at the Achasan inspection window, and in the doorway of the cold warehouse, and the ledger page on which the time columns of the Yeouido Investment Federation and the Achasan Gate are written lies in front of the feet."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M013-entries-9-prose-03119",
+      "items": [
+        {
+          "ko": "군복 위에 겹친 방한 외피",
+          "en": "A cold-weather outer layer layered over the uniform"
+        },
+        {
+          "ko": "허리에 채워진 탄띠",
+          "en": "An ammunition belt fastened at the waist"
+        },
+        {
+          "ko": "발치의 무전기",
+          "en": "A radio set at the feet"
+        },
+        {
+          "ko": "발치의 탄약 상자",
+          "en": "Ammunition boxes at the feet"
+        },
+        {
+          "ko": "발 앞에 펼쳐진 재고 장부 면",
+          "en": "A page of the inventory ledger open in front of the feet"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09E08-title-heading-1",
+      "publicAnchors": [
+        "g09e08",
+        "Hostile-Group-G09-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G09E08 · 탈영병 정예조",
+        "en": "G09E08 · Deserter Elite Squad"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G09-generated-G09E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M014",
+          "en": "Source batch: M014"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC09\"],\"scenarios\":[\"G09-SC1\",\"G09-SC2\",\"G09-SC3\"],\"states\":[\"S09\",\"S14\"],\"synthetics\":[\"H09\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC09\"],\"scenarios\":[\"G09-SC1\",\"G09-SC2\",\"G09-SC3\"],\"states\":[\"S09\",\"S14\"],\"synthetics\":[\"H09\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G09-generated-G09E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "연료통과 냉각 공구와 방한 피복 더미를 옆에 두고 선반과 아차산 검수 창에 선다.",
+            "en": "Stands at the shelves and at the Achasan inspection window, with the fuel drums, cooling tools, and piles of cold-weather clothing beside them."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "서울역재고가 표식이 남은 반출 물자를 두고 온배수에 의한 국지 융설 무렵에는 검수 창 통로와 저온 창고 문턱에 그 물자를 더미로 쌓아 둔다.",
+            "en": "Keeps removed goods that still carry the mark of the Seoul Station Inventory House, and during local snowmelt caused by warm-water discharge stacks those goods in piles in the inspection-window passage and at the threshold of the cold warehouse."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M014-entries-6-prose-03189",
+      "items": [
+        {
+          "ko": "어깨 높이로 쌓인 연료통",
+          "en": "Fuel drums stacked to shoulder height"
+        },
+        {
+          "ko": "손에 있는 냉각 공구",
+          "en": "Cooling tools in the hands"
+        },
+        {
+          "ko": "선반 기둥에 기댄 소총",
+          "en": "Rifles leaning against the shelf posts"
+        },
+        {
+          "ko": "밸브 쪽 바닥의 방한 피복 더미",
+          "en": "A pile of cold-weather clothing on the floor toward the valve"
+        },
+        {
+          "ko": "통마다 붙은 재고 표식 꼬리표",
+          "en": "An inventory-mark tag attached to every drum"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09E15-title-heading-1",
+      "publicAnchors": [
+        "g09e15",
+        "Hostile-Group-G09-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G09E15 · 탈영병 척후조",
+        "en": "G09E15 · Deserter Scouts"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G09-generated-G09E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M015",
+          "en": "Source batch: M015"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC09\"],\"scenarios\":[\"G09-SC1\",\"G09-SC2\",\"G09-SC3\"],\"states\":[\"S09\",\"S14\"],\"synthetics\":[\"H09\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC09\"],\"scenarios\":[\"G09-SC1\",\"G09-SC2\",\"G09-SC3\"],\"states\":[\"S09\",\"S14\"],\"synthetics\":[\"H09\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G09-generated-G09E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "사람",
+            "en": "Person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "반출 통로와 선로 쪽 문에 나뉘어 서서 바깥 문과 열차를 본다.",
+            "en": "Stands divided between the removal passage and the track-side door and watches the outer door and the train."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "상암 냉각 부속 저온 회랑의 문과 아차산 검수 창의 선로 쪽 문에 서고 암사 중량·연료 인계 회랑 열차가 바깥 선로에 설 때 문 앞에 늘어선다.",
+            "en": "Stands at the doors of the cold corridor in the Sangam cooling annex and at the track-side door of the Achasan inspection window, and lines up in front of the door when a train of the Amsa Heavy-Freight and Fuel Handover Corridor stands on the outer track."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M015-entries-3-prose-03259",
+      "items": [
+        {
+          "ko": "탈영병 정예조와 같은 군복",
+          "en": "Uniforms the same as those of the deserter elite squad"
+        },
+        {
+          "ko": "발치의 탄약 상자",
+          "en": "Ammunition boxes at the feet"
+        },
+        {
+          "ko": "반출 통로 빗장 앞의 자리",
+          "en": "A place in front of the bar of the removal passage"
+        },
+        {
+          "ko": "선로 쪽 문 앞의 자리",
+          "en": "A place in front of the track-side door"
+        },
+        {
+          "ko": "서울역재고가 칸과 같은 상자 표식",
+          "en": "Box marks matching the column of the Seoul Station Inventory House"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G09-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-9-dossier_prose-00940",
+      "text": {
+        "ko": "아차산 검수 창 문간 옆에 저온 창고로 이어지는 통로가 있다. 온배수에 의한 국지 융설 무렵 새벽, 아관사 검수 당직이 출입문 빗장 옆에 서 있다. 창 바닥에는 군 피복을 입은 사람들이 장비 더미를 두고 서 있다.",
+        "en": "Beside the doorway of the Achasan inspection window is the passage that leads to the cold warehouse. At dawn around local snowmelt caused by warm-water discharge, the inspection watch of the Achasan Gate stands beside the bar of the entrance. On the floor of the window, people in military clothing stand with an equipment pile set down."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-9-dossier_prose-00941",
+      "text": {
+        "ko": "장비 더미에는 서울역재고가 표식이 붙은 연료통과 냉각 공구와 방한 피복이 겹쳐 있다. 탄약 상자는 더미 앞줄에 놓여 있고 소총은 창틀 쪽에 기대어 있다. 검수 창 계기판의 열 눈금은 높은 칸에 있다.",
+        "en": "In the equipment pile, fuel drums, cooling tools, and cold-weather clothing marked by the Seoul Station Inventory House are stacked together. Ammunition boxes lie in the front row of the pile, and rifles lean toward the window frame. The heat needle on the inspection-window panel sits in a high mark."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-9-dossier_prose-00942",
+      "text": {
+        "ko": "탈영병 분대장은 장비 더미와 저온 창고 문 사이에 서 있다. 분대장은 한겨울 회랑에서와 같이 허리에 탄띠를 차고 발치에 무전기를 두었다. 분대장의 군화 앞에는 재고 장부 면이 펼쳐져 있고 반출 칸의 수량은 더미의 통 수와 같다.",
+        "en": "The deserter squad leader stands between the equipment pile and the door of the cold warehouse. As in the midwinter corridor, the squad leader wears an ammunition belt at the waist and has set a radio set at the feet. A page of the inventory ledger is open in front of the squad leader's boots, and the quantity in the removal column matches the number of drums in the pile."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-9-dossier_prose-00943",
+      "text": {
+        "ko": "탈영병 정예조는 더미 양쪽에 서 있다. 한쪽 인원은 냉각 공구를 손에 든 채 검수 창 선반에 기대어 있고 다른 쪽 인원은 연료통을 창고 문턱까지 붙여 두었다. 정예조는 방한 외피를 군복 위에 겹쳐 입었고 통 손잡이에는 재고 꼬리표가 남아 있다.",
+        "en": "The deserter elite squad stands on both sides of the pile. The personnel on one side hold cooling tools and lean on the shelf of the inspection window, and the personnel on the other side have set the fuel drums up to the threshold of the warehouse. The elite squad wears cold-weather outer layers over the uniforms, and inventory tags remain on the handles of the drums."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-9-dossier_prose-00944",
+      "text": {
+        "ko": "탈영병 척후조는 검수 창의 선로 쪽 문과 반출 통로 끝에 나뉘어 서 있다. 선로 쪽에 선 척후는 바깥 유리를 보고 있고 통로 쪽에 선 척후는 저온 회랑에서 내려오는 바닥을 보고 있다. 탈영병 척후조의 탄약 상자 표식은 장부 반출 칸과 같다.",
+        "en": "The deserter scouts stand divided between the track-side door of the inspection window and the end of the removal passage. The scouts on the track side look at the outer glass, and the scouts on the passage side look at the floor that comes down from the cold corridor. The marks on the deserter scouts' ammunition boxes match the removal column of the ledger."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-9-dossier_prose-00945",
+      "text": {
+        "ko": "아관사 검수 당직 옆에 서울역재고가 재고 당직과 여의도출자연합회 출자 당직이 서 있다. 재고 당직은 반출 칸이 적힌 장부를 들고 있고 출자 당직은 냉열 수량 칸이 적힌 면을 들고 있다. 조하람 쪽 인원은 작업등과 창고 문 사이의 벽에 서 있다.",
+        "en": "Beside the inspection watch of the Achasan Gate stand the inventory watch of the Seoul Station Inventory House and the equity watch of the Yeouido Investment Federation. The inventory watch holds the ledger on which the removal column is written, and the equity watch holds the page on which the cold-quantity column is written. Personnel on the Joharam side stand at the wall between the work lamp and the warehouse door."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-9-dossier_prose-00946",
+      "text": {
+        "ko": "고덕 회수 자재와 암사 보관 연료를 실은 화차가 검수 창 바깥 선로에 서 있다. 화차에는 냉열이 배정되어 있고 회수 자재 상자 한 줄이 검수 창 바닥의 장비 더미 옆에 있다. 탈영병 척후조는 선로 쪽 문에 늘어서 있고 탈영병 분대장은 남은 연료통 옆에 서 있다.",
+        "en": "Freight cars carrying Godeok recovered materials and Amsa stored fuel stand on the track outside the inspection window. Cooling is allocated to the cars, and a row of recovered-material boxes lies beside the equipment pile on the inspection floor. Deserter scouts line the track-side door, and the deserter squad leader stands beside the remaining fuel drums."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-9-dossier_prose-00947",
+      "text": {
+        "ko": "아관사 검수 당직은 잠긴 출입문 안쪽에 서 있다. 서울역재고가 재고 당직의 장부는 문간 바닥에 펼쳐져 있으며 조하람 쪽 인원은 장부 옆에 서 있다. 여의도출자연합회 출자 당직은 냉열 칸이 열차 쪽으로 적힌 면을 든 채 저온 창고 안쪽 벽에 서 있다.",
+        "en": "The inspection watch of the Achasan Gate stands inside the locked entrance. The ledger of the inventory watch of the Seoul Station Inventory House is open on the floor of the doorway, and the personnel on the Joharam side stand beside the ledger. The equity watch of the Yeouido Investment Federation stands at the inner wall of the cold warehouse, holding the page on which the cold column is written toward the train."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09-linked-scenarios-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G09-heading-0032"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "연결 시나리오",
+        "en": "Linked scenarios"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09-SC1-title-heading-1",
+      "publicAnchors": [
+        "g09-sc1-저온-회랑의-반출",
+        "Hostile-Group-G09-heading-0033"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G09-SC1 · 저온 회랑의 반출",
+        "en": "G09-SC1 · Removal in the cold corridor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G09-generated-G09-SC1-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 1",
+          "en": "Stage: 1"
+        },
+        {
+          "ko": "촉발: 한겨울 밤 상암 냉각 부속 저온 회랑에서 서울역재고가 표식이 붙은 연료통과 탄약 상자가 탈영병 발치에 있다. 조하람 쪽 인원이 회랑 끝 작업등 옆에 서 있고 여의도출자연합회 출자 당직이 냉열 수량 칸을 든 채 문간에 있다.",
+          "en": "Trigger: On a midwinter night in the cold corridor of the Sangam cooling annex, fuel drums and ammunition boxes marked by the Seoul Station Inventory House are at the feet of the Sangam Deserters. Personnel on the Joharam side stand beside the work lamp at the end of the corridor, and the equity watch of the Yeouido Investment Federation stands in the doorway holding the cold-quantity column."
+        },
+        {
+          "ko": "관련 세력: S09, HC09, H09",
+          "en": "Actors: S09, HC09, H09"
+        },
+        {
+          "ko": "생태 기제: 탈영병 분대장이 재고 장부 면 앞에 서 있고 탈영병 정예조가 선반과 분대장 발치 사이의 바닥에 서 있다. 출자 당직의 냉열 수량 칸과 서울역재고가 재고 당직의 반출 칸에는 같은 수량이 적혀 있다. 조하람 쪽 인원은 작업등과 저온 창고 문 사이에 서 있다.",
+          "en": "Ecological mechanism: The deserter squad leader stands in front of a page of the inventory ledger, and the deserter elite squad stands on the floor between the shelves and the squad leader's feet. The same quantity is written in the cold-quantity column of the equity watch and in the removal column of the inventory watch of the Seoul Station Inventory House. Personnel on the Joharam side stand between the work lamp and the door of the cold warehouse."
+        },
+        {
+          "ko": "선택지: 서울역재고가 재고 당직이 반출 통로 빗장을 걸고 반출 수량을 재고 장부에 적는다. / 여의도출자연합회 출자 당직이 냉열 수량을 탈영병 분대장 앞의 장부 칸에 넘긴다. / 조하람 쪽 인원이 작업등을 끄고 저온 창고 안쪽에 선다.",
+          "en": "Choices: The inventory watch of the Seoul Station Inventory House bars the removal passage and writes the removal quantity in the inventory ledger. / The equity watch of the Yeouido Investment Federation passes the cold quantity into the ledger column in front of the deserter squad leader. / Personnel on the Joharam side turn off the work lamp and stand inside the cold warehouse."
+        },
+        {
+          "ko": "결과: 빗장을 걸고 수량을 적은 뒤 탈영병 분대장은 장부 면 앞에 서 있고 탈영병 정예조는 선반을 끼고 서 있으며 조하람 쪽 인원은 작업등 옆에 서 있다. 냉열 수량을 분대장 앞 칸에 넘긴 뒤 출자 당직의 장부 면이 분대장 발치에 놓여 있고 연료통은 그 자리에 있으며 조하람 쪽 인원은 작업등 옆에 서 있다. 작업등을 끄고 창고에 선 뒤 조하람 쪽 인원은 저온 창고 안에 있고 탈영병 분대장과 탈영병 정예조는 연료통 옆에 서 있다.",
+          "en": "Outcomes: After the bar is set and the quantity is written, the deserter squad leader stands in front of the ledger page, the deserter elite squad stands beside the shelves, and the personnel on the Joharam side stand beside the work lamp. After the cold quantity is passed into the column in front of the squad leader, the equity watch's ledger page lies at the squad leader's feet, the fuel drums are in that place, and the personnel on the Joharam side stand beside the work lamp. After the work lamp is turned off and they stand in the warehouse, the personnel on the Joharam side are inside the cold warehouse, and the deserter squad leader and the deserter elite squad stand beside the fuel drums."
+        },
+        {
+          "ko": "도덕 비용: 서울역재고가의 연료통과 탄약 상자는 반출 칸에 적힌 채 탈영병 분대장 발치에 있다. 여의도출자연합회가 적은 냉열 수량은 저온 회랑의 장부 면에 있다. 조하람 쪽 인원은 작업등 옆이나 저온 창고 안에 서 있다.",
+          "en": "Moral cost: The fuel drums and ammunition boxes of the Seoul Station Inventory House remain at the feet of the deserter squad leader, written in the removal column. The cold quantity written by the Yeouido Investment Federation is on the ledger page in the cold corridor. Personnel on the Joharam side stand beside the work lamp or inside the cold warehouse."
+        },
+        {
+          "ko": "원본 항목: G09",
+          "en": "Source dossier: G09"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09-SC2-title-heading-1",
+      "publicAnchors": [
+        "g09-sc2-검수-창의-장비-더미",
+        "Hostile-Group-G09-heading-0035"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G09-SC2 · 검수 창의 장비 더미",
+        "en": "G09-SC2 · The equipment pile at the inspection window"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G09-generated-G09-SC2-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 2",
+          "en": "Stage: 2"
+        },
+        {
+          "ko": "촉발: 온배수에 의한 국지 융설 무렵 새벽 아차산 검수 창 바닥에 장비 더미가 있고 검수 창 계기판의 열 눈금이 높은 칸에 있다. 아관사 검수 당직이 문간에 서 있고 서울역재고가 재고 당직이 장부를 들고 있으며 여의도출자연합회 출자 당직이 냉열 칸을 들고 있다.",
+          "en": "Trigger: At dawn during localized snowmelt caused by heated wastewater discharge an equipment pile is on the floor of the Achasan inspection window, and the heat needle on the inspection-window panel sits in a high mark. The inspection watch of the Achasan Gate stands in the doorway, the inventory watch of the Seoul Station Inventory House holds the ledger, and the equity watch of the Yeouido Investment Federation holds the cold column."
+        },
+        {
+          "ko": "관련 세력: S09, S14, HC09",
+          "en": "Actors: S09, S14, HC09"
+        },
+        {
+          "ko": "생태 기제: 탈영병 정예조가 더미 양쪽에 서 있고 탈영병 분대장은 더미와 저온 창고 문 사이에 서 있다. 더미의 연료통과 공구에는 서울역재고가 표식이 남아 있다. 검수 당직과 재고 당직과 출자 당직이 같은 문간에 서 있다.",
+          "en": "Ecological mechanism: The deserter elite squad stands on both sides of the pile, and the deserter squad leader stands between the pile and the door of the cold warehouse. The mark of the Seoul Station Inventory House remains on the fuel drums and tools in the pile. The inspection watch, the inventory watch, and the equity watch stand in the same doorway."
+        },
+        {
+          "ko": "선택지: 아관사 검수 당직이 아차산 검수 창 출입문을 잠그고 검수 인원을 저온 창고 안에 세운다. / 서울역재고가 재고 당직이 장비 더미의 수량을 반출 칸에 적고 장부를 더미 앞에 둔다. / 여의도출자연합회 출자 당직이 냉열 수량을 검수 창 낮 칸에서 저온 창고 밤 칸으로 옮긴다.",
+          "en": "Choices: The inspection watch of the Achasan Gate locks the door of the Achasan inspection window and stands the inspection staff inside the cold warehouse. / The inventory watch of the Seoul Station Inventory House writes the quantity of the equipment pile in the removal column and sets the ledger in front of the pile. / The equity watch of the Yeouido Investment Federation moves the cold quantity from the daytime column of the inspection window to the night column of the cold warehouse."
+        },
+        {
+          "ko": "결과: 출입문을 잠근 뒤 검수 인원은 저온 창고 안에 서 있고 탈영병 정예조와 탈영병 분대장은 검수 창 더미 옆에 서 있다. 반출 칸을 적고 장부를 둔 뒤 장부 면은 더미 앞에 놓여 있으며 분대장은 그 면 앞에 서고 탈영병 정예조는 더미 양쪽에 서 있다. 냉열 수량을 밤 칸으로 옮긴 뒤 출자 당직의 면은 창고 문간에 놓여 있고 검수 창 낮 칸은 잠긴 문 옆에 나란히 있으며 분대장은 남은 연료통 옆에 서 있다.",
+          "en": "Outcomes: After the entrance is locked, the inspection staff stand inside the cold warehouse, and the deserter elite squad and the deserter squad leader stand beside the pile in the inspection window. After the removal column is written and the ledger is set down, the ledger page lies in front of the pile, the squad leader stands in front of that page, and the deserter elite squad stands on both sides of the pile. After the cold quantity is moved to the night column, the equity watch's page lies at the warehouse doorway, the daytime column of the inspection window lies beside the locked door, and the squad leader stands beside the remaining fuel drums."
+        },
+        {
+          "ko": "도덕 비용: 아차산 검수 창의 낮 근무 인원은 잠긴 문 안쪽의 저온 창고에 서 있다. 장비 더미의 연료통과 공구는 반출 칸에 적힌 채 창 바닥에 있다. 여의도출자연합회가 적은 냉열 수량은 저온 창고 밤 칸에 있다.",
+          "en": "Moral cost: The day-duty staff of the Achasan inspection window stand in the cold warehouse inside the locked door. The fuel drums and tools of the equipment pile remain on the window floor, written in the removal column. The cold quantity written by the Yeouido Investment Federation is in the night column of the cold warehouse."
+        },
+        {
+          "ko": "원본 항목: G09",
+          "en": "Source dossier: G09"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G09-generated-G09-SC3-title-heading-1",
+      "publicAnchors": [
+        "g09-sc3-냉열-열차와-선로-쪽-문",
+        "Hostile-Group-G09-heading-0037"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G09-SC3 · 냉열 열차와 선로 쪽 문",
+        "en": "G09-SC3 · The cold train and the track-side door"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G09-generated-G09-SC3-title-list-1",
+      "items": [
+        {
+          "ko": "단계: 3",
+          "en": "Stage: 3"
+        },
+        {
+          "ko": "촉발: 고덕에서 회수한 자재와 암사 보관 연료를 실은 화차가 아차산 검수 창 바깥 선로에 선다. 화물 보냉에 배정한 냉열만큼 상암 저장고의 여유가 줄어든다. 탈영병 척후조는 선로 쪽 문에 서고 여의도출자연합회·아관사·서울역재고가 당직과 조하람 쪽 인원은 저온 창고 문간에서 냉열 배정과 검수 시간을 나눈다.",
+          "en": "Trigger: Cars carrying Godeok recovered materials and Amsa stored fuel wait outside the Achasan inspection window. Cooling allocated to protect the freight reduces the reserve for Sangam stores. Deserter Scouts stand at the track-side door while Yeouido Investment, Achasan Gate and Seoul Station Inventory watches and Joharam’s party divide cooling allocation and inspection time at the cold-store doorway."
+        },
+        {
+          "ko": "관련 세력: S09, S14, XT04, HC09, H09",
+          "en": "Actors: S09, S14, XT04, HC09, H09"
+        },
+        {
+          "ko": "생태 기제: 화차에는 냉열이 배정되어 있고 검수 창과 창고 쪽에는 연료통이 적게 남아 있다. 탈영병 척후조는 선로 쪽 문 앞에, 분대장은 남은 연료통 옆에, 정예조는 회수 자재 상자 줄 옆에 선다. 세 당직과 조하람 쪽 인원은 창고 문간 한 곳에 모여 있다.",
+          "en": "Ecological mechanism: Cooling is allocated to the freight cars, while few fuel drums remain by the inspection window and warehouse. Deserter scouts stand at the track-side door, the squad leader beside the remaining fuel drums, and the elite squad beside the recovered-material boxes. The three watches and Joharam’s personnel gather at the warehouse doorway."
+        },
+        {
+          "ko": "선택지: 아관사 검수 당직이 선로 쪽 문을 잠그고 검수 인원을 저온 창고 안쪽에 세운다. / 여의도출자연합회 출자 당직이 냉열 수량을 암사 중량·연료 인계 회랑 열차 칸에 적는다. / 서울역재고가의 재고 당직이 남은 연료통과 회수 자재 상자 수를 장부 한 면에 적고 조하람 쪽 인원을 그 옆에 세운다.",
+          "en": "Choices: The inspection watch of the Achasan Gate locks the track-side door and stands the inspection staff inside the cold warehouse. / The equity watch of the Yeouido Investment Federation writes the cold quantity in the train column of the Amsa Heavy-Freight and Fuel Handover Corridor. / The Seoul Station Inventory House watch records the remaining fuel drums and recovered-material boxes on one ledger page and places Joharam’s personnel beside it."
+        },
+        {
+          "ko": "결과: 선로 쪽 문을 잠그면 검수 인원은 저온 창고 안에, 탈영병 척후조는 문 바깥에 남고 분대장은 남은 연료통 옆에 선다. 냉열을 화차 항목에 배정하면 출자 당직의 장부에 화차 쪽 수량이 적히고 회수 자재 상자는 검수 창 바닥에 남으며 정예조는 그 옆을 지킨다. 수량을 한 면에 모아 적고 조하람 쪽 인원을 세우면 문간 바닥의 장부를 그들이 지켜보는 동안 분대장은 연료통 곁에 남는다.",
+          "en": "Outcomes: Locking the track-side door leaves inspectors inside the cold warehouse, deserter scouts outside, and the squad leader beside the fuel drums. Allocating cooling to the freight-car entry records that quantity in the contribution watch’s ledger; recovered-material boxes remain on the inspection floor beside the elite squad. Recording all counts on one page and posting Joharam’s personnel beside it leaves them watching the ledger at the doorway while the squad leader remains with the fuel drums."
+        },
+        {
+          "ko": "도덕 비용: 아차산 검수 창의 선로 쪽 문은 잠겨 있고 검수 인원은 저온 창고 안에 서 있다. 여의도출자연합회의 냉열 배정은 고덕 회수 자재와 암사 보관 연료를 실은 화차 항목에 적혀 있다. 회수 자재 상자와 남은 연료통 수가 적힌 재고 장부 옆에는 조하람 쪽 인원이 서 있다.",
+          "en": "Moral cost: The track-side door of the Achasan inspection window is locked, with inspection staff inside the cold warehouse. The Yeouido Investment Federation’s cooling allocation is entered against cars carrying Godeok recovered materials and Amsa stored fuel. Joharam’s personnel stand beside the inventory ledger recording recovered-material boxes and remaining fuel drums."
+        },
+        {
+          "ko": "원본 항목: G09",
+          "en": "Source dossier: G09"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The Sangam Deserters stand in the cold corridor of the Sangam cooling annex, wearing military clothing and carrying equipment and weapons. In midwinter they stand between the shelves of the corridor, and around local snowmelt caused by warm-water discharge they stand at the Achasan inspection window and the cold warehouse. In the room-temperature passage outside the inspection window the deserter scouts assigned to the doorway stand, and the deserter squad leader and the deserter elite squad stand inside the warehouse and the corridor.",
+        "ko": "상암 탈영병은 군 피복을 입고 장비와 무기를 든 채 상암 냉각 부속 저온 회랑에 선다. 한겨울에는 회랑 선반 사이에 서고 온배수에 의한 국지 융설 무렵에는 아차산 검수 창과 저온 창고에 선다. 검수 창 바깥 상온 통로에는 문간을 맡은 탈영병 척후조가 서 있고 탈영병 분대장과 탈영병 정예조는 창고와 회랑 안에 서 있다."
+      },
+      "variants": [
+        {
+          "id": "G09E01",
+          "source_batch": "M013"
+        },
+        {
+          "id": "G09E08",
+          "source_batch": "M014"
+        },
+        {
+          "id": "G09E15",
+          "source_batch": "M015"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

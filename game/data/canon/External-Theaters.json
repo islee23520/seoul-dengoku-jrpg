@@ -1,0 +1,2356 @@
+{
+  "version": 1,
+  "domain": "factions",
+  "id": "DOC:External-Theaters",
+  "slug": "External-Theaters",
+  "status": "approved",
+  "categories": [
+    "places"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.projection_pages.External-Theaters"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Inter-district Handover Corridors",
+      "summary": "Five corridors within Seoul connect register and quarantine work, cold food, recovered materials and relief deliveries through distinct duty watches and conflicts.",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "구역 간 인계 회랑",
+      "summary": "서울 안에서 명부·검역, 냉동 식량, 회수 자재와 지원품을 넘기는 다섯 회랑의 당직과 갈등을 기록한다.",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-page-title-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0001",
+        "바깥",
+        "outside"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "구역 간 인계 회랑",
+        "en": "Inter-district Handover Corridors"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "External-Theaters-generated-page-title-paragraph-1",
+      "text": {
+        "ko": "서울 안에서 명부·검역, 냉동 식량, 회수 자재와 지원품을 넘기는 다섯 회랑의 당직과 갈등을 기록한다.",
+        "en": "Five corridors within Seoul connect register and quarantine work, cold food, recovered materials and relief deliveries through distinct duty watches and conflicts."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT01-title-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0003",
+        "xt01-임진강관문전구",
+        "xt01-imjin-river-gate-theater"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "XT01 · 구역 간 명부·검역 인계 회랑",
+        "en": "XT01 · Inter-district Register and Quarantine Handover Corridor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT01-title-list-1",
+      "items": [
+        {
+          "ko": "안국·광화문은 명부 사본을 대조하고 신내는 가족 대기열과 물자 인계를 나누며 구의는 봉인 키의 보관 기록을 확인한다.",
+          "en": "Anguk and Gwanghwamun collate register copies, Sinnae separates family queues from goods handovers, and Guui checks custody records for the sealing key."
+        },
+        {
+          "ko": "연결 국가: S10 안국총림, S11 성하그룹, S12 신내운수, S06 대한민국정부, S14 아관사",
+          "en": "Linked states: S10 Anguk Order, S11 Seongha Group, S12 Sinnae Transport, S06 Republic of Korea Government, S14 Achasan Gate"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-1-prose-00149",
+      "text": {
+        "ko": "안국의 명부 창구에서 안내원이 훼손된 가족 명부를 손전등 빛에 비춘다. 서울 안의 서로 다른 거처에 사는 가족이 사본을 맡겼지만, 원본과 다른 줄이 발견되어 재발급이 멈췄다. 안내원은 연락을 재촉하는 가족에게 대조가 끝난 줄과 아직 확인하지 못한 줄을 나누어 보여 준다.",
+        "en": "At the Anguk register window, a guide holds a damaged family register to a flashlight. Families living at different addresses within Seoul have submitted copies, but a line differing from the original has halted reissue. The guide shows the waiting families which lines have been collated and which remain unconfirmed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-1-prose-00150",
+      "text": {
+        "ko": "성하그룹 호송이 신내의 물자 인계 창구에 멈춘다. 가족 대기열과 의약 상자가 같은 시간에 몰리자, 당직자는 의료 우선 인계와 명부 대조를 별도 창구로 나눈다. 호송자는 다음 수령인의 서명을 받기 전에는 봉인을 풀지 않으며, 지연 비용을 누구에게 맡길지 주민 참관 아래 협의한다.",
+        "en": "The Seongha convoy stops at the Sinnae goods handover window. When the family queue and medicine boxes arrive together, the duty worker separates priority medical handover from register collation. The escort keeps the boxes sealed until the next recipient signs, while residents observe negotiations over who bears the delay."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-1-prose-00151",
+      "text": {
+        "ko": "광화문 대한민국정부 주사가 위조 혈연 증서의 잉크 번짐을 짚고, 아차산 관문 초소는 봉인 키를 두 조각으로 나눈다.",
+        "en": "A Republic of Korea Government jusa clerk from Gwanghwamun traced the ink bleed on a forged kinship certificate, and the Achasan gateway post split the seal key into two pieces."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-1-prose-00152",
+      "text": {
+        "ko": [
+          {
+            "text": "연표 기록: "
+          },
+          {
+            "text": "2069년 기록",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2069년-xt01-임진-제방-임시-검역소"
+            }
+          },
+          {
+            "text": " · "
+          },
+          {
+            "text": "2104년 기록",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2104년-xt01-임진-제방-임시-검역소"
+            }
+          },
+          {
+            "text": " · "
+          },
+          {
+            "text": "2125년 기록",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2125년-xt01-광화문-정부서울청사"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Chronicle records: "
+          },
+          {
+            "text": "2069 record",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2069년-xt01-임진-제방-임시-검역소"
+            }
+          },
+          {
+            "text": " · "
+          },
+          {
+            "text": "2104 record",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2104년-xt01-임진-제방-임시-검역소"
+            }
+          },
+          {
+            "text": " · "
+          },
+          {
+            "text": "2125 record",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2125년-xt01-광화문-정부서울청사"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT01-seoul-side-route-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0009"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서울 쪽 경로",
+        "en": "Seoul-side route"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT01-seoul-side-route-list-1",
+      "items": [
+        {
+          "ko": "확인된 지리: 안국·광화문·신내·구의 창구에서는 인계표의 출발지와 도착지를 대조한다. 담당자는 자기 창구에서 확인한 내용을 다음 창구에 넘긴다.",
+          "en": "Verified geography: At the Anguk, Gwanghwamun, Sinnae and Guui counters, staff compare the departure and destination entries on handover slips. Each counter passes its own checked entries to the next counter."
+        },
+        {
+          "ko": "준비 거점: 안국·광화문의 명부 대조 창구 → 신내의 중립 환승 창구 → 구의의 이중 봉인 창구 → 구의 봉인·검역 인계 창구",
+          "en": "Staging nodes: the roll cross-check window of Anguk and Gwanghwamun → Sinnae's neutral transfer window → Guui's double-seal window → Guui seal and quarantine handover window"
+        },
+        {
+          "ko": "바깥 경계: 인계 담당자는 안국·광화문·신내·구의 창구 사이에서 물자와 사본을 넘기고, 도착 창구의 서명을 받아 인계표를 닫는다.",
+          "en": "Outbound boundary: Handover staff pass goods and copies among the Anguk, Gwanghwamun, Sinnae and Guui counters, then close each slip with the receiving counter’s signature."
+        },
+        {
+          "ko": "이동 시간: 신내 당직은 가족 대기표와 의약품 순번을 나누고 안국 안내원은 명부 대조가 끝난 줄을 보여 준다. 수위·검역 대기·통행권과 창구 상태가 달라지면 담당자는 대기와 이동 비용을 다시 협의한다.",
+          "en": "Travel time: The Sinnae watch separates family tickets and medicine order, while the Anguk guide shows which register lines are collated. When water levels, quarantine waits, passage rights or window conditions change, staff renegotiate waiting and movement costs."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT01-travel-and-seasons-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "이동·계절",
+        "en": "Travel and seasons"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT01-travel-and-seasons-list-1",
+      "items": [
+        {
+          "ko": "계절 조건: 영구 겨울에도 난방 배수와 국지 융설수가 몰리면 계단과 검역 창의 개방 여부가 바뀐다. / 혹한과 결빙이 심한 날에는 음식물 흔적을 좇는 생태 압력이 신내 인계 시간과 겹칠 수 있다. / 철새 이동이 겹치는 날에는 교량·차량기지 입출고선의 저소음 창과 감속 창을 함께 조정한다.",
+          "en": "Seasonal conditions: Even in perpetual winter, concentrated heated drainage and local snowmelt change stair and quarantine-window access. / During severe cold and icing, ecological pressure following food traces can overlap Sinnae handover times. / On days when the bird migration overlapped, the low-noise window and the slow-speed window of the bridge and depot lead tracks were adjusted together."
+        },
+        {
+          "ko": "중단 조건: 명부 원본과 사본의 대조가 끝나지 않았을 때 / 봉인 키 두 조각의 보관 책임이 확인되지 않았을 때 / 수위 경고와 피난 잔반이 같은 계단을 점유했을 때",
+          "en": "Suspension conditions: when the cross-check of the roll's original and its copies was unfinished / when custody of the two halves of the sealing key was unconfirmed / when the water-level warning and the evacuation leftovers occupied the same stairs"
+        },
+        {
+          "ko": "기록 원칙: 폐쇄는 통행로 삭제가 아니라 원인과 재개 조건을 남긴 상태 변경으로 기록한다.",
+          "en": "Recording rule: Closure was recorded not as deletion of the passage but as a state change carrying cause and reopening conditions."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT01-supply-and-checkpoints-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0013"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "공급·검문",
+        "en": "Supply and checkpoints"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT01-supply-and-checkpoints-list-1",
+      "items": [
+        {
+          "ko": "물자 · 야간 곡물·의약품 우회 상자: 물자 봉인 장부는 가족 명부와 분리하고 인계 때마다 봉인 상태와 수령 서명을 함께 남긴다.",
+          "en": "Goods · nighttime detour boxes of grain and medicine: The sealing ledger of goods was kept separate from the family register, and at every hand-off the seal state and receipt signature were left together."
+        },
+        {
+          "ko": "전력 · 북부 비상 축전지 릴레이: 호송 지연이 생겨도 축전지의 보관 책임과 사람의 검역 판단을 같은 담당자에게 모으지 않는다.",
+          "en": "Power · the northern emergency battery relay: Even when the escort ran late, custody of the capacitors and the quarantine judgment of persons were never gathered into one hand."
+        },
+        {
+          "ko": "기록 · 귀환 명부 해시와 가족 재결합 대기열: 재발급 기록은 원본을 대체하지 않으며 훼손 사실·발급자·대조 근거를 별도 줄에 남긴다.",
+          "en": "Records · the return-roll hashes and the family-reunion queue: Reissue records never replaced the original; damage facts, issuer, and collation grounds were left on separate lines."
+        },
+        {
+          "ko": "분리 원칙: 의료·식량 상자, 귀환 명부, 봉인 키는 서로 다른 인계 절차를 거친다. 하나의 의심이나 지연이 다른 항목의 자동 거부 사유가 되지 않는다.",
+          "en": "Separation rule: Medicine and food boxes, repatriation registers, and sealing keys passed through different hand-off procedures. One suspicion or delay never became grounds for the automatic refusal of another item."
+        },
+        {
+          "ko": "XT01-CP-ANKUK-GWANGHWAMUN · 안국·광화문 명부 대조 창구: 귀환 명부와 혈연 증서의 원본·사본 대조 및 재발급 기록 / 명부 훼손 여부, 재발급 근거, 증서와 장부의 불일치",
+          "en": "XT01-CP-ANKUK-GWANGHWAMUN · the Anguk and Gwanghwamun roll cross-check window: cross-check of originals and copies of the return rolls and kinship certificates, and the record of reissue / whether the roll was damaged, grounds for reissue, discrepancy between certificate and ledger"
+        },
+        {
+          "ko": "XT01-CP-SINNAE · 신내 환승 창구: 가족 대기열과 중립 호송의 분리·합류 / 통행 창, 호송 수령 책임, 의료 우선 필요",
+          "en": "XT01-CP-SINNAE · the Sinnae transfer window: splitting and joining of the family queue and the neutral convoys / the passage window, responsibility for receiving the convoy, need for medical priority"
+        },
+        {
+          "ko": "XT01-CP-GUI-IMJIN · 구의 봉인 창구: 봉인 키 이중 보관과 서울 쪽 검역 인계 / 두 조각 키의 보관 기록, 상자 봉인 상태, 통행 창의 수위 안전",
+          "en": "XT01-CP-GUI-IMJIN · Guui seal window: dual custody of the sealing key and handover of the Seoul-side quarantine / the custody record of the two key halves, the state of the box seals, water-level safety of the passage window"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT01-language-and-rumor-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "언어·소문",
+        "en": "Language and rumor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT01-language-and-rumor-list-1",
+      "items": [
+        {
+          "ko": "기록 언어: 서울 쪽 원장은 한국어로 기록한다.",
+          "en": "Record language: The Seoul-side ledgers were kept in Korean."
+        },
+        {
+          "ko": "통역 원칙: 통역은 당사자가 요청한 경우에만 서울의 기존 통역 회랑에 연결한다.",
+          "en": "Interpreter rule: Interpretation was connected to Seoul's existing interpretation corridor only when the party concerned requested it."
+        },
+        {
+          "ko": "확인: 서로 독립된 명부 또는 봉인 기록이 대조되고 책임 있는 발급·인계자가 남아 있다.",
+          "en": "confirmed: Mutually independent registers or seal records collated, with responsible issuers and hand-off agents remaining."
+        },
+        {
+          "ko": "보류: 단일 호송 기록이나 훼손된 사본만 있으며 재대조가 필요하다.",
+          "en": "withheld: Only a single escort record or damaged copy remained, needing re-collation."
+        },
+        {
+          "ko": "전언: 가족 연락이나 이동 소문만 있고 명부·봉인·수령 기록으로 확인되지 않았다.",
+          "en": "hearsay: Only family contact or movement rumor existed, unconfirmed by register, seal, or receipt record."
+        },
+        {
+          "ko": "금지 추론: 전언만으로 발급자의 정책, 통행자의 소속, 혈연 관계 또는 범죄를 확정하지 않는다.",
+          "en": "Prohibited inference: Hearsay establishes neither an issuer’s policy nor a traveler’s affiliation, kinship or crime."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT01-interests-of-the-sixteen-states-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0017"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "16국 이해",
+        "en": "Interests of the sixteen states"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT01-interests-of-the-sixteen-states-list-1",
+      "items": [
+        {
+          "ko": "S10 안국총림: 가족 명부 재발급과 위패·대기열의 연속성을 지킨다. 서울 안 가족과 왕래하되 소속·숙박·구휼을 구분한다. 사찰 방문만으로 소속을 확정하지 않는다. / 지렛대 안국의 명부 보관과 안내 인력 / 넘지 않는 선 훼손 사본만으로 가족 관계를 확정하지 않는다.",
+          "en": "S10 Anguk Order: It maintains family-register reissue and the continuity of memorial tablets and queues. Contact with families within Seoul distinguishes affiliation, lodging and relief; visiting a temple alone establishes no affiliation. / leverage: Anguk's custody of the rolls and its guide staff / red line: It did not fix a family relation on a damaged copy alone."
+        },
+        {
+          "ko": "S11 성하그룹: 호송과 비상 축전지 인계를 이어 간다. 성하그룹은 수서 생활권 정비 담당자와 부품·정보 인계를 협의한다. 민웅기가 추가 당직을 거절하면 담당자는 남은 일정으로 순번을 다시 맞추고 주민은 생활 전력 배분을 두고 협의한다. / 지렛대 강남 호송 준비와 냉각·전산 키의 잔존 / 넘지 않는 선 축전지 보관 책임을 명부 판정권으로 바꾸지 않는다.",
+          "en": "S11 Seongha Group: Convoys and emergency-battery handovers continue. Seongha Group negotiates parts and information handovers with repair workers around Suseo. If Min Woonggi refuses extra duty, staff revise the order around the remaining schedule, while residents negotiate household power allocation. / leverage: preparation of the Gangnam convoy and the surviving cooling and computing keys / red line: It did not turn custody of the batteries into a power to judge the rolls."
+        },
+        {
+          "ko": "S12 신내운수: 가족 대기열과 의료·물자 호송의 중립 환승을 유지한다. 서울 안 수령 창구까지의 계약 인계만 맡으며 이 계약으로 새 통행권이나 영토를 얻지 않는다. / 지렛대 신내 환승 슬롯과 응급 호송 장부 / 넘지 않는 선 한 국가의 명령만으로 환승 창을 닫지 않는다.",
+          "en": "S12 Sinnae Transport: It maintains neutral transfers for family queues and medical and goods escorts. Its contracted handovers end at recipient windows within Seoul and confer no new passage rights or territory. / leverage: the Sinnae transfer slots and the emergency-convoy ledger / red line: It did not close the transfer window on one state's order alone."
+        },
+        {
+          "ko": "S06 대한민국정부: 대한민국정부는 청와대를 중심으로 한 강북 권역을 중심으로 삼는다. 광화문 창구는 혈연 증서와 인준 기록의 진위를 공개 절차로 가리되, 그 업무를 영토 소유나 다른 세력에 대한 복종 요구로 확대하지 않는다. / 지렛대 광화문 도장과 기록 인준 문법 / 넘지 않는 선 위조 의심만으로 통행자를 적대 세력으로 단정하지 않는다.",
+          "en": "S06 Republic of Korea Government: The Republic of Korea Government is centered on the north-of-Han area around Cheong Wa Dae. Its Gwanghwamun window publicly examines kinship certificates and accreditation records without turning that work into territorial ownership or demands for another power’s obedience. / leverage: the Gwanghwamun seal and the grammar of record accreditation / red line: Suspicion of forgery alone does not make a traveler an enemy."
+        },
+        {
+          "ko": "S14 아관사: 관문 봉인과 출발창의 안전 책임을 나눈다. 구의 수문과 아차산 초소의 기존 통행 절차에 따라 키 보관자를 서로 확인한다. / 지렛대 구의 수문과 아차산 초소의 봉인 절차 / 넘지 않는 선 봉인 키를 한 사람이나 한 가문에 단독 보관하지 않는다.",
+          "en": "S14 Achasan Gate: Shares responsibility for gate seals and safe departure windows. Guui sluice and Achasan watch staff cross-check key custodians under existing passage procedures. / leverage: the sealing procedure of the Guui sluices and the Achasan outposts / red line: It did not leave the sealing key in the sole custody of one person or one house."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT01-ecological-pressure-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생태 압력",
+        "en": "Ecological pressure"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT01-ecological-pressure-list-1",
+      "items": [
+        {
+          "ko": "G01: 신내 가족 대기열의 음식물 흔적과 배수 지연이 겹치면 멧돼지가 수문 계단을 점유할 수 있다. / 대응 잔반을 별도 밀폐 회수로 돌리고 통행 시간을 분할한다. / 비살상 제약 전면 살처분은 무리를 골목으로 흩뜨리므로 최후 수단으로만 둔다.",
+          "en": "G01: Food traces from Sinnae’s family queue and delayed drainage can draw boars onto sluice stairs. / response: The leftovers were diverted to a separate sealed collection, and the passage times were divided. / nonlethal constraint: A wholesale cull scattered the herd into the alleys, so it was kept only as a last resort."
+        },
+        {
+          "ko": "G06: 서울역 물받이와 강남 차량기지의 열린 온배수 수면 사이로 새가 이동하면 수문 점검과 접근 시간이 겹친다. / 대응 기능군별 수면·횃대와 저소음 점검 창을 조정한다. / 비살상 제약 수면을 말려 군집을 내보내는 선택은 생태와 수질 비용을 남긴다.",
+          "en": "G06: Bird movement between the Seoul Station water deck and open warm-drainage water at the Gangnam depot overlaps sluice inspections and access windows. / response: The roosts and perches of each functional flock and the low-noise inspection window were adjusted. / nonlethal constraint: The choice of drying the water surface to drive the flock out left an ecological and water-quality cost."
+        },
+        {
+          "ko": "G16: 구의에 보관된 수리 자재의 표식이 잘못 중계되면 철골거미의 가설교량 작업 반경이 사람의 통행로와 겹칠 수 있다. / 대응 중지 격자와 예외 레이어를 먼저 확인해 사람의 거처와 자재 신호를 분리한다. / 비살상 제약 도면 금고나 장비를 파괴하는 대신 잘못된 레이어 포트만 봉인한다.",
+          "en": "G16: A misrelayed marker on repair materials held at Guui can make Steel-Spider bridge work overlap human passages. / response: The stop grid and the exception layer were checked first, separating people's dwellings from the materials signal. / nonlethal constraint: Instead of destroying the blueprint vault or the equipment, only the wrong layer port was sealed."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT01-opening-2126-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0021"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "개막 2126",
+        "en": "Opening 2126"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT01-opening-2126-list-1",
+      "items": [
+        {
+          "ko": "사건: XT01-SC1",
+          "en": "Event: XT01-SC1"
+        },
+        {
+          "ko": "촉발: 구의 봉인 창구로 인계된 가족 명부의 훼손이 발견되어 안국의 재발급 요청과 광화문의 진위 심사가 동시에 열린다.",
+          "en": "Trigger: Damage is found in a family register handed to the Guui seal window, triggering Anguk’s reissue request and Gwanghwamun’s authenticity review together."
+        },
+        {
+          "ko": "충돌: 가족 대기열을 먼저 열어야 한다는 요구와 명부 대조를 먼저 끝내야 한다는 요구가 충돌한다.",
+          "en": "Conflict: The demand to open the family line first collided with the demand to finish the register collation first."
+        },
+        {
+          "ko": "첫 판단: 훼손 명부를 보류한 채 의약 호송만 분리 통과시킬지, 참관 아래 재발급 절차를 열어 가족 대기열을 늦출지 선택한다.",
+          "en": "First decision: Choose whether to pass only the medical escort through while holding the damaged register, or open the reissue procedure under observation and delay the family line."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT01-player-entry-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0023"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "플레이어 진입",
+        "en": "Player entry"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT01-player-entry-list-1",
+      "items": [
+        {
+          "ko": "XT01-ENTRY-SINNAE-LEDGER · 신내 환승 창구: 명부와 수령 서명을 대조하는 호송 보조 / 첫 판단 가족 대기열과 의약 상자를 같은 창에 넣지 않고 어느 인계를 먼저 확인할지 정한다.",
+          "en": "XT01-ENTRY-SINNAE-LEDGER · the Sinnae transfer window: a convoy assistant cross-checking the rolls against the receipt signatures / first decision: Decide which handover to confirm first, keeping the family queue and the medicine boxes in separate windows."
+        },
+        {
+          "ko": "XT01-ENTRY-IMJIN-RECOVERY · 구의 봉인 창구의 물자 인계 대기 구역: 피난 잔반 회수와 통행 창 조정의 현장 협상자 / 첫 판단 수문 계단의 생태 압력을 피하기 위해 호송 시간을 나눌지, 별도 회수로를 먼저 열지 정한다.",
+          "en": "XT01-ENTRY-IMJIN-RECOVERY · Goods handover waiting area at the Guui seal window: a field negotiator for collecting the evacuation leftovers and adjusting the passage window / first decision: Decide whether to split the convoy times or open a separate collection route first to avoid ecological pressure on the sluice stairs."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT01-explicit-unknowns-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0025"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "명시적 미정",
+        "en": "Explicit unknowns"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT01-explicit-unknowns-list-1",
+      "items": [
+        {
+          "ko": "대기 기록이 서로 다르면 어느 인계 시각을 적용할지는 미결이다. 안국과 신내의 당직자는 창구마다 접수한 대기표와 인계 시각을 자기 장부에 적는다. 안내원은 출발 전에 창구별 대기 기록과 통행 상태를 다시 대조한다.",
+          "en": "When waiting records disagree, the applicable handover time remains unresolved. Anguk and Sinnae watch staff record the waiting tickets and handover times received at each window in their own ledgers. Before departure, the guide checks each window’s waiting records and passage conditions again."
+        },
+        {
+          "ko": "명부와 증서가 다른 가족 관계는 대조가 끝날 때까지 미확인으로 남는다. 가족이 대조를 요청하면 안국 안내원은 가족이 제시한 소속 명부, 숙박 기록과 구휼 인계서를 각각 펼친다. 서로 다른 줄은 당사자에게 확인하고 대조가 끝난 부분을 가족에게 보여 준다.",
+          "en": "Family relationships disputed by registers and certificates remain unverified until collation is complete. When a family requests a cross-check, the Anguk guide lays out the affiliation register, lodging records and relief handover sheets supplied by the family separately. The guide checks differing lines with the people concerned and shows the family the portions already collated."
+        },
+        {
+          "ko": "창구별 통행 대가와 지연 비용이 다르면 적용할 조건은 협의가 끝날 때까지 미결이다. 신내 당직자는 도착한 가족의 대기표와 의약품 인계 순번을 따로 갱신한다. 창구별 장부에는 통행 대가와 지연 비용의 협의가 각각 남아 있어 안국 안내원은 두 기록을 함께 살핀다.",
+          "en": "When passage charges and delay costs differ between windows, the applicable terms remain unsettled pending negotiation. The Sinnae watch updates arriving families’ tickets separately from medicine handover order. Each window’s ledger retains its own passage charges and delay-cost negotiations, so the Anguk guide examines both records together."
+        },
+        {
+          "ko": "추가 증서가 필요한 줄의 재발급 판단은 증서 대조 전까지 미결이다. 안국 안내원은 상담 요청과 명부에서 서로 다른 줄을 나란히 펼친다. 재발급을 기다리는 가족에게 대조가 끝난 부분과 추가 증서가 필요한 부분을 나누어 보여 준다.",
+          "en": "Reissue decisions for lines needing further certificates remain unresolved pending certificate checks. The Anguk guide lays counseling requests beside differing register lines. Families awaiting reissue are shown the portions already collated and those still requiring supporting certificates."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT01-scenario-chains-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0027"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 쇄",
+        "en": "Scenario chains"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT01-scenario-chains-list-1",
+      "items": [
+        {
+          "ko": "XT01-SC1: 구의로 인계된 가족 명부가 훼손되어 안국 조계사가 재발급을 요구한다.",
+          "en": "XT01-SC1: A family register handed to Guui is damaged, and Jogyesa at Anguk requests reissue."
+        },
+        {
+          "ko": "XT01-SC2: 강남 그룹 의약 호송이 신내의 명부 대기열 앞에서 멈추자 신내가 가족 대기와 의료 인계를 분리한다",
+          "en": "XT01-SC2: When the Gangnam medicine convoy stops at Sinnae’s register queue, Sinnae separates family waiting from medical handover"
+        },
+        {
+          "ko": "XT01-SC3: 광화문 청사가 위조 혈연 증서를 가려내고 아차산 관문이 봉인 키를 나눈다",
+          "en": "XT01-SC3: The Gwanghwamun complex screens forged kinship certificates and the Achasan gate splits the sealing key"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT02-title-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0029",
+        "xt02-서해곡창전구",
+        "xt02-west-sea-granary-theater"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "XT02 · 당산 냉동·종자 교환 회랑",
+        "en": "XT02 · Dangsan Cold-Storage and Seed Exchange Corridor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT02-title-list-1",
+      "items": [
+        {
+          "ko": "영등포·구로·여의도·양재·흑석은 당산2동 화물의 배수 안전·냉동 설비·봉인·보존 여부를 나누어 점검한다.",
+          "en": "Yeongdeungpo, Guro, Yeouido, Yangjae and Heukseok divide checks of drainage safety, refrigeration, seals and preservation for Dangsan-2-dong freight."
+        },
+        {
+          "ko": "연결 국가: S01 수문국, S02 규격맹, S03 태욱그룹, S08 중앙정보부, S09 여의도출자연합회",
+          "en": "Linked states: S01 The Sluice, S02 The Gauge, S03 Taeuk Group, S08 Central Intelligence Bureau, S09 Yeouido Investment Federation"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-2-prose-00153",
+      "text": {
+        "ko": "당산2동 한강변 화물 인계 공간에서 수문국 당직이 수위표와 배수 밸브 기록을 맞춘다. 2040년 마곡 종자 창고의 보관 담당자와 난방 경작을 맡은 주민들은 다음 재배에 쓸 종자를 먼저 남긴 뒤 먹을 곡식을 나누기 시작했다. 2087년 일부 주민은 이듬해 수확 전부를 담보로 잡으려는 상인의 요구를 거절했다. 영구 겨울에는 보관 곡식과 난방·공구 수리가 함께 모자라므로, 높은 매입가만으로 종자까지 내줄 수 없었다.",
+        "en": "At the Dangsan-2-dong riverbank freight handover space, the Sluice watch matches water-level tables with drainage-valve records. In 2040 Magok seed-store keepers and residents tending heated cultivation began retaining seed for the next crop before sharing grain for food. In 2087 some residents rejected merchants’ demands to pledge the whole next harvest. Perpetual winter left stored grain, heating and tool repairs scarce together; a high purchase price could not buy the seed reserve as well."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-2-prose-00154",
+      "text": {
+        "ko": "규격맹 이사가 냉동 압축기 소음을 듣고 구로의 부품 순번을 바꾸자 태욱그룹 대리는 봉인 해시가 깨진 상자만 따로 둔다. 2034년 구로·가산의 수리 인력과 기숙 회랑 주민은 남은 철재를 운반 설비에 쓸지 경작 공구에 쓸지 다투었다. 2102년에는 같은 공방의 교환 장부에 수리 시간과 종자 인계가 함께 적혔다. 당산의 냉동 화물을 먼저 살리면 경작 도구 수리가 늦어지고, 공구를 먼저 고치면 보관 중인 식량의 손실이 커진다.",
+        "en": "When a Gauge director changes the Guro parts order after hearing a freezer compressor, a Taeuk deputy manager separates only crates with broken seal hashes. In 2034 repair workers and dormitory-corridor residents in Guro and Gasan disputed whether remaining metal should restore carrying equipment or cultivation tools. By 2102 their workshop exchange ledgers recorded repair hours alongside seed handovers. Saving Dangsan’s frozen freight first delays cultivation-tool repairs; repairing tools first increases losses of stored food."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-2-prose-00155",
+      "text": {
+        "ko": "중앙정보부 점검원은 전력 경고등이 켜져도 한강 남안 냉동 순번을 지우지 않는다. 수서 배분 창구에서 민웅기의 수리 일정 답장이 강남구청 당직자에게 전달되면, 주민들은 부품을 중계기에 쓸지 생활 전력·경작 도구 수리에 남길지 협의한다. 플레이어가 부품 인계를 도우면 한쪽 수리가 늦어진다. 민웅기는 추가 당직을 거절할 수 있다. 신종목의 전직은 동방사 특수회수반이며 총검술을 익혔다. 귀환망은 강남구청–선정릉–수서 생활권 12곳을 잇고, 귀환합성국은 그 생활권의 이동식 민간 중계망으로 운용된다.",
+        "en": "A Central Intelligence Bureau inspector keeps the south-bank cold-storage order even under a power warning. If Min Woonggi’s repair-schedule reply from the Suseo distribution desk reaches the Gangnam-gu Office duty worker, residents negotiate whether parts go to the relay or household power and cultivation-tool repairs. Helping with the handover delays one repair. Min can refuse extra duty. Shin Jongmok formerly served in Eastern Command’s special recovery unit and practices bayonet combat. The Return Network links twelve living areas around Gangnam-gu Office, Seonjeongneung and Suseo; Return Synthesis operates as their mobile civilian relay network."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-2-prose-00156",
+      "text": {
+        "ko": "여의도출자연합회는 당산 인계 공간의 안전 회람과 냉동 화물 인수 보류를 함께 돌린다. 노량진 냉동고와 가락 얼음 창고에서 온 상자는 온도 기록과 봉인 해시가 맞아야 경매·배급 장부에 오른다. 거래 상대는 출자 증서를 거절할 수 있고, 종자 보관 담당자는 다음 재배분을 일반 식량으로 바꾸라는 요구를 거절할 수 있다.",
+        "en": "The Yeouido Investment Federation circulates Dangsan handover safety notices together with holds on frozen freight. Crates from Noryangjin freezers and the Garak ice store enter auction and ration ledgers only when temperature records and seal hashes agree. Counterparties may reject investment certificates, and seed keepers may refuse to release the next cultivation reserve as ordinary food."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-2-prose-00157",
+      "text": {
+        "ko": [
+          {
+            "text": "연표 기록: "
+          },
+          {
+            "text": "2079년 기록",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2079년-xt02-한강-하구-임시-부두"
+            }
+          },
+          {
+            "text": " · "
+          },
+          {
+            "text": "2114년 기록",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2114년-xt02-한강-하구-임시-부두"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Chronicle records: "
+          },
+          {
+            "text": "2079 record",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2079년-xt02-한강-하구-임시-부두"
+            }
+          },
+          {
+            "text": " · "
+          },
+          {
+            "text": "2114 record",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2114년-xt02-한강-하구-임시-부두"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT02-seoul-side-route-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0036"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서울 쪽 경로",
+        "en": "Seoul-side route"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT02-seoul-side-route-list-1",
+      "items": [
+        {
+          "ko": "확인된 지리: 당산2동 한강변 인계 공간은 마곡 종자 창고, 구로·가산 수리 장소, 여의도 점검표 회람과 연결된다.",
+          "en": "Verified geography: The Dangsan-2-dong riverbank handover space connects Magok seed storage, Guro and Gasan repair sites, and inspection-sheet circulation at Yeouido."
+        },
+        {
+          "ko": "준비 거점: 영등포 수문과 정수 당직 → 구로의 압축기·규격 대조 창구 → 여의도의 봉인 해시 장부 → 당산2동 한강변 화물 인계 공간",
+          "en": "Staging nodes: the Yeongdeungpo sluice and treatment watch → Guro's compressor and standards cross-check window → Yeouido's seal-hash ledger → Dangsan-2-dong riverbank freight handover space"
+        },
+        {
+          "ko": "바깥 경계: 마곡·구로·가산·당산2동·여의도의 서울 내부 인계만 다룬다.",
+          "en": "Outbound boundary: Only handovers within Seoul at Magok, Guro, Gasan, Dangsan-2-dong and Yeouido are covered."
+        },
+        {
+          "ko": "이동 시간: 당산 인계 당직은 수위·배수·전력·냉동 상태와 통행권을 대조한 뒤 물자별 출발 순번을 적는다. 상태가 달라질 때마다 대기와 이동 비용을 다시 계산한다.",
+          "en": "Travel time: The Dangsan handover watch compares water level, drainage, power, freezer condition and passage rights before recording freight departure order. Waiting and movement costs are recalculated as conditions change."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT02-travel-and-seasons-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0038"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "이동·계절",
+        "en": "Travel and seasons"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT02-travel-and-seasons-list-1",
+      "items": [
+        {
+          "ko": "계절 조건: 수위와 당산2동 한강변 배수 상태가 부두 접근과 적재 순번을 바꾼다. / 한강 바람과 공방 폐열에 새가 모이면 교량·송신 점검 시간과 횃대 이설을 조정한다. / 냉동 전력이 불안정하면 화물 이동보다 검증·격리 순서를 앞세운다.",
+          "en": "Seasonal conditions: The water level and the state of Dangsan-2-dong riverbank drainage changed wharf access and the loading order. / When river wind and workshop waste heat concentrate birds, bridge and transmitter inspection times and perch relocation are coordinated. / Instability in the cold-storage power demanded the order of verification and quarantine before the movement of cargo."
+        },
+        {
+          "ko": "중단 조건: 수위표와 배수 밸브 기록이 서로 맞지 않을 때 / 냉동 상자의 온도 기록과 봉인 해시가 불일치할 때 / 하역 크레인 제어 키의 분할 보관이 무너졌을 때",
+          "en": "Suspension conditions: when the water level table and the drainage-valve record did not agree / when a cold box's temperature record and its seal hash disagreed / when the split custody of the stevedore crane control keys had collapsed"
+        },
+        {
+          "ko": "기록 원칙: 수위나 전력으로 막힌 연결은 지도에서 지우지 않고 위험·통제·복구 조건이 있는 구간으로 남긴다.",
+          "en": "Recording rule: Links blocked by water level or power were not erased from the map; they remained as sections carrying danger, control, and repair conditions."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT02-supply-and-checkpoints-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0040"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "공급·검문",
+        "en": "Supply and checkpoints"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT02-supply-and-checkpoints-list-1",
+      "items": [
+        {
+          "ko": "식량 · 당산2동 한강변 곡물·냉동 상자: 실물 온도 기록과 봉인 해시가 모두 맞을 때만 경매·배급 장부에 올린다.",
+          "en": "Food · Dangsan-2-dong riverbank grain and cold boxes: Entered the auction and ration ledgers only when both the physical temperature record and the seal hash matched."
+        },
+        {
+          "ko": "설비 · 냉동 압축기 부품과 부두 비상 발전기 교대: 부품 순번은 냉동 상자의 소유 주장과 분리하고 규격 대조 결과를 먼저 남긴다.",
+          "en": "Equipment · freezer compressor parts and the rotation of the wharf emergency generators: The parts order was kept separate from ownership claims on freezer boxes, and the standards-collation result was left first."
+        },
+        {
+          "ko": "기록 · 화물 봉인 해시와 운반 작업자 가족의 임시 숙소 장부: 가족 숙소의 대기 순번은 화물 가격이나 손상 봉인의 책임과 자동으로 묶지 않는다.",
+          "en": "Records · Cargo seal hashes and temporary-lodging ledgers for carrying workers’ families: The lodging queue was never automatically tied to freight price or responsibility for broken seals."
+        },
+        {
+          "ko": "분리 원칙: 냉동 신용은 실물 상태를 대신하지 않으며 상자 하나의 손상은 같은 부두 전체의 출신·안전성을 단정하는 근거가 되지 않는다.",
+          "en": "Separation rule: Frozen credit never replaced physical state, and one box's damage was never grounds for judging the origin and safety of the whole dock."
+        },
+        {
+          "ko": "XT02-CP-YEONGDEUNGPO · 영등포 수문·정수 당직: 수위표와 배수 밸브의 현재 상태를 대조한다. / 수위 기록, 배수 가능 여부, 수문 안전 창",
+          "en": "XT02-CP-YEONGDEUNGPO · the Yeongdeungpo sluice and treatment watch: Compares water-level tables with current drainage-valve conditions. / Water-level record, whether drainage was possible, the sluice safety window"
+        },
+        {
+          "ko": "XT02-CP-GURO-YEOUIDO · 구로 규격 창구와 여의도 봉인 장부: 압축기 부품 호환성과 화물 봉인 해시를 확인한다. / 부품 규격, 압축기 소음·상태 기록, 봉인 해시 불일치",
+          "en": "XT02-CP-GURO-YEOUIDO · the Guro standards window and the Yeouido seal ledger: It confirmed the compatibility of the compressor parts and the cargo seal hashes. / the part standard, the compressor noise and condition record, a seal-hash mismatch"
+        },
+        {
+          "ko": "XT02-CP-ESTUARY-DOCK · 당산2동 한강변 화물 인계 공간: 냉동 상자 격리, 적재 순번, 야간 순찰 인계를 처리한다. / 온도 기록, 적재 순번, 크레인 키 분할 상태",
+          "en": "XT02-CP-ESTUARY-DOCK · Dangsan-2-dong riverbank freight handover space: It handled the quarantine of cold boxes, the loading order, and the handover of the night patrol. / the temperature record, the loading order, the state of the split crane keys"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT02-language-and-rumor-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0042"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "언어·소문",
+        "en": "Language and rumor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT02-language-and-rumor-list-1",
+      "items": [
+        {
+          "ko": "기록 언어: 서울 쪽 부두·수문 원장은 한국어로 기록한다.",
+          "en": "Record language: The Seoul-side dock and sluice ledgers were kept in Korean."
+        },
+        {
+          "ko": "통역 원칙: 작업자가 통역을 요청하면 기존 서울 통역 회랑과 연결한다.",
+          "en": "Interpreter rule: A worker’s request for interpretation is connected to existing Seoul interpretation resources."
+        },
+        {
+          "ko": "확인: 수위·온도·봉인 기록 중 둘 이상이 독립적으로 맞고 해당 인계자가 확인된다.",
+          "en": "confirmed: Two or more of water level, temperature, and seal records matched independently, and the hand-off agent was confirmed."
+        },
+        {
+          "ko": "보류: 상자 또는 부두 하나의 기록만 남아 있으며 재측정이나 재대조가 필요하다.",
+          "en": "withheld: Only a box's or a dock's record remained, needing remeasurement or re-collation."
+        },
+        {
+          "ko": "전언: 냉동고 고장이나 화물 도착 소문만 있고 온도·봉인·수령 기록은 없다.",
+          "en": "hearsay: There is only talk of freezer failure or freight arrival, without temperature, seal or receipt records."
+        },
+        {
+          "ko": "금지 추론: 전언이나 통역 필요만으로 거래 상대의 정책·화물 위법성·통행자 소속을 정하지 않는다.",
+          "en": "Prohibited inference: Hearsay or interpretation needs determine neither a counterparty’s policy, freight legality nor traveler affiliation."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT02-interests-of-the-sixteen-states-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0044"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "16국 이해",
+        "en": "Interests of the sixteen states"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT02-interests-of-the-sixteen-states-list-1",
+      "items": [
+        {
+          "ko": "S01 수문국: 영등포 수위·배수·정수 안전을 지키며 당산2동 인계 시간을 조정한다. 배수 창을 줄이라는 요구에 당직이 이의를 낼 수 있다. / 지렛대 영등포 수문과 정수 당직 / 넘지 않는 선 적재 지연을 이유로 수문 안전 기록을 숨기지 않는다.",
+          "en": "S01 The Sluice: Protects Yeongdeungpo water-level, drainage and purification safety while coordinating Dangsan-2-dong handovers. Watch staff can contest demands to shorten drainage windows. / leverage: the Yeongdeungpo sluice and treatment watch / red line: It did not hide the sluice safety record on the grounds of a loading delay."
+        },
+        {
+          "ko": "S02 규격맹: 구로·가산 수리 공방의 압축기 부품 규격을 대조한다. 종자 인계 담당자와 경작 도구 수리 순번을 두고 다투며 독자 규격을 강제로 없애지 않는다. / 지렛대 구로 공단의 부품·수리 규격 / 넘지 않는 선 규격 불일치를 특정 통역 회랑의 책임으로 돌리지 않는다.",
+          "en": "S02 The Gauge: Compares compressor-part standards in Guro and Gasan repair workshops. Disputes cultivation-tool repair order with seed handlers without abolishing independent standards by force. / leverage: the parts and repair standards of the Guro complex / red line: It did not lay a standards mismatch on one particular interpretation corridor."
+        },
+        {
+          "ko": "S03 태욱그룹: 양재에서 손상 화물과 수리 장비 인계를 분리한다. 구로·용산 수리인에게 부품과 작업을 요청하되 출동과 해체를 명령할 수는 없다. / 지렛대 차체·리깅·현장 수리 능력 / 넘지 않는 선 봉인 손상 상자를 일반 화물에 섞지 않는다.",
+          "en": "S03 Taeuk Group: Separates damaged freight from repair-equipment handover at Yangjae. Requests parts and work from Guro and Yongsan repairers without commanding dispatch or dismantling. / leverage: capacity for bodywork, rigging, and field repair / red line: It did not mix a box with a damaged seal into the ordinary cargo."
+        },
+        {
+          "ko": "S08 중앙정보부: 흑석의 기술 점검과 한강 남안 냉동 순번을 지킨다. 노량진 보관 설비를 살릴지 부품을 해체할지 수리인과 이견을 보인다. / 지렛대 흑석의 기술 점검과 보존 허가 기록 / 넘지 않는 선 전력 경고만으로 취약한 대기열의 순번을 지우지 않는다.",
+          "en": "S08 Central Intelligence Bureau: Protects Heukseok technical checks and south-bank cold-storage order. Disagrees with repairers over preserving Noryangjin storage equipment or dismantling it for parts. / leverage: Heukseok's technical-inspection and preservation-permit records / red line: It did not strike a vulnerable queue's place on a power warning alone."
+        },
+        {
+          "ko": "S09 여의도출자연합회: 여의도에서 봉인·경매·당산 안전 회람을 공개 장부에 남긴다. 거래 상대는 출자 증서를 거절할 수 있고 종자 담당자는 보관분을 식량으로 내주지 않을 수 있다. / 지렛대 여의도 출자 장부와 송신 기억 / 넘지 않는 선 가격 구호가 봉인 검증이나 안전 회람을 대신하게 하지 않는다.",
+          "en": "S09 Yeouido Investment Federation: Keeps public Yeouido records of seals, auctions and Dangsan safety notices. Counterparties may reject investment certificates, and seed keepers may withhold reserves from food distribution. / leverage: the Yeouido investment ledgers and the transmission memory / red line: It did not let a price slogan stand in for seal verification or the safety circular."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT02-ecological-pressure-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0046"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생태 압력",
+        "en": "Ecological pressure"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT02-ecological-pressure-list-1",
+      "items": [
+        {
+          "ko": "G02: 한강 바람과 공방 폐열에 모인 먹이가 겹치면 까마귀가 교량·송신 점검구 위에 공동 횃대를 만든다. / 대응 우산 행렬, 대체 횃대, 보수 시간대 조정으로 사람과 둥지를 갈라 놓는다. / 비살상 제약 둥지를 한꺼번에 밀어내지 않고 이설 막대와 존치 구간을 사용한다.",
+          "en": "G02: River wind and food concentrated by workshop waste heat can draw crows to shared perches above bridge and transmitter inspection hatches. / response: Umbrella columns, substitute perches, and a shifted maintenance hour separated people from the nests. / nonlethal constraint: Instead of pushing the nests out all at once, relocation poles and a retained stretch were used."
+        },
+        {
+          "ko": "G17: 당산 펌프와 냉동 설비의 국지 전기 잡음이 커지면 외눈탑의 수변 경보 반경이 넓어질 수 있다. / 대응 대역 필터와 의료·수문 표식의 대조로 오탐을 분리한다. / 비살상 제약 마스트를 일괄 파괴하지 않고 오탐을 낸 헤드만 대기 상태로 둔다.",
+          "en": "G17: Local electrical noise from Dangsan pumps and refrigeration can widen the One-eyed Tower’s riverside alarm radius. / response: False alarms were separated by cross-checking the band filter against the medical and sluice markers. / nonlethal constraint: Instead of destroying the masts wholesale, only the head that raised the false alarm was left on standby."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT02-opening-2126-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0048"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "개막 2126",
+        "en": "Opening 2126"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT02-opening-2126-list-1",
+      "items": [
+        {
+          "ko": "사건: XT02-SC1",
+          "en": "Event: XT02-SC1"
+        },
+        {
+          "ko": "촉발: 당산2동 배수 밸브의 결빙과 수위 경고가 화물 인계 순번을 동시에 바꾼다.",
+          "en": "Trigger: Icing of Dangsan-2-dong drainage valves and a water-level warning change freight handover order together."
+        },
+        {
+          "ko": "충돌: 수문 안전을 먼저 보장해야 한다는 당직과 냉동 화물의 손실을 줄여야 한다는 부두 측 요구가 충돌한다.",
+          "en": "Conflict: The watch demanding sluice safety first collided with the dock demanding reduced loss of frozen freight."
+        },
+        {
+          "ko": "첫 판단: 냉동 상자 격리와 적재 지연을 공개할지, 배수 창을 먼저 확보하고 손상 위험을 장부에 남길지 선택한다.",
+          "en": "First decision: Choose whether to disclose freezer-box isolation and loading delay, or secure the drainage window first and leave the damage risk in the ledger."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT02-player-entry-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0050"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "플레이어 진입",
+        "en": "Player entry"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT02-player-entry-list-1",
+      "items": [
+        {
+          "ko": "XT02-ENTRY-YEONGDEUNGPO-TIDE · 영등포 수문 당직: 수위표와 배수 밸브 기록을 대조하는 보조 / 첫 판단 부두 적재 요청보다 수문 안전 창을 먼저 공고할지 결정한다.",
+          "en": "XT02-ENTRY-YEONGDEUNGPO-TIDE · the Yeongdeungpo sluice watch: an assistant cross-checking the water level table against the drainage-valve record / first decision: Decide whether to post the sluice safety window before the wharf's loading request."
+        },
+        {
+          "ko": "XT02-ENTRY-ESTUARY-SEAL · 당산2동 한강변 임시 부두: 손상 봉인 화물을 분리·기록하는 현장 인계자 / 첫 판단 봉인 해시가 맞지 않는 상자를 격리할지 재측정까지 적재를 늦출지 결정한다.",
+          "en": "XT02-ENTRY-ESTUARY-SEAL · the temporary Dangsan-2-dong riverbank wharf: a field handover officer separating and recording cargo with damaged seals / first decision: Decide whether to quarantine boxes whose seal hashes do not match or hold loading until they are measured again."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT02-explicit-unknowns-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0052"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "명시적 미정",
+        "en": "Explicit unknowns"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT02-explicit-unknowns-list-1",
+      "items": [
+        {
+          "ko": "작업 순번이 다르면 다음 물량의 수리·인계 우선순위는 조정 전까지 미결이다. 마곡의 종자 보관 기록, 구로·가산 수리 교환 장부, 당산2동 한강변 냉동 식량 인계표에는 서로 다른 작업 순번이 적혀 있다. 당산 당직자는 전력과 배수 상태를 살피며 다음 물량을 기다린다.",
+          "en": "When work orders differ, repair and handover priority for the next consignment remains unsettled pending coordination. Magok seed records, Guro and Gasan repair ledgers, and Dangsan-2-dong frozen-food handover sheets carry different work orders. The Dangsan watch checks power and drainage while awaiting the next consignment."
+        },
+        {
+          "ko": "종자 보관 조건과 거래 상대의 인계 조건이 맞지 않으면 교환 조건은 미결이다. 마곡 보관 담당자와 주민은 종자 우선 배정과 독점 담보 거절의 이유를 자기 장부에 남겼다. 당산의 거래 상대는 그 기록을 자기 인계 조건과 나란히 놓고 교환을 협의한다.",
+          "en": "When seed-reserve terms and counterparties’ handover terms do not align, exchange terms remain unsettled. Magok keepers and residents recorded their reasons for seed priority and refusal of exclusive collateral in their own ledger. Dangsan trading partners compare that record with their own handover conditions when negotiating exchanges."
+        },
+        {
+          "ko": "보류 표와 도착 화물 기록이 맞지 않으면 해당 화물의 인수 여부는 미결이다. 당산 당직자는 도착 화물의 봉인표를 냉동 순번과 대조한다. 압축기가 멈추거나 배수가 밀린 날의 보류 표가 장부에 남아 있어, 수령인은 다음 인계 때 그 표부터 확인한다.",
+          "en": "When hold slips and arriving freight records do not match, acceptance of that freight remains unresolved. The Dangsan watch compares arriving cargo seals with freezer order. Hold slips from days of compressor failure or delayed drainage remain in the ledger, and recipients check those slips first at the next handover."
+        },
+        {
+          "ko": "인계서의 용어와 수령인 확인이 다르면 당사자가 확인한 뜻은 미확인이다. 흑석 통역 담당자는 요청받은 발화와 한국어 주석을 나란히 적는다. 용어가 다른 인계서는 수령인 확인 기록 옆에 두고 당사자에게 다시 읽어 준다.",
+          "en": "When receipt terminology and recipient checks disagree, the meaning confirmed by the parties remains unverified. Heukseok interpreters record requested speech beside Korean annotations. Receipts with differing terms are placed beside recipient-check records and read back to the people concerned."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT02-scenario-chains-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0054"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 쇄",
+        "en": "Scenario chains"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT02-scenario-chains-list-1",
+      "items": [
+        {
+          "ko": "XT02-SC1: 영등포 수문 당직이 당산2동 수위와 결빙에 맞춰 배수·인계 순번을 다시 짠다",
+          "en": "XT02-SC1: Yeongdeungpo sluice watch replans drainage and handover order for Dangsan-2-dong water levels and ice"
+        },
+        {
+          "ko": "XT02-SC2: 서남 제작창이 냉동 압축기 부품을 나누고 마곡이 계측 로그를 검증한다",
+          "en": "XT02-SC2: The southwestern fabrication window divides freezer compressor parts and Magok verifies the instrumentation logs"
+        },
+        {
+          "ko": "XT02-SC3: 노량진 얼음 신용이 흔들릴 때 상암 송신이 경매 방송만 중계한다",
+          "en": "XT02-SC3: When Noryangjin ice credit shakes, Sangam transmission relays only the auction broadcast"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT03-title-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0056",
+        "xt03-대한해협전구",
+        "xt03-korea-strait-theater"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "XT03 · 용산 삼로 환적·회수 회랑",
+        "en": "XT03 · Yongsan Three-way Transshipment and Recovery Corridor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT03-title-list-1",
+      "items": [
+        {
+          "ko": "용산·시청·명동·삼성·흑석은 신내·암사·여의도 중계의 화물과 기록을 대조한다.",
+          "en": "Yongsan, City Hall, Myeongdong, Samseong and Heukseok compare freight and records from the Sinnae, Amsa and Yeouido relays."
+        },
+        {
+          "ko": "연결 국가: S07 환적국, S16 정동노총, S15 명동대교구, S04 명부교회, S08 중앙정보부",
+          "en": "Linked states: S07 The Junction, S16 Jeongdong Federation, S15 Myeongdong Archdiocese, S04 Myeongbu Church, S08 Central Intelligence Bureau"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-3-prose-00158",
+      "text": {
+        "ko": "용산 환적창 앞의 세 갈래 중계표에는 신내 차량기지·암사 야적장·여의도 회관의 보고가 따로 꽂힌다. 2058년 용산의 운반 인력과 수리인은 유지할 수 있는 대차만 골라 끊긴 화물 인계를 다시 열었다. 대차마다 자재를 낸 사람과 일을 한 사람이 달라 환적 담당자 한 명이 모든 운행을 명령할 수 없었다. 수리인은 설비를 살리자고 하고 해체를 맡은 인력은 부품을 나누자고 했다. 영구 겨울의 예열 전력과 수리 시간이 그 선택을 제한했다.",
+        "en": "The three-way board outside Yongsan’s transshipment shed holds separate reports from Sinnae depot, Amsa yard and Yeouido Hall. In 2058 Yongsan carriers and repair workers selected only maintainable dollies to reopen interrupted freight handovers. Different people had supplied each dolly’s materials and labor, so one dispatcher could not command every run. Repair workers wanted equipment restored while dismantlers wanted its parts divided. Preheating power and repair time in perpetual winter limited both choices."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-3-prose-00159",
+      "text": {
+        "ko": "정동노총 지부장은 용산의 인계가 닫히면 서울 안 회차 가능 칸을 확인하고, 명동대교구 신부는 혼인·위령 인준 봉투를 따로 봉인한다. 2041년 시청과 용산의 운반 인력은 자재와 노동을 낸 순서를 다음 운반 작업의 배정 장부에 남겼다. 복도에 남아 수리를 계속할 사람과 자기 거처로 돌아갈 사람은 작업 몫과 임금을 두고 다투었다. 가족 상담과 노동 계약은 별개였고, 인준 봉인이 복귀나 복무를 강제하지는 않았다.",
+        "en": "When Yongsan handovers close, a Jeongdong Federation branch chief checks cars able to turn within Seoul, while a Myeongdong priest seals marriage and memorial accreditation separately. In 2041 City Hall and Yongsan carriers recorded contributions of materials and labor in the next carrying assignment ledger. Those staying to repair the corridor and those returning to their homes disputed shares and wages. Family counseling remained separate from labor contracts; an accreditation seal imposed neither return nor service."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-3-prose-00160",
+      "text": {
+        "ko": "명부교회 집사는 삼성의 밀봉 상자를 넘기고 용산의 회수품 장부를 받는다. 2118년 용산 화물홈에서 장비와 작업자가 억류되자, 물건을 맡긴 이들과 각자 계약한 호송 인력이 한시적으로 회수 작업을 함께했다. 현장에서 출입을 막힌 운반 인력이 문과 적재 순서를 알려 주었고, 합동 인력은 그 화물홈에서 장비와 억류된 사람을 되찾았다. 물건 주인은 반환을, 호송 담당자는 감시 지속을, 현장 운반 인력은 임금과 작업 선택권을 요구했다. 수리 자재와 교대 인력이 모자라 2119년 임시 감시는 끝났고, 회수품 반환과 미지급 공임의 대조만 남았다.",
+        "en": "A Myeongbu Church deacon hands over sealed Samseong crates and receives Yongsan’s recovery ledger. In 2118, after equipment and workers were detained at the Yongsan freight platform, depositors and their separately contracted escorts temporarily cooperated on recovery. Carriers barred from the site explained the doors and loading order; the joint party recovered equipment and detained people at that platform. Owners demanded return, escort supervisors demanded continued watch, and local carriers demanded wages and the choice of work. Repair materials and relief staff ran short, ending the temporary watch in 2119 while property returns and unpaid carrying work still required collation."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-3-prose-00161",
+      "text": {
+        "ko": "흑석 통역 창구는 회수품 인계서의 원문과 한국어 주석을 나란히 적는다. 2126년 용산에서는 의뢰인의 반환 청구와 회수에 참여한 운반 인력의 약속된 공임이 같은 장비를 놓고 충돌할 수 있다. 만남이 성립하면 플레이어는 밀봉을 풀기 전에 수령인 서명과 공임 약속을 따로 대조한다. 운반 인력은 인계 장부 곁에서 약속된 몫의 확인을 기다린다.",
+        "en": "The Heukseok interpretation window records original recovery receipts beside Korean annotations. In 2126 at Yongsan, a depositor’s return claim may conflict with promised pay for carriers who helped recover the same equipment. If the meeting takes place, the player compares recipient signatures and pay promises separately before unsealing. The carriers wait beside the handover ledger for confirmation of their promised share."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-3-prose-00162",
+      "text": {
+        "ko": [
+          {
+            "text": "연표 기록: "
+          },
+          {
+            "text": "2079년 기록",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2079년-xt03-용산-환적창"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Chronicle record: "
+          },
+          {
+            "text": "2079 record",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2079년-xt03-용산-환적창"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT03-seoul-side-route-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0063"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서울 쪽 경로",
+        "en": "Seoul-side route"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT03-seoul-side-route-list-1",
+      "items": [
+        {
+          "ko": "확인된 지리: 용산 환적창은 신내 차량기지·암사 야적장·여의도 회관의 세 갈래 중계 보고를 받는다.",
+          "en": "Verified geography: The Yongsan transshipment shed receives three branches of relay reports from the Sinnae depot, Amsa storage yard and Yeouido Hall."
+        },
+        {
+          "ko": "준비 거점: 신내 차량기지·암사 야적장·여의도 회관의 세 보고를 용산 환적창에서 받는다. 시청 회차·명동 인준·삼성 밀봉·흑석 통역은 별도로 확인한다.",
+          "en": "Staging nodes: Yongsan transshipment shed receives three reports from Sinnae depot, Amsa yard and Yeouido Hall. City Hall turnback, Myeongdong accreditation, Samseong seals and Heukseok interpretation are checked separately."
+        },
+        {
+          "ko": "바깥 경계: 신내 차량기지·암사 야적장·여의도 회관에서 용산으로 이어지는 서울 내부 인계다.",
+          "en": "Outbound boundary: Handovers run within Seoul from Sinnae depot, Amsa yard and Yeouido Hall to Yongsan."
+        },
+        {
+          "ko": "이동 시간: 용산 당직자는 중계표의 불일치, 작업장 전력, 밀봉 상태, 서울 안 회차와 통역 대조 결과를 인계표에 적는다. 수령인과 운반 인력은 그 기록을 보고 대기와 이동 비용을 협의한다.",
+          "en": "Travel time: The Yongsan watch records relay-table discrepancies, worksite power, seal condition, turns within Seoul and interpretation checks on the handover sheet. Recipients and carriers use that record to negotiate waiting and movement costs."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT03-travel-and-seasons-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0065"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "이동·계절",
+        "en": "Travel and seasons"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT03-travel-and-seasons-list-1",
+      "items": [
+        {
+          "ko": "계절 조건: 출발 전 당직자는 영구 겨울 속 구간별 결빙을 살피고 예열 전력과 밀봉 상태를 대조하여 통행 가능한 구간을 장부에 적는다. / 물류 진동이 커지면 냉동고 진입로와 하역장 입구의 서울 측 생태 압력이 높아질 수 있다. / 먼지와 차압 문제가 생기면 의료·물자 호송은 통역 확인과 별도로 방호 절차를 거친다.",
+          "en": "Seasonal conditions: Before departure, the watch inspects icing along each segment in perpetual winter, checks preheating power and seal condition, and records the passable segments in the ledger. / When the logistics vibration grew, the Seoul-side ecological pressure at the freezer approaches and the stevedore-yard entrances could rise. / When dust and differential-pressure trouble appeared, the medical and goods convoys went through a protection procedure separate from the interpretation check."
+        },
+        {
+          "ko": "중단 조건: 중계표의 용어가 한국어 주석과 대조되지 않을 때 / 밀봉 상자의 인계 기록이 끊겼을 때 / 대체 회차선의 통행권이 확인되지 않을 때",
+          "en": "Suspension conditions: when the relay table's terms did not cross-check against the Korean annotation / when the handover record of a sealed box had broken off / when the right of passage on the substitute turnback line was unconfirmed"
+        },
+        {
+          "ko": "기록 원칙: 한 중계가 닫혀도 같은 물자와 위험이 나머지 중계로 자동으로 넘어가지 않는다.",
+          "en": "Recording rule: Even when one relay closed, the remaining relays did not automatically absorb the same freight and risk."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT03-supply-and-checkpoints-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0067"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "공급·검문",
+        "en": "Supply and checkpoints"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT03-supply-and-checkpoints-list-1",
+      "items": [
+        {
+          "ko": "물자 · 부품·약품·통조림과 밀봉 공구: 밀봉 상태, 도구의 수령 책임, 통역 주석을 같은 인계 기록에 병렬로 남긴다.",
+          "en": "Goods · parts, medicine, canned goods, and sealed tools: Seal state, receipt responsibility for tools, and interpretation annotations were left in parallel on the same hand-off record."
+        },
+        {
+          "ko": "전력 · 부두 충전 슬롯 예약: 충전 담당자는 슬롯 배정표를 쓰고, 운반 보조 단말의 보관 담당자와 통행 인준 담당자는 각자의 인계 기록을 대조한다.",
+          "en": "Power · reservation of the wharf charging slots: The charging watch records slot allocations, while custodians of carrying-assistance terminals and passage-accreditation staff each check their own handover records."
+        },
+        {
+          "ko": "기록 · 통역 용어 사전, 회수 작업자 검역 대기, 가족 상담 기록: 용어 충돌은 번역자의 결함으로 처리하지 않고 원문·주석·발화 맥락을 함께 보류한다.",
+          "en": "Records · the interpretation glossary, the quarantine waiting of recovered workers, and the family-counseling records: A term clash was not treated as the translator's defect; original text, annotation, and speech context were held together."
+        },
+        {
+          "ko": "분리 원칙: 혼인·위령 인준, 통역 주석, 화물 봉인, 검역 대기는 서로 다른 권한으로 처리한다.",
+          "en": "Separation rule: Marriage and memorial accreditation, interpretation annotations, freight seals, and quarantine waits were handled under different authorities."
+        },
+        {
+          "ko": "XT03-CP-YONGSAN · 용산 환적창: 세 갈래 중계표와 환적 장부를 비교하고 중계 선택을 기록한다. / 중계표 불일치, 환적 슬롯, 화물 인계 기록",
+          "en": "XT03-CP-YONGSAN · the Yongsan transshipment shed: It compared the three-branch relay table with the transshipment ledger and recorded the relay choice. / a relay-table mismatch, the transshipment slot, the cargo handover record"
+        },
+        {
+          "ko": "XT03-CP-SICHEONG-MYEONGDONG · 시청 회차 창구와 명동 인준 창구: 서울 내 회차권과 혼인·위령 인준 봉인의 형식을 각각 확인한다. / 회차 슬롯, 인준 봉인, 수령 책임자",
+          "en": "XT03-CP-SICHEONG-MYEONGDONG · the City Hall turnback window and the Myeongdong accreditation window: It confirmed separately the form of the Seoul-internal turnback right and of the marriage and memorial accreditation seals. / the turnback slot, the accreditation seal, the officer responsible for receipt"
+        },
+        {
+          "ko": "XT03-CP-SAMSUNG-HEUKSEOK · 삼성 밀봉 창구와 흑석 통역 창구: 밀봉 화물과 외래어 주석의 대조를 분리해 처리한다. / 밀봉 상태, 한국어 주석, 통역 요청 동의",
+          "en": "XT03-CP-SAMSUNG-HEUKSEOK · the Samseong sealed window and the Heukseok interpretation window: It handled separately the cross-check of the sealed cargo and of the loanword annotation. / the state of the seal, the Korean annotation, consent to the interpretation request"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT03-language-and-rumor-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0069"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "언어·소문",
+        "en": "Language and rumor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT03-language-and-rumor-list-1",
+      "items": [
+        {
+          "ko": "기록 언어: 서울 쪽 협정 원장은 한국어 주석을 기준으로 남긴다.",
+          "en": "Record language: The Seoul-side accord ledgers were kept against the Korean annotations."
+        },
+        {
+          "ko": "통역 원칙: 이태원과 흑석의 기존 통역 자원은 요청된 발화를 대조하기 위한 서울 측 자원으로만 쓴다.",
+          "en": "Interpreter rule: The existing interpretation resources of Itaewon and Heukseok were used only as Seoul-side resources for cross-checking requested utterances."
+        },
+        {
+          "ko": "확인: 서로 독립된 화물 기록과 통역 원문·주석이 맞고 인계 책임자가 확인된다.",
+          "en": "confirmed: Mutually independent freight records and interpretation originals and annotations matched, and the hand-off authority was confirmed."
+        },
+        {
+          "ko": "보류: 중계표 사이에 불일치가 남아 있으나 밀봉·회차 기록의 일부가 확인된다.",
+          "en": "withheld: Mismatches remained among the relay tables, though part of the seal and turn records was confirmed."
+        },
+        {
+          "ko": "전언: 세 중계가 서로 다른 이야기를 전하지만 원문·수령·화물 기록으로 교차 확인되지 않았다.",
+          "en": "hearsay: The three relays told different stories, unconfirmed by originals, receipts, or freight records."
+        },
+        {
+          "ko": "금지 추론: 중계표나 통역되지 않은 단어만으로 발급자의 의도·인계 중단 원인·발화자의 정체성을 정하지 않는다.",
+          "en": "Prohibited inference: A relay table or untranslated word alone determines neither the issuer’s intent, cause of handover closure nor speaker identity."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT03-interests-of-the-sixteen-states-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0071"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "16국 이해",
+        "en": "Interests of the sixteen states"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT03-interests-of-the-sixteen-states-list-1",
+      "items": [
+        {
+          "ko": "S07 환적국: 용산 환적과 신내·암사·여의도 보고를 잇는다. 회수품 인계와 하역 공임을 다루되 화물홈 소유권을 얻지는 않는다. / 지렛대 중앙 환적 장부와 울타리 열쇠의 운영 기억 / 넘지 않는 선 닫힌 한 길의 위험을 다른 회차선에 자동 전가하지 않는다.",
+          "en": "S07 The Junction: Links Yongsan transshipment with Sinnae, Amsa and Yeouido reports. Handles recovered-property transfer and unloading pay without acquiring freight-platform title. / leverage: the operating memory of the central transshipment ledger and the fence keys / red line: It did not automatically pass the risk of one closed route onto another turnback line."
+        },
+        {
+          "ko": "S16 정동노총: 시청 회차와 운반 노동 조건을 공개한다. 용산 회수 작업의 임금과 작업 종료 선택을 다루되 모든 운반 인력을 대표하지 않는다. / 지렛대 시청 회차선과 파업 명부의 통행권 / 넘지 않는 선 통역이 없는 화물을 노동자에게 일방 인계하지 않는다.",
+          "en": "S16 Jeongdong Federation: Publishes City Hall turnback and carrying conditions. Handles wages and choices to end Yongsan recovery work without representing every carrier. / leverage: the City Hall turnback line and the passage right of the strike rolls / red line: It did not hand cargo with no interpretation to the workers unilaterally."
+        },
+        {
+          "ko": "S15 명동대교구: 명동의 혼인·위령 인준과 가족 상담을 지킨다. 떨어져 사는 가족의 거주 선택을 단일 복귀 명령으로 바꾸지 않는다. / 지렛대 명동 제대와 교구 명부 / 넘지 않는 선 인준 봉인을 통행 경계나 상대 세력의 정책 판정으로 쓰지 않는다.",
+          "en": "S15 Myeongdong Archdiocese: Protects Myeongdong marriage and memorial accreditation and family counseling. Does not turn separate families’ residence choices into a single return order. / leverage: the Myeongdong altar and the diocesan rolls / red line: An accreditation seal determines neither passage boundaries nor another faction’s policy."
+        },
+        {
+          "ko": "S04 명부교회: 삼성 밀봉 상자와 구휼 물자의 보관 책임을 분명히 한다. 회수품 수령인과 가족 장부를 따로 대조한다. / 지렛대 삼성역 예배당 명부와 보관 관습 / 넘지 않는 선 국경 이야기를 이유로 밀봉 화물의 검증을 생략하지 않는다.",
+          "en": "S04 Myeongbu Church: Clarifies custody of Samseong sealed crates and relief goods. Checks recovered-property recipients separately from family ledgers. / leverage: the Samsung Station chapel rolls and the custom of custody / red line: It did not skip verification of sealed cargo on the grounds of a border story."
+        },
+        {
+          "ko": "S08 중앙정보부: 흑석 당직은 용산 회수 장비의 기술 점검 결과와 보존 의견을 기록한다. 운반 공임을 마련하려 부품을 해체하자는 요구와 설비를 보존하자는 요구가 충돌한다. / 지렛대 흑석의 기술 점검 원장 / 넘지 않는 선 점검 기록이 없는 화물은 보존 허가를 내주지 않는다.",
+          "en": "S08 Central Intelligence Bureau: The Heukseok watch records technical inspection results and preservation opinions for recovered Yongsan equipment. Requests to dismantle parts to pay carriers conflict with demands to preserve the equipment. / leverage: Heukseok's technical-inspection ledger / red line: It did not grant preservation permits to cargo without inspection records."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT03-ecological-pressure-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0073"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생태 압력",
+        "en": "Ecological pressure"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT03-ecological-pressure-list-1",
+      "items": [
+        {
+          "ko": "G03: 용산 하역 진동과 노량진 급식 중단이 겹치면 들개가 냉동고 진입로를 둘러쌀 수 있다. / 대응 가족별 급식 구역과 그늘 통로를 마련해 하역 진입로를 분리한다. / 비살상 제약 무리를 단일 적대 집단으로 취급하거나 학살 명령을 쓰지 않는다.",
+          "en": "G03: Yongsan unloading vibration combined with a Noryangjin feeding interruption can draw dogs around freezer approaches. / response: Feeding zones by family and shaded passages were laid out, separating the stevedore approaches. / nonlethal constraint: The pack was not treated as a single hostile body, and no order of slaughter was used."
+        },
+        {
+          "ko": "G08: 신내·암사·여의도에서 용산으로 넘긴 미세척 포대를 동대문 방호문 앞에서 열면 분진과 차압 변화가 클린룸변이자의 판단을 흔든다. / 대응 차압·접지·명부를 한 키에 합치지 않고 문별 승인 기록을 대조한다. / 비살상 제약 의료 호송을 위해 전 문을 무단 개방하지 않는다.",
+          "en": "G08: Opening unwashed sacks transferred from Sinnae, Amsa or Yeouido through Yongsan at a Dongdaemun protective door can disturb Cleanroom Mutants through dust and pressure changes. / response: Differential pressure, grounding, and the rolls were not combined on one key; the approval record of each door was cross-checked. / nonlethal constraint: The doors were not all opened without authority for the sake of a medical convoy."
+        },
+        {
+          "ko": "G18: 환적 진동이 불다리열차의 결함 맵과 실제 균열 좌표를 섞을 수 있다. / 대응 원본 해시가 찍힌 제외 목록을 차상 포트에 넣고 수동 견인로를 남긴다. / 비살상 제약 차량을 파괴하는 대신 잘못 연결된 결함 맵을 회수한다.",
+          "en": "G18: Transshipment vibration could mix the Fire-Leg Train's defect map with the real crack coordinates. / response: The exclusion list stamped with the original hash was loaded to the onboard port, and a manual tow route was left. / nonlethal constraint: Instead of destroying the cars, the wrongly connected defect map was withdrawn."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT03-opening-2126-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0075"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "개막 2126",
+        "en": "Opening 2126"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT03-opening-2126-list-1",
+      "items": [
+        {
+          "ko": "사건: XT03-SC1",
+          "en": "Event: XT03-SC1"
+        },
+        {
+          "ko": "촉발: 용산 환적창에서 세 갈래 중 한 중계가 닫히고 수서의 대체 회차선이 열린다.",
+          "en": "Trigger: At the Yongsan transshipment shed one of the three relay legs closed, and the Suseo substitute turn line opened."
+        },
+        {
+          "ko": "충돌: 중계표의 불일치를 먼저 풀어야 한다는 기록 측과 제한된 회차선을 먼저 써야 한다는 호송 측이 충돌한다.",
+          "en": "Conflict: The records side demanding the relay mismatch be solved first collided with the escort side demanding the limited turn line be used first."
+        },
+        {
+          "ko": "첫 판단: 통역 불일치가 있는 상자를 격리할지, 제한된 서울 내 회차로 돌리되 보류 기록을 공개할지 선택한다.",
+          "en": "First decision: Choose whether to quarantine the boxes with interpretation mismatches, or turn them onto the limited turnback route within Seoul and publish the held records."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT03-player-entry-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0077"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "플레이어 진입",
+        "en": "Player entry"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT03-player-entry-list-1",
+      "items": [
+        {
+          "ko": "XT03-ENTRY-YONGSAN-RELAY · 용산 환적창: 중계표와 환적 장부를 대조하는 통역 보조 / 첫 판단 닫힌 중계의 전언을 사실로 올리지 않고 어느 기록을 보류할지 정한다.",
+          "en": "XT03-ENTRY-YONGSAN-RELAY · the Yongsan transshipment shed: an interpretation assistant cross-checking the relay table against the transshipment ledger / first decision: Decide which record to withhold, keeping reports from a closed relay unconfirmed."
+        },
+        {
+          "ko": "XT03-ENTRY-HEUKSEOK-GLOSS · 흑석 통역 창구: 원문·한국어 주석·수령 동의를 묶는 기록관 / 첫 판단 용어 충돌을 기록으로 남길지 대조가 끝날 때까지 화물 인계를 늦출지 정한다.",
+          "en": "XT03-ENTRY-HEUKSEOK-GLOSS · the Heukseok interpretation window: a registrar binding the original, the Korean annotation, and the consent to receipt / first decision: Decide whether to record the clash of terms or delay cargo handover until the cross-check is complete."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT03-explicit-unknowns-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0079"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "명시적 미정",
+        "en": "Explicit unknowns"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT03-explicit-unknowns-list-1",
+      "items": [
+        {
+          "ko": "같은 장비의 반환 청구와 미지급 공임이 충돌하면 남은 지급 의무는 미결이다. 용산의 2118~2119년 회수 기록과 2126년 반환 청구에는 같은 장비가 서로 다른 공임 근거와 함께 적혀 있다. 흑석 당직은 인계서 원문과 서명을 나란히 놓고 어느 약속이 남아 있는지 대조한다.",
+          "en": "When return claims and unpaid carrying work conflict over the same equipment, outstanding payment obligations remain unresolved. Yongsan recovery records from 2118–2119 and return claims in 2126 list the same equipment against different grounds for pay. The Heukseok watch lays original receipts beside signatures to compare the outstanding promises."
+        },
+        {
+          "ko": "세 기록의 서명과 날짜가 맞지 않으면 각 청구의 적용 범위는 미결이다. 의뢰인은 반환 인계서를, 호송 인력은 감시 기록을, 현장 운반 인력은 공임 약속을 제시한다. 용산 당직자는 같은 장비를 가리키는 세 기록의 서명과 날짜를 따로 대조한다.",
+          "en": "When signatures and dates in the three records disagree, the scope of each claim remains unresolved. Depositors present return receipts, escorts present watch records, and local carriers present pay promises. The Yongsan watch separately compares signatures and dates in the three records concerning the same equipment."
+        },
+        {
+          "ko": "중계표가 다르면 다음에 쓸 회차 칸과 대기 순번은 재대조 전까지 미결이다. 신내·암사·여의도에서 보낸 중계표에는 접수 시각과 회차 가능 칸이 서로 다르게 적혀 있다. 용산 당직자는 보고가 도착할 때마다 환적 장부의 대기 순번을 고친다.",
+          "en": "When relay sheets differ, the next turnback car and waiting order remain unresolved pending comparison. Relay sheets sent from Sinnae, Amsa and Yeouido differ in receipt times and cars able to turn back. Each time a report arrives, the Yongsan watch revises waiting order in the transshipment ledger."
+        },
+        {
+          "ko": "원문과 통역 주석의 표현이 다르면 수령인이 동의한 내용은 미확인이다. 흑석 창구에는 인계서 원문과 요청받은 통역 주석이 함께 남는다. 표현이 엇갈리는 줄은 당사자의 서명과 수령 기록을 곁에 놓고 다시 읽는다.",
+          "en": "When the original and interpretation notes differ, the content consented to by the recipient remains unverified. The Heukseok window retains original handover sheets with requested interpretation notes. Lines whose expressions differ are reread beside the parties’ signatures and receipt records."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT03-scenario-chains-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0081"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 쇄",
+        "en": "Scenario chains"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT03-scenario-chains-list-1",
+      "items": [
+        {
+          "ko": "XT03-SC1: 용산 환적창이 삼로 중 한 길을 닫고 수서가 대체 회차선을 연다",
+          "en": "XT03-SC1: The Yongsan shed closes one of three legs and Suseo opens a substitute turn line"
+        },
+        {
+          "ko": "XT03-SC2: 가락 배급이 통조림 할당을 재조정하고 뚝섬 공방이 밀봉 공구를 보낸다",
+          "en": "XT03-SC2: Garak rations reallocate the canned-goods quota and the Ttukseom workshops send sealed tools"
+        },
+        {
+          "ko": "XT03-SC3: 노량진 통역 창구가 용어 충돌을 기록하고 협정을 유지한다",
+          "en": "XT03-SC3: The Noryangjin interpretation window records a term clash and keeps the accord in force"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT04-title-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0083",
+        "xt04-두만강극동전구",
+        "xt04-duman-river-far-east-theater"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "XT04 · 암사 중량·연료 인계 회랑",
+        "en": "XT04 · Amsa Heavy-Freight and Fuel Handover Corridor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT04-title-list-1",
+      "items": [
+        {
+          "ko": "암사·신내·강남·제기동·구의는 고덕 회수 자재와 보관 연료의 중량·호송·치료·봉인을 나누어 맡는다.",
+          "en": "Amsa, Sinnae, Gangnam, Jegi-dong and Guui divide weighing, escort, treatment and sealing for Godeok recovered materials and stored fuel."
+        },
+        {
+          "ko": "연결 국가: S05 동방사, S12 신내운수, S11 성하그룹, S13 흰십자단, S14 아관사",
+          "en": "Linked states: S05 Eastern Command, S12 Sinnae Transport, S11 Seongha Group, S13 White Cross, S14 Achasan Gate"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-4-prose-00163",
+      "text": {
+        "ko": "동방사 암사 야적장에서 화차 중량 센서가 한 칸만 과하게 뛴다. 2064년 고덕 정비로·암사 야적장·신내 차량기지의 작업자들은 유지할 수 있는 짧은 구간마다 사람과 짐을 인계했다. 고덕에서 회수한 자재를 신내에서 다시 실으면 화차 출발지와 짐의 회수 기록은 달라진다. 2069년 암사의 중량 대조는 이 차이를 숨기는 위조와 정당한 재적재를 구별하려는 작업이었으며, 끊긴 구간까지 정기 운행된다는 보장은 아니었다.",
+        "en": "At Eastern Command’s Amsa yard, one freight-car weight sensor jumps too high. In 2064 workers on the Godeok maintenance road, Amsa yard and Sinnae depot handed people and goods between short sections they could maintain. When material recovered at Godeok was reloaded at Sinnae, the car’s departure point differed from the material’s recovery record. Amsa’s 2069 weighing sought to distinguish concealment from legitimate reloading; it guaranteed no scheduled service over interrupted sections."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-4-prose-00164",
+      "text": {
+        "ko": "신내운수 호송원은 그 칸을 우회 슬롯에 넣고 성하그룹 대리는 보관 연료 드럼 순번을 다시 쓴다. 2068년부터 고덕 방호 격납고의 정비·구조 당직은 암사 장비 인계조와 교대하며 고장 난 운반 장비와 조난 작업자를 살폈다. 식수와 식량은 각자의 서울 내 작업장 몫에서 준비하고 견인 장비와 예열 전력이 없으면 출동을 미뤘다. 지원이 끊기면 고립된 당직부터 거두었다. 눈과 결빙이 남은 구간은 다음 교대가 다시 살피도록 중단 사유를 장부에 적었다.",
+        "en": "A Sinnae Transport escort puts the car in a detour slot while a Seongha deputy manager rewrites stored-fuel drum order. From 2068, Godeok protective-hangar maintenance and rescue watches rotated with Amsa’s equipment handover crew to check disabled carriers and stranded workers. Each prepared water and food from its Seoul workplace allocation and deferred departure without towing equipment or preheating power. If support stopped, isolated watch members withdrew first. Suspension reasons for sections still blocked by snow and ice were recorded for the next shift to inspect again."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-4-prose-00165",
+      "text": {
+        "ko": "흰십자단 제기동 의무실은 구조된 작업자의 동상 장갑을 말린다. 아관사 중대장은 자재 회수지 위조 표를 구의 증빙 봉투에 봉한다. 구조 당직은 현장에서 보이는 사람과 장비를 살피며, 결빙과 눈보라 때문에 발견과 견인이 늦어질 수 있다. 임금을 받지 못한 작업자는 고용주가 자기 연락처를 가져가는 데 동의하지 않을 수 있다. 새 교대에 합류한 계약 인력은 각자의 서울 작업 기록을 당직자에게 펼쳐 보이고, 당직자는 기록마다 작업 장소와 인계 시각을 따로 대조한다.",
+        "en": "The White Cross Jegi-dong infirmary dries the frostbitten gloves of rescued workers. An Achasan Gate company commander seals falsified material-recovery labels in a Guui evidence envelope. The rescue watch checks people and equipment visible on site; ice and blizzards can delay detection and towing. Unpaid workers may refuse employers access to their contacts. Contract workers joining a new shift show their separate Seoul work records to the duty officer, who checks the worksite and handover time in each record separately."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-4-prose-00166",
+      "text": {
+        "ko": "2124년 고덕·암사의 정비·구조 당직 장부에는 서로 다른 교대의 증언이 남았다. 2125년 연락 담당자는 출동 물건과 서명된 인계 기록을 따로 대조했다. 2126년 구조된 작업자가 연락을 부탁하면 플레이어는 지원 요청과 연락처 공개 동의를 나누어 확인한다. 연락처가 고용주에게 전달되면 작업자는 추적에 노출될 수 있어, 서명과 물건이 엇갈리는 부분은 재대조에 남겨 두고 동의한 연락처와 전달 범위를 인계서에 적는다.",
+        "en": "In 2124, Godeok and Amsa maintenance-rescue ledgers retained testimony from different shifts. In 2125, contacts separately compared dispatched equipment and signed handover records. If a rescued worker requests contact in 2126, the player checks the support request and consent to disclose contact details separately. Disclosure to an employer can expose the worker to pursuit, so disagreements between signatures and equipment remain for further collation while the agreed contact and disclosure scope are recorded on the handover sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-4-prose-00167",
+      "text": {
+        "ko": [
+          {
+            "text": "연표 기록: "
+          },
+          {
+            "text": "2069년 기록",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2069년-xt04-암사-야적장"
+            }
+          },
+          {
+            "text": " · "
+          },
+          {
+            "text": "2114년 기록",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2114년-xt04-암사-야적장"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Chronicle records: "
+          },
+          {
+            "text": "2069 record",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2069년-xt04-암사-야적장"
+            }
+          },
+          {
+            "text": " · "
+          },
+          {
+            "text": "2114 record",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2114년-xt04-암사-야적장"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT04-seoul-side-route-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0090"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서울 쪽 경로",
+        "en": "Seoul-side route"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT04-seoul-side-route-list-1",
+      "items": [
+        {
+          "ko": "확인된 지리: 기존 고덕 정비로·암사 야적장·신내 차량기지·제기동 의무실·구의 봉인 창구를 대조 기준으로 쓴다.",
+          "en": "Verified geography: Uses existing Godeok maintenance road, Amsa yard, Sinnae depot, Jegi-dong infirmary and Guui sealing window as counterparts."
+        },
+        {
+          "ko": "준비 거점: 암사 야적장과 중량 로그 창구 → 신내 우회 환승 창구 → 강남 동절 연료 큐 → 제기동 의무실 → 구의 봉인 창구",
+          "en": "Staging nodes: the Amsa yard and the weight-log window → Sinnae's detour transfer window → Gangnam's winter fuel queue → the Jegi-dong infirmary → Guui's seal window"
+        },
+        {
+          "ko": "바깥 경계: 고덕 정비로·암사 야적장·신내 차량기지의 서울 내부 작업만 다룬다.",
+          "en": "Outbound boundary: Covers only Seoul-internal work at Godeok maintenance road, Amsa yard and Sinnae depot."
+        },
+        {
+          "ko": "이동 시간: 암사·신내 당직은 한파, 연료와 냉각수, 하중 검증과 환승 슬롯을 대조한다. 의료 이송이 필요하면 제기동 당직의 확인을 기다리며 다음 인계 순번과 비용을 다시 적는다.",
+          "en": "Travel time: Amsa and Sinnae watches compare cold conditions, fuel and coolant, load verification and transfer slots. When medical transfer is needed, they await Jegi-dong confirmation and revise the next handover order and cost."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT04-travel-and-seasons-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0092"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "이동·계절",
+        "en": "Travel and seasons"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT04-travel-and-seasons-list-1",
+      "items": [
+        {
+          "ko": "계절 조건: 한파와 물류 단절은 사료·폐기물·연료의 분포를 바꾸고 서울 동부 지선의 통행 부담을 높인다. / 영구 겨울의 국지 융설·온배수로 얼음이 느슨해진 뒤에도 관로와 점검 창을 재검사해야 통행을 연다. / 동절 연료와 냉각수는 같은 부족 신호를 보일 수 있으나 어느 하나가 다른 하나의 자동 우선권을 얻지는 않는다.",
+          "en": "Seasonal conditions: The cold wave and the break in logistics changed the distribution of feed, waste, and fuel, and raised the passage burden on Seoul's eastern branch lines. / Even after local snowmelt or heated drainage loosens ice within perpetual winter, pipes and inspection windows must be rechecked before passage opens. / Winter fuel and coolant could show the same shortage signal, but neither gained an automatic priority over the other."
+        },
+        {
+          "ko": "중단 조건: 중량 센서 로그가 봉인 기록과 맞지 않을 때 / 동상 환자의 이송 필요가 확인됐으나 의료 호송 슬롯이 없을 때 / 가설교량 또는 측선의 하중 검증이 끝나지 않았을 때",
+          "en": "Suspension conditions: when the weight-sensor log did not agree with the seal record / when the need to move a frostbite patient was confirmed but no medical-convoy slot existed / when the load verification of a temporary bridge or a siding was unfinished"
+        },
+        {
+          "ko": "기록 원칙: 한파와 하중 위험은 사람·연료·광물의 출신을 판정하는 근거가 아니라 구간의 안전 상태로만 기록한다.",
+          "en": "Recording rule: Cold-snap and load hazards were recorded only as the section's safety state, never as grounds for judging the origin of people, fuel, or minerals."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT04-supply-and-checkpoints-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0094"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "공급·검문",
+        "en": "Supply and checkpoints"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT04-supply-and-checkpoints-list-1",
+      "items": [
+        {
+          "ko": "설비 · 레일 부품과 광물 샘플: 샘플 봉인과 레일 부품의 사용 승인 기록을 분리하며 원산지 불명은 자동 폐기·처벌 사유가 아니다.",
+          "en": "Equipment · rail parts and mineral samples: Sample seals and the use-approval records of rail parts were separated; unknown origin was not automatic grounds for disposal or punishment."
+        },
+        {
+          "ko": "연료 · 동절 연료 드럼과 배급 큐: 연료 순번은 중량 로그 공개 뒤에 조정하되 의료 호송의 공간을 단독으로 잠그지 않는다.",
+          "en": "Fuel · winter fuel drums and the ration queue: The fuel order was adjusted after the weight logs were published, but the medical convoy's space was never locked out alone."
+        },
+        {
+          "ko": "사람·의료 · 귀환 노동자 숙소와 동상 치료: 의료 분류는 화차 증빙과 분리하며 치료 뒤의 수령 책임을 장부에 남긴다.",
+          "en": "People and medical care · lodgings for returning workers and frostbite treatment: Medical triage was separated from the freight evidence, and post-treatment custody remained in the ledger."
+        },
+        {
+          "ko": "분리 원칙: 화차, 광물, 연료, 귀환 노동자, 의료 기록은 한 검문에서 만날 수 있어도 하나의 의심으로 함께 거부하지 않는다.",
+          "en": "Separation rule: Freight cars, minerals, fuel, returning laborers, and medical records could meet at one checkpoint but were never refused together on one suspicion."
+        },
+        {
+          "ko": "XT04-CP-AMSA · 암사 야적장: 화차 중량 로그와 야적 안전 기록을 공개한다. / 중량 이상, 야적 안전, 수령 전 봉인 상태",
+          "en": "XT04-CP-AMSA · the Amsa yard: It published the freight-car weight log and the yard safety record. / a weight anomaly, yard safety, the state of the seal before receipt"
+        },
+        {
+          "ko": "XT04-CP-SINNAE-GANGNAM · 신내 환승 창구와 강남 연료 큐: 우회 슬롯과 동절 연료 순번을 분리해 배정한다. / 환승 슬롯, 연료 큐, 호송 수령 책임",
+          "en": "XT04-CP-SINNAE-GANGNAM · the Sinnae transfer window and the Gangnam fuel queue: It assigned the detour slots and the winter fuel order separately. / the transfer slot, the fuel queue, responsibility for receiving the convoy"
+        },
+        {
+          "ko": "XT04-CP-JEGIDONG-GUI · 제기동 의무실과 구의 봉인 창구: 동상 치료와 원산지 증빙·이중 봉인을 각각 확인한다. / 치료 필요, 증빙 봉투, 봉인 키 보관",
+          "en": "XT04-CP-JEGIDONG-GUI · the Jegi-dong infirmary and Guui's seal window: It confirmed separately the frostbite treatment and the origin evidence with its double seal. / the need for treatment, the evidence envelope, custody of the sealing key"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT04-language-and-rumor-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0096"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "언어·소문",
+        "en": "Language and rumor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT04-language-and-rumor-list-1",
+      "items": [
+        {
+          "ko": "기록 언어: 서울 쪽 중량·연료·의료·봉인 원장은 한국어로 기록한다.",
+          "en": "Record language: The Seoul-side weight, fuel, medical, and seal ledgers were kept in Korean."
+        },
+        {
+          "ko": "통역 원칙: 귀환 상담에서 통역이 필요하면 요청자의 동의 아래 서울의 기존 통역 회랑을 연결한다.",
+          "en": "Interpreter rule: When interpretation was needed in return counseling, Seoul's existing interpretation corridor was connected with the requester's consent."
+        },
+        {
+          "ko": "확인: 중량 로그와 봉인·수령 기록이 독립적으로 맞거나 의료 기록과 실제 인계가 대조된다.",
+          "en": "confirmed: Weight logs and seal or receipt records matched independently, or medical records and the actual hand-off were collated."
+        },
+        {
+          "ko": "보류: 화인·원산지 표 또는 단일 화차 기록만 있으며 봉인·중량 대조가 남아 있다.",
+          "en": "withheld: Only the fire mark, origin tag, or a single car's record remained, with seal and weight collation outstanding."
+        },
+        {
+          "ko": "전언: 자재·연료·구조 작업자의 출발 소문만 있고 화차·봉인·수령 기록은 없다.",
+          "en": "hearsay: There is only talk of material, fuel or rescued-worker departure, without car, seal or receipt records."
+        },
+        {
+          "ko": "금지 추론: 회수지 표 불일치나 통역 필요만으로 발급자·고용주의 행위, 작업자의 소속, 화물의 위법성을 단정하지 않는다.",
+          "en": "Prohibited inference: Recovery-label discrepancies and interpretation needs establish neither issuer or employer conduct, worker affiliation nor freight illegality."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT04-interests-of-the-sixteen-states-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0098"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "16국 이해",
+        "en": "Interests of the sixteen states"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT04-interests-of-the-sixteen-states-list-1",
+      "items": [
+        {
+          "ko": "S05 동방사: 암사 야적 안전과 고덕 정비를 지키려 교대 인력을 확보한다. 추가 당직을 거절하는 작업자와 갈등하며, 교대 장부로 개인의 복무를 강제하지는 못한다. / 지렛대 암사 정수와 고덕 기지의 비상 감독 / 넘지 않는 선 야적 안전을 이유로 중량 로그를 비공개로 돌리지 않는다.",
+          "en": "S05 Eastern Command: Seeks relief staff for Amsa yard safety and Godeok maintenance. Conflicts with workers refusing extra duty; a shift ledger cannot compel individual service. / leverage: the emergency superintendence of the Amsa waterworks and Godeok Depot / red line: It did not turn the weight log private on the grounds of yard safety."
+        },
+        {
+          "ko": "S12 신내운수: 신내의 우회 슬롯과 의료·물자 호송 중립을 지킨다. 암사·고덕의 인계 계약은 폐쇄된 선로의 통행을 보장하지 않는다. / 지렛대 신내 환승과 응급 호송 장부 / 넘지 않는 선 연료 큐가 의료 호송의 통행권을 자동으로 지우지 않는다.",
+          "en": "S12 Sinnae Transport: Protects Sinnae detour slots and neutrality of medical and supply escorts. Amsa and Godeok handover contracts guarantee no access over closed track. / leverage: the Sinnae transfer and the emergency-convoy ledger / red line: The fuel queue did not automatically erase a medical convoy's right of passage."
+        },
+        {
+          "ko": "S11 성하그룹: 동절 연료 배급 순번과 호송 준비를 이어 간다. 성하그룹은 수서 생활권 정비 담당자와 부품·정보 인계를 협의한다. 민웅기는 추가 당직을 거절할 수 있으며, 주민은 연료 호송에 쓸 전력과 생활 전력의 배분을 두고 협의한다. / 지렛대 강남 냉각 키와 연료 순번 장부 / 넘지 않는 선 연료 드럼의 순번을 원산지 판정의 대가로 쓰지 않는다.",
+          "en": "S11 Seongha Group: Winter fuel-ration order and convoy preparations continue. Seongha Group negotiates parts and information handovers with repair workers around Suseo. Min Woonggi may refuse extra duty, and residents negotiate the division of power between fuel convoys and household use. / leverage: the Gangnam cooling key and the fuel-order ledger / red line: It did not use a fuel drum's place in the order as the price of an origin judgment."
+        },
+        {
+          "ko": "S13 흰십자단: 제기동에서 동상 환자와 구조 작업자를 치료한다. 서울의 인계 행렬과 의약을 교환하되 치료 동의를 징발 근거로 바꾸지 않는다. / 지렛대 제기동 약령 장부와 치료 계약 / 넘지 않는 선 치료 필요를 화차 검문이나 징발의 근거로 바꾸지 않는다.",
+          "en": "S13 White Cross: Treats frostbite and rescued workers at Jegi-dong. Exchanges medicines with Seoul handover parties without turning consent to treatment into grounds for requisition. / leverage: the Jegi-dong medicinal ledger and the treatment contract / red line: It did not turn the need for treatment into grounds for a freight-car search or a requisition."
+        },
+        {
+          "ko": "S14 아관사: 회수 자재 샘플과 화차 증빙을 이중 봉인한다. 구의 수문·아차산 초소 당직은 위조 의심 표도 재대조가 가능하도록 보존한다. / 지렛대 구의 수문과 아차산 관문 절차 / 넘지 않는 선 원산지 불명 표식을 파기하거나 한쪽이 단독 판단하지 않는다.",
+          "en": "S14 Achasan Gate: Double-seals recovered-material samples and freight evidence. Guui sluice and Achasan watch staff preserve even suspected forged labels for rechecking. / leverage: the procedure of the Guui sluices and the Achasan gate / red line: It neither destroyed a mark of unknown origin nor let one side judge it alone."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT04-ecological-pressure-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0100"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생태 압력",
+        "en": "Ecological pressure"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT04-ecological-pressure-list-1",
+      "items": [
+        {
+          "ko": "G04: 서울의 혹한과 연료 인계 지연은 난방 여유·사료·폐기물 분포를 바꾸어 너구리의 동부 지선 이동을 늘릴 수 있다. / 대응 대체 은신 관과 난방 허용 구역을 열어 펌프 접근로와 가족군을 분리한다. / 비살상 제약 독먹이와 전면 수몰은 수질과 지상 침입 위험을 키우므로 쓰지 않는다.",
+          "en": "G04: Seoul’s severe cold and delayed fuel handover alter spare heating, feed and waste distribution and can increase raccoon movement on eastern branches. / response: Substitute shelter pipes and heated permitted zones were opened, separating the pump approaches from the family groups. / nonlethal constraint: Poison bait and wholesale flooding raised the risk to water quality and of intrusion above ground, so they were not used."
+        },
+        {
+          "ko": "G09: 고덕·암사의 회수 자재·보관 연료 화차에 냉각·보냉 설비를 우선 배정하면 기존 저장고의 저온포자숙주가 지탱하던 냉열 경계가 무너질 수 있다. / 대응 냉열 경계와 창고별 온도 기록을 공개해 연료·냉각의 비용을 분리한다. / 비살상 제약 방송 냉각과 식량 보존 중 하나를 숨겨 희생시키지 않는다.",
+          "en": "G09: Prioritizing cooling and cold packs for Godeok and Amsa recovered-material and stored-fuel cars can disrupt cold boundaries maintained by Low-temperature Spore Hosts in existing stores. / response: The cold boundary and the temperature record of each warehouse were published, separating the cost of fuel from the cost of cooling. / nonlethal constraint: Neither broadcast cooling nor food preservation was hidden and sacrificed."
+        },
+        {
+          "ko": "G14: 암사 야적장의 화차 중량 이상 신호가 빈수레의 장거리 슬롯 우선을 키울 수 있다. / 대응 서명된 슬롯만 남기고 응급 슬롯 비율을 분리해 공차 루프를 우회시킨다. / 비살상 제약 공차를 부수는 대신 토큰과 패드 전원을 단계적으로 분리한다.",
+          "en": "G14: The anomalous freight-car weight signal at Amsa yard can raise the Empty Cart's priority on long-distance slots. / response: Only signed slots were kept, and the share of emergency slots was separated, diverting the empty-car loop. / nonlethal constraint: Instead of breaking the empty cars, the token and the pad power were separated in stages."
+        },
+        {
+          "ko": "G26: 연료 화차와 중량 견인이 측선·가설 구조의 하중 검증을 압박할 수 있다. / 대응 공개 하중 시험과 안전한 레일 유도로 견인을 분할한다. / 비살상 제약 동력핵 폭파를 통행 개방의 기본 해법으로 쓰지 않는다.",
+          "en": "G26: Fuel cars and heavy tows could press on the load verification of sidings and temporary structures. / response: The tow was divided between a published load test and a safe rail guide. / nonlethal constraint: Blowing the power core was not used as the default solution for opening passage."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT04-opening-2126-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0102"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "개막 2126",
+        "en": "Opening 2126"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT04-opening-2126-list-1",
+      "items": [
+        {
+          "ko": "사건: XT04-SC1",
+          "en": "Event: XT04-SC1"
+        },
+        {
+          "ko": "촉발: 암사 야적장의 화차 중량 로그가 한 칸의 이상을 보이고 신내가 환승 슬롯을 다시 배정한다.",
+          "en": "Trigger: The Amsa yard's weight logs showed one car's anomaly, and Sinnae reassigned the transfer slots."
+        },
+        {
+          "ko": "충돌: 중량 이상을 즉시 공개해야 한다는 요구와 동절 연료 큐 지연을 피해야 한다는 요구가 충돌한다.",
+          "en": "Conflict: The demand to publish the weight anomaly at once collided with the demand to avoid delay in the winter fuel queue."
+        },
+        {
+          "ko": "첫 판단: 의료 호송 창을 연료 화차보다 먼저 배정할지, 중량 재검사를 끝낸 뒤 두 인계를 함께 열지 선택한다.",
+          "en": "First decision: Choose whether to assign the medical convoy window before the fuel cars, or to finish reweighing and then open both hand-offs together."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT04-player-entry-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0104"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "플레이어 진입",
+        "en": "Player entry"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT04-player-entry-list-1",
+      "items": [
+        {
+          "ko": "XT04-ENTRY-AMSA-WEIGHT · 암사 야적장: 중량 로그와 봉인 기록을 대조하는 현장 보조 / 첫 판단 이상 로그를 공개 보드에 올릴지 재측정 동안 해당 화차만 우회 슬롯으로 보낼지 정한다.",
+          "en": "XT04-ENTRY-AMSA-WEIGHT · the Amsa yard: a field assistant cross-checking the weight log against the seal record / first decision: Decide whether to post the anomalous log on the public board or send only that car to a detour slot during remeasurement."
+        },
+        {
+          "ko": "XT04-ENTRY-JEGIDONG-FROST · 제기동 의무실: 동상 치료와 호송 인계를 분리 기록하는 조력자 / 첫 판단 치료가 필요한 사람을 화차 증빙 심사와 분리해 먼저 이송할지 정한다.",
+          "en": "XT04-ENTRY-JEGIDONG-FROST · the Jegi-dong infirmary: an assistant recording the frostbite treatment and the convoy handover separately / first decision: Decide whether to move people needing treatment first, separately from the freight-car evidence review."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT04-explicit-unknowns-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0106"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "명시적 미정",
+        "en": "Explicit unknowns"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT04-explicit-unknowns-list-1",
+      "items": [
+        {
+          "ko": "눈과 결빙으로 닫힌 구간의 다음 통행 여부는 재점검 전까지 미확인이다. 고덕·암사·신내의 짧은 구간 인계 기록과 2068년 정비·구조 교대 장부에는 출동 준비와 중단 사유가 함께 남아 있다. 당직은 눈과 결빙으로 닫힌 구간을 다시 살핀 뒤 다음 인계를 결정한다.",
+          "en": "Whether snow- and ice-closed sections can be used for the next handover remains unverified pending inspection. Records of short handovers among Godeok, Amsa and Sinnae and the 2068 maintenance-rescue rotation retain both departure preparations and suspension reasons. Watches inspect snow- and ice-closed sections again before deciding the next handover."
+        },
+        {
+          "ko": "화차 중량과 인계 시각이 맞지 않으면 차이의 원인은 재검수 전까지 미확인이다. 암사 당직은 화인의 무게와 중량 기록이 다른 칸을 다시 검수한다. 신내 환승 순번과 강남 연료 수령표, 고덕 정비·구조 교대 장부는 각자의 접수 시각을 남겨 다음 인계 때 함께 대조한다.",
+          "en": "When car weights and handover times disagree, the cause remains unverified pending reinspection. The Amsa watch reinspects cars whose seal weights differ from their weight records. Sinnae transfer order, Gangnam fuel-receipt sheets and Godeok maintenance-rescue ledgers retain their own receipt times for comparison at the next handover."
+        },
+        {
+          "ko": "지원 요청과 반환 청구가 겹치면 각 당사자가 확인한 책임 범위는 미결이다. 구조 당직 장부에는 도움을 청한 작업자의 요청과 현장 인계 서명이 남는다. 연락 담당자는 지원 요청과 장비 반환 청구를 나누어 펼쳐 각 당사자가 확인한 범위를 살핀다.",
+          "en": "When support requests and return claims overlap, the responsibility confirmed by each party remains unresolved. Rescue-watch ledgers retain workers’ requests for help and on-site handover signatures. Contacts lay support requests apart from equipment-return claims to examine what each party has confirmed."
+        },
+        {
+          "ko": "교대 증언이 다르면 연락처와 공개 동의의 적용 범위는 재대조 전까지 미확인이다. 상담 담당자는 구조된 작업자가 밝힌 연락처와 공개에 동의한 범위를 적는다. 교대마다 증언이 다른 부분은 서명된 인계 기록과 다시 대조한다.",
+          "en": "When shift testimony differs, the applicable contact and disclosure-consent scope remains unverified pending comparison. Counselors record contacts supplied by rescued workers and the scope they consent to disclose. Testimony that differs between shifts is checked again against signed handover records."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT04-scenario-chains-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0108"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 쇄",
+        "en": "Scenario chains"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT04-scenario-chains-list-1",
+      "items": [
+        {
+          "ko": "XT04-SC1: 동방사 암사 당직이 화차 중량 로그를 공개하고 신내가 환승 슬롯을 조정한다",
+          "en": "XT04-SC1: The Eastern Command's Amsa watch disclosed the freight-car weight log, and Sinnae adjusted the transfer slots"
+        },
+        {
+          "ko": "XT04-SC2: 창동 차륜방이 동절 연료 큐를 나누고 제기동이 동상 환자를 받는다",
+          "en": "XT04-SC2: The Changdong wheel works divides the winter fuel queue and Jegi-dong receives the frostbitten"
+        },
+        {
+          "ko": "XT04-SC3: 아차산 관문이 회수 자재 샘플을 검사한 뒤 위조 회수지 표를 구의 증빙 봉투에 보존한다",
+          "en": "XT04-SC3: Achasan Gate inspects recovered-material samples, then preserves falsified recovery-site labels in a Guui evidence envelope"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT05-title-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0110",
+        "xt05-인천신탁전구",
+        "xt05-incheon-trust-theater"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "XT05 · 여의도 공동 접수·지상 중계 회랑",
+        "en": "XT05 · Yeouido Shared Reception and Ground Relay Corridor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT05-title-list-1",
+      "items": [
+        {
+          "ko": "여의도·영등포·광화문·시청·양재·명동은 서울 안 지원품과 가족 연락의 접수·중계·수령을 나누어 맡는다.",
+          "en": "Yeouido, Yeongdeungpo, Gwanghwamun, City Hall, Yangjae and Myeongdong divide reception, relaying and receipt of relief and family contacts within Seoul."
+        },
+        {
+          "ko": "연결 국가: S09 여의도출자연합회, S01 수문국, S06 대한민국정부, S16 정동노총, S03 태욱그룹, S15 명동대교구",
+          "en": "Linked states: S09 Yeouido Investment Federation, S01 The Sluice, S06 Republic of Korea Government, S16 Jeongdong Federation, S03 Taeuk Group, S15 Myeongdong Archdiocese"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-5-prose-00168",
+      "text": {
+        "ko": "여의도출자연합회 회관 옥상에서 지상 중계 잔여 대역의 추첨 번호가 회람된다. 2031년 용산·신내·창동의 철도 작업자와 운반 주민은 전력과 결빙 때문에 더 움직일 수 없는 선로 끝에서 짐을 등짐과 수레로 나누었다. 2098년 동방사 암사 당직은 교대별 인계 시각을 나누었고, 2100년 환적 담당자는 용산의 작업 공임과 통과 확인을 구별해 적었다. 2101년 태욱그룹은 양재 중계 단말의 수리 순번을 대조했고, 2104년 여의도 회관 접수 담당자는 수령인 확인과 장부 보관을 분리했다. 2106년에는 광화문 참관용 인도 목록 해시를 같은 접수 기록에 붙였다. 주민이 누락된 배급과 공임에 이의를 내면 담당자는 수령 서명과 작업 기록을 다시 펼쳤다.",
+        "en": "On the Yeouido Investment Federation hall roof, lottery numbers circulate for spare ground-relay bandwidth. In 2031, railway workers and resident carriers at Yongsan, Sinnae and Changdong divided loads among backs and carts where power and ice stopped further rail travel. In 2098, Eastern Command’s Amsa watch separated handover times by shift; in 2100, transshipment staff recorded Yongsan carrying pay separately from passage checks. In 2101, Taeuk Group compared repair order at Yangjae relay terminals; in 2104, Yeouido Hall reception separated recipient checks from ledger custody. In 2106, a Gwanghwamun observer copy of the delivery-list hash was attached to the same receipts. When residents challenged omitted rations or pay, staff reopened receipt signatures and work records."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-5-prose-00169",
+      "text": {
+        "ko": "수문국 수문 당직은 영등포 급수 펌프 가동 시각을 그 번호에 맞추고 대한민국정부 주사는 인도 목록 해시를 시민 참관 칸에 붙인다. 접수는 여의도 회관 공동 시간표, 통신은 상암과 양재의 지상 중계, 보관 식량은 노량진 냉동고와 가락 창고의 검수표를 따른다. 각 장부와 식량의 담당자는 접수표를 대조한 뒤 자기 인계 칸에 서명한다.",
+        "en": "The Sluice watch matches Yeongdeungpo water-pump times to those numbers, and a Republic of Korea Government clerk posts the delivery-list hash for citizen observers. Reception follows Yeouido Hall’s shared timetable, communications use Sangam and Yangjae ground relays, and stored food follows Noryangjin and Garak inspection slips. The staff responsible for each ledger and food store compare reception slips and sign their own handover entries."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-5-prose-00170",
+      "text": {
+        "ko": "정동노총 지부장은 서울 안에서 떨어져 사는 가족의 송금 기록 상자만 실은 회차선을 연다. 태욱그룹 대리는 양재 지상 중계 단말의 오탐 경보를 끄기 전에 원래 수령인 표와 인도 목록 해시를 대조한다.",
+        "en": "A Jeongdong Federation branch chief opens a turnback line carrying only remittance records for families living apart within Seoul. Before silencing a false alarm at a Yangjae ground-relay terminal, a Taeuk deputy manager compares the original recipient slip and delivery-list hash."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-5-prose-00171",
+      "text": {
+        "ko": "명동 상담 창구는 밤이 깊어도 다국어 대기표를 버리지 않는다.",
+        "en": "The Myeongdong counseling window did not throw away the multilingual queue tickets however late the night grew."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-theaters-5-prose-00172",
+      "text": {
+        "ko": [
+          {
+            "text": "연표 기록: "
+          },
+          {
+            "text": "2069년 기록",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2069년-xt05-여의도-회관"
+            }
+          },
+          {
+            "text": " · "
+          },
+          {
+            "text": "2122년 기록",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2122년-xt05-여의도-회관"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Chronicle records: "
+          },
+          {
+            "text": "2069 record",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2069년-xt05-여의도-회관"
+            }
+          },
+          {
+            "text": " · "
+          },
+          {
+            "text": "2122 record",
+            "link": {
+              "domain": "chronology",
+              "slug": "Century-Annals",
+              "anchor": "2122년-xt05-여의도-회관"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT05-seoul-side-route-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0117"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서울 쪽 경로",
+        "en": "Seoul-side route"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT05-seoul-side-route-list-1",
+      "items": [
+        {
+          "ko": "확인된 지리: 여의도 공동 접수는 영등포 펌프 운전 시각, 광화문 참관 해시, 시청 송금 회차선, 양재 지상 단말과 명동 상담 대기표를 대조한다.",
+          "en": "Verified geography: Yeouido shared reception compares Yeongdeungpo pump times, Gwanghwamun observer hashes, City Hall remittance rounds, Yangjae ground terminals and Myeongdong counseling tickets."
+        },
+        {
+          "ko": "준비 거점: 여의도 잔여 대역·원장 창구 → 영등포 급수 시간 창구 → 광화문 시민 참관 해시 창구 → 시청 회차 기록 창구 → 양재 지상 중계 단말 교정 창구 → 명동 다국어 상담 창구 → 여의도 회관 공동 접수 공간",
+          "en": "Staging nodes: Yeouido's remaining-bandwidth and ledger window → Yeongdeungpo's water-hour window → Gwanghwamun's citizen-observation hash window → City Hall's turnback record window → Yangjae ground-relay terminal calibration window → Myeongdong's multilingual counseling window → Yeouido Hall shared reception space"
+        },
+        {
+          "ko": "바깥 경계: 공동 접수 장소는 서울 여의도 회관이다. 상암·양재 지상 중계와 노량진·가락의 검수된 보관 물자가 연결된다.",
+          "en": "Outbound boundary: Shared reception takes place at Yeouido Hall in Seoul. Sangam and Yangjae ground relays connect inspected stores at Noryangjin and Garak."
+        },
+        {
+          "ko": "이동 시간: 여의도 담당자는 송신 대역과 펌프 전력, 목록 해시와 단말 상태를 맞춘다. 명동 상담 동의와 수령 확인이 들어온 순서에 따라 접수 대기와 이동 비용을 다시 협의한다.",
+          "en": "Travel time: Yeouido staff align transmission bands and pump power with manifest hashes and terminal condition. As Myeongdong counseling consent and receipt confirmations arrive, they renegotiate reception waits and movement costs."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT05-travel-and-seasons-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0119"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "이동·계절",
+        "en": "Travel and seasons"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT05-travel-and-seasons-list-1",
+      "items": [
+        {
+          "ko": "계절 조건: 냉동 보관 식량의 단백질 잔여물이 쌓이는 주간에는 환승 하역 엘리베이터와 밀봉 라인의 부담이 커질 수 있다. / 가락 환기 역풍과 배수 부담이 겹치면 이웃 저장 칸으로 물을 넘기는 비용과 주민 동의를 기록한다. / 잔여 대역이 오래된 호출 형식과 겹치면 자동 구호 설비의 오탐을 별도 상태로 판정한다.",
+          "en": "Seasonal conditions: In weeks when protein residue from frozen stored food accumulates, the burden on transfer-freight elevators and sealing lines can increase. / When Garak ventilation backflow overlaps drainage pressure, records include the cost and residents’ consent for diverting water to adjoining storage compartments. / When the remaining bandwidth overlapped an old call format, the automatic relief equipment's false alarms were judged as a separate state."
+        },
+        {
+          "ko": "중단 조건: 수신 로그만 있고 목록 해시나 실물 수령이 없을 때 / 송신 키의 시민 참관 기록이 빠졌을 때 / 지상 중계 단말 오탐이 교정되지 않아 수령 대상이 불명확할 때",
+          "en": "Suspension conditions: when only a reception log existed, with no list hash and no physical receipt / when the citizen-observation record of the transmission key was missing / when an uncorrected false alarm on a ground-relay terminal leaves the recipient unclear"
+        },
+        {
+          "ko": "기록 원칙: 재현되지 않은 지상 중계 신호는 명령으로 읽지 않고 로그와 수령 기록을 대조한 뒤 다음 단계로 넘긴다.",
+          "en": "Recording rule: An unreproduced ground-relay signal is not an order; logs and receipt records are compared before the next step."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT05-supply-and-checkpoints-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0121"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "공급·검문",
+        "en": "Supply and checkpoints"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT05-supply-and-checkpoints-list-1",
+      "items": [
+        {
+          "ko": "인도 물자 · 인도 물자 할당 목록, 의약 캡슐, 냉동 단백질: 수신 로그, 목록 해시, 실물 수령을 분리 기록하며 하나만으로 배급 순번을 확정하지 않는다.",
+          "en": "Delivery goods · the delivery-goods allocation list, medicine capsules, and frozen protein: Receive logs, manifest hashes, and physical receipts were recorded separately; ration order was never fixed on one alone."
+        },
+        {
+          "ko": "전력·통신 · 비상 송신 전력 쿼터와 지상 중계 잔여 대역 예약: 대역 추첨 결과는 펌프 가동 시간과 함께 공개하되 송신 키를 단독 보관하지 않는다.",
+          "en": "Power and communications · Emergency transmission power quota and spare ground-relay bandwidth bookings: Band lottery results were published together with pump running times, and the transmit key was never kept alone."
+        },
+        {
+          "ko": "가족·기록 · 서울 안 가족 재연결 대기표, 다국어 상담, 송금 기록: 상담 동의와 송금 기록은 인도 물자의 수령·격리 판정과 분리한다.",
+          "en": "Families and records · Waiting lists for reconnecting families within Seoul, multilingual counseling, and remittance records: Counseling consent and remittance records were separated from the receipt and isolation judgment of aid goods."
+        },
+        {
+          "ko": "분리 원칙: 인도 약속, 수신 신호, 가족 연락, 통역 요청은 서로 증거 수준이 다르며 한 항목의 불확실성이 다른 항목의 자동 거부 사유가 되지 않는다.",
+          "en": "Separation rule: Aid promises, received signals, family contact, and interpretation requests had different evidentiary levels; one item's uncertainty never became grounds for another's automatic refusal."
+        },
+        {
+          "ko": "XT05-CP-YEOUIDO-YEONGDEUNGPO · 여의도 대역 창구와 영등포 급수 당직: 잔여 대역 공개 추첨과 펌프 가동 시각을 대조한다. / 대역 추첨 기록, 송신 전력 쿼터, 펌프 시간표",
+          "en": "XT05-CP-YEOUIDO-YEONGDEUNGPO · the Yeouido bandwidth window and the Yeongdeungpo water watch: It cross-checked the public drawing of lots for the remaining bandwidth against the pump running hours. / the bandwidth lottery record, the transmission power quota, the pump timetable"
+        },
+        {
+          "ko": "XT05-CP-GWANGHWAMUN-SICHEONG · 광화문 참관 해시 창구와 시청 회차 기록 창구: 인도 목록 해시의 시민 참관과 배송 회차 기록을 분리 확인한다. / 목록 해시, 참관 서명, 회차 수령 기록",
+          "en": "XT05-CP-GWANGHWAMUN-SICHEONG · the Gwanghwamun observation-hash window and the City Hall turnback record window: It confirmed separately the citizen observation of the delivery-list hash and the delivery turnback record. / the list hash, the observation signature, the turnback receipt record"
+        },
+        {
+          "ko": "XT05-CP-YANGJAE-MYEONGDONG · 양재 단말 교정 창구와 명동 상담 창구: 양재 지상 중계 단말의 오탐과 상담·통역 요청을 각각 처리한다. / 단말 오탐 기록, 상담 동의, 가족 연락 대기표",
+          "en": "XT05-CP-YANGJAE-MYEONGDONG · the Yangjae terminal-correction window and the Myeongdong counseling window: Handles false alarms at Yangjae ground-relay terminals separately from counseling and interpretation requests. / the terminal false-alarm record, consent to counseling, the family-contact waiting list"
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT05-language-and-rumor-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0123"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "언어·소문",
+        "en": "Language and rumor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT05-language-and-rumor-list-1",
+      "items": [
+        {
+          "ko": "기록 언어: 서울 쪽 대역·수령·상담 원장은 한국어로 기록한다.",
+          "en": "Record language: The Seoul-side band, receipt, and counseling ledgers were kept in Korean."
+        },
+        {
+          "ko": "통역 원칙: 명동의 다국어 대기표는 자기신고와 통역 요청을 받는 도구이며 요청된 경우에만 서울의 기존 통역 자원을 연결한다.",
+          "en": "Interpreter rule: Myeongdong's multilingual queue tickets were a tool for taking self-declarations and interpretation requests, and connected Seoul's existing interpretation resources only when requested."
+        },
+        {
+          "ko": "확인: 수신 로그, 목록 해시, 실물 수령 중 독립된 근거가 대조되고 수령 책임자가 남아 있다.",
+          "en": "confirmed: Independent grounds among receive logs, manifest hashes, and physical receipts were collated, and a receiving authority remained."
+        },
+        {
+          "ko": "보류: 수신 로그 또는 목록 해시만 있으며 실물 수령·단말 교정이 남아 있다.",
+          "en": "withheld: Only a receive log or manifest hash remained, with physical receipt or terminal calibration outstanding."
+        },
+        {
+          "ko": "전언: 서울 내 가족 연락, 인도 약속, 지상 중계 호출에 관한 말만 있고 재현 가능한 기록이 없다.",
+          "en": "hearsay: There is only talk of contact with family within Seoul, handover promises and ground-relay calls, without reproducible records."
+        },
+        {
+          "ko": "금지 추론: 미수신 신호·통역 요청·송금 기록만으로 발급자의 명령, 가족의 생존, 통행자의 소속을 확정하지 않는다.",
+          "en": "Prohibited inference: Unreceived signals, interpretation requests and remittance records alone establish neither issuer orders, a family’s survival nor traveler affiliation."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT05-interests-of-the-sixteen-states-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0125"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "16국 이해",
+        "en": "Interests of the sixteen states"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT05-interests-of-the-sixteen-states-list-1",
+      "items": [
+        {
+          "ko": "S09 여의도출자연합회: 여의도 회관의 지상 중계 대역 추첨과 출자 장부를 공개한다. 물자 거래 상대는 출자 증서를 거절할 수 있다. / 지렛대 여의도 회관의 출자 장부와 송신 기억 / 넘지 않는 선 대역 추첨을 비공개 배정이나 단독 송신 키로 바꾸지 않는다.",
+          "en": "S09 Yeouido Investment Federation: Publishes ground-relay bandwidth lotteries and investment ledgers at Yeouido Hall. Material counterparties may reject investment certificates. / leverage: the investment ledgers and transmission memory of the Yeouido hall / red line: It did not turn the bandwidth lottery into a private allocation or a sole transmission key."
+        },
+        {
+          "ko": "S01 수문국: 영등포 펌프 가동과 지원품 인계 시간을 맞춘다. 당산 배수 작업자는 송신 요구로 수위 안전 창이 줄어드는 데 이의를 낼 수 있다. / 지렛대 영등포 정수와 수문 당직 / 넘지 않는 선 송신 요구가 급수 안전 기록을 덮지 않는다.",
+          "en": "S01 The Sluice: Coordinates Yeongdeungpo pump operation and relief handover. Dangsan drainage workers may contest transmitter demands that shorten safe water-level windows. / leverage: the Yeongdeungpo treatment and sluice watch / red line: A transmission demand did not cover over the water-safety record."
+        },
+        {
+          "ko": "S06 대한민국정부: 광화문에서 지원품 목록 해시와 시민 참관 형식을 지킨다. 접수 기록의 인정과 수령인의 복종은 별개다. / 지렛대 광화문 기록 인준과 도장 / 넘지 않는 선 참관 없는 목록을 배급 권리나 격리 근거로 만들지 않는다.",
+          "en": "S06 Republic of Korea Government: Protects relief-list hashes and citizen observation procedures at Gwanghwamun. Recognition of a receipt is separate from a recipient’s obedience. / leverage: Gwanghwamun's record accreditation and seal / red line: It did not make an unobserved list into a ration right or grounds for quarantine."
+        },
+        {
+          "ko": "S16 정동노총: 시청에서 운반 임금과 서울 내 송금 기록의 운반 조건을 공개한다. 개별 노동자의 작업 거절권을 조합 대표성으로 지우지 않는다. / 지렛대 시청 회차선과 조합 장부 / 넘지 않는 선 송금 기록을 통행권·노동 자격의 판정 도구로 쓰지 않는다.",
+          "en": "S16 Jeongdong Federation: Publishes carrying wages and conditions for carrying Seoul-internal remittance records at City Hall. Union representation does not erase an individual worker’s right to refuse work. / leverage: the City Hall turnback line and the union ledgers / red line: It did not use the remittance records as a tool for judging passage rights or labor eligibility."
+        },
+        {
+          "ko": "S03 태욱그룹: 양재 지상 중계 단말의 오탐을 고쳐 수령 대상과 장비 안전을 나눈다. 장비를 보존하려는 정비인과 부품 해체를 요구하는 운반 인력의 이견을 남긴다. / 지렛대 양재 정비고와 현장 휴머노이드 정비 기억 / 넘지 않는 선 오탐 교정을 이유로 시민 참관과 수령 해시를 우회하지 않는다.",
+          "en": "S03 Taeuk Group: Corrects Yangjae ground-terminal false alarms while separating recipients from equipment safety. Retains disagreement between repairers preserving equipment and carriers seeking parts from dismantling it. / leverage: the Yangjae maintenance depot and the memory of field humanoid maintenance / red line: It did not bypass citizen observation and the receipt hash on the grounds of correcting a false alarm."
+        },
+        {
+          "ko": "S15 명동대교구: 명동은 서울 안에서 떨어져 사는 가족의 다국어 대기표와 혼인·위령 인준을 지킨다. 상담의 결론을 복귀 명령으로 바꾸지 않는다. / 지렛대 명동 제대와 교구 명부 / 넘지 않는 선 상담 언어와 가족 사연을 배급·격리의 낙인으로 쓰지 않는다.",
+          "en": "S15 Myeongdong Archdiocese: Myeongdong preserves multilingual queue tickets and marriage and memorial accreditation for families living apart within Seoul. Counseling conclusions do not become orders to return. / leverage: the Myeongdong altar and the diocesan rolls / red line: It did not use the language of counseling or a family's story as a stigma for rations or quarantine."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT05-ecological-pressure-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0127"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생태 압력",
+        "en": "Ecological pressure"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT05-ecological-pressure-list-1",
+      "items": [
+        {
+          "ko": "G05: 노량진·가락의 보관 식량을 나눈 뒤 남은 단백질 잔반이 쌓이면 집쥐가 인계 엘리베이터까지 가지 둥지를 넓힐 수 있다. / 대응 잔반 회수와 임시 이중 밀봉 라인을 먼저 운영하고 하역 시간을 나눈다. / 비살상 제약 전염 낙인이나 전면 독성 살포로 피난민을 봉쇄하지 않는다.",
+          "en": "G05: Protein residue left after distributing Noryangjin and Garak stored food can extend rat branch nests into handover elevators. / response: Leftover collection and a temporary double-sealing line were run first, and the stevedore hours were divided. / nonlethal constraint: Refugees were not sealed off by a contagion stigma or by wholesale toxic spraying."
+        },
+        {
+          "ko": "G10: 가락의 환기 역풍과 펌프 운전 중 오염수를 이웃 저장 칸으로 넘기면 그곳 주민에게 곰팡이와 배수 부담이 남는다. / 대응 배수 선택 전에 주민 명부와 펌프 중지권을 확인하고 오염 부담을 공개한다. / 비살상 제약 외곽에 물을 넘겨 서울 중심의 비용만 지우는 선택을 무비용 해법으로 쓰지 않는다.",
+          "en": "G10: During Garak ventilation backflow and pump operation, diverting contaminated water to adjoining storage compartments leaves their residents with mold and drainage costs. / response: Before the drainage choice, the residents' roll and the right to stop the pumps were confirmed, and the contamination burden was published. / nonlethal constraint: Passing the water to the outskirts so that only the center of Seoul shed its cost was not used as a costless solution."
+        },
+        {
+          "ko": "G15: 인도 물자 코드가 수신되면 돌봄바퀴가 보급과 격리 강도를 함께 높일 수 있다. / 대응 명단·동의 해시·병상별 전원을 대조해 과보급과 신규 감금을 막는다. / 비살상 제약 복지동을 불태우거나 모든 병상 락을 한꺼번에 끊지 않는다.",
+          "en": "G15: When a delivery-goods code was received, the Care Wheel could raise both the supply and the intensity of quarantine. / response: The roll, the consent hash, and the power to each bed were cross-checked, blocking over-supply and new confinement. / nonlethal constraint: The welfare block was not burned, and the locks of every bed were not cut at once."
+        },
+        {
+          "ko": "G25: XT05 인도 목록의 의약 캡슐이 오래된 모의 수신자에게 쌓일 수 있다. / 대응 수신자 표식, 배송표, 적재함을 현장 진료 기록과 대조한다. / 비살상 제약 주 발신기를 즉시 파괴하는 대신 구조용 복렬과 시민 통로를 함께 평가한다.",
+          "en": "G25: The medicine capsules on the XT05 delivery list could pile up with an old simulated recipient. / response: The recipient mark, the delivery table, and the loading bay were cross-checked against the field treatment record. / nonlethal constraint: Instead of destroying the main transmitter at once, the rescue double row and the citizen passage were assessed together."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT05-opening-2126-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0129"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "개막 2126",
+        "en": "Opening 2126"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT05-opening-2126-list-1",
+      "items": [
+        {
+          "ko": "사건: XT05-SC1",
+          "en": "Event: XT05-SC1"
+        },
+        {
+          "ko": "촉발: 상암 송신의 잔여 대역 공개 추첨과 여의도 급수 당직의 펌프 시간이 같은 창에 겹친다.",
+          "en": "Trigger: The Sangam transmission's public residual-band lottery and the Yeouido water watch's pump times overlapped in the same window."
+        },
+        {
+          "ko": "충돌: 대역을 먼저 확보해 통신을 살리려는 요구와 시민 참관 해시를 먼저 남겨 수령 장부의 신뢰를 지키려는 요구가 충돌한다.",
+          "en": "Conflict: The demand to secure the band first and save communications collided with the demand to leave the citizen-observation hash first and keep the receipt ledgers trusted."
+        },
+        {
+          "ko": "첫 판단: 수신 로그만 있는 의약 캡슐을 배급 목록에 올릴지, 참관·해시·수령 확인까지 보류할지 선택한다.",
+          "en": "First decision: Choose whether to enter onto the ration list the medicine capsules that have only receive logs, or hold until observation, hash, and receipt confirmation."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT05-player-entry-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0131"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "플레이어 진입",
+        "en": "Player entry"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT05-player-entry-list-1",
+      "items": [
+        {
+          "ko": "XT05-ENTRY-BAND-LOTTERY · 여의도 잔여 대역 추첨 창구: 추첨·펌프 시간·참관 서명을 대조하는 시민 보조 / 첫 판단 대역 배정의 속도와 시민 참관의 완결 중 어느 조건을 먼저 충족할지 정한다.",
+          "en": "XT05-ENTRY-BAND-LOTTERY · Yeouido's remaining-bandwidth lottery window: a citizen assistant cross-checking the lottery, the pump hours, and the observation signatures / first decision: Decide which condition to meet first: rapid bandwidth allocation or complete citizen observation."
+        },
+        {
+          "ko": "XT05-ENTRY-MYEONGDONG-CONSENT · 명동 상담 창구: 가족 연락 대기표와 통역 요청 동의를 기록하는 조력자 / 첫 판단 수령 기록이 없는 가족 연락을 전언으로 보류할지, 단말 재확인을 위해 회차 기록으로 보낼지 정한다.",
+          "en": "XT05-ENTRY-MYEONGDONG-CONSENT · the Myeongdong counseling window: an assistant recording the family-contact waiting list and the consent to interpretation requests / first decision: Decide whether to withhold a family contact without a receipt record as hearsay or send it to the turnback record for another terminal check."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT05-explicit-unknowns-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0133"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "명시적 미정",
+        "en": "Explicit unknowns"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT05-explicit-unknowns-list-1",
+      "items": [
+        {
+          "ko": "세 기록의 시각이 다르면 다음 접수 순번은 재대조 전까지 미결이다. 여의도 접수 장부에는 영등포 펌프 시각과 광화문 참관 해시가 붙고, 양재 지상 중계 로그가 별도로 놓인다. 담당자는 세 기록의 시각이 맞지 않는 줄을 찾아 다음 접수 순번을 조정한다.",
+          "en": "When the three records disagree on time, the next reception order remains unsettled pending comparison. Yeouido reception ledgers carry Yeongdeungpo pump times and Gwanghwamun observer hashes, with Yangjae ground-relay logs kept alongside. Staff locate lines whose times disagree and adjust the next reception order."
+        },
+        {
+          "ko": "신청서의 연락 상대가 다르면 신청자가 동의한 전달 대상과 범위는 미확인이다. 여의도 접수 담당자는 지원품 수령 서명과 가족 연락 동의서를 따로 보관한다. 연락 상대가 엇갈리는 신청에는 두 기록을 다시 펼쳐 신청자가 확인한 이름과 전달 범위를 살핀다.",
+          "en": "When applications name conflicting contacts, the recipient and scope consented to by the applicant remain unverified. Yeouido reception staff keep relief-receipt signatures separate from family-contact consent forms. For applications with conflicting contacts, they reopen both records to examine the names and disclosure scope confirmed by the applicant."
+        },
+        {
+          "ko": "누락 신고와 수령표가 다르면 실물 인도 여부는 서명 대조 전까지 미확인이다. 여의도 수령 담당자는 인도 물자·냉동 단백질·의약 캡슐의 수령표를 각각 인도 목록과 대조한다. 누락 신고가 들어오면 밀봉 해시와 실물 수령 서명을 다시 펼친다.",
+          "en": "When missing-delivery reports and receipts disagree, physical delivery remains unverified pending signature checks. Yeouido receipt staff compare delivery lists separately against receipt sheets for relief goods, frozen protein and medicine capsules. Missing-delivery reports lead them to reopen seal hashes and physical-receipt signatures."
+        },
+        {
+          "ko": "발신 표식과 이름이 다르면 해당 연락의 발신자는 재대조 전까지 미확인이다. 양재 당직이 불완전한 통신 로그를 분리하면 명동 상담 담당자는 가족이 제출한 연락 기록과 나란히 놓는다. 발신 표식과 이름이 엇갈리는 줄은 다음 답신의 동의 범위를 확인할 때 다시 대조한다.",
+          "en": "When sender marks and names disagree, the sender remains unverified pending comparison. After the Yangjae watch separates incomplete communications logs, Myeongdong counselors place them beside contact records submitted by families. Lines with differing sender marks and names are compared again when consent for the next reply is checked."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "External-Theaters-generated-XT05-scenario-chains-heading-1",
+      "publicAnchors": [
+        "External-Theaters-heading-0135"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 쇄",
+        "en": "Scenario chains"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "External-Theaters-generated-XT05-scenario-chains-list-1",
+      "items": [
+        {
+          "ko": "XT05-SC1: 상암 송신이 잔여 대역을 공개 추첨하고 여의도가 급수 당직과 시간을 맞춘다",
+          "en": "XT05-SC1: Sangam transmission holds a public lottery on residual bands and Yeouido matches the water watch's times"
+        },
+        {
+          "ko": "XT05-SC2: 서울역 기록청이 인도 목록 해시를 보관하고 수서가 배송 회차선을 연다",
+          "en": "XT05-SC2: The Seoul Station Records Bureau keeps the manifest hash and Suseo opens the delivery turn line"
+        },
+        {
+          "ko": "XT05-SC3: 마곡이 양재 지상 중계 단말의 오탐을 교정하고 가락이 서울 내 이산가족 상담 시간을 연장한다",
+          "en": "XT05-SC3: Magok corrects false alarms at Yangjae ground-relay terminals and Garak extends counseling hours for families separated within Seoul"
+        }
+      ]
+    }
+  ],
+  "data": {}
+}

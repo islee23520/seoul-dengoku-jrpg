@@ -1,0 +1,4376 @@
+{
+  "version": 1,
+  "domain": "root",
+  "id": "DOC:Synthetic-Actors",
+  "slug": "Synthetic-Actors",
+  "status": "approved",
+  "categories": [
+    "people-and-machines"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.projection_pages.Synthetic-Actors"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Synthetic Social Personas",
+      "summary": "Synthetic Social Personas",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "합성 사회 인격",
+      "summary": "합성 사회 인격",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-page-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "합성 사회 인격",
+        "en": "Synthetic Social Personas"
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H01-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0002"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H01 · 한누리 (누리)",
+        "en": "H01 · Hannuri (Nuri)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H01-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC01 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC01 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 한재목 주정비·HC01 감사 입회",
+          "en": "Maintenance: chief maintainer Han Jaemok · HC01 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 수문국 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Sluice sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K001 custodian, HC01 steward_house, K004 work_peer",
+          "en": "Relations: K001 custodian, HC01 steward_house, K004 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-1-prose-00173",
+      "text": {
+        "ko": "수문국 정비 벤치에서 한누리(누리)가 한재목의 급수 당직표와 손모듈 교체 기록을 맞춘다.",
+        "en": "At the Sluice maintenance bench, Hannuri (Nuri) matches Han Jaemok's water-duty roster to the hand-module replacement record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-1-prose-00174",
+      "text": {
+        "ko": "한재목은 보관 봉인을 시민 참관 기록과 대조하고 교대 분기 로그를 남긴다.",
+        "en": "Han Jaemok compares the custody seal with the citizen witness record and leaves a shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-1-prose-00175",
+      "text": {
+        "ko": "충전 칸 경보가 울리자 한누리는 수문국 구역 키를 요청해 담당자에게 잔량을 알린다.",
+        "en": "When the charging-bay alarm sounds, Hannuri requests the Sluice sector key and reports its remaining charge to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-1-prose-00176",
+      "text": {
+        "ko": "할당된 마모 부품이 모자라면 한누리는 교체 대기 항목을 당직표에 남겨 다음 교대가 확인하게 한다.",
+        "en": "With rationed wear parts short, Hannuri records the pending replacement on the duty roster for the next shift to check."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H02-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H02 · 서린 (린)",
+        "en": "H02 · Seorin (Rin)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H02-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC02 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC02 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 강민서 주정비·HC02 감사 입회",
+          "en": "Maintenance: chief maintainer Gang Minseo · HC02 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 영등포선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Yeongdeungpo Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K029 custodian, HC02 steward_house, K011 work_peer",
+          "en": "Relations: K029 custodian, HC02 steward_house, K011 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-2-prose-00177",
+      "text": {
+        "ko": "영등포선 충전 칸에서 서린(린)이 강민서의 교대 명부에 배터리 교체 시각을 적는다.",
+        "en": "At the Yeongdeungpo Line charging bay, Seorin (Rin) enters the battery-change time in Gang Minseo's shift roster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-2-prose-00178",
+      "text": {
+        "ko": "강민서는 시민이 지켜본 보관 봉인과 교대 스냅샷의 분기 기록을 대조한다.",
+        "en": "Gang Minseo compares the witnessed custody seal with the shift snapshot's branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-2-prose-00179",
+      "text": {
+        "ko": "관측 난간 경보에는 서린이 구역 단말의 읽기 전용 상태를 확인해 강민서에게 알린다.",
+        "en": "At the observation-railing alarm, Seorin checks the sector terminal's read-only state and informs Gang Minseo."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-2-prose-00180",
+      "text": {
+        "ko": "손모듈 부품 할당이 끝나면 서린은 남은 작업을 명부에 표시하고 다음 당직을 기다린다.",
+        "en": "When the hand-module parts allocation is exhausted, Seorin marks the unfinished work on the roster for the next duty shift."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H03-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0014"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H03 · 이도 (이도)",
+        "en": "H03 · Ido (Ido)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H03-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC03 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC03 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 정호준 주정비·HC03 감사 입회",
+          "en": "Maintenance: chief maintainer Jeong Hojun · HC03 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 용산선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Yongsan Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K057 custodian, HC03 steward_house, K018 work_peer",
+          "en": "Relations: K057 custodian, HC03 steward_house, K018 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-3-prose-00181",
+      "text": {
+        "ko": "용산선 관측 난간에서 이도가 정호준의 당직표와 해당 구역의 점검 시간을 대조한다.",
+        "en": "At the Yongsan Line observation railing, Ido checks the sector inspection time against Jeong Hojun's duty roster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-3-prose-00182",
+      "text": {
+        "ko": "정호준은 보관 봉인과 교대 스냅샷의 분기 기록을 함께 확인한다.",
+        "en": "Jeong Hojun checks the custody seal alongside the shift snapshot's branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-3-prose-00183",
+      "text": {
+        "ko": "공구 벽 경보가 울리자 이도는 용산선 구역 키를 요청하고 관측 값을 담당자에게 전한다.",
+        "en": "At the tool-wall alarm, Ido requests the Yongsan Line sector key and passes the observation to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-3-prose-00184",
+      "text": {
+        "ko": "교체 손모듈이 부족한 날에는 점검을 보류 항목으로 남겨 다음 교대에 넘긴다.",
+        "en": "When replacement hand modules run short, Ido leaves the inspection pending for the next shift."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H04-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0020"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H04 · 강별 (별)",
+        "en": "H04 · Gangbyeol (Byeol)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H04-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC04 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC04 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 임하준 실종 전 정비 기록·현 담당 미확인·HC04 감사 입회",
+          "en": "Maintenance: Im Hajun's pre-disappearance maintenance records · current maintainer unverified · HC04 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 뚝섬 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Ttukseom Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K086 historical_custodian, HC04 steward_house, K025 work_peer",
+          "en": "Relations: K086 historical_custodian, HC04 steward_house, K025 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-4-prose-00185",
+      "text": {
+        "ko": "뚝섬 연합 공구 벽에서 강별(별)이 임하준의 실종 전 정비 기록과 현재의 봉인 표식을 대조한다.",
+        "en": "At the Ttukseom Union tool wall, Gangbyeol (Byeol) compares the present seal mark with Im Hajun's maintenance records from before his disappearance."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-4-prose-00186",
+      "text": {
+        "ko": "임하준의 실종 뒤 정비 담당과 기억 분기 동기화의 현재 수행 여부는 확인되지 않았으므로 HC04 감사 기록에 확인 대기 항목으로 남는다.",
+        "en": "Since Im Hajun disappeared, the current maintainer and whether a memory branch sync has been performed remain unverified; the HC04 audit record leaves both pending confirmation."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-4-prose-00187",
+      "text": {
+        "ko": "정비 벤치 경보가 울리자 강별은 뚝섬 연합 구역의 읽기 전용 관측 값을 당직자에게 전한다.",
+        "en": "At the maintenance-bench alarm, Gangbyeol passes a read-only sector observation to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-4-prose-00188",
+      "text": {
+        "ko": "마모 부품이 부족하면 강별은 공구 벽의 교체 요청을 봉인 기록에 붙이고 담당 확인을 기다린다.",
+        "en": "When wear parts run short, Gangbyeol attaches a replacement request to the tool-wall seal record for human confirmation."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H05-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0026"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H05 · 윤재 (재)",
+        "en": "H05 · Yunjae (Jae)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H05-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC05 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC05 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 배우진 주정비·HC05 감사 입회",
+          "en": "Maintenance: chief maintainer Bae Woojin · HC05 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 광진선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Gwangjin Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K115 custodian, HC05 steward_house, K032 work_peer",
+          "en": "Relations: K115 custodian, HC05 steward_house, K032 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-5-prose-00189",
+      "text": {
+        "ko": "광진선 정비 벤치에서 윤재(재)가 배우진의 봉인 점검표와 손모듈 상태를 맞춘다.",
+        "en": "At the Gwangjin Line maintenance bench, Yunjae (Jae) matches the hand-module condition to Bae Woojin's seal checklist."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-5-prose-00190",
+      "text": {
+        "ko": "배우진은 HC05 감사 입회 아래 배터리 잔량과 교대 분기 로그를 따로 기록한다.",
+        "en": "With the HC05 audit in attendance, Bae Woojin records the remaining charge and shift branch log separately."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-5-prose-00191",
+      "text": {
+        "ko": "충전 칸 경보가 나면 윤재는 광진선 구역 키로 확인한 수치만 담당자에게 전한다.",
+        "en": "At a charging-bay alarm, Yunjae passes only the figures checked under the Gwangjin Line sector key to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-5-prose-00192",
+      "text": {
+        "ko": "할당된 교체 부품이 떨어지면 남은 정비 순서를 점검표에 표시한다.",
+        "en": "When replacement parts are exhausted, Yunjae marks the outstanding maintenance order on the checklist."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H06-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0032"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H06 · 박솔 (솔)",
+        "en": "H06 · Baksol (Sol)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H06-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC06 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC06 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 윤서린 주정비·HC06 감사 입회",
+          "en": "Maintenance: chief maintainer Yun Seorin · HC06 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 서울역 중앙 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Seoul Station Central sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K144 custodian, HC06 steward_house, K039 work_peer",
+          "en": "Relations: K144 custodian, HC06 steward_house, K039 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-6-prose-00193",
+      "text": {
+        "ko": "서울역 중앙 충전 칸에서 박솔(솔)이 윤서린의 재고 당직표에 배터리 교체분을 적는다.",
+        "en": "At the Seoul Station Central charging bay, Baksol (Sol) records the replacement battery against Yun Seorin's inventory duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-6-prose-00194",
+      "text": {
+        "ko": "윤서린은 보관 봉인과 그 교대에 남긴 스냅샷 분기 기록을 확인한다.",
+        "en": "Yun Seorin checks the custody seal and the snapshot branch record kept for that shift."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-6-prose-00195",
+      "text": {
+        "ko": "관측 난간 경보에는 박솔이 서울역 중앙 구역의 수치와 당직 시간을 나란히 보고한다.",
+        "en": "At the observation-railing alarm, Baksol reports the sector reading beside the duty time."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-6-prose-00196",
+      "text": {
+        "ko": "마모 부품 배당이 늦어지면 남은 점검을 교대 명부로 넘긴다.",
+        "en": "If wear-parts allocation is delayed, Baksol carries the remaining inspection into the shift roster."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H07-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0038"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H07 · 정우람 (우람)",
+        "en": "H07 · Jeonguram (Uram)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H07-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC07 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC07 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 박태겸 주정비·HC07 감사 입회",
+          "en": "Maintenance: chief maintainer Park Taegyeom · HC07 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 왕십리 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Wangsimni Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K169 custodian, HC07 steward_house, K046 work_peer",
+          "en": "Relations: K169 custodian, HC07 steward_house, K046 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-7-prose-00197",
+      "text": {
+        "ko": "왕십리 연합 관측 난간에서 정우람(우람)이 박태겸의 배차표와 구역 점검 기록을 대조한다.",
+        "en": "At the Wangsimni Union observation railing, Jeonguram (Uram) compares sector inspection records with Park Taegyeom's dispatch sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-7-prose-00198",
+      "text": {
+        "ko": "박태겸은 HC07 감사가 보는 앞에서 보관 봉인과 교대 분기 로그를 확인한다.",
+        "en": "Park Taegyeom checks the custody seal and shift branch log before the HC07 auditor."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-7-prose-00199",
+      "text": {
+        "ko": "공구 벽 경보가 울리면 정우람은 왕십리 연합 구역의 관측 값을 담당자에게 전한다.",
+        "en": "At the tool-wall alarm, Jeonguram sends the Wangsimni Union sector reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-7-prose-00200",
+      "text": {
+        "ko": "손모듈 마모 부품의 할당이 모자라면 점검 요청을 배차표 옆에 남긴다.",
+        "en": "If rationed hand-module parts run short, Jeonguram leaves the inspection request beside the dispatch sheet."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H08-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0044"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H08 · 최다온 (다온)",
+        "en": "H08 · Choidaon (Daon)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H08-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC08 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC08 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 오해린 주정비·HC08 감사 입회",
+          "en": "Maintenance: chief maintainer O Haerin · HC08 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 노량진선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Noryangjin Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K194 custodian, HC08 steward_house, K053 work_peer",
+          "en": "Relations: K194 custodian, HC08 steward_house, K053 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-8-prose-00201",
+      "text": {
+        "ko": "노량진선 공구 벽에서 최다온(다온)이 오해린의 시장 인계표와 손모듈 점검 시각을 맞춘다.",
+        "en": "At the Noryangjin Line tool wall, Choidaon (Daon) matches hand-module inspection time to O Haerin's market handover sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-8-prose-00202",
+      "text": {
+        "ko": "오해린은 보관 봉인과 교대 기록의 분기 표시를 확인한다.",
+        "en": "O Haerin checks the custody seal and branch marker on the shift record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-8-prose-00203",
+      "text": {
+        "ko": "정비 벤치 경보에는 최다온이 노량진선 구역 단말의 수치를 담당자에게 보여 준다.",
+        "en": "At the maintenance-bench alarm, Choidaon shows the sector-terminal reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-8-prose-00204",
+      "text": {
+        "ko": "할당된 부품이 모자라면 인계표에 교체 대기를 적어 다음 교대에 남긴다.",
+        "en": "When allocated parts are short, Choidaon writes the pending replacement on the handover sheet."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H09-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0050"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H09 · 조하람 (하람)",
+        "en": "H09 · Joharam (Haram)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H09-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC09 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC09 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 최지우 주정비·HC09 감사 입회",
+          "en": "Maintenance: chief maintainer Choi Jiwoo · HC09 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 마포 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Mapo Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K219 custodian, HC09 steward_house, K060 work_peer",
+          "en": "Relations: K219 custodian, HC09 steward_house, K060 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-9-prose-00205",
+      "text": {
+        "ko": "마포 연합 정비 벤치에서 조하람(하람)이 최지우의 전원 당직표와 배터리 잔량을 대조한다.",
+        "en": "At the Mapo Union maintenance bench, Joharam (Haram) checks battery charge against Choi Jiwoo's power-duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-9-prose-00206",
+      "text": {
+        "ko": "최지우는 HC09 감사 입회 아래 봉인과 교대 스냅샷의 분기 기록을 확인한다.",
+        "en": "With the HC09 audit present, Choi Jiwoo checks the seal and shift snapshot branch record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-9-prose-00207",
+      "text": {
+        "ko": "충전 칸 경보가 울리면 조하람은 구역 키로 확인한 전원 상태를 보고한다.",
+        "en": "At the charging-bay alarm, Joharam reports the power state checked with the sector key."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-9-prose-00208",
+      "text": {
+        "ko": "부품 할당이 부족한 교대에는 손모듈 교체를 보류 항목으로 남긴다.",
+        "en": "During a shift short of allocated parts, Joharam records the hand-module replacement as pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H10-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0056"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H10 · 윤새론 (새론)",
+        "en": "H10 · Yunsaeron (Saeron)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H10-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC10 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC10 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 백온 주정비·HC10 감사 입회",
+          "en": "Maintenance: chief maintainer Baek On · HC10 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 여의도선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Yeouido Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K245 custodian, HC10 steward_house, K067 work_peer",
+          "en": "Relations: K245 custodian, HC10 steward_house, K067 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-10-prose-00209",
+      "text": {
+        "ko": "여의도선 충전 칸에서 윤새론(새론)이 백온의 경비 당직표와 교대 시각을 맞춘다.",
+        "en": "At the Yeouido Line charging bay, Yunsaeron (Saeron) aligns the shift time with Baek On's guard-duty roster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-10-prose-00210",
+      "text": {
+        "ko": "백온은 시민 참관 봉인과 스냅샷 분기 로그를 대조한다.",
+        "en": "Baek On compares the citizen-witnessed seal with the snapshot branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-10-prose-00211",
+      "text": {
+        "ko": "관측 난간 경보에는 윤새론이 구역 안 관측 시간을 경비 당직자에게 전한다.",
+        "en": "At the observation-railing alarm, Yunsaeron passes the sector observation time to the guard on duty."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-10-prose-00212",
+      "text": {
+        "ko": "배터리 교체 배당이 밀리면 그 시간을 표에 남겨 다음 교대가 확인하게 한다.",
+        "en": "If the battery replacement allocation is delayed, Yunsaeron records its time for the next shift."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H11-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0062"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H11 · 김도하 (도하)",
+        "en": "H11 · Kim Doha (Doha)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H11-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC11 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC11 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 이홍원 주정비·HC11 감사 입회",
+          "en": "Maintenance: chief maintainer I Hongwon · HC11 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 강남선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Gangnam Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K271 custodian, HC11 steward_house, K074 work_peer",
+          "en": "Relations: K271 custodian, HC11 steward_house, K074 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-11-prose-00213",
+      "text": {
+        "ko": "강남선 관측 난간에서 김도하(도하)가 이홍원의 차단문 당직표에 구역 점검 시각을 표시한다.",
+        "en": "At the Gangnam Line observation railing, Kim Doha marks the sector inspection time on I Hongwon's barrier-gate duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-11-prose-00214",
+      "text": {
+        "ko": "이홍원은 HC11 감사 입회 아래 봉인과 교대 분기 로그를 확인한다.",
+        "en": "I Hongwon checks the seal and shift branch log with the HC11 audit present."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-11-prose-00215",
+      "text": {
+        "ko": "공구 벽 경보에는 김도하가 해당 구역의 관측 값만 당직자에게 알린다.",
+        "en": "At the tool-wall alarm, Kim Doha reports the reading from that sector to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-11-prose-00216",
+      "text": {
+        "ko": "손모듈 교체분이 모자라면 점검 순서를 표에 남긴다.",
+        "en": "If hand-module replacements are short, Kim Doha records the inspection order on the sheet."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H12-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0068"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H12 · 이채온 (채온)",
+        "en": "H12 · Ichaeon (Chaeon)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H12-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC12 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC12 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 장세화 주정비·HC12 감사 입회",
+          "en": "Maintenance: chief maintainer Jang Sehwa · HC12 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 잠실선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Jamsil Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K296 custodian, HC12 steward_house, K081 work_peer",
+          "en": "Relations: K296 custodian, HC12 steward_house, K081 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-12-prose-00217",
+      "text": {
+        "ko": "잠실선 공구 벽에서 이채온(채온)이 장세화의 호송 인계 시각과 손모듈 상태를 대조한다.",
+        "en": "At the Jamsil Line tool wall, Ichaeon (Chaeon) compares hand-module condition with Jang Sehwa's convoy handover time."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-12-prose-00218",
+      "text": {
+        "ko": "장세화는 봉인 기록과 교대 스냅샷의 분기 표시를 확인한다.",
+        "en": "Jang Sehwa checks the seal record and shift snapshot branch marker."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-12-prose-00219",
+      "text": {
+        "ko": "정비 벤치 경보가 나면 이채온은 잠실선 구역에서 확인한 수치를 담당자에게 전한다.",
+        "en": "At the maintenance-bench alarm, Ichaeon passes the Jamsil Line sector reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-12-prose-00220",
+      "text": {
+        "ko": "마모 부품 할당이 늦어지면 교체 대기를 인계표에 적는다.",
+        "en": "If wear-parts allocation is delayed, Ichaeon records the pending replacement on the handover sheet."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H13-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0074"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H13 · 한빛나 (빛나)",
+        "en": "H13 · Hanbitna (Bitna)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H13-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC13 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC13 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 류은비 주정비·HC13 감사 입회",
+          "en": "Maintenance: chief maintainer Ryu Eunbi · HC13 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 동대문 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Dongdaemun Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K322 custodian, HC13 steward_house, K089 work_peer",
+          "en": "Relations: K322 custodian, HC13 steward_house, K089 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-13-prose-00221",
+      "text": {
+        "ko": "동대문 연합 정비 벤치에서 한빛나(빛나)가 류은비의 진료 당직표와 배터리 점검 시간을 맞춘다.",
+        "en": "At the Dongdaemun Union maintenance bench, Hanbitna (Bitna) matches battery-check time to Ryu Eunbi's clinic duty roster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-13-prose-00222",
+      "text": {
+        "ko": "류은비는 보관 봉인과 그 교대의 기억 분기 로그를 확인한다.",
+        "en": "Ryu Eunbi checks the custody seal and that shift's memory branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-13-prose-00223",
+      "text": {
+        "ko": "충전 칸 경보가 나면 한빛나는 동대문 연합 구역의 잔량을 담당자에게 보고한다.",
+        "en": "At the charging-bay alarm, Hanbitna reports the Dongdaemun Union sector charge to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-13-prose-00224",
+      "text": {
+        "ko": "손모듈 부품이 모자라면 남은 점검을 진료 교대 명부에 남긴다.",
+        "en": "If hand-module parts run short, Hanbitna leaves the outstanding inspection on the clinic shift roster."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H14-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0080"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H14 · 오세림 (세림)",
+        "en": "H14 · Oserim (Serim)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H14-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HC14 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC14 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 고서준 주정비·HC14 감사 입회",
+          "en": "Maintenance: chief maintainer Go Seojun · HC14 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 성북선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Seongbuk Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K348 custodian, HC14 steward_house, K096 work_peer",
+          "en": "Relations: K348 custodian, HC14 steward_house, K096 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-14-prose-00225",
+      "text": {
+        "ko": "성북선 충전 칸에서 오세림(세림)이 고서준의 공동 결재 당직표와 구역 점검 시각을 맞춘다.",
+        "en": "At the Seongbuk Line charging bay, Oserim (Serim) matches sector inspection time to Go Seojun's joint-approval duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-14-prose-00226",
+      "text": {
+        "ko": "고서준은 보관 봉인과 교대 분기 로그를 HC14 감사 입회 아래 확인한다.",
+        "en": "Go Seojun checks the custody seal and shift branch log with the HC14 audit present."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-14-prose-00227",
+      "text": {
+        "ko": "관측 난간 경보에는 오세림이 성북선 구역 관측 값을 담당자에게 건넨다.",
+        "en": "At the observation-railing alarm, Oserim hands the Seongbuk Line sector reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-14-prose-00228",
+      "text": {
+        "ko": "교체형 손모듈 배당이 떨어지면 점검을 다음 교대 표에 남긴다.",
+        "en": "When replacement hand-module allocation is exhausted, Oserim leaves the inspection for the next shift."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H15-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0086"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H15 · 배수아 (수아)",
+        "en": "H15 · Baesua (Sua)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H15-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HP01 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP01 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 남윤경 주정비·HP01 감사 입회",
+          "en": "Maintenance: chief maintainer Nam Yungyeong · HP01 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 명동 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Myeongdong Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K373 custodian, HP01 steward_house, K103 work_peer",
+          "en": "Relations: K373 custodian, HP01 steward_house, K103 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-15-prose-00229",
+      "text": {
+        "ko": "명동 연합 관측 난간에서 배수아(수아)가 남윤경의 구휼 명부와 구역 점검 시간을 대조한다.",
+        "en": "At the Myeongdong Union observation railing, Baesua (Sua) compares sector inspection time with Nam Yungyeong's relief roster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-15-prose-00230",
+      "text": {
+        "ko": "남윤경은 시민 참관 봉인과 교대 분기 기록을 확인한다.",
+        "en": "Nam Yungyeong checks the citizen-witnessed seal and shift branch record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-15-prose-00231",
+      "text": {
+        "ko": "공구 벽 경보가 울리면 배수아는 명동 연합 구역의 수치를 담당자에게 알린다.",
+        "en": "At the tool-wall alarm, Baesua gives the Myeongdong Union sector reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-15-prose-00232",
+      "text": {
+        "ko": "마모 부품이 부족하면 교체 대기를 구휼 당직표에 표시한다.",
+        "en": "When wear parts are short, Baesua marks the pending replacement on the relief duty sheet."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-H16-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0092"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "H16 · 신태율 (태율)",
+        "en": "H16 · Sintaeul (Taeul)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-H16-title-list-1",
+      "items": [
+        {
+          "ko": "급: H",
+          "en": "Class: H"
+        },
+        {
+          "ko": "기체: 인간형 보조 골격·교체형 손모듈·야간 시야 제한",
+          "en": "Body platform: humanoid assist frame · replaceable hand modules · restricted night vision"
+        },
+        {
+          "ko": "보관·법적 지위: HP02 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP02 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 정유라 주정비·HP02 감사 입회",
+          "en": "Maintenance: chief maintainer Jeong Yura · HP02 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 수서선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Suseo Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K398 custodian, HP02 steward_house, K110 work_peer",
+          "en": "Relations: K398 custodian, HP02 steward_house, K110 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-16-prose-00233",
+      "text": {
+        "ko": "수서선 공구 벽에서 신태율(태율)이 정유라의 의료 인계표에 손모듈 점검을 기록한다.",
+        "en": "At the Suseo Line tool wall, Sintaeul (Taeul) records the hand-module inspection on Jeong Yura's medical handover sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-16-prose-00234",
+      "text": {
+        "ko": "정유라는 봉인과 교대 스냅샷의 분기 로그를 맞춘다.",
+        "en": "Jeong Yura compares the seal with the shift snapshot branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-16-prose-00235",
+      "text": {
+        "ko": "정비 벤치 경보에는 신태율이 수서선 구역 수치를 인계 담당자에게 전한다.",
+        "en": "At the maintenance-bench alarm, Sintaeul passes the Suseo Line sector reading to the handover worker."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-16-prose-00236",
+      "text": {
+        "ko": "배터리 배당이 부족하면 남은 점검 시간을 인계표에 남긴다.",
+        "en": "When battery allocation is short, Sintaeul records the remaining inspection time on the handover sheet."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F01-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0098"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F01 · 냉각탑지기 (탑지)",
+        "en": "F01 · Cooling-Tower Keeper (Tapji)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F01-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HC09 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC09 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 이서담 주정비·HC09 감사 입회",
+          "en": "Maintenance: chief maintainer I Seodam · HC09 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 수문국 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Sluice sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K002 custodian, HC09 steward_house, K117 work_peer",
+          "en": "Relations: K002 custodian, HC09 steward_house, K117 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-17-prose-00237",
+      "text": {
+        "ko": "수문국 기계실에서 냉각탑지기(탑지)의 현장 단말이 냉각탑 센서 값을 HC09 당직 기록에 보낸다.",
+        "en": "In the Sluice machine room, Cooling-Tower Keeper's local terminal sends cooling-tower sensor readings to the HC09 duty record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-17-prose-00238",
+      "text": {
+        "ko": "이서담은 고정 랙의 봉인과 교대 분기 로그를 감사 입회 아래 대조한다.",
+        "en": "I Seodam compares the fixed rack's seal with the shift branch log before the audit."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-17-prose-00239",
+      "text": {
+        "ko": "배전반 경보가 나면 단말은 수문국 구역의 관측 값만 표시한다.",
+        "en": "At a switchgear alarm, the terminal displays only the Sluice sector observation."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-17-prose-00240",
+      "text": {
+        "ko": "교체 부품이 모자라면 이서담이 현장 점검 대기를 기록한다.",
+        "en": "If replacement parts are short, I Seodam records a pending site inspection."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F02-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0104"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F02 · 배전반이 (전반)",
+        "en": "F02 · Switchgear Panel (Jeonban)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F02-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HC10 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC10 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 정시우 주정비·HC10 감사 입회",
+          "en": "Maintenance: chief maintainer Jeong Siwoo · HC10 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 영등포선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Yeongdeungpo Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K030 custodian, HC10 steward_house, K124 work_peer",
+          "en": "Relations: K030 custodian, HC10 steward_house, K124 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-18-prose-00241",
+      "text": {
+        "ko": "영등포선 배전반 앞에서 배전반이(전반)의 현장 단말이 전원 값을 HC10 당직자에게 표시한다.",
+        "en": "At the Yeongdeungpo Line switchgear, Switchgear Panel's local terminal displays the power reading to the HC10 duty worker."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-18-prose-00242",
+      "text": {
+        "ko": "정시우는 랙 봉인과 교대 스냅샷의 분기 기록을 확인한다.",
+        "en": "Jeong Siwoo checks the rack seal and shift snapshot branch record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-18-prose-00243",
+      "text": {
+        "ko": "필터 복도 경보가 들어오면 해당 구역의 읽기 전용 관측치를 대조한다.",
+        "en": "At a filter-corridor alarm, the terminal compares the read-only observation for that sector."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-18-prose-00244",
+      "text": {
+        "ko": "마모 부품 배당이 밀리면 정시우가 배전반 점검 대기를 기록한다.",
+        "en": "If wear-parts allocation is delayed, Jeong Siwoo records a pending panel inspection."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F03-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0110"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F03 · 정수여과 (여과)",
+        "en": "F03 · Water Filtration (Yeogwa)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F03-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HC11 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC11 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 정하린 주정비·HC11 감사 입회",
+          "en": "Maintenance: chief maintainer Jeong Harin · HC11 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 용산선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Yongsan Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K058 custodian, HC11 steward_house, K131 work_peer",
+          "en": "Relations: K058 custodian, HC11 steward_house, K131 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-19-prose-00245",
+      "text": {
+        "ko": "용산선 필터 복도에서 정수여과(여과)의 센서 버스가 여과 상태를 현장 단말에 남긴다.",
+        "en": "In the Yongsan Line filter corridor, Water Filtration's sensor bus leaves the filter status at the local terminal."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-19-prose-00246",
+      "text": {
+        "ko": "정하린은 HC11 감사와 함께 고정 랙 봉인과 교대 분기 로그를 확인한다.",
+        "en": "Jeong Harin checks the fixed-rack seal and shift branch log with the HC11 audit."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-19-prose-00247",
+      "text": {
+        "ko": "제어 부스 경보가 나면 용산선 구역 관측 값을 담당자에게 표시한다.",
+        "en": "At a control-booth alarm, the terminal displays the Yongsan Line sector reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-19-prose-00248",
+      "text": {
+        "ko": "필터 교체 부품이 부족하면 점검 대기를 정하린의 기록에 남긴다.",
+        "en": "When filter replacement parts are short, it records a pending inspection for Jeong Harin."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F04-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0116"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F04 · 냉동창고 (냉창)",
+        "en": "F04 · Cold Storage (Naengchang)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F04-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HC12 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC12 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 임초원 정비 교육 미완료·봉인 확인과 기록 인계·HC12 감사 입회",
+          "en": "Maintenance: Im Chowon's maintenance training incomplete · seal check and record handover · HC12 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 뚝섬 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Ttukseom Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K087 record_handover_contact, HC12 steward_house, K138 work_peer",
+          "en": "Relations: K087 record_handover_contact, HC12 steward_house, K138 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-20-prose-00249",
+      "text": {
+        "ko": "뚝섬 연합 제어 부스에서 냉동창고(냉창)의 현장 단말이 냉동실 관측 값을 HC12 당직 기록에 남긴다.",
+        "en": "At the Ttukseom Union control booth, Cold Storage's local terminal records the freezer reading in the HC12 duty log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-20-prose-00250",
+      "text": {
+        "ko": "정비 교육을 마치지 않은 임초원은 봉인 확인과 기록 인계를 맡되 완료된 정비나 기억 동기화는 기록하지 않는다.",
+        "en": "Im Chowon, whose maintenance training is unfinished, checks the seal and hands over the record without certifying a completed repair or memory sync."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-20-prose-00251",
+      "text": {
+        "ko": "기계실 경보가 들어오면 단말은 뚝섬 연합 구역의 읽기 전용 수치를 표시한다.",
+        "en": "At a machine-room alarm, the terminal displays the Ttukseom Union sector's read-only reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-20-prose-00252",
+      "text": {
+        "ko": "교체 부품이 모자라면 담당 확인이 필요한 정비 항목을 다음 교대에 남긴다.",
+        "en": "If parts are short, it leaves the maintenance item requiring human confirmation for the next shift."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F05-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0122"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F05 · 송신중계 (중계)",
+        "en": "F05 · Transmission Relay (Junggye)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F05-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HC13 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC13 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 김우찬 주정비·HC13 감사 입회",
+          "en": "Maintenance: chief maintainer Kim Woochan · HC13 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 광진선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Gwangjin Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K116 custodian, HC13 steward_house, K146 work_peer",
+          "en": "Relations: K116 custodian, HC13 steward_house, K146 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-21-prose-00253",
+      "text": {
+        "ko": "광진선 기계실에서 송신중계(중계)의 현장 단말이 구역 송신 상태를 HC13 당직 기록에 표시한다.",
+        "en": "In the Gwangjin Line machine room, Transmission Relay's local terminal displays sector signal status in the HC13 duty record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-21-prose-00254",
+      "text": {
+        "ko": "김우찬은 고정 랙의 봉인과 교대 분기 로그를 확인한다.",
+        "en": "Kim Woochan checks the fixed-rack seal and shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-21-prose-00255",
+      "text": {
+        "ko": "배전반 경보에는 광진선 구역에서 읽힌 신호 상태만 기록한다.",
+        "en": "At a switchgear alarm, the terminal records only the signal status read in the Gwangjin Line sector."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-21-prose-00256",
+      "text": {
+        "ko": "중계 부품 배당이 모자라면 김우찬이 교체 요청을 점검표에 남긴다.",
+        "en": "If relay-parts allocation is short, Kim Woochan records a replacement request on the checklist."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F06-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0128"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F06 · 승강기축 (승축)",
+        "en": "F06 · Elevator Shaft (Seungchuk)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F06-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HC14 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC14 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 강예준 주정비·HC14 감사 입회",
+          "en": "Maintenance: chief maintainer Gang Yejun · HC14 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 서울역 중앙 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Seoul Station Central sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K145 custodian, HC14 steward_house, K153 work_peer",
+          "en": "Relations: K145 custodian, HC14 steward_house, K153 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-22-prose-00257",
+      "text": {
+        "ko": "서울역 중앙 배전반 앞에서 승강기축(승축)의 단말이 승강기축 센서 값을 HC14 당직자에게 표시한다.",
+        "en": "At the Seoul Station Central switchgear, Elevator Shaft's terminal displays shaft-sensor readings to the HC14 duty worker."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-22-prose-00258",
+      "text": {
+        "ko": "강예준은 랙 봉인과 교대 분기 기록을 대조한다.",
+        "en": "Gang Yejun compares the rack seal with the shift branch record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-22-prose-00259",
+      "text": {
+        "ko": "필터 복도 경보에는 서울역 중앙 구역의 읽기 전용 수치를 확인한다.",
+        "en": "At a filter-corridor alarm, the terminal checks the sector's read-only reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-22-prose-00260",
+      "text": {
+        "ko": "마모 부품 교체가 밀리면 강예준이 점검 대기를 기록한다.",
+        "en": "If wear-part replacement is delayed, Gang Yejun records a pending inspection."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F07-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0134"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F07 · 보일러실 (보일)",
+        "en": "F07 · Boiler Room (Boil)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F07-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HP01 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP01 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 신가온 주정비·HP01 감사 입회",
+          "en": "Maintenance: chief maintainer Sin Gaon · HP01 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 왕십리 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Wangsimni Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K170 custodian, HP01 steward_house, K160 work_peer",
+          "en": "Relations: K170 custodian, HP01 steward_house, K160 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-23-prose-00261",
+      "text": {
+        "ko": "왕십리 연합 필터 복도에서 보일러실(보일)의 현장 단말이 보일러 센서 값을 HP01 당직 기록에 남긴다.",
+        "en": "In the Wangsimni Union filter corridor, Boiler Room's local terminal enters boiler-sensor readings in the HP01 duty record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-23-prose-00262",
+      "text": {
+        "ko": "신가온은 고정 랙 봉인과 교대 분기 로그를 대조한다.",
+        "en": "Sin Gaon compares the fixed-rack seal with the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-23-prose-00263",
+      "text": {
+        "ko": "제어 부스 경보가 들어오면 왕십리 연합 구역의 온도 관측 값을 표시한다.",
+        "en": "At a control-booth alarm, the terminal displays the Wangsimni Union sector temperature reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-23-prose-00264",
+      "text": {
+        "ko": "부품 배당이 부족하면 신가온이 현장 정비 대기를 기록한다.",
+        "en": "When parts allocation is short, Sin Gaon records pending on-site maintenance."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F08-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0140"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F08 · 하수펌프 (하수)",
+        "en": "F08 · Sewage Pump (Hasu)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F08-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HP02 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP02 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 조민재 주정비·HP02 감사 입회",
+          "en": "Maintenance: chief maintainer Jo Minjae · HP02 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 노량진선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Noryangjin Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K195 custodian, HP02 steward_house, K167 work_peer",
+          "en": "Relations: K195 custodian, HP02 steward_house, K167 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-24-prose-00265",
+      "text": {
+        "ko": "노량진선 제어 부스에서 하수펌프(하수)의 센서 버스가 펌프 상태를 HP02 현장 단말에 남긴다.",
+        "en": "At the Noryangjin Line control booth, Sewage Pump's sensor bus leaves pump status at the HP02 local terminal."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-24-prose-00266",
+      "text": {
+        "ko": "조민재는 봉인 확인과 교대 분기 로그를 감사 기록에 적는다.",
+        "en": "Jo Minjae records the seal check and shift branch log for the audit."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-24-prose-00267",
+      "text": {
+        "ko": "기계실 경보에는 노량진선 구역의 펌프 관측 값을 표시한다.",
+        "en": "At a machine-room alarm, the terminal displays the Noryangjin Line sector pump reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-24-prose-00268",
+      "text": {
+        "ko": "펌프 마모 부품이 부족하면 조민재가 다음 점검을 대기로 표시한다.",
+        "en": "When pump wear parts are short, Jo Minjae marks the next inspection as pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F09-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0146"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F09 · 실험클린 (클린)",
+        "en": "F09 · Lab Cleanroom (Clean)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F09-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HP03 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP03 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 권미래 주정비·HP03 감사 입회",
+          "en": "Maintenance: chief maintainer Gwon Mirae · HP03 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 마포 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Mapo Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K220 custodian, HP03 steward_house, K175 work_peer",
+          "en": "Relations: K220 custodian, HP03 steward_house, K175 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-25-prose-00269",
+      "text": {
+        "ko": "마포 연합 기계실에서 실험클린(클린)의 현장 단말이 클린룸 센서 값을 HP03 당직 기록에 남긴다.",
+        "en": "In the Mapo Union machine room, Lab Cleanroom's terminal records cleanroom-sensor readings in the HP03 duty record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-25-prose-00270",
+      "text": {
+        "ko": "권미래는 랙 봉인과 교대 스냅샷의 분기 표시를 확인한다.",
+        "en": "Gwon Mirae checks the rack seal and the shift snapshot branch marker."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-25-prose-00271",
+      "text": {
+        "ko": "배전반 경보에는 마포 연합 구역의 관측치만 담당자에게 보여 준다.",
+        "en": "At a switchgear alarm, the terminal shows the duty holder only the Mapo Union sector observation."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-25-prose-00272",
+      "text": {
+        "ko": "필터 부품 할당이 늦으면 권미래가 점검 대기를 기록한다.",
+        "en": "If filter parts are delayed, Gwon Mirae records a pending inspection."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F10-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0152"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F10 · 물류분류 (분류)",
+        "en": "F10 · Logistics Sorting (Bunryu)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F10-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HP04 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP04 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 신보람 주정비·HP04 감사 입회",
+          "en": "Maintenance: chief maintainer Sin Boram · HP04 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 여의도선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Yeouido Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K246 custodian, HP04 steward_house, K182 work_peer",
+          "en": "Relations: K246 custodian, HP04 steward_house, K182 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-26-prose-00273",
+      "text": {
+        "ko": "여의도선 배전반 앞에서 물류분류(분류)의 단말이 분류대 센서 값을 HP04 당직자에게 표시한다.",
+        "en": "At the Yeouido Line switchgear, Logistics Sorting's terminal shows sorting-rack sensor readings to the HP04 duty worker."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-26-prose-00274",
+      "text": {
+        "ko": "신보람은 고정 랙 봉인과 교대 분기 로그를 확인한다.",
+        "en": "Sin Boram checks the fixed-rack seal and shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-26-prose-00275",
+      "text": {
+        "ko": "필터 복도 경보에는 여의도선 구역 수치와 당직 시각을 나란히 기록한다.",
+        "en": "At a filter-corridor alarm, the terminal records the Yeouido Line sector reading beside the duty time."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-26-prose-00276",
+      "text": {
+        "ko": "마모 부품이 모자라면 신보람이 분류대 점검을 대기로 남긴다.",
+        "en": "When wear parts are short, Sin Boram leaves the sorting-rack inspection pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F11-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0158"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F11 · 전력변압 (변압)",
+        "en": "F11 · Power Transformer (Byeonap)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F11-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HP05 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP05 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 송하율 주정비·HP05 감사 입회",
+          "en": "Maintenance: chief maintainer Song Hayul · HP05 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 강남선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Gangnam Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K272 custodian, HP05 steward_house, K189 work_peer",
+          "en": "Relations: K272 custodian, HP05 steward_house, K189 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-27-prose-00277",
+      "text": {
+        "ko": "강남선 필터 복도에서 전력변압(변압)의 현장 단말이 변압기 센서 값을 HP05 당직표에 남긴다.",
+        "en": "In the Gangnam Line filter corridor, Power Transformer's terminal records transformer-sensor readings on the HP05 duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-27-prose-00278",
+      "text": {
+        "ko": "송하율은 봉인과 교대 분기 로그를 감사 입회 아래 확인한다.",
+        "en": "Song Hayul checks the seal and shift branch log with the audit present."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-27-prose-00279",
+      "text": {
+        "ko": "제어 부스 경보에는 강남선 구역의 전원 관측치를 표시한다.",
+        "en": "At a control-booth alarm, the terminal displays the Gangnam Line sector power reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-27-prose-00280",
+      "text": {
+        "ko": "변압 부품 배당이 모자라면 송하율이 교체 요청을 당직표에 적는다.",
+        "en": "If transformer-parts allocation is short, Song Hayul enters a replacement request on the duty sheet."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F12-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0164"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F12 · 환기덕트 (덕트)",
+        "en": "F12 · Ventilation Duct (Duct)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F12-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HP06 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP06 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 안도한 주정비·HP06 감사 입회",
+          "en": "Maintenance: chief maintainer An Dohan · HP06 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 잠실선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Jamsil Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K297 custodian, HP06 steward_house, K197 work_peer",
+          "en": "Relations: K297 custodian, HP06 steward_house, K197 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-28-prose-00281",
+      "text": {
+        "ko": "잠실선 제어 부스에서 환기덕트(덕트)의 센서 버스가 덕트 상태를 HP06 현장 단말에 남긴다.",
+        "en": "At the Jamsil Line control booth, Ventilation Duct's sensor bus leaves duct status at the HP06 local terminal."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-28-prose-00282",
+      "text": {
+        "ko": "안도한은 고정 랙 봉인과 교대 분기 기록을 대조한다.",
+        "en": "An Dohan compares the fixed-rack seal with the shift branch record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-28-prose-00283",
+      "text": {
+        "ko": "기계실 경보에는 잠실선 구역의 환기 관측 값을 표시한다.",
+        "en": "At a machine-room alarm, the terminal displays the Jamsil Line sector ventilation reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-28-prose-00284",
+      "text": {
+        "ko": "필터 부품이 부족하면 안도한이 덕트 점검을 대기로 남긴다.",
+        "en": "When filter parts are short, An Dohan leaves the duct inspection pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F13-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0170"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F13 · 의료멸균 (멸균)",
+        "en": "F13 · Medical Sterilization (Myeolgun)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F13-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HP07 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP07 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 심달호 주정비·HP07 감사 입회",
+          "en": "Maintenance: chief maintainer Sim Dalho · HP07 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 동대문 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Dongdaemun Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K323 custodian, HP07 steward_house, K204 work_peer",
+          "en": "Relations: K323 custodian, HP07 steward_house, K204 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-29-prose-00285",
+      "text": {
+        "ko": "동대문 연합 기계실에서 의료멸균(멸균)의 단말이 멸균 장치 센서 값을 HP07 당직 기록에 남긴다.",
+        "en": "In the Dongdaemun Union machine room, Medical Sterilization's terminal records sterilizer-sensor readings in the HP07 duty record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-29-prose-00286",
+      "text": {
+        "ko": "심달호는 봉인과 교대 분기 로그를 감사 입회 아래 확인한다.",
+        "en": "Sim Dalho checks the seal and shift branch log with the audit present."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-29-prose-00287",
+      "text": {
+        "ko": "배전반 경보에는 동대문 연합 구역의 장치 상태를 담당자에게 표시한다.",
+        "en": "At a switchgear alarm, the terminal displays the sector device status to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-29-prose-00288",
+      "text": {
+        "ko": "교체 부품이 부족하면 심달호가 다음 멸균 장치 점검을 기록한다.",
+        "en": "If replacement parts are short, Sim Dalho records the next sterilizer inspection."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F14-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0176"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F14 · 인쇄기동 (인쇄)",
+        "en": "F14 · Printing Press Unit (Inswae)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F14-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HP08 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP08 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 문하율 주정비·HP08 감사 입회",
+          "en": "Maintenance: chief maintainer Mun Hayul · HP08 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 성북선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Seongbuk Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K349 custodian, HP08 steward_house, K211 work_peer",
+          "en": "Relations: K349 custodian, HP08 steward_house, K211 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-30-prose-00289",
+      "text": {
+        "ko": "성북선 배전반 앞에서 인쇄기동(인쇄)의 단말이 인쇄기 센서 값을 HP08 당직표에 표시한다.",
+        "en": "At the Seongbuk Line switchgear, Printing Press Unit's terminal shows press-sensor readings on the HP08 duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-30-prose-00290",
+      "text": {
+        "ko": "문하율은 랙 봉인과 교대 분기 기록을 확인한다.",
+        "en": "Mun Hayul checks the rack seal and shift branch record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-30-prose-00291",
+      "text": {
+        "ko": "필터 복도 경보에는 성북선 구역의 장치 상태만 기록한다.",
+        "en": "At a filter-corridor alarm, the terminal records the Seongbuk Line sector device status."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-30-prose-00292",
+      "text": {
+        "ko": "마모 부품 배당이 모자라면 문하율이 인쇄기 점검을 대기로 남긴다.",
+        "en": "If wear-parts allocation is short, Mun Hayul leaves the press inspection pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F15-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0182"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F15 · 급수계량 (계량)",
+        "en": "F15 · Water-Supply Metering (Gyeryang)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F15-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HP09 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP09 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 은태호 주정비·HP09 감사 입회",
+          "en": "Maintenance: chief maintainer Eun Taeho · HP09 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 명동 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Myeongdong Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K374 custodian, HP09 steward_house, K218 work_peer",
+          "en": "Relations: K374 custodian, HP09 steward_house, K218 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-31-prose-00293",
+      "text": {
+        "ko": "명동 연합 필터 복도에서 급수계량(계량)의 단말이 급수 측정 값을 HP09 당직 기록에 남긴다.",
+        "en": "In the Myeongdong Union filter corridor, Water-Supply Metering's terminal records water-meter readings in the HP09 duty record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-31-prose-00294",
+      "text": {
+        "ko": "은태호는 봉인과 교대 스냅샷의 분기 로그를 확인한다.",
+        "en": "Eun Taeho checks the seal and shift snapshot branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-31-prose-00295",
+      "text": {
+        "ko": "제어 부스 경보에는 명동 연합 구역 계량 값과 당직 시각을 함께 표시한다.",
+        "en": "At a control-booth alarm, the terminal displays the sector meter reading beside the duty time."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-31-prose-00296",
+      "text": {
+        "ko": "계량 부품 배당이 모자라면 은태호가 현장 점검 대기를 적는다.",
+        "en": "If metering parts are short, Eun Taeho records a pending on-site inspection."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-F16-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0188"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "F16 · 터널환기 (터환)",
+        "en": "F16 · Tunnel Ventilation (Teohwan)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-F16-title-list-1",
+      "items": [
+        {
+          "ko": "급: F",
+          "en": "Class: F"
+        },
+        {
+          "ko": "기체: 시설 고정 랙·센서 버스·현장 단말 연결",
+          "en": "Body platform: facility-fixed rack · sensor bus · field-terminal link"
+        },
+        {
+          "ko": "보관·법적 지위: HP10 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP10 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 하서진 주정비·HP10 감사 입회",
+          "en": "Maintenance: chief maintainer Ha Seojin · HP10 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 수서선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Suseo Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K399 custodian, HP10 steward_house, K225 work_peer",
+          "en": "Relations: K399 custodian, HP10 steward_house, K225 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-32-prose-00297",
+      "text": {
+        "ko": "수서선 제어 부스에서 터널환기(터환)의 현장 단말이 터널 환기 센서 값을 HP10 당직 기록에 남긴다.",
+        "en": "At the Suseo Line control booth, Tunnel Ventilation's terminal records tunnel-airflow sensor readings in the HP10 duty record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-32-prose-00298",
+      "text": {
+        "ko": "하서진은 고정 랙 봉인과 교대 분기 로그를 대조한다.",
+        "en": "Ha Seojin compares the fixed-rack seal with the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-32-prose-00299",
+      "text": {
+        "ko": "기계실 경보에는 수서선 구역의 환기 수치를 담당자에게 표시한다.",
+        "en": "At a machine-room alarm, the terminal displays the Suseo Line sector ventilation reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-32-prose-00300",
+      "text": {
+        "ko": "필터 교체분이 모자라면 하서진이 다음 점검을 대기로 남긴다.",
+        "en": "If filter replacements are short, Ha Seojin leaves the next inspection pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V01-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0194"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V01 · 새벽호송 (새벽)",
+        "en": "V01 · Dawn Convoy (Saebyeok)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V01-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HP03 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP03 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 김태운 주정비·HP03 감사 입회",
+          "en": "Maintenance: chief maintainer Kim Taeun · HP03 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 수문국 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Sluice sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K003 custodian, HP03 steward_house, K232 work_peer",
+          "en": "Relations: K003 custodian, HP03 steward_house, K232 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-33-prose-00301",
+      "text": {
+        "ko": "수문국 회차선에서 새벽호송(새벽)이 김태운의 구역 당직표에 회차 시각을 남긴다.",
+        "en": "At the Sluice turnback lane, Dawn Convoy records its turnback time on Kim Taeun's sector duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-33-prose-00302",
+      "text": {
+        "ko": "김태운은 배터리 슬롯 잔량과 보관 봉인, 교대 분기 로그를 대조한다.",
+        "en": "Kim Taeun compares battery-slot charge, the custody seal, and the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-33-prose-00303",
+      "text": {
+        "ko": "적재 베이 경보에는 새벽호송이 수문국 구역의 차선 센서 값을 담당자에게 전한다.",
+        "en": "At a loading-bay alarm, Dawn Convoy passes the Sluice sector lane-sensor reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-33-prose-00304",
+      "text": {
+        "ko": "배터리나 마모 부품이 모자라면 다음 회차를 대기로 적어 둔다.",
+        "en": "If battery or wear parts run short, it records the next turnback as pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V02-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0200"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V02 · 순환버스 (순환)",
+        "en": "V02 · Circulating Bus (Sunhwan)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V02-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HP04 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP04 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 김나율 주정비·HP04 감사 입회",
+          "en": "Maintenance: chief maintainer Kim Nayul · HP04 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 영등포선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Yeongdeungpo Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K031 custodian, HP04 steward_house, K239 work_peer",
+          "en": "Relations: K031 custodian, HP04 steward_house, K239 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-34-prose-00305",
+      "text": {
+        "ko": "영등포선 적재 베이에서 순환버스(순환)이 김나율의 교대 명부에 적재 확인 시각을 남긴다.",
+        "en": "At the Yeongdeungpo Line loading bay, Circulating Bus records loading-check time on Kim Nayul's shift roster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-34-prose-00306",
+      "text": {
+        "ko": "김나율은 배터리 슬롯 봉인과 교대 분기 로그를 대조한다.",
+        "en": "Kim Nayul compares the battery-slot seal with the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-34-prose-00307",
+      "text": {
+        "ko": "점검 피트 경보에는 영등포선 구역의 차선 센서 값을 담당자에게 보고한다.",
+        "en": "At an inspection-pit alarm, it reports the Yeongdeungpo Line sector lane-sensor reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-34-prose-00308",
+      "text": {
+        "ko": "마모 부품 할당이 모자라면 다음 구역 운행을 점검 대기로 기록한다.",
+        "en": "If wear-parts allocation is short, it records the next sector run as pending inspection."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V03-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0206"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V03 · 화물트램 (트램)",
+        "en": "V03 · Freight Tram (Tram)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V03-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HP05 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP05 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 최은재 주정비·HP05 감사 입회",
+          "en": "Maintenance: chief maintainer Choi Eunjae · HP05 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 용산선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Yongsan Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K059 custodian, HP05 steward_house, K247 work_peer",
+          "en": "Relations: K059 custodian, HP05 steward_house, K247 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-35-prose-00309",
+      "text": {
+        "ko": "용산선 점검 피트에서 화물트램(트램)이 최은재의 당직표에 대차 점검 시각을 남긴다.",
+        "en": "At the Yongsan Line inspection pit, Freight Tram records bogie-inspection time on Choi Eunjae's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-35-prose-00310",
+      "text": {
+        "ko": "최은재는 배터리 슬롯 잔량과 봉인, 교대 분기 로그를 확인한다.",
+        "en": "Choi Eunjae checks battery-slot charge, the seal, and shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-35-prose-00311",
+      "text": {
+        "ko": "충전 슬롯 경보에는 용산선 구역의 차선 센서 값을 보고한다.",
+        "en": "At a charging-slot alarm, it reports the Yongsan Line sector lane-sensor reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-35-prose-00312",
+      "text": {
+        "ko": "마모 부품 배당이 끝나면 다음 적재 확인을 대기로 남긴다.",
+        "en": "Once wear-parts allocation runs out, it leaves the next loading check pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V04-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0212"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V04 · 구경로봇 (구경로)",
+        "en": "V04 · Gugyeong Robot (Gugyeongno)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V04-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HP06 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP06 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 한소미 주정비·HP06 감사 입회",
+          "en": "Maintenance: chief maintainer Han Somi · HP06 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 뚝섬 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Ttukseom Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K088 custodian, HP06 steward_house, K254 work_peer",
+          "en": "Relations: K088 custodian, HP06 steward_house, K254 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-36-prose-00313",
+      "text": {
+        "ko": "뚝섬 연합 충전 슬롯에서 구경로봇(구경로)가 한소미의 당직표에 충전 확인 시각을 남긴다.",
+        "en": "At the Ttukseom Union charging slot, Gugyeong Robot records the charging-check time on Han Somi's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-36-prose-00314",
+      "text": {
+        "ko": "한소미는 배터리 슬롯 봉인과 교대 분기 로그를 확인한다.",
+        "en": "Han Somi checks the battery-slot seal and shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-36-prose-00315",
+      "text": {
+        "ko": "회차선 경보에는 구경로봇이 뚝섬 연합 구역의 차선 센서 값을 담당자에게 보고한다.",
+        "en": "At a turnback-lane alarm, Gugyeong Robot reports the Ttukseom Union sector lane-sensor reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-36-prose-00316",
+      "text": {
+        "ko": "마모 부품 배당이 부족하면 다음 구역 점검을 대기로 남긴다.",
+        "en": "When wear-parts allocation is short, it leaves the next sector inspection pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V05-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0218"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V05 · 레일견인 (견인)",
+        "en": "V05 · Rail Tow (Gyeonin)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V05-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HP07 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP07 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 정소율 주정비·HP07 감사 입회",
+          "en": "Maintenance: chief maintainer Jeong Soyul · HP07 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 광진선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Gwangjin Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K117 custodian, HP07 steward_house, K261 work_peer",
+          "en": "Relations: K117 custodian, HP07 steward_house, K261 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-37-prose-00317",
+      "text": {
+        "ko": "광진선 회차선에서 레일견인(견인)이 정소율의 당직표에 견인 대차 점검 시각을 남긴다.",
+        "en": "At the Gwangjin Line turnback lane, Rail Tow records tow-bogie inspection time on Jeong Soyul's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-37-prose-00318",
+      "text": {
+        "ko": "정소율은 배터리 슬롯 잔량과 보관 봉인, 교대 분기 로그를 확인한다.",
+        "en": "Jeong Soyul checks battery-slot charge, the custody seal, and the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-37-prose-00319",
+      "text": {
+        "ko": "적재 베이 경보에는 광진선 구역의 차선 센서 값만 보고한다.",
+        "en": "At a loading-bay alarm, it reports the Gwangjin Line sector lane-sensor reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-37-prose-00320",
+      "text": {
+        "ko": "마모 부품이 부족하면 다음 견인 점검을 대기로 기록한다.",
+        "en": "When wear parts are short, it records the next tow inspection as pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V06-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0224"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V06 · 배전트럭 (배전)",
+        "en": "V06 · Distribution Truck (Baejeon)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V06-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HP08 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP08 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 조하린 주정비·HP08 감사 입회",
+          "en": "Maintenance: chief maintainer Jo Harin · HP08 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 서울역 중앙 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Seoul Station Central sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K146 custodian, HP08 steward_house, K268 work_peer",
+          "en": "Relations: K146 custodian, HP08 steward_house, K268 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-38-prose-00321",
+      "text": {
+        "ko": "서울역 중앙 적재 베이에서 배전트럭(배전)이 조하린의 당직표에 적재 확인 시각을 남긴다.",
+        "en": "At the Seoul Station Central loading bay, Distribution Truck records loading-check time on Jo Harin's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-38-prose-00322",
+      "text": {
+        "ko": "조하린은 배터리 슬롯 봉인과 교대 분기 로그를 대조한다.",
+        "en": "Jo Harin compares the battery-slot seal with the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-38-prose-00323",
+      "text": {
+        "ko": "점검 피트 경보에는 서울역 중앙 구역의 차선 센서 값을 보고한다.",
+        "en": "At an inspection-pit alarm, it reports the Seoul Station Central sector lane-sensor reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-38-prose-00324",
+      "text": {
+        "ko": "부품 할당이 모자라면 다음 구역 적재 점검을 대기로 남긴다.",
+        "en": "If parts allocation is short, it leaves the next sector loading check pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V07-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0230"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V07 · 청소차륜 (청소)",
+        "en": "V07 · Sweeper Vehicle (Cheongso)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V07-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HP09 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP09 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 권시온 주정비·HP09 감사 입회",
+          "en": "Maintenance: chief maintainer Gwon Sion · HP09 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 왕십리 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Wangsimni Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K171 custodian, HP09 steward_house, K276 work_peer",
+          "en": "Relations: K171 custodian, HP09 steward_house, K276 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-39-prose-00325",
+      "text": {
+        "ko": "왕십리 연합 점검 피트에서 청소차륜(청소)가 권시온의 당직표에 차륜 점검 시각을 적는다.",
+        "en": "At the Wangsimni Union inspection pit, Sweeper Vehicle records wheel-inspection time on Gwon Sion's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-39-prose-00326",
+      "text": {
+        "ko": "권시온은 배터리 슬롯 잔량과 보관 봉인, 교대 분기 로그를 확인한다.",
+        "en": "Gwon Sion checks battery-slot charge, the custody seal, and the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-39-prose-00327",
+      "text": {
+        "ko": "충전 슬롯 경보에는 왕십리 연합 구역의 차선 센서 값을 보고한다.",
+        "en": "At a charging-slot alarm, it reports the Wangsimni Union sector lane-sensor reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-39-prose-00328",
+      "text": {
+        "ko": "마모 부품이 부족하면 다음 청소 구역 점검을 대기로 남긴다.",
+        "en": "If wear parts are short, it leaves the next cleaning-sector inspection pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V08-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0236"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V08 · 구급카트 (구급)",
+        "en": "V08 · Ambulance Cart (Gugeup)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V08-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HP10 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HP10 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 윤서하 주정비·HP10 감사 입회",
+          "en": "Maintenance: chief maintainer Yun Seoha · HP10 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 노량진선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Noryangjin Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K196 custodian, HP10 steward_house, K283 work_peer",
+          "en": "Relations: K196 custodian, HP10 steward_house, K283 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-40-prose-00329",
+      "text": {
+        "ko": "노량진선 충전 슬롯에서 구급카트(구급)이 윤서하의 교대 명부에 충전 확인 시각을 적는다.",
+        "en": "At the Noryangjin Line charging slot, Ambulance Cart records charging-check time on Yun Seoha's shift roster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-40-prose-00330",
+      "text": {
+        "ko": "윤서하는 배터리 슬롯 봉인과 교대 분기 로그를 대조한다.",
+        "en": "Yun Seoha compares the battery-slot seal with the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-40-prose-00331",
+      "text": {
+        "ko": "회차선 경보에는 노량진선 구역의 차선 센서 값을 담당자에게 알린다.",
+        "en": "At a turnback-lane alarm, it reports the Noryangjin Line sector lane-sensor reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-40-prose-00332",
+      "text": {
+        "ko": "마모 부품이 모자라면 다음 구급카트 점검을 대기로 남긴다.",
+        "en": "When wear parts are short, it leaves the next cart inspection pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V09-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0242"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V09 · 항만크레인 (크레인)",
+        "en": "V09 · Port Crane (Crane)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V09-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HC01 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC01 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 황은설 주정비·HC01 감사 입회",
+          "en": "Maintenance: chief maintainer Hwang Eunseol · HC01 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 마포 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Mapo Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K221 custodian, HC01 steward_house, K290 work_peer",
+          "en": "Relations: K221 custodian, HC01 steward_house, K290 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-41-prose-00333",
+      "text": {
+        "ko": "마포 연합 회차선에서 항만크레인(크레인)이 황은설의 당직표에 기중 장치 점검 시각을 남긴다.",
+        "en": "At the Mapo Union turnback lane, Port Crane records lifting-gear inspection time on Hwang Eunseol's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-41-prose-00334",
+      "text": {
+        "ko": "황은설은 배터리 슬롯 잔량과 보관 봉인, 교대 분기 로그를 확인한다.",
+        "en": "Hwang Eunseol checks battery-slot charge, the custody seal, and the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-41-prose-00335",
+      "text": {
+        "ko": "적재 베이 경보에는 마포 연합 구역의 차선 센서 값을 담당자에게 전한다.",
+        "en": "At a loading-bay alarm, it passes the Mapo Union sector lane-sensor reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-41-prose-00336",
+      "text": {
+        "ko": "마모 부품이 부족하면 다음 장치 점검을 대기로 기록한다.",
+        "en": "If wear parts run short, it records the next gear inspection as pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V10-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0248"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V10 · 도크셔틀 (도크)",
+        "en": "V10 · Dock Shuttle (Dock)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V10-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HC02 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC02 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 황세린 주정비·HC02 감사 입회",
+          "en": "Maintenance: chief maintainer Hwang Serin · HC02 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 여의도선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Yeouido Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K247 custodian, HC02 steward_house, K297 work_peer",
+          "en": "Relations: K247 custodian, HC02 steward_house, K297 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-42-prose-00337",
+      "text": {
+        "ko": "여의도선 적재 베이에서 도크셔틀(도크)가 황세린의 당직표에 도크 적재 확인 시각을 남긴다.",
+        "en": "At the Yeouido Line loading bay, Dock Shuttle records dock-loading check time on Hwang Serin's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-42-prose-00338",
+      "text": {
+        "ko": "황세린은 배터리 슬롯 봉인과 교대 분기 로그를 확인한다.",
+        "en": "Hwang Serin checks the battery-slot seal and shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-42-prose-00339",
+      "text": {
+        "ko": "점검 피트 경보에는 여의도선 구역의 차선 센서 값을 보고한다.",
+        "en": "At an inspection-pit alarm, it reports the Yeouido Line sector lane-sensor reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-42-prose-00340",
+      "text": {
+        "ko": "할당된 마모 부품이 모자라면 다음 셔틀 점검을 대기로 표시한다.",
+        "en": "If allocated wear parts are short, it marks the next shuttle inspection pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V11-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0254"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V11 · 야간배차 (야배)",
+        "en": "V11 · Night Dispatch (Yabae)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V11-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HC03 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC03 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 조우찬 주정비·HC03 감사 입회",
+          "en": "Maintenance: chief maintainer Jo Woochan · HC03 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 강남선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Gangnam Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K273 custodian, HC03 steward_house, K304 work_peer",
+          "en": "Relations: K273 custodian, HC03 steward_house, K304 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-43-prose-00341",
+      "text": {
+        "ko": "강남선 점검 피트에서 야간배차(야배)가 조우찬의 당직표에 야간 점검 시각을 남긴다.",
+        "en": "At the Gangnam Line inspection pit, Night Dispatch records its night inspection time on Jo Woochan's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-43-prose-00342",
+      "text": {
+        "ko": "조우찬은 배터리 슬롯 잔량과 봉인, 교대 분기 로그를 대조한다.",
+        "en": "Jo Woochan compares battery-slot charge, the seal, and shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-43-prose-00343",
+      "text": {
+        "ko": "충전 슬롯 경보에는 강남선 구역의 차선 센서 값을 보고한다.",
+        "en": "At a charging-slot alarm, it reports the Gangnam Line sector lane-sensor reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-43-prose-00344",
+      "text": {
+        "ko": "부품 할당이 부족하면 다음 야간 배차 점검을 대기로 남긴다.",
+        "en": "If parts allocation is short, it leaves the next night-dispatch inspection pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V12-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0260"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V12 · 중장비팔 (중팔)",
+        "en": "V12 · Heavy-Equipment Arm (Jungpal)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V12-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HC04 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC04 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 전미리 주정비·HC04 감사 입회",
+          "en": "Maintenance: chief maintainer Jeon Miri · HC04 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 잠실선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Jamsil Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K298 custodian, HC04 steward_house, K311 work_peer",
+          "en": "Relations: K298 custodian, HC04 steward_house, K311 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-44-prose-00345",
+      "text": {
+        "ko": "잠실선 충전 슬롯에서 중장비팔(중팔)이 전미리의 당직표에 장비팔 점검 시각을 남긴다.",
+        "en": "At the Jamsil Line charging slot, Heavy-Equipment Arm records arm-inspection time on Jeon Miri's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-44-prose-00346",
+      "text": {
+        "ko": "전미리는 배터리 슬롯 봉인과 교대 분기 로그를 확인한다.",
+        "en": "Jeon Miri checks the battery-slot seal and shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-44-prose-00347",
+      "text": {
+        "ko": "회차선 경보에는 잠실선 구역의 차선 센서 값을 담당자에게 전한다.",
+        "en": "At a turnback-lane alarm, it passes the Jamsil Line sector lane-sensor reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-44-prose-00348",
+      "text": {
+        "ko": "마모 부품이 부족하면 다음 장비팔 점검을 대기로 남긴다.",
+        "en": "If wear parts are short, it leaves the next arm inspection pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V13-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0266"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V13 · 터널보선 (보선)",
+        "en": "V13 · Tunnel Track Maintenance (Boseon)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V13-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HC05 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC05 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 은채윤 주정비·HC05 감사 입회",
+          "en": "Maintenance: chief maintainer Eun Chaeyun · HC05 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 동대문 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Dongdaemun Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K324 custodian, HC05 steward_house, K318 work_peer",
+          "en": "Relations: K324 custodian, HC05 steward_house, K318 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-45-prose-00349",
+      "text": {
+        "ko": "동대문 연합 회차선에서 터널보선(보선)이 은채윤의 당직표에 대차 점검 시각을 남긴다.",
+        "en": "At the Dongdaemun Union turnback lane, Tunnel Track Maintenance records bogie inspection time on Eun Chaeyun's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-45-prose-00350",
+      "text": {
+        "ko": "은채윤은 배터리 슬롯 잔량과 보관 봉인, 교대 분기 로그를 확인한다.",
+        "en": "Eun Chaeyun checks battery-slot charge, the custody seal, and the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-45-prose-00351",
+      "text": {
+        "ko": "적재 베이 경보에는 동대문 연합 구역의 차선 센서 값을 보고한다.",
+        "en": "At a loading-bay alarm, it reports the Dongdaemun Union sector lane-sensor reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-45-prose-00352",
+      "text": {
+        "ko": "마모 부품이 모자라면 다음 보선 점검을 대기로 기록한다.",
+        "en": "When wear parts are short, it records the next track inspection as pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V14-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0272"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V14 · 교량점검 (교량)",
+        "en": "V14 · Bridge Inspection (Gyoryang)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V14-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HC06 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC06 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 안기준 주정비·HC06 감사 입회",
+          "en": "Maintenance: chief maintainer An Gijun · HC06 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 성북선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Seongbuk Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K350 custodian, HC06 steward_house, K326 work_peer",
+          "en": "Relations: K350 custodian, HC06 steward_house, K326 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-46-prose-00353",
+      "text": {
+        "ko": "성북선 적재 베이에서 교량점검(교량)이 안기준의 당직표에 점검 장비 적재 시각을 적는다.",
+        "en": "At the Seongbuk Line loading bay, Bridge Inspection records inspection-gear loading time on An Gijun's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-46-prose-00354",
+      "text": {
+        "ko": "안기준은 배터리 슬롯 봉인과 교대 분기 로그를 확인한다.",
+        "en": "An Gijun checks the battery-slot seal and shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-46-prose-00355",
+      "text": {
+        "ko": "점검 피트 경보에는 성북선 구역의 차선 센서 값을 보고한다.",
+        "en": "At an inspection-pit alarm, it reports the Seongbuk Line sector lane-sensor reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-46-prose-00356",
+      "text": {
+        "ko": "마모 부품 배당이 부족하면 다음 교량 점검을 대기로 남긴다.",
+        "en": "If wear-parts allocation is short, it leaves the next bridge inspection pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V15-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0278"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V15 · 수문카트 (수문)",
+        "en": "V15 · Sluice-Gate Cart (Sumun)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V15-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HC07 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC07 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 라진우 주정비·HC07 감사 입회",
+          "en": "Maintenance: chief maintainer Ra Jinwoo · HC07 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 명동 연합 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Myeongdong Union sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K375 custodian, HC07 steward_house, K333 work_peer",
+          "en": "Relations: K375 custodian, HC07 steward_house, K333 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-47-prose-00357",
+      "text": {
+        "ko": "명동 연합 점검 피트에서 수문카트(수문)이 라진우의 당직표에 차체 점검 시각을 남긴다.",
+        "en": "At the Myeongdong Union inspection pit, Sluice-Gate Cart records chassis-inspection time on Ra Jinwoo's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-47-prose-00358",
+      "text": {
+        "ko": "라진우는 배터리 슬롯 잔량과 보관 봉인, 교대 분기 로그를 확인한다.",
+        "en": "Ra Jinwoo checks battery-slot charge, the custody seal, and the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-47-prose-00359",
+      "text": {
+        "ko": "충전 슬롯 경보에는 명동 연합 구역의 차선 센서 값을 보고한다.",
+        "en": "At a charging-slot alarm, it reports the Myeongdong Union sector lane-sensor reading."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-47-prose-00360",
+      "text": {
+        "ko": "마모 부품이 부족하면 다음 수문카트 점검을 대기로 기록한다.",
+        "en": "If wear parts are short, it records the next cart inspection as pending."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Synthetic-Actors-generated-V16-title-heading-1",
+      "publicAnchors": [
+        "Synthetic-Actors-heading-0284"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "V16 · 비상견인 (비견)",
+        "en": "V16 · Emergency Tow (Bigyeon)"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Synthetic-Actors-generated-V16-title-list-1",
+      "items": [
+        {
+          "ko": "급: V",
+          "en": "Class: V"
+        },
+        {
+          "ko": "기체: 차체/대차 플랫폼·배터리 슬롯·차선 센서",
+          "en": "Body platform: chassis/bogie platform · battery slots · lane sensors"
+        },
+        {
+          "ko": "보관·법적 지위: HC08 공동 보관·시민 참관 봉인·양도 시 삼자 서명",
+          "en": "Custody and legal status: joint custody under HC08 · seal witnessed by citizens · three-party signature on transfer"
+        },
+        {
+          "ko": "기억 연속: 교대 단위 스냅샷만 유지, 장기 완전 기억 금지, 포크 시 분기 로그 필수",
+          "en": "Memory continuity: snapshots kept per shift only · long-term total memory forbidden · branch log required on fork"
+        },
+        {
+          "ko": "에너지·부품: 교체형 배터리·마모 부품 할당제, 무한 에너지 없음",
+          "en": "Energy and parts: replaceable batteries · rationed wear parts · no infinite energy"
+        },
+        {
+          "ko": "정비: 곽은재 주정비·HC08 감사 입회",
+          "en": "Maintenance: chief maintainer Gwak Eunjae · HC08 audit in attendance"
+        },
+        {
+          "ko": "망·안전: 구역 망만 허용, 교차 시설 루트 기본 차단, 비상 시 읽기 전용",
+          "en": "Network and safety: sector network only · cross-facility routes blocked by default · read-only in emergencies"
+        },
+        {
+          "ko": "창발 목표: 수서선 구역 연속 가동과 담당 인간 안전 우선",
+          "en": "Emergent goal: continuous operation of the Suseo Line sector and the responsible human's safety first"
+        },
+        {
+          "ko": "일탈·회복: 일탈 시 오프라인 격리→스냅샷 롤백→인간 승인 후 부분 재연결",
+          "en": "Divergence and recovery: on deviance: offline isolation → snapshot rollback → partial reconnection after human approval"
+        },
+        {
+          "ko": "관계: K400 custodian, HC08 steward_house, K340 work_peer",
+          "en": "Relations: K400 custodian, HC08 steward_house, K340 work_peer"
+        }
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-48-prose-00361",
+      "text": {
+        "ko": "수서선 충전 슬롯에서 비상견인(비견)이 곽은재의 당직표에 견인 대차 점검 시각을 남긴다.",
+        "en": "At the Suseo Line charging slot, Emergency Tow records tow-bogie inspection time on Gwak Eunjae's duty sheet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-48-prose-00362",
+      "text": {
+        "ko": "곽은재는 배터리 슬롯 봉인과 교대 분기 로그를 대조한다.",
+        "en": "Gwak Eunjae compares the battery-slot seal with the shift branch log."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-48-prose-00363",
+      "text": {
+        "ko": "회차선 경보에는 수서선 구역의 차선 센서 값을 담당자에게 전한다.",
+        "en": "At a turnback-lane alarm, it passes the Suseo Line sector lane-sensor reading to the duty holder."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-synthetics-48-prose-00364",
+      "text": {
+        "ko": "마모 부품이 부족하면 다음 견인 점검을 대기로 남긴다.",
+        "en": "If wear parts are short, it leaves the next tow inspection pending."
+      }
+    }
+  ],
+  "data": {}
+}

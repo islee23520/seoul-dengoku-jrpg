@@ -1,0 +1,825 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G24",
+  "slug": "Hostile-Group-G24",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G24]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G24 · Weeper",
+      "summary": "G24 · Weeper",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G24 · 울보",
+      "summary": "G24 · 울보",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G24-generated-G24-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G24-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G24 · 울보",
+        "en": "G24 · Weeper"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G24-generated-G24-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G24-generated-G24-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G24-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G24-generated-G24-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "한겨울 밤 세척실 바닥은 관류 배관에서 나온 물에 젖어 있다. 울음은 흡인관과 배수 트랩을 지나 복도로 이어진다. 젖은 자리에는 큰울보와 관끌이와 장산범이 있다.",
+        "en": "On a midwinter night the wash-room floor is wet with water that has come out of the perfusion piping. The cry runs through the suction pipes and the drain trap and continues into the corridor. At the wet places are the big weeper, the pipe puller, and the Jangsan tiger."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G24-generated-G24-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "큰울보의 울음이 세척실 철판에 퍼지는 동안 관끌이는 흡인관 이음에 무릎을 대고 있다. 장산범은 복도 끝의 어두운 쪽에 서 있다. 장산범의 입에서 난 아이 울음은 복도를 따라 세척실 문 앞에 닿아 있다.",
+        "en": "While the big weeper’s cry spreads across the wash-room steel plate, the pipe puller is on its knees at the suction-pipe joint. The Jangsan tiger stands in the dark at the end of the corridor. The child’s cry from the Jangsan tiger’s mouth runs along the corridor and reaches the front of the wash-room door."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G24-generated-G24-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G24-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G24-generated-G24-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "한겨울 밤, 세척실 야간 당직이 야간 세척실의 관류 배관 앞에 서 있다. 바닥의 물은 발목까지 차 있고 흡인관 이음에서 울음이 난다. 울보는 그 물가에 있으며 얼굴과 가슴이 젖어 있다. / 세척실 야간 당직이 같은 회수백에서 보던 사람의 입이 벌어져 있다. 벌어진 입에서 울음이 세척실로 퍼진다. 턱에서 떨어진 물이 가슴께 작업복에 배어 있다. 큰울보는 회수백 가장자리에 서 있고 양손은 회수백의 물속에 있다.",
+            "en": "On a midwinter night, the night wash-room duty officer stands in front of the perfusion piping of the night wash room. Water on the floor is up to the ankles, and a cry comes from the suction-pipe joint. The weeper is at that water’s edge, and the face and chest are wet. / The mouth of the person the night wash-room duty officer watched at the same recovery bath is open. From the open mouth the cry spreads into the wash room. Water fallen from the jaw has soaked into the work clothes at the chest. The big weeper stands at the rim of the recovery bath, and both hands are in the water of the recovery bath."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "한겨울 밤의 야간 세척실에 울보가 모여 있다. 큰울보는 회수백 가장자리에 서 있으며 얼굴과 가슴이 젖어 있고 양손은 회수백의 물속에 있다. 입의 울음이 세척실 철판을 울린다. 세척실 야간 당직은 관류 배관 앞 바닥에 서 있고 바닥의 물은 발목까지 차 있다. / 관끌이 여럿이 흡인관 이음마다 무릎을 대고 있다. 손은 관 입구를 잡고 있으며 젖은 카세트가 관의 물과 함께 안으로 들어가 있다. 고개는 회수백 쪽이다. 큰울보가 회수백 가장자리에 선 옆으로 관끌이의 팔이 흡인관 안에 들어가 있다. 세척실 출입 밸브 뒤에서 낮은 울음이 나고 회수백의 물은 세척실 야간 당직의 무릎에 닿아 있다. / 한겨울 밤의 복도 끝에는 장산범이 두 다리로 서 있다. 옅은 털이 물에 젖어 있고 등에는 어두운 호랑이 무늬가 있으며 긴 머리털이 얼굴 앞에 내려와 있다. 아이 울음이 장산범의 입에서 복도로 나고 세척실 야간 당직의 손전등은 그 복도 바닥에 켜져 있다. 빈 카세트는 자동 운반대의 서비스 레일 위에 있고 복도망 치료 기록 묶음은 회수백 물에 잠겨 있다.",
+            "en": "On a midwinter night, weepers are gathered in the night wash room. The big weeper stands at the rim of the recovery bath. The face and chest are wet, and both hands are in the water of the recovery bath. The cry from the mouth rings the wash-room steel plate. The night wash-room duty officer stands on the floor in front of the perfusion piping, and the water on the floor is up to the ankles. / Several pipe pullers are on their knees, one at each suction-pipe joint. The hands grip the pipe mouth, and a wet cassette has gone inside together with the water of the pipe. The head is toward the recovery bath. Beside the big weeper standing at the rim of the recovery bath, the pipe puller’s arm has gone into the suction pipe. A low cry comes from behind the wash-room entry valve, and the water of the recovery bath is touching the night wash-room duty officer’s knees. / At the end of the corridor on the midwinter night, the Jangsan tiger stands on two legs. Pale fur is wet, the back carries a dark tiger pattern, and long hair hangs in front of the face. A child’s cry comes from the Jangsan tiger’s mouth into the corridor, and the night wash-room duty officer’s flashlight is on, on that corridor floor. Empty cassettes are on the service rail of the automatic conveyor, and the bundle of corridor-net treatment records is sunk in the recovery-bath water."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "세척액 통은 서비스 레일 옆에 열려 있다. 빈 카세트와 젖은 흡인관이 자동 운반대 위에 쌓여 있다. 회수백의 물은 배수 트랩 높이까지 차 있다.",
+            "en": "The wash-fluid drum is open beside the service rail. Empty cassettes and wet suction pipes are stacked on the automatic conveyor. Water in the recovery bath stands as high as the drain trap."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "세척실 야간 당직이 같은 회수백에서 보던 사람의 턱이 맞부딪치던 입이 벌어져 있다. 벌어진 입에서 울음이 세척실로 퍼진다. 턱에서 떨어진 물이 가슴께 작업복에 배어 있다.",
+            "en": "The mouth of the person the night wash-room duty officer watched at the same recovery bath, the mouth whose jaw used to strike shut, is open. From the open mouth the cry spreads into the wash room. Water fallen from the jaw has soaked into the work clothes at the chest."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "울보는 울음이 나오는 흡인관 입구와 젖은 바닥 쪽으로 가슴을 두고 있다. 세척실 야간 당직의 장화에서 물소리가 나면 고개는 그 물소리 쪽에 있다.",
+            "en": "The weeper keeps its chest toward the suction-pipe mouth where the crying comes out and toward the wet floor. When water sounds from the night wash-room duty officer’s boots, the head is toward that water sound."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "큰울보는 회수백 가장자리에 서 있다. 관끌이는 흡인관마다 무릎을 대고 있으며 가슴은 큰울보 쪽이다. 장산범은 복도 끝에 두 다리로 서 있으며 얼굴은 복도 쪽이고 등은 세척실 쪽이다.",
+            "en": "The big weeper stands at the rim of the recovery bath. The pipe puller is on its knees at each suction pipe, and its chest is toward the big weeper. The Jangsan tiger stands on two legs at the end of the corridor, face toward the corridor and back toward the wash room."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G24-generated-G24-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G24-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G24-generated-G24-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "큰울보는 회수백 가장자리에 있고 울음은 그 자리에서 철판으로 나간다. 관끌이는 큰울보와 복도 사이의 흡인관에 있으며 가슴은 회수백 쪽이다. 장산범은 그보다 복도 바깥쪽에 얼굴을 둔 채 등 뒤의 세척실을 두고 서 있다.",
+        "en": "The big weeper is at the rim of the recovery bath, and the cry leaves that place onto the steel plate. The pipe puller is on the suction pipe between the big weeper and the corridor, chest toward the recovery bath. The Jangsan tiger stands farther out on the corridor with its face outward and the wash room behind its back."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G24-generated-G24-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G24E01 · 큰울보",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G24",
+                  "anchor": "g24e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G24E01 · Big Weeper",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G24",
+                  "anchor": "g24e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "회수백 가장자리에서 울음이 세척실 철판으로 퍼지게 서 있는 자리",
+            "en": "The place of standing at the recovery-bath rim so the cry spreads onto the wash-room steel plate"
+          },
+          {
+            "ko": "보스",
+            "en": "Boss"
+          },
+          {
+            "ko": "M037",
+            "en": "M037"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G24E08 · 관끌이",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G24",
+                  "anchor": "g24e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G24E08 · Pipe Puller",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G24",
+                  "anchor": "g24e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "흡인관 이음에서 젖은 카세트와 장화를 관 안에 두고 있는 자리",
+            "en": "The place of keeping a wet cassette and a boot inside the pipe at the suction-pipe joint"
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M038",
+            "en": "M038"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G24E15 · 장산범",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G24",
+                  "anchor": "g24e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G24E15 · Jangsan Tiger",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G24",
+                  "anchor": "g24e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "복도 끝에서 두 다리로 서서 아이 울음을 복도로 내고 있는 자리",
+            "en": "The place of standing on two legs at the end of the corridor and sending a child’s cry into the corridor"
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M039",
+            "en": "M039"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G24-generated-G24E01-title-heading-1",
+      "publicAnchors": [
+        "g24e01",
+        "Hostile-Group-G24-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G24E01 · 큰울보",
+        "en": "G24E01 · Big Weeper"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G24-generated-G24E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M037",
+          "en": "Source batch: M037"
+        },
+        {
+          "ko": "기존 역할군: 보스",
+          "en": "Former role class: Boss"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP10\"],\"states\":[\"S08\",\"S13\"],\"synthetics\":[\"F08\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HP10\"],\"states\":[\"S08\",\"S13\"],\"synthetics\":[\"F08\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G24-generated-G24E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "회수백 가장자리에서 울음이 세척실 철판으로 퍼지게 서 있는 자리",
+            "en": "The place of standing at the recovery-bath rim so the cry spreads onto the wash-room steel plate"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "한겨울 밤 야간 세척실 회수백에 있고 관끌이와 장산범은 그 울음 밖 배관과 복도에 있다",
+            "en": "On a midwinter night it is at the recovery bath of the night wash room, and the pipe puller and the Jangsan tiger are on the piping and in the corridor outside that cry"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M037-entries-9-prose-04057",
+      "items": [
+        {
+          "ko": "큰울보는 미지근한 관류 이음 옆 회수백 가장자리에 서 있다.",
+          "en": "The big weeper stands at the rim of the recovery bath beside the lukewarm perfusion joint."
+        },
+        {
+          "ko": "얼굴과 가슴이 젖어 있으며 입의 울음이 세척실 철판을 울린다.",
+          "en": "The face and chest are wet, and the cry from the mouth rings the wash-room steel plate."
+        },
+        {
+          "ko": "양손은 회수백 물속에 있고 어깨에는 관류 이음의 김이 닿아 있다.",
+          "en": "Both hands are in the recovery-bath water, and steam from the perfusion joint touches the shoulders."
+        },
+        {
+          "ko": "기록판 한 장이 큰울보의 발 옆 물에 떠 있다.",
+          "en": "One record board floats in the water beside the big weeper’s feet."
+        },
+        {
+          "ko": "큰울보의 울음이 철판에 퍼지는 동안 관끌이의 가슴은 회수백 쪽으로 가 있다.",
+          "en": "While the big weeper’s cry spreads across the steel plate, the pipe puller’s chest is toward the recovery bath."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G24-generated-G24E08-title-heading-1",
+      "publicAnchors": [
+        "g24e08",
+        "Hostile-Group-G24-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G24E08 · 관끌이",
+        "en": "G24E08 · Pipe Puller"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G24-generated-G24E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M038",
+          "en": "Source batch: M038"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"states\":[\"S08\"],\"synthetics\":[\"F08\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"states\":[\"S08\"],\"synthetics\":[\"F08\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G24-generated-G24E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "흡인관 이음에서 젖은 카세트와 장화를 관 안에 두고 있는 자리",
+            "en": "The place of keeping a wet cassette and a boot inside the pipe at the suction-pipe joint"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "큰울보가 있는 회수백과 장산범이 있는 복도 사이의 흡인관 이음 한 곳에 무릎을 대고 있다",
+            "en": "It is on its knees at a suction-pipe joint between the recovery bath where the big weeper is and the corridor where the Jangsan tiger is."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M038-entries-6-prose-04064",
+      "items": [
+        {
+          "ko": "관끌이는 흡인관 이음에 무릎을 대고 있다.",
+          "en": "The pipe puller is on its knees at the suction-pipe joint."
+        },
+        {
+          "ko": "두 손은 관 입구를 잡고 있으며 팔은 관 안으로 들어가 있다.",
+          "en": "Both hands grip the pipe mouth, and the arms have gone into the pipe."
+        },
+        {
+          "ko": "젖은 카세트가 관 안쪽 물에 있다.",
+          "en": "A wet cassette is inside the pipe together with the pipe’s water."
+        },
+        {
+          "ko": "세척실 야간 당직의 장화 한 짝이 관끌이의 손 옆 관 안에 있다.",
+          "en": "One boot of the night wash-room duty officer is inside the pipe beside the pipe puller’s hand."
+        },
+        {
+          "ko": "같은 배관의 관끌이 여럿이 이음마다 큰울보 쪽으로 가슴을 두고 있다.",
+          "en": "Several pipe pullers on the same piping keep their chests toward the big weeper at every joint."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G24-generated-G24E15-title-heading-1",
+      "publicAnchors": [
+        "g24e15",
+        "Hostile-Group-G24-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G24E15 · 장산범",
+        "en": "G24E15 · Jangsan Tiger"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G24-generated-G24E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M039",
+          "en": "Source batch: M039"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP10\"],\"states\":[\"S08\",\"S13\"],\"synthetics\":[\"F08\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HP10\"],\"states\":[\"S08\",\"S13\"],\"synthetics\":[\"F08\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G24-generated-G24E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "복도 끝에서 두 다리로 서서 아이 울음을 복도로 내고 있는 자리",
+            "en": "The place of standing on two legs at the end of the corridor and sending a child’s cry into the corridor"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "등은 세척실의 큰울보 쪽이고 얼굴과 긴 팔은 손전등이 놓인 복도 바깥쪽이다",
+            "en": "The back is toward the big weeper in the wash room, and the face and long arms are toward the outer corridor where the flashlight lies"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M039-entries-3-prose-04071",
+      "items": [
+        {
+          "ko": "장산범은 복도 끝의 어두운 쪽에 두 다리로 서 있다.",
+          "en": "The Jangsan tiger stands on two legs in the dark at the end of the corridor."
+        },
+        {
+          "ko": "옅은 털이 물에 젖어 있고 등에는 어두운 호랑이 무늬가 있다.",
+          "en": "The pale fur is wet, and the back carries a dark tiger pattern."
+        },
+        {
+          "ko": "긴 머리털이 얼굴 앞에 내려와 있으며 긴 팔은 바닥 쪽으로 늘어져 있다.",
+          "en": "Long hair hangs in front of the face, and the long arms hang toward the floor."
+        },
+        {
+          "ko": "아이 울음이 장산범의 입과 배관 입구에서 함께 나 복도에 차 있다.",
+          "en": "A child’s cry comes at once from the Jangsan tiger’s mouth and from the pipe mouth and fills the corridor."
+        },
+        {
+          "ko": "세척실 야간 당직의 손전등은 장산범의 긴 팔 아래 복도 바닥에 켜져 있다.",
+          "en": "The night wash-room duty officer’s flashlight is on, on the corridor floor beneath the Jangsan tiger’s long arms."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G24-generated-G24-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G24-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-24-dossier_prose-01716",
+      "text": {
+        "ko": "세척실 야간 당직이 같은 회수백 앞에서 보던 사람의 입이 벌어져 있다. 턱이 맞부딪치던 이에서 물이 가슴께까지 떨어져 있다. 벌어진 입에서 울음이 관류 배관을 따라 세척실에 차 있다.",
+        "en": "The mouth of the person the night wash-room duty officer watched in front of the same recovery bath is open. From the teeth where the jaw used to strike shut, water has fallen as far as the chest. From the open mouth the cry has filled the wash room along the perfusion piping."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-24-dossier_prose-01717",
+      "text": {
+        "ko": "밸브 뒤의 울음은 흡인관에 낮게 머문다. 회수백의 물이 세척실 야간 당직의 무릎에 닿은 뒤 울음이 세척실 철판을 울린다. 큰울보가 백 가장자리에 선 자리 옆에서 관끌이의 팔이 흡인관 안으로 들어가 있다.",
+        "en": "The cry behind the valve stays low in the suction pipe. After water in the recovery bath touches the night wash-room duty officer’s knees, the cry rings the wash-room steel plate. Beside the place where the big weeper stands at the rim of the bath, the pipe puller’s arm has gone into the suction pipe."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-24-dossier_prose-01718",
+      "text": {
+        "ko": "큰울보는 미지근한 관류 이음 옆 회수백에 자리한다. 김이 큰울보의 어깨에 닿아 있다. 양손은 물속에 잠겨 있다. 기록판 한 장이 큰울보의 발 옆 물에 떠 있다.",
+        "en": "The big weeper is at the recovery bath beside the lukewarm perfusion joint. Steam touches the big weeper’s shoulder. Both hands are submerged in the water. One record board floats in the water beside the big weeper’s feet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-24-dossier_prose-01719",
+      "text": {
+        "ko": "관끌이의 무릎과 손이 흡인관 이음에 닿아 있다. 관의 물과 젖은 카세트가 관 안쪽에 들어 있다. 같은 배관의 관끌이 여럿이 이음마다 가슴을 회수백 쪽으로 둔다.",
+        "en": "The pipe puller’s knees and hands are against the suction-pipe joint. The pipe’s water and a wet cassette are inside the pipe. Several pipe pullers on the same piping keep their chests toward the recovery bath at every joint."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-24-dossier_prose-01720",
+      "text": {
+        "ko": "장산범의 옅은 털은 복도 끝의 물에 젖어 있다. 등의 호랑이 무늬는 야간 조명 밖에서 어둡고 긴 머리털은 얼굴 앞에 붙어 있다. 아이 울음이 입과 배관 입구에서 함께 나온다. 긴 팔은 복도 바닥의 손전등 쪽으로 늘어져 있다.",
+        "en": "The Jangsan tiger’s pale fur is wet with the water at the end of the corridor. The tiger pattern on the back is dark outside the night lighting and the long hair is stuck in front of the face. A child’s cry comes out together from the mouth and the pipe mouth. The long arms hang toward the flashlight on the corridor floor."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-24-dossier_prose-01721",
+      "text": {
+        "ko": "세척액 통은 서비스 레일 옆에 열려 있다. 빈 카세트와 젖은 흡인관은 운반대 위에 쌓여 있다. 중앙정보부 세척 당직과 흰십자단 복도 당직의 인계 순서는 암사 중량·연료 인계 회랑 서비스 레일 대장에 적혀 있고 이태원통역문의 인장은 대장 끝에 있다. 하수펌프의 운반대는 그 레일 위에 같은 순서로 멈춰 있다.",
+        "en": "The wash-fluid drum is open beside the service rail. Empty cassettes and wet suction pipes are stacked on the conveyor. The handover order of the Central Intelligence Bureau wash duty and the White Cross corridor duty is written in the Amsa Heavy-Freight and Fuel Handover Corridor service-rail log and the Itaewon Interpretation Gate seal is at the end of the log. The Sewage Pump conveyor is stopped on that rail in the same order."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-24-dossier_prose-01722",
+      "text": {
+        "ko": "세척실 문은 카세트로 받쳐져 있다. 야간 조명은 회수백 위에 켜져 있다. 세척실 야간 당직의 장갑은 두 겹으로 젖어 있다. 장화 한 짝은 흡인관 안에 있고 남은 장화는 세척실 밖 자동 운반대 발판에 놓여 있다.",
+        "en": "The wash-room door is braced with cassettes. The night lighting is on above the recovery bath. The night wash-room duty officer’s gloves are wet in two layers. One boot is inside the suction pipe and the remaining boot lies on the step of the automatic conveyor outside the wash room."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "On a midwinter night the wash-room floor is wet with water that has come out of the perfusion piping. The cry runs through the suction pipes and the drain trap and continues into the corridor. At the wet places are the big weeper, the pipe puller, and the Jangsan tiger.",
+        "ko": "한겨울 밤 세척실 바닥은 관류 배관에서 나온 물에 젖어 있다. 울음은 흡인관과 배수 트랩을 지나 복도로 이어진다. 젖은 자리에는 큰울보와 관끌이와 장산범이 있다."
+      },
+      "variants": [
+        {
+          "id": "G24E01",
+          "source_batch": "M037"
+        },
+        {
+          "id": "G24E08",
+          "source_batch": "M038"
+        },
+        {
+          "id": "G24E15",
+          "source_batch": "M039"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

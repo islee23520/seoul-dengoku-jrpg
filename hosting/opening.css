@@ -1,0 +1,6 @@
+@import './host.css';
+:root{--night:#0B111C;--ink:#E6EAF0;--secondary:#9AA6B2;--panel:#141C2A;--brass:#896B43A6;--brass-ink:#C9A227}
+#realtime{display:grid;gap:24px;min-height:100dvh;align-content:center}
+.opening-title{text-align:center;border-block:3px double var(--brass);padding-block:32px}
+button,input{font:inherit}button{min-height:44px;padding:8px 24px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}button.primary{background:var(--ink);color:var(--night)}button:hover{filter:brightness(1.15)}button:active{filter:brightness(.85)}button:focus-visible,input:focus-visible{outline:2px solid var(--ink);outline-offset:4px}button:disabled{opacity:.6;cursor:not-allowed}
+fieldset{border:1px solid var(--line);padding:16px;display:grid;gap:16px}label{display:flex;gap:16px;align-items:center;min-height:44px;padding:8px}label:has(input:checked){background:var(--panel)}label span{overflow-wrap:anywhere}small{display:block;color:var(--secondary)}form{display:grid;gap:24px}h1,h2,p{margin:0}output{overflow-wrap:anywhere}#scenario-world{max-width:100%;overflow:hidden}#scenario-world canvas{display:block;max-width:100%;height:auto!important}li{overflow-wrap:anywhere;margin-block:8px}.source-state{color:var(--secondary)}

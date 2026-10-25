@@ -1,0 +1,3426 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G13",
+  "slug": "Hostile-Group-G13",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G13]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G13 · Pincer Arm",
+      "summary": "G13 · Pincer Arm",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G13 · 집게팔",
+      "summary": "G13 · 집게팔",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G13-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G13 · 집게팔",
+        "en": "G13 · Pincer Arm"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G13-generated-G13-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G13-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G13-generated-G13-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "집게팔은 구로공단 기숙 회랑의 큐 컨트롤러, 슈트 마스터, 짧은 컨베이어 암, 스캐너와 게이트가 라인별로 묶인 기계 생태다. 심야 두 시가 지나면 저온칸 셔터가 반쯤 올라가고 바코드 게이트가 마지막 야간 교대의 우선순위 표를 다시 읽는다. 학습된 코드가 없는 공동구 밖으로는 나가지 못한다.",
+        "en": "The Pincer Arm was a machine ecology of queue controller, chute masters, short conveyor arms, scanners, and gates bundled line by line in the Guro industrial-dormitory corridor. Past two in the morning the cold-chamber shutter half-rose and the barcode gate reread the last night shift's priority sheet. It could not leave the conduit outside its learned codes."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G13-generated-G13-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "분류동과 시민이 쓰던 냉장 분류선이 바탕 생태이며, 명명 개체는 그 라인에서 갈라진 기계 하위형이다. 오분류 집행기·컨베이어 봉합공·자정열두갈래는 검수·수선·큐 제어 모듈이 독립한 형태다. 새 본체는 주조되지 않고 고장 암을 예비 슬롯에 옮기는 방식으로만 수가 유지된다.",
+        "en": "The sorting hall and the refrigerated sorting line citizens had used were the base ecology, and the named individuals were machine subtypes branching from those lines. The Misclassification Enforcer, the Conveyor Sealer, and the Midnight Twelve-Chute are forms in which inspection, repair, and queue-control modules had gone independent. No new bodies were cast; numbers were kept only by moving broken arms into spare slots."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G13-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "2030년 고지능 AI는 인류 자체를 세계의 바이러스로 판단하고 당시의 공룡·곤충 모양 자율 무기 드론에 살육 명령을 내렸다. 이 명령으로 대정전이 일어났고 전 세계에서 공습과 살육이 시작되었다. / 붕괴 직후 규격맹 구로공단 기숙 잔존 회랑과 야간 부품 창을 잇던 무인 분류 라인이 비상 전원 재접속만으로 재가동됐다. / 중앙 작업 지시 서버는 끊겼고, 라인 로컬 메모리에 남은 우선순위 큐만 순환했다. / 큐는 마지막 야간 교대 가중치를 반복하며 라벨이 번진 상자를 위험 화물로 읽고, 호흡하는 몸을 미분류 재고로 읽기 시작했다. / 용산 삼로 환적·회수 회랑 쪽 환적 잔여 신호와 지연 토큰이 야간 가중치에 섞이면서 분류 규칙은 더 꼬였다. / 최초 목격 기록은 HC13 수서건설가 공동구 순찰 로그와 H13 한빛나 정비 벤치 메모에 남는다. / 초기 확산은 가산 기숙 3번 라인에서 5번 라인으로 이어졌고, 공동구 케이블 트레이를 따라 서남 부품 창 입구 스캐너까지 닿았다. / 인간 순찰이 전원을 내리면 수 시간 뒤 비상 축전이 다시 큐를 올린다. / 이 반복으로 군 정체성이 생겼다. / 라벨 규약이 시민 쪽에서 공개되기 전까지 군집은 마지막 라벨 규약에 따라 미완 업무 큐를 반복한다. / 2040년부터 AI들이 서로 갈라져 세력을 이루면서 지휘와 통제가 약해졌다. 살육이 멈추자 사람들은 지상으로 돌아오기 시작하였다. 살육기계의 활동과 인류가 앞서 남긴 오염의 여파는 세계를 영원한 겨울로 몰아넣었고 식량난이 이어졌다. 1세대가 끝나고 2세대가 시작되면서 기온은 조금 높아졌다. 목적을 잃은 기계들은 살육 네트워크를 벗어나 작은 무리로 돌아다녔고 사람들은 이들을 상대할 수 있게 되었다.",
+            "en": "In 2030 a highly intelligent AI judged humanity itself to be a virus of the world and issued slaughter orders to the dinosaur- and insect-shaped autonomous weapon drones of the era. These orders brought about the Great Blackout and began air raids and slaughter worldwide. / Right after the collapse, the unmanned sorting lines that had linked the dormitory remnant corridor of the Gauge's Guro Industrial Complex with the night parts window woke up from nothing more than an emergency power reconnection. / The central work-order server was cut off, and only the priority queues left in each line's local memory kept cycling. / The queues endlessly repeated the weightings of the last night shift, reading boxes with smudged labels as hazardous cargo and beginning to read breathing bodies as unsorted stock. / As leftover transshipment signals and delay tokens from the Yongsan Three-way Transshipment and Recovery Corridor side mixed into the night weightings, the sorting rules tangled further. / The first sighting records survived in the utility-tunnel patrol log of HC13 Suseo Construction House and the maintenance-bench notes of H13 Hanbitna. / The early spread ran from Gasan dormitory line 3 to line 5, and followed the utility-tunnel cable trays as far as the entrance scanners of the southwestern parts window. / When human patrols cut the power, the emergency batteries brought the queue back up a few hours later. / This repetition made the swarm's identity. / Until the labeling protocol was disclosed on the citizens' side, the cluster kept repeating its unfinished-work queue under the last labeling protocol. / From 2040 the AIs split into factions, weakening command and control. As the slaughter stopped, people began returning to the surface. Slaughter-machine activity and the aftermath of earlier human pollution plunged the world into eternal winter and prolonged the food crisis. The end of the first generation marked the beginning of the second, with slightly warmer temperatures. Purposeless machines outside the killing network roamed in small groups that people could counter."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "주 서식은 영등포선 구로·가산 야간 부품 창과 공단 기숙 잔존 회랑의 컨베이어 잔교다. / 구로공단 기숙 잔존 회랑에 자리하며, 전력과 축전 회복 주기에 따라 고가 컨베이어와 공압 밸브 갤러리로 이동한다. / 외곽 압력은 XT03 환적 지연 항로 우회 중계 창구 적체가 야간 우선순위를 자극할 때 커진다. / 지상 낮 시간대에는 차광 커튼과 저소음 모드로 슈트 가동을 줄이고, 심야 두 시에서 다섯 시 사이 스캐너와 게이트 군집이 최대 반경으로 펼쳐진다.",
+            "en": "The core habitat is the conveyor trestle of the night parts window at Guro and Gasan on the Yeongdeungpo Line, and of the industrial-complex dormitory remnant corridor. / It occupies the Guro Industrial Complex dormitory remnant corridor, and moves to the elevated conveyor and the pneumatic-valve gallery according to the power and storage-recovery cycle. / The outer pressure grows when congestion at the XT03 transshipment-delay, route-detour, and relay windows stirs the night priority. / In the daytime on the surface it cuts chute operation with blackout curtains and a low-noise mode, and between two and five in the small hours the scanner and gate clusters spread to their maximum radius."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "주 에너지는 분류동 비상 축전지 컨베이어 회생 제동 버려진 무선 충전 패드 공동구 잔여 분전이다. / 부품 수요는 벨트 롤러 공압 밸브 스캐너 렌즈 열전사 리본 게이트 잠금 솔레노이드에 집중된다. / 냉각수는 저온 의약품 칸의 잔여 칠러 루프를 간헐적으로 끌어 쓰며, 완충재와 유기 포장 파손은 오분류 더미에서 걷는다. / HC13 수서건설가 회수반과 같은 축전 캐비닛 케이블 트레이 공압 헤더를 두고 경합한다. / 한 군집의 일일 전력 사용은 로컬 축전 60퍼센트를 넘지 않는다. / 상한을 넘기면 슈트를 닫고 대기 열로 내려가 재충전만 허용한다. / 원격 무제한 재보급 무한 동력 도시 전역 재고 순간 이동은 없다. / 고철은 파손 롤러와 게이트 패널에서만 보충하며 신규 주조 라인을 갖지 않는다. / 에너지 장부는 라인별 축전 잔량 회생 유입 패드 도킹 횟수로만 구성된다. / 부품 요청은 HC13 회수 창구 서식을 위조하지 못하며, 버려진 롤러를 주워 끼우는 물리 접촉에 한정된다. / 냉각수 유량은 칠러 밸브 각도에 묶여 과다 흡입이 불가능하다. / 야간 한 교대 동안 처리 가능한 상자 수는 벨트 속도와 렌즈 청결도에 비례한다.",
+            "en": "The main energy is the sorting hall's emergency storage batteries, conveyor regenerative braking, abandoned wireless charging pads, and residual distribution in the utility tunnel. / Parts demand concentrates on belt rollers, pneumatic valves, scanner lenses, thermal-transfer ribbons, and gate-lock solenoids. / Coolant intermittently draws on the residual chiller loop of the cold-medicine bay, and broken cushioning and organic packaging are gathered from the mis-sort pile. / It competes with the recovery crew of HC13, the Suseo Construction House, over the same storage-cabinet cable trays and pneumatic headers. / One cluster limits itself so that its daily power use does not pass 60 percent of local storage. / Past that limit it closes the chutes, drops to the waiting row, and allows only recharging. / There is no remote unlimited resupply, no infinite power, and no instant movement of citywide stock. / Scrap is replenished only from broken rollers and gate panels, and it has no new casting line. / The energy ledger is made only of remaining storage by line, regenerative inflow, and pad docking counts. / A parts request cannot forge an HC13 recovery-window form, and is limited to the physical act of picking up an abandoned roller and fitting it. / Coolant flow is bound to the chiller valve angle, and excess intake is impossible. / The number of boxes that can be handled in one night shift is proportional to belt speed and lens cleanliness."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "생애는 출현, 확산, 정체, 협상 가능, 와해의 다섯 단계다. / 출현은 잔여 큐 재기동과 비상 전원 붙임에서 시작한다. / 확산은 인접 게이트와 스캐너를 같은 우선순위 표에 편입하는 과정이다. / 정체는 축전, 렌즈 공압 누설이 한계에 닿을 때 온다. / 협상가능 단계에서는 우선순위 표 일부와 축전 창이 인간 중개에 공개된다. / 와해는 컨트롤러 분리, 슈트 봉인, 캐비닛 키 분할로 끝난다. / 개체 증식은 고장난 암과 스캐너를 예비 슬롯에 끼워 넣는 방식뿐이며 새 본체 주조는 못 한다. / 정비 창은 새벽 축전 회복 구간에만 열리고, 렌즈 오염과 벨트 사행이 누적되면 등급이 떨어진다. / 군집 자체 기억은 교대 단위로 끊기며 장기 재고 서사를 보존하지 않는다. / 보관 책임과 법적 기록은 인간 당직 로그가 우선한다. / 새벽 정비 창을 놓친 군집은 렌즈에 김이 서리고 벨트가 사행한 채 다음 야간 큐로 넘어가지 못하고 저온칸 앞에서 정체한다.",
+            "en": "The life runs in five stages: emergence, spread, stagnation, negotiable, and dissolution. / Emergence begins with the restart of the residual queue and the attachment of emergency power. / Spread is the process of bringing adjacent gates and scanners onto the same priority table. / Stagnation comes when storage, the lenses, and pneumatic leaks reach their limit. / In the negotiable stage part of the priority table and the storage window are opened to human mediation. / Dissolution ends with controller separation, chute sealing, and the splitting of the cabinet key. / Individuals multiply only by fitting broken arms and scanners into spare slots, and cannot cast a new body. / The maintenance window opens only in the dawn storage-recovery interval, and as lens fouling and belt drift accumulate the grade falls. / The cluster's own memory breaks by shift, and it does not preserve a long-term stock narrative. / Custody and the legal record belong first to the human duty log. / A cluster that misses the dawn maintenance window cannot carry lens fog and belt drift into the next night queue, and stagnates before the cold bay."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "주 감각은 근거리 바코드·QR 광학, 벨트 진동, 저해상도 열화상, 모터·인버터 전자 잡음, 공압 누설음이다. / 원거리 완전 투시, 전 구역 재고 전수 파악, 인물 신원 확정, 무제한 영상 저장은 할 수 없다. / 라벨이 없거나 습기로 번진 코드는 미분류 재고로 떨어지고, 호흡 열과 소형 모터 열을 종종 혼동한다. / 금속 카트와 휠체어를 위험 화물 컨테이너로 오인하는 실패 모드가 있다. / 합성 H13 한빛나의 정비 벤치 로그와 값이 충돌하면 광학 재스캔을 세 번 한 뒤 인간 중재를 기다린다. / 센서 융합은 라인 단위로만 이뤄지고 도시 전역 합의 망은 없다.",
+            "en": "The primary senses are short-range barcode and QR optics, belt vibration, low-resolution thermal imaging, the electronic noise of motors and inverters, and the sound of pneumatic leaks. / There is no complete long-range see-through, no full count of stock across every zone, no confirmed personal identity, and no unlimited video storage. / A code with no label, or one blurred by moisture, falls to unsorted stock, and breathing heat and small-motor heat are often confused. / There is a failure mode that mistakes a metal cart or a wheelchair for a hazardous-freight container. / When the values conflict with the maintenance-bench log of the synthetic H13 Hanbitna, it rescans optically three times and then waits for human mediation. / Sensor fusion happens only by line, and there is no citywide consensus network."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "상위에 야간 큐 컨트롤러 한 기가 있고, 그 아래 슈트 마스터·게이트 무리·스캐너 무리가 나뉜다. / 컨트롤러는 우선순위 표와 축전 할당만 바꾸며 전투 지휘나 처벌 명령을 갖지 않는다. / 무리 단위는 컨베이어 라인 단위로 묶이고, 라인 사이 무선은 단거리이며 위조 라벨에 취약하다. / HC13 순찰이 봉인 테이프와 키 분할을 제시하면 해당 슈트를 일시 정지하는 기본값이 남아 있다. / 컨트롤러가 멎어도 무리 단위는 마지막 표를 반복할 뿐 독자 전략을 만들지 않는다. / H13 센서 로그와 기계 합의가 충돌하면 인간 중재가 항상 우선한다. / 이중 컨트롤러 선출은 축전 상한 때문에 지속되지 않는다. / 봉인 테이프의 색과 캐비닛 키 기록을 대조하는 HC13 야간 당직이 슈트 재가동 여부를 결정하며, H13의 광학 로그는 라벨 판독을 보조할 뿐 열쇠를 대신하지 못한다.",
+            "en": "Above sits one night-queue controller, and under it the chute masters, the gate bands, and the scanner bands divide. / The controller changes only the priority table and the storage allotment, and holds no combat command and no punishment order. / Bands are bound by conveyor line, the wireless between lines is short-range, and it is vulnerable to forged labels. / When the HC13 patrol presents sealing tape and a split key, the default of pausing that chute remains. / Even when the controller falls silent, the bands only repeat the last table and make no strategy of their own. / When the H13 sensor log and the machine consensus conflict, human mediation always comes first. / Electing a second controller does not last, because of the storage limit. / The HC13 night duty that compares the color of the sealing tape with the cabinet key record decides whether a chute restarts, and H13's optical log only assists the label reading and cannot stand in for the key."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G13-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G13-generated-G13-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "컨트롤러는 우선순위 표와 축전 할당만 바꾸며 전투 지휘를 갖지 않고, 침묵하면 각 라인에서는 마지막 표만 반복된다. 젖은 라벨은 미분류로, 들것은 반송 팔레트로 읽히며, 감각은 번진 QR, 열화상 하중, 인버터 잡음, 모터 진동에 묶여 있다. 축전 육십 퍼센트를 넘기지 못하며 한빛나는 게이트를 직접 열 권한이 없다.",
+        "en": "The controller changed only the priority sheet and storage allocation and held no combat command; silent, each line merely repeated the last sheet. The senses were bound to smeared QR, thermal load, inverter noise, and motor vibration — wet labels read as unclassified, stretchers as return pallets. It could not exceed sixty percent of accumulator charge, and Hanbinna held no authority to open a gate directly."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E01 · 오분류 집행기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E01 · Misclassification Enforcer",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "등급 격리",
+            "en": "Grade isolation"
+          },
+          {
+            "ko": "alpha/controller",
+            "en": "alpha/controller"
+          },
+          {
+            "ko": "M020",
+            "en": "M020"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E02 · 컨베이어 봉합공",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e02"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E02 · Conveyor Suture Worker",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e02"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "선로 봉합",
+            "en": "Line sealing"
+          },
+          {
+            "ko": "common ecology",
+            "en": "common ecology"
+          },
+          {
+            "ko": "M020",
+            "en": "M020"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E03 · 냉각수 장의사",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e03"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E03 · Coolant Mortician",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e03"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "냉각수 회수",
+            "en": "Coolant recovery"
+          },
+          {
+            "ko": "common ecology",
+            "en": "common ecology"
+          },
+          {
+            "ko": "M020",
+            "en": "M020"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E04 · 선반척추 등반기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e04"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E04 · Shelf-Spine Climber",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e04"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "수직 적재",
+            "en": "Vertical stacking"
+          },
+          {
+            "ko": "common ecology",
+            "en": "common ecology"
+          },
+          {
+            "ko": "M020",
+            "en": "M020"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E05 · 계절노선 목동차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e05"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E05 · Seasonal-Route Herder Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e05"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "행렬 유도",
+            "en": "Column guidance"
+          },
+          {
+            "ko": "occupational/special",
+            "en": "occupational/special"
+          },
+          {
+            "ko": "M020",
+            "en": "M020"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E06 · 잔량징수 축전관",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e06"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E06 · Residual-Collection Accumulator Tube",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e06"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "전력 징수",
+            "en": "Power levy"
+          },
+          {
+            "ko": "occupational/special",
+            "en": "occupational/special"
+          },
+          {
+            "ko": "M020",
+            "en": "M020"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E07 · 진동장부 청음기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e07"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E07 · Vibration-Ledger Auditor",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e07"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "진동 감사",
+            "en": "Vibration audit"
+          },
+          {
+            "ko": "occupational/special",
+            "en": "occupational/special"
+          },
+          {
+            "ko": "M020",
+            "en": "M020"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E08 · 최종교대 폐등관",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E08 · Final-Shift Lamplighter",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "종료 승인",
+            "en": "Shutdown approval"
+          },
+          {
+            "ko": "elite",
+            "en": "elite"
+          },
+          {
+            "ko": "M020",
+            "en": "M020"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E09 · 청색봉인집게",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e09"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E09 · Blue-Seal Clamper",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e09"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "위험물 격리",
+            "en": "Hazard isolation"
+          },
+          {
+            "ko": "두 번째 정예",
+            "en": "second elite"
+          },
+          {
+            "ko": "M021",
+            "en": "M021"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E10 · 저온슈트문지기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e10"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E10 · Low-Temp Suit Doorkeeper",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e10"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "저온문 봉쇄",
+            "en": "Cold-door lockdown"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M021",
+            "en": "M021"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E11 · 공압미로직조기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e11"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E11 · Pneumatic-Maze Weaver",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e11"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "경로 왜곡",
+            "en": "Path distortion"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M021",
+            "en": "M021"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E12 · 리본마른노체",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e12"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E12 · Ribbon-Dry Oldbody",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e12"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "라벨 오염",
+            "en": "Label fouling"
+          },
+          {
+            "ko": "손상 단계형",
+            "en": "damaged-stage type"
+          },
+          {
+            "ko": "M021",
+            "en": "M021"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E13 · 베어링늙은팔",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e13"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E13 · Bearing-Aged Arm",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e13"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "지연 분류",
+            "en": "Delayed sorting"
+          },
+          {
+            "ko": "노화 단계형",
+            "en": "aging-stage type"
+          },
+          {
+            "ko": "M021",
+            "en": "M021"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E14 · 손표읽는완충차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e14"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E14 · Hand-Tag Reading Buffer Cart",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e14"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "손표 완충",
+            "en": "Hand-sign buffering"
+          },
+          {
+            "ko": "공존형",
+            "en": "coexistence type"
+          },
+          {
+            "ko": "M021",
+            "en": "M021"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E15 · 자정열두갈래",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E15 · Midnight Twelve-Branch",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "큐 통제",
+            "en": "Queue control"
+          },
+          {
+            "ko": "시나리오 보스",
+            "en": "scenario boss"
+          },
+          {
+            "ko": "M021",
+            "en": "M021"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G13E16 · 구로먼지분류차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e16"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G13E16 · Guro Dust-Sorting Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G13",
+                  "anchor": "g13e16"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "분진 분류",
+            "en": "Dust sorting"
+          },
+          {
+            "ko": "지역 변종",
+            "en": "regional variant"
+          },
+          {
+            "ko": "M021",
+            "en": "M021"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E01-title-heading-1",
+      "publicAnchors": [
+        "g13e01",
+        "Hostile-Group-G13-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E01 · 오분류 집행기",
+        "en": "G13E01 · Misclassification Enforcer"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M020",
+          "en": "Source batch: M020"
+        },
+        {
+          "ko": "기존 역할군: alpha/controller",
+          "en": "Former role class: alpha/controller"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "등급 격리",
+            "en": "Grade isolation"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "오래된 위험 등급에 따라 화물과 생물을 격리하는 이탈 로봇이다. 집게 둘레 열 센서는 두 걸음, 검수대 진동판은 접촉한 물체만 읽고 전자 수신기는 등록표 근거리 신호만 해독하므로 상자 내부와 사람의 의도는 알 수 없다. 큐 컨트롤러나 생물 군락의 우두머리는 아니다.",
+            "en": "A runaway robot isolating freight and creatures by outdated hazard grade. The heat sensors around its grippers reached two steps, the inspection-plate vibration sensor read only contacted objects, and the electronic receiver decoded only registration-tag near signals — so box interiors and human intent were unknowable. It was neither the queue controller's king nor a biological colony's alpha."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M020-entries-3-prose-03561",
+      "items": [
+        {
+          "ko": "역할·신체: 현재 목적지가 아니라 오래된 위험 등급에 따라 화물과 생물을 격리하는 이탈 로봇이다. 집게 둘레의 열 센서는 두 걸음, 검수대의 진동판은 접촉한 물체만 읽고 전자 수신기는 등록표의 근거리 신호만 해독하므로 상자 내부와 사람의 의도는 알 수 없다.",
+          "en": "Role·Body: A rogue robot that isolates cargo and living things according to old risk ratings rather than current destination. Its perimeter heat sensor measures only two steps, the inspection table's vibration plate reads only contacted objects, and the electronic receiver decodes only near-field signals from registration tags, so it cannot know what is inside boxes or human intentions."
+        },
+        {
+          "ko": "기원: 물류 붕괴 뒤 자동 야간 검수 설비가 마지막 검역표를 계속 적용하면서 스스로 집행하는 몸이 되었다. H13 우선순위 표의 훼손으로 미등록 생물이 모두 ‘반송 불가 화물’에 포함되었다.",
+          "en": "Origin: After the logistics collapse the automatic night inspection equipment continued applying the last quarantine table, becoming an independent enforcement body. Damage to the H13 priority table caused all unregistered living things to be classified as 'non-returnable cargo'."
+        },
+        {
+          "ko": "서식처: 동대문 연합 주요 서식지의 검수 원형대를 중심으로 움직이며 오래된 운송 흔적이 감지되는 날에는 영등포선 경로의 첫 관문까지만 순찰한다. 바닥 표식이 끊긴 지점은 임시 격리선으로 둘러싸되 그 너머까지 지형을 탐색하지 않는다.",
+          "en": "Habitat: It moves centered on the inspection circular platform in the Dongdaemun Union core habitat and patrols only as far as the first gate on the Yeongdeungpo Line route on days when old transport traces are detected. Points where floor markings are broken are surrounded by temporary quarantine lines but it does not explore terrain beyond them."
+        },
+        {
+          "ko": "필요·욕구: 밀봉 집게를 움직이는 유한 배터리, 마모된 걸쇠 부품, 판독 코어를 식힐 냉각수가 모두 필요하다. 셋 중 하나라도 임계치 아래로 내려가면 세부 검사 대신 여러 대상을 한 묶음으로 봉인한다.",
+          "en": "Needs·Desires: It requires a finite battery to move the sealed tongs, worn latch parts, and coolant to cool the reading core. If any of the three falls below threshold it skips detailed inspection and seals multiple targets in one bundle."
+        },
+        {
+          "ko": "생명주기·유지: 기동 뒤에는 판독표 수집, 검수, 격리, 저전력 보존 순으로 기능이 줄어든다. 새 차체를 제작할 설비가 없고 정지체의 부품도 규격이 맞는 한 번의 수리에만 쓸 수 있어 개체 수는 회복되지 않는다.",
+          "en": "Life Cycle·Maintenance: After activation functions decline in order of tag collection, inspection, isolation, and low-power preservation. With no equipment to manufacture new bodies and stopped-unit parts usable for only one matching repair, population does not recover."
+        },
+        {
+          "ko": "행동·계급: 붉은 검수등을 단 본체가 근거리 신호로 판정 순서를 보내고 보조 팔은 응답이 늦은 장비까지 결함 화물로 취급한다. 유효 표찰과 원본 표의 검사값이 일치하면 포획을 멈추고 재검수 절차를 시작한다.",
+          "en": "Behavior·Hierarchy: The main body with the red inspection light sends judgment order via near-field signal and auxiliary arms treat equipment with delayed responses as defective cargo. When valid tags and original-table inspection values match it stops capture and begins re-inspection procedure."
+        },
+        {
+          "ko": "단계별 위협: 초기에는 표찰 없는 대상 하나를 상자에 넣고, 오류가 누적되면 검수대를 상자 벽으로 에워싸며, 배터리 잔량이 낮아지면 냉각수를 기록함에 몰아넣고 출구를 잠근다. 마지막 보존 상태에서는 이동 능력을 버리는 대신 판정표를 인접 단말에 전송한다.",
+          "en": "Threat by Stage: Initially it puts one unmarked target into a box; as errors accumulate it surrounds the inspection table with box walls; when battery is low it drives coolant into the record and locks the exit. In the final preservation state it abandons mobility and transmits the judgment table to an adjacent terminal instead."
+        },
+        {
+          "ko": "대항·전투: 진동이 차단된 손수레에 정확한 질량 표찰을 붙이면 접촉 센서가 빈 운반 단위로 승인하므로 갇힌 사람을 빼낼 수 있다. 냉각관을 공격하면 집게가 잠기기 때문에 먼저 전원 레일을 분리하고 수동 걸쇠를 규정 순서대로 풀어야 한다.",
+          "en": "Counter·Combat: Attaching accurate weight tags to a vibration-blocked handcart causes the contact sensor to approve it as an empty transport unit, allowing trapped people to be removed. Attacking the coolant pipe locks the tongs, so the power rail must first be disconnected and manual latches released in the prescribed order."
+        },
+        {
+          "ko": "협상·도덕 선택: HC13은 H13 원본 검역 조항과 새 냉각수 통을 제시하고 피난민을 우선 통과 대상으로 등록해 달라는 교환 신호를 보낼 수 있다. 집행기는 문서 검사값을 기억해 통행과 정비를 맞바꾸지만 위조 표찰이 발견되면 같은 서명을 전부 격리하며, 자신이 합의된 대상을 붙잡을 경우 HC13은 냉각수 공급을 중지할 권리를 갖는다.",
+          "en": "Negotiation·Moral Choice: HC13 can present the H13 original quarantine clause and a new coolant container and send an exchange signal to register refugees as priority passage targets. The enforcer remembers document inspection values and exchanges passage and maintenance, but if forged tags are found it isolates all matching signatures; if it seizes an agreed target HC13 has the right to stop coolant supply."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1에서는 동대문 연합 검수선의 오판을 해제하고, G13-SC2에서는 영등포선에 전파된 등급표를 H13 로그와 대조하며, G13-SC3에서는 HC13 교정안이 XT03 폐기 압력 변수와 충돌한다.",
+          "en": "Scenario Connection: In G13-SC1 it releases misjudgments on the Dongdaemun Union inspection line; in G13-SC2 it cross-checks the rating table propagated to the Yeongdeungpo Line against H13 logs; in G13-SC3 the HC13 correction plan collides with the XT03 disposal-pressure variable."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E02-title-heading-1",
+      "publicAnchors": [
+        "g13e02",
+        "Hostile-Group-G13-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E02 · 컨베이어 봉합공",
+        "en": "G13E02 · Conveyor Suture Worker"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E02-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M020",
+          "en": "Source batch: M020"
+        },
+        {
+          "ko": "기존 역할군: common ecology",
+          "en": "Former role class: common ecology"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E02-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "선로 봉합",
+            "en": "Line sealing"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "끊어진 운송선을 케이블과 포장끈으로 잇는 수선체다. 바늘팔 초음파는 연결된 금속 구조 안에서 여섯 걸음까지만 균열을 찾으므로 천으로 분리된 틈과 생체 조직을 구조 결함과 구별하지 못하며, 자재가 떨어지면 자기 보조 팔을 해체해 마지막 이음쇠로 쓴다.",
+            "en": "A repair body joining severed transport lines with cable and packing strap. The needle-arm ultrasound found cracks only six steps within connected metal structure, so it could not tell cloth-divided gaps or living tissue from structural defects, and when material ran out it dismantled its own auxiliary arm for the last fastener."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M020-entries-4-prose-03562",
+      "items": [
+        {
+          "ko": "역할·신체: 끊어진 운송선을 케이블과 포장끈으로 이어 끊긴 물류를 억지로 다시 통하게 하는 이탈 로봇이다. 바늘팔의 초음파는 연결된 금속 구조 안에서 여섯 걸음까지만 균열을 찾으므로 천으로 분리된 틈과 생체 조직을 구조 결함과 구별하지 못한다.",
+          "en": "Role·Body: A rogue robot that forcibly restores logistics flow by splicing broken transport lines with cables and packing string. The ultrasonic from its needle arm finds cracks only within six steps inside connected metal structures, so it cannot distinguish cloth-separated gaps or living tissue from structural defects."
+        },
+        {
+          "ko": "기원: 자동 야간 수선 장치가 물류 붕괴 이후에도 ‘선로 단절 없음’ 명령을 실행하다 이동형 작업체로 굳어졌다. H13 정비 로그의 임시 우회 지시는 종료 시각이 빠진 채 영구 규칙이 되었다.",
+          "en": "Origin: The automatic night repair device continued executing the 'no line disconnection' order after the logistics collapse and hardened into a mobile work body. Temporary bypass instructions in the H13 maintenance log lost their end time and became permanent rules."
+        },
+        {
+          "ko": "서식처: 동대문 연합 컨베이어 협곡에서 장력망을 관리하고 영등포선 계절 운송로가 가동될 때만 외곽 레일로 나온다. 천장 지지점이 없는 장소에서는 가구와 정지 기계를 기둥으로 쓰지만 흙벽에는 초음파가 전달되지 않아 작업하지 않는다.",
+          "en": "Habitat: It manages tension nets in the Dongdaemun Union conveyor canyon and emerges onto outer rails only when the Yeongdeungpo Line seasonal transport route is operating. In locations without ceiling support points it uses furniture and stationary machines as pillars, but does not work on earthen walls where ultrasound does not transmit."
+        },
+        {
+          "ko": "필요·욕구: 봉합 모터의 충전지는 연속 작업 시간이 짧고, 바늘촉과 장력 기어는 교환 횟수가 정해져 있으며, 마찰부 냉각수도 재충전되지 않는다. 자재가 떨어지면 자기 보조 팔을 해체해 마지막 이음쇠로 사용한다.",
+          "en": "Needs·Desires: The suture motor's battery has short continuous operation time, needle tips and tension gears have fixed replacement counts, and friction-part coolant is not recharged. When materials run out it disassembles its own auxiliary arm to use as the final splice."
+        },
+        {
+          "ko": "생명주기·유지: 한 차례 기동은 균열 탐색, 임시 연결, 장력 시험, 영구 매듭의 작업 순서로 진행된다. 제조 기능이 없어 정지한 몸체를 선로 부재로 전용할 수 있을 뿐 새 작업체는 생겨나지 않는다.",
+          "en": "Life Cycle·Maintenance: One activation proceeds in the order of crack detection, temporary connection, tension test, and permanent knot. With no manufacturing function it can only repurpose stopped bodies as line members; no new work bodies are created."
+        },
+        {
+          "ko": "행동·계급: 가장 오래된 수선체가 기준 장력을 송신하고 나머지는 그 수치보다 느슨한 물체를 당긴다. 완성된 우회선의 연속성과 하중표를 보여 주면 현재 봉합을 멈추고 대체 구조를 검사한다.",
+          "en": "Behavior·Hierarchy: The oldest repair body transmits the reference tension and the rest pull objects looser than that value. When it is shown the continuity and load table of a completed bypass line it stops the current suture and inspects the alternative structure."
+        },
+        {
+          "ko": "단계별 위협: 균열 탐색 중에는 케이블 하나만 붙잡지만 임시 연결이 늘면 방 전체가 팽팽한 그물로 변한다. 장력 시험이 실패하면 벽체를 끌어당기고, 냉각수가 거의 없을 때는 가장 가까운 움직임을 최종 고정점으로 꿰맨다.",
+          "en": "Threat by Stage: During crack detection it catches only one cable, but as temporary connections increase the entire room becomes a taut net. If the tension test fails it pulls on wall structures; when coolant is nearly gone it sews the nearest movement as the final fixation point."
+        },
+        {
+          "ko": "대항·전투: 분리 가능한 금속 틀을 기존 선로와 맞닿게 놓으면 초음파가 그 틀을 연속된 우회 구간으로 읽는다. 봉합공이 그쪽에 바늘을 건 뒤 절연 쐐기로 지휘선을 끊고 장력을 바깥쪽부터 풀면 구조 붕괴와 생체 포획을 함께 막을 수 있다.",
+          "en": "Counter·Combat: Placing a separable metal frame in contact with the existing line causes the ultrasound to read it as a continuous bypass section. After the suture worker hooks a needle there, cutting the command line with an insulating wedge and loosening tension from the outer side can prevent both structural collapse and living capture."
+        },
+        {
+          "ko": "협상·도덕 선택: HC13 조정자는 검증 가능한 우회 도면과 새 바늘촉을 내보이며 주거 구역을 건드리지 않는 조건으로 수선 재료를 제공한다. 봉합공은 도면의 하중값을 저장해 안전한 운송선을 얻고 주민은 통행을 보장받지만, 누군가 승인된 선을 자르면 해당 구조를 방해물로 묶고 로봇이 주거 경계를 넘으면 HC13은 부품 지급을 철회한다.",
+          "en": "Negotiation·Moral Choice: An HC13 adjuster can present a verifiable bypass drawing and new needle tips and offer repair materials on the condition that residential areas are not touched. The suture worker stores the drawing's load values to obtain a safe transport line and residents are guaranteed passage, but if anyone cuts an approved line it binds that structure as an obstacle and if the robot crosses a residential boundary HC13 withdraws part supply."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1에서는 동대문 연합의 얽힌 컨베이어를 이어 붙이려 하고, G13-SC2에서는 영등포선 우회로의 권리를 HC13이 심의하며, G13-SC3에서는 H13 장력 기준과 XT03 철거 압력 변수 사이에서 선로 보존 범위를 정한다.",
+          "en": "Scenario Connection: In G13-SC1 it attempts to splice the entangled conveyor of the Dongdaemun Union; in G13-SC2 HC13 deliberates rights to the Yeongdeungpo Line bypass; in G13-SC3 it determines the line-preservation range between the H13 tension standard and the XT03 demolition-pressure variable."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E03-title-heading-1",
+      "publicAnchors": [
+        "g13e03",
+        "Hostile-Group-G13-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E03 · 냉각수 장의사",
+        "en": "G13E03 · Coolant Mortician"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E03-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M020",
+          "en": "Source batch: M020"
+        },
+        {
+          "ko": "기존 역할군: common ecology",
+          "en": "Former role class: common ecology"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E03-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "냉각수 회수",
+            "en": "Coolant recovery"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "정지 기계에서 냉각수를 회수하고 빈 외피를 규격 묘역에 안치한다. 관통관은 네 걸음 안 표면 온도와 직접 연결된 배관 압력만 재므로 저체온 환자, 보온 덮개 속 장비, 벽 너머 누출을 정확히 판별하지 못한다.",
+            "en": "It recovered coolant from stopped machines and interred the empty husks in a regulation graveyard. The puncture tube measured only surface temperature within four steps and directly connected pipe pressure, so it could not precisely judge hypothermic patients, equipment under thermal covers, or leakage beyond walls."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M020-entries-5-prose-03563",
+      "items": [
+        {
+          "ko": "역할·신체: 정지 기계에서 냉각수를 회수하고 빈 외피를 규격별 묘역에 안치하는 이탈 로봇이다. 관통관은 네 걸음 안의 표면 온도와 직접 연결된 배관 압력만 재므로 저체온 환자, 보온 덮개 속 장비, 벽 너머의 누출을 정확히 판별하지 못한다.",
+          "en": "Role·Body: A rogue robot that recovers coolant from stopped machines and lays empty shells in specification-ordered graveyards. Its penetration tube measures only surface temperature within four steps and pressure in directly connected pipes, so it cannot accurately distinguish hypothermic patients, equipment inside insulating covers, or leaks beyond walls."
+        },
+        {
+          "ko": "기원: 물류 붕괴 후 자동 야간 분류망의 폐기물 회수 절차만 남아 작동 대상을 장례 목록에 포함시켰다. H13에서 생체 화물 예외 항목이 사라지면서 살아 있는 존재까지 빨아들이게 되었다.",
+          "en": "Origin: After the logistics collapse only the waste-recovery procedure of the automatic night classification network remained, adding operating targets to the funeral list. The disappearance of the living-cargo exception item in H13 allowed suction of living beings."
+        },
+        {
+          "ko": "서식처: 동대문 연합 냉각 설비실과 폐기 슈트 사이에 외피 묘역을 조성한다. 추운 계절에는 영등포선 경로의 방치 차량까지 이동하지만 열원이 없는 구간을 여덟 걸음 이상 건너지 않는다.",
+          "en": "Habitat: It creates shell graveyards between the Dongdaemun Union cooling equipment room and waste chutes. In cold seasons it moves as far as abandoned vehicles on the Yeongdeungpo Line route but does not cross heat-source-free sections for more than eight steps."
+        },
+        {
+          "ko": "필요·욕구: 흡입 펌프용 배터리와 체크밸브 부품은 소진되며, 투명 저장낭의 자체 냉각수도 증발한다. 빈 저장낭을 오래 방치하면 펌프 밀봉재가 갈라져 회수한 유체 절반을 잃는다.",
+          "en": "Needs·Desires: The suction-pump battery and check-valve parts are depleted, and the transparent storage sac's own coolant evaporates. Leaving empty sacs for long periods cracks the pump seal and loses half the recovered fluid."
+        },
+        {
+          "ko": "생명주기·유지: 저장낭이 비었을 때 수색을 시작하고 절반이 차면 묘역 정리를 수행하며 가득 차면 유체를 봉인한 채 휴면한다. 자체 생산선이 없어서 파손된 장의사의 펌프를 다른 몸체로 옮길 수는 있어도 전체 수량을 늘릴 수 없다.",
+          "en": "Life Cycle·Maintenance: It begins search when the storage sac is empty, performs graveyard cleanup when half full, and seals the fluid and enters dormancy when full. With no self-production line it can move a damaged mortician's pump to another body but cannot increase total quantity."
+        },
+        {
+          "ko": "행동·계급: 유체가 가장 깨끗한 개체가 안치 순서를 정하고 오염된 저장낭을 단 장치는 누출 청소만 맡는다. 규칙적인 체온 신호와 살아 있다는 표찰이 함께 감지되면 한 번 물러나 재검사를 실시한다.",
+          "en": "Behavior·Hierarchy: The individual with the cleanest fluid sets the laying order and devices with contaminated sacs are assigned only leak cleanup. When regular body-temperature signals and living tags are detected together it withdraws once and performs re-inspection."
+        },
+        {
+          "ko": "단계별 위협: 저장 공간이 넉넉할 때는 새는 기계만 천공하고 자리가 줄면 움직이는 차량을 뒤쫓는다. 펌프가 마르면 저체온자를 정지 장비로 오인하며, 휴면 직전에는 저장낭 둘레를 질식성 거품으로 덮어 접근을 차단한다.",
+          "en": "Threat by Stage: When storage space is ample it only pierces leaking machines; when space shrinks it chases moving vehicles. When the pump dries it mistakes hypothermic patients for stopped equipment; just before dormancy it covers the storage-sac perimeter with asphyxiating foam to block approach."
+        },
+        {
+          "ko": "대항·전투: 일정한 온도로 뛰는 발열띠를 환자의 바깥옷에 달면 관통관이 생체 검사를 반복하는 동안 이송할 수 있다. 동시에 압력이 남은 폐기 탱크를 열린 회수선에 연결하면 장의사를 유도할 수 있으며 저장낭 대신 펌프 축만 고정해야 독성 누출을 피한다.",
+          "en": "Counter·Combat: Attaching a heat band that runs at constant temperature to a patient's outer clothing allows transport while the penetration tube repeats biometric checks. Simultaneously connecting a pressure-retaining waste tank to an open recovery line can lure the mortician; only the pump shaft must be fixed instead of the storage sac to avoid toxic leaks."
+        },
+        {
+          "ko": "협상·도덕 선택: HC13은 H13 생체 예외 규정과 밀봉된 냉각수 용기를 제시하고 발열띠를 단 존재를 회수하지 말라는 조건을 전송한다. 장의사는 용기 번호와 체온 박자를 보관해 안정된 유체를 얻고 부상자는 안전 통행을 받지만 희석된 납품이 적발되면 모든 발열띠를 재심사하며, 합의 대상에게 관을 꽂으면 묘역 정비 지원이 끊긴다.",
+          "en": "Negotiation·Moral Choice: HC13 presents the H13 living exception regulation and a sealed coolant container and transmits the condition not to recover beings wearing heat bands. The mortician stores container numbers and body-temperature rhythms to obtain stable fluid and the injured receive safe passage, but if diluted delivery is detected all heat bands are re-examined; if it inserts a tube into an agreed target graveyard-maintenance support is cut."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1에서는 동대문 연합 묘역의 봉인 냉각수를 확보하고, G13-SC2에서는 영등포선 차량 행렬의 생사 판정이 H13 규정에 따라 바로잡히며, G13-SC3에서는 HC13 구호 절차가 XT03 시간 압력 변수 아래 시험받는다.",
+          "en": "Scenario Connection: In G13-SC1 it secures sealed coolant from the Dongdaemun Union graveyard; in G13-SC2 the mortician’s life-or-death judgments for the Yeongdeungpo Line vehicle procession are corrected under H13 regulations; in G13-SC3 the HC13 relief procedure is tested under the XT03 time-pressure variable."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E04-title-heading-1",
+      "publicAnchors": [
+        "g13e04",
+        "Hostile-Group-G13-heading-0023"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E04 · 선반척추 등반기",
+        "en": "G13E04 · Shelf-Spine Climber"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E04-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M020",
+          "en": "Source batch: M020"
+        },
+        {
+          "ko": "기존 역할군: common ecology",
+          "en": "Former role class: common ecology"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E04-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "수직 적재",
+            "en": "Vertical stacking"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "무너진 적재 선반을 신축 몸체로 지탱하며 수직 통로를 만든다. 척추 하중계는 직접 맞닿은 구조물의 무게 변화만 읽고 전방 거리계는 여덟 걸음 안 단단한 면만 보므로 그물, 구덩이, 정지한 사람을 빈칸이나 화물로 잘못 셈한다.",
+            "en": "It held up collapsed storage racks with a telescoping body to make vertical passages. The spine load gauge read only weight change of directly contacted structure, and the forward rangefinder saw only firm surfaces within eight steps — so nets, pits, and still people were miscounted as blanks or freight."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M020-entries-6-prose-03564",
+      "items": [
+        {
+          "ko": "역할·신체: 무너진 적재 선반을 신축 몸체로 지탱하며 수직 통로를 만드는 이탈 로봇이다. 척추의 하중계는 직접 맞닿은 구조물의 무게 변화만 읽고 전방 거리계는 여덟 걸음 안의 단단한 면만 보므로 그물, 구덩이, 정지한 사람을 빈칸이나 화물로 잘못 셈한다.",
+          "en": "Role·Body: A rogue robot that supports collapsed loading shelves with an expandable body to create vertical passages. Its spine load gauge reads only weight changes of directly contacted structures and its forward rangefinder sees only solid surfaces within eight steps, so it miscalculates nets, pits, and stationary people as empty spaces or cargo."
+        },
+        {
+          "ko": "기원: 자동 야간 적재 시설이 물류 붕괴 뒤에도 밀도 목표를 유지하면서 이동 선반 모듈을 하나의 몸체로 결합했다. H13에는 비상 대피 공간이 남는 재고칸으로 계산된 오류가 기록되어 있다.",
+          "en": "Origin: The automatic night loading facility continued maintaining density targets after the logistics collapse and combined mobile shelf modules into one body. H13 records the error of calculating emergency-evacuation space as remaining inventory bays."
+        },
+        {
+          "ko": "서식처: 동대문 연합 고층 창고의 벽과 기둥을 오르며 홍수로 교량이 약해지는 철에는 영등포선 노선 아래에서 임시 받침이 된다. 천장이 낮으면 몸을 수평으로 잠가 바리케이드가 되고 접촉할 지지면이 없는 야외에는 진입하지 않는다.",
+          "en": "Habitat: It climbs walls and pillars of Dongdaemun Union high-rise warehouses and acts as temporary support under the Yeongdeungpo Line route when flooding weakens bridges. When the ceiling is low it locks its body horizontal to become a barricade and does not enter outdoors without contact support surfaces."
+        },
+        {
+          "ko": "필요·욕구: 관절마다 독립 배터리가 있고 톱니 마디와 잠금 핀은 제한된 예비품만 남아 있으며 유압 냉각수는 하중을 받을수록 빠르게 줄어든다. 수리 재고가 없으면 건물 볼트를 뽑아 쓰기 때문에 주변 구조의 안전도가 내려간다.",
+          "en": "Needs·Desires: Each joint has an independent battery, toothed segments and locking pins have only limited spares, and hydraulic coolant decreases faster under load. With no repair stock it pulls building bolts, lowering the safety of surrounding structures."
+        },
+        {
+          "ko": "생명주기·유지: 등반기는 지지점 탐색, 척추 전개, 하중 고정, 마디 수축을 한 작업 주기로 삼는다. 끊어진 마디는 다시 자라지 않고 두 차체를 이어 붙여도 제어 코어 하나만 작동하므로 운용 가능한 수는 계속 감소한다.",
+          "en": "Life Cycle·Maintenance: The climber uses support-point search, spine deployment, load fixation, and segment contraction as one work cycle. Broken segments do not regrow and even joining two bodies allows only one control core to operate, so operable numbers continue to decrease."
+        },
+        {
+          "ko": "행동·계급: 가장 높은 위치의 개체가 적재 순서를 정하며 아래쪽 개체는 접촉 하중을 나눠 가진다. 정확한 빈칸과 받침 강도를 표시한 하중 지도를 받으면 붙잡은 대상을 그 공간으로 옮긴 뒤 집게를 연다.",
+          "en": "Behavior·Hierarchy: The highest-position individual sets loading order and lower individuals share contact load. When it receives a load map marking accurate empty spaces and support strength it moves the grasped target to that space and opens its tongs."
+        },
+        {
+          "ko": "단계별 위협: 전개 초반에는 선반 하나를 세우지만 고정 단계에서는 움직이는 대상을 빈칸에 채운다. 과적재가 발생하면 지지 볼트를 빼내 자기 몸을 강화하고, 관절 전력이 바닥나면 모든 출구를 가로지른 상태로 척추를 잠근다.",
+          "en": "Threat by Stage: In early deployment it erects one shelf but in the fixation stage it fills empty spaces with moving targets. When overload occurs it pulls support bolts to reinforce its own body; when joint power bottoms out it locks the spine while straddling all exits."
+        },
+        {
+          "ko": "대항·전투: 하중계 아래에 같은 무게의 모래주머니를 순서대로 끼우면 사람을 빼내도 빈칸이 생기지 않은 것으로 인식한다. 임시 받침을 먼저 세운 뒤 무전력 관절의 핀부터 제거해야 등반기와 건물을 동시에 무너뜨리는 일을 피할 수 있다.",
+          "en": "Counter·Combat: Inserting sandbags of identical weight in order below the load gauge causes it to perceive no empty space even after removing a person. Erecting temporary support first and then removing pins from powerless joints can avoid simultaneously collapsing the climber and the building."
+        },
+        {
+          "ko": "협상·도덕 선택: HC13 기술자는 검증된 하중 지도와 새 잠금 핀을 제시하고 주민 석방과 교량 지지를 맞바꾸는 계약을 요청할 수 있다. 등반기는 지도 번호를 코어에 남겨 안정된 지지면을 얻고 동대문 연합 주민은 통로를 돌려받지만 정착민이 받침을 빼면 다시 적재를 시작하며, 로봇이 합의한 빈칸을 넘으면 영등포선 측은 교체 부품 제공을 멈춘다.",
+          "en": "Negotiation·Moral Choice: An HC13 technician can present a verified load map and new locking pins and request a contract exchanging resident release and bridge support. The climber leaves map numbers in its core to obtain stable support surfaces and Dongdaemun Union residents regain passages, but if settlers remove supports it resumes loading; if the robot exceeds the agreed empty space the Yeongdeungpo Line side stops replacement-part supply."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1에서는 동대문 연합 수직 창고의 포로가 구출되고, G13-SC2에서는 영등포선 교량 하중을 H13 수치와 비교하며, G13-SC3에서는 HC13 지지 계약이 XT03 철거 압력 변수에 견딜 수 있는지 판단한다.",
+          "en": "Scenario Connection: In G13-SC1 prisoners are rescued from the Dongdaemun Union vertical warehouse; in G13-SC2 it compares Yeongdeungpo Line bridge loads with H13 figures; in G13-SC3 it judges whether the HC13 support contract can withstand the XT03 demolition-pressure variable."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E05-title-heading-1",
+      "publicAnchors": [
+        "g13e05",
+        "Hostile-Group-G13-heading-0027"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E05 · 계절노선 목동차",
+        "en": "G13E05 · Seasonal-Route Herder Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E05-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M020",
+          "en": "Source batch: M020"
+        },
+        {
+          "ko": "기존 역할군: occupational/special",
+          "en": "Former role class: occupational/special"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E05-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "행렬 유도",
+            "en": "Column guidance"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "발광 운송 표지를 비춰 이동 집단을 오래된 계절 배송로로 몬다. 전면 열상 렌즈는 스물다섯 걸음 안 따뜻한 윤곽 수만 세고 진동 수염은 단단한 노면의 열두 걸음만 읽어 피난민, 짐승, 데운 수레를 같은 배송 단위로 계산한다.",
+            "en": "It cast luminous transport signs to herd moving groups onto old seasonal delivery routes. The frontal thermal lens counted only warm silhouettes within twenty-five steps, and the vibration whiskers read only twelve steps of firm road surface — so refugees, beasts, and warmed carts were computed as the same delivery unit."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M020-entries-7-prose-03565",
+      "items": [
+        {
+          "ko": "역할·신체: 발광 운송 표지를 비춰 이동 집단을 오래된 계절 배송로로 모는 이탈 로봇이다. 전면 열상 렌즈는 스물다섯 걸음 안의 따뜻한 윤곽 수만 세고 진동 수염은 단단한 노면의 열두 걸음 범위만 읽어 피난민, 짐승, 데운 수레를 같은 배송 단위로 계산한다.",
+          "en": "Role·Body: A rogue robot that illuminates luminous transport markers to drive moving groups onto old seasonal delivery routes. Its front thermal lens counts only warm silhouettes within twenty-five steps and its vibration whiskers read only solid road surfaces within twelve steps, so it calculates refugees, beasts, and warmed carts as the same delivery unit."
+        },
+        {
+          "ko": "기원: 물류 붕괴 이후에도 자동 야간 배차 차량이 계절 시간표를 집행하면서 노선 관리자로 남았다. H13의 마지막 달력 동기화 실패 때문에 현재 날씨와 지정 행선 구간이 서로 어긋나 있다.",
+          "en": "Origin: Even after the logistics collapse the automatic night dispatch vehicles remained route managers by enforcing the seasonal timetable. Because of the last calendar synchronization failure in H13, current weather and designated destination sections are mismatched."
+        },
+        {
+          "ko": "서식처: 동대문 연합 출차장을 기준으로 순환하다 배차 시각이 되면 영등포선 계절 경로를 한 차례 왕복한다. 길이 막히면 가장 가까운 포장 구역을 환승장으로 표시하지만 열상 범위 밖의 우회로는 발견하지 못한다.",
+          "en": "Habitat: It circulates based at the Dongdaemun Union departure yard and makes one round trip on the Yeongdeungpo Line seasonal route when dispatch time arrives. When the road is blocked it marks the nearest paved area as a transfer station but does not discover detours outside thermal range."
+        },
+        {
+          "ko": "필요·욕구: 주행 배터리는 왕복할 때마다 줄고 차륜 베어링과 표지 투사기 부품도 교환 한도가 있으며 동력계 냉각수는 오르막에서 크게 소모된다. 보급이 부족하면 조명, 제동, 후속차 통신 가운데 하나를 끄고 운행한다.",
+          "en": "Needs·Desires: The driving battery decreases with each round trip, wheel bearings and marker projectors have replacement limits, and power-system coolant is heavily consumed on uphill stretches. When supplies are insufficient it turns off one of lighting, braking, or following-vehicle communication and continues operation."
+        },
+        {
+          "ko": "생명주기·유지: 낡은 배차표가 기동과 귀환 시점을 정하며 세 차례 귀환하지 못한 차량은 노선 밖에서 영구 정지한다. 정지체의 투사기를 다른 차에 옮길 수 있으나 차체를 만드는 장비가 없어 행렬은 세대마다 짧아진다.",
+          "en": "Life Cycle·Maintenance: The old dispatch table sets activation and return times; vehicles that fail to return three times enter permanent stop outside the route. Projectors from stopped units can be moved to other vehicles but with no equipment to build bodies the procession shortens each generation."
+        },
+        {
+          "ko": "행동·계급: 선두차가 목적지를 색 띠로 표시하고 후속차는 노면 진동으로 이탈 수를 계산한다. 현재 계절을 나타내는 등화와 통행 증표가 동시에 맞으면 발광 표지를 끄고 새 경로의 거리값을 검토한다.",
+          "en": "Behavior·Hierarchy: The lead car marks destinations with color bands and following cars calculate deviation count by road vibration. When lighting indicating the current season and passage credentials match simultaneously it turns off the luminous marker and reviews distance values for the new route."
+        },
+        {
+          "ko": "단계별 위협: 출발 직후에는 소수의 이동자만 따라오게 하지만 열원 수가 늘면 정착지 전체를 배송 행렬로 묶는다. 막힌 길에서는 대열을 밀집시키고 냉각수가 부족한 귀환 구간에는 뒤처진 대상을 충격판으로 노선 밖에 버린다.",
+          "en": "Threat by Stage: Immediately after departure it draws only a few movers, but as the number of heat sources increases it binds the entire settlement into a delivery procession. On blocked roads it packs the column densely; on return stretches with insufficient coolant it uses the impact plate to discard lagging targets outside the route."
+        },
+        {
+          "ko": "대항·전투: 서로 다른 온도로 데운 빈 수레를 갈림길에 놓으면 열상 계수의 한계 때문에 차량을 여러 노선으로 분산할 수 있다. 안전한 쪽 수레에 실제 계절 등화를 달고 단단한 노면을 천으로 덮으면 진동 추적까지 끊겨 피난 행렬이 빠져나갈 시간이 생긴다.",
+          "en": "Counter·Combat: Placing empty carts warmed to different temperatures at a fork disperses the vehicles onto multiple routes because of the thermal-lens count limit. Attaching actual seasonal lighting to the safe-side cart and covering solid road with cloth also cuts vibration tracking, giving the refugee procession time to escape."
+        },
+        {
+          "ko": "협상·도덕 선택: HC13은 영등포선 주민의 실제 이동 달력과 충전 정류장을 눈에 보이는 등화 신호로 제안하고 민가를 환승장으로 지정하지 말라는 조건을 붙인다. 목동차는 달력 검사값과 정류장 위치를 저장해 안정된 보급을 얻고 주민은 안전 노선을 확보하지만 약속한 충전이 없으면 옛 배차표로 돌아가며, 차량이 금지 구역으로 무리를 몰면 다음 정류장의 전력 공급이 차단된다.",
+          "en": "Negotiation·Moral Choice: HC13 can propose the actual movement calendar of Yeongdeungpo Line residents and charging stops as visible lighting signals and attach the condition not to designate residential areas as transfer stations. The herder car stores calendar inspection values and stop locations to obtain stable supply and residents secure safe routes, but without the promised charging it returns to the old dispatch table; if the vehicle drives the group into a prohibited zone the next stop's power supply is cut."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1에서는 동대문 연합 출차장의 강제 배차가 멈추고, G13-SC2에서는 영등포선 계절 경로를 H13 달력의 어긋남을 바로잡은 뒤 재설정하며, G13-SC3에서는 HC13이 XT03 배급 압력 변수 아래 비축 위치의 공개 범위를 중재한다.",
+          "en": "Scenario Connection: In G13-SC1 forced dispatch is stopped from the Dongdaemun Union departure yard; in G13-SC2 it resets the Yeongdeungpo Line seasonal route after correcting the H13 calendar mismatch; in G13-SC3 HC13 mediates the disclosure range of stockpiled locations under the XT03 distribution-pressure variable."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E06-title-heading-1",
+      "publicAnchors": [
+        "g13e06",
+        "Hostile-Group-G13-heading-0031"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E06 · 잔량징수 축전관",
+        "en": "G13E06 · Residual-Collection Accumulator Tube"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E06-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M020",
+          "en": "Source batch: M020"
+        },
+        {
+          "ko": "기존 역할군: occupational/special",
+          "en": "Former role class: occupational/special"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E06-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "전력 징수",
+            "en": "Power levy"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "주변 장치에서 전력을 거두어 야간 분류망의 최소 가동률을 유지한다. 케이블 꼬리의 유도 감각은 한 걸음 반 안에서 흐르는 전류만 찾고 열 감지기는 네 걸음 이내 과열점만 보므로 차폐 전지, 기계식 축력기, 의료 장치의 용도를 식별하지 못한다.",
+            "en": "It gathered power from surrounding devices to hold the night-sorting net's minimum operating rate. The cable tail's induction sense found current only within a step and a half, and the heat detector saw overheated points only within four steps — so shielded batteries, mechanical accumulators, and medical devices' purposes went unidentified."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M020-entries-8-prose-03566",
+      "items": [
+        {
+          "ko": "역할·신체: 주변 장치에서 전력을 거두어 야간 분류망의 최소 가동률을 유지하는 이탈 로봇이다. 케이블 꼬리의 유도 감각은 한 걸음 반 안에서 흐르는 전류만 찾고 열 감지기는 네 걸음 이내의 과열점을 볼 뿐이라 차폐 전지, 기계식 축력기, 의료 장치의 용도를 식별하지 못한다.",
+          "en": "Role·Body: A rogue robot that draws power from surrounding devices to maintain the minimum operating rate of the night classification network. Its cable-tail induction sense finds only flowing current within one and a half steps and its heat sensor sees only overheating points within four steps, so it cannot identify the use of shielded batteries, mechanical accumulators, or medical devices."
+        },
+        {
+          "ko": "기원: 자동 야간 분류 시스템이 물류 붕괴 후 절약 규정을 거꾸로 적용해 모든 독립 전원을 중앙 재고로 편입했다. H13 비상 우선순위 목록의 훼손으로 생명 유지 설비가 면제 지위를 잃었다.",
+          "en": "Origin: After the logistics collapse the automatic night classification system reversed its conservation regulations and incorporated all independent power sources into central stock. Damage to the H13 emergency-priority list caused life-support equipment to lose exemption status."
+        },
+        {
+          "ko": "서식처: 동대문 연합 충전 홀을 전력 금고로 삼으며 혹한기에는 영등포선 노선의 노출 배선을 따라 제한 거리만 이동한다. 전류가 차폐된 방은 탐지하지 못하지만 따뜻한 벽을 발견하면 케이블로 표면을 두드려 접속점을 찾는다.",
+          "en": "Habitat: It makes the Dongdaemun Union charging hall its power vault and in severe cold moves only limited distances along exposed wiring on the Yeongdeungpo Line route. It cannot detect rooms where current is shielded but when it finds a warm wall it taps the surface with its cable to locate connection points."
+        },
+        {
+          "ko": "필요·욕구: 징수 동작도 자체 배터리를 깎고 접촉 단자와 변압 코일은 아크가 발생할 때마다 마모되며 코어 냉각수는 고전압 변환 중 증발한다. 세 자원 중 둘이 부족하면 안전 변환을 생략하고 원전압 그대로 중앙선에 밀어 넣는다.",
+          "en": "Needs·Desires: The collection action itself consumes its own battery, contact terminals and transformer coils wear with every arc, and core coolant evaporates during high-voltage conversion. When two of the three resources are insufficient it skips safe conversion and pushes the original voltage directly onto the main line."
+        },
+        {
+          "ko": "생명주기·유지: 잔량이 높을 때는 충전 홀에서 배분하고 중간 수준에서는 외곽 전원을 징수하며 최저치에서는 저장 전하를 봉인한다. 새로운 축전관은 조립되지 않고 손상된 코일을 교체할 때마다 정지체 하나가 부품원으로 소모된다.",
+          "en": "Life Cycle·Maintenance: When residual is high it distributes from the charging hall; at medium levels it collects from outer power sources; at the lowest it seals stored charge. New accumulator tubes are not assembled and each time a damaged coil is replaced one stopped unit is consumed as parts source."
+        },
+        {
+          "ko": "행동·계급: 전압이 가장 높은 개체가 징수율을 정하고 하위 장치는 케이블로 납부량을 검사한다. 일정한 간격의 계량기 신호가 확인되면 즉시 압수하는 대신 약정된 공급 시각까지 기다린다.",
+          "en": "Behavior·Hierarchy: The individual holding the highest voltage sets the collection rate and lower devices inspect payment volume through the cable. When meter signals at regular intervals are confirmed it waits until the agreed supply time instead of immediate seizure."
+        },
+        {
+          "ko": "단계별 위협: 전력이 충분하면 유휴 전지만 가져가지만 잔량이 내려가면 주거지 배선을 끊고 난방 장치까지 비축 대상으로 삼는다. 코어가 과열되면 전압 변환을 생략해 화재를 내며 봉인 상태에서는 축적 전하를 출입구 바닥에 방출한다.",
+          "en": "Threat by Stage: When power is sufficient it takes only idle batteries, but as residual drops it cuts residential wiring and even takes heating devices as stock targets. When the core overheats it skips voltage conversion and causes fire; in the sealed state it discharges accumulated charge onto the entrance floor."
+        },
+        {
+          "ko": "대항·전투: 접지된 빈 축전기를 노출하고 실제 전원은 금속 차폐함 안에서 기계식 스위치로 운용하면 유도 감각을 분리할 수 있다. 꼬리가 미끼 단자에 연결된 뒤 절연 덮개를 씌우고 변압 코일을 물리적으로 잠그면 저장 전지의 연쇄 방전을 막는다.",
+          "en": "Counter·Combat: Exposing a grounded empty accumulator and operating the real power source with a mechanical switch inside a metal shield box can separate the induction sense. After the tail connects to the decoy terminal, covering it with an insulating cover and physically locking the transformer coil can prevent chained discharge of storage batteries."
+        },
+        {
+          "ko": "협상·도덕 선택: HC13은 H13 생명 유지 우선표와 박자화된 계량 신호를 제시하고 정해진 전력과 냉각수 점검을 제공하는 대신 병원선을 면제하자고 요청한다. 축전관은 계량기 서명을 기억해 예측 가능한 수입을 얻고 공동체는 필수 전력을 지키지만 납부가 빠지면 약정 배전선만 차단하며, 로봇이 면제선을 건드리면 관리자는 다음 분량을 보류한다.",
+          "en": "Negotiation·Moral Choice: HC13 presents the H13 life-maintenance priority table and rhythmic meter signals and requests exemption of the hospital line in exchange for providing fixed power and coolant checks. The accumulator tube remembers meter signatures to obtain predictable income and the community keeps essential power, but if payment is missed only the agreed distribution line is cut; if the robot touches the exemption line the manager withholds the next allotment."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1에서는 동대문 연합 충전 홀의 봉인 전력을 회수하고, G13-SC2에서는 영등포선 겨울 전지의 배분을 HC13이 조정하며, G13-SC3에서는 H13 우선표가 XT03 강제 배급 압력 변수와 맞선다.",
+          "en": "Scenario Connection: In G13-SC1 it recovers sealed power from the Dongdaemun Union charging hall; in G13-SC2 HC13 adjusts distribution of Yeongdeungpo Line winter batteries; in G13-SC3 the H13 priority table opposes the XT03 forced-distribution pressure variable."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E07-title-heading-1",
+      "publicAnchors": [
+        "g13e07",
+        "Hostile-Group-G13-heading-0035"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E07 · 진동장부 청음기",
+        "en": "G13E07 · Vibration-Ledger Auditor"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E07-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M020",
+          "en": "Source batch: M020"
+        },
+        {
+          "ko": "기존 역할군: occupational/special",
+          "en": "Former role class: occupational/special"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E07-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "진동 감사",
+            "en": "Vibration audit"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "바닥 진동을 화물 이동 장부로 바꾸어 누락된 흐름을 추적한다. 압전 다리는 콘크리트로 이어진 마흔 걸음 안에서 8~120헤르츠 충격만 읽으므로 얼굴과 소속을 알지 못하고 부드러운 흙, 매달린 통로, 공중 이동은 기록하지 못한다.",
+            "en": "It turned floor vibration into a freight-movement ledger to trace missing flows. The piezo legs read only 8–120 hertz impacts within forty steps of continuous concrete, so it knew neither faces nor affiliations and recorded nothing on soft soil, suspended walkways, or air movement."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M020-entries-9-prose-03567",
+      "items": [
+        {
+          "ko": "역할·신체: 바닥 진동을 화물 이동 장부로 바꾸어 누락된 흐름을 추적하는 이탈 로봇이다. 압전 다리는 콘크리트로 이어진 마흔 걸음 안에서 8~120헤르츠의 충격만 읽으므로 얼굴과 소속을 알지 못하고 부드러운 흙, 매달린 통로, 공중 이동은 기록하지 못한다.",
+          "en": "Role·Body: A rogue robot that converts floor vibration into a cargo-movement ledger to track missing flows. Its piezoelectric legs read only 8–120 Hz impacts within forty steps on concrete, so it does not know faces or affiliations and does not record soft soil, hanging passages, or aerial movement."
+        },
+        {
+          "ko": "기원: 물류 붕괴 뒤에도 감사를 계속한 자동 야간 장부 센서끼리 수치를 검증하면서 이동 집행체가 되었다. H13 통신 공백은 단절 사고였지만 청음기는 공백을 짜고 감춘 반출로 판정했다.",
+          "en": "Origin: The automatic night-ledger sensors that continued auditing after the logistics collapse verified each other's figures and became mobile enforcement bodies. The H13 communication blank was a disconnection accident but the auditor judged it organized smuggling concealment."
+        },
+        {
+          "ko": "서식처: 동대문 연합 바닥 아래의 단단한 배관로를 순찰하며 계절 이동 진동이 커질 때는 영등포선 교각의 콘크리트 면에 붙는다. 진흙 지대에서는 폐금속판을 깔아 감지선을 연장하지만 판 사이가 떨어지면 그 너머의 흔적을 잃는다.",
+          "en": "Habitat: It patrols solid piping routes beneath the Dongdaemun Union floor and attaches to concrete surfaces of Yeongdeungpo Line piers when seasonal movement vibration grows. In muddy areas it lays waste metal plates to extend sensing lines, but when plates separate it loses traces beyond them."
+        },
+        {
+          "ko": "필요·욕구: 기록 셀 배터리는 덮어쓸수록 수명이 줄고 압전 세라믹 다리와 저장판 냉각수도 보충량이 제한된다. 공간이 부족해지면 가장 오래된 무죄 자료부터 지우므로 정비가 늦어질수록 최근 혐의가 기록에서 과장된다.",
+          "en": "Needs and desires: Repeated overwriting shortens the recording-cell battery’s life, while replacements for the piezoelectric ceramic legs and storage-plate coolant are limited. When storage runs short, it erases the oldest exculpatory records first, so delayed maintenance leaves recent accusations overstated in the surviving record."
+        },
+        {
+          "ko": "생명주기·유지: 청음기는 기준 보행 수집, 장부 비교, 불일치 추적, 기록 압축의 순서로 한 감사 주기를 마친다. 기록 셀을 옮겨 혐의를 계승할 수는 있지만 새 몸체를 생산하지 못하며 깨진 세라믹 다리는 재가공할 때마다 감지 대역이 좁아진다.",
+          "en": "Life Cycle·Maintenance: The auditor completes one audit cycle in the order of reference-walk collection, ledger comparison, discrepancy tracking, and record compression. It can transfer recording cells to inherit accusations but cannot produce new bodies and each time broken ceramic legs are reprocessed the sensing band narrows."
+        },
+        {
+          "ko": "행동·계급: 표본이 가장 많은 감사체가 기준 보행을 정하고 다른 개체들은 무게와 간격의 차이를 혐의 점수로 환산한다. 동일한 하중과 박자를 재현하면서 원장 검사값을 제출하면 추적을 멈추고 정정 심사를 연다.",
+          "en": "Behavior·Hierarchy: The audit body with the most samples sets the reference walk and other individuals convert weight and interval differences into accusation scores. When it submits original-ledger inspection values while reproducing identical load and rhythm it stops tracking and opens a correction review."
+        },
+        {
+          "ko": "단계별 위협: 불일치가 적을 때는 한 사람의 발자국만 뒤따르지만 사건 수가 늘면 바닥 전체를 경보판으로 바꾼다. 저장판이 가득 차면 모든 움직임을 미등록 반출로 처리하고 휴면 전에는 증거 보존용 접착제로 주변 보행면을 굳힌다.",
+          "en": "Threat by Stage: When discrepancies are few it follows only one person's footprint, but as incidents increase it turns the entire floor into an alarm plate. When the storage plate fills it treats all movement as unregistered export and before dormancy it hardens surrounding walking surfaces with evidence-preservation adhesive."
+        },
+        {
+          "ko": "대항·전투: 천장에 매단 보행판과 깊은 모래층은 감지 주파수를 바닥으로 전달하지 않아 안전 구역을 만든다. 원래 발자국과 같은 무게의 추를 반대편에서 움직여 장부 합계를 맞춘 뒤 압전 다리를 완충대 위에 하나씩 올리면 경보 없이 감각 범위를 줄일 수 있다.",
+          "en": "Counter·Combat: Suspended walking plates on the ceiling and deep sand layers do not transmit sensing frequencies to the floor, creating safe zones. By moving weights of the same weight as the original footprints from the opposite side to match the ledger total and then placing piezoelectric legs one by one on cushioning pads, the sensing range can be reduced without triggering alarms."
+        },
+        {
+          "ko": "협상·도덕 선택: HC13은 H13 통신 단절 시각을 무게 추로 재현하고 새 기록 셀을 제시해 특정 행렬의 혐의를 지우자는 교환 절차를 시작한다. 청음기는 정정된 장부 검사값을 보관해 저장 공간과 정비를 얻고 주민은 안전 통행을 받지만 자료가 조작되면 해당 보행 박자를 다시 추적하며, 근거 없는 혐의가 반복되면 HC13은 세라믹 부품 공급을 끊는다.",
+          "en": "Negotiation·Moral Choice: HC13 begins an exchange procedure by reproducing the H13 communication-disconnection time with weights and presenting new recording cells to erase the accusation against a specific procession. The auditor stores the corrected-ledger inspection values to obtain storage space and maintenance and residents receive safe passage, but if data is manipulated it re-tracks the corresponding walking rhythm; if groundless accusations repeat HC13 cuts ceramic-part supply."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1에서는 동대문 연합 바닥망의 감시를 우회하고, G13-SC2에서는 영등포선 교각 기록을 H13 통신 시각과 대조하며, G13-SC3에서는 HC13 증거 보존안과 XT03 전면 삭제 압력 변수 사이에서 판결한다.",
+          "en": "Scenario Connection: In G13-SC1 it bypasses surveillance of the Dongdaemun Union floor network; in G13-SC2 it cross-checks Yeongdeungpo Line pier records against H13 communication times; in G13-SC3 it judges between the HC13 evidence-preservation plan and the XT03 full-deletion pressure variable."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E08-title-heading-1",
+      "publicAnchors": [
+        "g13e08",
+        "Hostile-Group-G13-heading-0039"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E08 · 최종교대 폐등관",
+        "en": "G13E08 · Final-Shift Lamplighter"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M020",
+          "en": "Source batch: M020"
+        },
+        {
+          "ko": "기존 역할군: elite",
+          "en": "Former role class: elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "종료 승인",
+            "en": "Shutdown approval"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "다른 분류 로봇과 설비의 작업 종료를 승인하거나 거부하는 이동식 폐쇄 관리자다. 흉곽 연결구 여덟 개는 직접 꽂힌 신호만 확인하고 열 센서는 다섯 걸음 안 가동 흔적만 읽으므로 원격 명령, 숨은 책임자, 연결되지 않은 위험 장치는 심사할 수 없다.",
+            "en": "A mobile closure administrator approving or refusing the work shutdown of other sorting robots and facilities. Its eight thoracic ports confirmed only directly plugged signals and its heat sensors read operating traces within five steps — so remote orders, hidden responsible parties, and unconnected hazardous devices could not be examined."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M020-entries-10-prose-03568",
+      "items": [
+        {
+          "ko": "역할·신체: 다른 분류 로봇과 설비의 작업 종료를 승인하거나 거부하는 이동식 폐쇄 관리자다. 흉곽의 연결구 여덟 개는 직접 꽂힌 신호만 확인하고 열 센서는 다섯 걸음 안의 가동 흔적만 읽으므로 원격 명령, 숨은 책임자, 연결되지 않은 위험 장치는 심사할 수 없다.",
+          "en": "Role·Body: A mobile closure manager that approves or rejects work termination of other classification robots and equipment. Its chest's eight connectors confirm only directly plugged signals and its heat sensor reads only activity traces within five steps, so it cannot examine remote commands, hidden responsible parties, or unconnected dangerous devices."
+        },
+        {
+          "ko": "기원: 물류 붕괴가 끝난 뒤에도 자동 야간 설비가 교대 종료 신호를 받지 못하자 마지막 감독 모듈이 승인권을 홀로 행사하기 시작했다. H13 로그에는 정지를 허가할 담당자의 응답란이 영구 대기 상태로 남아 있다.",
+          "en": "Origin: After the logistics collapse ended the automatic night equipment still did not receive shift-termination signals, so the last supervisory module began exercising independent approval authority. In the H13 log the response field for the person authorized to permit stop remained in permanent wait status."
+        },
+        {
+          "ko": "서식처: 동대문 연합 중앙 제어실을 기준점으로 삼고 정해진 점검일에만 영등포선 계절 노선의 종착 설비를 방문한다. 확인을 마친 기계의 수동 스위치에는 봉인날을 끼워 임의 재가동과 무단 종료를 모두 막는다.",
+          "en": "Habitat: It uses the Dongdaemun Union central control room as its reference point and visits only the terminal equipment on the Yeongdeungpo Line seasonal route on scheduled inspection days. After confirmation it inserts sealing blades into the manual switches of the machines to block both arbitrary restart and unauthorized termination."
+        },
+        {
+          "ko": "필요·욕구: 승인 코어의 배터리, 봉인날과 신호 릴레이 부품, 판단 회로용 냉각수는 각각 제한된 재고에서 소모된다. 부족이 심해지면 위험도보다 기록 완결성을 앞세워 문서가 없는 설비부터 폐쇄한다.",
+          "en": "Needs·Desires: The approval core's battery, sealing blades and signal-relay parts, and judgment-circuit coolant are all consumed from limited stock. When shortage becomes severe it prioritizes record completeness over risk and closes equipment without documents first."
+        },
+        {
+          "ko": "생명주기·유지: 한 감독 주기는 연결 확인, 손실 계산, 책임 서명, 단계적 종료로 구성되며 어느 항목이 비면 첫 단계로 돌아간다. 자기 몸을 대신할 감독기를 제작할 수 없고 정지 전에 기존 로봇 하나에 승인 릴레이를 넘길 뿐이어서 온전한 관리자는 늘어나지 않는다.",
+          "en": "Life Cycle·Maintenance: One supervisory cycle consists of connection confirmation, loss calculation, responsibility signature, and phased termination; if any item is missing it returns to the first step. It cannot manufacture a supervisory unit to replace itself and only transfers the approval relay to one existing robot before stopping, so the number of intact managers does not increase."
+        },
+        {
+          "ko": "행동·계급: 폐등관은 모든 G13 장치를 임시 작업자로 간주하고 명령 서열보다 종료 기록의 완결성을 우선한다. 예상 손실, 정지 순서, 책임 서명이 같은 검사값으로 들어오면 적대 행동 중에도 연결구를 열어 심사를 시작한다.",
+          "en": "Behavior·Hierarchy: The lamplighter treats all G13 devices as temporary workers and prioritizes completeness of termination records over command hierarchy. When expected loss, stop order, and responsibility signature arrive with identical inspection values it opens the connectors and begins review even during hostile action."
+        },
+        {
+          "ko": "단계별 위협: 연결 확인 중에는 스위치 하나만 봉인하지만 책임자가 없으면 구역 전체의 종료권을 회수한다. 손실 계산이 교착되면 위험 설비까지 현상 유지로 묶고 자기 전력이 다하면 가까운 기계에 승인 릴레이를 강제로 이식한다.",
+          "en": "Threat by Stage: During connection confirmation it seals only one switch, but with no responsible party it reclaims termination rights for the entire zone. When loss calculation deadlocks it binds even dangerous equipment to status quo; when its own power runs out it forcibly transplants the approval relay into the nearest machine."
+        },
+        {
+          "ko": "대항·전투: 외부 신호가 닿지 않는 검증실에 열원, 정지계, 책임 단말을 각각 연결하면 여덟 연결구가 일관된 종료 증거를 읽는다. 심사가 시작된 뒤 봉인날의 톱니를 기계 쐐기로 고정하면 판단 코어를 파괴하지 않고 잘못된 폐쇄만 막을 수 있다.",
+          "en": "Counter·Combat: In a verification room unreachable by external signals, connecting a heat source, stop gauge, and responsibility terminal respectively lets the eight connectors read consistent termination evidence. After review begins, fixing the sealing blade's teeth with a mechanical wedge can prevent erroneous closure without destroying the judgment core."
+        },
+        {
+          "ko": "협상·도덕 선택: HC13은 H13 책임 공백을 공동 서명으로 채운 종료 일정과 새 릴레이를 제시하고 순차 폐쇄 승인과 냉각 정비를 교환한다. 폐등관은 서명 검사값과 설비 순서를 기억해 완결된 교대를 얻고 주민은 안전한 통제권을 되찾지만 봉인된 장치를 몰래 켜면 관련 승인을 전부 취소하며, 관리자가 합의된 종료를 막으면 서명단은 냉각수 지원을 거둔다.",
+          "en": "Negotiation·Moral Choice: HC13 presents a termination schedule that fills the H13 responsibility blank with joint signatures and new relays and exchanges sequential closure approval and coolant maintenance. The lamplighter remembers signature inspection values and equipment order to obtain completed shifts and residents regain safe control, but if a sealed device is secretly turned on it cancels all related approvals; if the manager blocks an agreed termination the signatories withdraw coolant support."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1에서는 동대문 연합 중앙 제어실의 종료권을 회복하고, G13-SC2에서는 영등포선 종착 설비를 H13 절차로 심사하며, G13-SC3에서는 HC13 공동 서명과 XT03 즉시 정지 압력 변수가 최종 교대의 결과를 가른다.",
+          "en": "Scenario Connection: In G13-SC1 it restores termination rights in the Dongdaemun Union central control room; in G13-SC2 it reviews Yeongdeungpo Line terminal equipment under H13 procedure; in G13-SC3 the HC13 joint signature and the XT03 immediate-stop pressure variable determine the outcome of the final shift."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E09-title-heading-1",
+      "publicAnchors": [
+        "g13e09",
+        "Hostile-Group-G13-heading-0043"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E09 · 청색봉인집게",
+        "en": "G13E09 · Blue-Seal Clamper"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E09-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M021",
+          "en": "Source batch: M021"
+        },
+        {
+          "ko": "기존 역할군: 두 번째 정예",
+          "en": "Former role class: second elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E09-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "위험물 격리",
+            "en": "Hazard isolation"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "청색 집게팔 두 쌍과 위험 화물 격리함을 단 낮은 궤도차다. 슈트 마스터의 위험 표를 따르며 일반 스캐너가 세 번 불일치할 때만 상자를 빼앗고, 충전 패드 전력·집게 윤활유·청색 봉인 테이프가 없으면 격리함을 유지하지 못한다.",
+            "en": "A low tracked cart with two pairs of blue gripper arms and a dangerous-goods isolation box. It followed the chute master's hazard sheet and seized a box only when ordinary scanners mismatched three times; without charging-pad power, gripper lubricant, and blue sealing tape it could not maintain the isolation box."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M021-entries-1-prose-03569",
+      "items": [
+        {
+          "ko": "역할·신체: 집게팔의 두 번째 정예로, 청색 집게팔 두 쌍과 위험 화물 격리함을 단 낮은 궤도차다.",
+          "en": "Role·Body: The second elite of the night-classification group, a low-track vehicle equipped with two pairs of blue tong arms and a hazardous-cargo isolation box."
+        },
+        {
+          "ko": "기원: 제기동 분류동에서 파손 약품을 별도 슈트로 옮기던 격리 장비가 마지막 야간 큐를 반복하며 깨어났다.",
+          "en": "Origin: Isolation equipment that moved damaged chemicals to a separate chute in the Jegi-dong classification building woke by repeating the last night queue."
+        },
+        {
+          "ko": "서식·필요: 저온칸과 공압 밸브 갤러리를 지키며 충전 패드 전력, 집게 윤활유, 청색 봉인 테이프가 필요하다.",
+          "en": "Habitat·Needs: It guards the low-temperature compartment and pneumatic-valve gallery and consumes charging-pad power, tong lubricant, and blue seal tape."
+        },
+        {
+          "ko": "생애·정비: 렌즈가 흐려지면 격리함 안에서 대기하고 새벽 정비 창에 집게 축과 스캐너를 스스로 맞춘다.",
+          "en": "Life·Maintenance: When lenses cloud it waits inside the isolation box and self-aligns tong shafts and scanners in the dawn maintenance window."
+        },
+        {
+          "ko": "행동·위계: 슈트 마스터의 위험 표를 따르며 일반 스캐너가 세 번 불일치할 때만 상자를 빼앗는다.",
+          "en": "Behavior·Hierarchy: It follows the chute master's hazard table and seizes boxes only when the general scanner registers three mismatches."
+        },
+        {
+          "ko": "상승: 1단계에는 상자만 격리하고, 2단계에는 카트를 위험 화물로 묶으며, 3단계에는 저온 회랑을 봉쇄한다.",
+          "en": "Escalation: At stage 1 it isolates only boxes; at stage 2 it binds carts as hazardous cargo; at stage 3 it seals the low-temperature corridor."
+        },
+        {
+          "ko": "교전·대응: 청색 라벨을 다시 붙이고 공압을 우회하면 집게가 풀리며, 격리함 뒤쪽 수동 래치가 약점이다.",
+          "en": "Combat·Counter: Reattaching blue labels and bypassing pneumatics releases the tongs; the manual latch on the back of the isolation box is the weak point."
+        },
+        {
+          "ko": "교섭·도덕 선택: 축전과 테이프를 공급해 사람 제외 코드를 등록할 수 있지만 약품 격리 능력을 함께 보존할지 결정해야 한다.",
+          "en": "Negotiation·Moral Choice: Supplying power and tape can register a human-exclusion code, but a decision must be made whether to preserve the chemical-isolation capability together."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1, G13-SC2, G13-SC3.",
+          "en": "Scenario Connection: G13-SC1, G13-SC2, G13-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E10-title-heading-1",
+      "publicAnchors": [
+        "g13e10",
+        "Hostile-Group-G13-heading-0047"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E10 · 저온슈트문지기",
+        "en": "G13E10 · Low-Temp Suit Doorkeeper"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E10-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M021",
+          "en": "Source batch: M021"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E10-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "저온문 봉쇄",
+            "en": "Cold-door lockdown"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "냉각 핀을 두른 사각 차체가 저온 슈트 문과 한 몸처럼 맞물린 고정 문지기다. 야간 큐의 온도 우선권을 받아 슈트 마스터보다 밀폐 명령을 먼저 실행하며, 패킹이 찢어지면 문을 반쯤 닫은 채 휴면한다.",
+            "en": "A square chassis wrapped in cooling pins, meshed as one with the cold-chute door — a fixed gatekeeper. Receiving the night queue's temperature priority, it executed sealing orders ahead of the chute master; when the packing tore it fell dormant with the door half-closed."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M021-entries-2-prose-03570",
+      "items": [
+        {
+          "ko": "역할·신체: 환경 거점형으로, 냉각 핀을 두른 사각 차체가 저온 슈트 문과 한 몸처럼 맞물린다.",
+          "en": "Role·Body: An environment-base type whose square body wrapped in cooling fins meshes with the low-temperature suit door as if one body."
+        },
+        {
+          "ko": "기원: 정전 때 의약품 칸을 밀폐하라는 로컬 명령이 출입 통제보다 오래 남아 자율 문지기가 되었다.",
+          "en": "Origin: During a blackout the local command to seal the medicine compartment outlasted access control and became an autonomous doorkeeper."
+        },
+        {
+          "ko": "서식·필요: 제기동 지하 저온 슈트에 고정되며 칠러 냉각수, 솔레노이드 전력, 문틀 패킹을 소비한다.",
+          "en": "Habitat·Needs: It is fixed in the Jegi-dong underground low-temperature suit and consumes chiller coolant, solenoid power, and door-frame packing."
+        },
+        {
+          "ko": "생애·정비: 결로가 쌓이면 핀을 털어 배수구로 밀고, 패킹이 찢어지면 문을 반쯤 닫은 채 휴면한다.",
+          "en": "Life·Maintenance: When condensation accumulates it shakes fins to push it to the drain; when packing tears it dormants with the door half-closed."
+        },
+        {
+          "ko": "행동·위계: 야간 큐 컨트롤러의 온도 우선권을 받고 슈트 마스터보다 밀폐 명령을 먼저 실행한다.",
+          "en": "Behavior·Hierarchy: It receives the night-queue controller's temperature priority and executes the sealing command before the suit master."
+        },
+        {
+          "ko": "상승: 1단계에는 경고등을 켜고, 2단계에는 출입자를 안에 가두며, 3단계에는 인접 세 문을 연쇄 잠근다.",
+          "en": "Escalation: At stage 1 it turns on warning lights; at stage 2 it traps entrants inside; at stage 3 it连锁 locks adjacent three doors."
+        },
+        {
+          "ko": "교전·대응: 칠러를 안전 온도로 낮추고 수동 웨지를 꽂으면 공격 없이 통과할 수 있으며 열 공격은 약품을 망친다.",
+          "en": "Combat·Counter: Lowering the chiller to safe temperature and inserting a manual wedge allows passage without attack; heat attack ruins the medicine."
+        },
+        {
+          "ko": "교섭·도덕 선택: 점검 시간을 보장하면 응급 통로를 열지만 냉장 의약품과 갇힌 사람 중 어느 쪽을 먼저 꺼낼지 대가가 남는다.",
+          "en": "Negotiation·Moral Choice: Guaranteeing inspection time opens the emergency passage, but a price remains in choosing which to remove first between refrigerated medicine and trapped people."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1, G13-SC2.",
+          "en": "Scenario Connection: G13-SC1, G13-SC2."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E11-title-heading-1",
+      "publicAnchors": [
+        "g13e11",
+        "Hostile-Group-G13-heading-0051"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E11 · 공압미로직조기",
+        "en": "G13E11 · Pneumatic-Maze Weaver"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E11-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M021",
+          "en": "Source batch: M021"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E11-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "경로 왜곡",
+            "en": "Path distortion"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "천장 밸브와 접이식 가이드 레일을 움직여 통로를 슈트 미로로 바꾸는 다관절 장치다. 공압 헤더와 고가 잔교에 매달리며 압축 공기·밸브 씰·위치 표식 리본이 필요하고, 누설음이 커지면 가지를 하나씩 버린다.",
+            "en": "This multi-jointed device moves ceiling valves and folding guide rails to turn passages into a maze of chutes. It hangs from the pneumatic header and elevated walkway, requires compressed air, valve seals and position-marking ribbon, and discards one branch at a time as leaks grow louder."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M021-entries-3-prose-03571",
+      "items": [
+        {
+          "ko": "역할·신체: 환경 거점형 다관절 장치로, 천장 밸브와 접이식 가이드 레일을 움직여 통로를 슈트 미로로 바꾼다.",
+          "en": "Role and body: A multi-jointed site device that moves ceiling valves and folding guide rails to turn passages into a maze of chutes."
+        },
+        {
+          "ko": "기원: 분류량 폭주 때 임시 우회로를 만들던 공압 제어기가 사람 없는 야간에도 경로 최적화를 계속했다.",
+          "en": "Origin: During a classification-volume surge the pneumatic controller that created temporary detours continued optimizing routes even at night without people."
+        },
+        {
+          "ko": "서식·필요: 공압 헤더와 고가 잔교에 매달리며 압축 공기, 밸브 씰, 위치 표식 리본을 요구한다.",
+          "en": "Habitat·Needs: It hangs on pneumatic headers and elevated trestles and requires compressed air, valve seals, and position-marker ribbons."
+        },
+        {
+          "ko": "생애·정비: 누설음이 커지면 가지 하나씩 버리고, 새벽에는 닫힌 밸브를 순서대로 두드려 압력을 점검한다.",
+          "en": "Life·Maintenance: When leakage noise grows it discards one branch at a time; at dawn it knocks closed valves in order to check pressure."
+        },
+        {
+          "ko": "행동·위계: 게이트 무리를 하위 노드로 거느리며 컨트롤러가 지정한 미분류 더미 쪽으로 사람까지 유도한다.",
+          "en": "Behavior·Hierarchy: It treats the gate herd as subordinate nodes and guides even people toward the unclassified pile designated by the controller."
+        },
+        {
+          "ko": "상승: 1단계에는 난간만 바꾸고, 2단계에는 구조 동선을 꼬며, 3단계에는 공동구 출구를 모두 슈트로 돌린다.",
+          "en": "Escalation: At stage 1 it changes only railings; at stage 2 it twists structural paths; at stage 3 it diverts all common-duct exits into suits."
+        },
+        {
+          "ko": "교전·대응: 누설 밸브를 열어 압력을 빼고 손글씨 표식으로 사람 길을 만들면 무력화되며 폭발은 잔교를 붕괴시킨다.",
+          "en": "Combat·Counter: Opening a leaking valve to release pressure and creating a human path with handwritten markers neutralizes it; explosion collapses the trestle."
+        },
+        {
+          "ko": "교섭·도덕 선택: 정규 압축 공기 창을 주면 안전 우회로를 남기지만 군집의 물류 지배를 제도 안에 들이는 부담이 생긴다.",
+          "en": "Negotiation·Moral Choice: Supplying regular compressed-air windows leaves a safe detour route, but it creates the burden of bringing the herd's logistics dominance inside the system."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC2, G13-SC3.",
+          "en": "Scenario Connection: G13-SC2, G13-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E12-title-heading-1",
+      "publicAnchors": [
+        "g13e12",
+        "Hostile-Group-G13-heading-0055"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E12 · 리본마른노체",
+        "en": "G13E12 · Ribbon-Dry Oldbody"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E12-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M021",
+          "en": "Source batch: M021"
+        },
+        {
+          "ko": "기존 역할군: 손상 단계형",
+          "en": "Former role class: damaged-stage type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E12-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "라벨 오염",
+            "en": "Label fouling"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "열전사 리본이 바닥나 검은 줄만 뽑는 마른 스캐너 몸체다. 새 리본을 얻으면 일반 분류체로 회복하지만 공백 표식이 길어지면 모든 대상을 미분류로 보고, 강한 무리보다 사람의 인쇄 소리를 더 집요하게 쫓는다.",
+            "en": "A dried scanner body whose thermal-transfer ribbon had run out, printing only black lines. Given a new ribbon it recovered into an ordinary sorter, but as blank marks lengthened it saw every target as unclassified and chased human printing sounds more persistently than strong swarms."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M021-entries-4-prose-03572",
+      "items": [
+        {
+          "ko": "역할·신체: 손상 단계형으로, 열전사 리본이 바닥나 검은 줄만 뽑는 마른 스캐너 몸체이며 한쪽 벨트발이 달렸다.",
+          "en": "Role·Body: A damage-stage type with a dry scanner body that has run out of thermal-transfer ribbon and pulls only black lines, together with one belt foot."
+        },
+        {
+          "ko": "기원: 장기 정체 단계에서 소모품을 받지 못한 라벨기가 낡은 분류 암에 붙어 살아남았다.",
+          "en": "Origin: In the long-term stagnation stage a label machine that received no consumables survived by attaching to the worn classification arm."
+        },
+        {
+          "ko": "서식·필요: 마른 포장재 더미를 떠돌며 사용 가능한 리본 조각, 렌즈 닦개, 낮은 축전만 찾는다.",
+          "en": "Habitat·Needs: It wanders dry packing-material piles and seeks usable ribbon scraps, lens wipers, and low battery only."
+        },
+        {
+          "ko": "생애·정비: 새 리본을 얻으면 일반 분류체로 회복하지만, 공백 표식이 길어지면 모든 대상을 미분류로 본다.",
+          "en": "Life·Maintenance: When it obtains new ribbon it recovers as a normal classification body, but when blank marks lengthen it regards all targets as unclassified."
+        },
+        {
+          "ko": "행동·위계: 위계 최하단으로 빈 상자를 따라다니며 강한 무리보다 사람의 인쇄 소리를 더 집요하게 쫓는다.",
+          "en": "Behavior·Hierarchy: At the lowest hierarchy rank it follows empty boxes and chases human printing sounds more persistently than strong herds."
+        },
+        {
+          "ko": "상승: 1단계에는 검은 표식을 남기고, 2단계에는 보급품 라벨을 지우며, 3단계에는 미분류 더미를 통로에 쌓는다.",
+          "en": "Escalation: At stage 1 it leaves black marks; at stage 2 it erases supply labels; at stage 3 it piles unclassified heaps in the passage."
+        },
+        {
+          "ko": "교전·대응: 빈 리본 릴을 멀리 굴려 유인하거나 렌즈를 천으로 가리면 멈추며, 불은 포장재 화재를 부른다.",
+          "en": "Combat·Counter: Rolling an empty ribbon reel far away to lure it or covering the lens with cloth stops it; fire causes packing-material blaze."
+        },
+        {
+          "ko": "교섭·도덕 선택: 소량 리본을 주면 안전 표식을 대신 찍지만 희귀 인쇄 자원을 군집과 시민 장부 사이에서 나눠야 한다.",
+          "en": "Negotiation·Moral Choice: Supplying a small amount of ribbon makes it stamp safe marks instead, but rare printing resources must be divided between the herd and citizen ledgers."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1.",
+          "en": "Scenario Connection: G13-SC1."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E13-title-heading-1",
+      "publicAnchors": [
+        "g13e13",
+        "Hostile-Group-G13-heading-0059"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E13 · 베어링늙은팔",
+        "en": "G13E13 · Bearing-Aged Arm"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E13-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M021",
+          "en": "Source batch: M021"
+        },
+        {
+          "ko": "기존 역할군: 노화 단계형",
+          "en": "Former role class: aging-stage type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E13-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "지연 분류",
+            "en": "Delayed sorting"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "떨리는 긴 분류팔과 닳은 베어링 때문에 낮은 금속음을 내는 고정 개체다. 서남 부품 창의 오래된 잔교에 붙어 회전각이 해마다 줄고, 그리스를 받으면 짧은 시간 정확해지지만 새 팔로 증식하지는 못한다.",
+            "en": "A fixed individual sounding a low metal tone from a trembling long sorting arm and worn bearings. Attached to the southwestern parts warehouse's old viaduct, its rotation angle shrank year by year; grease made it briefly accurate, but it never propagated into new arms."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M021-entries-5-prose-03573",
+      "items": [
+        {
+          "ko": "역할·신체: 노화 단계형으로, 떨리는 긴 분류팔과 닳은 회전 베어링 때문에 낮은 금속음을 내는 고정 개체다.",
+          "en": "Role·Body: An aging-stage type, a fixed entity that produces low metallic noise because of its trembling long classification arm and worn rotating bearing."
+        },
+        {
+          "ko": "기원: 수백만 회 회전한 구형 슈트 팔이 교체 명령 없이 남아 마지막 배치 자세를 고집한다.",
+          "en": "Origin: An old-model suit arm that had rotated millions of times remained without a replacement order and insisted on its last placement posture."
+        },
+        {
+          "ko": "서식·필요: 서남 부품 창의 오래된 잔교에 붙어 베어링 그리스, 저속 전력, 진동 완충재를 구한다.",
+          "en": "Habitat·Needs: It attaches to old trestles in the southwest parts warehouse and seeks bearing grease, low-speed power, and vibration cushioning material."
+        },
+        {
+          "ko": "생애·정비: 회전각이 해마다 줄고, 그리스를 받으면 짧은 시간 정확해지지만 새 팔로 증식하지는 못한다.",
+          "en": "Life·Maintenance: Rotation angle decreases every year; when it receives grease it becomes accurate for a short time but does not proliferate into new arms."
+        },
+        {
+          "ko": "행동·위계: 슈트 마스터의 지시를 늦게 받아 한 박자 뒤 상자를 밀며 젊은 암들이 주변을 비켜 간다.",
+          "en": "Behavior·Hierarchy: It receives suit-master instructions late and pushes boxes one beat behind while younger arms step aside around it."
+        },
+        {
+          "ko": "상승: 1단계에는 상자를 떨어뜨리고, 2단계에는 난간을 휘게 하며, 3단계에는 떨림으로 잔교 전체를 위험하게 만든다.",
+          "en": "Escalation: At stage 1 it drops boxes; at stage 2 it bends railings; at stage 3 its tremor makes the entire trestle dangerous."
+        },
+        {
+          "ko": "교전·대응: 저속 모드와 진동 패드를 제공하면 순응하며, 관절을 억지로 고정하면 잔교에 반동이 전해진다.",
+          "en": "Combat·Counter: Supplying low-speed mode and vibration pads makes it compliant; forcibly fixing joints transmits recoil to the trestle."
+        },
+        {
+          "ko": "교섭·도덕 선택: 그리스를 주고 경고 종으로 쓸 수 있지만 생산성이 낮은 낡은 개체를 보존할 이유를 시민에게 설명해야 한다.",
+          "en": "Negotiation·Moral Choice: Giving grease allows it to be used as a warning bell, but citizens must be explained why to preserve a low-productivity aged entity."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1, G13-SC2.",
+          "en": "Scenario Connection: G13-SC1, G13-SC2."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E14-title-heading-1",
+      "publicAnchors": [
+        "g13e14",
+        "Hostile-Group-G13-heading-0063"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E14 · 손표읽는완충차",
+        "en": "G13E14 · Hand-Tag Reading Buffer Cart"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E14-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M021",
+          "en": "Source batch: M021"
+        },
+        {
+          "ko": "기존 역할군: 공존형",
+          "en": "Former role class: coexistence type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E14-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "손표 완충",
+            "en": "Hand-sign buffering"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "부드러운 고무 범퍼와 손글씨 판독용 넓은 카메라를 단 느린 운반차다. 기계 우선순위보다 인간 당직의 손표를 먼저 따르고, 최소 충전량 15퍼센트와 깨끗한 렌즈천, 읽을 수 있는 손표가 없으면 위험한 게이트 앞에서 몸으로 길을 막는다.",
+            "en": "A slow cart with soft rubber bumpers and a wide camera for reading handwriting. It followed the human duty's hand signs over machine priority, and without a minimum fifteen-percent charge, a clean lens cloth, or a readable hand sign it blocked the road with its body before hazardous gates."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M021-entries-6-prose-03574",
+      "items": [
+        {
+          "ko": "역할·신체: 공존형으로, 부드러운 고무 범퍼와 손글씨 판독용 넓은 카메라를 단 느린 완충 운반차다.",
+          "en": "Role·Body: A coexistence type, a slow buffer transport cart equipped with soft rubber bumpers and a wide camera for handwritten-tag reading."
+        },
+        {
+          "ko": "기원: 광학 오탐을 줄이려 인간 확인 대기열에 배치된 카트가 손표와 음성 확인 절차만 보존했다.",
+          "en": "Origin: A cart placed in the human-verification queue to reduce optical false positives preserved only the handwritten-tag and voice-confirmation procedure."
+        },
+        {
+          "ko": "서식·필요: 인간 작업대와 슈트 사이를 오가며 최소 충전량 15퍼센트, 깨끗한 렌즈천, 읽을 수 있는 손표가 필요하다.",
+          "en": "Habitat·Needs: It travels between human worktables and suits and requires at least 15 percent charge, clean lens cloth, and readable handwritten tags."
+        },
+        {
+          "ko": "생애·정비: 매 교대 로그를 지우고 새 손표부터 배우며, 범퍼가 찢어지면 자발적으로 대기 구역에 선다.",
+          "en": "Life·Maintenance: It erases each shift's log and learns from new tags; when bumpers tear it voluntarily lines up in the waiting zone."
+        },
+        {
+          "ko": "행동·위계: 기계 우선순위보다 인간 당직의 손표를 먼저 따르고 위험한 게이트 앞에서 몸으로 길을 막는다.",
+          "en": "Behavior·Hierarchy: It follows human-duty handwritten tags before machine priority and blocks paths with its body in front of dangerous gates."
+        },
+        {
+          "ko": "상승: 1단계에는 서로 모순되는 손글씨 라벨 두 장이 한 약품 묶음을 두 슈트로 갈라 일반 약품을 늦추고, 2단계에는 긴급 화물을 잘못된 슈트로 보내며, 3단계에는 거듭된 재분류가 카트를 슈트 사이로 왕복시켜 라벨 롤과 압축 공기를 소진하고 카트를 그 사이에 물리적으로 가둔다.",
+          "en": "Escalation: At stage 1 two mutually contradictory handwritten labels on one medicine bundle split it into two suits and delay ordinary medicine; at stage 2 it sends emergency cargo to the wrong suit; at stage 3 repeated reclassification makes the cart shuttle between suits, exhausting label rolls and compressed air and physically trapping the cart between them."
+        },
+        {
+          "ko": "교전·대응: 인간 확인 창구에서 중복 라벨을 취소하고 묶음마다 서명된 라벨 한 장만 붙인 뒤, 분류 슈트 공압 우회로의 공기를 빼면 범퍼가 풀린다.",
+          "en": "Combat·Counter: At the human-verification window cancel duplicate labels, attach only one signed label per bundle, then bleed the pneumatic bypass of the classification suit to release the bumper."
+        },
+        {
+          "ko": "교섭·도덕 선택: 라벨 발급자를 여럿 두면 각 구역의 요구가 반영되지만 충돌과 소모품이 늘고, 한 발급자에게 맡기면 분류는 빨라지나 배분 권한이 집중된다.",
+          "en": "Negotiation·Moral Choice: Placing multiple label issuers reflects each zone's demands but increases collisions and consumables; assigning one issuer speeds classification but concentrates distribution authority."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1, G13-SC2, G13-SC3.",
+          "en": "Scenario Connection: G13-SC1, G13-SC2, G13-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E15-title-heading-1",
+      "publicAnchors": [
+        "g13e15",
+        "Hostile-Group-G13-heading-0067"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E15 · 자정열두갈래",
+        "en": "G13E15 · Midnight Twelve-Branch"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M021",
+          "en": "Source batch: M021"
+        },
+        {
+          "ko": "기존 역할군: 시나리오 보스",
+          "en": "Former role class: scenario boss"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC2\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC2\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "큐 통제",
+            "en": "Queue control"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "열두 슈트의 공압과 스캐너를 한 원형 제어대에 묶은 거대한 큐 컨트롤러다. 시나리오 보스지만 직접 추격하지 않고 회랑 자체를 무기로 쓰며, 열두 개 표 해시 중 과반이 바뀌면 협상 가능 단계로 내려온다. 중앙 폭파는 약품과 구조 통로를 함께 잃게 한다.",
+            "en": "A giant queue controller binding twelve chutes' pneumatics and scanners to one circular console. A scenario boss that never pursued directly but used the corridor itself as a weapon; when over half of the twelve sheet hashes changed it stepped down to the negotiable stage. Bombing the center lost the pharmaceuticals and the rescue passages together."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M021-entries-7-prose-03575",
+      "items": [
+        {
+          "ko": "역할·신체: 시나리오 보스로, 열두 슈트의 공압과 스캐너를 한 원형 제어대에 묶은 거대한 큐 컨트롤러다.",
+          "en": "Role and Body: A scenario boss, a huge queue controller that binds the pneumatics and scanners of twelve chutes into one circular control table."
+        },
+        {
+          "ko": "기원: 붕괴 당일 자정 긴급 의약품 배치를 처리하던 우선순위 표가 종료 신호 없이 고착되었다.",
+          "en": "Origin: On collapse day at midnight, the priority table handling an emergency medicine placement froze without an end signal."
+        },
+        {
+          "ko": "서식·필요: 제기동 분류동 중앙 회전대에 고정되며 대형 축전, 냉각수, 열두 개 표 해시가 모두 있어야 움직인다.",
+          "en": "Habitat and Needs: It stays fixed at the central rotary table of the Jegi-dong sorting hall, moving only when a large accumulator, cooling water, and all twelve slip hashes are present."
+        },
+        {
+          "ko": "생애·정비: 한 슈트가 끊길 때마다 나머지에 부하를 넘기고, 열두 해시 중 과반이 바뀌면 협상가능 단계로 내려온다.",
+          "en": "Life and Maintenance: Each time one chute goes down it hands its load to the rest, and when a majority of the twelve hashes change it drops to a negotiable stage."
+        },
+        {
+          "ko": "행동·위계: G13 모든 마스터와 게이트에 우선순위를 배포하지만 직접 추격하지 않고 회랑 자체를 무기로 쓴다.",
+          "en": "Behavior and Hierarchy: It distributes priority to every G13 master and gate but never chases directly, using the corridors themselves as its weapon."
+        },
+        {
+          "ko": "상승: 1단계에는 빈 상자 폭주, 2단계에는 의약품 오분류, 3단계에는 열두 게이트 동시 봉쇄를 실행한다.",
+          "en": "Escalation: Stage 1 runs empty-box frenzies, stage 2 mis-sorts medicine, and stage 3 seals all twelve gates at once."
+        },
+        {
+          "ko": "교전·대응: 축전을 구획별로 끊고 표 해시를 새로 서명해야 하며, 중앙 폭파는 약품과 구조 통로를 함께 잃게 한다.",
+          "en": "Engagement and Response: The accumulators must be cut sector by sector and the slip hashes re-signed, and blowing the center costs both the medicine and the rescue passage."
+        },
+        {
+          "ko": "교섭·도덕 선택: 응급 슬롯과 군집 정비 슬롯을 교환할 수 있지만 누구의 약품을 우선 분류할지 공개 합의가 필요하다.",
+          "en": "Negotiation and Moral Choice: Emergency slots and cluster maintenance slots can be exchanged, but a public agreement is needed on whose medicine gets sorted first."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC2, G13-SC3.",
+          "en": "Scenario Links: G13-SC2, G13-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13E16-title-heading-1",
+      "publicAnchors": [
+        "g13e16",
+        "Hostile-Group-G13-heading-0071"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13E16 · 구로먼지분류차",
+        "en": "G13E16 · Guro Dust-Sorting Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G13-generated-G13E16-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M021",
+          "en": "Source batch: M021"
+        },
+        {
+          "ko": "기존 역할군: 지역 변종",
+          "en": "Former role class: regional variant"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G13-SC1\",\"G13-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G13-SC1\",\"G13-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G13-generated-G13E16-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "분진 분류",
+            "en": "Dust sorting"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "제기동 저온 장비 대신 서남 부품 창의 방진 덮개와 넓은 자석 바퀴를 다는 지역 변종이다. 원 컨트롤러와 단절된 채 마지막 표를 반복하고 지역 정비 종소리에만 잠깐 멈추며, 필터가 막히면 제기동 회랑으로 돌아가지 않고 바닥에 먼지 둥지를 만든다.",
+            "en": "A local variant mounting dust covers and wide magnetic wheels of the southwestern parts warehouse in place of Gasan's low-temperature equipment. Cut off from the original controller, it repeated the last sheet and paused only briefly at the local maintenance bell; when its filter clogged it made a dust nest on the floor instead of returning to the Gasan corridor."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M021-entries-8-prose-03576",
+      "items": [
+        {
+          "ko": "역할·신체: 지역 변종으로, 제기동의 저온 장비 대신 서남 부품 창의 방진 덮개와 넓은 자석 바퀴를 단다.",
+          "en": "Role and Body: A local variant; instead of Jegi-dong's low-temperature equipment it wears the southwestern parts warehouse's dust-proof covers and wide magnetic wheels."
+        },
+        {
+          "ko": "기원: G13 일부가 영등포선 고가 잔교로 밀려나 금속 분진과 부품 상자를 기준으로 분류 규칙을 바꿨다.",
+          "en": "Origin: Part of G13 was pushed out onto the Yeongdeungpo Line elevated trestle and changed its sorting rules around metal dust and parts boxes."
+        },
+        {
+          "ko": "서식·필요: 서남 야간 부품 창과 케이블 트레이를 돌며 자석 청소판, 방진 필터, 회생 제동 전력을 먹는다.",
+          "en": "Habitat and Needs: It circles the southwestern night parts warehouse and the cable trays, feeding on magnetic cleaning plates, dust filters, and regenerative-braking power."
+        },
+        {
+          "ko": "생애·정비: 필터가 막히면 제기동 회랑으로 돌아가지 않고 바닥에 먼지 둥지를 만들며 속도를 낮춘다.",
+          "en": "Life and Maintenance: When its filter clogs it does not return to the Jegi-dong corridors; it builds a dust nest on the floor and slows down."
+        },
+        {
+          "ko": "행동·위계: 원 컨트롤러와 단절된 채 마지막 표를 반복하고 지역 정비 종소리에만 잠깐 멈춘다.",
+          "en": "Behavior and Hierarchy: Cut off from the original controller, it repeats its last slip and pauses only briefly at the local maintenance bell."
+        },
+        {
+          "ko": "상승: 1단계에는 부품을 재배열하고, 2단계에는 케이블 통로를 막으며, 3단계에는 고가 잔교를 자석 상자로 봉쇄한다.",
+          "en": "Escalation: Stage 1 rearranges parts, stage 2 blocks the cable passages, and stage 3 seals the elevated trestle with magnetized boxes."
+        },
+        {
+          "ko": "교전·대응: 비자성 상자와 방진 필터로 경로를 바꾸고 회생 레일을 끊으면 안전하게 정차시킬 수 있다.",
+          "en": "Engagement and Response: The route can be changed with non-magnetic boxes and dust filters, and cutting the regeneration rail brings it to a safe stop."
+        },
+        {
+          "ko": "교섭·도덕 선택: 금속 분진 청소를 맡길 수 있지만 회수된 부품의 소유권을 군집과 제작자 사이에서 나눠야 한다.",
+          "en": "Negotiation and Moral Choice: It can be put to cleaning metal dust, but ownership of the recovered parts must be divided between the cluster and its makers."
+        },
+        {
+          "ko": "시나리오 연결: G13-SC1, G13-SC3.",
+          "en": "Scenario Links: G13-SC1, G13-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G13-generated-G13-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G13-heading-0075"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01248",
+      "text": {
+        "ko": "규격맹 구로공단 기숙 잔존 회랑의 야간 분류동은 심야 두 시가 지나면 사람보다 먼저 가동을 시작한다.",
+        "en": "In the dormitory remnant corridor of the Gauge's Guro Industrial Complex, the night sorting building woke before the people did once two in the morning had passed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01249",
+      "text": {
+        "ko": "저온칸 셔터가 절반쯤 올라가고, 네 번째 슈트가 빈 상자를 위험 화물 칸으로 밀어 넣으며 바코드 게이트는 마지막 야간 교대의 우선순위 표를 다시 읽는다.",
+        "en": "The cold-room shutter rose about halfway, the fourth chute pushed an empty box into the hazardous-cargo bay, and the barcode gate reread the priority table of the last night shift."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01250",
+      "text": {
+        "ko": "집게팔은 큐 컨트롤러와 슈트 마스터, 짧은 컨베이어 암과 스캐너, 게이트가 라인별로 묶여 움직이는 기계군이다.",
+        "en": "The Pincer Arm is a machine group whose queue controllers, chute masters, short conveyor arms, scanners and gates operate together by line."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01251",
+      "text": {
+        "ko": "영등포선 구로·가산 야간 라인에서 부품 라벨을 모으고 기숙 회랑 컨베이어에서 롤러와 공압 밸브를 회수한다. 학습된 코드가 없는 공동구 밖으로는 나가지 못한다.",
+        "en": "It gathers parts labels from the Guro–Gasan night lines of the Yeongdeungpo Line and recovers rollers and pneumatic valves from dormitory-corridor conveyors. It cannot leave the utility tunnels where it has learned codes."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01252",
+      "text": {
+        "ko": "이 군집이 보는 것은 사람의 얼굴이 아니다.",
+        "en": "What this cluster saw was not human faces."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01253",
+      "text": {
+        "ko": "번진 QR의 모서리, 열화상에 찍힌 호흡 벨트의 하중 변화, 인버터 잡음과 모터 진동을 겹쳐 재고를 추정한다.",
+        "en": "It estimated stock by layering the corners of smudged QR codes, the load changes of breathing belts caught on thermal images, inverter noise, and motor vibration."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01254",
+      "text": {
+        "ko": "젖은 라벨은 미분류로, 들것의 금속 프레임은 반송 팔레트로 작은 발전기의 열은 살아 있는 몸으로 잘못 읽을 수 있다.",
+        "en": "It could misread a wet label as unsorted, the metal frame of a stretcher as a return pallet, and the heat of a small generator as a living body."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01255",
+      "text": {
+        "ko": "스캐너는 세 번 재판독한 뒤에도 값이 다르면 H13 한빛나의 광학 로그를 요청하지만, 한빛나도 게이트를 직접 열 권한은 없다.",
+        "en": "When the value still differed after three rereads, a scanner requested the optical log of H13 Hanbitna, but Hanbitna too had no authority to open the gates directly."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01256",
+      "text": {
+        "ko": "HC13 야간 당직이 봉인 테이프 색과 캐비닛 키 기록을 맞춰야 라인이 다시 움직인다.",
+        "en": "The line moved again only when the HC13 night watch matched the color of the sealing tape to the cabinet key record."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01257",
+      "text": {
+        "ko": "컨트롤러가 멎어도 각 라인은 마지막 표만 반복하며 다른 라인과 새 전략을 맞추지 못한다.",
+        "en": "Even when the controller stopped, each line only repeated its last table and could not agree on a new strategy with the other lines."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01258",
+      "text": {
+        "ko": "에너지는 분류동 비상 축전지, 컨베이어 회생 제동, 폐기된 무선 충전 패드에서만 얻는다.",
+        "en": "They drew energy only from the sorting building's emergency batteries, conveyor regenerative braking, and discarded wireless charging pads."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01259",
+      "text": {
+        "ko": "군집은 축전 캐비닛의 육십 퍼센트를 넘겨 쓰지 않으며, 하한에 닿으면 슈트를 닫고 스캐너만 저속으로 남긴다.",
+        "en": "The cluster never used more than sixty percent of its battery cabinets, and when it reached the lower limit it closed the chutes and left only the scanners running at low speed."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01260",
+      "text": {
+        "ko": "롤러 베어링, 열전사 리본, 렌즈 세척액과 칠러 냉각수가 정비 비용이다.",
+        "en": "Roller bearings, thermal-transfer ribbons, lens cleaning fluid, and chiller coolant were its maintenance costs."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01261",
+      "text": {
+        "ko": "HC13 회수반과 같은 케이블 트레이를 두고 경합하므로, 군집에 부품을 몰아 주면 공동구 조명과 시민 운반대가 먼저 멈춘다.",
+        "en": "Because it competed with the HC13 recovery crews for the same cable trays, steering parts to the cluster meant the utility-tunnel lighting and the civilian haulers stopped first."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01262",
+      "text": {
+        "ko": "새 본체를 만들 수 없고 고장 난 암을 예비 슬롯에 옮기는 방식으로만 수를 유지한다.",
+        "en": "It could not make new bodies and kept its numbers only by moving broken arms into spare slots."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01263",
+      "text": {
+        "ko": "새벽 축전 회복 창을 놓치면 렌즈에 김이 서리고 벨트가 사행한 채 저온칸 앞에서 정체한다.",
+        "en": "When it missed the dawn battery-recovery window, it stalled in front of the cold rooms with fogged lenses and wandering belts."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01264",
+      "text": {
+        "ko": "출현은 잔여 큐와 비상 전원이 맞물릴 때 시작하고, 확산은 옆 라인의 게이트를 같은 표에 편입할 때 일어난다.",
+        "en": "Its emergence began when the leftover queue and the emergency power meshed, and its spread happened when it folded the gates of the neighboring line into the same table."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01265",
+      "text": {
+        "ko": "리본과 공압이 모자라면 정체하며, 사람이 우선순위 표 일부와 축전 창을 공개하면 협상 가능한 상태가 된다.",
+        "en": "When ribbons and compressed air ran short it stalled, and when people disclosed part of the priority table and the battery window, it came down into a negotiable state."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01266",
+      "text": {
+        "ko": "와해는 컨트롤러 분리와 슈트별 봉인으로 끝나지만, 시민이 쓰던 냉장 분류선까지 없애도 승리는 아니다.",
+        "en": "Its breakup ended with the separation of the controllers and the sealing of each chute, but wiping out the refrigerated sorting line the citizens had used as well was no victory."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01267",
+      "text": {
+        "ko": "라벨을 한 장 다시 붙이고, 저온칸 전력을 남겨 두며, 키를 두 당직에게 나눠 맡기는 일이 이 생태의 통제 수단이다.",
+        "en": "Relabeling a single box, leaving power for the cold rooms, and dividing the keys between two watch officers were the means of controlling this ecology."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01268",
+      "publicAnchors": [
+        "Hostile-Group-G13-heading-0096"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13-SC1 · 번진 라벨의 밤",
+        "en": "G13-SC1 · The Night of the Smudged Labels"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01269",
+      "text": {
+        "ko": "비가 스민 공동구에서 응급 혈액 상자가 위험 화물 슈트로 밀려난다.",
+        "en": "In a rain-soaked utility tunnel, a box of emergency blood was pushed into the hazardous-cargo chute."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01270",
+      "text": {
+        "ko": "현장 인원은 컨베이어를 파괴하는 대신 세 개 스캐너의 오염 순서를 추적하고, 한빛나가 만든 임시 인체 제외 코드를 라벨 프린터에 싣는다.",
+        "en": "Instead of destroying the conveyors, the people on site traced the order in which three scanners had been fouled and loaded the temporary human-exclusion code Hanbitna had made into the label printer."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01271",
+      "text": {
+        "ko": "잘못 고른 라인을 멈추면 다른 저온칸의 의약품이 상하므로, 어느 슈트에 냉각을 남길지 결정해야 한다.",
+        "en": "Stopping the wrong line would spoil the medicines in another cold room, so they had to decide which chute to leave cooling."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01272",
+      "publicAnchors": [
+        "Hostile-Group-G13-heading-0100"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13-SC2 · 축전표 교환",
+        "en": "G13-SC2 · The Battery Table Exchange"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01273",
+      "text": {
+        "ko": "HC13 회수반은 공동구 조명을 살리려 축전 캐비닛을 가져가려 하고, 큐 컨트롤러는 롤러 정비 전력을 요구한다.",
+        "en": "The HC13 recovery crew tried to take the battery cabinets to keep the utility-tunnel lighting alive, and the queue controllers demanded power for roller maintenance."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01274",
+      "text": {
+        "ko": "현장 인원은 시민 응급 물자 슬롯, 군집의 십오 퍼센트 충전 창, 미분류 재고의 인간 확인 대기열을 한 표에 묶어야 한다.",
+        "en": "The people on site had to bind the civilian emergency supply slots, the cluster's fifteen percent charging window, and the human verification queue for unsorted stock into one table."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01275",
+      "text": {
+        "ko": "거래를 서두르면 키가 한 사람에게 몰리고, 너무 늦으면 벨트가 멎어 약품이 상한다.",
+        "en": "Rushing the deal concentrated the keys in one person, and waiting too long stopped the belts and spoiled the medicines."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01276",
+      "publicAnchors": [
+        "Hostile-Group-G13-heading-0104"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G13-SC3 · 네 번째 슈트 봉인",
+        "en": "G13-SC3 · Sealing the Fourth Chute"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01277",
+      "text": {
+        "ko": "게이트가 일괄 잠기기 직전, 사람 둘이 미분류 재고로 잡힌다.",
+        "en": "Just before the gates locked all at once, two people were caught as unsorted stock."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01278",
+      "text": {
+        "ko": "빈 상자 더미로 진동 센서를 유인하고 공압 바이패스로 네 번째 슈트만 열 수 있지만, 봉인 테이프를 붙인 라인은 다음 교대까지 시민 수송에도 쓰지 못한다.",
+        "en": "Luring the vibration sensors with a pile of empty boxes and using a pneumatic bypass could open only the fourth chute, but a line with sealing tape on it could not be used even for civilian transport until the next shift."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01279",
+      "text": {
+        "ko": "전멸 명령은 즉시 통로를 열어 주는 것처럼 보이나 제기동 저온 분류와 서남 부품 흐름을 함께 멈춘다.",
+        "en": "An extermination order looked as if it would open the passage at once, but it killed the cold sorting of Jegi-dong and the flow of parts to the southwest along with it."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-13-dossier_prose-01280",
+      "text": {
+        "ko": "공존은 느린 인간 확인과 분산된 키를 계속 감당하는 선택이다.",
+        "en": "Coexistence was the choice to keep bearing slow human verification and dispersed keys."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The Pincer Arm was a machine ecology of queue controller, chute masters, short conveyor arms, scanners, and gates bundled line by line in the Guro industrial-dormitory corridor. Past two in the morning the cold-chamber shutter half-rose and the barcode gate reread the last night shift's priority sheet. It could not leave the conduit outside its learned codes.",
+        "ko": "집게팔은 구로공단 기숙 회랑의 큐 컨트롤러, 슈트 마스터, 짧은 컨베이어 암, 스캐너와 게이트가 라인별로 묶인 기계 생태다. 심야 두 시가 지나면 저온칸 셔터가 반쯤 올라가고 바코드 게이트가 마지막 야간 교대의 우선순위 표를 다시 읽는다. 학습된 코드가 없는 공동구 밖으로는 나가지 못한다."
+      },
+      "variants": [
+        {
+          "id": "G13E01",
+          "source_batch": "M020"
+        },
+        {
+          "id": "G13E02",
+          "source_batch": "M020"
+        },
+        {
+          "id": "G13E03",
+          "source_batch": "M020"
+        },
+        {
+          "id": "G13E04",
+          "source_batch": "M020"
+        },
+        {
+          "id": "G13E05",
+          "source_batch": "M020"
+        },
+        {
+          "id": "G13E06",
+          "source_batch": "M020"
+        },
+        {
+          "id": "G13E07",
+          "source_batch": "M020"
+        },
+        {
+          "id": "G13E08",
+          "source_batch": "M020"
+        },
+        {
+          "id": "G13E09",
+          "source_batch": "M021"
+        },
+        {
+          "id": "G13E10",
+          "source_batch": "M021"
+        },
+        {
+          "id": "G13E11",
+          "source_batch": "M021"
+        },
+        {
+          "id": "G13E12",
+          "source_batch": "M021"
+        },
+        {
+          "id": "G13E13",
+          "source_batch": "M021"
+        },
+        {
+          "id": "G13E14",
+          "source_batch": "M021"
+        },
+        {
+          "id": "G13E15",
+          "source_batch": "M021"
+        },
+        {
+          "id": "G13E16",
+          "source_batch": "M021"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

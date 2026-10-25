@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "status": "partial-owner-decision-evidence",
+  "role": "owner",
+  "actor": "owner",
+  "rawResponse": "[Answer to question call_f7c35c8192b44784848837c6]\n조사편 운역 규칙: 개인 명부·통째 운반 (Recommended)",
+  "sourceResponse": {
+    "path": ".omo/ulw-execute/gp-q2-operation-rules-selection.json",
+    "sha256": "7b9d363516674b092bbca3a79758652fabb2c39c24e0c098360ed8496b1581f7",
+    "questionId": "investigation_operation_rules"
+  },
+  "question": {
+    "path": ".omo/evidence/seoul-dengoku-jrpg/task-26/decision-ready/questions.json",
+    "sha256": "522863da23b169d5fcbf11adecc03ebce298952606673d72dd44516632de7da8",
+    "id": "Q2",
+    "option": "A",
+    "candidateId": "lord-s01-bounded-r1"
+  },
+  "proposalInputSha256": "aead414fca65272e138b70841f38f61c3ceb4d990ddc6a301c15ef1efacbbbfd",
+  "binding": {
+    "revision": "lord-scenario-gp-v2",
+    "scenarioSha256": "08536eebbadd1a2bd6cb2c0d55b18c56096edbb4ae0a4c892f7a89094d08f02f",
+    "deckSha256": "bb700a96f6459b2b1cfcdb2f967191dba6a22c0b7db889405737c76a4e882ec3"
+  },
+  "scope": "S01",
+  "decisions": {
+    "travelCostPolicy": "authored-edge-cost",
+    "laborDetailPolicy": "named-roster",
+    "constructionScopePolicy": "repair-first",
+    "cargoSplitPolicy": "whole-consignment"
+  },
+  "preservedReceipts": [
+    "gp.owner-time-remote.receipt.json",
+    "gp.owner-canonical-location.receipt.json"
+  ],
+  "unapprovedRuleFields": [
+    "titleActivationPolicy",
+    "overCapacityPolicy",
+    "successionDataPolicy",
+    "educationScopePolicy",
+    "battleResolutionPolicy",
+    "reinforcementScopePolicy",
+    "peaceScopePolicy"
+  ],
+  "otherUnapproved": [
+    "travel-time-coefficients",
+    "wages-rations",
+    "repair-materials-durations",
+    "economy-settlement-cadence",
+    "numeric-formulas",
+    "actual-runtime-rights",
+    "actual-availability",
+    "exact-opening-scene-spawn",
+    "Q3",
+    "full-GP-acceptance",
+    "full-task26-completion"
+  ],
+  "boundary": "Q2 A policy choices only within bounded S01 investigation. Only authored distance/mode/state-cost routes permit actual travel; coefficients remain unapproved. K568 and K616 retain individual reservations. Repair requires complete inputs and is not performed in this investigation slice. L01 travels as one whole consignment without splitting or duplication. Prior Q1 B and time/remote choices remain in force. Not an approved parameter pack or runtime authority grant."
+}

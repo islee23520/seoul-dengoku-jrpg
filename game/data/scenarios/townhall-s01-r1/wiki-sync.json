@@ -1,0 +1,15 @@
+{
+  "schema": "townhall-wiki-sync.v1",
+  "scenarioId": "townhall-s01-r1",
+  "status": "DEFERRED_INCOMPLETE",
+  "databasePath": "seoul-dengoku-wiki:data/canonical/wiki-cast.sqlite",
+  "databasePathNote": "External deferred-sync identifier, not a filesystem path; no database write is authorized.",
+  "observedSha256": "33fc48dbcf335b05bf64391279faa48dbdeabbb03932e97f07886b683bba7859",
+  "hashObservation": "prior-evidence-not-requeried",
+  "supportedWritePath": null,
+  "reason": "NO_SUPPORTED_SCENARIO_AUTHORING_PATH_ON_INVESTIGATED_MAIN",
+  "investigationRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/wiki-application/schema-path-investigation.md",
+  "ownerSelectionRef": ".omo/ulw-execute/game-first-scenario-path.json",
+  "databaseWritten": false,
+  "publicationAllowed": false
+}

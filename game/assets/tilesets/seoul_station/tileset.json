@@ -1,0 +1,210 @@
+{
+  "id": "seoul_station",
+  "name": "Seoul station / CC0",
+  "kind": "custom",
+  "image": {
+    "type": "uploaded",
+    "id": "seoul_station-atlas"
+  },
+  "tileSize": 16,
+  "tilesPerRow": 8,
+  "count": 24,
+  "passability": [
+    {
+      "up": true,
+      "down": true,
+      "left": true,
+      "right": true
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": true,
+      "down": true,
+      "left": true,
+      "right": true
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": true,
+      "down": true,
+      "left": true,
+      "right": true
+    },
+    {
+      "up": true,
+      "down": true,
+      "left": true,
+      "right": true
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": false,
+      "down": false,
+      "left": false,
+      "right": false
+    },
+    {
+      "up": true,
+      "down": true,
+      "left": true,
+      "right": true
+    },
+    {
+      "up": true,
+      "down": true,
+      "left": true,
+      "right": true
+    }
+  ],
+  "priority": [
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower",
+    "lower"
+  ],
+  "terrain": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    3,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "version": 1,
+  "domain": "culture",
+  "id": "DOC:Oral-Stories",
+  "slug": "oral-stories",
+  "status": "approved",
+  "categories": [
+    "culture"
+  ],
+  "tense": {
+    "ko": "past",
+    "en": "past"
+  },
+  "source": {
+    "kind": "original-fiction",
+    "refs": [
+      "lore/culture/Oral-Stories.md",
+      "lore/culture/Oral-Stories.en.md"
+    ]
+  },
+  "provenance": {
+    "original_anchor": "lore/culture/Oral-Stories.md",
+    "original_hash": "e2ebeecb9b56623b31ff945e96484f76b38150345e03acb72e4e8fc4bf42bae4",
+    "history": [
+      "Korean lore/culture/Oral-Stories.md SHA-256 c799613957360f95d88865381e602fdff12a7930d5323392137cd8cb2eba7e99.",
+      "English lore/culture/Oral-Stories.en.md SHA-256 af2c4abbfb07640e9ebdb32bd4dbbe9e520a3ace104e3b889a00fa767504a3fe; copied verbatim, no translation written."
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "The Stories",
+      "summary": "After the blackout of October 14, 2030, the Yeongdeungpo waterworks log and Yeouido vault inventory each recorded the November 6, 2030 handover of two emergency-generator parts. The daily 06:00–12:00 valve duty toward Yeouido was a separate 2026 record.",
+      "tense": "past"
+    },
+    "ko": {
+      "title": "이야기",
+      "summary": "2030년 10월 14일 대정전 뒤 영등포 정수센터의 운전일지와 여의도 금고층 목록에는 2030년 11월 6일 비상발전기 부품 2개의 인계가 각각 기록되었다. 여의도 방향의 매일 06:00~12:00 밸브 당직은 별도의 2026년 기록이다.",
+      "tense": "past"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "대정전과-급수-기록",
+      "depth": 1,
+      "text": {
+        "ko": "이야기",
+        "en": "The Stories"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "이야기-p1-label",
+      "text": {
+        "ko": [
+          {
+            "text": "가. 정수센터 운전일지",
+            "strong": true
+          }
+        ],
+        "en": "A. The waterworks operations log"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "이야기-p1",
+      "text": {
+        "ko": "2030년 10월 14일 21:47경 영등포아리수정수센터의 원격 제어가 끊겼다. 당직자들은 밸브를 수동으로 조작하였다. 야간 당직 책임자 한정훈은 종이 운전일지 첫 줄에 원격 제어 두절을 기재하였다.",
+        "en": "At about 21:47 on October 14, 2030, remote control failed at the Yeongdeungpo waterworks. Duty officer Han Jeonghun operated the valves manually and entered the failure in the first line of a paper operations log."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "2026년-10월-14일-대정전",
+      "depth": 2,
+      "text": {
+        "ko": "2030년 10월 14일 대정전",
+        "en": "The Blackout of October 14, 2030"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "대정전의-밤-p1-label",
+      "text": {
+        "ko": [
+          {
+            "text": "가. 상황실 보고",
+            "strong": true
+          }
+        ],
+        "en": "A. Crisis room report"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "대정전의-밤-p1",
+      "text": {
+        "ko": "2030년 10월 14일 21:47경 청와대 국가위기관리센터의 전국 시군구 표시가 차례로 꺼졌다. 야간 당직관 윤태식은 국가안보실장과 합동참모본부 등에 보고를 시도했으나 회선이 연결되지 않았다.",
+        "en": "At about 21:47 on October 14, 2030, district indicators went dark in sequence at the Blue House crisis center. Night officer Yun Taesik tried to report to the National Security Office and Joint Chiefs, but the lines did not connect."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "대정전의-밤-p2-label",
+      "text": {
+        "ko": [
+          {
+            "text": "나. 긴급명령",
+            "strong": true
+          }
+        ],
+        "en": "B. Emergency order"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "대정전의-밤-p2",
+      "text": {
+        "ko": "2030년 10월 15일 대통령은 헌법 제76조에 따른 긴급명령을 작성하고 서명하였다. 국무총리가 부서하였다. 통신 두절 기간에는 지정 시설별 비상대비업무담당자가 현장 권한을 행사하도록 하였다.",
+        "en": "On October 15, 2030, the president wrote and signed an emergency order under Article 76 of the constitution. The prime minister countersigned it. Designated facility emergency officers received on-site authority during the communications outage."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "2026년-물과-부품-거래",
+      "publicAnchors": [
+        "the-2026-water-and-parts-exchange"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "2030년 부품 인계와 2026년 급수 당직",
+        "en": "The 2030 Parts Handover and 2026 Water Duty"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "첫-급수협약-p1-label",
+      "text": {
+        "ko": [
+          {
+            "text": "가. 11월 6일 부품 인계",
+            "strong": true
+          }
+        ],
+        "en": "A. November 6 parts handover"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "첫-급수협약-p1",
+      "text": {
+        "ko": "2026년에는 여의도 방향 송수관 밸브를 매일 06:00부터 12:00까지 여는 당직이 기록되었다. 2030년 10월 14일 영등포아리수정수센터의 원격 제어가 끊겼다. 그해 11월 6일 여의도 금고층 대표 2명이 정수센터를 찾아가 비상발전기 부품 2개를 건넸고 한정훈이 받았다.",
+        "en": "The daily 06:00–12:00 duty to open the water-pipe valve toward Yeouido was recorded in 2026. Remote control failed at Yeongdeungpo waterworks on October 14, 2030. On November 6 of that year, two Yeouido vault representatives brought two emergency-generator parts to the waterworks, and Han Jeonghun received them."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "첫-급수협약-p2-label",
+      "text": {
+        "ko": [
+          {
+            "text": "나. 두 장부",
+            "strong": true
+          }
+        ],
+        "en": "B. Two ledgers"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "첫-급수협약-p2",
+      "text": {
+        "ko": "한정훈은 2030년 11월 6일 비상발전기 부품 2개의 인계를 정수센터 운전일지에 적었다. 여의도 금고층도 같은 날짜의 부품 인계를 자체 목록에 기재하였다.",
+        "en": "Han Jeonghun entered the November 6, 2030 handover of two emergency-generator parts in the waterworks operations log. The Yeouido vault entered the parts handover under the same date in its inventory."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "2053년-영등포-급수-협약",
+      "publicAnchors": [
+        "the-2053-yeongdeungpo-water-agreement"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "2053년 영등포 급수 협약",
+        "en": "The 2053 Yeongdeungpo Water Agreement"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "둘째-급수협약-p1-label",
+      "text": {
+        "ko": [
+          {
+            "text": "가. 3월 14일 서명",
+            "strong": true
+          }
+        ],
+        "en": "A. March 14 signatures"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "둘째-급수협약-p1",
+      "text": {
+        "ko": "2053년 3월 14일 영등포 정수센터 책임자 한석진과 물을 받는 가문 대표 6명이 여의도 금고층에서 여의도 가문 대표 7명을 만났다. 양측 대표 14명이 협약서에 서명하였다. 협약에 따라 여의도 일대와 영등포역 주변 급수 설비 11곳의 관리권이 여의도 가문들에 넘어갔다.",
+        "en": "On March 14, 2053, waterworks head Han Seokjin and six water-receiving family representatives met seven Yeouido family representatives. Fourteen representatives signed an agreement transferring management of eleven water facilities near Yeouido and Yeongdeungpo Station to the Yeouido families."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "둘째-급수협약-p2-label",
+      "text": {
+        "ko": [
+          {
+            "text": "나. 양평역 이전",
+            "strong": true
+          }
+        ],
+        "en": "B. Move to Yangpyeong Station"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "둘째-급수협약-p2",
+      "text": {
+        "ko": "2053년 3월 20일부터 영등포 정수센터 측은 거점을 양평역 지하로 옮겼다. 한정훈의 41권을 포함한 정수센터 운전일지 45권도 양평역 지하 서고로 옮겼다. 정수센터 설비는 계속 운전되었다.",
+        "en": "From March 20, 2053, the Yeongdeungpo waterworks staff moved their base to Yangpyeong Station underground. Forty-five volumes of the waterworks operations log, including Han Jeonghun’s forty-one volumes, moved to the underground stacks there. The waterworks continued operating."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "2120년-이후의-명부와-계약",
+      "depth": 2,
+      "text": {
+        "ko": "명부와 계약",
+        "en": "Registers and Contracts"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "같은-창세의-다른-제목-p1-label",
+      "text": {
+        "ko": [
+          {
+            "text": "가. 물길 계약",
+            "strong": true
+          }
+        ],
+        "en": "A. Waterway contract"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "같은-창세의-다른-제목-p1",
+      "text": {
+        "ko": "2097년 6월 수문국은 양평역의 물길 관리 인원과 계약을 체결하였다. 이들은 수문국의 물길 관리를 맡는 대가로 양평역 배급 명부에 등재되었다.",
+        "en": "In June 2097, the Sluice contracted with waterway workers at Yangpyeong Station. The workers were entered in the Yangpyeong Station ration register in return for managing the waterways."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "같은-창세의-다른-제목-p2-label",
+      "text": {
+        "ko": [
+          {
+            "text": "나. 복구복무자 등록",
+            "strong": true
+          }
+        ],
+        "en": "B. Reconstruction worker register"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "같은-창세의-다른-제목-p2",
+      "text": {
+        "ko": "2120년 겨울 동방사는 펌프 부품 공급의 대가로 규격맹에 복구복무자 등록을 요구하였다. 강민서는 등록을 거부한 기술자를 규격맹 시민권 명부에 올렸다.",
+        "en": "In winter 2120, Dongbangsa demanded registration of reconstruction workers from Gyugyeokmaeng in exchange for pump parts. Gang Minseo placed workers who refused in the civic register."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "같은-창세의-다른-제목-p3-label",
+      "text": {
+        "ko": [
+          {
+            "text": "다. 피난민 명부",
+            "strong": true
+          }
+        ],
+        "en": "C. Refugee register"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "같은-창세의-다른-제목-p3",
+      "text": {
+        "ko": "2123년 북한산 보국문 방면 피난 행렬이 안국으로 내려왔다.",
+        "en": "In 2123, a refugee procession from Bukhansan Bogukmun descended toward Anguk."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "같은-창세의-다른-제목-p4-label",
+      "text": {
+        "ko": [
+          {
+            "text": "라. 세 계약서",
+            "strong": true
+          }
+        ],
+        "en": "D. Three contracts"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "같은-창세의-다른-제목-p4",
+      "text": {
+        "ko": "2123년 수문국, 규격맹, 환적국이 같은 주에 약국들에 서로 다른 급수·부품·통행 계약을 보냈다. 정유라는 세 계약서의 종료조건만 한 문서로 옮겼다.",
+        "en": "In 2123, Sumunguk, Gyugyeokmaeng, and Hwanjeokguk sent separate water, parts, and transit contracts to the minor states in the same week. Jeong Yura copied their end conditions into one document."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "같은-창세의-다른-제목-p5-label",
+      "text": {
+        "ko": [
+          {
+            "text": "마. 강약 장부",
+            "strong": true
+          }
+        ],
+        "en": "E. State ledger"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "같은-창세의-다른-제목-p5",
+      "text": {
+        "ko": "2125년 11월 기록청은 세 국가 안에 존속한 십육국의 전신국·봉신별 강약 장부를 작성하였다.",
+        "en": "In November 2125, the records office compiled a power ranking of predecessor states and vassals within the three states."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "출처",
+      "depth": 2,
+      "text": {
+        "ko": "출처",
+        "en": "Sources"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "출처-list1",
+      "items": [
+        {
+          "ko": [
+            {
+              "text": "서울전국 연표 2030–2126",
+              "link": {
+                "domain": "chronology",
+                "slug": "Century-Annals"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Seoul Subway States Timeline 2030–2126",
+              "link": {
+                "domain": "chronology",
+                "slug": "Century-Annals"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "식문화",
+              "link": {
+                "domain": "culture",
+                "slug": "Food-Culture"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Food Culture",
+              "link": {
+                "domain": "culture",
+                "slug": "Food-Culture"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "서울 십육국",
+              "link": {
+                "domain": "factions",
+                "slug": "Sixteen-States"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "The Sixteen States of Seoul",
+              "link": {
+                "domain": "factions",
+                "slug": "Sixteen-States"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "구조물 총람",
+              "link": {
+                "domain": "structures",
+                "slug": "Structures"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "The Structures Compendium",
+              "link": {
+                "domain": "structures",
+                "slug": "Structures"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data": {}
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "status": "pending",
+  "stagedQuestions": {
+    "status": "scoped-selections-receipted",
+    "selections": {
+      "Q1": { "option": "B", "receipt": "gp.owner-canonical-location.receipt.json" },
+      "Q2": { "option": "A", "receipt": "gp.investigation-rules.receipt.json" },
+      "Q3": { "option": "A", "receipt": "gp.followup-boundaries.receipt.json" }
+    },
+    "parameterStatus": "pending-numeric-and-factual-inputs"
+  },
+  "rulesVersion": "SP-1.0.0",
+  "binding": {
+    "revision": "lord-scenario-gp-v2",
+    "scenarioSha256": "08536eebbadd1a2bd6cb2c0d55b18c56096edbb4ae0a4c892f7a89094d08f02f",
+    "deckSha256": "bb700a96f6459b2b1cfcdb2f967191dba6a22c0b7db889405737c76a4e882ec3"
+  },
+  "supersedes": {
+    "proposalSha256": "9f9f3d3198c6b625867fe97052eeabbdde9a970081f762c08183078c6062c779",
+    "decisionArtifacts": [
+      "task-29/30 GP deck"
+    ],
+    "scope": "Decision basis only; readability and explanatory-publication review are not rule/playable approval."
+  },
+  "alreadyDirected": [
+    "lord POV by default; unaffiliated adventurer is an explicit exception",
+    "growth through recruiting, retaining and effective delegation; not solo statistics"
+  ],
+  "groups": [
+    {
+      "id": "D1",
+      "field": "firstPlayableSlice",
+      "gp": [
+        "GP-01",
+        "GP-04",
+        "GP-05",
+        "GP-06",
+        "GP-07",
+        "GP-10"
+      ],
+      "choices": [
+        "s01-investigation-only",
+        "explicit-expanded-slice"
+      ],
+      "recommendation": "s01-investigation-only",
+      "reason": "S01/A01: K002의 판단, K568 원장 대조와 K616 현장 보고를 먼저 검증한다. 정확 scene/spawn·조사 접근·실물 원장·현재 가용성은 별도 저작/승인이 필요하다. 다른 채용/의료/동원/계승 fixture는 해당 slice 선택 시에만 필요하다.",
+      "status": "scoped-policy-decided",
+      "scopedSelection": {"value":"s01-investigation-only","receipt":"gp.owner-canonical-location.receipt.json"},
+      "sourceGroup": {
+        "id": "D1",
+        "title": "첫 playable slice",
+        "body": "S01 실제 scene/spawn·최소 조사 접근·실물 원장·현재 가용성을 선택한다. 채용/의료/동원/승계 fixture는 해당 slice를 고를 때만 필요하다."
+      }
+    },
+    {
+      "id": "D2",
+      "field": "timePresentation",
+      "gp": [
+        "GP-02",
+        "GP-03",
+        "GP-06",
+        "GP-11",
+        "GP-12",
+        "GP-14"
+      ],
+      "choices": [
+        "source-compatible-single-clock",
+        "explicit-reviewed-timing-adaptation"
+      ],
+      "recommendation": "source-compatible-single-clock",
+      "reason": "C05/C06 및 S04: 단일 시계·실제 전략 이동·source realtime/no-pause battle·즉시 battle signal을 보존하는 표현부터 검토한다. campaign advance/pause/speed·정산 cadence·off-screen fidelity·renderer 정합의 구체 계약은 아직 없다. event-driven test stepping은 플레이 pause 승인이 아니다.",
+      "status": "partially-decided",
+      "scopedSelection": {"value":"source-compatible-single-clock","receipt":"gp.owner-time-remote.receipt.json"},
+      "sourceGroup": {
+        "id": "D2",
+        "title": "시간과 표현",
+        "body": "campaign advance/pause/speed, 정산 cadence, off-screen fidelity 및 2D 표현과 원문 realtime/no-pause battle 정합을 결정한다. 단일 시계와 전략 실제 이동은 기존 제약이다."
+      }
+    },
+    {
+      "id": "D3",
+      "field": "remotePresentationAction",
+      "gp": [
+        "GP-02",
+        "GP-03",
+        "GP-12",
+        "GP-14"
+      ],
+      "choices": [
+        "received-report-projection",
+        "bounded-imagery-with-knowledge-gate"
+      ],
+      "recommendation": "received-report-projection",
+      "reason": "C07 및 A05/AX4: 수신한 보고·관측 시각·출처 중심 표시를 권고한다. 원격 imagery를 선택해도 현장 인물 지식 또는 정당한 전달 전 camera-only 행동은 거부한다. 현 지식/권한 계약 변경은 이 두 안 밖의 별도 제안이다.",
+      "status": "scoped-policy-decided",
+      "scopedSelection": {"value":"received-report-projection","receipt":"gp.owner-time-remote.receipt.json"},
+      "sourceGroup": {
+        "id": "D3",
+        "title": "원격 표현과 행동",
+        "body": "원격 정착지 imagery 허용 범위를 선택한다. 카메라만으로 실행 가능한 지식/권한이 생기지 않는 현 계약을 바꾸려면 명시 제안이 필요하다."
+      }
+    },
+    {
+      "id": "D4",
+      "field": "organizationTerms",
+      "gp": [
+        "GP-03",
+        "GP-04",
+        "GP-05",
+        "GP-06",
+        "GP-07",
+        "GP-08",
+        "GP-09",
+        "GP-10",
+        "GP-13",
+        "GP-14"
+      ],
+      "choices": [
+        "slice-specific-bounded-contracts",
+        "explicit-expanded-organization-contracts"
+      ],
+      "recommendation": "slice-specific-bounded-contracts",
+      "reason": "C01-C04/C08/C09 및 S06/S07: 선택 slice의 철회 객관효력/통지/safe-custody, 유지·보수·휴식·위임·재위임 한계부터 명시한다. 고용 관계·작위·office·소유·보관·지휘·숙련을 분리한다. 보편 민간 capacity 공식이나 군사 정원 재사용을 선결하지 않는다.",
+      "status": "scoped-policy-decided",
+      "scopedSelection": {"value":"slice-specific-bounded-contracts","receipt":"gp.owner-canonical-location.receipt.json"},
+      "sourceGroup": {
+        "id": "D4",
+        "title": "권한과 조직 조건",
+        "body": "선택 slice의 철회 effective/notice/safe-custody 및 유지·보수·휴식·위임 조건을 선택한다. 보편 민간 capacity 공식이나 군사 정원 재사용은 S06의 선행 조건이 아니다."
+      }
+    }
+  ],
+  "boundary": "Separate scenario decisions, not new GP semantic IDs or numerical parameters. Recommendations are not selected values. Selecting a group option still requires explicit authored details in the real response/reference; no silent default or numerical closure."
+}

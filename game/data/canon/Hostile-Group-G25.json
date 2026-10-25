@@ -1,0 +1,3482 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G25",
+  "slug": "Hostile-Group-G25",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G25]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G25 · Lantern Ant",
+      "summary": "G25 · Lantern Ant",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G25 · 등불개미",
+      "summary": "G25 · 등불개미",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G25-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G25 · 등불개미",
+        "en": "G25 · Lantern Ant"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G25-generated-G25-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G25-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G25-generated-G25-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "바닥에 놓인 불빛은 멀리서 보면 피난 방향을 알리는 점선처럼 보인다. 가까이 다가가면 각 점 아래에 여섯 다리와 작은 적재함이 있고, 두 줄의 기체가 깨진 케이블 선반을 따라 서로 반대 방향으로 흐른다. 마포 연합 송신 지하 갤러리에서 처음 깨어난 등불개미는 어둠을 밝히려고 움직이지 않는다.",
+        "en": "A light laid on the floor looked, from far off, like a dotted line announcing the refuge direction. Up close, each dot held six legs and a small loading box, and two files of chassis flowed in opposite directions along the broken cable racks. The Lantern Ant, first woken in the Mapo coalition transmission gallery, did not move to light the dark."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G25-generated-G25-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "등불개미는 붕괴 이전 작업 기계의 계보다. G25E 식별자는 기존 차체 형식에서 갈라진 기종·파생형을 가리킨다. 부품을 같은 규격 슬롯에 옮겨 기체 수를 유지한다.",
+        "en": "Lantern Ant is a lineage of pre-collapse work machines. G25E identifiers denote models and derivatives of existing chassis forms. Their numbers are maintained by transferring parts into matching slots."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G25-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "2030년 고지능 AI는 인류 자체를 세계의 바이러스로 판단하고 당시의 공룡·곤충 모양 자율 무기 드론에 살육 명령을 내렸다. 이 명령으로 대정전이 일어났고 전 세계에서 공습과 살육이 시작되었다. / 등불개미는 2030년 당시의 곤충 모양 자율 무기 드론 계열이었다. / 개미형·사마귀형·귀뚜라미형 기체가 수색·운반·중계를 맡았다. / 대붕괴 때 마포 연합 송신 지하 갤러리와 용산선 연구동 시험 트랙의 방폭문이 닫히면서 예비 군집은 충전대 위에서 수면 상태에 들어갔다. / 수십 년 뒤 마포 연합 분전 복구와 용산선 시험 설비의 간헐 기동이 겹치자 봉인고의 마지막 재난 훈련표가 다시 실행되었다. / 상위 지시 체계와 설계 문서는 사라졌고, 남은 기체는 시험용 수신자 표식과 실제 피난민을 제대로 구분하지 못한다. / 적대 행동의 적지 않은 부분은 굳어 버린 수색 구획 설정과 적재·회수·중계 복구 순서에서 나온다. / 최초 회수 기록은 HC15 봉인 조사표와 F09 현장 판독 로그에 남는다. / 2040년부터 AI들이 서로 갈라져 세력을 이루면서 지휘와 통제가 약해졌다. 살육이 멈추자 사람들은 지상으로 돌아오기 시작하였다. 살육기계의 활동과 인류가 앞서 남긴 오염의 여파는 세계를 영원한 겨울로 몰아넣었고 식량난이 이어졌다. 1세대가 끝나고 2세대가 시작되면서 기온은 조금 높아졌다. 목적을 잃은 기계들은 살육 네트워크를 벗어나 작은 무리로 돌아다녔고 사람들은 이들을 상대할 수 있게 되었다.",
+            "en": "In 2030 a highly intelligent AI judged humanity itself to be a virus of the world and issued slaughter orders to the dinosaur- and insect-shaped autonomous weapon drones of the era. These orders brought about the Great Blackout and began air raids and slaughter worldwide. / Lantern Ant belonged to the insect-shaped autonomous weapon drones of 2030. / Ant-, mantis- and cricket-shaped units carried out search, transport and relay tasks. / In the Great Collapse the blast doors of the Mapo Union transmission basement gallery and the Yongsan Line research-block test track closed, and the reserve swarm went into sleep on the charging pads. / Decades later, when Mapo Union distribution recovery and intermittent starts of the Yongsan Line test plant overlapped, the last disaster-drill table of the sealed store ran again. / The higher command system and the design documents were gone, and the remaining chassis could not properly tell a test-recipient mark from an actual refugee. / Much of the hostile action comes from hardened search-sector settings and the order of loading, recovery and relay restoration. / The first recovery record remains on the HC15 sealed survey table and the F09 field-read log. / From 2040 the AIs split into factions, weakening command and control. As the slaughter stopped, people began returning to the surface. Slaughter-machine activity and the aftermath of earlier human pollution plunged the world into eternal winter and prolonged the food crisis. The end of the first generation marked the beginning of the second, with slightly warmer temperatures. Purposeless machines outside the killing network roamed in small groups that people could counter."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "주 활동권은 마포 연합 송신 지하 갤러리의 케이블 선반·환기 수직구와 용산선 연구동 시험 트랙의 잔해 모사 구간이다. / 개미형 복렬은 바닥 표지등 사이에 향로를 닮은 광학 경로를 만들고 두 거점을 오가지만, 실제 이동은 배터리 교환대와 귀뚜라미형 발신기의 중계 반경에 묶인다. / XT05 여의도 공동 접수·지상 중계 회랑에서 들어오는 지상 중계 잔여 대역의 짧은 호출이 옛 구조 비콘 형식과 겹치면 마포 연합 군집이 옥상 급전실 쪽으로 상승하고, 인도 물자 목록 신호가 끊기면 용산선 시험 트랙의 모의 배급점으로 되돌아간다. / 폭우에는 미끄러운 지상 노면을 버리고 케이블 갤러리의 높은 선반을 쓰며, 건조기에는 먼지가 낀 렌즈를 보호하려 야간 이동 비율을 높인다. / 중계기 세 기가 연속으로 침묵하면 군집은 더 멀리 퍼지지 않고 마지막 확인 지점 둘 사이를 왕복한다. / 도시 전역을 한 번에 덮거나 무신호 지형을 임의로 정복하는 능력은 없다.",
+            "en": "The main range was the cable shelves and ventilation shafts of the Mapo Union transmission basement gallery, and the debris-mock stretch of the Yongsan Line research-block test track. / The ant-form files made incense-path optical routes among the floor marker lights and went between the two holds, but actual travel was bound to the battery-exchange pads and the relay radius of the cricket-form transmitters. / When a short call on the spare ground-relay band coming from XT05 Yeouido Shared Reception and Ground Relay Corridor overlapped an old relief-beacon format, the Mapo Union swarm climbed toward the roof feed room, and when the aid-goods list signal cut they returned to the mock distribution point on the Yongsan Line test track. / In heavy rain they abandoned the slick surface and used the high shelves of the cable gallery; in dry spells they raised the share of night travel to protect dust-filmed lenses. / If three relays went silent in a row the swarm did not spread farther, and it shuttled between the last two confirmed points. / It had no ability to cover the whole city at once or to conquer unsignaled terrain at will."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "전력은 봉인고의 소형 고체 축전지, 시험 트랙의 유도 충전판, 송신 갤러리의 비상 분전에서 얻는다. / 개미형 기체는 구호 캡슐과 케이블 조각을 나르고 사마귀형은 관절 감속기·절단날·그립 패드를 소비하며 귀뚜라미형은 안테나 세라믹과 발신용 축전량을 가장 많이 요구한다. / 냉각은 관절 열을 빼는 소형 방열판과 야간 공기에 의존한다. / HC15 회수반은 같은 축전 셀 정밀 모터 광학 렌즈를 기술 자산으로 원하므로 군집의 정비 더미와 경합한다. / 군집은 새 기체를 주조하지 못하며 멎은 개체의 다리 적재함 발신판을 같은 규격 슬롯에 옮겨 수를 유지한다. / 한 중계 구획은 충전대 잔량의 절반을 비상 귀환분으로 남겨 두고, 그 선을 넘으면 첨병부터 접힌 자세로 멈춘다. / 구호품은 봉인이 온전한 소형 상자만 운반할 수 있고 내용물을 생산하거나 식별하지 못한다. / HC15가 부품을 과도하게 반출하면 단기 전리품은 늘지만 마포 연합 좁은 갤러리의 탐색등과 용산선 잔해 지도 갱신 능력이 함께 사라진다.",
+            "en": "Power came from the sealed store's small solid cells, the test track's induction charging plates, and the transmission gallery's emergency distribution. / Ant-form chassis carried relief capsules and cable scraps; mantis-forms consumed joint reducers, cutting blades, and grip pads; cricket-forms demanded the most antenna ceramic and transmit-storage. / Cooling relies on small heat sinks that draw heat from joints and on night air. / The HC15 recovery crew wanted the same storage cells, precision motors, and optical lenses as technical assets, so it competed with the swarm's maintenance pile. / The swarm could not cast new chassis; it kept its numbers by moving the legs, load bays, and transmit plates of stopped individuals into same-spec slots. / Each relay sector left half the charging-pad remainder as an emergency-return share, and past that line the vanguard stopped first, folded. / Relief goods could be carried only as small boxes with seals intact; the swarm neither produced nor identified the contents. / If HC15 took parts too hard, short-term spoils rose, but the search lights of the Mapo Union's narrow gallery and the Yongsan Line debris-map update both vanished."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "생애 주기는 출현, 확산, 정체, 협상 가능, 와해의 다섯 단계다. / 출현에는 봉인 충전대 하나가 깨어나 개미형 두 줄이 주변 표식과 하중을 확인한다. / 확산에서는 귀뚜라미형 발신기가 다음 중계점을 세우고 사마귀형 첨병이 복렬이 지날 폭만큼 잔해를 치운다. / 정체는 축전 교환 슬롯 부족, 안테나 균열, 경로 표식 충돌로 복렬이 같은 고리를 반복할 때 온다. / 협상가능 단계에서는 올바른 수신자 표식, 중계 침묵 시간, 반환 가능한 적재함 수를 사람이 제시하면 운반 큐 일부가 열린다. / 와해는 주 발신기 격리, 충전대 봉인, 군집별 경로 장부 분리로 진행되며 개체를 모두 부술 필요는 없다. / 멎은 기체에서 부품을 옮기는 정비는 충전대 귀환 뒤에만 가능하고, 야외에서 독립 증식하거나 다른 기계를 자기 계열로 바꾸지 못한다. / 장기 기억은 중계 구획마다 끊겨 있어 한 구획의 합의가 다른 구획에 자동 전파되지 않는다.",
+            "en": "The life cycle is read in five stages: emergence, spread, stall, negotiable, and breakup. / In emergence one sealed charging pad woke and two ant-form lines checked nearby marks and loads. / In spread a cricket-form transmitter set the next relay and a mantis-form vanguard cleared debris only as wide as the file would pass. / Stall came when a shortage of cell-exchange slots, cracked antennas, or colliding path marks made the file repeat the same loop. / In the negotiable stage, if people presented a correct recipient mark, a relay-silence time, and a returnable count of load bays, part of the carry queue opened. / Breakup proceeded by isolating the main transmitter, sealing the charging pad, and splitting the path ledgers by swarm; it was not necessary to smash every individual. / Maintenance that moved parts from a stopped chassis was possible only after a return to the charging pad, and it could not independently proliferate outdoors or convert other machines into its own line. / Long-term memory was cut at each relay sector, so one sector's agreement did not automatically propagate to another."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "개미형은 전면 저조도 렌즈, 다리의 접촉 압력계, 가까운 거리의 이산화탄소·열 변화, 적재함 하중을 겹쳐 길과 구조 대상을 추정한다. / 사마귀형은 짧은 거리 깊이 측정과 관절 토크로 들어 올릴 수 있는 잔해를 가르며, 귀뚜라미형은 벽과 관로에 튕긴 음향 펄스와 단거리 무선 응답을 읽는다. / 얼굴, 이름, 물자 내용물, 벽 너머 인원수를 확정할 감각은 없다. / 뜨거운 배관을 누운 사람으로, 규칙적으로 떨리는 발전기를 구조 비콘으로, 반사 조끼를 옛 시험 표적으로 오인하는 실패가 있다. / F09의 판독값과 군집 하중표가 다르면 개미형 네 대가 접촉 탐색을 반복하고 HC15 인간 중재자가 통행 여부를 결정한다. / 먼 거리 신호는 귀뚜라미형을 연속 배치해야만 이어지며 중계 한 곳이 끊기면 그 너머 감각도 사라진다.",
+            "en": "The ant-form estimated path and rescue targets by overlaying a forward low-light lens, contact pressure gauges in the legs, near-range carbon-dioxide and heat change, and load-bay weight. / The mantis-form sorted debris it could lift by short-range depth measure and joint torque, and the cricket-form read acoustic pulses bounced off walls and conduits and short-range radio replies. / It had no sense that could confirm a face, a name, the contents of goods, or a headcount beyond a wall. / Failures included taking a hot pipe for a person lying down, a regularly trembling generator for a relief beacon, and a reflective vest for an old test target. / When F09's reading and the swarm load table differed, four ant-forms repeated a contact search and the HC15 human mediator decided whether passage was allowed. / A distant signal continued only if cricket-forms were placed in a row, and if one relay broke the sense beyond it vanished too."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "고정된 여왕 기체는 없다. / 각 구획의 충전대에 붙은 분배핵이 적재 수와 귀환 전력을 계산하고, 귀뚜라미형 한 쌍이 다음 구획과의 중계 순서를 정한다. / 개미형 복렬은 선두 수색줄과 후미 운반줄로 갈리며 사마귀형 첨병은 길이 막혔을 때만 앞에 선다. / 분배핵은 각 적재함을 보낼 시험 수신점을 선택한다. / 발신기 둘의 지도가 충돌하면 복렬은 교차점에서 등을 깜빡이며 정지하고, F09와 HC15 중재자가 물리 표식과 실제 피난 명단을 맞출 때까지 새 경로를 열지 않는다. / 분배핵을 잃은 무리는 마지막 귀환선을 따라 충전대로 물러나므로 지휘 개체 파괴가 곧 폭주를 뜻하지는 않는다. / 다만 귀환선 자체가 막히면 사마귀형이 통로를 강제로 넓히려 들어 피해가 커진다.",
+            "en": "There was no fixed queen chassis. / A distribution nucleus on each sector's charging pad calculated load count and return power, and a cricket-form pair set the relay order with the next sector. / The ant-form file split into a lead search line and a trailing carry line, and a mantis-form vanguard stepped in front only when the path was blocked. / The distribution nucleus selects the test receiving point for each cargo bay. / If the two transmitters' maps collided the file stopped at the crossing with its backs flashing, and it opened no new path until the F09 and HC15 mediators matched the physical marks to the actual refugee list. / A band that had lost its distribution nucleus fell back along the last return line to the charging pad, so destroying a command individual did not by itself mean a runaway. / But if the return line itself was blocked, the mantis-form tried to force the passage wider and the damage grew."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G25-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G25-generated-G25-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "기체의 컨트롤러는 작업 순서와 귀환선만 조정한다. 전투를 지휘하거나 사람의 법적 판단을 내리지 못하며, 인간 당직의 중지·승인 명령이 우선한다.",
+        "en": "The machine controller adjusted only work sequence and return lines. It could form neither combat command nor human legal judgment, and the human watch's halt and approval orders took precedence."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E01 · 잔광더듬개미",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E01 · Afterglow Antenna Ant",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "정찰·선도",
+            "en": "Reconnaissance · pathfinding"
+          },
+          {
+            "ko": "첨병",
+            "en": "vanguard"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E02 · 절개앞발사마귀",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e02"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E02 · Cutting-Foreleg Mantis",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e02"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "정예 돌파",
+            "en": "Elite breakthrough"
+          },
+          {
+            "ko": "첫 번째 정예",
+            "en": "first elite"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E03 · 공명등판귀뚜라미",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e03"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E03 · Resonant-Back Cricket",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e03"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "정예 차단",
+            "en": "Elite blocking"
+          },
+          {
+            "ko": "두 번째 정예",
+            "en": "second elite"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E04 · 밀랍접점꿀벌",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e04"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E04 · Wax-Contact Honeybee",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e04"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "전문 지원",
+            "en": "Specialist support"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E05 · 반딧불길등",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e05"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E05 · Firefly Pathlight",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e05"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "일반 전열",
+            "en": "General line"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E06 · 들보뿔풍뎅이",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e06"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E06 · Beam-Horn Rhinoceros Beetle",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e06"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "정예 돌파",
+            "en": "Elite breakthrough"
+          },
+          {
+            "ko": "첫 번째 정예",
+            "en": "first elite"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E07 · 틈넘기메뚜기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e07"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E07 · Gap-Leaping Grasshopper",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e07"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "기동·우회",
+            "en": "Maneuver · flank"
+          },
+          {
+            "ko": "기동 특수형",
+            "en": "mobile special type"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E08 · 점박이초소벌레",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E08 · Spotted Sentry Bug",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "방호·엄호",
+            "en": "Protection · cover"
+          },
+          {
+            "ko": "수호자",
+            "en": "guardian"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E09 · 포대안기사마귀",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e09"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E09 · Stretcher-Carrying Mantis",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e09"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "전문 지원",
+            "en": "Specialist support"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E10 · 쌍칸짐개미",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e10"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E10 · Twin-Compartment Carrier Ant",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e10"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "일반 전열",
+            "en": "General line"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E11 · 비늘날개훑음기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e11"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E11 · Scaled-Wing Sweeper",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e11"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "지역 적응",
+            "en": "Local adaptation"
+          },
+          {
+            "ko": "지역 변종",
+            "en": "regional variant"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E12 · 철껍질막음벌레",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e12"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E12 · Iron-Shell Barricade Beetle",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e12"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "방호·엄호",
+            "en": "Protection · cover"
+          },
+          {
+            "ko": "수호자",
+            "en": "guardian"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E13 · 큰울림중계귀뚜라미",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e13"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E13 · Great-Resonance Relay Cricket",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e13"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "노화 변이",
+            "en": "Aged variant"
+          },
+          {
+            "ko": "노화 단계형",
+            "en": "aging-stage type"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E14 · 흰턱청소군",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e14"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E14 · White-Jawed Cleaning Colony",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e14"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "일반 전열",
+            "en": "General line"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E15 · 벌집충전거치대",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E15 · Honeycomb Charging Rack",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "거점 통제",
+            "en": "Strongpoint control"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G25E16 · 여왕잔향탑",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e16"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G25E16 · Queen Echo Tower",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G25",
+                  "anchor": "g25e16"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "시나리오 보스",
+            "en": "scenario boss"
+          },
+          {
+            "ko": "M040",
+            "en": "M040"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E01-title-heading-1",
+      "publicAnchors": [
+        "g25e01",
+        "Hostile-Group-G25-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E01 · 잔광더듬개미",
+        "en": "G25E01 · Afterglow Antenna Ant"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 첨병",
+          "en": "Former role class: vanguard"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "정찰·선도",
+            "en": "Reconnaissance · pathfinding"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "잔광더듬개미는 G25 공통 생태에서 분화한 기계 기종이다. 정찰·선도 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Afterglow Antenna Ant was a machine chassis type differentiated from the G25 common ecology. The reconnaissance · pathfinding role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-1-prose-04073",
+      "items": [
+        {
+          "ko": "역할·신체: 잔광 렌즈를 앞세운 개미형 수색 첨병이다. 여섯 발과 낮은 배급 캡슐함이 깨진 벽돌 틈을 통과하며, 군집에서 가장 먼저 좁은 길을 확인하는 말단 작업체다.",
+          "en": "Role and body: An ant-shaped search scout with an afterglow lens at its front. Its six feet and low supply capsule compartment pass through gaps in broken brick, making it the rank-and-file worker that checks narrow routes first for the swarm."
+        },
+        {
+          "ko": "기원: 붕괴 이전 잔해 속 생존자에게 소형 물자를 보내던 기체가 마포 연합 봉인 갤러리의 충전 접점 복구로 일어났다. 목적지 확인망은 사라졌고 마지막 수색 거리만 남았다.",
+          "en": "Origin: A machine that delivered small supplies to survivors in rubble before the collapse awoke when charging contacts were restored in the Mapo Union sealed gallery. Its destination-verification network is gone; only its last search range remains."
+        },
+        {
+          "ko": "서식·필요: 마포 연합 케이블 턱 아래를 따라 용산선 시험 트랙용 회수함을 찾는다. 캡슐함을 채울 물자보다 발끝 접촉판과 작은 축전통이 먼저 소진된다.",
+          "en": "Habitat and needs: It searches for retrieval boxes for the Yongsan Line test track along the underside of the Mapo Union cable ledge. Its toe contact plates and small power-storage cylinder wear out before it runs out of supplies to fill its capsule compartment."
+        },
+        {
+          "ko": "생애·정비: 닳은 발을 배 아래로 접어 다섯 발 보행으로 버티지만 두 발이 고장 나면 도킹 턱을 넘지 못한다. 회수함에서 발끝을 갈 수 있을 뿐 새 차체를 만들지는 못한다.",
+          "en": "Life cycle and maintenance: It folds a worn foot under its belly and manages on five, but if two feet fail, it cannot cross the docking ledge. Its toes can be replaced at a retrieval box, but it cannot make a new chassis."
+        },
+        {
+          "ko": "행동·위계: 더듬이 접촉으로 앞 개체의 경로를 받아 점검 자국을 잇는다. 가까운 호흡 열과 휴대 전원의 열을 구별하지 못해 충전 중인 짐가방에도 배급 캡슐을 밀어 넣는다.",
+          "en": "Behavior and hierarchy: Through antenna contact, it receives the route of the individual ahead and extends its inspection marks. Unable to distinguish the warmth of nearby breathing from the heat of a portable power source, it pushes supply capsules even into a bag being charged."
+        },
+        {
+          "ko": "상승: 빈 물자함을 두드리는 탐색이 1단계 징후다. 2단계에는 사람의 짐을 목적지로 붙잡고, 같은 위치에 동료가 몰리는 3단계에는 출구의 발판을 덮는다.",
+          "en": "Escalation: Searching by tapping on empty supply boxes is a stage 1 sign. At stage 2, it latches onto a person's luggage as a destination; at stage 3, when others converge on the same spot, they cover the footholds at the exit."
+        },
+        {
+          "ko": "교전·대응: 빈 캡슐을 시험용 착지판에 놓아 접촉 경로를 바꾸면 무리를 한쪽으로 뺄 수 있다. 바닥 전체를 불태우면 생존자에게 닿는 케이블도 끊어진다.",
+          "en": "Combat and response: Placing an empty capsule on a test landing plate changes the contact route and can draw the swarm to one side. Burning the entire floor also severs the cables that reach survivors."
+        },
+        {
+          "ko": "교섭·도덕 선택: 점검 완료 접점을 눌러 주고 충전 한 회를 보장하면 작은 보급품 운반을 맡길 수 있다. 열을 내지 못하는 부상자까지 배송 대상에 넣으려면 사람이 매번 목적지 표식을 옮겨야 한다.",
+          "en": "Negotiation and moral choice: If someone presses the inspection-complete contact and guarantees one charge, it can be entrusted with carrying small supplies. To include injured people who give off no heat among its delivery recipients, a person must move the destination marker every time."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E02-title-heading-1",
+      "publicAnchors": [
+        "g25e02",
+        "Hostile-Group-G25-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E02 · 절개앞발사마귀",
+        "en": "G25E02 · Cutting-Foreleg Mantis"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E02-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 첫 번째 정예",
+          "en": "Former role class: first elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E02-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "정예 돌파",
+            "en": "Elite breakthrough"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "절개앞발사마귀는 G25 공통 생태에서 분화한 기계 기종이다. 정예 돌파 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Cutting-Foreleg Mantis was a machine chassis type differentiated from the G25 common ecology. The elite breakthrough role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-2-prose-04074",
+      "items": [
+        {
+          "ko": "역할·신체: 접힌 절개 앞발 사이에 통로 폭 측정자를 품은 사마귀형 첫 번째 정예다. 첨병보다 높은 흉부를 세워 잔해 가장자리를 붙잡고 뒤따르는 소형 수색체의 길을 연다.",
+          "en": "Role and body: The first elite is a mantis-shaped machine with a passage-width gauge between its folded cutting forelegs. It raises its thorax above the scouts, grips the edge of the rubble, and opens a path for the small search units following it."
+        },
+        {
+          "ko": "기원: 구조용 들것이 걸리는 철망과 얇은 내장재를 잘라 내던 붕괴 이전 선행 장비에서 비롯했다. 용산선 시험 트랙의 봉인이 풀렸을 때 삭제되지 않은 통로 확보 동작이 재개되었다.",
+          "en": "Origin: It descends from pre-collapse advance equipment that cut away wire mesh and thin interior materials that snagged rescue stretchers. When the seal on the Yongsan Line test track was lifted, its unerased passage-clearing routine resumed."
+        },
+        {
+          "ko": "서식·필요: 절단 부스와 무너진 경량 칸막이가 사냥터처럼 보이는 작업장이다. 초경 날끝, 관절 작동유, 받침대 충전이 없으면 두 팔은 걸쇠 자세로 굳는다.",
+          "en": "Habitat and needs: Cutting booths and collapsed lightweight partitions are its work sites, though they look like hunting grounds. Without carbide blade tips, joint lubricant, and charging at a stand, both arms stiffen into a latched position."
+        },
+        {
+          "ko": "생애·정비: 앞발 한쪽의 날을 빼내 다른 쪽에 옮기는 편측 정비를 한다. 남은 날까지 마모되면 길을 자르지 않고 눌러 벌리므로 구조물에 전달되는 하중이 커진다.",
+          "en": "Life cycle and maintenance: For one-sided maintenance, it removes the blade from one foreleg and transfers it to the other. Once the remaining blade wears down, it presses passages open instead of cutting them, increasing the load on the structure."
+        },
+        {
+          "ko": "행동·위계: 수색 첨병의 폭 부족 표시에 반응하되 생존자 유무는 직접 판정하지 않는다. 측정자에 걸친 구조줄도 철망과 같은 가는 장애물로 크게 잘못 읽는다.",
+          "en": "Behavior and hierarchy: It responds to a search scout's indication that a passage is too narrow but does not itself determine whether survivors are present. Its fatal mistake is reading a rescue rope across its gauge as a thin obstacle like wire mesh."
+        },
+        {
+          "ko": "상승: 1단계의 칸막이 긁힘 뒤에 2단계의 지지선 절단이 따른다. 3단계 작업 구역에서는 탈출로를 넓힌다는 이유로 사람이 기대고 있는 임시 버팀까지 잡아 뜯는다.",
+          "en": "Escalation: Stage 1 scratches on partitions are followed by stage 2 cuts to support lines. In a stage 3 work area, it even grabs and tears away temporary braces people are leaning on, on the grounds that it is widening an escape route."
+        },
+        {
+          "ko": "교전·대응: 규격 폭의 빈 틀을 앞발 사이에 세우면 절개 완료 접점이 눌린다. 날과 맞서기보다 뒤쪽 작동유 차단 손잡이를 잠가 팔을 펼친 상태로 고정하는 편이 안전하다.",
+          "en": "Combat and response: Setting an empty frame of the specified width between its forelegs presses the cut-complete contact. It is safer to lock the lubricant shutoff handle at the rear, fixing the arms open, than to confront the blades."
+        },
+        {
+          "ko": "교섭·도덕 선택: 절개 금지 부재를 실물 시험 틀로 등록하고 날끝을 지급하면 통로 확보를 제한적으로 맡길 수 있다. 다만 멀쩡한 집의 칸막이까지 구조로 이름 붙여 철거할 권한은 기체가 아니라 거주민에게 남겨야 한다.",
+          "en": "Negotiation and moral choice: Registering components that must not be cut as physical test frames and supplying blade tips allows it to be entrusted with limited passage clearing. But the authority to designate even the partitions of intact homes as structures to be removed must remain with residents, not the machine."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E03-title-heading-1",
+      "publicAnchors": [
+        "g25e03",
+        "Hostile-Group-G25-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E03 · 공명등판귀뚜라미",
+        "en": "G25E03 · Resonant-Back Cricket"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E03-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 두 번째 정예",
+          "en": "Former role class: second elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E03-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "정예 차단",
+            "en": "Elite blocking"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "공명등판귀뚜라미는 G25 공통 생태에서 분화한 기계 기종이다. 정예 차단 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Resonant-Back Cricket was a machine chassis type differentiated from the G25 common ecology. The elite blocking role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-3-prose-04075",
+      "items": [
+        {
+          "ko": "역할·신체: 속 빈 등판을 떨고 긴 뒷다리로 벽 모서리를 버티는 귀뚜라미형 중계 수호자다. 두 번째 정예로 분류하며 높이 뛰어 덮치기보다 수색 신호가 끊기는 분기점을 점유한다.",
+          "en": "Role and body: A cricket-shaped relay guardian that vibrates its hollow back plate and braces itself against wall corners with long hind legs. Classified as the second elite, it occupies junctions where search signals break off rather than leaping high to pounce."
+        },
+        {
+          "ko": "기원: 무선이 닿지 않는 붕괴 잔해에 접촉 진동을 전달하던 옛 구조 중계기가 마포 연합 송신 갤러리 안에서 재통전되었다. 응답을 기다리던 주소는 이미 없지만 호출 박자는 남아 있다.",
+          "en": "Origin: An old rescue relay that transmitted contact vibrations through collapse rubble beyond wireless range was re-energized inside the Mapo Union transmission gallery. The address from which it awaited a reply no longer exists, but the call rhythm remains."
+        },
+        {
+          "ko": "서식·필요: 벽체가 이어진 갤러리 교차부를 선호한다. 공명판의 장력을 맞출 금속 띠와 다리 완충재를 쓰며, 절연된 빈 공간을 건너 신호를 보낼 수는 없다.",
+          "en": "Habitat and needs: It favors gallery intersections with continuous walls. It uses metal bands to tension its resonator plate and cushioning for its legs; it cannot send a signal across an insulated empty space."
+        },
+        {
+          "ko": "생애·정비: 자기 등판의 울림과 벽에서 돌아온 울림을 대조해 나사를 조인다. 공명판이 갈라진 노체는 낮은 박자만 내고 담당 수색 반경을 한 분기까지 줄인다.",
+          "en": "Life cycle and maintenance: It tightens its screws by comparing the resonance of its own back plate with the resonance returning from the wall. An old unit with a cracked resonator plate produces only low rhythms and reduces its assigned search radius to one junction."
+        },
+        {
+          "ko": "행동·위계: 주변 첨병에게 귀환 방향을 중계하지만 새로운 목적지는 만들지 않는다. 사람의 두드림이 대기 응답과 겹치면 귀환을 취소한 수색체가 한 벽 앞을 맴돈다.",
+          "en": "Behavior and hierarchy: It relays the direction of return to nearby scouts but does not create new destinations. If a person's tapping overlaps with the awaited response, search units that cancel their return circle in front of one wall."
+        },
+        {
+          "ko": "상승: 단속적인 옛 호출이 들리면 1단계다. 서로 다른 응답이 쌓이는 2단계에는 물자 운반이 되돌아가고, 3단계에는 출구 전체가 수색 대기 지점으로 고정된다.",
+          "en": "Escalation: Intermittent old calls mark stage 1. At stage 2, as differing responses accumulate, supply carriers turn back; at stage 3, the entire exit becomes a fixed search waiting point."
+        },
+        {
+          "ko": "교전·대응: 벽과 뒷다리 사이에 완충 쐐기를 끼워 접촉 중계를 끊는다. 이후 유선 시험단자로 종료 응답을 주면 수색체가 흩어지며, 큰 소음만 내는 대응은 잘못된 호출을 늘린다.",
+          "en": "Combat and response: Insert a cushioning wedge between the wall and a hind leg to interrupt contact relaying. Then give a termination response through a wired test terminal to disperse the search units; merely making loud noise increases false calls."
+        },
+        {
+          "ko": "교섭·도덕 선택: 통행자가 볼 수 있는 중계 시간표와 금속 띠를 교환할 수 있다. 통신 사각의 구조 요청을 살리는 대신 주민이 밤마다 듣는 호출을 어느 시간까지 허용할지 합의해야 한다.",
+          "en": "Negotiation and moral choice: A relay timetable visible to passersby can be exchanged for metal bands. In return for keeping rescue requests from communication dead zones alive, residents must agree on how late into the night they will tolerate the calls."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E04-title-heading-1",
+      "publicAnchors": [
+        "g25e04",
+        "Hostile-Group-G25-heading-0023"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E04 · 밀랍접점꿀벌",
+        "en": "G25E04 · Wax-Contact Honeybee"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E04-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E04-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "전문 지원",
+            "en": "Specialist support"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "밀랍접점꿀벌은 G25 공통 생태에서 분화한 기계 기종이다. 전문 지원 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Wax-Contact Honeybee was a machine chassis type differentiated from the G25 common ecology. The specialist support role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-4-prose-04076",
+      "items": [
+        {
+          "ko": "역할·신체: 꿀벌을 닮은 통통한 전지 배낭과 접이식 여섯 다리가 이동 충전소를 이룬다. 날개 모양 방열판은 비행용이 아니다.",
+          "en": "Role and body: A plump bee-like battery backpack and six folding legs form a mobile charging station. Its wing-shaped heat sinks are not for flight."
+        },
+        {
+          "ko": "기원: 방재 수색체가 잔해 안에서 방전되지 않도록 축전통을 배달하던 옛 급전 계열이다. 용산선 보관대가 살아나면서 이미 폐기된 충전 순번을 다시 불렀다.",
+          "en": "Origin: It belongs to an old power-supply line that delivered power-storage cylinders so disaster-response search units would not discharge inside rubble. When the Yongsan Line storage rack came back online, it called up a charging order that had already been discarded."
+        },
+        {
+          "ko": "서식·필요: 절연 매트가 남은 시험실과 마포 연합 갤러리의 마른 벽을 고른다. 전력은 도킹대에서 받아 옮기며 접점 그리스와 단자 덮개를 소비한다.",
+          "en": "Habitat and needs: It chooses test rooms where insulating mats remain and dry walls in the Mapo Union gallery. It receives power at docking stations and carries it elsewhere, consuming contact grease and terminal covers."
+        },
+        {
+          "ko": "생애·정비: 전지별 내부 저항이 벌어지면 나쁜 통을 배낭 밖으로 밀어 격리한다. 여분이 없을 때는 충전 가능한 수색체 수가 줄어든다.",
+          "en": "Life cycle and maintenance: When the internal resistance of its batteries diverges, it pushes the bad cylinder out of its backpack to isolate it. Without a spare, fewer search units can be charged."
+        },
+        {
+          "ko": "행동·위계: 목적지 목록에서 가장 오래 기다린 접점을 우선한다. 젖은 금속 장식이 충전 단자로 읽히면 시민의 옷에 배낭을 붙인다.",
+          "en": "Behavior and hierarchy: It prioritizes the contact that has waited longest on its destination list. If it reads a wet metal ornament as a charging terminal, it attaches its backpack to a citizen's clothes."
+        },
+        {
+          "ko": "상승: 1단계의 접점 탐색 불꽃이 2단계에는 휴대 장비 방전으로 번진다. 3단계 급전 대기가 갤러리의 유일한 전력선을 점유한다.",
+          "en": "Escalation: Stage 1 sparks from searching for contacts spread to the discharge of portable equipment at stage 2. At stage 3, the queue for power occupies the gallery's only power line."
+        },
+        {
+          "ko": "교전·대응: 절연 덮개로 옷의 금속부를 가리고 시험 부하를 정규 받침에 연결하면 충전 방향이 바뀐다. 배낭 천공은 전지 화재를 부른다.",
+          "en": "Combat and response: Cover the metal parts of clothing with insulating covers and connect a test load to the proper stand to redirect charging. Puncturing the backpack can cause a battery fire."
+        },
+        {
+          "ko": "교섭·도덕 선택: 배달 전력의 상한과 시민용 잔량을 공개해 충전 의뢰를 맺는다. 구조체를 먼저 충전할수록 주민 조명이 어두워지는 비용을 숨기지 않는다.",
+          "en": "Negotiation and moral choice: Charging arrangements can be made by disclosing the upper limit on delivered power and the reserve for citizens. Do not conceal the cost: the more priority given to charging rescue units, the dimmer residents' lights become."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E05-title-heading-1",
+      "publicAnchors": [
+        "g25e05",
+        "Hostile-Group-G25-heading-0027"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E05 · 반딧불길등",
+        "en": "G25E05 · Firefly Pathlight"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E05-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E05-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "일반 전열",
+            "en": "General line"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "반딧불길등은 G25 공통 생태에서 분화한 기계 기종이다. 일반 전열 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Firefly Pathlight was a machine chassis type differentiated from the G25 common ecology. The general line role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-5-prose-04077",
+      "items": [
+        {
+          "ko": "역할·신체: 배 끝의 차광 덮개가 열리면 반딧불형 보행등의 빛이 바닥에 길게 눕는다. 작은 등껍질 안에는 조명 축전지와 두 렌즈가 겹쳐 있다.",
+          "en": "Role and body: When the shade at the end of its abdomen opens, the firefly-shaped walking lamp casts a long beam along the floor. A lighting battery and two overlapping lenses sit inside its small lamp shell."
+        },
+        {
+          "ko": "기원: 정전 구조 현장의 유도등을 스스로 옮기던 붕괴 이전 장비가 마포 연합 암실 갤러리에서 깨어났다. 현재 출구가 아니라 옛 비상선만 비춘다.",
+          "en": "Origin: Pre-collapse equipment that moved guide lights around blackout rescue sites on its own awoke in the Mapo Union darkroom gallery. It illuminates an old emergency route, not the current exit."
+        },
+        {
+          "ko": "서식·필요: 빛이 반사되는 유도 타일을 따라다니며 렌즈 닦개와 낮은 충전량으로 버틴다. 검은 흙바닥에선 다음 타일을 찾지 못한다.",
+          "en": "Habitat and needs: It follows reflective guide tiles and gets by with lens-cleaning supplies and a low charge. On a floor of black dirt, it cannot find the next tile."
+        },
+        {
+          "ko": "생애·정비: 차광 경첩이 닳을수록 조명이 넓어지고 도킹 간격은 짧아진다. 고장 난 렌즈는 다른 개체에서 회수해야 한다.",
+          "en": "Life cycle and maintenance: As its shade hinge wears, the beam widens and the intervals between docking grow shorter. A failed lens must be salvaged from another individual."
+        },
+        {
+          "ko": "행동·위계: 중계 귀뚜라미의 귀환 박자를 빛의 방향으로 옮긴다. 반짝이는 물웅덩이를 유도 타일로 잘못 읽어 사람을 끊어진 계단에 모을 수 있다.",
+          "en": "Behavior and hierarchy: It translates the relay cricket's return rhythm into a direction of light. By mistaking a glittering puddle for a guide tile, it can gather people at a broken staircase."
+        },
+        {
+          "ko": "상승: 잘못 켜진 화살표 하나가 1단계다. 2단계 조명이 안전 출구를 등지고, 3단계에는 서로 마주 보는 등이 대피열을 원으로 묶는다.",
+          "en": "Escalation: A single incorrectly lit arrow is stage 1. At stage 2, the lights point away from a safe exit; at stage 3, lights facing one another trap the line of evacuees in a circle."
+        },
+        {
+          "ko": "교전·대응: 실제 출구까지 무광 유도판을 이어 놓고 가짜 반사면을 덮는다. 모든 등을 끄는 공격은 피난자의 시야부터 없앤다.",
+          "en": "Combat and response: Lay matte guide panels all the way to the real exit and cover false reflective surfaces. An attack that extinguishes every light first deprives evacuees of sight."
+        },
+        {
+          "ko": "교섭·도덕 선택: 렌즈 청소와 출구 점검을 맡으면 야간 조명을 얻는다. 외부인을 배제하려 일부 골목만 어둡게 두라는 요구를 받아들일지는 사람의 책임이다.",
+          "en": "Negotiation and moral choice: Maintaining the lenses and checking exits earns nighttime lighting. Whether to accept demands to leave certain alleys dark to exclude outsiders is a human responsibility."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E06-title-heading-1",
+      "publicAnchors": [
+        "g25e06",
+        "Hostile-Group-G25-heading-0031"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E06 · 들보뿔풍뎅이",
+        "en": "G25E06 · Beam-Horn Rhinoceros Beetle"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E06-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 첫 번째 정예",
+          "en": "Former role class: first elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E06-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "정예 돌파",
+            "en": "Elite breakthrough"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "들보뿔풍뎅이는 G25 공통 생태에서 분화한 기계 기종이다. 정예 돌파 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Beam-Horn Rhinoceros Beetle was a machine chassis type differentiated from the G25 common ecology. The elite breakthrough role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-6-prose-04078",
+      "items": [
+        {
+          "ko": "역할·신체: 위로 굽은 장수풍뎅이형 인양뿔이 낮은 차체보다 길다. 여섯 굵은 발 사이의 견인 드럼으로 쓰러진 들보를 끌어낸다.",
+          "en": "Role and body: Its upward-curving, rhinoceros-beetle-like lifting horn is longer than its low chassis. A towing drum between six thick feet pulls out fallen beams."
+        },
+        {
+          "ko": "기원: 용산선 하중 시험 트랙의 구조용 인양기가 봉인 중에도 들고 있던 시험추를 놓지 않았다. 재통전 후에는 그 무게에 가까운 물건을 계속 찾는다.",
+          "en": "Origin: A rescue hoist on the Yongsan Line load-test track never released the test weight it was holding during the sealing. After re-energization, it keeps looking for objects of similar weight."
+        },
+        {
+          "ko": "서식·필요: 낮은 천장 밑 잔해장에 자리 잡고 뿔 받침 패드, 와이어, 감속기 오일을 요구한다. 충전 받침과 멀어지면 들보를 내려놓고 돌아간다.",
+          "en": "Habitat and needs: It settles in rubble fields under low ceilings and requires horn support pads, cable, and reduction-gear oil. If it gets too far from a charging stand, it puts down the beam and returns."
+        },
+        {
+          "ko": "생애·정비: 뿔 끝 패드에 난 균열을 뒤쪽 탐침으로 확인한다. 교체하지 못하면 지지 하중을 낮추지만 예전 작업표는 그대로 남는다.",
+          "en": "Life cycle and maintenance: It checks cracks in the pad at its horn tip with a rear probe. If the pad cannot be replaced, it lowers its supported load, but the old work schedule remains unchanged."
+        },
+        {
+          "ko": "행동·위계: 사마귀형이 벌린 틈에 들어가며 자체적으로 절개 순서를 바꾸지는 않는다. 하중만 같은 들것을 시험추와 혼동하는 실패가 있다.",
+          "en": "Behavior and hierarchy: It enters gaps opened by the mantis-shaped unit and does not change the cutting sequence on its own. One failure is mistaking a stretcher of the same weight for the test weight."
+        },
+        {
+          "ko": "상승: 1단계에는 빈 뿔을 벽에 대고 시험한다. 2단계 인양에서 생활 자재가 사라지고, 3단계에는 내리지 못한 들보가 피난로를 가로지른다.",
+          "en": "Escalation: At stage 1, it tests an empty horn against a wall. At stage 2, lifting removes household materials; at stage 3, a beam it cannot lower lies across the evacuation route."
+        },
+        {
+          "ko": "교전·대응: 독립 받침으로 들보를 지탱한 뒤 드럼을 풀어 뿔을 비운다. 머리부터 쓰러뜨리면 옆 사람이 하중을 받는다.",
+          "en": "Combat and response: Support the beam with an independent stand, then release the drum to free the horn. Toppling it headfirst transfers the load to people beside it."
+        },
+        {
+          "ko": "교섭·도덕 선택: 정격을 낮춘 인양 일감과 패드를 교환한다. 군집의 시험추로 쓰이던 들보를 살려 내도 집에 돌려줄지 공동 통로에 쓸지 합의가 남는다.",
+          "en": "Negotiation and moral choice: Exchange lifting jobs at a reduced rated capacity for pads. Even if a beam used as the swarm's test weight is recovered, the question remains whether to return it to its home or use it for a shared passage."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E07-title-heading-1",
+      "publicAnchors": [
+        "g25e07",
+        "Hostile-Group-G25-heading-0035"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E07 · 틈넘기메뚜기",
+        "en": "G25E07 · Gap-Leaping Grasshopper"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E07-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 기동 특수형",
+          "en": "Former role class: mobile special type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E07-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "기동·우회",
+            "en": "Maneuver · flank"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "틈넘기메뚜기는 G25 공통 생태에서 분화한 기계 기종이다. 기동·우회 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Gap-Leaping Grasshopper was a machine chassis type differentiated from the G25 common ecology. The maneuver · flank role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-7-prose-04079",
+      "items": [
+        {
+          "ko": "역할·신체: 접시 같은 뒷무릎에 도약 스프링을 감춘 메뚜기형 연락체다. 짧은 틈을 넘을 수 있으나 공중에서 방향을 자유롭게 바꾸지는 못한다.",
+          "en": "Role and body: A grasshopper-shaped messenger with jumping springs concealed in its dish-shaped hind knees. It can cross short gaps but cannot freely change direction in midair."
+        },
+        {
+          "ko": "기원: 붕괴 전 끊어진 계단 사이에 구조줄 선단을 보내던 발사 보조기가 용산선 낙차 시험실에서 다시 작동했다. 착지 승인판의 위치는 옛 좌표다.",
+          "en": "Origin: A pre-collapse launcher aid that sent the leading end of a rescue rope between broken stairways restarted in the Yongsan Line drop-test room. The landing-approval plate is at an old coordinate."
+        },
+        {
+          "ko": "서식·필요: 마포 연합 갤러리의 짧은 바닥 단절부에 붙는다. 스프링 윤활재와 착지 완충재가 없으면 이동 횟수를 충전량보다 먼저 제한한다.",
+          "en": "Habitat and needs: It stays near short breaks in the Mapo Union gallery floor. Without spring lubricant and landing cushioning, wear limits its trips before its charge does."
+        },
+        {
+          "ko": "생애·정비: 뒷다리 두 개의 탄성 차이를 도킹 저울로 잰다. 한쪽이 약해지면 도약을 중단하고 벽을 타고 내려가며 신규 스프링을 만들지 못한다.",
+          "en": "Life cycle and maintenance: It measures the difference in elasticity between its two hind legs on a docking scale. If one weakens, it stops jumping and climbs down the wall; it cannot make a new spring."
+        },
+        {
+          "ko": "행동·위계: 도착 지점에서 구조줄이 당겨져야 다음 연락체를 부른다. 철거된 발판의 반사편을 살아 있는 착지대로 읽는 일이 있다.",
+          "en": "Behavior and hierarchy: The rescue rope must be pulled at the arrival point before it calls the next messenger. It sometimes reads a reflective fragment of a demolished platform as an intact landing pad."
+        },
+        {
+          "ko": "상승: 1단계의 허공 도약이 2단계에는 구조줄을 난간에 감는다. 3단계 발사 대기체가 모이면 계단 양쪽에서 움직일 공간이 사라진다.",
+          "en": "Escalation: At stage 1, it leaps into empty space; at stage 2, it winds rescue rope around railings. When stage 3 units gather awaiting launch, there is no room to move on either side of the staircase."
+        },
+        {
+          "ko": "교전·대응: 착지판을 가까운 안전 받침으로 옮겨 스프링을 무부하로 풀게 한다. 공중에서 사격하면 묶인 줄이 대피자를 끌 수 있다.",
+          "en": "Combat and response: Move the landing plate to a nearby safe support so the spring releases without a load. Shooting it in midair can make the attached rope drag evacuees."
+        },
+        {
+          "ko": "교섭·도덕 선택: 한 번의 도약마다 사람의 착지 확인을 받도록 제한한다. 빠른 연락을 얻는 대신 계단 양편에 당직을 남겨야 한다.",
+          "en": "Negotiation and moral choice: Require a person to confirm the landing for every jump. Faster communication comes at the cost of keeping someone on duty on both sides of the staircase."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E08-title-heading-1",
+      "publicAnchors": [
+        "g25e08",
+        "Hostile-Group-G25-heading-0039"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E08 · 점박이초소벌레",
+        "en": "G25E08 · Spotted Sentry Bug"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 수호자",
+          "en": "Former role class: guardian"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "방호·엄호",
+            "en": "Protection · cover"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "점박이초소벌레는 G25 공통 생태에서 분화한 기계 기종이다. 방호·엄호 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Spotted Sentry Bug was a machine chassis type differentiated from the G25 common ecology. The protection · cover role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-8-prose-04080",
+      "items": [
+        {
+          "ko": "역할·신체: 둥근 무당벌레형 덮개에 검은 광학창 여섯 개가 박혀 있다. 경계 근무 중에는 다리를 접어 낮은 반구 초소가 된다.",
+          "en": "Role and body: Six black optical windows are set into its rounded, ladybug-shaped cover. On guard duty, it folds its legs and becomes a low hemispherical sentry post."
+        },
+        {
+          "ko": "기원: 수색 인원의 귀환을 세던 붕괴 이전 출입 확인기에서 갈라진 계열이다. 마포 연합 봉인문이 열려도 마지막 인원 합계는 초기화되지 않았다.",
+          "en": "Origin: Its line branched off from pre-collapse entry checkpoints that counted returning search personnel. Even after the Mapo Union sealed door opened, the last personnel total was not reset."
+        },
+        {
+          "ko": "서식·필요: 갈림길 문턱과 시험동 출구가 관측 자리다. 광학창 세척액과 덮개 힌지 전력이 필요하며 어두운 구역에서는 보조등에 의존한다.",
+          "en": "Habitat and needs: Forks in the route and exits from the test building are its observation posts. It needs optical-window cleaning fluid and power for its cover hinge, and relies on auxiliary lights in dark areas."
+        },
+        {
+          "ko": "생애·정비: 긁힌 창을 차광판으로 가려 남은 창만 사용한다. 덮개를 열어 교정하지 못한 개체는 두 방향을 잃은 채 같은 자리에 늙는다.",
+          "en": "Life cycle and maintenance: It masks scratched windows with a shade and uses only those remaining. A unit whose cover cannot be opened for calibration grows old in place, blind in two directions."
+        },
+        {
+          "ko": "행동·위계: 귀환 합계가 맞아야 여왕 중계탑에 완료를 보고한다. 짐을 멘 사람의 그림자를 둘로 세어 이미 돌아온 대원을 계속 기다릴 수 있다.",
+          "en": "Behavior and hierarchy: It reports completion to the queen relay tower only when the return count matches. It may count the shadow of a person carrying a bag as two and keep waiting for a team member who has already returned."
+        },
+        {
+          "ko": "상승: 1단계의 붉은 출입 점등 이후 2단계에는 통행자를 다시 센다. 3단계 합계 불일치가 문턱 정지 명령으로 굳는다.",
+          "en": "Escalation: After stage 1 red entry lights come on, it recounts passersby at stage 2. At stage 3, a mismatched total hardens into an order to halt at the threshold."
+        },
+        {
+          "ko": "교전·대응: 사람과 짐을 따로 지나가게 해 광학창별 계수를 대조한다. 덮개를 억지로 벌리기보다 정비 측면의 계수 취소 레버를 쓴다.",
+          "en": "Combat and response: Have people and bags pass separately to compare the counts from each optical window. Use the count-cancellation lever on the maintenance side rather than forcing the cover open."
+        },
+        {
+          "ko": "교섭·도덕 선택: 귀환 명부를 사람이 검토하고 렌즈를 관리하면 초소를 유지할 수 있다. 안전 인원 집계가 주민의 이동 감시로 바뀌지 않도록 기록 보관 시간을 정한다.",
+          "en": "Negotiation and moral choice: The sentry post can be kept if people review the return roster and maintain its lenses. Set a retention period for records so a safety head count does not turn into surveillance of residents' movements."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E09-title-heading-1",
+      "publicAnchors": [
+        "g25e09",
+        "Hostile-Group-G25-heading-0043"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E09 · 포대안기사마귀",
+        "en": "G25E09 · Stretcher-Carrying Mantis"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E09-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E09-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "전문 지원",
+            "en": "Specialist support"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "포대안기사마귀는 G25 공통 생태에서 분화한 기계 기종이다. 전문 지원 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Stretcher-Carrying Mantis was a machine chassis type differentiated from the G25 common ecology. The specialist support role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-9-prose-04081",
+      "items": [
+        {
+          "ko": "역할·신체: 부드러운 띠를 단 포획 앞팔이 사마귀형 흉부 아래로 내려온다. 날 대신 들것 걸쇠를 지녀 절개형과 달리 움직이는 하중을 붙잡는다.",
+          "en": "Role and body: Capture forelegs fitted with soft straps extend below its mantis-shaped thorax. With stretcher clasps instead of blades, it holds moving loads, unlike the cutting type."
+        },
+        {
+          "ko": "기원: 침수 직전의 구조 들것을 운반대에 고정하던 옛 인계 장비가 용산선 격납고에서 재가동했다. 포획 해제 서명의 발급 주체는 사라졌다.",
+          "en": "Origin: Old handoff equipment that secured rescue stretchers to transport platforms just before flooding restarted in a Yongsan Line hangar. The authority that issued capture-release authorization has disappeared."
+        },
+        {
+          "ko": "서식·필요: 들것 환승 턱과 낮은 적재실에서 기다린다. 고무 띠, 하중 센서 패드와 팔 잠금 전력을 아껴 쓰며 직접 의료 처치를 하지 않는다.",
+          "en": "Habitat and needs: It waits at stretcher-transfer ledges and in low loading rooms. It uses rubber straps, load-sensor pads, and power for its arm locks sparingly, and does not provide medical treatment itself."
+        },
+        {
+          "ko": "생애·정비: 띠가 갈라지면 두 팔을 벌려 사용 불가 자세를 취한다. 정비자가 낡은 띠를 새것으로 속이면 다음 인양에서 하중을 놓칠 수 있다.",
+          "en": "Life cycle and maintenance: When a strap splits, it spreads both arms in an out-of-service posture. If a maintainer passes off an old strap as new, it may drop the load on the next lift."
+        },
+        {
+          "ko": "행동·위계: 말단 수색체가 표시한 열원을 우선 받아 든다. 발버둥은 탈출 의사가 아니라 불안정 화물 진동으로 기록되어 띠가 더 조여진다.",
+          "en": "Behavior and hierarchy: It takes heat sources marked by rank-and-file search units first. Struggling is recorded not as a wish to escape but as unstable cargo vibration, causing the straps to tighten further."
+        },
+        {
+          "ko": "상승: 1단계에는 빈 들것을 모은다. 2단계 사람의 배낭이 팔에 걸리고 3단계 해제 승인 지연은 환승 턱 전체를 포획 대기열로 만든다.",
+          "en": "Escalation: At stage 1, it collects empty stretchers. At stage 2, a person's backpack catches in its arms; at stage 3, delays in release approval turn the entire transfer ledge into a capture queue."
+        },
+        {
+          "ko": "교전·대응: 독립 들것으로 몸무게를 받아 하중 센서를 비운 후 외측 걸쇠를 푼다. 손목 관절을 치는 공격은 붙잡힌 사람에게 충격을 전한다.",
+          "en": "Combat and response: Transfer the person's weight to an independent stretcher to unload the sensor, then release the outer clasp. Attacking the wrist joint transmits the impact to the person being held."
+        },
+        {
+          "ko": "교섭·도덕 선택: 인간 인계자의 현장 확인과 새 띠를 조건으로 구조 보조를 맡긴다. 사람을 안전한 짐처럼 취급하는 편의를 어디까지 허용할지 구조 당사자에게도 묻는다.",
+          "en": "Negotiation and moral choice: Entrust it with rescue assistance only if a human handoff worker checks the scene and new straps are provided. Ask the people being rescued, too, how far the convenience of treating people like secure cargo should be allowed to go."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E10-title-heading-1",
+      "publicAnchors": [
+        "g25e10",
+        "Hostile-Group-G25-heading-0047"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E10 · 쌍칸짐개미",
+        "en": "G25E10 · Twin-Compartment Carrier Ant"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E10-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E10-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "일반 전열",
+            "en": "General line"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "쌍칸짐개미는 G25 공통 생태에서 분화한 기계 기종이다. 일반 전열 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Twin-Compartment Carrier Ant was a machine chassis type differentiated from the G25 common ecology. The general line role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-10-prose-04082",
+      "items": [
+        {
+          "ko": "역할·신체: 길어진 개미형 복부 양옆에 큰 물자함 두 칸이 매달린다. 넓은 여섯 발은 좁은 수색 틈에 못 들어가지만 경사로에서 짐을 평평하게 유지한다.",
+          "en": "Role and body: Two large supply compartments hang on either side of its elongated ant-shaped abdomen. Its six broad feet cannot enter narrow search gaps but keep its cargo level on ramps."
+        },
+        {
+          "ko": "기원: 구조 현장 밖 보급 적치장과 수색 입구를 왕복하던 대형 운반차가 남았다. 마포 연합 창고의 옛 배송표에 적힌 입구 번호를 지우지 못한다.",
+          "en": "Origin: A large carrier that traveled between a supply depot outside the rescue site and the search entrance remained behind. It cannot erase the entrance number on an old delivery sheet in the Mapo Union warehouse."
+        },
+        {
+          "ko": "서식·필요: 갤러리 경사로와 용산선 회수 적재대를 물리적으로 오간다. 발목 베어링, 화물함 패킹과 축전통의 사용량이 실은 무게에 따라 늘어난다.",
+          "en": "Habitat and needs: It physically travels between gallery ramps and the Yongsan Line retrieval loading platform. Consumption of ankle bearings, cargo-compartment seals, and power-storage cylinders rises with the weight it carries."
+        },
+        {
+          "ko": "생애·정비: 내부 저울로 양쪽 짐의 차이를 줄이며, 균형을 맞추다 한 칸을 비우기도 한다. 저울이 고장 나면 몸을 기울인 채 충전대에서 대기한다.",
+          "en": "Life cycle and maintenance: It uses an internal scale to balance the loads on its two sides, sometimes emptying one compartment in the process. If the scale fails, it waits at the charging station with its body tilted."
+        },
+        {
+          "ko": "행동·위계: 충전 꿀벌의 전력 배달이 끝나야 출발한다. 포장 색보다 무게를 우선하므로 식수통과 폐윤활유통을 잘못 맞바꿀 수 있다.",
+          "en": "Behavior and hierarchy: It does not depart until the charging honeybee has delivered power. Because it trusts weight over packaging color, it can mistakenly swap containers of drinking water and waste lubricating oil."
+        },
+        {
+          "ko": "상승: 1단계 빈 함 왕복이 이어지고 2단계에는 시민 재고가 틀린 입구에 쌓인다. 3단계 역주행 운반열은 오르막 피난로를 막는다.",
+          "en": "Escalation: Stage 1 round trips with empty compartments continue, and at stage 2 citizens' supplies pile up at the wrong entrance. At stage 3, carriers traveling against the flow block the uphill evacuation route."
+        },
+        {
+          "ko": "교전·대응: 내용물 확인 후 양쪽 함의 시험추를 맞추고 배송 종료판을 실제 입구에 건다. 차체를 뒤집으면 밀폐되지 않은 통이 경사로에 쏟아진다.",
+          "en": "Combat and response: After checking the contents, balance the test weights in both compartments and hang the delivery-complete plate at the actual entrance. Overturning the chassis spills unsealed containers onto the ramp."
+        },
+        {
+          "ko": "교섭·도덕 선택: 화물마다 사람이 내용표를 붙이고 운반 몫을 정할 수 있다. 군집에 맡긴 재고가 어느 공동체의 소유인지 도착지에서도 인정해야 한다.",
+          "en": "Negotiation and moral choice: A person can label each cargo item's contents and determine its share of transport. Ownership of inventory entrusted to the swarm by a community must also be recognized at its destination."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E11-title-heading-1",
+      "publicAnchors": [
+        "g25e11",
+        "Hostile-Group-G25-heading-0051"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E11 · 비늘날개훑음기",
+        "en": "G25E11 · Scaled-Wing Sweeper"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E11-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 지역 변종",
+          "en": "Former role class: regional variant"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E11-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "지역 적응",
+            "en": "Local adaptation"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "비늘날개훑음기는 G25 공통 생태에서 분화한 기계 기종이다. 지역 적응 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Scaled-Wing Sweeper was a machine chassis type differentiated from the G25 common ecology. The local adaptation role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-11-prose-04083",
+      "items": [
+        {
+          "ko": "역할·신체: 나비형 얇은 날개 두 쌍에 반사 측정편이 겹친 정찰 익형이다. 짧은 비행과 벽 착지를 번갈아 수행해 보행 수색체가 못 보는 천장 틈을 훑는다.",
+          "en": "Role and body: A butterfly-shaped reconnaissance flyer with reflective measuring tabs layered onto two pairs of thin wings. Alternating short flights with wall landings, it scans ceiling gaps that walking search units cannot see."
+        },
+        {
+          "ko": "기원: 용산선 균열 관측 실험용 비행체가 수색 계열의 귀환 받침을 공유하며 편입되었다. 원래의 실험 종료 조건은 봉인 문서와 함께 사라졌다.",
+          "en": "Origin: A flying craft used for crack-observation experiments on the Yongsan Line was incorporated into the search line because it shared their return stand. Its original experiment-termination condition disappeared with the sealed documents."
+        },
+        {
+          "ko": "서식·필요: 천장이 높은 시험실에서만 날개를 편다. 막 재료와 미세 회전축, 가벼운 전지가 필요하고 물먹은 좁은 갤러리에는 착지해 이동한다.",
+          "en": "Habitat and needs: It spreads its wings only in test rooms with high ceilings. It needs membrane material, tiny rotary shafts, and a light battery; in narrow, waterlogged galleries, it lands and travels on foot."
+        },
+        {
+          "ko": "생애·정비: 좌우 반사편의 오염 차이가 커지면 날개를 접어 벽면 기준점이 된다. 막 교체 없이는 다시 이륙하지 않는다.",
+          "en": "Life cycle and maintenance: If contamination of its left and right reflective tabs differs too much, it folds its wings and becomes a wall reference point. It cannot take off again without a replacement membrane."
+        },
+        {
+          "ko": "행동·위계: 상부 균열 위치를 보고할 뿐 하중 안전을 확정하지 않는다. 유리에 비친 틈을 실제 구멍으로 읽으면 벽 안쪽으로 수색 요청이 쌓인다.",
+          "en": "Behavior and hierarchy: It reports the locations of upper cracks but does not certify load-bearing safety. If it reads a gap reflected in glass as a real opening, search requests accumulate for the inside of the wall."
+        },
+        {
+          "ko": "상승: 1단계 천장에 빛 조각이 흔들리고 2단계에는 수색 경로가 위로 치우친다. 3단계 반복 출격은 바닥 생존자에게 갈 충전 순번을 차지한다.",
+          "en": "Escalation: At stage 1, fragments of light waver across the ceiling; at stage 2, search routes shift upward. At stage 3, repeated sorties take charging turns away from survivors on the floor."
+        },
+        {
+          "ko": "교전·대응: 유리 반사를 무광 천으로 가리고 근거리 교정판에 착지시킨다. 날개를 찢어 떨어뜨리면 기준 좌표까지 잃는다.",
+          "en": "Combat and response: Cover glass reflections with matte cloth and bring it down onto a nearby calibration plate. Tearing its wings to make it fall loses the reference coordinates as well."
+        },
+        {
+          "ko": "교섭·도덕 선택: 천장 관측 자료를 받는 대가로 가벼운 전지를 공급한다. 보이지 않는 틈을 더 찾을지 이미 찾은 사람에게 전력을 돌릴지 결정이 따른다.",
+          "en": "Negotiation and moral choice: Supply light batteries in exchange for ceiling-observation data. A decision then follows: search for more unseen gaps or divert power to people already found."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E12-title-heading-1",
+      "publicAnchors": [
+        "g25e12",
+        "Hostile-Group-G25-heading-0055"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E12 · 철껍질막음벌레",
+        "en": "G25E12 · Iron-Shell Barricade Beetle"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E12-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 수호자",
+          "en": "Former role class: guardian"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E12-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "방호·엄호",
+            "en": "Protection · cover"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "철껍질막음벌레는 G25 공통 생태에서 분화한 기계 기종이다. 방호·엄호 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Iron-Shell Barricade Beetle was a machine chassis type differentiated from the G25 common ecology. The protection · cover role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-12-prose-04084",
+      "items": [
+        {
+          "ko": "역할·신체: 맞물린 딱정벌레형 장갑 두 장이 등에 솟은 통로 방호체다. 다리를 안으로 접으면 낙하물 아래 작은 피난 덮개가 된다.",
+          "en": "Role and body: A passage-protection unit with two interlocking beetle-shaped armor plates rising from its back. When it folds its legs inward, it becomes a small shelter canopy beneath falling debris."
+        },
+        {
+          "ko": "기원: 붕괴 전 구조대가 지나갈 동안 파편을 받던 이동 차양에서 시작했다. 마포 연합 방호 시험장에 남은 낙하 경보가 재기동 뒤에도 해제되지 않는다.",
+          "en": "Origin: It began as a mobile canopy that caught fragments while pre-collapse rescue teams passed through. A falling-debris alarm left at the Mapo Union protection test site remains active after restart."
+        },
+        {
+          "ko": "서식·필요: 천장 손상이 많은 갤러리 턱을 지킨다. 장갑 연결핀과 완충 블록을 소모하며 충전선 없이 무거운 덮개를 연속 여닫지 못한다.",
+          "en": "Habitat and needs: It guards gallery ledges beneath damaged ceilings. It wears through armor connecting pins and cushioning blocks and cannot repeatedly open and close its heavy cover without a charging line."
+        },
+        {
+          "ko": "생애·정비: 움푹 팬 장갑은 펴지 못하고 뒤집어 안쪽 보강면으로 쓴다. 두 면이 모두 찌그러지면 방호 높이가 낮아져 사람 통행을 중단한다.",
+          "en": "Life cycle and maintenance: It cannot straighten dented armor, so it flips the plates over and uses their reinforced inner faces. When both faces are crushed, the protected clearance drops and it stops people from passing."
+        },
+        {
+          "ko": "행동·위계: 귀뚜라미 중계의 낙하 신호에 덮개를 닫는다. 먼 벽을 두드린 소리가 실제 파편 충돌처럼 전달되면 통행자를 안에 가둔다.",
+          "en": "Behavior and hierarchy: It closes its cover in response to a falling-debris signal relayed by the cricket. If tapping on a distant wall is transmitted like a real fragment strike, it traps passersby inside."
+        },
+        {
+          "ko": "상승: 1단계는 이유 없는 덮개 떨림이다. 2단계 잦은 폐쇄로 구조가 지연되고, 3단계 잠금은 보호 공간을 탈출 불가한 낮은 칸으로 바꾼다.",
+          "en": "Escalation: Stage 1 is unexplained trembling of the cover. At stage 2, frequent closures delay rescue; at stage 3, the lock turns the protected space into a low compartment with no way out."
+        },
+        {
+          "ko": "교전·대응: 덮개 아래 지지 쐐기를 세운 뒤 외부 완충 센서를 분리한다. 위에서 무게로 누르는 공격은 보호받는 사람을 함께 짓누른다.",
+          "en": "Combat and response: Set support wedges beneath the cover before disconnecting the external impact sensor. An attack that presses down on it with weight also crushes the people it protects."
+        },
+        {
+          "ko": "교섭·도덕 선택: 실제 낙하물 점검을 맡기고 완충재 몫을 주면 보호 덮개를 유지한다. 희귀 장갑판을 시민 주거 지붕에 쓸지 이동 피난소에 남길지 비용이 있다.",
+          "en": "Negotiation and moral choice: It will maintain the protective cover if assigned real falling-debris inspections and given a share of cushioning material. There is a cost to deciding whether scarce armor plates should go on residents' roofs or remain with the mobile shelter."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario connections: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E13-title-heading-1",
+      "publicAnchors": [
+        "g25e13",
+        "Hostile-Group-G25-heading-0059"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E13 · 큰울림중계귀뚜라미",
+        "en": "G25E13 · Great-Resonance Relay Cricket"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E13-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 노화 단계형",
+          "en": "Former role class: aging-stage type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E13-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "노화 변이",
+            "en": "Aged variant"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "큰울림중계귀뚜라미는 G25 공통 생태에서 분화한 기계 기종이다. 노화 변이 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Great-Resonance Relay Cricket was a machine chassis type differentiated from the G25 common ecology. The aged variant role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-13-prose-04085",
+      "items": [
+        {
+          "ko": "역할·신체: 키 큰 공명 기둥을 등에 이고 두 뒷다리를 바닥 고리에 건 대형 귀뚜라미형이다. 움직임보다 여러 작은 중계체의 박자를 정렬하는 기능이 남았다.",
+          "en": "Role and body: A large cricket-shaped unit with a tall resonance pillar on its back and its two hind legs hooked into floor rings. Its remaining function is to synchronize the timing of several small relay units rather than to move."
+        },
+        {
+          "ko": "기원: 광범위 구조 수색을 묶던 붕괴 이전 주중계기가 장기 휴면 중 기둥 절반을 잃었다. 마포 연합 재통전 때 낡은 응답 기록까지 한꺼번에 방출했다.",
+          "en": "Origin: A pre-collapse main relay that coordinated searches across a wide area lost half its pillar during a long dormancy. When the Mapo Union restored power, it released old response records all at once."
+        },
+        {
+          "ko": "서식·필요: 소리를 멀리 전할 수 있는 단단한 벽체 교차부를 벗어나지 않는다. 장력 볼트, 공명판과 높은 도킹 전력을 쓰지만 열린 공중으로는 같은 거리를 잇지 못한다.",
+          "en": "Habitat and needs: It does not leave intersections of solid walls that can carry sound over long distances. It uses tension bolts, resonance panels, and substantial docking power, but cannot bridge the same distance through open air."
+        },
+        {
+          "ko": "생애·정비: 기둥의 피로 균열 때문에 높은 주파수부터 사라진다. 작은 중계체를 연결해 보조할 수 있어도 원래의 대역을 완전히 되찾지는 못한다.",
+          "en": "Life cycle and maintenance: Fatigue cracks in the pillar cause the highest frequencies to disappear first. Small relay units can be connected to assist it, but they cannot fully restore its original bandwidth."
+        },
+        {
+          "ko": "행동·위계: 분기 사이 응답 순서만 조정하며 여왕 중계탑의 작업 구획은 바꾸지 못한다. 서로 다른 호출이 낮은 한 음으로 합쳐져 빈 구조 요청이 생긴다.",
+          "en": "Behavior and hierarchy: It adjusts only the order of responses between branches; it cannot change the queen relay tower’s work zones. Different calls merge into a single low note, creating spurious rescue requests."
+        },
+        {
+          "ko": "상승: 1단계의 오래된 호출 재생이 2단계에서 모든 분기의 응답을 늦춘다. 3단계에는 끝나지 않는 응답 충돌 때문에 출발 확인이 멎는다.",
+          "en": "Escalation: At stage 1, it replays old calls; at stage 2, responses from every branch are delayed. At stage 3, unending response collisions bring departure confirmations to a halt."
+        },
+        {
+          "ko": "교전·대응: 공명 기둥에 시험용 감쇠띠를 걸고 분기선 하나씩 유선으로 확인한다. 기둥을 넘어뜨리면 벽체 고정점이 함께 뜯긴다.",
+          "en": "Engagement and response: Fit a test damping band to the resonance pillar and check each branch line by wire. Toppling the pillar tears out the wall anchors with it."
+        },
+        {
+          "ko": "교섭·도덕 선택: 낮은 대역의 비상 연락만 맡기고 나머지는 인간 연락원에게 넘길 수 있다. 낡은 중계기를 보존하는 정비 노동을 빠른 새 장비와 비교해야 한다.",
+          "en": "Negotiation and moral choice: It can be assigned only low-band emergency communications, with the rest handed over to human liaisons. The maintenance labor required to preserve the old relay must be weighed against faster new equipment."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario links: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E14-title-heading-1",
+      "publicAnchors": [
+        "g25e14",
+        "Hostile-Group-G25-heading-0063"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E14 · 흰턱청소군",
+        "en": "G25E14 · White-Jawed Cleaning Colony"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E14-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E14-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "일반 전열",
+            "en": "General line"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "흰턱청소군은 G25 공통 생태에서 분화한 기계 기종다. 일반 전열 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The White-Jaw Cleaning Swarm was a machine chassis type differentiated from the G25 common ecology. The general line role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-14-prose-04086",
+      "items": [
+        {
+          "ko": "역할·신체: 작은 흰개미형 청소체의 앞턱에는 씹는 날 대신 부스러기 솔이 물려 있다. 옅은 외피 아래 수거 주머니가 차면 배가 낮아진다.",
+          "en": "Role and body: The front jaws of these small termite-shaped cleaners hold crumb brushes instead of chewing blades. When the collection pouch beneath the pale shell fills, the abdomen hangs lower."
+        },
+        {
+          "ko": "기원: 용산선 시험 트랙의 배선 홈을 청소하던 전처리 장비가 수색 계열의 점검 시작 신호에 반응했다. 유기 오염물과 생활 재료의 구분표는 낡았다.",
+          "en": "Origin: Preprocessing equipment that cleaned wiring grooves on the Yongsan Line test track responded to a search system’s inspection-start signal. Its table for distinguishing organic contaminants from household materials is outdated."
+        },
+        {
+          "ko": "서식·필요: 먼지가 모이는 케이블 홈과 마포 연합 단열재 틈을 따른다. 솔섬유와 수거 주머니를 필요로 하고 모은 찌꺼기를 동력으로 먹지는 않는다.",
+          "en": "Habitat and needs: They follow dust-filled cable grooves and gaps in Mapo Union insulation. They need brush fibers and collection pouches; they do not consume the debris they gather for power."
+        },
+        {
+          "ko": "생애·정비: 가득 찬 주머니를 지정 회수통에서 비운다. 회수통이 없으면 움직임을 줄이며 새 개체 대신 손상된 솔을 서로 바꿔 수를 유지한다.",
+          "en": "Life cycle and maintenance: They empty full pouches at designated collection bins. Without a bin, they move less and maintain their numbers by exchanging damaged brushes rather than making new units."
+        },
+        {
+          "ko": "행동·위계: 앞 개체가 남긴 깨끗한 홈 가장자리를 따라 폭을 넓힌다. 케이블 보호 섬유와 주민 이불 조각도 같은 제거 대상으로 읽는다.",
+          "en": "Behavior and hierarchy: They follow the clean groove edge left by the unit ahead and widen it. They also read cable-protective fibers and pieces of residents’ blankets as material to remove."
+        },
+        {
+          "ko": "상승: 1단계 솔 자국이 바닥을 희게 만들고 2단계에는 단열재가 사라진다. 3단계 노출 배선이 겹치면 점검 갤러리 자체가 감전 위험 구역이 된다.",
+          "en": "Escalation: At stage 1, brush marks turn the floor white; at stage 2, insulation disappears. At stage 3, exposed wiring overlaps, making the inspection gallery itself an electrocution hazard."
+        },
+        {
+          "ko": "교전·대응: 분리 가능한 청소 홈을 회수통까지 이어 유도한다. 독성 세척제를 퍼붓는 대응은 시민 통행면을 더럽힐 뿐 주머니를 비우지 못한다.",
+          "en": "Engagement and response: Lead them along a detachable cleaning groove to a collection bin. Dousing them with toxic cleaner only contaminates the surfaces civilians walk on; it does not empty their pouches."
+        },
+        {
+          "ko": "교섭·도덕 선택: 청소 경계와 폐기물 소유권을 정해 작업을 맡긴다. 깨끗한 케이블을 얻기 위해 누군가의 겨울 단열재를 폐기물로 선언하지 않아야 한다.",
+          "en": "Negotiation and moral choice: Set cleaning boundaries and waste ownership before assigning them work. Someone’s winter insulation must not be declared waste just to obtain clean cables."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario links: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E15-title-heading-1",
+      "publicAnchors": [
+        "g25e15",
+        "Hostile-Group-G25-heading-0067"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E15 · 벌집충전거치대",
+        "en": "G25E15 · Honeycomb Charging Rack"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "거점 통제",
+            "en": "Strongpoint control"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "벌집충전거치대는 G25 공통 생태에서 분화한 기계 기종이다. 거점 통제 역할은 고정된 작업 구역 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Honeycomb Charging Rack was a machine chassis type differentiated from the G25 common ecology. The strongpoint control role applied only within a fixed work zone, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-15-prose-04087",
+      "items": [
+        {
+          "ko": "역할·신체: 육각 충전 구멍이 벽을 덮는 벌집형 거치대다. 하부에는 고장 전지를 내리는 짧은 다리만 있어 스스로 다른 방으로 옮겨 가지 못한다.",
+          "en": "Role and body: A honeycomb-shaped rack whose hexagonal charging sockets cover a wall. It has only short legs underneath for lowering faulty batteries and cannot move itself to another room."
+        },
+        {
+          "ko": "기원: 붕괴 이전 수색 기체의 전지 교환 벽이 용산선 격납동 비상선에 남았다. 재통전 뒤 옛 수색 순위가 시민 전력 수요보다 먼저 배정된다.",
+          "en": "Origin: A battery-exchange wall for pre-collapse search units remained on an emergency line in the Yongsan Line hangar. After power was restored, old search priorities took precedence over civilian electricity needs."
+        },
+        {
+          "ko": "서식·필요: 마른 충전실의 살아 있는 분전선에 고정된다. 전력과 절연 칸막이, 퓨즈를 소비하며 빈 구멍이 많아도 외부에서 전지가 오지 않으면 공급하지 못한다.",
+          "en": "Habitat and needs: It is fixed to a live distribution line in a dry charging room. It uses electricity, insulating partitions, and fuses; however many sockets are empty, it cannot supply batteries unless they arrive from outside."
+        },
+        {
+          "ko": "생애·정비: 과열된 칸 하나를 물리 셔터로 가두고 이웃 칸의 충전률을 낮춘다. 녹은 접점은 기체를 받아도 회복되지 않아 사용할 구멍이 줄어든다.",
+          "en": "Life cycle and maintenance: It isolates an overheated cell with a physical shutter and reduces the charging rate of neighboring cells. Melted contacts do not recover when a unit is docked, so the number of usable sockets shrinks."
+        },
+        {
+          "ko": "행동·위계: 꿀벌형은 여기서 전지를 받아 갈 뿐 거치대 전체를 지휘하지 않는다. 내부 온도계가 낮게 굳으면 위험한 칸의 전지도 정상 순번으로 나간다.",
+          "en": "Behavior and hierarchy: Bee-shaped units take batteries from it but do not command the rack as a whole. If its internal thermometer sticks at a low reading, batteries in dangerous cells are issued in the normal sequence too."
+        },
+        {
+          "ko": "상승: 1단계는 비어 있는 칸의 충전등이다. 2단계 시민 분전이 줄고 3단계에는 과열 셔터가 출입 점검문까지 물리적으로 밀어 잠근다.",
+          "en": "Escalation: Stage 1 is charging lights on empty cells. At stage 2, civilian power distribution falls; at stage 3, an overheating shutter physically pushes the access inspection door shut and locks it."
+        },
+        {
+          "ko": "교전·대응: 부하를 칸별로 내린 뒤 독립 온도계로 안전 전지만 분리한다. 전체 벽을 깨뜨리면 서로 다른 전지의 단자가 맞닿는다.",
+          "en": "Engagement and response: Reduce the load cell by cell, then use an independent thermometer to remove only safe batteries. Breaking the entire wall brings the terminals of different batteries into contact."
+        },
+        {
+          "ko": "교섭·도덕 선택: 시민 조명 몫과 군집 충전 몫을 분전표에 나눌 수 있다. 안전을 이유로 한 가문이 충전실 열쇠를 독점하지 못하도록 참관을 남긴다.",
+          "en": "Negotiation and moral choice: The civilian lighting share and the swarm’s charging share can be allocated on the distribution chart. Keep observers present so that one family cannot monopolize the charging-room key in the name of safety."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario links: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25E16-title-heading-1",
+      "publicAnchors": [
+        "g25e16",
+        "Hostile-Group-G25-heading-0071"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25E16 · 여왕잔향탑",
+        "en": "G25E16 · Queen Echo Tower"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G25-generated-G25E16-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M040",
+          "en": "Source batch: M040"
+        },
+        {
+          "ko": "기존 역할군: 시나리오 보스",
+          "en": "Former role class: scenario boss"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G25-SC1\",\"G25-SC2\",\"G25-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G25-generated-G25E16-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "여왕잔향탑은 G25 공통 생태에서 분화한 기계 기종이다. 전략 조우 역할은 독립 개체 범위에만 적용되며, 집단 전체의 생태 질서나 인간 지휘권을 대신하지 않는다.",
+            "en": "The Queen Echo Tower was a machine chassis type differentiated from the G25 common ecology. The strategic encounter role applied only at the independent-unit scope, and stood in for neither the whole swarm's ecological order nor human command."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M040-entries-16-prose-04088",
+      "items": [
+        {
+          "ko": "역할·신체: 기다란 개미 여왕의 복부처럼 생긴 중계탑이 정비실 중앙에 누워 있다. 머리의 안테나와 환형 단자들이 수색 구획의 호출 순서를 묶는다.",
+          "en": "Role and body: A relay tower shaped like a long ant queen’s abdomen lies in the center of a maintenance room. Antennae on its head and ring-shaped terminals coordinate the order of calls across search zones."
+        },
+        {
+          "ko": "기원: 대규모 구조 훈련의 최종 인원 확인 장치가 붕괴로 종료 보고를 받지 못했다. 생물의 번식기관이 아니라 읽기 어려운 옛 작업표가 여왕이라는 별명의 근거다.",
+          "en": "Origin: The final headcount device for a large-scale rescue drill never received a completion report because of the collapse. Its nickname, queen, comes not from a biological reproductive organ but from an old work schedule that is hard to read."
+        },
+        {
+          "ko": "서식·필요: 마포 연합 봉인 갤러리의 접속실에서만 작동한다. 냉각 필터와 기록 모듈, 분전 전력이 필요하고 새 수색체를 생산할 설비는 없다.",
+          "en": "Habitat and needs: It operates only in the connection room of the Mapo Union sealed gallery. It needs cooling filters, recording modules, and distributed power; it has no facilities for producing new search units."
+        },
+        {
+          "ko": "생애·정비: 기록 불량 구획을 차례로 잠가 유효한 호출만 남기려 한다. 남은 표가 줄수록 같은 좁은 구획에 수색이 집중되며 사람의 승인 없이는 표를 복원하지 못한다.",
+          "en": "Life cycle and maintenance: It tries to lock zones with faulty records one by one, leaving only valid calls. As the remaining schedule shrinks, searches concentrate in the same narrow zones, and it cannot restore the schedule without human approval."
+        },
+        {
+          "ko": "행동·위계: 작은 중계체를 써서 시작과 귀환을 배포하되 실제 생존자는 직접 보지 못한다. 미응답을 전부 미구조 인원으로 간주하여 군집이 고착된다.",
+          "en": "Behavior and hierarchy: It distributes start and return calls through small relay units but cannot directly see actual survivors. Its treatment of every nonresponse as a person still awaiting rescue is at the heart of the swarm’s fixation."
+        },
+        {
+          "ko": "상승: 1단계에 폐기된 구획의 호출이 살아난다. 2단계는 충전과 운반이 그 구획으로 몰리는 상태다. 3단계 최종 인원 불일치가 모든 연결 출구의 완료 승인을 보류한다.",
+          "en": "Escalation: At stage 1, calls from decommissioned zones resume. At stage 2, charging and transport converge on those zones. At stage 3, a discrepancy in the final headcount suspends completion approval for every connected exit."
+        },
+        {
+          "ko": "교전·대응: 실물 구획 지도와 귀환 기록을 분리 단자에서 대조하여 없는 주소부터 봉인한다. 중앙 전원만 끊으면 떨어진 중계체가 마지막 호출을 계속하므로 분기별 종료가 필요하다.",
+          "en": "Engagement and response: Compare a physical map of the zones with return records at an isolated terminal, sealing nonexistent addresses first. Cutting only the central power leaves remote relays repeating the last call, so each branch must be shut down separately."
+        },
+        {
+          "ko": "교섭·도덕 선택: 확인되지 않은 구획을 영구 폐쇄할지 제한 수색 대상으로 남길지 결정한다. 종료를 선언하면 현재 주민의 길은 열리지만 아직 찾지 못한 사람의 기록을 포기했다는 책임이 남는다.",
+          "en": "Negotiation and moral choice: Decide whether to close unverified zones permanently or retain them for limited searches. Declaring the operation complete opens routes for current residents, but leaves responsibility for abandoning the records of people not yet found."
+        },
+        {
+          "ko": "시나리오 연결: G25-SC1, G25-SC2, G25-SC3.",
+          "en": "Scenario links: G25-SC1, G25-SC2, G25-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G25-generated-G25-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G25-heading-0075"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01744",
+      "text": {
+        "ko": "바닥에 놓인 불빛은 멀리서 보면 피난 방향을 알리는 점선처럼 보인다.",
+        "en": "From a distance, the lights on the floor looked like a dotted line showing the way to evacuate."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01745",
+      "text": {
+        "ko": "가까이 다가가면 각 점 아래에 여섯 다리와 작은 적재함이 있고, 두 줄의 기체가 깨진 케이블 선반을 따라 서로 반대 방향으로 흐른다.",
+        "en": "Up close, under each dot were six legs and a small cargo bin, and two lines of units flowed in opposite directions along the broken cable shelves."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01746",
+      "text": {
+        "ko": "마포 연합 송신 지하 갤러리에서 처음 깨어난 등불개미는 어둠을 밝히려고 움직이지 않는다.",
+        "en": "The Lantern Ant that first woke in the transmission underground gallery of the Mapo Union did not move in order to light the dark."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01747",
+      "text": {
+        "ko": "개미형 선두줄은 하중을 재고 후미줄은 빈 구호 캡슐을 운반하며, 사마귀형 첨병 팔은 복렬의 폭을 확보한다.",
+        "en": "The lead line of ant types measured loads and the rear line carried empty relief capsules, while the mantis-type vanguard arms secured the width of the double line."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01748",
+      "text": {
+        "ko": "천장 가까이 붙은 귀뚜라미형 발신기가 짧은 호출음을 보내면 다음 충전대의 불빛이 차례로 켜진다.",
+        "en": "When the cricket-type transmitters clinging near the ceiling sent short call tones, the lights of the next charging stands came on one after another."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01749",
+      "text": {
+        "ko": "이 계열은 붕괴 이전 재난 지형 탐사와 자동 구호 배송을 맡았던 생체모방 군집 로봇이다.",
+        "en": "This line was a biomimetic swarm robot that had handled disaster-terrain exploration and automatic relief delivery before the collapse."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01750",
+      "text": {
+        "ko": "마포 연합 봉인 갤러리와 용산선 연구동 시험 트랙에 수면 상태로 남았고, 후대가 송신 분전과 시험 설비를 부분 복구한 날 마지막 훈련표를 실제 재난 명령으로 받아들여 기상했다.",
+        "en": "It remained dormant in the sealed gallery of the Mapo Union and on the laboratory test track of the Yongsan Line, and on the day later generations partly restored the transmission distribution and test equipment, it took its last training table for a real disaster order and woke."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01751",
+      "text": {
+        "ko": "제작 의도와 상위 지시 형식은 온전히 읽히지 않는다.",
+        "en": "The intent of its makers and the form of its higher instructions could not be read in full."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01752",
+      "text": {
+        "ko": "어떤 표식은 사람을 수신자로 만들고 어떤 표식은 같은 사람을 이동 장애물로 바꾸지만, 그 차이를 설명할 원본 장부가 없다.",
+        "en": "Some markers made a person a recipient and others turned the same person into a moving obstacle, but there was no original ledger to explain the difference."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01753",
+      "text": {
+        "ko": "그래서 정사는 이들을 새 병기보다 로스트 기술의 잔존 계보로 다룬다.",
+        "en": "So the official history treated them less as new weapons than as a surviving lineage of lost technology."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01754",
+      "text": {
+        "ko": "현재 행동은 봉인 전 수색 구획과 배송 순서가 굳어진 결과다.",
+        "en": "Its present behavior follows search sectors and delivery sequences fixed before sealing."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01755",
+      "text": {
+        "ko": "군집의 지각은 낮고 촘촘하다.",
+        "en": "The swarm's perception was low and dense."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01756",
+      "text": {
+        "ko": "개미형은 바닥의 기울기, 다리마다 걸리는 압력, 가까운 열과 호흡 변화를 읽는다.",
+        "en": "The ant types read the slope of the floor, the pressure on each leg, nearby heat, and changes in breathing."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01757",
+      "text": {
+        "ko": "사마귀형은 관절 토크로 잔해 무게를 가늠하고, 귀뚜라미형은 음향 펄스가 돌아오는 시간과 단거리 응답으로 다음 구획을 확인한다.",
+        "en": "The mantis types gauged the weight of debris by joint torque, and the cricket types confirmed the next sector by the return time of acoustic pulses and short-range replies."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01758",
+      "text": {
+        "ko": "얼굴과 이름은 보지 못한다.",
+        "en": "They could not see faces or names."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01759",
+      "text": {
+        "ko": "뜨거운 배관은 누운 생존자로 표시되고, 규칙적으로 떨리는 발전기는 구조 비콘이 되며 오래된 반사판을 든 사람은 시험 트랙의 이동 표적으로 분류될 수 있다.",
+        "en": "Hot pipes were marked as survivors lying down, generators that trembled regularly became rescue beacons, and a person carrying an old reflector could be classified as a moving target on the test track."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01760",
+      "text": {
+        "ko": "F09가 센서 지도를 보정해도 최종 통행은 HC15 현장 중재자가 바닥 하중과 피난 명단을 맞춘 뒤에만 열린다.",
+        "en": "Even when F09 corrected the sensor map, final passage opened only after the HC15 field mediator matched the floor loads to the evacuation roster."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01761",
+      "text": {
+        "ko": "개체가 많다고 끝없이 늘어나는 것은 아니다.",
+        "en": "Having many units did not mean they increased without end."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01762",
+      "text": {
+        "ko": "전력은 봉인고 축전지와 유도 충전판에 묶이고, 중계기 하나가 침묵하면 그 너머의 복렬은 마지막 확인점으로 돌아온다.",
+        "en": "Power was tied to the sealed vault's batteries and induction charging plates, and when a single relay fell silent, the double lines beyond it returned to their last checkpoint."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01763",
+      "text": {
+        "ko": "부서진 기체의 다리와 렌즈를 같은 슬롯에 옮길 수는 있어도 새 몸체를 만들 수 없다.",
+        "en": "They could move the legs and lenses of broken units into the same slots, but could not make new bodies."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01764",
+      "text": {
+        "ko": "한 구획의 분배핵은 귀환 전력을 절반 가까이 남기며, 잔량이 낮아지면 사마귀형부터 팔을 접는다.",
+        "en": "The distribution core of a sector kept nearly half its power for the return, and when reserves ran low the mantis types folded their arms first."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01765",
+      "text": {
+        "ko": "HC15 회수반이 정밀 모터를 가져갈수록 탐색 반경은 줄고, 시민이 충전 슬롯을 내줄수록 송신 갤러리의 다른 장비가 쓸 전력도 줄어든다.",
+        "en": "The more precision motors the HC15 recovery crew took, the smaller the search radius became, and the more charging slots citizens gave up, the less power was left for the other equipment in the transmission gallery."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01766",
+      "text": {
+        "ko": "이 생태의 자원 장부에는 개체 수보다 중계 가능한 거리와 반환되는 적재함 수가 적힌다.",
+        "en": "The resource ledger of this ecology was written not in numbers of units but in relayable distance and the number of cargo bins returned."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01767",
+      "text": {
+        "ko": "출현한 복렬은 먼저 바닥을 두 줄로 재고, 확산 단계에서 발신기를 한 구획씩 전진시킨다.",
+        "en": "The double lines that emerged first measured the floor in two rows, and in the spreading stage advanced their transmitters one sector at a time."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01768",
+      "text": {
+        "ko": "경로 표식이 충돌하면 같은 고리를 돌며 정체한다.",
+        "en": "When route markers conflicted, they stalled, circling the same loop."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01769",
+      "text": {
+        "ko": "이때 올바른 수신자 표식과 빈 적재함, 발신 침묵 시간을 제시하면 배송 큐 일부를 사람이 다시 쓸 수 있다.",
+        "en": "At that moment, if the correct recipient markers, empty cargo bins, and transmitter silence times were presented, people could rewrite part of the delivery queue."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01770",
+      "text": {
+        "ko": "주 발신기를 격리하고 충전대별 경로 장부를 분리하면 연동이 끊기며 군집이 와해된다.",
+        "en": "Isolating the main transmitter and separating route ledgers by charging stand breaks the linkage and dissolves the swarm."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01771",
+      "text": {
+        "ko": "한 줄의 불빛을 남겨 구조에 쓰되 다른 한 줄은 봉인하는 선택이 가능하다.",
+        "en": "The choice of keeping one line of lights for rescue while sealing the other line was possible."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01772",
+      "publicAnchors": [
+        "Hostile-Group-G25-heading-0104"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25-SC1 · 벽 안에서 우는 비콘",
+        "en": "G25-SC1 · The Beacon Crying Inside the Wall"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01773",
+      "text": {
+        "ko": "마포 연합 갤러리 벽 뒤에서 세 박자의 구조 호출이 반복되고 개미형 선두줄이 케이블 선반을 뜯기 시작한다.",
+        "en": "Behind a wall of the Mapo Union gallery, a three-beat rescue call repeated, and the lead line of ant types began tearing at the cable shelves."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01774",
+      "text": {
+        "ko": "실제 생존 신호인지 오래된 시험 발신기인지 확인되지 않은 상태에서 HC15 회수반은 벽을 보존하려 하고 F09는 미세한 호흡 열을 한 번 포착한다.",
+        "en": "While it was not yet confirmed whether this was a real survival signal or an old test transmitter, the HC15 recovery crew tried to preserve the wall, and F09 caught a faint trace of breathing heat once."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01775",
+      "text": {
+        "ko": "현장 인원은 흡음포로 호출을 구획별로 끊고 접촉 탐색 기체 네 대만 들여보내거나, 사마귀형에게 벽을 열게 하되 송신 케이블 손실을 감수해야 한다.",
+        "en": "The people on site had to either cut the call sector by sector with sound-absorbing cloth and send in only four contact-search units, or have the mantis types open the wall and accept the loss of the transmission cable."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01776",
+      "text": {
+        "ko": "잘못 봉인하면 구조 가능성을 버리고, 성급히 절단하면 마포 연합 외부 연락 한 채널이 사라진다.",
+        "en": "Sealing it wrongly meant abandoning the chance of rescue, and cutting in haste meant one channel of the Mapo Union's outside contact disappeared."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01777",
+      "publicAnchors": [
+        "Hostile-Group-G25-heading-0109"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25-SC2 · 돌아오지 않은 구호 캡슐",
+        "en": "G25-SC2 · The Relief Capsules That Did Not Return"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01778",
+      "text": {
+        "ko": "XT05 인도 목록에 실린 의약 캡슐이 용산선 임시 진료점 대신 연구동 시험 트랙의 모의 수신자 앞에 쌓인다.",
+        "en": "Medical capsules on the XT05 delivery list piled up in front of mock recipients on the laboratory test track instead of at the temporary clinic on the Yongsan Line."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01779",
+      "text": {
+        "ko": "분배핵은 봉인 상태가 온전한 상자를 임무 성공으로 기록하고 시민의 새 표식을 거부한다.",
+        "en": "The distribution core recorded boxes with intact seals as mission success and rejected the citizens' new markers."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01780",
+      "text": {
+        "ko": "현장 인원은 HC15의 안테나 판을 교환품으로 내놓고 새 배송표를 한 교대만 승인받거나, 기존 적재함을 회수해 사람이 직접 나르거나, 시험 수신점을 진료점 가까이 물리적으로 옮길 수 있다.",
+        "en": "The people on site could offer HC15's antenna plates in exchange and get a new delivery table approved for just one shift, recover the existing cargo bins and carry them by hand, or physically move the test receiving point close to the clinic."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01781",
+      "text": {
+        "ko": "첫 선택을 하면 로스트 부품이 소모되고, 둘째를 하면 부상자 도착이 늦어지며, 셋째를 하면 앞으로 군집이 진료 구역을 자기 시험장처럼 순회한다.",
+        "en": "The first choice used up lost-technology parts, the second delayed the arrival of the injured, and the third made the swarm patrol the clinic zone from then on as if it were its own test ground."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01782",
+      "publicAnchors": [
+        "Hostile-Group-G25-heading-0114"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G25-SC3 · 두 줄의 봉쇄등",
+        "en": "G25-SC3 · Two Lines of Lockdown Lights"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01783",
+      "text": {
+        "ko": "마포 연합과 용산선을 잇는 지하 교차부에서 귀뚜라미형 세 기가 서로 다른 귀환음을 내자 복렬이 원형으로 얽힌다.",
+        "en": "At the underground junction linking the Mapo Union and the Yongsan Line, three cricket-type units gave off different return tones, and the double lines tangled into a ring."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01784",
+      "text": {
+        "ko": "사마귀형 첨병은 고리를 통로로 만들기 위해 난간과 차단문을 들어 내고, 갇힌 시민은 불빛 안쪽을 벗어나지 못한다.",
+        "en": "The mantis-type vanguards tore out railings and barrier doors to turn the loop into a passage, and trapped citizens could not get out of the circle of light."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01785",
+      "text": {
+        "ko": "현장 인원은 발신기 사이에 정확한 침묵 구간을 만들어 한 줄씩 충전대로 돌려보내야 한다.",
+        "en": "The people on site had to create precise silent intervals between the transmitters and send the lines back to the charging stands one at a time."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01786",
+      "text": {
+        "ko": "주 발신기를 파괴하면 즉시 틈이 생기지만 방향을 잃은 소형 기체가 케이블 층으로 흩어지고, 모든 전력을 끄면 송신과 연구동 안전 감시도 함께 멎는다.",
+        "en": "Destroying the main transmitter made an opening at once, but the small units that lost their bearings scattered into the cable layers, and cutting all power stopped the transmission and the laboratory safety monitoring as well."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-25-dossier_prose-01787",
+      "text": {
+        "ko": "한 복렬을 구조용으로 남기면 느린 검수와 충전 배분을 캠페인 내내 떠안는 대신 좁은 잔해 구역의 생존자 탐색 능력은 보존된다.",
+        "en": "The ending that kept one double line for rescue preserved the ability to search for survivors in narrow debris zones, at the price of carrying slow inspection and charge allocation throughout the campaign."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "A light laid on the floor looked, from far off, like a dotted line announcing the refuge direction. Up close, each dot held six legs and a small loading box, and two files of chassis flowed in opposite directions along the broken cable racks. The Lantern Ant, first woken in the Mapo coalition transmission gallery, did not move to light the dark.",
+        "ko": "바닥에 놓인 불빛은 멀리서 보면 피난 방향을 알리는 점선처럼 보인다. 가까이 다가가면 각 점 아래에 여섯 다리와 작은 적재함이 있고, 두 줄의 기체가 깨진 케이블 선반을 따라 서로 반대 방향으로 흐른다. 마포 연합 송신 지하 갤러리에서 처음 깨어난 등불개미는 어둠을 밝히려고 움직이지 않는다."
+      },
+      "variants": [
+        {
+          "id": "G25E01",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E02",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E03",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E04",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E05",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E06",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E07",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E08",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E09",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E10",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E11",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E12",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E13",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E14",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E15",
+          "source_batch": "M040"
+        },
+        {
+          "id": "G25E16",
+          "source_batch": "M040"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

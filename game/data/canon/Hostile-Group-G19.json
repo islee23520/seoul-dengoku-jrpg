@@ -1,0 +1,833 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G19",
+  "slug": "Hostile-Group-G19",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G19]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G19 · Gurgler",
+      "summary": "G19 · Gurgler",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G19 · 그르렁이",
+      "summary": "G19 · 그르렁이",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G19-generated-G19-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G19-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G19 · 그르렁이",
+        "en": "G19 · Gurgler"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G19-generated-G19-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G19-generated-G19-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G19-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G19-generated-G19-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "온배수 부하가 높은 밤 냉각 회랑의 사람에게는 젖은 입가와 목, 손끝의 푸른 때, 숨마다 나는 그르렁 소리가 있다. 찬물은 밸브 아래와 바닥 배관과 응축수 배수로에 고여 있다.",
+        "en": "On a high heated-drainage load night the people in the cooling corridor have wet mouths and necks, blue grime on the fingertips, and a gurgle with every breath. Cold water has pooled under the valve, in the floor pipe, and in the condensate drain."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G19-generated-G19-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "물귀신과 물기침과 배관기기가 같은 밸브실에 있다. 물귀신은 고인 물속에 있고 물기침은 밸브 앞에 있으며 배관기기는 관 위에 있다. 그르렁이는 관마다 배관기기 분기 쪽에 서 있다.",
+        "en": "The Water Ghost, the Water Cough, and the Pipe Apparatus are in the same valve room. The Water Ghost is in the pooled water, the Water Cough is in front of the valve, and the Pipe Apparatus is on the pipe. The Gurglers standing on each pipe are on the branch side of the Pipe Apparatus."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G19-generated-G19-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G19-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G19-generated-G19-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "수문국 급수 당직이 온배수 부하가 높은 밤 태욱그룹 지하 냉각 회랑 밸브실에서 사람을 본다. 사람은 밸브실에 서 있다. 입가와 목이 젖어 있으며 손끝에 푸른 때가 있다. 들이쉬는 숨마다 목에서 그르렁 소리가 난다. / 회랑 모퉁이 밖에서는 걸음이 난다. 밸브실 문턱에서는 목소리가 배관 철판을 울린다. 수문국 급수 당직은 노량진선 우회 급수관 쪽에 있다. 작업등 아래의 눈은 가늘다.",
+            "en": "The Sluice Bureau supply watch sees a person on a high heated-drainage load night in the valve room of the Taeuk Group underground cooling corridor. The person is standing in the valve room. The mouth and the neck are wet, and there is blue grime on the fingertips. A gurgle comes from the throat with every breath drawn in. / Footsteps sound beyond the corner of the corridor. At the threshold of the valve room a voice rings the iron plate of the pipe. The Sluice Bureau supply watch is on the side of the Noryangjin Line bypass water main. The eyes under the work lamp are narrow."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "온배수 부하가 높은 밤 수문국 급수 당직이 태욱그룹 지하 냉각 회랑 밸브실에 서 있다. 그르렁이는 밸브실과 노량진선 우회 급수관 쪽에 모여 있다. 입가와 목이 젖어 있으며 손끝에 푸른 때가 있다. 들이쉬는 숨마다 목에서 그르렁 소리가 난다. 작업등 아래의 눈은 가늘다. / 냉각 회랑 바닥 배관에 물이 무릎까지 고여 있다. 물귀신은 그 물속에 있으며 어깨 위가 나와 있다. 살은 부어 있고 손가락 사이가 하얗다. 물기침은 밸브 앞에 서 있다. 기침마다 목에서 찬물이 한 줌 바닥에 떨어진다. 수문국 급수 당직의 장화가 물가에 있다. / 배관기기는 우회 급수관 위에 엎드려 있다. 무릎과 손이 이음새에 있으며 몸은 급수 분기 쪽이다. 같은 관의 그르렁이가 분기 쪽에 서 있다. 이음새에 철판이 걸쳐진 관에서는 그르렁이가 관마다 서 있다. 노량진선 우회 급수 압력계의 바늘이 내려가 있다.",
+            "en": "On a high heated-drainage load night the Sluice Bureau supply watch stands in the valve room of the Taeuk Group underground cooling corridor. Gurglers gather in the valve room and on the side of the Noryangjin Line bypass water main. The mouth and the neck are wet, and there is blue grime on the fingertips. A gurgle comes from the throat with every breath drawn in. The eyes under the work lamp are narrow. / Water stands to the knee in the floor pipe of the cooling corridor. The Water Ghost is in that water, and the part above the shoulders is out. The flesh is swollen, and the spaces between the fingers are white. The Water Cough stands in front of the valve. With each cough a handful of cold water falls from the throat to the floor. The boots of the Sluice Bureau supply watch are at the water's edge. / The Pipe Apparatus lies prone on the bypass water main. The knees and the hands are at the joint, and the body is toward the supply branch. A Gurgler of the same pipe stands on the branch side. On the pipes where an iron plate lies across the joint, a Gurgler stands on every pipe. The needle of the Noryangjin Line bypass water-supply pressure gauge has fallen."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "냉각수가 잠긴 밸브 안에 있다. 젖은 걸레와 장갑이 들통에 있다. 노량진선 우회 급수의 압력이 눈금 아래에 있다. 암사 중량·연료 인계 회랑 저온 화물 열차의 응축수가 배수로 철판에 고여 있다.",
+            "en": "Coolant is inside the shut valve. The wet rag and the gloves are in the bucket. The pressure of the Noryangjin Line bypass supply is below the mark. Condensate from the Amsa Heavy-Freight and Fuel Handover Corridor cold-cargo train has pooled on the iron plate of the drain."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "같은 사람이 우회 급수관 이음새에 있다. 어깨의 작업복은 말라 있다. 입가와 목이 젖어 있다. 들이쉬는 숨마다 목에서 그르렁 소리가 난다.",
+            "en": "The same person is at the joint of the bypass water main. The work clothes on the shoulders are dry. The mouth and the neck are wet. A gurgle comes from the throat with every breath drawn in."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "밸브실의 사람은 찬물이 고인 배관 쪽을 향한다. 가슴은 떨리는 철판 쪽이다. 작업등 아래의 눈은 가늘다. 고개는 노량진선 우회 급수 압력계 쪽이다.",
+            "en": "The person in the valve room faces the pipe where cold water has pooled. The chest is toward the vibrating iron plate. The eyes under the work lamp are narrow. The head is toward the Noryangjin Line bypass water-supply pressure gauge."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "물귀신은 바닥 배관의 물속에 어깨 위만 나와 있다. 물기침은 밸브 앞에 서 있다. 배관기기는 우회 급수관 위에 엎드려 있다. 철판이 걸쳐진 관마다 그르렁이가 서 있다.",
+            "en": "The Water Ghost has only the part above the shoulders out of the water in the floor pipe. The Water Cough stands in front of the valve. The Pipe Apparatus lies prone on the bypass water main. A Gurgler stands on every pipe where an iron plate lies across the joint."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G19-generated-G19-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G19-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G19-generated-G19-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "물귀신은 냉각 회랑 바닥의 무릎까지 고인 물속에 있다. 다른 그르렁이들은 그 물가의 우회 급수관과 이음새에 서 있다. 배관기기는 물귀신보다 높은 관 위에 엎드려 있고 몸은 급수 분기 쪽이다. 물기침은 잠긴 냉각수 밸브와 물귀신 사이에 서 있다.",
+        "en": "The Water Ghost is in the knee-deep water on the floor of the cooling corridor. Other Gurglers stand on the bypass water main and the joints at the edge of that water. The Pipe Apparatus lies prone on a pipe higher than the Water Ghost, and its body is toward the supply branch. The Water Cough stands between the shut coolant valve and the Water Ghost."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G19-generated-G19-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G19E01 · 물귀신",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G19",
+                  "anchor": "g19e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G19E01 · Water Ghost",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G19",
+                  "anchor": "g19e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "고인 물속에서 장화 목을 관 안으로 끌어당긴다.",
+            "en": "From the pooled water it draws boot tops into the pipe."
+          },
+          {
+            "ko": "보스",
+            "en": "Boss"
+          },
+          {
+            "ko": "M029",
+            "en": "M029"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G19E08 · 물기침",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G19",
+                  "anchor": "g19e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G19E08 · Water Cough",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G19",
+                  "anchor": "g19e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "밸브 앞에서 기침마다 찬물을 바닥에 떨어뜨린다.",
+            "en": "In front of the valve it drops cold water on the floor with each cough."
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M030",
+            "en": "M030"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G19E15 · 배관기기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G19",
+                  "anchor": "g19e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G19E15 · Pipe Apparatus",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G19",
+                  "anchor": "g19e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "우회 급수관 위에 엎드려 있으며 몸은 급수 분기 쪽이다.",
+            "en": "It lies prone on the bypass water main, and its body is toward the supply branch."
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M031",
+            "en": "M031"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G19-generated-G19E01-title-heading-1",
+      "publicAnchors": [
+        "g19e01",
+        "Hostile-Group-G19-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G19E01 · 물귀신",
+        "en": "G19E01 · Water Ghost"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G19-generated-G19E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M029",
+          "en": "Source batch: M029"
+        },
+        {
+          "ko": "기존 역할군: 보스",
+          "en": "Former role class: Boss"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G19-SC1\",\"G19-SC2\",\"G19-SC3\"],\"states\":[\"S03\",\"S08\"],\"synthetics\":[\"F03\"]}",
+          "en": "Links: {\"scenarios\":[\"G19-SC1\",\"G19-SC2\",\"G19-SC3\"],\"states\":[\"S03\",\"S08\"],\"synthetics\":[\"F03\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G19-generated-G19E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "고인 물속에서 장화 목을 관 안으로 끌어당긴다.",
+            "en": "From the pooled water it draws boot tops into the pipe."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "온배수 부하가 높은 밤 물귀신은 냉각 회랑 바닥 배관의 물속에 있다. 수문국 급수 당직의 장화가 그 물가에 있다.",
+            "en": "On a high heated-drainage load night, the Water Ghost is in the water pooled in the cooling corridor’s floor pipe. The boots of the Sluice Bureau supply watch are at the edge of that water."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M029-entries-9-prose-03977",
+      "items": [
+        {
+          "ko": "냉각 회랑 바닥 배관에 물이 무릎까지 고여 있다.",
+          "en": "Water stands to the knee in the floor pipe of the cooling corridor."
+        },
+        {
+          "ko": "물귀신은 그 물속에 있으며 어깨 위가 나와 있다.",
+          "en": "The Water Ghost is in that water, and the part above the shoulders is out."
+        },
+        {
+          "ko": "살은 부어 있고 손가락 사이가 하얗다.",
+          "en": "The flesh is swollen, and the spaces between the fingers are white."
+        },
+        {
+          "ko": "수문국 급수 당직의 장화가 물가에 있다.",
+          "en": "The boots of the Sluice Bureau supply watch are at the water's edge."
+        },
+        {
+          "ko": "물속의 손이 장화 목을 관 안으로 끌어당긴다.",
+          "en": "The hand in the water draws the boot tops into the pipe."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G19-generated-G19E08-title-heading-1",
+      "publicAnchors": [
+        "g19e08",
+        "Hostile-Group-G19-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G19E08 · 물기침",
+        "en": "G19E08 · Water Cough"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G19-generated-G19E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M030",
+          "en": "Source batch: M030"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G19-SC2\",\"G19-SC3\"],\"states\":[\"S03\"]}",
+          "en": "Links: {\"scenarios\":[\"G19-SC2\",\"G19-SC3\"],\"states\":[\"S03\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G19-generated-G19E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "밸브 앞에서 기침마다 찬물을 바닥에 떨어뜨린다.",
+            "en": "In front of the valve it drops cold water on the floor with each cough."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "온배수 부하가 높은 밤 밸브실의 냉각수 밸브 앞이다. 수문국 급수 당직이 그 밸브 옆에 있다.",
+            "en": "It is in front of the coolant valve in the valve room on a high heated-drainage load night. The Sluice Bureau supply watch is beside that valve."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M030-entries-6-prose-03984",
+      "items": [
+        {
+          "ko": "물기침은 밸브 앞에 서 있다.",
+          "en": "The Water Cough stands in front of the valve."
+        },
+        {
+          "ko": "기침마다 목에서 찬물이 한 줌 바닥에 떨어진다.",
+          "en": "With each cough a handful of cold water falls from the throat to the floor."
+        },
+        {
+          "ko": "물은 장화 앞까지 퍼져 있다.",
+          "en": "The water has spread to the front of the boots."
+        },
+        {
+          "ko": "들이쉬는 숨마다 목에서 그르렁 소리가 난다.",
+          "en": "A gurgle comes from the throat with every breath drawn in."
+        },
+        {
+          "ko": "수문국 급수 당직은 젖은 걸레를 장갑 낀 손으로 들통에 넣는다.",
+          "en": "The Sluice Bureau supply watch puts the wet rag into the bucket with a gloved hand."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G19-generated-G19E15-title-heading-1",
+      "publicAnchors": [
+        "g19e15",
+        "Hostile-Group-G19-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G19E15 · 배관기기",
+        "en": "G19E15 · Pipe Apparatus"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G19-generated-G19E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M031",
+          "en": "Source batch: M031"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"states\":[\"S03\",\"S08\"],\"synthetics\":[\"F03\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"states\":[\"S03\",\"S08\"],\"synthetics\":[\"F03\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G19-generated-G19E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "우회 급수관 위에 엎드려 있으며 몸은 급수 분기 쪽이다.",
+            "en": "It lies prone on the bypass water main, and its body is toward the supply branch."
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "온배수 부하가 높은 밤 노량진선 우회 급수관 위다. 수문국 급수 당직이 압력계 쪽에 있다.",
+            "en": "It is on the Noryangjin Line bypass water main on a high heated-drainage load night. The Sluice Bureau supply watch is on the side of the pressure gauge."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M031-entries-3-prose-03991",
+      "items": [
+        {
+          "ko": "배관기기는 우회 급수관 위에 엎드려 있다.",
+          "en": "The Pipe Apparatus lies prone on the bypass water main."
+        },
+        {
+          "ko": "무릎과 손이 이음새에 있다.",
+          "en": "The knees and the hands are at the joint."
+        },
+        {
+          "ko": "몸은 급수 분기 쪽이다.",
+          "en": "The body is toward the supply branch."
+        },
+        {
+          "ko": "이음새에 철판이 걸쳐진 관에서는 그르렁이가 관마다 서 있다.",
+          "en": "On the pipes where an iron plate lies across the joint, a Gurgler stands on every pipe."
+        },
+        {
+          "ko": "노량진선 우회 급수 압력계의 바늘이 내려가 있다.",
+          "en": "The needle of the Noryangjin Line bypass water-supply pressure gauge has fallen."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G19-generated-G19-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G19-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-19-dossier_prose-01509",
+      "text": {
+        "ko": "태욱그룹 지하 냉각 회랑 밸브실이다. 온배수 부하가 높은 밤이다. 수문국 급수 당직이 노량진선 우회 급수관 쪽에 있다.",
+        "en": "It is the valve room of the Taeuk Group underground cooling corridor. It is a high heated-drainage load night. The Sluice Bureau supply watch is on the side of the Noryangjin Line bypass water main."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-19-dossier_prose-01510",
+      "text": {
+        "ko": "밸브실에 사람이 서 있다. 입가와 목이 젖어 있으며 손끝에 푸른 때가 있다. 들이쉬는 숨마다 목에서 그르렁 소리가 난다. 작업등 아래의 눈은 가늘다. 가슴은 떨리는 배관 쪽이다.",
+        "en": "A person is standing in the valve room. The mouth and the neck are wet, and there is blue grime on the fingertips. A gurgle comes from the throat with every breath drawn in. The eyes under the work lamp are narrow. The chest is toward the vibrating pipe."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-19-dossier_prose-01511",
+      "text": {
+        "ko": "회랑 모퉁이 밖에서는 걸음이 난다. 밸브실 문턱에서는 목소리가 배관 철판을 울린다. 정수여과가 그 문턱에 서 있다.",
+        "en": "Footsteps sound beyond the corner of the corridor. At the threshold of the valve room a voice rings the iron plate of the pipe. Water Filtration stands on that threshold."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-19-dossier_prose-01512",
+      "text": {
+        "ko": "노량진선 우회 급수 압력계의 바늘이 내려가 있다. 수문국 급수 당직이 냉각수 밸브를 잠근다. 사람은 잠긴 밸브 손잡이 앞에 있다. 젖은 걸레가 장갑 낀 손에서 들통으로 들어간다.",
+        "en": "The needle of the Noryangjin Line bypass water-supply pressure gauge has fallen. The Sluice Bureau supply watch shuts the coolant valve. The person is in front of the shut valve handle. The wet rag goes from the gloved hand into the bucket."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-19-dossier_prose-01513",
+      "text": {
+        "ko": "냉각 회랑 바닥 배관에 물이 무릎까지 고여 있다. 물귀신은 그 물속에 있으며 어깨 위가 나와 있다. 살은 부어 있고 손가락 사이가 하얗다. 수문국 급수 당직의 장화가 물가에 있다. 물속의 손이 장화 목을 관 안으로 끌어당긴다.",
+        "en": "Water stands to the knee in the floor pipe of the cooling corridor. The Water Ghost is in that water, and the part above the shoulders is out. The flesh is swollen, and the spaces between the fingers are white. The boots of the Sluice Bureau supply watch are at the water's edge. The hand in the water draws the boot tops into the pipe."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-19-dossier_prose-01514",
+      "text": {
+        "ko": "물기침은 밸브 앞에 서 있다. 기침마다 목에서 찬물이 한 줌 바닥에 떨어진다. 물은 장화 앞까지 퍼져 있다. 같은 사람의 어깨 작업복은 말라 있고 목은 젖어 있다.",
+        "en": "The Water Cough stands in front of the valve. With each cough a handful of cold water falls from the throat to the floor. The water has spread to the front of the boots. The work clothes on the same person's shoulders are dry, and the neck is wet."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-19-dossier_prose-01515",
+      "text": {
+        "ko": "배관기기는 우회 급수관 위에 엎드려 있다. 무릎과 손이 이음새에 있으며 몸은 급수 분기 쪽이다. 이음새에 철판이 걸쳐진 관에서는 그르렁이가 관마다 서 있다. 그 서 있는 자리들은 바닥의 물귀신보다 높다.",
+        "en": "The Pipe Apparatus lies prone on the bypass water main. The knees and the hands are at the joint, and the body is toward the supply branch. On the pipes where an iron plate lies across the joint, a Gurgler stands on every pipe. Those standing places are higher than the Water Ghost on the floor."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-19-dossier_prose-01516",
+      "text": {
+        "ko": "온배수 부하가 높아지면 중앙정보부 쪽 우회 급수관의 정체 구간과 암사 저온 화차의 응축수 배수로에 물기가 고인다. 북한산보국문귀환회의 순번표는 밸브 손잡이 옆에 있다. 태욱그룹과 중앙정보부의 급수 일지가 압력계 아래에 포개져 있다.",
+        "en": "When heated-drainage load rises, moisture collects in the stagnant stretch of the Central Intelligence Bureau’s bypass water main and in the condensate drain of Amsa’s cold-freight cars. The Bukhansan Bogukmun Return Society roster lies beside the valve handle. Taeuk Group and Central Intelligence Bureau water logs are stacked under the pressure gauge."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "On a high heated-drainage load night the people in the cooling corridor have wet mouths and necks, blue grime on the fingertips, and a gurgle with every breath. Cold water has pooled under the valve, in the floor pipe, and in the condensate drain.",
+        "ko": "온배수 부하가 높은 밤 냉각 회랑의 사람에게는 젖은 입가와 목, 손끝의 푸른 때, 숨마다 나는 그르렁 소리가 있다. 찬물은 밸브 아래와 바닥 배관과 응축수 배수로에 고여 있다."
+      },
+      "variants": [
+        {
+          "id": "G19E01",
+          "source_batch": "M029"
+        },
+        {
+          "id": "G19E08",
+          "source_batch": "M030"
+        },
+        {
+          "id": "G19E15",
+          "source_batch": "M031"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "version": 1,
+  "domain": "places",
+  "id": "DOC:Station-Interior-Construction",
+  "slug": "station-interior-construction",
+  "status": "approved",
+  "categories": [
+    "places"
+  ],
+  "tense": {
+    "ko": "past",
+    "en": "past"
+  },
+  "source": {
+    "kind": "original-fiction",
+    "refs": [
+      "lore/places/Station-Interior-Construction.md",
+      "lore/places/Station-Interior-Construction.en.md"
+    ]
+  },
+  "provenance": {
+    "original_anchor": "lore/places/Station-Interior-Construction.md",
+    "original_hash": "b536b847d9f2b4993b00ab89d07a33b833812012b8d817f36a8d504ad39c0409",
+    "history": [
+      "Korean lore/places/Station-Interior-Construction.md SHA-256 b536b847d9f2b4993b00ab89d07a33b833812012b8d817f36a8d504ad39c0409.",
+      "English lore/places/Station-Interior-Construction.en.md SHA-256 9c76e8b9ee0320eb02b8b05e10462ba76ee06d5126b286ffdb6ab83fb4a17960; copied verbatim, no translation written."
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Entering the Station Interior",
+      "summary": "A panorama of the interior sectors and facilities that met the party on entering a station stronghold",
+      "tense": "past"
+    },
+    "ko": {
+      "title": "역 내부에 들어가면",
+      "summary": "역 거점 진입 시 마주하게 되는 내부 구역과 시설의 전경",
+      "tense": "past"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "역-내부에-들어가면",
+      "depth": 1,
+      "text": {
+        "ko": "역 내부에 들어가면",
+        "en": "Entering the Station Interior"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-내부에-들어가면-p1",
+      "text": {
+        "ko": "서울의 전철역에는 대합실, 승강장, 환승 통로와 터널이 층으로 이어진다. 정수장과 차량기지, 시장은 역과 인접한 거점이다.",
+        "en": "In Seoul subway stations, concourses, platforms, passages, and tunnels join at different levels. Waterworks, depots, and markets stand by the stations."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "역-내부에-들어가면-p2",
+      "text": {
+        "ko": "역 진입 설계에서는 대합실과 승강장의 접근이 현지 규칙에 따라 단계적으로 열릴 수 있다. 이는 구현된 진입 명령이나 확정 시설 슬롯을 뜻하지 않는다. 시대가 바뀐 뒤 지하 시설과 지상 풍경이 어떻게 바뀌었는지에 따라 각 거점의 성격이 갈린다.",
+        "en": "In this station-entry design, access to concourses and platforms may open in stages according to local rules. Changes to underground facilities and the surface surroundings shape each stronghold; this depiction does not establish an implemented entry command or facility slots."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "입장과-전경",
+      "depth": 2,
+      "text": {
+        "ko": "입장과 전경",
+        "en": "Entry and the Panorama"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "입장과-전경-p1-ko-label-3",
+      "text": {
+        "ko": "가. 주도권과 전경",
+        "en": "A. Initiative and panorama"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "입장과-전경-p1",
+      "text": {
+        "ko": "조우와 전투가 끝나 역에서 물리적 주도권을 잡아도 일은 그때부터다. 탐험대가 문을 열고 들어서면 거점의 전경이 나타나고 물자와 평판이 선택에 영향을 준다. 진입과 개별 시설 사용은 현지의 허용에 따르며, 주도권이나 진입만으로 역 전체 소유나 지리 작위를 얻지 않는다.",
+        "en": "After encounters and combat, physical initiative at a station is only the beginning. Opening a door reveals the stronghold’s interior, where goods and reputation matter; entry and use of each facility still depend on local permission. Neither initiative nor entry conveys ownership of the whole station or a geographic title."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "입장과-전경-p2-ko-label-4",
+      "text": {
+        "ko": "나. 시설의 규모",
+        "en": "B. Scale of facilities"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "입장과-전경-p2",
+      "text": {
+        "ko": "서울 역 카탈로그의 거점은 다층 구조이고 각자 편의 시설 구역이 있다. 환승역인지 일반 역인지에 따라 들어설 수 있는 시설의 규모가 다르다. 영등포·뚝섬·구의 정수장과 신정·천왕 차량기지, 가락시장, 노량진 수산시장은 역과 인접한 인프라다. 인접하거나 이용할 가능성이 있다고 역의 소유물이 되지는 않는다.",
+        "en": "The strongholds recorded in the Seoul station catalog held multi-story structures and convenience-facility sectors of their own. Whether a station was a transfer station or an ordinary one changed the scale of facilities it could seat. The Yeongdeungpo, Ttukseom, and Guui treatment plants, the Sinjeong and Cheonwang depots, Garak Market, and the Noryangjin Fisheries Market stand near stations; proximity and possible use do not make them station property."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "내부-개방-절차",
+      "depth": 2,
+      "text": {
+        "ko": "내부 개방 절차",
+        "en": "The Interior Opening Procedure"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "내부-개방-절차-p2-ko-label-6",
+      "text": {
+        "ko": "나. 내부 구조",
+        "en": "B. Interior layout"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "내부-개방-절차-p2",
+      "text": {
+        "ko": "역 안에는 층마다 다른 구역이 있다. 일반 역에는 작은 시설이 들어서고, 환승역에는 더 큰 시설이 들어선다. 시장과 의무소, 수리 공방, 발전기, 급수 시설, 창고, 통신소는 설계상 들어설 수 있지만 확인된 개막 시설 슬롯은 아니다. 역 곁의 정수장이나 차량기지는 역의 쓰임에 영향을 줄 수 있어도 역의 소유 시설이 되지는 않는다.",
+        "en": "Stations have different rooms on each level. Ordinary stations have smaller facilities, while transfer stations have larger ones. Markets, aid stations, repair workshops, generators, water-supply facilities, warehouses, and signal stations are possible design uses, not verified opening-day slots. A nearby waterworks or depot can affect how a station is used, without establishing control of that neighboring facility."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "입체적인-층과-전투",
+      "depth": 2,
+      "text": {
+        "ko": "입체적인 층과 전투",
+        "en": "The Three-Dimensional Layers and Combat"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "입체적인-층과-전투-p1-ko-label-8",
+      "text": {
+        "ko": "가. 다층 전장",
+        "en": "A. Layered battlefield"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "입체적인-층과-전투-p1",
+      "text": {
+        "ko": "역 내부는 전투가 벌어지는 다층 전장이다. 위와 아래, 왼쪽과 오른쪽이 있는 입체 공간이다. 지휘관은 그 공간을 살피며 상황을 판단하여 부대의 위치와 진형을 조율한다.",
+        "en": "The station interior was a many-layered battlefield. The battlefield was a three-dimensional space that had to be scanned and commanded freely up, down, left, and right, and the commander could at any moment read the situation and tune the units' positions and formations precisely."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "입체적인-층과-전투-p2-ko-label-9",
+      "text": {
+        "ko": "나. 거점별 전장",
+        "en": "B. Battlefields by stronghold"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "입체적인-층과-전투-p2",
+      "text": {
+        "ko": "거점의 성격에 따라 전장의 형태가 다르다. 작은 역사, 복잡한 환승역, 선로가 끝나는 종착역, 붕괴한 터널, 지상 폐허, 거대한 차량기지, 한강을 가로지르는 철교가 그 형태다.",
+        "en": "A small station house, a tangled transfer station, a terminal where the tracks ended, a collapsed tunnel, surface ruins, a vast depot, a rail bridge crossing the Han — the shape of the battlefield changed with each stronghold's character."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "시설과-물자-배분",
+      "depth": 2,
+      "text": {
+        "ko": "시설과 물자 배분",
+        "en": "Facilities and the Distribution of Goods"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "시설과-물자-배분-table1",
+      "columns": [
+        {
+          "ko": "종류",
+          "en": "Type"
+        },
+        {
+          "ko": "시설 수용력",
+          "en": "Facility capacity"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "일반 역",
+            "en": "Ordinary station"
+          },
+          {
+            "ko": "소규모 (설계상 2구역; 관측 층수·수여 슬롯 아님)",
+            "en": "Small (2 design zones; not observed floors or granted slots)"
+          }
+        ],
+        [
+          {
+            "ko": "환승역",
+            "en": "Transfer station"
+          },
+          {
+            "ko": "중규모 (설계상 3구역; 관측 층수·수여 슬롯 아님)",
+            "en": "Medium (3 design zones; not observed floors or granted slots)"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "시설과-물자-배분-p3-ko-label-11",
+      "text": {
+        "ko": "나. 시설의 유지",
+        "en": "B. Facility upkeep"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "시설과-물자-배분-p3",
+      "text": {
+        "ko": "각 시설은 돌아가는 데 노동력과 전력, 원자재를 쓴다. 전력이 끊긴 시설은 멈추고 과도하게 확장된 거점은 관리의 한계에 부딪힌다. 전 세계의 영원한 겨울에는 노출된 출입구와 지상 통로의 결빙, 난방을 유지해야 하는 지하 대피 공간도 함께 살핀다. 이는 에너지 소모 수치나 구현된 규칙을 정하지 않는 설계 맥락이다.",
+        "en": "Operating a facility requires labor, power, and materials; without power it stops, and excessive expansion strains its management. Under worldwide perpetual winter, exposed entrances and surface routes also face icing, while heated underground shelter depends on maintained heat. This design context sets no energy rate or implemented mechanic."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "출처",
+      "depth": 2,
+      "text": {
+        "ko": "출처",
+        "en": "Sources"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "출처-list1",
+      "items": [
+        {
+          "ko": [
+            {
+              "text": "경제와 생산, 물류 규칙",
+              "link": {
+                "domain": "gdd",
+                "slug": "rules/Rules-EconomyLogistics"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Economy, Production and Logistics Rules",
+              "link": {
+                "domain": "gdd",
+                "slug": "rules/Rules-EconomyLogistics"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "거점과 영토 규칙",
+              "link": {
+                "domain": "gdd",
+                "slug": "rules/Rules-Strongholds"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "Strongholds and Territory Rules",
+              "link": {
+                "domain": "gdd",
+                "slug": "rules/Rules-Strongholds"
+              }
+            }
+          ]
+        },
+        {
+          "ko": [
+            {
+              "text": "세계 지도의 구성",
+              "link": {
+                "domain": "places",
+                "slug": "World-Map-Construction"
+              }
+            }
+          ],
+          "en": [
+            {
+              "text": "The Structure of the World Map",
+              "link": {
+                "domain": "places",
+                "slug": "World-Map-Construction"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data": {}
+}

@@ -1,0 +1,617 @@
+{
+  "schema": "townhall-scenario.v1",
+  "id": "townhall-s01-r1",
+  "version": 1,
+  "status": "OWNER_APPROVED_GAME_SIDE_SCENARIO_DATA",
+  "sourceKind": "original-fiction",
+  "regionId": "region:1147063000",
+  "siteId": "osm:node:368899387",
+  "provenance": {
+    "evidenceRoot": "REPO_ROOT",
+    "approvals": [
+      {
+        "evidenceRef": ".omo/ulw-execute/townhall-canonical-addition-approved.json",
+        "sha256": "d7085c91f99df637d5d900fbec563119253e8759c98923238083337f97b9d2d1",
+        "verbatim": {
+          "event": "owner-canonical-addition-approved",
+          "question_id": "canonical_addition_approval",
+          "user_quote": "[Answer to question call_c0df5938e96842e893a8c920]\n정본 추가안 승인: 이 안으로 확정 (Recommended)",
+          "approved": "townhall-s01-r1 전체 추가안(revision-1: F1-F3 반영본)",
+          "content": "E0~Eclose 개막 시점 구간, 세 인물 동시 배치·건강·도구 상태, 신정2동 야간배급 공동기록체(창작 주체)와 당직 보관·열쇠·인도, 제한허가 3건(재위임 금지·철회 즉시·통지 별도), 가상 점검마당 시험저수조·압력 확인대 2곳과 순환로",
+          "excluded": [
+            "시간·보수·피로 수치",
+            "지도 투영·계기 교정 수치",
+            "공개 게시",
+            "게임 시작 상태 승인"
+          ],
+          "next": "위키 DB 저작 반영(위키 워크플로·상태축 준수) → 9번 시작 플로우 투영 저작",
+          "proposal_files": [
+            ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposal.md",
+            "proposed-records.json",
+            "source-crosswalk.json",
+            "revision-1.md"
+          ],
+          "recorded_at": "2026-10-24T14:55:00Z"
+        }
+      },
+      {
+        "evidenceRef": ".omo/ulw-execute/game-first-scenario-path.json",
+        "sha256": "40bce4bf8dedfefe6cbd2f610dcb4d2c11c0eb278e4774e7f9718fbbe5718bdc",
+        "verbatim": {
+          "event": "owner-scenario-data-path-selected",
+          "question_id": "canonical_application_path",
+          "user_quote": "[Answer to question call_8c2650b01d0b4cdb82aaeeff]\n정본 반영 경로: 게임 먼저 반영 (Recommended)",
+          "selected": "game-first scoped acceptance",
+          "meaning": "Approved townhall-s01-r1 nine additions land as versioned, hash-locked scenario data under the game repository game/data surface; wiki synchronization deferred and recorded as incomplete",
+          "preserved": [
+            "wiki DB untouched at hash 33fc48db…",
+            "canonical-only/reject-conflict/explicit-boundary policies",
+            "no publication or game-start approval implied"
+          ],
+          "basis": "schema-path-investigation.md: no supported wiki command on current main; SQL bypass prohibited",
+          "next": "Apply scenario data → task 9 title/select/spawn implementation",
+          "recorded_at": "2026-10-24T15:40:00Z"
+        }
+      },
+      {
+        "evidenceRef": ".omo/ulw-execute/lord-first-investigation-owner-selection.json",
+        "sha256": "ac52c321dc6803d9a572675e15e825bac889c15f6ac8ab206d23e965b4b28ad4",
+        "verbatim": {
+          "event": "scoped-owner-selection",
+          "task": "26",
+          "question_id": "lord_first_investigation_contract",
+          "user_quote": "[Answer to question call_HJ3K3KphveojbKpEGmR38h75]\n첫 조사 시나리오: 정본 위치 확정 후 시작",
+          "selected": "B: 정본 위치 확정 후 시작",
+          "candidate": "lord-s01-bounded-r1",
+          "proposal_sha256": "ca39d29edc09a78b00f7a8ab545e1f3cd10eb56c13707ba84d3c55652b464684",
+          "scoped_policies": {
+            "startLocationPolicy": "canonical-only",
+            "scheduleConflictPolicy": "reject-conflict",
+            "saveCheckpointPolicy": "explicit-consistent-boundary"
+          },
+          "investigation_terms": "Same bounded delegation: ledger contrast/custody and site investigation/report; no spending/redelegation/equipment opening; immediate authority revocation distinct from actual notification and safe handover",
+          "start_gate": "Canonical location and actual rights/availability must be supplied; district-level prose does not authorize guessed station/tile",
+          "not_approved": [
+            "Exact locations/spawn",
+            "Numerical formulas",
+            "Wages/time/health",
+            "Actual authority and availability",
+            "Other GP fields",
+            "Full task26 completion"
+          ],
+          "next": "Apply scoped proposal receipt and verify independently; investigate canonical site evidence read-only"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposal.md",
+        "sha256": "847e5e5d33000fc0b301be4221ab157f21e4fc5fc570bf5ad2749d4bf1befb5f"
+      },
+      {
+        "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/proposed-records.json",
+        "sha256": "f107a9efd00ae78089c9cce904abe52701a603a43aea3f2282da6bef9046dbdc"
+      },
+      {
+        "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/source-crosswalk.json",
+        "sha256": "b675b45edba3b42420a00f8f3ae3e0d3d0bfe4180f6be3fe0b4878a7da69ff9b"
+      },
+      {
+        "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/revision-1.md",
+        "sha256": "aad730b5bd5c7e27dfa8d91e064bb5fd7fd6ae1376202017eea0dd8884515fdc"
+      },
+      {
+        "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/townhall-authoring-proposal/independent/report.md",
+        "sha256": "403511e899ec35519d8a18d3277ffd15e648e6d9d11da2fbe4b9ffc1a123ef62"
+      },
+      {
+        "evidenceRef": ".omo/evidence/seoul-dengoku-jrpg/task-9/canonical-locations/report.md",
+        "sha256": "4b6834001b2cba98391ba1a0c79f2c6b5aec81bfaf55b06133eff27b82901aee"
+      }
+    ],
+    "approvedRecordsSha256": "f107a9efd00ae78089c9cce904abe52701a603a43aea3f2282da6bef9046dbdc",
+    "recordGroupsSha256": "5914cb8386fb5823eacf5eb966f14c96c2b353af35b99f0a284835f2aa4e31e2"
+  },
+  "executionAllowed": false,
+  "publicationAllowed": false,
+  "wikiAdmission": "deferred",
+  "epoch": {
+    "id": "s01:townhall:epoch",
+    "year": 2126,
+    "label": "세 번째 급수계약 개막일의 첫 야간 창구 개방",
+    "absoluteDate": null,
+    "clockHour": null,
+    "at": "E0",
+    "definition": "야간임을 확인하고 당직 인계를 마친 뒤 창구 개방을 선언한 사건",
+    "end": "Eclose",
+    "endDefinition": "같은 야간의 마감 선언 또는 새벽 도래 중 먼저 발생한 사건",
+    "noDurationImplied": true
+  },
+  "sites": [
+    {
+      "id": "s01:townhall:entry",
+      "name": "배급 창구 출입문",
+      "kind": "authored-sublocation",
+      "regionId": "region:1147063000",
+      "anchorRef": "osm:node:368899387",
+      "geography": "authored-relative-topology-only",
+      "coordinates": null,
+      "observed": false
+    },
+    {
+      "id": "s01:townhall:desk",
+      "name": "야간 배급 접수대",
+      "kind": "authored-sublocation",
+      "regionId": "region:1147063000",
+      "anchorRef": "osm:node:368899387",
+      "geography": "authored-relative-topology-only",
+      "coordinates": null,
+      "observed": false
+    },
+    {
+      "id": "s01:townhall:bench",
+      "name": "창구 대기 벤치",
+      "kind": "authored-sublocation",
+      "regionId": "region:1147063000",
+      "anchorRef": "osm:node:368899387",
+      "geography": "authored-relative-topology-only",
+      "coordinates": null,
+      "observed": false
+    },
+    {
+      "id": "s01:townhall:threshold",
+      "name": "봉인 서고 문밖 인계선",
+      "kind": "authored-sublocation",
+      "regionId": "region:1147063000",
+      "anchorRef": "osm:node:368899387",
+      "geography": "authored-relative-topology-only",
+      "coordinates": null,
+      "observed": false
+    },
+    {
+      "id": "s01:townhall:archive",
+      "name": "봉인 서고 지정 통로",
+      "kind": "authored-sublocation",
+      "regionId": "region:1147063000",
+      "anchorRef": "osm:node:368899387",
+      "geography": "authored-relative-topology-only",
+      "coordinates": null,
+      "observed": false
+    },
+    {
+      "id": "s01:townhall:locker",
+      "name": "원장 보관함 갑",
+      "kind": "authored-container",
+      "regionId": "region:1147063000",
+      "anchorRef": "osm:node:368899387",
+      "geography": "authored-relative-topology-only",
+      "coordinates": null,
+      "observed": false
+    },
+    {
+      "id": "s01:townhall:yard",
+      "name": "부속 점검마당",
+      "kind": "new-fictional-support-space",
+      "regionId": "region:1147063000",
+      "anchorRef": "osm:node:368899387",
+      "geography": "authored-relative-topology-only",
+      "coordinates": null,
+      "observed": false
+    },
+    {
+      "id": "s01:townhall:cistern",
+      "name": "마당 시험저수조",
+      "kind": "new-fictional-inspection-node",
+      "regionId": "region:1147063000",
+      "anchorRef": "osm:node:368899387",
+      "geography": "authored-relative-topology-only",
+      "coordinates": null,
+      "observed": false
+    },
+    {
+      "id": "s01:townhall:tap",
+      "name": "마당 말단 압력 확인대",
+      "kind": "new-fictional-inspection-node",
+      "regionId": "region:1147063000",
+      "anchorRef": "osm:node:368899387",
+      "geography": "authored-relative-topology-only",
+      "coordinates": null,
+      "observed": false
+    }
+  ],
+  "actors": [
+    {
+      "id": "K002",
+      "at": "s01:townhall:desk",
+      "task": "접수·판단·보고 수신",
+      "access": [
+        "s01:townhall:entry",
+        "s01:townhall:desk",
+        "s01:townhall:bench",
+        "s01:townhall:threshold"
+      ],
+      "health": "의식 명료, 앉아서 기록을 읽고 직접 대화할 수 있음",
+      "mobility": "이 장면에서는 접수대에 머무름",
+      "worldLocation": {
+        "regionId": "region:1147063000",
+        "siteId": "osm:node:368899387",
+        "sublocationId": "s01:townhall:desk",
+        "effectiveAt": "E0",
+        "evidenceRef": "PROPOSED:townhall-s01-r1"
+      },
+      "bodyPresent": true,
+      "healthStatus": "PROPOSED_SCENARIO_SETUP_NOT_SOURCE_ASSESSMENT",
+      "schedule": {
+        "interval": [
+          "E0",
+          "Eclose"
+        ],
+        "exclusive": "이 장면의 조사 당직 및 명시 휴식만",
+        "conflictPolicy": "reject-conflict",
+        "noExistingReservations": "새 저작 조건, 기존 일정 사실로 추론하지 않음",
+        "restAndSafetyInterrupt": true
+      },
+      "consent": "주문별 수신 뒤 별도 수락, 강제 성공 아님"
+    },
+    {
+      "id": "K568",
+      "at": "s01:townhall:bench",
+      "task": "수락한 경우 원장 대조·인수·반납",
+      "access": [
+        "s01:townhall:entry",
+        "s01:townhall:desk",
+        "s01:townhall:bench",
+        "s01:townhall:threshold",
+        "s01:townhall:archive",
+        "s01:townhall:locker"
+      ],
+      "health": "보행과 원장 한 권 운반 및 글 읽기가 가능한 상태",
+      "mobility": "서고 제한허가 확인 뒤에만 통과",
+      "worldLocation": {
+        "regionId": "region:1147063000",
+        "siteId": "osm:node:368899387",
+        "sublocationId": "s01:townhall:bench",
+        "effectiveAt": "E0",
+        "evidenceRef": "PROPOSED:townhall-s01-r1"
+      },
+      "bodyPresent": true,
+      "healthStatus": "PROPOSED_SCENARIO_SETUP_NOT_SOURCE_ASSESSMENT",
+      "schedule": {
+        "interval": [
+          "E0",
+          "Eclose"
+        ],
+        "exclusive": "이 장면의 조사 당직 및 명시 휴식만",
+        "conflictPolicy": "reject-conflict",
+        "noExistingReservations": "새 저작 조건, 기존 일정 사실로 추론하지 않음",
+        "restAndSafetyInterrupt": true
+      },
+      "consent": "주문별 수신 뒤 별도 수락, 강제 성공 아님"
+    },
+    {
+      "id": "K616",
+      "at": "s01:townhall:yard",
+      "task": "수락한 경우 두 점 관측·보고",
+      "access": [
+        "s01:townhall:entry",
+        "s01:townhall:desk",
+        "s01:townhall:bench",
+        "s01:townhall:yard",
+        "s01:townhall:cistern",
+        "s01:townhall:tap"
+      ],
+      "health": "보행과 계기 판독·기록이 가능한 상태",
+      "mobility": "마당 순환로만 사용",
+      "worldLocation": {
+        "regionId": "region:1147063000",
+        "siteId": "osm:node:368899387",
+        "sublocationId": "s01:townhall:yard",
+        "effectiveAt": "E0",
+        "evidenceRef": "PROPOSED:townhall-s01-r1"
+      },
+      "bodyPresent": true,
+      "healthStatus": "PROPOSED_SCENARIO_SETUP_NOT_SOURCE_ASSESSMENT",
+      "schedule": {
+        "interval": [
+          "E0",
+          "Eclose"
+        ],
+        "exclusive": "이 장면의 조사 당직 및 명시 휴식만",
+        "conflictPolicy": "reject-conflict",
+        "noExistingReservations": "새 저작 조건, 기존 일정 사실로 추론하지 않음",
+        "restAndSafetyInterrupt": true
+      },
+      "consent": "주문별 수신 뒤 별도 수락, 강제 성공 아님"
+    }
+  ],
+  "reception": {
+    "location": "s01:townhall:desk",
+    "interval": {
+      "fromInclusive": "E0",
+      "toExclusive": "Eclose"
+    },
+    "present": "K002",
+    "admitOnly": "직접 도착하고 접수한 조사 연락",
+    "afterClose": "새 업무 거절, 이미 든 원장은 문밖 안전 인계만",
+    "noStationAssignment": true
+  },
+  "ledger": {
+    "id": "s01:townhall:ledger-original",
+    "scenarioAlias": "L01",
+    "name": "신정2동 야간 배급·수위 대조 원장",
+    "original": true,
+    "owner": "s01:townhall:ration-community",
+    "ownerNature": "이 제안에서 새로 저작하는 신정2동 야간배급 공동기록체, 별도 법인·영토 통치권 없음",
+    "custodianAtE0": "s01:townhall:night-record-duty",
+    "custodianNature": "주민센터 당직 기록보관 기능, 새 K 인물·궁정 임명 아님",
+    "container": "s01:townhall:locker",
+    "containerOwner": "s01:townhall:ration-community",
+    "key": {
+      "id": "s01:townhall:key-a",
+      "holder": "s01:townhall:night-record-duty",
+      "transfer": false,
+      "operation": "당직자가 문·함을 열고 닫음. K568은 동행하며 열쇠를 받지 않음"
+    },
+    "route": {
+      "id": "s01:townhall:route-archive-r1",
+      "purpose": "원장 인수·운반·반납 왕복 동선, K568과 당직 동행",
+      "orderedNodes": [
+        "s01:townhall:bench",
+        "s01:townhall:desk",
+        "s01:townhall:threshold",
+        "s01:townhall:archive",
+        "s01:townhall:locker"
+      ],
+      "edgeRule": "연속한 노드 사이 양방향 보행 연결을 새로 저작한다. 전 구간 잠금문·계단·사유지 통과 없음, 서고의 다른 서가·봉인과 연결하지 않음",
+      "edgeLabel": "new-fiction",
+      "coordinates": null,
+      "gate": "s01:townhall:archive 진입과 s01:townhall:locker 접근은 grant:townhall-s01-archive-r1 확인과 당직 동행이 함께 있을 때만",
+      "geometryKind": "가상 부속공간 위상, 실제 도로·필지·층수·길이 아님"
+    },
+    "pickup": {
+      "by": "K568",
+      "at": "s01:townhall:locker",
+      "requires": [
+        "grant:townhall-s01-archive-r1",
+        "현재 당직 확인",
+        "봉인 해제 범위 확인",
+        "서명한 실물 인수 영수증"
+      ],
+      "custodyTransition": "s01:townhall:night-record-duty -> K568"
+    },
+    "handover": {
+      "to": "K002",
+      "at": "s01:townhall:desk",
+      "effect": "실물 인수 영수증에서만 K568 -> K002, 소유권 불변"
+    },
+    "return": {
+      "by": "K568",
+      "via": "별도 수락한 K568의 반납 운반만, K002 직접 운반 없음(접수대 머무름 유지)",
+      "route": "s01:townhall:route-archive-r1",
+      "to": "s01:townhall:night-record-duty",
+      "at": "s01:townhall:threshold",
+      "effect": "수신 확인 뒤 당직자가 함에 재입고·재봉인, custody와 location 별도 기록",
+      "custodyTransition": "K002 -> K568 -> s01:townhall:night-record-duty"
+    },
+    "copies": "대조 필사지는 별도 보고 ID, 원본 대체 금지",
+    "contents": "해당 야간 배급 합계, 기록된 수위·관측 사건, 방류 요청과 연서 유무를 항목별 기록. 실제 수치와 위조·누락 여부는 아직 결과가 아님"
+  },
+  "inspection": {
+    "routeId": "s01:townhall:route-yard-r1",
+    "orderedNodes": [
+      "s01:townhall:desk",
+      "s01:townhall:entry",
+      "s01:townhall:yard",
+      "s01:townhall:cistern",
+      "s01:townhall:tap",
+      "s01:townhall:yard",
+      "s01:townhall:entry",
+      "s01:townhall:desk"
+    ],
+    "edgeRule": "연속한 노드 사이 양방향 보행 연결을 새로 저작한다. 전 구간 잠금문·계단·사유지 통과 없음, 서고와 연결하지 않음",
+    "geometryKind": "가상 부속공간 위상, 실제 도로·필지·층수·길이 아님",
+    "targets": [
+      {
+        "id": "s01:townhall:cistern",
+        "measure": "기존 외부 수위 눈금과 시각, 원장에 적힌 같은 사건의 수위 기록을 대조",
+        "method": "뚜껑을 열지 않고 외부 눈금 판독",
+        "tool": "s01:townhall:level-scale"
+      },
+      {
+        "id": "s01:townhall:tap",
+        "measure": "폐쇄 상태 외부 압력계 지시와 같은 관측 사건의 배급 합계 기록을 대조",
+        "method": "이미 부착된 비개입식 계기 판독, 수도꼭지·밸브·계기 접속부 조작 없음",
+        "tool": "s01:townhall:pressure-gauge"
+      }
+    ],
+    "result": "관측값·단위·계기 표지·observedAt·누락·판독 불가·기록 시각 차이를 보고. 오차 허용값·급수 원인·범위 전체를 자동 판정하지 않음"
+  },
+  "rights": {
+    "basis": {
+      "id": "right:townhall-community-compact-r1",
+      "issuer": "s01:townhall:ration-community",
+      "kind": "PROPOSED_CONSTITUTIVE_FICTION",
+      "text": "공동기록체는 해당 원장 소유와 지정 창구·보관함·서고 통로·점검마당의 한 야간 제한 사용권을 가진다. 건물 전체 소유권은 정하지 않는다. 당직 기록보관 기능에 보관·열쇠·인도 권한과 호출·통지를 위한 마당길 접두 구간 보행을 맡기고 K002에게 이 조사 목적의 두 수신자 지정권만 준다."
+    },
+    "grants": [
+      {
+        "id": "grant:townhall-s01-reception-r1",
+        "issuer": "s01:townhall:ration-community",
+        "recipient": "K002",
+        "scope": [
+          "desk 접수",
+          "ledger-original 대조 열람·일시 보관",
+          "K568과 K616에게 아래 범위의 조사 지시 발행"
+        ],
+        "delegationDepth": "named-two-only"
+      },
+      {
+        "id": "grant:townhall-s01-archive-r1",
+        "issuer": "s01:townhall:ration-community",
+        "recipient": "K568",
+        "scope": [
+          "당직 동행하 archive 지정 통로·locker 접근",
+          "ledger-original 대조·실물 운반·반납"
+        ],
+        "sealException": "해당 문 봉인과 보관함 갑만 당직자가 해제·재봉인, 다른 서가와 봉인은 유지",
+        "delegationDepth": "none"
+      },
+      {
+        "id": "grant:townhall-s01-inspect-r1",
+        "issuer": "s01:townhall:ration-community",
+        "recipient": "K616",
+        "scope": [
+          "route-yard-r1 보행",
+          "cistern 외부 수위·tap 외부 압력 판독",
+          "기록·보고"
+        ],
+        "delegationDepth": "none"
+      }
+    ],
+    "dutyWalk": {
+      "issuer": "s01:townhall:ration-community",
+      "recipient": "s01:townhall:night-record-duty",
+      "basis": "right:townhall-community-compact-r1의 당직 위탁",
+      "viaRoute": "s01:townhall:route-yard-r1",
+      "section": [
+        "s01:townhall:desk",
+        "s01:townhall:entry",
+        "s01:townhall:yard"
+      ],
+      "edges": "위 구간은 route-yard-r1이 저작한 양방향 간선을 그대로 사용한다(new-fiction)",
+      "purpose": "조사자 호출·통지 전달 보행만",
+      "excludes": "관측·판독·서고·보관함 접근 불포함"
+    },
+    "effective": "정본 입장 이후 해당 야간 E0, 각 수신 확인을 별도 저장",
+    "expiry": "Eclose 또는 철회 효력 사건 중 먼저 발생",
+    "postCloseHandover": {
+      "appliesTo": "이미 반출된 s01:townhall:ledger-original 실물만",
+      "authority": "동일 당직 s01:townhall:night-record-duty의 수령·재입고·재봉인 권한",
+      "availability": "필요한 최소 인계 가용성, 새 접수·열람·창구 운영 연장 아님",
+      "effectiveAt": "Eclose",
+      "until": "실제 반환 영수증 사건",
+      "evidenceRef": "PROPOSED:townhall-s01-r1",
+      "gates": "external:clock-route·external:needs-maintenance·external:health-cost 관문을 그대로 통과해야 실행"
+    },
+    "forbidden": [
+      "지출",
+      "채용",
+      "재위임",
+      "밸브 개방",
+      "장비 개봉",
+      "다른 건물·다른 서가 접근",
+      "봉인된 배급표·통행세 집행",
+      "토지·작위·수자원 소유권 취득"
+    ],
+    "revocation": {
+      "legalEffective": "발급 공동기록체가 철회 사건을 확정한 시점에 즉시, 새 효과 commit마다 현재 판본 재검사",
+      "notice": "당직 게시 원장 갱신과 직접 대면 통지 각각 기록. K616에게는 당직자가 허가된 마당길로 직접 알림, 무전·순간통신 없음",
+      "unnotified": "주관적 통지 전 상태를 남겨도 새 무권한 행위 허용 안 함",
+      "safeHandover": "철회·만료와 별개인 보관 의무 조항이 실물 보호·원상 인계만 허용. 이동 중 원장은 현재 보관자가 유지하고 문밖 인계선의 당직에게 수신 영수증과 함께 인도. 안전길 차단 시 현재 안전 위치에서 보호하고 통지, 순간이동·자동 반납 없음",
+      "stop": "관측·열람·추가 인도 작업 중단, 이미 완료한 관측과 물리 위치 보존"
+    }
+  },
+  "availability": {
+    "duty": "night-record-duty 담당 기능은 E0 전에 인계가 끝나고 Eclose까지 실재 당직으로 상주한다고 새로 제안. 이름·궁정 가신으로 생성하지 않음. 이미 반출된 원장의 수령·재입고·재봉인에 필요한 인계 가용성은 실제 반환 영수증까지 존속한다(postCloseHandover)",
+    "provisions": "세 인물과 당직은 E0 전 식사·식수·필요 휴식을 마친 상태로 저작. 무보수·무한 체력·영구 건강은 뜻하지 않음",
+    "tools": [
+      {
+        "id": "s01:townhall:level-scale",
+        "owner": "s01:townhall:ration-community",
+        "at": "s01:townhall:cistern",
+        "availability": "고정 외부 눈금, E0 판독 가능 확인"
+      },
+      {
+        "id": "s01:townhall:pressure-gauge",
+        "owner": "s01:townhall:ration-community",
+        "at": "s01:townhall:tap",
+        "availability": "고정 외부 계기와 단위 표지, E0 손상 없음 확인"
+      },
+      {
+        "id": "s01:townhall:writing-kit",
+        "owner": "s01:townhall:ration-community",
+        "at": "s01:townhall:desk",
+        "availability": "기록지·필기구·덮개등, K568/K616 개인별 기록용 지급, 지출 발생 아님"
+      },
+      {
+        "id": "s01:townhall:yard-lights",
+        "owner": "s01:townhall:ration-community",
+        "at": "s01:townhall:yard",
+        "availability": "동선과 두 눈금을 읽을 조명, 점등·통행 점검이 E0 조건"
+      }
+    ],
+    "channels": [
+      {
+        "id": "s01:townhall:contact-desk",
+        "from": "K002",
+        "to": [
+          "K568",
+          "K616"
+        ],
+        "method": "K568 대면, K616은 당직자가 마당에서 직접 불러 실제 창구 도착 뒤 대면 전달",
+        "receipt": "발화·수신·수락 사건 별도"
+      },
+      {
+        "id": "s01:townhall:contact-return",
+        "from": [
+          "K568",
+          "K616"
+        ],
+        "to": "K002",
+        "method": "당사자가 직접 창구로 걸어 돌아와 보고 전달, 카메라는 전달 아님"
+      }
+    ],
+    "failure": "당직·안전·도구·휴식·가용성·연락 하나라도 실제 조건과 불일치하면 해당 주문 거절 또는 실행 중 안전중단. 대체 인력 자동 생성·hold-reschedule 없음"
+  },
+  "policies": {
+    "startLocationPolicy": "canonical-only",
+    "scheduleConflictPolicy": "reject-conflict",
+    "saveCheckpointPolicy": "explicit-consistent-boundary",
+    "automaticCheckpoint": false,
+    "manualSave": "진행 중 이동도 원자적 일관 경계에서 사용자가 명시 저장. clock·grant revision·notice·orders·custody·location·route progress·reservations·health·knowledge·pending/applied IDs·RNG·ruleVersion 함께 저장",
+    "unapprovedFormulaInputs": [
+      {
+        "id": "external:clock-route",
+        "candidate": "승인된 단일 worldClock 단위와 실제 투영 경로를 사용한 이동·연락·작업 지속시간 표",
+        "blocks": [
+          "이동 완료",
+          "연락 도착",
+          "작업 완료"
+        ]
+      },
+      {
+        "id": "external:needs-maintenance",
+        "candidate": "기존 유지·배급·보수 계약의 적용 판본을 지정하고 이번 당직의 이미 충족된 급여·배급 영수증을 명시 입력",
+        "blocks": [
+          "노동 실행",
+          "자원 정산"
+        ]
+      },
+      {
+        "id": "external:health-cost",
+        "candidate": "승인된 신체 상태·피로·휴식 변화 규칙을 명시 연결, 피해량 임의 생성 금지",
+        "blocks": [
+          "시간 소모 노동",
+          "부상·피로 정산"
+        ]
+      },
+      {
+        "id": "external:map-projection",
+        "candidate": "이 위상 노드의 실제 scene/map·입구 portal·walkable node·occupancy/facing·CRS와 transform을 별도 승인",
+        "blocks": [
+          "플레이 시작"
+        ]
+      },
+      {
+        "id": "external:measurement-calibration",
+        "candidate": "계기 단위·교정 이력과 동일 사건 원장값을 관측 입력으로 제공, 미승인 허용오차 판정식은 사용하지 않음",
+        "blocks": [
+          "계량 관측값 확정",
+          "원인·정상/이상 자동판정"
+        ]
+      }
+    ],
+    "missingInputBehavior": "BLOCK_AFFECTED_ACTION_NO_DEFAULT",
+    "noNumericApproval": true
+  }
+}

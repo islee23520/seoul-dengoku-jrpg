@@ -1,0 +1,837 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G23",
+  "slug": "Hostile-Group-G23",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G23]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G23 · Udukeoni",
+      "summary": "G23 · Udukeoni",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G23 · 우두커니",
+      "summary": "G23 · 우두커니",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G23-generated-G23-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G23-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G23 · 우두커니",
+        "en": "G23 · Udukeoni"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G23-generated-G23-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G23-generated-G23-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G23-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G23-generated-G23-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "우두커니는 한겨울 새벽의 제상 복도에서 차가운 벽과 코일 이음매를 따라 서 있다. 어깨와 머리칼에 서리가 앉아 있다. 가슴은 잠잠하고 고개는 복도 끝의 어두운 칸으로 가 있다. 장화는 제상수에 잠겨 있다.",
+        "en": "At midwinter dawn the Udukeoni stand along the cold wall and the coil joints of the defrost corridor. Frost sits on the shoulders and the hair. The chest is still, and the head faces the dark compartment at the end of the corridor. The boots are sunk in the defrost water."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G23-generated-G23-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "어둑시니는 어두운 칸의 끝에 서 있는 자리다. 터짐이는 이음매 앞에서 팔뚝과 옆구리가 갈라진 자리다. 서리손은 차단문 손잡이와 문틀에 서리 앉은 손이 걸쳐진 자리다. 셋은 같은 복도의 우두커니 줄 안에 있다.",
+        "en": "Eoduksini is the place standing at the end of the dark compartment. Teojimi is the place before the joint, with the forearm and the side split. Seorison is the place where frost-covered hands lie across the barrier-door handle and the doorframe. The three are within the line of Udukeoni in the same corridor."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G23-generated-G23-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G23-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G23-generated-G23-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "보냉 당직이 한겨울 새벽에 제상 복도에서 우두커니를 처음 본다. 사람은 복도에 서 있다. 어깨와 머리칼에 서리가 앉아 있으며 두 팔은 몸 옆에 있다. 고개는 코일 하우징 쪽이다. 가슴은 잠잠하고 입은 다물어져 있다. 입가의 서리는 그대로다. 장화는 제상수 안에 있다. / 작업등은 복도 입구에 있다. 보냉 당직은 차단문 문턱에 있다. 코일 하우징의 물방울이 그 장화 앞으로 떨어진다.",
+            "en": "The cold-store watch first sees Udukeoni in the defrost corridor at midwinter dawn. A person stands in the corridor. Frost sits on the shoulders and the hair, and both arms hang at the sides. The head is toward the coil housing. The chest is still, and the mouth is closed. The frost at the lips remains as it is. The boots are in the defrost water. / The work lamp is at the corridor entrance. The cold-store watch is on the threshold of the barrier door. Drops from the coil housing fall in front of those boots."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "제상 복도에 우두커니가 모여 서 있다. 한겨울 새벽, 보냉 당직이 차단문 문턱에서 그 줄을 본다. 사람들은 차가운 벽을 따라 있으며 어깨의 간격이 서로 비슷하다. 어깨와 머리칼에 서리가 앉아 있고 두 팔은 몸 옆에 있다. 가슴은 잠잠하며 입은 다물어져 있다. 고개는 코일 하우징 쪽이다. 장화는 한 줄의 제상수 안에 있다. 작업등은 복도 입구에 있다. / 난방 운전이 바뀌어 복도 바닥의 물이 녹아 있을 때, 보냉 당직은 입구 쪽에서 같은 사람을 본다. 어깨는 젖어 있고 턱과 목덜미에 마른 물자국이 있다. 코일 하우징의 물방울이 장화 앞으로 떨어진다. / 복도 끝의 칸 앞에서는 사람들이 어두운 쪽으로 몸이 가 있다. 칸 바닥의 물은 얼어 있다. 보냉 당직의 손전등은 문턱 위에 놓여 있다.",
+            "en": "Udukeoni stand gathered in the defrost corridor. At midwinter dawn, the cold-store watch sees that line from the threshold of the barrier door. The people are along the cold wall, and the gaps between shoulders are much like one another. Frost sits on the shoulders and the hair, and both arms hang at the sides. The chest is still, and the mouth is closed. The head is toward the coil housing. The boots stand in one line of defrost water. The work lamp is at the corridor entrance. / When heating operation changes and the water on the corridor floor has thawed, the cold-store watch sees the same person from the entrance side. The shoulders are wet, and dried water marks are on the chin and the nape. Drops from the coil housing fall in front of the boots. / Before the compartment at the end of the corridor, the people face the dark. The water on the compartment floor is frozen. The cold-store watch's flashlight lies on the threshold."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "들통 안에는 젖은 담요와 서리 묻은 패킹이 있다. 새 고무 패킹과 마른 장갑은 차단문 걸쇠에 걸려 있다. 손전등 하나는 문턱에 있다.",
+            "en": "A wet blanket and a frost-covered gasket are in the tub. A new rubber gasket and dry gloves hang on the barrier-door latch. One flashlight is on the threshold."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "같은 사람의 턱과 목덜미에 마른 물자국이 있다. 어깨는 잠잠하다. 고개는 코일 쪽이며 입가는 서리로 덮여 있다.",
+            "en": "The same person has dried water marks on the chin and the nape. The shoulders are still. The head is toward the coil, and frost covers the mouth."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "우두커니의 고개와 가슴은 제상 코일과 복도 끝의 어두운 칸 쪽으로 가 있다. 손바닥은 차가운 문틀과 배관 이음매에 붙어 있다.",
+            "en": "The Udukeoni's head and chest face the defrost coil and the dark compartment at the end of the corridor. The palms rest on the cold doorframe and the pipe joint."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "어둑시니는 복도 끝의 어두운 칸에 서 있다. 터짐이는 코일 이음매 앞에 서 있다. 서리손은 차단문 손잡이에 손이 걸쳐 있다. 우두커니는 차가운 벽을 따라 그 칸 쪽으로 서 있다.",
+            "en": "Eoduksini stands in the dark compartment at the end of the corridor. Teojimi stands before the coil joint. Seorison has a hand laid over the barrier-door handle. The Udukeoni stand along the cold wall, facing that compartment."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G23-generated-G23-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G23-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G23-generated-G23-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "어둑시니는 제상 복도 끝의 어두운 칸에 있다. 우두커니는 입구의 제상수에서 그 칸까지 한 줄로 서 있다. 터짐이는 줄의 중간 이음매에 있다. 서리손은 입구 차단문에 있다.",
+        "en": "Eoduksini is in the dark compartment at the end of the defrost corridor. The Udukeoni stand in one line from the defrost water at the entrance to that compartment. Teojimi is at the joint midway along the line. Seorison is at the barrier door by the entrance."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G23-generated-G23-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G23E01 · 어둑시니",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G23",
+                  "anchor": "g23e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G23E01 · Eoduksini",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G23",
+                  "anchor": "g23e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "어두운 칸의 끝",
+            "en": "Far end of the dark compartment"
+          },
+          {
+            "ko": "보스",
+            "en": "Boss"
+          },
+          {
+            "ko": "M036",
+            "en": "M036"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G23E08 · 터짐이",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G23",
+                  "anchor": "g23e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G23E08 · Teojimi",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G23",
+                  "anchor": "g23e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "이음매 앞",
+            "en": "Before the joint"
+          },
+          {
+            "ko": "정예",
+            "en": "Elite"
+          },
+          {
+            "ko": "M036",
+            "en": "M036"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G23E15 · 서리손",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G23",
+                  "anchor": "g23e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G23E15 · Seorison",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G23",
+                  "anchor": "g23e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "차단문의 손",
+            "en": "Hands at the barrier door"
+          },
+          {
+            "ko": "전략 조우",
+            "en": "Strategic encounter"
+          },
+          {
+            "ko": "M037",
+            "en": "M037"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G23-generated-G23E01-title-heading-1",
+      "publicAnchors": [
+        "g23e01",
+        "Hostile-Group-G23-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G23E01 · 어둑시니",
+        "en": "G23E01 · Eoduksini"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G23-generated-G23E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M036",
+          "en": "Source batch: M036"
+        },
+        {
+          "ko": "기존 역할군: 보스",
+          "en": "Former role class: Boss"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP09\"],\"states\":[\"S07\",\"S12\"],\"theaters\":[\"XT03\"]}",
+          "en": "Links: {\"houses\":[\"HP09\"],\"states\":[\"S07\",\"S12\"],\"theaters\":[\"XT03\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G23-generated-G23E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "어두운 칸의 끝",
+            "en": "Far end of the dark compartment"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "한겨울 새벽, 제상 복도 끝의 칸에서 보냉 당직이 본 상태이다.",
+            "en": "The state the cold-store watch sees in the compartment at the end of the defrost corridor at midwinter dawn."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M036-entries-3-prose-04041",
+      "items": [
+        {
+          "ko": "제상 복도 끝의 어두운 칸에 어둑시니가 서 있다.",
+          "en": "Eoduksini stands in the dark compartment at the end of the defrost corridor."
+        },
+        {
+          "ko": "어둑시니의 얼굴은 칸 안쪽의 냉기에 있다.",
+          "en": "Eoduksini's face is in the cold inside the compartment."
+        },
+        {
+          "ko": "어둑시니의 어깨 선은 입구의 작업등 빛에 닿아 있다.",
+          "en": "Eoduksini's shoulder line meets the work-lamp light from the entrance."
+        },
+        {
+          "ko": "칸 앞의 사람들은 어둑시니 쪽으로 몸이 가 있다.",
+          "en": "The people before the compartment have their bodies toward Eoduksini."
+        },
+        {
+          "ko": "칸 바닥의 얼음 위에 장화 자국이 어둑시니 앞까지 나 있다.",
+          "en": "Boot marks on the ice of the compartment floor run up to the front of Eoduksini."
+        },
+        {
+          "ko": "어둑시니의 양손은 냉동 배관에 붙어 있다.",
+          "en": "Both of Eoduksini's hands are fixed to the refrigeration pipe."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G23-generated-G23E08-title-heading-1",
+      "publicAnchors": [
+        "g23e08",
+        "Hostile-Group-G23-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G23E08 · 터짐이",
+        "en": "G23E08 · Teojimi"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G23-generated-G23E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M036",
+          "en": "Source batch: M036"
+        },
+        {
+          "ko": "기존 역할군: 정예",
+          "en": "Former role class: Elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HP09\"],\"states\":[\"S07\",\"S12\"],\"synthetics\":[\"F07\"],\"theaters\":[\"XT03\"]}",
+          "en": "Links: {\"houses\":[\"HP09\"],\"states\":[\"S07\",\"S12\"],\"synthetics\":[\"F07\"],\"theaters\":[\"XT03\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G23-generated-G23E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "이음매 앞",
+            "en": "Before the joint"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "한겨울 새벽, 코일 이음매 앞에서 보냉 당직이 본 상태이다.",
+            "en": "The state the cold-store watch sees before the coil joint at midwinter dawn."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M036-entries-10-prose-04048",
+      "items": [
+        {
+          "ko": "코일 이음매 앞에 터짐이가 서 있다.",
+          "en": "Teojimi stands before the coil joint."
+        },
+        {
+          "ko": "터짐이의 팔뚝은 세로로 갈라져 있다.",
+          "en": "Teojimi's forearm is split lengthwise."
+        },
+        {
+          "ko": "갈라진 자리의 살은 희고 젖어 있다.",
+          "en": "The flesh at the split is pale and wet."
+        },
+        {
+          "ko": "터짐이의 옆구리는 옷이 벌어진 채 젖어 있다.",
+          "en": "Teojimi's side is wet where the clothing has opened."
+        },
+        {
+          "ko": "이음매의 철판은 복도 쪽으로 젖혀져 있다.",
+          "en": "The iron plate of the joint is bent out toward the corridor."
+        },
+        {
+          "ko": "터짐이 뒤의 사람은 그 철판과 같은 쪽으로 서 있다.",
+          "en": "The person behind Teojimi stands toward the same side as that plate."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G23-generated-G23E15-title-heading-1",
+      "publicAnchors": [
+        "g23e15",
+        "Hostile-Group-G23-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G23E15 · 서리손",
+        "en": "G23E15 · Seorison"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G23-generated-G23E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M037",
+          "en": "Source batch: M037"
+        },
+        {
+          "ko": "기존 역할군: 전략 조우",
+          "en": "Former role class: Strategic encounter"
+        },
+        {
+          "ko": "연결: {\"states\":[\"S07\",\"S12\"],\"synthetics\":[\"F07\"],\"theaters\":[\"XT03\"]}",
+          "en": "Links: {\"states\":[\"S07\",\"S12\"],\"synthetics\":[\"F07\"],\"theaters\":[\"XT03\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G23-generated-G23E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "감염자",
+            "en": "Infected person"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "차단문의 손",
+            "en": "Hands at the barrier door"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "한겨울 새벽, 차단문에서 보냉 당직이 본 상태이다.",
+            "en": "The state the cold-store watch sees at the barrier door at midwinter dawn."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M037-entries-7-prose-04055",
+      "items": [
+        {
+          "ko": "차단문 안쪽 손잡이에 서리손의 손이 걸쳐 있다.",
+          "en": "Seorison's hand lies across the handle on the inner side of the barrier door."
+        },
+        {
+          "ko": "서리손의 손등과 손가락 사이에 서리가 두껍게 앉아 있다.",
+          "en": "Frost sits thick on the back of Seorison's hand and between the fingers."
+        },
+        {
+          "ko": "서리손은 문 옆에 서 있다.",
+          "en": "Seorison stands beside the door."
+        },
+        {
+          "ko": "서리손의 어깨는 문틀에 닿아 있다.",
+          "en": "Seorison's shoulder meets the doorframe."
+        },
+        {
+          "ko": "손끝의 서리는 고무 패킹을 지나 문 아래 홈까지 이어져 있다.",
+          "en": "The frost at the fingertips runs past the rubber gasket to the groove under the door."
+        },
+        {
+          "ko": "서리손의 다른 손은 문틀의 쇠에 붙어 있다.",
+          "en": "Seorison's other hand is fixed to the metal of the doorframe."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G23-generated-G23-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G23-heading-0023"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-23-dossier_prose-01677",
+      "text": {
+        "ko": "지하 보냉고의 제상 복도는 한겨울 새벽에 보냉 당직의 근무지다. 복도 바닥의 제상수는 장화 목에 닿아 있다. 보냉 당직은 차단문 바깥의 마른 바닥에 있다.",
+        "en": "The defrost corridor of the underground cold store is the cold-store watch's post at midwinter dawn. The defrost water on the corridor floor reaches the boot tops. The cold-store watch is on the dry floor outside the barrier door."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-23-dossier_prose-01678",
+      "text": {
+        "ko": "복도 한가운데에 사람이 서 있다. 머리칼과 눈썹에 서리가 앉아 있다. 눈은 떠 있다. 양팔은 몸 옆에 있다. 손바닥은 차가운 벽으로 가 있다.",
+        "en": "A person stands in the middle of the corridor. Frost sits on the hair and the eyebrows. The eyes are open. Both arms are at the sides. The palms face the cold wall."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-23-dossier_prose-01679",
+      "text": {
+        "ko": "같은 사람의 턱과 목덜미에 마른 물자국이 있다. 같은 사람의 어깨는 잠잠하다. 가슴의 옷은 말라 있다. 옷깃에 서리가 남아 있다.",
+        "en": "The same person has dried water marks on the chin and the nape. The same person's shoulders are still. The clothing on the chest is dry. Frost remains on the collar."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-23-dossier_prose-01680",
+      "text": {
+        "ko": "차가운 벽을 따라 사람들이 서 있다. 어깨의 간격은 서로 비슷하다. 사람들의 고개는 복도 끝의 어두운 칸으로 가 있다. 사람들의 장화는 같은 제상수 선 안에 있다.",
+        "en": "People stand along the cold wall. The gaps between shoulders are much like one another. Their heads face the dark compartment at the end of the corridor. Their boots are inside the same line of defrost water."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-23-dossier_prose-01681",
+      "text": {
+        "ko": "어두운 칸에 어둑시니가 서 있다. 어둑시니의 얼굴은 칸 안쪽의 냉기에 있다. 어둑시니의 어깨 선은 입구 빛에 닿아 있다. 칸 바닥의 얼음 위에 장화 자국이 어둑시니 앞까지 나 있다.",
+        "en": "Eoduksini stands in the dark compartment. Eoduksini's face is in the cold inside the compartment. Eoduksini's shoulder line meets the light from the entrance. Boot marks on the ice of the compartment floor run up to the front of Eoduksini."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-23-dossier_prose-01682",
+      "text": {
+        "ko": "코일 이음매 앞에 터짐이가 서 있다. 터짐이의 팔뚝은 세로로 갈라져 있다. 갈라진 살은 희고 젖어 있다. 이음매 철판은 복도 쪽으로 젖혀져 있다. 철판 모서리에 서리가 끼어 있다.",
+        "en": "Teojimi stands before the coil joint. Teojimi's forearm is split lengthwise. The split flesh is pale and wet. The iron plate of the joint is bent out toward the corridor. Frost is lodged on the edge of the plate."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-23-dossier_prose-01683",
+      "text": {
+        "ko": "차단문 안쪽에 서리손이 서 있다. 서리손의 한 손은 손잡이에 걸쳐 있다. 손등의 서리는 고무 패킹을 지나 문 아래 홈까지 이어져 있다. 젖은 패킹은 보냉 당직의 들통 안에 있다. 열쇠는 인접 복도 경계 당직의 손에 있다.",
+        "en": "Seorison stands on the inner side of the barrier door. One of Seorison's hands lies across the handle. The frost on the back of the hand runs past the rubber gasket to the groove under the door. The wet gasket is in the cold-store watch's tub. The key is in the hand of the boundary watch of the next corridor."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "At midwinter dawn the Udukeoni stand along the cold wall and the coil joints of the defrost corridor. Frost sits on the shoulders and the hair. The chest is still, and the head faces the dark compartment at the end of the corridor. The boots are sunk in the defrost water.",
+        "ko": "우두커니는 한겨울 새벽의 제상 복도에서 차가운 벽과 코일 이음매를 따라 서 있다. 어깨와 머리칼에 서리가 앉아 있다. 가슴은 잠잠하고 고개는 복도 끝의 어두운 칸으로 가 있다. 장화는 제상수에 잠겨 있다."
+      },
+      "variants": [
+        {
+          "id": "G23E01",
+          "source_batch": "M036"
+        },
+        {
+          "id": "G23E08",
+          "source_batch": "M036"
+        },
+        {
+          "id": "G23E15",
+          "source_batch": "M037"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}

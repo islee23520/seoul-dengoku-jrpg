@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "status": "pending",
+  "rulesVersion": "SP-1.0.0",
+  "sourceRevisions": {
+    "gdd": "49f57de3f7f6a7fb234c04c98dda1bf27809705e",
+    "poc": "02feb7a847d11b0fa03dd71885e9ee0a3cc75967"
+  },
+  "sources": [
+    {
+      "repo": "gdd",
+      "path": "canon/locales/ko-KR/root/open-decisions.json",
+      "sha256": "2443b74a67bac906361818bb56d259000cf8d780c1a33cadda07ce0450918afa"
+    },
+    {
+      "repo": "gdd",
+      "path": "canon/locales/ko-KR/rules/campaign-progression.json",
+      "sha256": "8e7da86e041b5fd8508d3f31c471351fe4cae858d4b01324bf4f41871d159d44"
+    },
+    {
+      "repo": "gdd",
+      "path": "canon/locales/ko-KR/system-design/singleplayer-design-sp-1-0-0.json",
+      "sha256": "633265f37815e8d581b52426a84eec2bd1a1e987b2e05bd614b8f9752877a9bd"
+    },
+    {
+      "repo": "poc",
+      "path": "GAME/Assets/Janseon/Core/RouteDomain.cs",
+      "sha256": "4b78d828a4415d8b4bd8153595bf93d3280205a51d4f50ab84fad6b851cac936"
+    },
+    {
+      "repo": "poc",
+      "path": "GAME/Assets/Janseon/Core/CampaignTurnDomain.cs",
+      "sha256": "e1b111bf2f667c328d8582ed69bed104e0c1c274a5f3b73e2fcf740713a48ba6"
+    },
+    {
+      "repo": "poc",
+      "path": "GAME/Assets/Janseon/Core/Battle/Sim/BattleSim.cs",
+      "sha256": "bd73ce0aa2484fdcdf0a7eb241937fce65e4ade5d779f8312dafcfbc65e39ff5"
+    },
+    {
+      "repo": "poc",
+      "path": "GAME/Assets/Janseon/Data/Repositories/BattleSetupRepository.cs",
+      "sha256": "a3150e3268056d7786f5f06db73868c1a7b0945b54bcf1611d19bb1ef08de1d3"
+    }
+  ],
+  "decisions": [
+    {
+      "gp": "GP-01",
+      "field": "startLocationPolicy",
+      "kind": "rule-choice",
+      "status": "scoped-policy-decided",
+      "scopedSelection": { "value": "canonical-only", "scope": "S01", "receipt": "gp.owner-canonical-location.receipt.json" },
+      "choices": [
+        "canonical-only",
+        "canonical-or-explicit-scenario"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-01",
+      "spAnchors": [
+        "sp1.b8",
+        "sp1.b17"
+      ],
+      "unresolved": "연령·구금 세부 제한, 누락/충돌 장소 원장",
+      "scenarioCoverage": {
+        "question": "생존 개막 인물 전체 선택은 확정됐다. 연령·구금 등 세부 제한과 시작 장소 증거·충돌 처리를 어떻게 정할 것인가?",
+        "boundary": "확정: 소속·직위에 관계없이 생존 개막 인물 전체를 선택 대상으로 둔다. 제안: 작성 원장의 개막 판본·확정 소재지를 우선하고 미기록 장소는 명시 승인된 시나리오 배치만 허용한다. 세부 제한은 미정이다.",
+        "owner": "Hero-Squads; 데이터 원장; WIKI 인물·위치 원천",
+        "scenarios": [
+          "S01",
+          "S06"
+        ],
+        "acceptance": "A01,A06",
+        "outsideScenarioSubset": "이 행의 모든 원 질문·수치·세부 규칙을 완료 검증하지 않는다.",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D1"
+      ]
+    },
+    {
+      "gp": "GP-02",
+      "field": "travelCostPolicy",
+      "kind": "rule-choice",
+      "status": "scoped-policy-decided",
+      "scopedSelection": { "value": "authored-edge-cost", "scope": "S01", "receipt": "gp.investigation-rules.receipt.json" },
+      "choices": [
+        "authored-edge-cost",
+        "poc-edge-tick"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-02",
+      "spAnchors": [
+        "sp1.b75",
+        "sp1.b92"
+      ],
+      "unresolved": "속도 단위·태세 보정·화물 보정·정보 노후화·정찰 사건",
+      "scenarioCoverage": {
+        "question": "거리·수단·상태 이동, 관측·보고 정보, 정보·기회 보상은 확정됐다. 속도·보정·노후화·정찰 사건은 어떻게 정할 것인가?",
+        "boundary": "확정 방향은 여행·조우의 거리·관측·탐사 조항을 따른다. 원천 경로·보고 근거·취득 시각을 저장하며 고정 자원 보상을 반복 생성하지 않는다.",
+        "owner": "Travel; Economy; 데이터 관측·운송",
+        "scenarios": [
+          "S01",
+          "S02",
+          "S04"
+        ],
+        "acceptance": "A01,A02,A04",
+        "outsideScenarioSubset": "이 행의 모든 원 질문·수치·세부 규칙을 완료 검증하지 않는다.",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D2",
+        "D3"
+      ]
+    },
+    {
+      "gp": "GP-03",
+      "field": "scheduleConflictPolicy",
+      "kind": "rule-choice",
+      "status": "scoped-policy-decided",
+      "scopedSelection": { "value": "reject-conflict", "scope": "S01", "receipt": "gp.owner-canonical-location.receipt.json" },
+      "choices": [
+        "hold-conflict",
+        "reject-conflict"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-03",
+      "spAnchors": [
+        "sp1.b11",
+        "sp1.b12",
+        "sp1.b13",
+        "sp1.b112"
+      ],
+      "unresolved": "전략 연락 시간·비용·위임 범위·수락 함수·일정 재평가·철회 효력/통지; 자동 월턴/행동 포인트 기본값 없음",
+      "scenarioCoverage": {
+        "question": "연락 경로를 따라 전달하고 일정 충돌은 보류·거절·교섭으로 처리한다. 위임·연락 비용/시간·수락 판정과 재평가 순서는 어떻게 정할 것인가?",
+        "boundary": "확정: 명령 전달·수신·수락·실행을 분리하고 전령·무전·연락망의 가용성을 따른다. 안전·생리·구금 등 불가능 상태를 우선하며 충성·관계·권한에 따른 보류·거절·교섭을 남긴다. 세부 수치·판정·우선순위는 미정이다.",
+        "owner": "Hero-Squads; Factions; 생활·일정 계약",
+        "scenarios": [
+          "S01",
+          "S05",
+          "S06",
+          "S07"
+        ],
+        "acceptance": "A01,A05,A06,A07,AX1,AX2",
+        "outsideScenarioSubset": "이 행의 모든 원 질문·수치·세부 규칙을 완료 검증하지 않는다.",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D2",
+        "D3",
+        "D4"
+      ]
+    },
+    {
+      "gp": "GP-04",
+      "field": "laborDetailPolicy",
+      "kind": "rule-choice",
+      "status": "scoped-policy-decided",
+      "scopedSelection": { "value": "named-roster", "scope": "S01", "receipt": "gp.investigation-rules.receipt.json" },
+      "choices": [
+        "aggregate-with-transfers",
+        "named-roster"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-04",
+      "spAnchors": [
+        "sp1.b8",
+        "sp1.b21"
+      ],
+      "unresolved": "소비량·임금·배급·부족의 노동/기분 영향량과 마감 순서",
+      "scenarioCoverage": {
+        "question": "개인화 범위·소비·임금/배급과 부족이 노동·기분·거점에 전이되는 정산 순서는?",
+        "boundary": "제안: 집계와 개인 명부 사이 이동을 원인 사건으로 보존하고 한 인력 한 예약을 검사한다. 부족의 노동 손실은 한 정산 경계에서만 적용한다.",
+        "owner": "Economy; Strongholds; 주민 생활",
+        "scenarios": [
+          "S02",
+          "S03",
+          "S05",
+          "S06"
+        ],
+        "acceptance": "A02,A03,A05,A06",
+        "outsideScenarioSubset": "이 행의 모든 원 질문·수치·세부 규칙을 완료 검증하지 않는다.",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D1",
+        "D4"
+      ]
+    },
+    {
+      "gp": "GP-05",
+      "field": "constructionScopePolicy",
+      "kind": "rule-choice",
+      "status": "scoped-policy-decided",
+      "scopedSelection": { "value": "repair-first", "scope": "S01", "receipt": "gp.investigation-rules.receipt.json" },
+      "choices": [
+        "repair-first",
+        "authored-build-chain"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-05",
+      "spAnchors": [
+        "sp1.b13",
+        "sp1.b21"
+      ],
+      "unresolved": "자원/시설 목록·단계 비용·기간·해체 회수량",
+      "scenarioCoverage": {
+        "question": "단계별 실제 소비 건설과 수요·예약 생산은 확정됐다. 자원·시설 목록과 단계별 비용·기간·해체 회수는?",
+        "boundary": "확정: 자격 노동·도구·재료가 갖춰진 단계만 진행, 중단 시 진척·미사용 자재 보존, 소비 재료 자동 환급 없음. 경제 상세 조항을 따른다.",
+        "owner": "Economy; Strongholds; 데이터 목록",
+        "scenarios": [
+          "S03",
+          "S05"
+        ],
+        "acceptance": "A03,A05",
+        "outsideScenarioSubset": "이 행의 모든 원 질문·수치·세부 규칙을 완료 검증하지 않는다.",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D1",
+        "D4"
+      ]
+    },
+    {
+      "gp": "GP-06",
+      "field": "cargoSplitPolicy",
+      "kind": "rule-choice",
+      "status": "scoped-policy-decided",
+      "scopedSelection": { "value": "whole-consignment", "scope": "S01", "receipt": "gp.investigation-rules.receipt.json" },
+      "choices": [
+        "whole-consignment",
+        "identified-splits"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-06",
+      "spAnchors": [
+        "sp1.b61",
+        "sp1.b62",
+        "sp1.b65"
+      ],
+      "unresolved": "마감 주기·분할 단위·봉쇄 중 소유/보관 계약",
+      "scenarioCoverage": {
+        "question": "마감 이하의 검증 도착분 포함은 확정됐다. 분할 화물·봉쇄·실제 재고 소유·마감 주기는?",
+        "boundary": "확정: 동일 시각 도착 검증 뒤 예약·생산·소비, 인과·수락 순서 및 중복 도착 차단. 경제 판정 순서를 유지한다.",
+        "owner": "Economy; Save-and-Determinism",
+        "scenarios": [
+          "S02",
+          "S04",
+          "S05"
+        ],
+        "acceptance": "A02,A04,A05,AX3",
+        "outsideScenarioSubset": "이 행의 모든 원 질문·수치·세부 규칙을 완료 검증하지 않는다.",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D1",
+        "D2",
+        "D4"
+      ]
+    },
+    {
+      "gp": "GP-07",
+      "field": "titleActivationPolicy",
+      "kind": "rule-choice",
+      "status": "scoped-boundary-decided",
+      "scopedSelection": { "value": "registered-title-contracts", "scope": "followup-feature-boundaries", "receipt": "gp.followup-boundaries.receipt.json" },
+      "choices": [
+        "control-only-until-canon",
+        "registered-title-contracts"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-07",
+      "spAnchors": [
+        "sp1.b38",
+        "sp1.b39",
+        "sp1.b40"
+      ],
+      "unresolved": "실제 작위령·취득/통합 비용·기간·인준 입력",
+      "scenarioCoverage": {
+        "question": "실효 지배·인준과 작위 권리 별도 원장은 확정됐다. 취득·통합 비용/기간 및 미배정 작위 제도는?",
+        "boundary": "확정: 점령·양도와 법적 권리·협력·운영은 다른 상태다. 작위는 위키 확정 입력을 기다리고 주장·명분·인준은 세력·전쟁 상세 조항을 따른다.",
+        "owner": "Strongholds; Factions RWARFARE-38; 작위 데이터",
+        "scenarios": [
+          "S01",
+          "S07",
+          "S08"
+        ],
+        "acceptance": "A01,A07,A08,AX1",
+        "outsideScenarioSubset": "이 행의 모든 원 질문·수치·세부 규칙을 완료 검증하지 않는다.",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D1",
+        "D4"
+      ]
+    },
+    {
+      "gp": "GP-08",
+      "field": "overCapacityPolicy",
+      "kind": "rule-choice",
+      "status": "scoped-boundary-decided",
+      "scopedSelection": { "value": "offer-reorganization", "scope": "followup-feature-boundaries", "receipt": "gp.followup-boundaries.receipt.json" },
+      "choices": [
+        "manual-reorganization",
+        "offer-reorganization"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-08",
+      "spAnchors": [
+        "sp1.b31",
+        "sp1.b8"
+      ],
+      "unresolved": "지휘관 개인 입력·국가/정착지 수준의 정원 산식·재편 비용",
+      "scenarioCoverage": {
+        "question": "정원 감소의 초과 인원 보존·추가 모집/합류 제한은 확정됐다. 세 입력과 산식·재편 비용은?",
+        "boundary": "초과 유지·재편 요구는 확정. 현재 인물·장비·예약을 보존하고 실제 분리·지휘관 재배정 사건으로 변경한다. 정원 산식과 추가 페널티는 미정이다.",
+        "owner": "Hero-Squads; Battle; Economy",
+        "scenarios": [
+          "S04",
+          "S06"
+        ],
+        "acceptance": "A04,A06",
+        "outsideScenarioSubset": "capacity 감소 시 초과 인원 보존과 추가 모집/합류 제한",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D4"
+      ]
+    },
+    {
+      "gp": "GP-09",
+      "field": "successionDataPolicy",
+      "kind": "rule-choice",
+      "status": "scoped-boundary-decided",
+      "scopedSelection": { "value": "registered-institutions-only", "scope": "followup-feature-boundaries", "receipt": "gp.followup-boundaries.receipt.json" },
+      "choices": [
+        "registered-institutions-only",
+        "author-one-institution-first"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-09",
+      "spAnchors": [
+        "sp1.b47",
+        "sp1.b49",
+        "sp1.b51",
+        "sp1.b54",
+        "sp1.b57"
+      ],
+      "unresolved": "국가별 후보/선거/시험/인준·혼인 동의·영구 구금 상세",
+      "scenarioCoverage": {
+        "question": "국가별 제도·효과별 종료와 혼인 주장 경로 구분은 확정됐다. 동의·인준·재산·계승 자격의 상세는?",
+        "boundary": "확정: 혼인 자체 주장 자동 생성 없음, 배우자 주장·자녀 상속·계승과 별도 담당자 조작. 효과별 유지·종료·재인준은 세력·전쟁 조항을 따른다.",
+        "owner": "Factions; Hero-Squads 계승; WIKI 가족 사실",
+        "scenarios": [
+          "S08"
+        ],
+        "acceptance": "A08,AX5",
+        "outsideScenarioSubset": "혼인 주장·동의·효과 종료 경로",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D4"
+      ]
+    },
+    {
+      "gp": "GP-10",
+      "field": "educationScopePolicy",
+      "kind": "rule-choice",
+      "status": "scoped-boundary-decided",
+      "scopedSelection": { "value": "one-authored-skill", "scope": "followup-feature-boundaries", "receipt": "gp.followup-boundaries.receipt.json" },
+      "choices": [
+        "one-authored-skill",
+        "authored-skill-catalog"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-10",
+      "spAnchors": [
+        "sp1.b70",
+        "sp1.b72",
+        "sp1.b73"
+      ],
+      "unresolved": "기술별 요구·교육 기간/비용·성과 함수·복구 조건",
+      "scenarioCoverage": {
+        "question": "기술별 실제 교육은 확정됐다. 기술별 요구·기간·비용·성과·복구 조건은?",
+        "boundary": "교사 숙련·기록·도구·실습 장소·학습자 요구 여부를 기술별로 정의하고 진척을 쌓는다. 기록만으로 해금하거나 모든 기술에 같은 필수 항목을 강제하지 않는다.",
+        "owner": "경제 직능; 데이터 기술; WIKI 기술 계보",
+        "scenarios": [
+          "S03",
+          "S06"
+        ],
+        "acceptance": "A03,A06",
+        "outsideScenarioSubset": "교사/학습자·실습·성과를 포함한 완전 교육 progression",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D1",
+        "D4"
+      ]
+    },
+    {
+      "gp": "GP-11",
+      "field": "battleResolutionPolicy",
+      "kind": "rule-choice",
+      "status": "scoped-boundary-decided",
+      "scopedSelection": { "value": "shared-individual-resolver", "scope": "followup-feature-boundaries", "receipt": "gp.followup-boundaries.receipt.json" },
+      "choices": [
+        "shared-individual-resolver",
+        "explicit-aggregate-allocation"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-11",
+      "spAnchors": [
+        "sp1.b31",
+        "sp1.b108",
+        "sp1.b111"
+      ],
+      "unresolved": "명중/피해 함수·작전력 단위·장비/태세 보정·자동 정책; B 배분 계약",
+      "scenarioCoverage": {
+        "question": "자동 지휘관 판단과 개인·상황·부대 독자 계산식 세 범위는 확정됐다. 함수·계수·작전력 단위·집계 배분/개인 손실 중복 방지는 어떻게 닫을 것인가?",
+        "boundary": "제안: 작전력은 정보 지표와 판정 입력을 구분한다. 자동/수동은 같은 개인 판정을 쓰되 자동의 판단 정책과 결정론적 실행 순서를 별도 정의한다.",
+        "owner": "Realtime Battle; Rules-Battle; Warfare",
+        "scenarios": [
+          "S04"
+        ],
+        "acceptance": "A04,AX4",
+        "outsideScenarioSubset": "이 행의 모든 원 질문·수치·세부 규칙을 완료 검증하지 않는다.",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D2"
+      ]
+    },
+    {
+      "gp": "GP-12",
+      "field": "reinforcementScopePolicy",
+      "kind": "rule-choice",
+      "status": "scoped-boundary-decided",
+      "scopedSelection": { "value": "authored-arrival-entry", "scope": "followup-feature-boundaries", "receipt": "gp.followup-boundaries.receipt.json" },
+      "choices": [
+        "closed-initial-roster",
+        "authored-arrival-entry"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-12",
+      "spAnchors": [
+        "sp1.b31",
+        "sp1.b32",
+        "sp1.b93"
+      ],
+      "unresolved": "진입 지점·초기 태세·퇴로·본체 포획/이탈·종료 경합 순서",
+      "scenarioCoverage": {
+        "question": "실제 도착 후 허용 증원 편입은 확정됐다. 진입 지점·초기 태세·지휘권·본체 이탈/포획·종료 경합의 상세는?",
+        "boundary": "제안: 전략 조우→닫힌 세션 참가자 확정→본체 참여 판정→현장/자동 표시→결과→캠페인 복귀를 한 수명으로 관리한다.",
+        "owner": "Strategy-Battle-Roundtrip; Travel; Hero-Squads",
+        "scenarios": [
+          "S04",
+          "S08"
+        ],
+        "acceptance": "A04,A08,AX4",
+        "outsideScenarioSubset": "이 행의 모든 원 질문·수치·세부 규칙을 완료 검증하지 않는다.",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D2",
+        "D3"
+      ]
+    },
+    {
+      "gp": "GP-13",
+      "field": "peaceScopePolicy",
+      "kind": "rule-choice",
+      "status": "scoped-boundary-decided",
+      "scopedSelection": { "value": "registered-item-negotiation", "scope": "followup-feature-boundaries", "receipt": "gp.followup-boundaries.receipt.json" },
+      "choices": [
+        "registered-casus-endings",
+        "registered-item-negotiation"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-13",
+      "spAnchors": [
+        "sp1.b25",
+        "sp1.b52",
+        "sp1.b121",
+        "sp1.b122",
+        "sp1.b126",
+        "sp1.b127"
+      ],
+      "unresolved": "명분 목록/비용·휴전/배상·항목 가격/수락 계수·영토 없는 조직 소멸 조건",
+      "scenarioCoverage": {
+        "question": "명분 필수·주장 조작·전쟁 점수·종결 구조는 확정됐다. 명분 목록/비용·휴전·배상·상위 계약·잔존/소멸은?",
+        "boundary": "세력·전쟁 상세 조항의 명분별 요구 관철·백지 강화·항복·무효 종료를 따른다. 종결 권리 이전과 주민 통합을 분리하며 영토 없는 조직의 소멸 조건은 미정이다.",
+        "owner": "Factions; Warfare; Campaign-Progression",
+        "scenarios": [
+          "S04",
+          "S07",
+          "S08"
+        ],
+        "acceptance": "A04,A07,A08",
+        "outsideScenarioSubset": "강화 settlement와 조직 잔존/소멸 규칙",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D4"
+      ]
+    },
+    {
+      "gp": "GP-14",
+      "field": "saveCheckpointPolicy",
+      "kind": "rule-choice",
+      "status": "scoped-policy-decided",
+      "scopedSelection": { "value": "explicit-consistent-boundary", "scope": "S01", "receipt": "gp.owner-canonical-location.receipt.json" },
+      "choices": [
+        "explicit-consistent-boundary",
+        "also-authored-milestones"
+      ],
+      "source": "canon/locales/ko-KR/rules/campaign-progression.json#gameplay-unknown.20261003.matrix/GP-14",
+      "spAnchors": [
+        "sp1.b88",
+        "sp1.b89",
+        "sp1.b93",
+        "sp1.b94",
+        "sp1.b107"
+      ],
+      "unresolved": "자동 저장 이정표 목록·보존 정책·호환/마이그레이션 계약; 네트워크/호스트는 제외",
+      "scenarioCoverage": {
+        "question": "실시간 활동·원격 정보·오프라인 인물·마지막 참가자 이탈의 저장/노출 경계는?",
+        "boundary": "제안: 원인 사건·목적별 RNG·판본·체크포인트와 개인/집계/전투 예약을 저장한다. 본체 부재의 대행권한과 공개 정보 범위를 ADR-008에 맞춘다.",
+        "owner": "Save-and-Determinism; ADR-008; 데이터 원장",
+        "scenarios": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06",
+          "S07",
+          "S08"
+        ],
+        "acceptance": "A01-A08,AX1-AX5",
+        "outsideScenarioSubset": "이 행의 모든 원 질문·수치·세부 규칙을 완료 검증하지 않는다.",
+        "status": "DEPENDENCY_MAP_NOT_COMPLETE_ACCEPTANCE"
+      },
+      "ownerDecisionGroups": [
+        "D2",
+        "D3",
+        "D4"
+      ]
+    }
+  ],
+  "proposalVersion": 2,
+  "ownerDecisionReceipt": "gp.owner-time-remote.receipt.json",
+  "ownerInvestigationReceipt": "gp.owner-canonical-location.receipt.json",
+  "ownerInvestigationRulesReceipt": "gp.investigation-rules.receipt.json",
+  "ownerFollowupBoundariesReceipt": "gp.followup-boundaries.receipt.json",
+  "scopedScenarioDecisions": {
+    "firstPlayableSlice": { "value": "s01-investigation-only", "status": "scoped-policy-decided", "scope": "S01" },
+    "organizationTerms": { "value": "slice-specific-bounded-contracts", "status": "scoped-policy-decided", "scope": "S01" }
+  },
+  "binding": {
+    "revision": "lord-scenario-gp-v2",
+    "scenarioSha256": "08536eebbadd1a2bd6cb2c0d55b18c56096edbb4ae0a4c892f7a89094d08f02f",
+    "deckSha256": "bb700a96f6459b2b1cfcdb2f967191dba6a22c0b7db889405737c76a4e882ec3"
+  },
+  "scenarioDecisionManifest": {
+    "path": "gp.scenario-decisions.proposal.json",
+    "sha256": "c44e91e003e0ec1d4260aee11c91121dfa8513c1fb2318c7c7198a1b9548c03c"
+  },
+  "supersedes": {
+    "proposalSha256": "9f9f3d3198c6b625867fe97052eeabbdde9a970081f762c08183078c6062c779",
+    "decisionArtifacts": [
+      "task-29/30 GP deck"
+    ],
+    "scope": "Decision basis only; readability and explanatory-publication review are not rule/playable approval."
+  }
+}

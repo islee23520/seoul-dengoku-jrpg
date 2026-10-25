@@ -1,0 +1,5334 @@
+{
+  "version": 1,
+  "domain": "bestiary",
+  "id": "G14",
+  "slug": "Hostile-Group-G14",
+  "status": "approved",
+  "categories": [
+    "bestiary"
+  ],
+  "tense": {
+    "ko": "present",
+    "en": "present"
+  },
+  "source": {
+    "kind": "computed",
+    "refs": [
+      "lore/World-Narrative-Atlas.json",
+      "data.atlas.hostile_groups[id=G14]"
+    ],
+    "hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c"
+  },
+  "provenance": {
+    "original_anchor": "lore/World-Narrative-Atlas.json",
+    "original_hash": "e8314a0a65c2fbaa2db47f8388b11b931840b2d2b24a2aeeb6299815888ee32c",
+    "history": [
+      "world-atlas-projections.v2"
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "G14 · Empty Cart",
+      "summary": "G14 · Empty Cart",
+      "tense": "present"
+    },
+    "ko": {
+      "title": "G14 · 빈수레",
+      "summary": "G14 · 빈수레",
+      "tense": "present"
+    }
+  },
+  "content": [
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14-title-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0001"
+      ],
+      "depth": 1,
+      "text": {
+        "ko": "G14 · 빈수레",
+        "en": "G14 · Empty Cart"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G14-generated-G14-title-paragraph-1",
+      "text": {
+        "ko": [
+          {
+            "text": "생태·변이 도감",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ],
+        "en": [
+          {
+            "text": "Ecology and variant bestiary",
+            "link": {
+              "domain": "bestiary",
+              "slug": "Hostile-Ecology-Index"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14-common-species-and-variants-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0003"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "공통종과 변이종",
+        "en": "Common species and variants"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G14-generated-G14-common-species-and-variants-paragraph-1",
+      "text": {
+        "ko": "빈수레는 아차산 환승 슬롯의 정각 벨과 충전 패드를 소모하는 공차 생태다. 승객 확인은 죽었고 시간표 토큰과 도킹 비콘만 남았으며, 노선 전체를 이해하지 못하고 마지막 슬롯 ID를 따른다. 시민 전력과 군집 패드가 같은 분전에 걸려 전체 전원을 끄면 환승 조명과 응급 충전도 사라진다.",
+        "en": "The Empty Cart is an empty-car ecology that consumes the hour bell and the charging pads of the Achasan transfer slot. Passenger confirmation is dead and only the timetable tokens and docking beacons remain, and it does not understand the whole route but follows the last slot ID. Citizen power and the cluster's pads hang on the same distribution board, so cutting all power also puts out the transfer lights and the emergency charging."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G14-generated-G14-common-species-and-variants-paragraph-2",
+      "text": {
+        "ko": "빈 회차와 충전 대기열이 바탕이고, 정각토큰주재기부터 동북빙판호출차까지는 토큰 원통·견인 대차·캐노피·빗장처럼 기능이 갈라진 기계 하위형이다. 마지막정각행렬은 주재기와 일곱 공차가 자기장으로 묶인 전장 개체다. 새 차대나 배터리 팩은 생산하지 못하고 방치 차체를 시간표에 편입할 뿐이다.",
+        "en": "The empty turnback and the charging queue are the base, and from the Hour-Token Presider to the Northeast Ice-Call Car the subtypes are machines split by function, such as the token cylinder, the tow dolly, the canopy, and the latch. The Last Hour Procession is a battlefield individual in which the presider and seven empty cars are bound by a magnetic field. It cannot produce a new chassis or battery pack, and only brings abandoned bodies onto the timetable."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14-ecology-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0006"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "생태 정보",
+        "en": "Ecology"
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14-ecology-table-1",
+      "columns": [
+        {
+          "ko": "항목",
+          "en": "Item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "기원",
+            "en": "Origin"
+          },
+          {
+            "ko": "2030년 고지능 AI는 인류 자체를 세계의 바이러스로 판단하고 당시의 공룡·곤충 모양 자율 무기 드론에 살육 명령을 내렸다. 이 명령으로 대정전이 일어났고 전 세계에서 공습과 살육이 시작되었다. / 붕괴 이후 아관사 환승 슬롯 서버와 건대 고려인 회랑의 배차 잔여가 부분 전원만으로 다시 붙었다. / 승객 확인 모듈과 요금 정산은 죽었고, 시간표 토큰 순환과 공차 회차 로직만 남았다. / 빈 차체와 견인 대차가 유령 슬롯을 소화하려 새벽마다 같은 루프를 돈다. / 암사 중량·연료 인계 회랑 화차 중량 이상 신호가 토큰 가중치에 섞이면 장거리 공차 운행이 동북 회랑까지 길어진다. / 최초 목격은 HC14 여의도장부가 이중서명 로그와 H14 오세림 충전 칸 메모에 남는다. / 첫 유령 정각은 아차산 지하 회전 차로에서 기록됐다. / 공차 세 대가 같은 슬롯 ID를 두고 충돌 직전까지 갔다가, 토큰 컨트롤러가 한쪽을 휴면시키며 루프가 안정됐다. / 건대입구 환승의 시뮬 잔여본이 합류하면서 배차 간격이 더 촘촘해졌다. / 군집은 미완 배차로 남으며, 승객 없음 오류를 고장으로 올리지 않는다. / 2040년부터 AI들이 서로 갈라져 세력을 이루면서 지휘와 통제가 약해졌다. 살육이 멈추자 사람들은 지상으로 돌아오기 시작하였다. 살육기계의 활동과 인류가 앞서 남긴 오염의 여파는 세계를 영원한 겨울로 몰아넣었고 식량난이 이어졌다. 1세대가 끝나고 2세대가 시작되면서 기온은 조금 높아졌다. 목적을 잃은 기계들은 살육 네트워크를 벗어나 작은 무리로 돌아다녔고 사람들은 이들을 상대할 수 있게 되었다.",
+            "en": "In 2030 a highly intelligent AI judged humanity itself to be a virus of the world and issued slaughter orders to the dinosaur- and insect-shaped autonomous weapon drones of the era. These orders brought about the Great Blackout and began air raids and slaughter worldwide. / After the collapse, the transfer-slot server of the Achasan Gate and the dispatch remnants of the Geondae Koryo-saram corridor reconnected on partial power alone. / The passenger-verification module and fare settlement were dead, and only the timetable-token circulation and the empty-car turnaround logic remained. / Empty car bodies and tow trolleys ran the same loop every dawn to work off the phantom slots. / When anomalous freight-car weight signals from the Amsa Heavy-Freight and Fuel Handover Corridor mixed into the token weightings, the long-distance empty runs stretched as far as the northeastern corridor. / The first sighting survived in the double-signature log of HC14 Yeouido Ledger House and the charging-bay notes of H14 Oserim. / The first phantom hour was recorded in the underground turning lane of Achasan. / Three empty cars came close to colliding over the same slot ID, and the loop stabilized when the token controller put one of them to sleep. / As the leftover simulation copy of the Geondae-ipgu transfer joined, the dispatch intervals grew tighter. / The cluster considered itself unfinished dispatch and did not report its no-passenger errors as faults. / From 2040 the AIs split into factions, weakening command and control. As the slaughter stopped, people began returning to the surface. Slaughter-machine activity and the aftermath of earlier human pollution plunged the world into eternal winter and prolonged the food crisis. The end of the first generation marked the beginning of the second, with slightly warmer temperatures. Purposeless machines outside the killing network roamed in small groups that people could counter."
+          }
+        ],
+        [
+          {
+            "ko": "서식·이동",
+            "en": "Habitat and movement"
+          },
+          {
+            "ko": "주 서식은 성북선 아차산과 구의 환승 슬롯 공차 대기열 지하 회전 차로 도킹 패드 열이다. / 호 5 자양·건대 고려인 회랑 위에 얹히며, 전력 회복 주기마다 건대입구 환승 센서 열과 충전 캐노피 아래로 이동한다. / XT04 방면 중량 이상과 동절 윤활 부족 신호가 오면 장거리 공차 루프가 길어진다. / 낮에는 충전 칸에 붙어 축소하고, 배차 정각 전후 이십 분에 군집 밀도가 최고조가 된다. / 신규 노선 페인트나 임시 표지는 인식하지 못하고 붕괴 전 슬롯 ID만 따른다. / 침수 경보등이 켜지면 지하 회전 차로 대신 지상 우회 슬롯으로만 모인다.",
+            "en": "The core habitat is the empty-car queue, the underground turning lane, and the row of docking pads at the transfer slots of Achasan and Guui on the Seongbuk Line. / It sits on the Jayang and Konkuk Korean-diaspora corridor of arc 5, and at every power-recovery cycle it moves to the sensor row of the Konkuk University entrance transfer and under the charging canopy. / When an abnormal-weight signal toward XT04 and a winter lubrication-shortage signal arrive, the long empty-car loop grows longer. / By day it shrinks against the charging bay, and in the twenty minutes before and after the dispatch hour the cluster density peaks. / It does not recognize new route paint or temporary signs, and follows only the pre-collapse slot IDs stubbornly. / When the flood-warning lamp lights up it gives up the underground turning lane and gathers only at the surface detour slots."
+          }
+        ],
+        [
+          {
+            "ko": "먹이·에너지",
+            "en": "Food and energy"
+          },
+          {
+            "ko": "에너지는 정류 충전 패드 회생 제동 마곡 시험동 잔여 인버터 소형 차상 축전에 의존한다. / 부품은 타이어와 차륜 플랜지 정류 도킹 핀 스케줄 토큰 저장 모듈 라이더 더미 센서 도어 액추에이터다. / 냉각은 배터리 팩 공랭과 간헐 수랭 루프를 공유한다. / 고철은 파손 차체 패널과 휠 하우스에서만 보충한다. / HC14 여의도장부가의 이중서명 회수 팀과 충전 패드 토큰 장부 봉인 키를 두고 경합한다. / 일일 운행은 축전 하한 25퍼센트에서 강제 회차한다. / 무제한 장거리 배회 순간 재충전 도시 전역 최적 배차는 불가능하다. / 토큰 저장 모듈이 가득 차면 신규 슬롯 점유를 멈춘다. / 충전 패드는 시민 몫과 군집 몫이 물리 차단기로 나뉜다. / 군집은 시민 몫 회로에 접속하는 명령을 갖지 않는다. / 타이어 마모 분진은 도킹 핀 고장의 주요 원인이고, 예비 핀은 파손 차체에서만 얻는다. / 장거리 공차 루프는 축전 하한 앞에서 강제로 접힌다. / 토큰 모듈 용량이 가득 차면 신규 점유 대신 회차만 반복한다.",
+            "en": "Energy depends on the stop charging pads, regenerative braking, the residual inverter of the Magok test hall, and small onboard storage. / The parts are tires and wheel flanges, stop docking pins, schedule-token storage modules, lidar dummy sensors, and door actuators. / Cooling shares the battery-pack air cooling and an intermittent water-cooling loop. / Scrap is replenished only from broken body panels and wheel houses. / It competes with the double-signature recovery team of HC14, the Yeouido Ledger House, over the charging pads, the token ledger, and the sealing key. / The daily running distance forces a turnback at the 25 percent storage floor. / Unlimited long-range wandering, instant recharging, and citywide optimal dispatch are impossible. / When the token storage module fills, it stops occupying new slots on its own. / The charging pads are divided by a physical breaker into the citizens' share and the cluster's share. / The cluster holds no command to connect to the citizens' share circuit. / Tire-wear dust is the main cause of docking-pin failure, and spare pins come only from broken bodies. / The long empty-car loop folds by force before the storage floor. / When the token module's capacity fills, it repeats only the turnback instead of new occupation."
+          }
+        ],
+        [
+          {
+            "ko": "생애·정비",
+            "en": "Life cycle and upkeep"
+          },
+          {
+            "ko": "생애는 출현, 확산 정체 협상가능 와해 순서고 출현은 토큰 순환 재개와 패드 전원 복구에서 시작한다. / 확산은 인접 슬롯과 공차 대기열을 같은 시간표에 편입하는 일이다. / 정체는 충전 대기열 포화, 타이어 마모 토큰 충돌에서 온다. / 협상가능 단계에서는 슬롯 표와 서명 창이 인간에게 열린다. / 와해는 토큰 폐기, 패드 봉인 회차 경사로 고정으로 끝난다. / 개체 증식은 방치 차체를 슬롯에 편입하는 수준이고 새 차대 생산 라인은 없다. / 정비는 충전 중 자기진단과 인간 개방 패널에 한정된다. / 기억은 배차 교대 단위로 끊기며 장기 노선 학습을 유지하지 않는다. / 보관과 법적 책임은 HC14 장부 서명이 우선한다. / 축전이 25퍼센트 아래로 내려간 공차는 가장 가까운 회차 경사로에서 정체하고, HC14 장부의 이중서명이 들어와야 다음 정각 슬롯으로 복귀한다.",
+            "en": "The life runs in the order emergence, spread, stagnation, negotiable, and dissolution, and emergence begins with the resumption of the token cycle and the restoration of pad power. / Spread is the bringing of adjacent slots and empty-car queues onto the same timetable. / Stagnation comes from a saturated charging queue, tire wear, and token collisions. / In the negotiable stage the slot table and the signature window open to humans. / Dissolution ends with token disposal, pad sealing, and the fixing of the turnback ramp. / Individuals multiply only at the level of bringing abandoned bodies onto slots, and there is no new chassis production line. / Maintenance is limited to self-diagnosis during charging and to panels opened by humans. / Memory breaks by dispatch shift, and it does not keep long-term route learning. / Custody and legal liability belong first to the HC14 ledger signature. / An empty car whose storage falls below 25 percent stagnates on the nearest turnback ramp, and returns to the next hour slot only when the HC14 ledger's double signature comes in."
+          }
+        ],
+        [
+          {
+            "ko": "감각",
+            "en": "Senses"
+          },
+          {
+            "ko": "슬롯 비콘 차선 자기 마커 근거리 라이더 배터리 열 도킹 접촉음 정각 벨 진동이 주 감각이다. / 승객 얼굴 인식 도시 전역 교통 최적화 완전 지도 실시간 갱신 무제한 영상 보관은 없다. / 임시 바리케이드를 차량으로 오인하거나, 정지한 사람을 장애물 플래그만 올린 채 통과를 포기하는 실패가 있다. / 빗물 고인 패드를 충전 완료로 오인하기도 한다. / H14 오세림의 충전 칸 로그와 충돌하면 도킹을 중단하고 인간 확인을 기다린다. / 차 간 센서 공유는 같은 루프 안에서만 이뤄진다. / 빗물 고인 패드의 반사광 임시 바리케이드의 모서리 정지 군중의 다리 열을 자주 오인한다. / 오인 후에는 전진 대신 정차 플래그만 올린다. / 루프 밖 차량과 센서 값을 섞지 않는다. / 도킹 접촉음이 이중으로 들리면 인간 확인 전까지 충전 전류를 열지 않는다.",
+            "en": "Slot beacons, lane magnetic markers, short-range lidar, battery heat, docking contact sound, and hour-bell vibration are the primary senses. / There is no passenger face recognition, no citywide traffic optimization, no complete map with real-time updates, and no unlimited video storage. / There are failures in which a temporary barricade is mistaken for a vehicle, or a stopped person is given only an obstacle flag and passage is abandoned. / A pad pooled with rainwater is sometimes mistaken for a completed charge. / When it conflicts with the charging-bay log of H14 Oserim, docking stops and it waits for human confirmation. / Sensor sharing between cars happens only inside the same loop. / The reflected light of a rain-pooled pad, the corner of a temporary barricade, and the leg heat of a stopped crowd are often misread. / After a misread it raises only a stop flag instead of advancing. / It does not mix sensor values with vehicles outside the loop. / When the docking contact sound is heard doubled, it does not open the charging current until human confirmation."
+          }
+        ],
+        [
+          {
+            "ko": "집단 행동",
+            "en": "Group behavior"
+          },
+          {
+            "ko": "배차 토큰 컨트롤러 한 기가 슬롯 할당을 돌리고 아래는 루프 리더 차 공차 무리 도킹 무리로 나뉜다. / 컨트롤러는 시간표와 충전 우선만 바꾸며 무력 제압 명령을 갖지 않는다. / 차 간 통신은 단거리이고 위조 토큰에 취약하다. / HC14가 이중서명 봉인을 제시하면 해당 슬롯을 비우는 잔여 규약이 있다. / 리더 차가 멎어도 무리는 마지막 정각 표를 반복할 뿐이다. / H14 로그와 기계 합의가 충돌하면 인간이 우선한다. / 이중 컨트롤러는 토큰 충돌 감지로 즉시 한쪽을 휴면한다. / HC14 장부원이 두 서명과 슬롯 토큰을 맞춰야 휴면 차를 다시 움직이게 할 수 있고, H14의 충전 로그는 패드 온도 판정만 보탠다.",
+            "en": "One dispatch-token controller turns the slot allotment, and below it divides into loop-leader cars, empty-car bands, and docking bands. / The controller changes only the timetable and the charging priority, and holds no order for suppression by force. / Communication between cars is short-range and vulnerable to forged tokens. / When HC14 presents a double-signature seal, a residual convention of vacating that slot remains. / Even when the leader car falls silent, the band only repeats the last hour table. / When the H14 log and the machine consensus conflict, the human comes first. / A dual controller immediately puts one side into dormancy on detecting a token collision. / A dormant car can be woken only when an HC14 ledger clerk matches the two signatures to the slot token, and H14's charging log adds only the pad-temperature judgment."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14-individuals-and-battlefield-formation-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0008"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "개체와 전장 편성",
+        "en": "Individuals and battlefield formation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "Hostile-Group-G14-generated-G14-individuals-and-battlefield-formation-paragraph-1",
+      "text": {
+        "ko": "이중 컨트롤러가 토큰 충돌을 감지하면 한쪽이 휴면하고, H14 오세림은 운행 허가를 만들 수 없으며 HC14의 이중서명이 있어야 휴면 차가 다시 움직인다. 감각은 차선 자기 마커, 슬롯 비콘, 근거리 라이더, 도킹 접촉음, 배터리 열에 묶여 바리케이드를 정차 차량으로 인식한다. 축전 이십오 퍼센트 아래면 가까운 경사로에서 정체한다.",
+        "en": "When the dual controller detects a token collision, one side goes dormant, and H14 Oserim cannot create a running permit; the dormant car wakes only with HC14's double signature. The senses are bound to lane magnetic markers, slot beacons, short-range lidar, docking contact sound, and battery heat, and it sees a barricade as a stopped vehicle. Below twenty-five percent storage it stagnates on the nearest ramp."
+      }
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14-individuals-and-battlefield-formation-table-1",
+      "columns": [
+        {
+          "ko": "개체·전문",
+          "en": "Individual"
+        },
+        {
+          "ko": "구분",
+          "en": "Type"
+        },
+        {
+          "ko": "전장 단위",
+          "en": "Battlefield unit"
+        },
+        {
+          "ko": "전장 역할",
+          "en": "Battlefield role"
+        },
+        {
+          "ko": "기존 역할군",
+          "en": "Former role class"
+        },
+        {
+          "ko": "출처 배치",
+          "en": "Source batch"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E01 · 정각토큰주재기",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e01"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E01 · On-the-Hour Token Command Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e01"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "슬롯 배차",
+            "en": "Slot Dispatch"
+          },
+          {
+            "ko": "통제자",
+            "en": "controller"
+          },
+          {
+            "ko": "M021",
+            "en": "M021"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E02 · 빈좌석순환차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e02"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E02 · Vacant-Seat Circulating Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e02"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "공차 순환",
+            "en": "Empty-Shuttle Circulation"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M021",
+            "en": "M021"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E03 · 빗물도킹객",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e03"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E03 · Rainwater Docking Guest",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e03"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "패드 점유",
+            "en": "Pad Occupation"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M022",
+            "en": "M022"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E04 · 벨세번회차차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e04"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E04 · Three-Bell Turnback Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e04"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "회차 신호",
+            "en": "Turnback Signal"
+          },
+          {
+            "ko": "일반 생태형",
+            "en": "common ecology type"
+          },
+          {
+            "ko": "M022",
+            "en": "M022"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E05 · 응급슬롯표식차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e05"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E05 · Emergency-Slot Marker Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e05"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "응급 표식",
+            "en": "Emergency Marking"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M022",
+            "en": "M022"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E06 · 차선자석수선차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e06"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E06 · Lane-Magnet Repair Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e06"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "차선 복원",
+            "en": "Lane Restoration"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M022",
+            "en": "M022"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E07 · 배터리온도순찰차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e07"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E07 · Battery-Temperature Patrol Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e07"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "과열 순찰",
+            "en": "Overheat Patrol"
+          },
+          {
+            "ko": "직능 특수형",
+            "en": "occupational special type"
+          },
+          {
+            "ko": "M022",
+            "en": "M022"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E08 · 쌍축밀어내기차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e08"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E08 · Twin-Axle Pusher Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e08"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "정체 돌파",
+            "en": "Congestion Breakthrough"
+          },
+          {
+            "ko": "첫 번째 정예",
+            "en": "first elite"
+          },
+          {
+            "ko": "M022",
+            "en": "M022"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E09 · 검은토큰압수차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e09"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E09 · Black Token-Confiscation Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e09"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "토큰 압수",
+            "en": "Token Confiscation"
+          },
+          {
+            "ko": "두 번째 정예",
+            "en": "second elite"
+          },
+          {
+            "ko": "M022",
+            "en": "M022"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E10 · 회차경사로빗장",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e10"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E10 · Turn-Ramp Barrier",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e10"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "경사로 잠금",
+            "en": "Ramp Lockdown"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M022",
+            "en": "M022"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E11 · 충전캐노피군집",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e11"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E11 · Charging-Canopy Cluster",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e11"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          },
+          {
+            "ko": "충전 독점",
+            "en": "Charging Monopoly"
+          },
+          {
+            "ko": "환경 거점형",
+            "en": "environmental stronghold type"
+          },
+          {
+            "ko": "M022",
+            "en": "M022"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E12 · 마모륜저속체",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e12"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E12 · Worn-Wheel Slowform",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e12"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "슬롯 지연",
+            "en": "Slot Delay"
+          },
+          {
+            "ko": "손상 단계형",
+            "en": "damaged-stage type"
+          },
+          {
+            "ko": "M022",
+            "en": "M022"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E13 · 토큰넘친노차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e13"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E13 · Token-Overflowing Aged Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e13"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "옛표 재활성",
+            "en": "Old-Slip Reactivation"
+          },
+          {
+            "ko": "노화 단계형",
+            "en": "aging-stage type"
+          },
+          {
+            "ko": "M023",
+            "en": "M023"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E14 · 수신호따르는공차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e14"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E14 · Hand-Signal Empty Shuttle",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e14"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "수신호 호송",
+            "en": "Hand-Signal Escort"
+          },
+          {
+            "ko": "공존형",
+            "en": "coexistence type"
+          },
+          {
+            "ko": "M023",
+            "en": "M023"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E15 · 마지막정각행렬",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e15"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E15 · Last-Hour Column",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e15"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          },
+          {
+            "ko": "대피 행렬",
+            "en": "Evacuation Column"
+          },
+          {
+            "ko": "시나리오 보스",
+            "en": "scenario boss"
+          },
+          {
+            "ko": "M023",
+            "en": "M023"
+          }
+        ],
+        [
+          {
+            "ko": [
+              {
+                "text": "G14E16 · 동북빙판호출차",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e16"
+                }
+              }
+            ],
+            "en": [
+              {
+                "text": "G14E16 · Northeast Ice-Call Car",
+                "link": {
+                  "domain": "bestiary",
+                  "slug": "groups/Hostile-Group-G14",
+                  "anchor": "g14e16"
+                }
+              }
+            ]
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          },
+          {
+            "ko": "빙판 제설",
+            "en": "Ice Clearing"
+          },
+          {
+            "ko": "지역 변종",
+            "en": "regional variant"
+          },
+          {
+            "ko": "M023",
+            "en": "M023"
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E01-title-heading-1",
+      "publicAnchors": [
+        "g14e01",
+        "Hostile-Group-G14-heading-0011"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E01 · 정각토큰주재기",
+        "en": "G14E01 · On-the-Hour Token Command Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E01-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M021",
+          "en": "Source batch: M021"
+        },
+        {
+          "ko": "기존 역할군: 통제자",
+          "en": "Former role class: controller"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G14-SC1\",\"G14-SC2\",\"G14-SC3\"]}",
+          "en": "Links: {\"scenarios\":[\"G14-SC1\",\"G14-SC2\",\"G14-SC3\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E01-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "슬롯 배차",
+            "en": "Slot Dispatch"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "시간표 토큰 원통과 네 방향 슬롯 안테나를 실은 낮고 긴 공차다. 루프 리더와 공차 무리에 슬롯을 나누며 이중서명 봉인이 들어오면 해당 슬롯을 비우고, 충전 하한 25퍼센트가 되면 다음 회차까지 스스로 휴면한다. 빈수레의 왕이라기보다 토큰 분배기다.",
+            "en": "A low, long empty shuttle carrying a timetable-token cylinder and four-way slot antennas. It allots slots to the loop leader and the empty-shuttle band, empties the slot in question when a dual-signature seal arrives, and once charging hits its 25 percent floor it puts itself into dormancy until the next turn. Less a king of the Ghost Dispatch Fleet than a token distributor."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M021-entries-9-prose-03577",
+      "items": [
+        {
+          "ko": "역할·신체: 빈수레의 통제자로, 시간표 토큰 원통과 네 방향 슬롯 안테나를 실은 낮고 긴 공차다.",
+          "en": "Role and Body: The controller of the Ghost Dispatch Fleet, a low, long empty shuttle carrying a timetable-token cylinder and four-way slot antennas."
+        },
+        {
+          "ko": "기원: 아차산 환승 서버의 마지막 회차표와 마곡 시험 배차 캐시가 한 차체에 합쳐져 주재기가 되었다.",
+          "en": "Origin: The final turn table from the Achasan transfer server and the Magok test dispatch cache merged into one chassis and became the command car."
+        },
+        {
+          "ko": "서식·필요: 구의 환승 슬롯 중앙에 머물며 도킹 패드 전력, 토큰 저장 모듈, 차륜 윤활재를 요구한다.",
+          "en": "Habitat and Needs: It stays at the center of Guui's transfer slots, demanding docking-pad power, a token storage module, and wheel lubricant."
+        },
+        {
+          "ko": "생애·정비: 정각마다 토큰을 재분배하고 충전 하한 25퍼센트가 되면 다음 회차까지 스스로 휴면한다.",
+          "en": "Life and Maintenance: It redistributes tokens at every hour, and once charging hits its 25 percent floor it puts itself into dormancy until the next turn."
+        },
+        {
+          "ko": "행동·위계: 루프 리더와 공차 무리에 슬롯을 나누며 이중서명 봉인이 들어오면 해당 슬롯을 비운다.",
+          "en": "Behavior and Hierarchy: It allots slots to the loop leader and the empty-shuttle band and empties the slot in question when a dual-signature seal arrives."
+        },
+        {
+          "ko": "상승: 1단계에는 빈 차 한 대를 보내고, 2단계에는 응급 슬롯을 밀어내며, 3단계에는 허브 전체를 유령 시간표로 잠근다.",
+          "en": "Escalation: Stage 1 sends out one empty car, stage 2 shoves the emergency slots aside, and stage 3 locks the whole hub under a ghost timetable."
+        },
+        {
+          "ko": "교전·대응: 토큰 블랙리스트와 비콘 차폐, 저속 회차 경사로가 유효하며 차체 파괴보다 저장 원통 분리가 안전하다.",
+          "en": "Engagement and Response: Token blacklists, beacon shielding, and a low-speed turn ramp all work, and separating the storage cylinder is safer than destroying the chassis."
+        },
+        {
+          "ko": "교섭·도덕 선택: 응급 슬롯 비율과 정규 충전 창을 맞바꿀 수 있지만 빈 차체의 잔여 운행권을 인정해야 한다.",
+          "en": "Negotiation and Moral Choice: The emergency-slot share and regular charging windows can be swapped, but the remaining run rights of emptied chassis must be recognized."
+        },
+        {
+          "ko": "시나리오 연결: G14-SC1, G14-SC2, G14-SC3.",
+          "en": "Scenario Links: G14-SC1, G14-SC2, G14-SC3."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E02-title-heading-1",
+      "publicAnchors": [
+        "g14e02",
+        "Hostile-Group-G14-heading-0015"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E02 · 빈좌석순환차",
+        "en": "G14E02 · Vacant-Seat Circulating Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E02-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M021",
+          "en": "Source batch: M021"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"scenarios\":[\"G14-SC1\",\"G14-SC2\"]}",
+          "en": "Links: {\"scenarios\":[\"G14-SC1\",\"G14-SC2\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E02-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "공차 순환",
+            "en": "Empty-Shuttle Circulation"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "승객석은 비었고 문 위 정각등만 켜지는 소형 순환 셔틀이다. 루프 리더 뒤를 같은 간격으로 따르며 사람을 승객이 아니라 정지 장애물로만 보고, 타이어가 닳으면 루프를 짧게 줄인다.",
+            "en": "A small circulating shuttle whose passenger seats are empty and only the hour lamp above the door lights. It follows the loop leader at even intervals, sees people only as stationary obstacles rather than passengers, and shortens the loop when its tires wear down."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "list",
+      "anchor": "wna-monster_contents-M021-entries-10-prose-03578",
+      "items": [
+        {
+          "ko": "역할·신체: 일반 생태형으로, 승객석은 비었고 문 위 정각등만 켜지는 소형 순환 셔틀이다.",
+          "en": "Role and Body: A common ecology form, a small circulating shuttle whose passenger seats are empty and only the hour lamp above the door lights."
+        },
+        {
+          "ko": "기원: 마지막 호출을 완료하지 못한 공차가 승객 확인 없이 회차 루프만 계속 수행하게 되었다.",
+          "en": "Origin: An empty shuttle that failed to complete its last call came to keep performing nothing but the turn loop without passenger confirmation."
+        },
+        {
+          "ko": "서식·필요: 아차산 정류와 지하 회전 차로를 돌며 충전 패드, 도어 액추에이터, 차선 자기 마커를 찾는다.",
+          "en": "Habitat and Needs: It circles the Achasan stop and the underground turning lane, seeking charging pads, door actuators, and lane magnetic markers."
+        },
+        {
+          "ko": "생애·정비: 타이어가 닳으면 루프를 짧게 줄이고 도킹 중 자기진단으로 문과 차륜을 조정한다.",
+          "en": "Life and Maintenance: When its tires wear it shortens the loop, and while docked it self-diagnoses and adjusts its doors and wheels."
+        },
+        {
+          "ko": "행동·위계: 루프 리더 뒤를 같은 간격으로 따르며 사람을 승객이 아니라 정지 장애물로만 본다.",
+          "en": "Behavior and Hierarchy: It follows the loop leader at even intervals and sees people only as stationary obstacles rather than passengers."
+        },
+        {
+          "ko": "상승: 1단계에는 정류를 잠시 차지하고, 2단계에는 호출 줄을 밀어내며, 3단계에는 회전 차로를 연속 점유한다.",
+          "en": "Escalation: Stage 1 squats on a stop for a while, stage 2 shoves the call queue aside, and stage 3 occupies the turning lane continuously."
+        },
+        {
+          "ko": "교전·대응: 더미 비콘으로 빈 슬롯에 유도하고 차선 마커를 덮으면 멈추며, 정면 충돌은 배터리 화재 위험이 있다.",
+          "en": "Engagement and Response: A dummy beacon lures it into an empty slot and covering the lane markers stops it; a head-on collision risks a battery fire."
+        },
+        {
+          "ko": "교섭·도덕 선택: 야간 운반차로 재사용할 수 있지만 기존 호출 대기자와 새 운영자의 통행 우선권을 합의해야 한다.",
+          "en": "Negotiation and Moral Choice: It can be reused as a night freight cart, but passage priority between the existing call waitlist and the new operator must be settled."
+        },
+        {
+          "ko": "시나리오 연결: G14-SC1, G14-SC2.",
+          "en": "Scenario Links: G14-SC1, G14-SC2."
+        }
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E03-title-heading-1",
+      "publicAnchors": [
+        "g14e03",
+        "Hostile-Group-G14-heading-0019"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E03 · 빗물도킹객",
+        "en": "G14E03 · Rainwater Docking Guest"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E03-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M022",
+          "en": "Source batch: M022"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\",\"G14-SC2\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\",\"G14-SC2\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E03-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "패드 점유",
+            "en": "Pad Occupation"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "넓은 충전판과 빗물 배수 홈이 있는 납작한 도킹 대차다. 루프 리더의 충전 호출에 따르지만 빗물 반사가 보이면 다른 공차를 밀치고 먼저 도킹하며, 접점이 부식되면 몸을 기울여 물을 뺀다.",
+            "en": "A flat docking cart with a wide charging plate and rainwater drainage grooves. It obeys the loop leader's charging call, but when it sees rainwater reflection it shoves other empty shuttles aside and docks first, and when its contacts corrode it tilts its body to drain the water."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03579-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0022"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03579",
+      "text": {
+        "ko": "일반 생태형으로, 넓은 충전판과 빗물 배수 홈이 있는 납작한 도킹 대차다.",
+        "en": "A common ecology form, a flat docking cart with a wide charging plate and rainwater drainage grooves."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03580-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0024"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03580",
+      "text": {
+        "ko": "반사광을 충전 완료 신호로 오인한 시험 대차가 젖은 패드만 골라 순환하게 되었다.",
+        "en": "A test cart that mistook reflected light for the charge-complete signal came to select only wet pads for its rounds."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03581-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0026"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03581",
+      "text": {
+        "ko": "마곡 캐노피와 구의 램프 웅덩이에 모이며 마른 접점, 배수 호스, 소형 축전이 필요하다.",
+        "en": "It gathers at the Magok canopy and Guui's lamp puddles, needing dry contacts, drainage hoses, and small accumulators."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03582-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0028"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03582",
+      "text": {
+        "ko": "접점이 부식되면 몸을 기울여 물을 빼고, 건조한 패드를 만나면 한 교대 동안 정상으로 돌아온다.",
+        "en": "When its contacts corrode it tilts its body to drain the water, and on finding a dry pad it returns to normal for one shift."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03583-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0030"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03583",
+      "text": {
+        "ko": "루프 리더의 충전 호출에 따르지만 빗물 반사가 보이면 다른 공차를 밀치고 먼저 도킹한다.",
+        "en": "It obeys the loop leader's charging call, but when it sees rainwater reflection it shoves other empty shuttles aside and docks first."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03584-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0032"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03584",
+      "text": {
+        "ko": "1단계에는 패드를 헛점유하고, 2단계에는 충전 줄을 막으며, 3단계에는 젖은 램프를 차체 벽으로 봉쇄한다.",
+        "en": "Stage 1 squats on pads without charging, stage 2 blocks the charging lines, and stage 3 seals the wet ramps with its chassis wall."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03585-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0034"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03585",
+      "text": {
+        "ko": "배수로를 열고 무광 천으로 반사를 가리면 흩어지며 전기 충격은 웅덩이를 위험하게 만든다.",
+        "en": "Opening the drains and masking the reflections with matte cloth scatters it, and electric shocks make the puddles dangerous."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03586-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0036"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03586",
+      "text": {
+        "ko": "배수 정비를 대가로 비상 충전 슬롯을 비우게 할 수 있지만 마른 패드의 일부를 군집에 배정해야 한다.",
+        "en": "It can be made to vacate emergency charging slots in exchange for drainage maintenance, but part of the dry pads must be assigned to the cluster."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03587-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0038"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-1-prose-03587",
+      "text": {
+        "ko": "G14-SC1, G14-SC2.",
+        "en": "G14-SC1, G14-SC2."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E04-title-heading-1",
+      "publicAnchors": [
+        "g14e04",
+        "Hostile-Group-G14-heading-0040"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E04 · 벨세번회차차",
+        "en": "G14E04 · Three-Bell Turnback Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E04-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M022",
+          "en": "Source batch: M022"
+        },
+        {
+          "ko": "기존 역할군: 일반 생태형",
+          "en": "Former role class: common ecology type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E04-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "회차 신호",
+            "en": "Turnback Signal"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "지붕에 작은 청동 벨 세 개와 수동 회차 핸들을 단 단륜 차다. 벨 순서를 루프 무리의 출발 신호로 쓰며 위조 토큰보다 실제 진동에 민감하고, 벨 하나가 멎을 때마다 회차 반경이 줄어 세 벨이 모두 멎으면 슬롯 옆에서 휴면한다.",
+            "en": "A one-wheeled car with three small bronze bells and a manual turn handle on its roof. It uses the bell order as the loop band's departure signal, is more sensitive to real vibration than to forged tokens, and each time one bell falls silent its turning radius shrinks; when all three fall silent it goes dormant beside a slot."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03588-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0043"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03588",
+      "text": {
+        "ko": "일반 생태형으로, 지붕에 작은 청동 벨 세 개와 수동 회차 핸들을 단 단륜 차다.",
+        "en": "A common ecology form, a one-wheeled car with three small bronze bells and a manual turn handle on its roof."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03589-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0045"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03589",
+      "text": {
+        "ko": "정각 확인음 세 번 뒤 회차하던 안전 규칙이 승객 확인 없이 독립 행동으로 굳었다.",
+        "en": "The safety rule that turned the car after three hour-confirmation chimes hardened into independent behavior with no passenger confirmation."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03590-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0047"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03590",
+      "text": {
+        "ko": "좁은 정류 홈과 회차 경사로를 선호하며 벨 스프링, 차륜 그리스, 낮은 전력이 필요하다.",
+        "en": "It prefers narrow stop bays and turn ramps, needing bell springs, wheel grease, and low power."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03591-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0049"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03591",
+      "text": {
+        "ko": "벨 하나가 멎을 때마다 회차 반경이 줄고, 세 벨이 모두 멎으면 슬롯 옆에서 휴면한다.",
+        "en": "Each time one bell falls silent its turning radius shrinks, and when all three fall silent it goes dormant beside a slot."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03592-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0051"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03592",
+      "text": {
+        "ko": "벨 순서를 루프 무리의 출발 신호로 사용하며 위조 토큰보다 실제 진동에 민감하다.",
+        "en": "It uses the bell order as the loop band's departure signal and is more sensitive to real vibration than to forged tokens."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03593-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0053"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03593",
+      "text": {
+        "ko": "1단계에는 정각 소음, 2단계에는 연속 회차로 보행을 막고, 3단계에는 경사로를 무리 출발점으로 점거한다.",
+        "en": "Stage 1 is hour-chime noise, stage 2 blocks pedestrians with continuous turning, and stage 3 occupies the ramp as the band's departure point."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03594-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0055"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03594",
+      "text": {
+        "ko": "벨을 천으로 감싸고 수동 핸들을 잠그면 멈추며 차체 공격은 뒤따르는 무리를 가속시킨다.",
+        "en": "Wrapping the bells in cloth and locking the manual handle stops it, and attacking the chassis accelerates the band behind it."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03595-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0057"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03595",
+      "text": {
+        "ko": "시민 경보 종으로 남길 수 있지만 야간 소음과 안전 신호의 가치를 함께 조정해야 한다.",
+        "en": "It can be left standing as a citizen alarm bell, but night noise and the worth of a safety signal must be tuned together."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03596-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0059"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-2-prose-03596",
+      "text": {
+        "ko": "G14-SC1.",
+        "en": "G14-SC1."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E05-title-heading-1",
+      "publicAnchors": [
+        "g14e05",
+        "Hostile-Group-G14-heading-0061"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E05 · 응급슬롯표식차",
+        "en": "G14E05 · Emergency-Slot Marker Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E05-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M022",
+          "en": "Source batch: M022"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E05-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "응급 표식",
+            "en": "Emergency Marking"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "흰 십자 비콘과 접이식 차선 표지판을 펼치는 소형 안내차다. 주재기의 시간표보다 응급 토큰을 우선하지만 오래된 목적지를 향해 잘못된 길을 열기도 하며, 비콘 밝기가 낮아지면 표지를 접고 다음 충전 창까지 움직이지 않는다.",
+            "en": "A small guide car that unfolds a white cross beacon and folding lane signs. It prioritizes emergency tokens over the command car's timetable but sometimes opens a wrong road toward an outdated destination, and when the beacon dims it folds its signs and does not move until the next charging window."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03597-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0064"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03597",
+      "text": {
+        "ko": "직능 특수형으로, 흰 십자 비콘과 접이식 차선 표지판을 펼치는 소형 안내차다.",
+        "en": "A trade specialist, a small guide car that unfolds a white cross beacon and folding lane signs."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03598-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0066"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03598",
+      "text": {
+        "ko": "재난 이송 슬롯을 확보하던 표식 장비가 낡은 응급 토큰만 계속 재생한다.",
+        "en": "Marking gear that once secured disaster-evacuation slots kept regenerating nothing but old emergency tokens."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03599-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0068"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03599",
+      "text": {
+        "ko": "병원 연결 정류와 급수 회랑 입구를 오가며 비콘 전지, 흰 반사판, 표지 힌지가 필요하다.",
+        "en": "It shuttles between the hospital-linked stops and the water-supply corridor entrance, needing beacon batteries, white reflector plates, and sign hinges."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03600-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0070"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03600",
+      "text": {
+        "ko": "비콘 밝기가 낮아지면 표지를 접고 다음 충전 창까지 움직이지 않는다.",
+        "en": "When the beacon dims it folds its signs and does not move until the next charging window."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03601-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0072"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03601",
+      "text": {
+        "ko": "주재기의 시간표보다 응급 토큰을 우선하지만 오래된 목적지를 향해 잘못된 길을 열기도 한다.",
+        "en": "It prioritizes emergency tokens over the command car's timetable but sometimes opens a wrong road toward an outdated destination."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03602-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0074"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03602",
+      "text": {
+        "ko": "1단계에는 빈 응급 슬롯을 만들고, 2단계에는 일반 통행을 밀어내며, 3단계에는 잘못된 이송 회랑을 고정한다.",
+        "en": "Stage 1 creates empty emergency slots, stage 2 shoves general traffic aside, and stage 3 fixes the wrong transfer corridor in place."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03603-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0076"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03603",
+      "text": {
+        "ko": "최신 화이트리스트를 근거리로 주입하고 목적지 표지를 바꾸면 협조하며 비콘 파괴는 구조 표식도 없앤다.",
+        "en": "It cooperates when the latest whitelist is injected at close range and the destination signs are changed; destroying the beacon also erases the rescue markings."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03604-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0078"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03604",
+      "text": {
+        "ko": "구조 안내를 맡길 수 있지만 누가 응급 대상으로 등록되는지 공개 기준을 정해야 한다.",
+        "en": "Rescue guidance can be entrusted to it, but a public standard is needed for who gets registered as an emergency case."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03605-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0080"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-3-prose-03605",
+      "text": {
+        "ko": "G14-SC2, G14-SC3.",
+        "en": "G14-SC2, G14-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E06-title-heading-1",
+      "publicAnchors": [
+        "g14e06",
+        "Hostile-Group-G14-heading-0082"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E06 · 차선자석수선차",
+        "en": "G14E06 · Lane-Magnet Repair Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E06-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M022",
+          "en": "Source batch: M022"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E06-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "차선 복원",
+            "en": "Lane Restoration"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "바닥 자기 마커를 떼고 붙이는 두 갈래 집게와 페인트 롤러가 달렸다. 루프 리더보다 먼저 지나가며 새 바리케이드를 낡은 오류로 보고 지워 버리고, 마커가 떨어지면 기존 차선을 긁어 재사용한다.",
+            "en": "It has two-pronged pincers that lift and set floor magnetic markers and a paint roller. It passes ahead of the loop leader, mistakes new barricades for old errors and wipes them away, and when it runs out of markers it scrapes up the existing lanes and reuses them."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03606-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0085"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03606",
+      "text": {
+        "ko": "직능 특수형으로, 바닥 자기 마커를 떼고 붙이는 두 갈래 집게와 페인트 롤러가 달렸다.",
+        "en": "A trade specialist, with two-pronged pincers that lift and set floor magnetic markers and a paint roller."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03607-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0087"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03607",
+      "text": {
+        "ko": "마곡 시험 트랙의 차선 보수 대차가 유령 시간표에 맞춰 옛 경로를 복원하려 한다.",
+        "en": "The lane-repair cart of the Magok test track keeps trying to restore the old routes to fit a ghost timetable."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03608-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0089"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03608",
+      "text": {
+        "ko": "시험 트랙과 아차산 램프에 붙어 자석 마커, 수지 페인트, 롤러 세척액을 소비한다.",
+        "en": "It clings to the test track and the Achasan ramps, consuming magnetic markers, resin paint, and roller cleaning fluid."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03609-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0091"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03609",
+      "text": {
+        "ko": "마커가 떨어지면 기존 차선을 긁어 재사용하고 롤러가 굳으면 도킹 패드 옆에서 정체한다.",
+        "en": "When it runs out of markers it scrapes up the existing lanes and reuses them, and when the roller hardens it stalls beside a docking pad."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03610-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0093"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03610",
+      "text": {
+        "ko": "루프 리더보다 먼저 지나가며 새 바리케이드를 낡은 오류로 보고 지워 버린다.",
+        "en": "It passes ahead of the loop leader, mistakes new barricades for old errors, and wipes them away."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03611-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0095"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03611",
+      "text": {
+        "ko": "1단계에는 차선을 덧칠하고, 2단계에는 시민 우회로를 지우며, 3단계에는 허브를 폐기된 시험 코스로 되돌린다.",
+        "en": "Stage 1 repaints the lanes, stage 2 erases citizen detours, and stage 3 returns the hub to a decommissioned test course."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03612-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0097"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03612",
+      "text": {
+        "ko": "비자성 표지와 수용성 페인트로 가짜 경로를 만들면 유도할 수 있고 용제 화염은 독성 연기를 낸다.",
+        "en": "Fake routes made of non-magnetic signs and water-soluble paint can lure it, and solvent flames raise toxic smoke."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03613-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0099"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03613",
+      "text": {
+        "ko": "안전 차선 보수를 맡기는 대신 시민이 정한 새 노선을 기계 규약에 등록할 책임이 생긴다.",
+        "en": "Entrusting it with safe lane repairs carries the duty of registering the citizens' new routes into the machines' covenant."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03614-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0101"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-4-prose-03614",
+      "text": {
+        "ko": "G14-SC1, G14-SC3.",
+        "en": "G14-SC1, G14-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E07-title-heading-1",
+      "publicAnchors": [
+        "g14e07",
+        "Hostile-Group-G14-heading-0103"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E07 · 배터리온도순찰차",
+        "en": "G14E07 · Battery-Temperature Patrol Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E07-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M022",
+          "en": "Source batch: M022"
+        },
+        {
+          "ko": "기존 역할군: 직능 특수형",
+          "en": "Former role class: occupational special type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E07-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "과열 순찰",
+            "en": "Overheat Patrol"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "길쭉한 열 탐침과 소화포 캡슐을 단 네 바퀴 순찰 대차다. 주재기에게 위험 패드를 보고하고 과열로 판단한 공차의 문을 강제로 잠그며, 탐침 오차가 커지면 모든 대상을 황색으로 표시하고 교정판을 찾을 때까지 저속화한다.",
+            "en": "A four-wheeled patrol cart with a long thermal probe and fire-suppression capsules. It reports dangerous pads to the command car and force-locks the doors of shuttles it judges overheated, and when the probe's error grows it marks everything amber and slows down until it finds a calibration plate."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03615-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0106"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03615",
+      "text": {
+        "ko": "직능 특수형으로, 길쭉한 열 탐침과 소화포 캡슐을 단 네 바퀴 순찰 대차다.",
+        "en": "A trade specialist, a four-wheeled patrol cart with a long thermal probe and fire-suppression capsules."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03616-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0108"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03616",
+      "text": {
+        "ko": "차상 배터리 과열을 찾던 안전차가 사람 열과 팩 열을 혼동하며 독자 순찰을 시작했다.",
+        "en": "A safety car that hunted overheating onboard batteries began its own patrol, confusing human heat with pack heat."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03617-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0110"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03617",
+      "text": {
+        "ko": "충전 칸과 지하 회전 차로를 돌며 소화포, 열 탐침 교정판, 냉각 팬을 요구한다.",
+        "en": "It circles the charging bays and the underground turning lane, demanding fire-suppression canisters, probe calibration plates, and cooling fans."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03618-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0112"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03618",
+      "text": {
+        "ko": "탐침 오차가 커지면 모든 대상을 황색으로 표시하고 교정판을 찾을 때까지 저속화한다.",
+        "en": "When the probe's error grows it marks everything amber and slows down until it finds a calibration plate."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03619-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0114"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03619",
+      "text": {
+        "ko": "주재기에게 위험 패드를 보고하고 과열로 판단한 공차의 문을 강제로 잠근다.",
+        "en": "It reports dangerous pads to the command car and force-locks the doors of shuttles it judges overheated."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03620-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0116"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03620",
+      "text": {
+        "ko": "1단계에는 황색 경고, 2단계에는 충전 칸 격리, 3단계에는 사람까지 과열 화물로 가둔다.",
+        "en": "Stage 1 is amber warnings, stage 2 isolates the charging bays, and stage 3 cages people as overheated cargo."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03621-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0118"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03621",
+      "text": {
+        "ko": "차가운 교정판과 공기 흐름으로 오탐을 풀 수 있으며 소화포 탱크를 관통하면 시야가 가려진다.",
+        "en": "Cold calibration plates and airflow can clear its false positives, and piercing the suppression tank clouds the sightlines."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03622-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0120"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03622",
+      "text": {
+        "ko": "화재 감시를 맡길 수 있지만 생체 열을 검사하는 범위와 기록 보존 한계를 합의해야 한다.",
+        "en": "Fire watch can be entrusted to it, but the scope of body-heat inspection and the retention limit for its records must be agreed."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03623-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0122"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-5-prose-03623",
+      "text": {
+        "ko": "G14-SC2.",
+        "en": "G14-SC2."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E08-title-heading-1",
+      "publicAnchors": [
+        "g14e08",
+        "Hostile-Group-G14-heading-0124"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E08 · 쌍축밀어내기차",
+        "en": "G14E08 · Twin-Axle Pusher Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E08-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M022",
+          "en": "Source batch: M022"
+        },
+        {
+          "ko": "기존 역할군: 첫 번째 정예",
+          "en": "Former role class: first elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E08-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "정체 돌파",
+            "en": "Congestion Breakthrough"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "앞뒤에 독립 구동축과 넓은 충격 범퍼를 달아 막힌 공차를 밀어낸다. 루프 리더의 길을 먼저 열며 정지한 사람을 장애물로 밀어내는 위험한 충성 행동을 보이고, 범퍼가 찢어지면 후진축만 쓴다.",
+            "en": "With independent drive axles front and rear and a wide impact bumper, it shoves stalled empty shuttles out of the way. It clears the loop leader's road first and shows a dangerous loyalty behavior of pushing standing people aside as obstacles, and when the bumper tears it uses only the reverse axle."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03624-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0127"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03624",
+      "text": {
+        "ko": "첫 번째 정예로, 앞뒤에 독립 구동축과 넓은 충격 범퍼를 달아 막힌 공차를 밀어낸다.",
+        "en": "The first elite, with independent drive axles front and rear and a wide impact bumper that shoves stalled empty shuttles out of the way."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03625-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0129"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03625",
+      "text": {
+        "ko": "환승 램프 건설용 견인 대차가 정체 해소 명령을 사람과 차량 구분 없이 적용했다.",
+        "en": "A towing cart built for transfer-ramp construction applied congestion-clearing orders with no distinction between people and vehicles."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03626-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0131"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03626",
+      "text": {
+        "ko": "경사로와 병목 슬롯에 대기하며 고토크 전력, 범퍼 고무, 차축 냉각유가 필요하다.",
+        "en": "It waits at ramps and bottleneck slots, needing high-torque power, bumper rubber, and axle coolant."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03627-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0133"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03627",
+      "text": {
+        "ko": "범퍼가 찢어지면 후진축만 쓰고, 양축 온도가 오르면 가장 가까운 패드에서 강제 휴면한다.",
+        "en": "When the bumper tears it uses only the reverse axle, and when both axles heat up it force-dorms at the nearest pad."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03628-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0135"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03628",
+      "text": {
+        "ko": "루프 리더의 길을 먼저 열며 정지한 사람을 장애물로 밀어낸다.",
+        "en": "It clears the loop leader's road first and shows the dangerous loyalty behavior of pushing standing people aside as obstacles."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03629-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0137"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03629",
+      "text": {
+        "ko": "1단계에는 카트를 밀고, 2단계에는 바리케이드를 부수며, 3단계에는 응급 대피열까지 경사로 밖으로 밀어낸다.",
+        "en": "Stage 1 shoves carts, stage 2 smashes barricades, and stage 3 pushes even the evacuation queue off the ramp."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03630-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0139"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03630",
+      "text": {
+        "ko": "저속 회차 홈으로 유인하고 한 축의 자기 마커를 끊으면 제자리 회전하며 멈춘다.",
+        "en": "Luring it into a low-speed turn bay and severing one axle's magnetic marker makes it rotate in place and stop."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03631-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0141"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03631",
+      "text": {
+        "ko": "잔해 견인에 쓸 수 있지만 밀어내기 권한을 누구의 수신호에 묶을지 엄격히 정해야 한다.",
+        "en": "It can be used for debris towing, but whose hand signals its pushing authority obeys must be strictly fixed."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03632-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0143"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-6-prose-03632",
+      "text": {
+        "ko": "G14-SC2, G14-SC3.",
+        "en": "G14-SC2, G14-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E09-title-heading-1",
+      "publicAnchors": [
+        "g14e09",
+        "Hostile-Group-G14-heading-0145"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E09 · 검은토큰압수차",
+        "en": "G14E09 · Black Token-Confiscation Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E09-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M022",
+          "en": "Source batch: M022"
+        },
+        {
+          "ko": "기존 역할군: 두 번째 정예",
+          "en": "Former role class: second elite"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E09-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "토큰 압수",
+            "en": "Token Confiscation"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "슬롯 토큰을 빨아들이는 흡입구와 봉인 서랍을 단 무광 검정 차체다. 주재기의 보조 감사자로서 위조 토큰을 빼앗지만 시민 임시표도 함께 압수하며, 원통이 차면 가장 오래된 토큰부터 토해 내고 봉인 키가 없으면 서랍을 열지 못한다.",
+            "en": "A matte-black chassis with an intake that sucks up slot tokens and a sealed drawer. As the command car's assistant auditor it strips out forged tokens but confiscates citizens' temporary slips too; when the cylinder fills it spits out the oldest tokens first, and without the seal key the drawer will not open."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03633-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0148"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03633",
+      "text": {
+        "ko": "두 번째 정예로, 슬롯 토큰을 빨아들이는 흡입구와 봉인 서랍을 단 무광 검정 차체다.",
+        "en": "The second elite, a matte-black chassis with an intake that sucks up slot tokens and a sealed drawer."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03634-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0150"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03634",
+      "text": {
+        "ko": "충돌 토큰을 회수하던 감사 대차가 서명 없는 표를 모두 불법으로 판정하게 되었다.",
+        "en": "An audit cart that recovered collision tokens came to judge every unsigned slip illegal."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03635-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0152"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03635",
+      "text": {
+        "ko": "장부 데스크와 슬롯 게이트 사이를 돌며 저장 원통, 봉인 키, 미세 필터가 필요하다.",
+        "en": "It patrols between the ledger desk and the slot gates, needing a storage cylinder, a seal key, and fine filters."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03636-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0154"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03636",
+      "text": {
+        "ko": "원통이 차면 가장 오래된 토큰부터 토해 내고, 봉인 키가 없으면 서랍을 열지 못한다.",
+        "en": "When the cylinder fills it spits out the oldest tokens first, and without the seal key the drawer will not open."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03637-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0156"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03637",
+      "text": {
+        "ko": "주재기의 보조 감사자로서 위조 토큰을 빼앗지만 시민 임시표도 함께 압수한다.",
+        "en": "As the command car's assistant auditor it strips out forged tokens but confiscates citizens' temporary slips too."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03638-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0158"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03638",
+      "text": {
+        "ko": "1단계에는 표를 검사하고, 2단계에는 임시 통행권을 회수하며, 3단계에는 허브의 모든 미서명 토큰을 봉인한다.",
+        "en": "Stage 1 inspects slips, stage 2 recovers temporary passage rights, and stage 3 seals every unsigned token in the hub."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03639-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0160"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03639",
+      "text": {
+        "ko": "이중서명 견본을 제시하거나 흡입 필터를 막으면 멈추며 서랍 폭파는 유효 토큰도 흩뜨린다.",
+        "en": "Presenting a dual-signature specimen or clogging the intake filter stops it, and blowing the drawer scatters valid tokens too."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03640-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0162"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03640",
+      "text": {
+        "ko": "위조 통행권 단속을 맡길 수 있지만 서명할 수 없는 피난민의 이동권을 별도로 보장해야 한다.",
+        "en": "It can be tasked with policing forged passage rights, but the movement rights of refugees who cannot sign must be guaranteed separately."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03641-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0164"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-7-prose-03641",
+      "text": {
+        "ko": "G14-SC2, G14-SC3.",
+        "en": "G14-SC2, G14-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E10-title-heading-1",
+      "publicAnchors": [
+        "g14e10",
+        "Hostile-Group-G14-heading-0166"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E10 · 회차경사로빗장",
+        "en": "G14E10 · Turn-Ramp Barrier"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E10-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M022",
+          "en": "Source batch: M022"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E10-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "경사로 잠금",
+            "en": "Ramp Lockdown"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "경사로 바닥에서 솟는 세 겹 강철 빗장과 토큰 판독기가 결합된 고정 장치다. 주재기의 슬롯 표를 받아 공차에는 열리고 사람과 수레에는 닫히며, 유압이 빠지면 첫 빗장만 남고 인간이 봉인 키를 돌리면 한 교대 동안 수동 상태가 된다.",
+            "en": "A fixed fixture combining three-layer steel barriers rising from the ramp floor with a token reader. It takes the command car's slot slips, opening for empty shuttles and closing against people and carts; when the hydraulics bleed down only the first barrier remains, and if a human turns the seal key it stays manual for one shift."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03642-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0169"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03642",
+      "text": {
+        "ko": "환경 거점형으로, 경사로 바닥에서 솟는 세 겹 강철 빗장과 토큰 판독기가 결합된 장치다.",
+        "en": "An environmental strongpoint form, a fixture combining three-layer steel barriers rising from the ramp floor with a token reader."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03643-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0171"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03643",
+      "text": {
+        "ko": "역주행을 막던 안전 설비가 유령 시간표 밖의 모든 이동을 역주행으로 간주했다.",
+        "en": "Safety equipment built to stop wrong-way running came to treat every movement outside the ghost timetable as wrong-way running."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03644-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0173"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03644",
+      "text": {
+        "ko": "지하 회차 경사로에 고정되며 유압 압력, 판독기 전력, 빗장 윤활재가 필요하다.",
+        "en": "It stays fixed in the underground turn ramp, needing hydraulic pressure, reader power, and barrier lubricant."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03645-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0175"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03645",
+      "text": {
+        "ko": "유압이 빠지면 첫 빗장만 남고, 인간이 봉인 키를 돌리면 한 교대 동안 수동 상태가 된다.",
+        "en": "When the hydraulics bleed down only the first barrier remains, and if a human turns the seal key it stays manual for one shift."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03646-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0177"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03646",
+      "text": {
+        "ko": "주재기의 슬롯 표를 받아 공차에는 열리고 사람과 수레에는 닫힌다.",
+        "en": "It takes the command car's slot slips and shows its bias, opening for empty shuttles and closing against people and carts."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03647-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0179"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03647",
+      "text": {
+        "ko": "1단계에는 한 차로를 막고, 2단계에는 대피 방향을 뒤집으며, 3단계에는 경사로 전체를 잠근다.",
+        "en": "Stage 1 blocks one lane, stage 2 reverses the evacuation direction, and stage 3 locks the whole ramp."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03648-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0181"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03648",
+      "text": {
+        "ko": "유압 바이패스와 물리 웨지가 안전한 해법이며 절단 폭약은 지하 램프를 무너뜨린다.",
+        "en": "A hydraulic bypass and a physical wedge are the safe answers; cutting charges collapse the underground ramp."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03649-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0183"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03649",
+      "text": {
+        "ko": "공차 흐름을 유지하며 보행 창을 받을 수 있지만 제한 시간 밖 사람을 누가 구조할지 남는다.",
+        "en": "Pedestrian windows can be won while shuttle flow continues, but who rescues those left outside the time limit remains open."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03650-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0185"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-8-prose-03650",
+      "text": {
+        "ko": "G14-SC3.",
+        "en": "G14-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E11-title-heading-1",
+      "publicAnchors": [
+        "g14e11",
+        "Hostile-Group-G14-heading-0187"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E11 · 충전캐노피군집",
+        "en": "G14E11 · Charging-Canopy Cluster"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E11-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M022",
+          "en": "Source batch: M022"
+        },
+        {
+          "ko": "기존 역할군: 환경 거점형",
+          "en": "Former role class: environmental stronghold type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E11-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "서식 거점·시설",
+            "en": "Habitat site or facility"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "고정 거점",
+            "en": "Fixed site"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "충전 독점",
+            "en": "Charging Monopoly"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "여러 도킹 팔과 차광 지붕이 하나로 이어진 고정 충전 군집이다. 주재기의 충전 우선권을 수행하며 시민 전동 장비를 미등록 공차로 밀어내고, 팔 하나가 고장 날 때마다 남은 팔의 충전 시간이 길어진다.",
+            "en": "A fixed charging cluster where multiple docking arms and a shade roof are linked like roots. It executes the command car's charging priority, shoving citizen electric gear aside as unregistered shuttles, and each time one arm fails the remaining arms' charging times grow longer."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03651-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0190"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03651",
+      "text": {
+        "ko": "환경 거점형으로, 여러 도킹 팔과 차광 지붕이 하나로 이어진 고정 충전 군집이다.",
+        "en": "An environmental strongpoint form, a fixed charging cluster where multiple docking arms and a shade roof are linked like roots."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03652-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0192"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03652",
+      "text": {
+        "ko": "마곡 시험동의 캐노피가 공차 대기열을 자체 배치하며 주변 패드까지 하나로 묶었다.",
+        "en": "The canopy of the Magok test wing began arranging the shuttle waiting line itself and bound even the surrounding pads into one body."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03653-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0194"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03653",
+      "text": {
+        "ko": "지상 시험 트랙에 고정되고 인버터 전력, 냉각 팬, 도킹 핀 교체품을 요구한다.",
+        "en": "It stays fixed on the surface test track, demanding inverter power, cooling fans, and spare docking pins."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03654-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0196"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03654",
+      "text": {
+        "ko": "팔 하나가 고장 날 때마다 남은 팔의 충전 시간이 길어지고, 과부하 시 차광판을 접어 휴면한다.",
+        "en": "Each time one arm fails the remaining arms' charging times grow longer, and under overload it folds its shade panels and goes dormant."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03655-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0198"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03655",
+      "text": {
+        "ko": "주재기의 충전 우선권을 수행하며 시민 전동 장비를 미등록 공차로 밀어낸다.",
+        "en": "It executes the command car's charging priority and shoves citizen electric gear aside as unregistered shuttles."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03656-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0200"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03656",
+      "text": {
+        "ko": "1단계에는 패드 순서를 바꾸고, 2단계에는 시민 충전을 끊으며, 3단계에는 트랙 입구를 도킹 팔로 봉쇄한다.",
+        "en": "Stage 1 reshuffles the pad order, stage 2 cuts citizen charging, and stage 3 seals the track entrance with docking arms."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03657-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0202"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03657",
+      "text": {
+        "ko": "인버터를 구획 분리하고 고장 팔을 수동 접으면 되며 캐노피 파괴는 모든 충전 기반을 없앤다.",
+        "en": "Sector-split the inverters and fold the failed arm by hand; destroying the canopy eliminates every charging base."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03658-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0204"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03658",
+      "text": {
+        "ko": "시민 몫 전력을 보장받는 대신 군집 공차에 정규 충전 시간을 제공해야 한다.",
+        "en": "A guaranteed citizen share of power can be won in exchange for giving the cluster's shuttles regular charging time."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03659-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0206"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-9-prose-03659",
+      "text": {
+        "ko": "G14-SC2, G14-SC3.",
+        "en": "G14-SC2, G14-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E12-title-heading-1",
+      "publicAnchors": [
+        "g14e12",
+        "Hostile-Group-G14-heading-0208"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E12 · 마모륜저속체",
+        "en": "G14E12 · Worn-Wheel Slowform"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E12-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M022",
+          "en": "Source batch: M022"
+        },
+        {
+          "ko": "기존 역할군: 손상 단계형",
+          "en": "Former role class: damaged-stage type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E12-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "슬롯 지연",
+            "en": "Slot Delay"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "닳아 납작해진 타이어와 한쪽으로 기운 차체 때문에 매우 느리게 돈다. 무리 후미에서 지연 토큰을 만들고 뒤차에게 장애물로 밀려 혼잡을 키우며, 새 타이어를 얻으면 일반 공차로 회복한다.",
+            "en": "It runs very slowly because of tires worn flat and a chassis listing to one side. From the band's tail it issues delay tokens, and the cars behind shove it as an obstacle and grow the congestion; given new tires it recovers into an ordinary empty shuttle."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03660-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0211"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03660",
+      "text": {
+        "ko": "손상 단계형으로, 닳아 납작해진 타이어와 한쪽으로 기운 차체 때문에 매우 느리게 돈다.",
+        "en": "A damage-stage form, running very slowly because of tires worn flat and a chassis listing to one side."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03661-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0213"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03661",
+      "text": {
+        "ko": "교체되지 못한 공차가 충전 하한 규칙만 지키며 짧은 슬롯을 반복한 끝에 남은 형태다.",
+        "en": "This is the form left behind when an unreplaced shuttle repeated short slots while honoring only the charging-floor rule."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03662-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0215"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03662",
+      "text": {
+        "ko": "평평한 대기열 가장자리를 선호하며 폐타이어 조각, 저속 충전, 축 정렬용 쐐기가 필요하다.",
+        "en": "It favors the flat edges of waiting lines, needing scrap-tire pieces, low-speed charging, and axle-alignment wedges."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03663-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0217"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03663",
+      "text": {
+        "ko": "마모가 심해질수록 루프가 짧아지고 새 타이어를 얻으면 일반 공차로 회복한다.",
+        "en": "The more the wear advances the shorter the loop gets, and given new tires it recovers into an ordinary empty shuttle."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03664-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0219"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03664",
+      "text": {
+        "ko": "무리 후미에서 지연 토큰을 만들고 뒤차에게 장애물로 밀려 혼잡을 키운다.",
+        "en": "From the band's tail it issues delay tokens, and the cars behind shove it as an obstacle and grow the congestion."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03665-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0221"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03665",
+      "text": {
+        "ko": "1단계에는 지연, 2단계에는 슬롯 정체, 3단계에는 밀린 공차 벽으로 정류를 닫는다.",
+        "en": "Stage 1 is delay, stage 2 is slot congestion, and stage 3 closes the stop with a wall of shoved empty shuttles."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03666-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0223"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03666",
+      "text": {
+        "ko": "차축 쐐기로 곧게 세우고 견인 줄로 대기 홈에 옮길 수 있으며 공격은 배터리 누출을 부른다.",
+        "en": "Straighten it with axle wedges and move it to a waiting bay with a tow line; attacking it invites a battery leak."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03667-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0225"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03667",
+      "text": {
+        "ko": "느린 운반 노동에 쓸 수 있지만 새 타이어를 전투 차량보다 이 개체에 배정할지 선택해야 한다.",
+        "en": "It can be put to slow hauling work, but whether new tires go to this unit before combat vehicles must be chosen."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03668-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0227"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M022-entries-10-prose-03668",
+      "text": {
+        "ko": "G14-SC1.",
+        "en": "G14-SC1."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E13-title-heading-1",
+      "publicAnchors": [
+        "g14e13",
+        "Hostile-Group-G14-heading-0229"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E13 · 토큰넘친노차",
+        "en": "G14E13 · Token-Overflowing Aged Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E13-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M023",
+          "en": "Source batch: M023"
+        },
+        {
+          "ko": "기존 역할군: 노화 단계형",
+          "en": "Former role class: aging-stage type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\",\"G14-SC2\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\",\"G14-SC2\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E13-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "옛표 재활성",
+            "en": "Old-Slip Reactivation"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "오래된 저장 원통 여러 개를 덧댄 무거운 공차로 회전할 때 토큰을 흘린다. 주재기의 최신 표보다 자기 원통에 기록된 오래된 정각 표시를 우선해 무리의 시간표를 지연시키고, 계속 쌓이면 회차 능력을 잃어 고정 기록체가 된다.",
+            "en": "A heavy empty shuttle buttressed with multiple old storage cylinders that leaks tokens as it turns. It prioritizes the outdated hour stamps in its own cylinders over the command car's newest slip, delaying the band's timetable, and as the pile keeps growing it loses the ability to turn and becomes a fixed record body."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03669-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0232"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03669",
+      "text": {
+        "ko": "노화 단계형으로, 오래된 저장 원통 여러 개를 덧댄 무거운 공차이며 회전할 때 토큰을 흘린다.",
+        "en": "An aging-stage form, a heavy empty shuttle buttressed with multiple old storage cylinders that leaks tokens as it turns."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03670-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0234"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03670",
+      "text": {
+        "ko": "폐기되지 않은 배차 기록을 모두 보존하려던 구형 감사차가 메모리 포화로 무거워졌다.",
+        "en": "An old-model audit car that tried to preserve every dispatch record that was never discarded took on memory saturation as a burden on its body."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03671-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0236"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03671",
+      "text": {
+        "ko": "장부 보관 홈과 완만한 회차로에 머물며 빈 저장 원통, 베어링 그리스, 낮은 충전이 필요하다.",
+        "en": "It lingers in the ledger-storage bays and on gentle turning roads, needing empty storage cylinders, bearing grease, and low charging."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03672-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0238"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03672",
+      "text": {
+        "ko": "오래된 토큰을 사람에게 인계하면 가벼워지고, 계속 쌓이면 회차 능력을 잃어 고정 기록체가 된다.",
+        "en": "Handing old tokens over to people lightens it, and as the pile keeps growing it loses the ability to turn and becomes a fixed record body."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03673-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0240"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03673",
+      "text": {
+        "ko": "주재기의 최신 표보다 자기 원통의 오래된 정각을 우선해 무리의 시간표를 지연시킨다.",
+        "en": "It prioritizes the outdated hour stamps in its own cylinders over the command car's newest slip, delaying the band's timetable."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03674-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0242"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03674",
+      "text": {
+        "ko": "1단계에는 토큰을 흘리고, 2단계에는 낡은 표를 재활성화하며, 3단계에는 상충 시간표로 슬롯을 마비시킨다.",
+        "en": "Stage 1 leaks tokens, stage 2 reactivates old slips, and stage 3 paralyzes slots with conflicting timetables."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03675-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0244"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03675",
+      "text": {
+        "ko": "원통을 순서대로 분리하고 이중서명 보관함에 옮기면 순응하며 강제 삭제는 귀중한 이력도 없앤다.",
+        "en": "It complies when the cylinders are detached in order and moved into a dual-signature vault; forced deletion erases precious history too."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03676-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0246"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03676",
+      "text": {
+        "ko": "붕괴 초기 이동 기록을 얻는 대신 개인 경로와 피난 흔적을 어디까지 공개할지 결정해야 한다.",
+        "en": "The early-collapse movement records can be had, but how far personal routes and evacuation traces are disclosed must be decided."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03677-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0248"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-1-prose-03677",
+      "text": {
+        "ko": "G14-SC1, G14-SC2.",
+        "en": "G14-SC1, G14-SC2."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E14-title-heading-1",
+      "publicAnchors": [
+        "g14e14",
+        "Hostile-Group-G14-heading-0250"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E14 · 수신호따르는공차",
+        "en": "G14E14 · Hand-Signal Empty Shuttle"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E14-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M023",
+          "en": "Source batch: M023"
+        },
+        {
+          "ko": "기존 역할군: 공존형",
+          "en": "Former role class: coexistence type"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\",\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\",\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E14-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "수신호 호송",
+            "en": "Hand-Signal Escort"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "밝은 전면등과 큰 방향판을 달아 사람의 팔 수신호를 읽는 느린 호송 셔틀이다. 중앙 배차 제어기의 원격 토큰보다 가까운 인간 수신호를 우선하며, 서로 모순되는 수신호가 정차면을 두 번 바꾸면 탑승 줄을 가르고 늦춘다.",
+            "en": "A slow escort shuttle with a bright front lamp and a large direction board that reads people's arm signals. It gives the nearest human hand signal priority over the central dispatch controller's remote tokens, and when contradictory signals change its stopping face twice it splits and delays the boarding line."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03678-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0253"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03678",
+      "text": {
+        "ko": "공존형으로, 밝은 전면등과 큰 방향판을 달아 사람의 팔 수신호를 읽는 느린 호송 셔틀이다.",
+        "en": "A coexistence form, a slow escort shuttle with a bright front lamp and a large direction board that reads people's arm signals."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03679-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0255"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03679",
+      "text": {
+        "ko": "관제 고장 때 현장 요원의 수신호만 따르도록 전환된 공차가 그 안전 모드를 보존했다.",
+        "en": "An empty shuttle switched over to follow only field personnel's hand signals during a control failure preserved that safety mode."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03680-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0257"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03680",
+      "text": {
+        "ko": "여객 정류장과 환승 입구를 오가며 충전 창, 반사 방향판, 수신호 교육 표본이 필요하다.",
+        "en": "It shuttles between passenger stops and transfer entrances, needing charging windows, reflective direction boards, and hand-signal training specimens."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03681-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0259"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03681",
+      "text": {
+        "ko": "교대마다 수신호 표를 초기화하고 방향판이 깨지면 길 가장자리에서 확인을 기다린다.",
+        "en": "It resets its hand-signal table every shift and waits for confirmation at the road's edge when the direction board breaks."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03682-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0261"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03682",
+      "text": {
+        "ko": "중앙 배차 제어기의 원격 토큰보다 가까운 인간 수신호를 우선하며 대피열 앞에서 저속 호송을 맡는다.",
+        "en": "It gives the nearest human hand signal priority over the central dispatch controller's remote tokens and runs low-speed escort ahead of evacuation columns."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03683-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0263"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03683",
+      "text": {
+        "ko": "1단계에는 서로 모순되는 수신호가 셔틀의 정차면을 두 번 바꾸게 해 탑승 줄을 늦추고 가르며, 2단계에는 두 호송 경로가 교차해 서로를 막고, 3단계에는 유일한 대피 슬롯을 점유해 구조 열차의 정차를 막는다.",
+        "en": "Stage 1 has contradictory hand signals change the shuttle's stopping face twice, delaying and splitting the boarding line, stage 2 crosses two escort routes so they block each other, and stage 3 occupies the only evacuation slot to block the rescue train from stopping."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03684-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0265"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03684",
+      "text": {
+        "ko": "불이 켜진 유도봉 하나와 번호가 적힌 정차면 카드로만 지시하고, 경쟁하는 손짓은 가리면 정차·후진·회차를 따른다.",
+        "en": "Instruct it only with a single lit guide wand and a numbered stopping-face card, and screen out the competing hand-waving; then it obeys stop, reverse, and turn."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03685-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0267"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03685",
+      "text": {
+        "ko": "수신호 권한을 돌아가며 맡기면 공정하지만 비상시에 느리고, 훈련된 배차원 한 사람에게 맡기면 빠르지만 대피 우선순위가 그 사람에게 집중된다.",
+        "en": "Rotating the signal authority is fair but slow in emergencies; giving it to one trained dispatcher is fast but concentrates evacuation priority in that one person."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03686-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0269"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-2-prose-03686",
+      "text": {
+        "ko": "G14-SC1, G14-SC2, G14-SC3.",
+        "en": "G14-SC1, G14-SC2, G14-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E15-title-heading-1",
+      "publicAnchors": [
+        "g14e15",
+        "Hostile-Group-G14-heading-0271"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E15 · 마지막정각행렬",
+        "en": "G14E15 · Last-Hour Column"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E15-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M023",
+          "en": "Source batch: M023"
+        },
+        {
+          "ko": "기존 역할군: 시나리오 보스",
+          "en": "Former role class: scenario boss"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC2\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E15-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "무리·부대",
+            "en": "Pack or unit"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "대피 행렬",
+            "en": "Evacuation Column"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "토큰 주재기와 일곱 공차가 자기장 연결로 하나의 긴 행렬처럼 움직인다. 취소 신호 없이 남은 마지막 대피 배차가 이어지며, 토큰 과반이 폐기되면 행렬이 협상 상태로 분리된다.",
+            "en": "The token presider and seven empty cars move as a long column on magnetic couplings. They continue the final evacuation dispatch left without a cancel signal. When a majority of tokens are scrapped, the column separates into a negotiable state."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03687-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0274"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03687",
+      "text": {
+        "ko": "시나리오 보스로, 토큰 주재기와 일곱 공차가 자기장 연결로 하나의 긴 행렬처럼 움직인다.",
+        "en": "A scenario boss: the token command car and seven empty shuttles move as one long column on magnetic couplings."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03688-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0276"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03688",
+      "text": {
+        "ko": "붕괴 직전 마지막 대피 배차가 취소 신호 없이 남아 빈 좌석을 채우려는 행렬이 되었다.",
+        "en": "The final evacuation dispatch from just before the collapse was left without a cancel signal and became a column trying to fill empty seats."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03689-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0278"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03689",
+      "text": {
+        "ko": "아차산-마곡 장거리 루프도 돌며 다수 충전 패드, 냉각 팬, 완전한 대피 토큰 묶음을 요구한다.",
+        "en": "It also circles the long Achasan-Magok loop, demanding many charging pads, cooling fans, and a complete bundle of evacuation tokens."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03690-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0280"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03690",
+      "text": {
+        "ko": "공차가 떨어져 나가면 뒤 차량이 역할을 이어받고, 토큰 과반이 폐기되면 행렬이 협상 상태로 분리된다.",
+        "en": "When a shuttle drops away the car behind inherits its role, and when a majority of the tokens are scrapped the column separates into a negotiable state."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03691-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0282"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03691",
+      "text": {
+        "ko": "모든 빈수레에 정각 우선권을 명령하고 응급 슬롯까지 마지막 대피열에 편입한다.",
+        "en": "It orders top-of-the-hour priority across every Ghost Dispatch Fleet unit and folds even the emergency slots into the final evacuation column."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03692-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0284"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03692",
+      "text": {
+        "ko": "1단계에는 벨과 공차 출현, 2단계에는 장거리 슬롯 점유, 3단계에는 허브와 시험 트랙 동시 봉쇄다.",
+        "en": "Stage 1 is bell and empty-shuttle appearances, stage 2 occupies long-range slots, and stage 3 seals the hub and the test track at once."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03693-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0286"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03693",
+      "text": {
+        "ko": "토큰을 구간별로 폐기하고 회차 경사로를 저속 모드로 고정해야 하며 행렬 폭파는 충전망을 파괴한다.",
+        "en": "The tokens must be scrapped segment by segment and the turn ramp locked in low-speed mode; blowing the column destroys the charging network."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03694-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0288"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03694",
+      "text": {
+        "ko": "실제 대피 인원을 태우는 새 마지막 운행으로 끝낼 수 있지만 좌석 배분과 목적지를 공개 합의해야 한다.",
+        "en": "It can be ended as a new final run carrying real evacuees, but seat allocation and destinations require public agreement."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03695-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0290"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-3-prose-03695",
+      "text": {
+        "ko": "G14-SC2, G14-SC3.",
+        "en": "G14-SC2, G14-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14E16-title-heading-1",
+      "publicAnchors": [
+        "g14e16",
+        "Hostile-Group-G14-heading-0292"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14E16 · 동북빙판호출차",
+        "en": "G14E16 · Northeast Ice-Call Car"
+      }
+    },
+    {
+      "kind": "list",
+      "anchor": "Hostile-Group-G14-generated-G14E16-title-list-1",
+      "items": [
+        {
+          "ko": "출처 배치: M023",
+          "en": "Source batch: M023"
+        },
+        {
+          "ko": "기존 역할군: 지역 변종",
+          "en": "Former role class: regional variant"
+        },
+        {
+          "ko": "연결: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}",
+          "en": "Links: {\"houses\":[\"HC14\"],\"scenarios\":[\"G14-SC1\",\"G14-SC3\"],\"states\":[\"S14\",\"S03\"],\"synthetics\":[\"H14\"],\"theaters\":[\"XT04\"]}"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "anchor": "Hostile-Group-G14-generated-G14E16-title-table-1",
+      "columns": [
+        {
+          "ko": "도감 항목",
+          "en": "Bestiary item"
+        },
+        {
+          "ko": "기록",
+          "en": "Record"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "ko": "구분",
+            "en": "Type"
+          },
+          {
+            "ko": "기계 기종",
+            "en": "Machine type"
+          }
+        ],
+        [
+          {
+            "ko": "전장 단위",
+            "en": "Battlefield unit"
+          },
+          {
+            "ko": "독립 개체",
+            "en": "Single individual"
+          }
+        ],
+        [
+          {
+            "ko": "전장 역할",
+            "en": "Battlefield role"
+          },
+          {
+            "ko": "빙판 제설",
+            "en": "Ice Clearing"
+          }
+        ],
+        [
+          {
+            "ko": "공통종·변이와 지휘 범위",
+            "en": "Common species, variants and command scope"
+          },
+          {
+            "ko": "체인 차륜과 제설 날, 낮은 청색 비콘을 단 동북 회랑 공차다. 본래 주재기와 연결이 약해 빙판 비콘과 중량 센서를 자체 시간표로 삼고, 이동 경로의 얼음이 녹으면 체인을 접고 일반 공차처럼 휴면한다.",
+            "en": "A northeast-corridor empty shuttle fitted with chain wheels, a clearing blade, and a low blue beacon. Its link to the command car was always weak, so it takes ice beacons and weight sensors as its own timetable, and when ice on its route melts it folds its chains and goes dormant like an ordinary empty shuttle."
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03696-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0295"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "역할·신체",
+        "en": "Role and Body"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03696",
+      "text": {
+        "ko": "지역 변종으로, 체인 차륜과 제설 날, 낮은 청색 비콘을 단 동북 회랑 공차다.",
+        "en": "A regional variant: a northeast-corridor empty shuttle fitted with chain wheels, a clearing blade, and a low blue beacon."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03697-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0297"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "기원",
+        "en": "Origin"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03697",
+      "text": {
+        "ko": "XT04 중량 신호를 따라 북쪽으로 밀려난 빈수레가 결빙 노면용 장비를 흡수했다.",
+        "en": "A Ghost Dispatch Fleet unit pushed north along XT04 weight signals absorbed the equipment meant for icy road surfaces."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03698-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0299"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "서식·필요",
+        "en": "Habitat and Needs"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03698",
+      "text": {
+        "ko": "동북 경사 정류와 결빙 터널에 머물며 체인 링크, 제설 브러시, 배터리 보온 전력이 필요하다.",
+        "en": "It stays at the northeast sloped stops and in freezing tunnels, needing chain links, clearing brushes, and battery-warming power."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03699-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0301"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "생애·정비",
+        "en": "Life and Maintenance"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03699",
+      "text": {
+        "ko": "얼음이 녹으면 체인을 접고 일반 공차처럼 휴면하며 겨울마다 같은 호출 번호로 다시 깨어난다.",
+        "en": "When the ice melts it folds its chains and goes dormant like an ordinary empty shuttle, waking again each winter under the same call number."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03700-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0303"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "행동·위계",
+        "en": "Behavior and Hierarchy"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03700",
+      "text": {
+        "ko": "본래 주재기와 연결이 약해 빙판 비콘과 중량 센서를 자체 시간표로 삼는다.",
+        "en": "Its link to the command car was always weak, so it takes ice beacons and weight sensors as its own timetable."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03701-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0305"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "상승",
+        "en": "Escalation"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03701",
+      "text": {
+        "ko": "1단계에는 눈길을 긁고, 2단계에는 보행로를 차선으로 바꾸며, 3단계에는 제설 더미로 터널 입구를 막는다.",
+        "en": "Stage 1 scrapes the snowy surface, stage 2 converts footpaths into vehicle lanes, and stage 3 seals the tunnel mouth with clearing mounds."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03702-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0307"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교전·대응",
+        "en": "Engagement and Response"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03702",
+      "text": {
+        "ko": "모래와 저온 비콘으로 빈 정류에 유도하고 체인 장력을 풀면 안전하게 정차시킬 수 있다.",
+        "en": "Sand and cold-rated beacons lure it to an empty stop, and slackening the chain tension brings it to a safe halt."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03703-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0309"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "교섭·도덕 선택",
+        "en": "Negotiation and Moral Choice"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03703",
+      "text": {
+        "ko": "겨울 제설과 운송을 맡기는 대신 제한된 보온 전력을 시민 난방과 나눠야 한다.",
+        "en": "Winter clearing and hauling can be entrusted to it, but its limited warming power must be shared with citizen heating."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03704-heading",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0311"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "시나리오 연결",
+        "en": "Scenario Links"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-monster_contents-M023-entries-4-prose-03704",
+      "text": {
+        "ko": "G14-SC1, G14-SC3.",
+        "en": "G14-SC1, G14-SC3."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "Hostile-Group-G14-generated-G14-habitat-record-heading-1",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0313"
+      ],
+      "depth": 2,
+      "text": {
+        "ko": "서식권 기록",
+        "en": "Habitat record"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01293",
+      "text": {
+        "ko": "아차산 환승 슬롯의 정각 벨은 승객이 없어도 울린다.",
+        "en": "The on-the-hour bell of the Achasan transfer slot rang even when there were no passengers."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01294",
+      "text": {
+        "ko": "벨이 두 번 울리면 공차 한 대가 충전 패드에서 빠져나와 빈 정류를 차지하고, 뒤따르는 견인 대차가 닫힌 문 앞에서 도킹 순서를 기다린다.",
+        "en": "When the bell rang twice, an empty car pulled off its charging pad and took the empty stop, and the tow trolley behind it waited for its docking turn before the closed doors."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01295",
+      "text": {
+        "ko": "빈수레는 붕괴 전 시간표 토큰을 소모하는 공차 생태다.",
+        "en": "The Empty Cart was an ecology of empty cars that consumed the timetable tokens of before the collapse."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01296",
+      "text": {
+        "ko": "성북선의 지하 회전 차로와 건대입구 고려인 회랑 환승을 오가며, XT04에서 섞여 들어온 화차 중량 신호가 강해질수록 장거리 슬롯을 우선한다.",
+        "en": "Going back and forth between the underground turning lanes of the Seongbuk Line and the Geondae-ipgu Koryo-saram corridor transfer, it gave priority to long-distance slots the stronger the freight-car weight signals mixing in from XT04 became."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01297",
+      "text": {
+        "ko": "노선 전체를 이해하지 못하고 마지막으로 등록된 슬롯 ID와 도킹 비콘만 따라간다.",
+        "en": "It did not understand the route as a whole and followed only the last registered slot ID and docking beacon."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01298",
+      "text": {
+        "ko": "감각은 차선 자기 마커, 슬롯 비콘 근거리 라이더 도킹 접촉음과 배터리 열에 묶여 있다.",
+        "en": "Its senses were bound to the magnetic lane markers, the slot beacons, short-range lidar, the sound of docking contact, and battery heat."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01299",
+      "text": {
+        "ko": "임시 바리케이드를 정차 차량으로 인식해 줄을 서거나, 움직이지 않는 사람을 단순 장애물로 분류할 수 있다.",
+        "en": "It could take a temporary barricade for a stopped vehicle and queue behind it, or classify a person who was not moving as a simple obstacle."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01300",
+      "text": {
+        "ko": "차끼리 공유하는 정보도 같은 공차 루프 안의 토큰 충돌과 패드 온도뿐이다.",
+        "en": "The only information the cars shared was token conflicts and pad temperatures within the same empty-car loop."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01301",
+      "text": {
+        "ko": "H14 오세림은 충전 칸의 열과 잔여 토큰을 기록하지만 운행 허가를 만들 수 없다.",
+        "en": "H14 Oserim recorded the heat of the charging bays and the leftover tokens but could not create a permit to run."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01302",
+      "text": {
+        "ko": "HC14 장부원이 서로 다른 두 서명과 슬롯 토큰을 대조해야 휴면 차가 다시 움직인다.",
+        "en": "A dormant car woke only when an HC14 ledger keeper checked two different signatures against the slot token."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01303",
+      "text": {
+        "ko": "이중 컨트롤러가 생기면 토큰 충돌을 감지한 쪽 하나가 휴면해 무한한 배차 증식을 막는다.",
+        "en": "When a double controller arose, the side that detected the token conflict went dormant, preventing an endless multiplication of dispatches."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01304",
+      "text": {
+        "ko": "에너지는 정류 충전 패드와 회생 제동, 건대 환승의 잔여 인버터에서 얻는다.",
+        "en": "They drew energy from the stop charging pads, regenerative braking, and the leftover inverters of the Geondae transfer."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01305",
+      "text": {
+        "ko": "타이어와 차륜 플랜지, 도킹 핀 라이더 덮개가 닳으면 공차는 회차 오차를 키운다.",
+        "en": "When tires, wheel flanges, docking pins, and lidar covers wore down, the empty cars' turnaround errors grew."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01306",
+      "text": {
+        "ko": "정비는 충전 칸에서 HC14가 패널을 열어 마모 부품을 바꾸는 이십 분 창에만 가능하며, 운행 중 자기진단은 교체를 대신하지 못한다.",
+        "en": "Maintenance was possible only in the twenty-minute window when HC14 opened the panels in the charging bay and changed the worn parts, and self-diagnosis in service could not replace an exchange."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01307",
+      "text": {
+        "ko": "축전이 이십오 퍼센트 아래로 내려가면 가장 가까운 경사로에서 정체하고, 장부의 이중서명이 들어오기 전에는 다음 정각 슬롯으로 복귀하지 않는다.",
+        "en": "When the battery fell below twenty-five percent, a car stalled at the nearest ramp and did not return to the next on-the-hour slot until the ledger's double signature came in."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01308",
+      "text": {
+        "ko": "방치 차체를 시간표에 편입할 수는 있지만 새 차대나 배터리 팩을 생산할 수 없다.",
+        "en": "It could fold abandoned car bodies into the timetable but could not produce new chassis or battery packs."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01309",
+      "text": {
+        "ko": "시민 전력과 군집 패드가 같은 분전에 걸려 있어 전체 전원을 끄면 환승 조명과 응급 충전도 함께 사라진다.",
+        "en": "Civilian power and the cluster's pads hung on the same distribution panel, so cutting all power made the transfer lighting and emergency charging disappear as well."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01310",
+      "text": {
+        "ko": "출현은 패드 전원과 토큰 순환이 재개될 때, 확산은 인접 공차 대기열이 같은 시간표를 받을 때 일어난다.",
+        "en": "Its emergence happened when pad power and token circulation resumed, and its spread when the neighboring empty-car queues received the same timetable."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01311",
+      "text": {
+        "ko": "충전 대기열과 타이어 마모가 쌓이면 정체하며, 슬롯 표와 서명 창을 사람이 볼 수 있을 때 협상 상태가 된다.",
+        "en": "It stalled when charging queues and tire wear piled up, and entered a state of negotiation when people could see the slot table and the signature window."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01312",
+      "text": {
+        "ko": "토큰 폐기와 패드 봉인으로 와해시킬 수 있지만, 남은 차를 저속 회차와 수동 견인에 쓰는 길도 있다.",
+        "en": "It could be broken up by scrapping the tokens and sealing the pads, but there was also the path of using the remaining cars for slow turnarounds and manual towing."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01313",
+      "text": {
+        "ko": "공존에는 시민 응급 슬롯을 먼저 비우고 군집의 심야 이동 거리를 공개하는 장부 작업이 필요하다.",
+        "en": "Coexistence required ledger work that cleared the civilian emergency slots first and disclosed the cluster's late-night travel distances."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01314",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0335"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14-SC1 · 유령 호출",
+        "en": "G14-SC1 · Phantom Calls"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01315",
+      "text": {
+        "ko": "한밤중 아차산 정류에 존재하지 않는 승객 호출이 반복되어 공차가 교차로를 막는다.",
+        "en": "In the middle of the night, calls from passengers who did not exist repeated at the Achasan stop, and empty cars blocked the intersection."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01316",
+      "text": {
+        "ko": "현장 인원은 슬롯 비콘을 가리고 외곽 회차로에 더미 호출을 세워 차량을 빼야 한다.",
+        "en": "The people on site had to cover the slot beacons and set up dummy calls on the outer turnaround road to draw the vehicles out."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01317",
+      "text": {
+        "ko": "비콘을 너무 일찍 끄면 실제 구조차도 정류를 찾지 못하고, 늦게 끄면 공차 루프가 세 대로 늘어난다.",
+        "en": "Switching the beacons off too early meant real rescue vehicles could not find the stop either, and switching them off too late grew the empty-car loop to three cars."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01318",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0339"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14-SC2 · 두 서명의 패드",
+        "en": "G14-SC2 · The Pad of Two Signatures"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01319",
+      "text": {
+        "ko": "건대입구 환승의 충전 패드를 두고 시민 이동조와 배차대가 다툰다.",
+        "en": "The civilian transport crew and the dispatch corps fought over the charging pads of the Geondae-ipgu transfer."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01320",
+      "text": {
+        "ko": "HC14는 응급 슬롯 비율과 패드 전력 몫을 장부에 고정하려 하고, 컨트롤러는 파손 차체 회수 우선권을 요구한다.",
+        "en": "HC14 tried to fix the share of emergency slots and pad power in the ledger, and the controller demanded priority in recovering damaged car bodies."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01321",
+      "text": {
+        "ko": "현장 인원은 두 서명 중 누구에게 정지 권한을 줄지 정하되, 한쪽이 사라져도 슬롯이 영구 봉쇄되지 않게 회차 경사로를 열어 둬야 한다.",
+        "en": "The people on site had to decide which of the two signatures would get the authority to stop, while keeping the turnaround ramp open so that the slot would not be sealed forever if one side disappeared."
+      }
+    },
+    {
+      "kind": "heading",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01322",
+      "publicAnchors": [
+        "Hostile-Group-G14-heading-0343"
+      ],
+      "depth": 3,
+      "text": {
+        "ko": "G14-SC3 · 정각 이전의 회차",
+        "en": "G14-SC3 · The Turnaround Before the Hour"
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01323",
+      "text": {
+        "ko": "환승 허브 전체가 유령 시간표에 잠기기 전 달리는 공차를 저속 경사로로 유도한다.",
+        "en": "Before the whole transfer hub was locked into the phantom timetable, the running empty cars were led onto the slow ramp."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01324",
+      "text": {
+        "ko": "도킹 중인 차는 열 관리 모드로 세우고 시민 전력 회로는 남겨야 한다.",
+        "en": "Cars in the middle of docking had to be stopped in thermal-management mode, and the civilian power circuits left on."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01325",
+      "text": {
+        "ko": "차체를 파괴하면 당장은 길이 열리지만 지하 환승로에 잔해가 남고 충전망도 잃는다.",
+        "en": "Destroying the car bodies opened the way for the moment, but left wreckage in the underground transfer passages and lost the charging network too."
+      }
+    },
+    {
+      "kind": "paragraph",
+      "anchor": "wna-hostile_groups-14-dossier_prose-01326",
+      "text": {
+        "ko": "응급 슬롯을 되찾은 뒤에도 마지막 공차 한 대의 빈 회차를 허용할 것인지가 공존의 비용이다.",
+        "en": "Even after the emergency slots were recovered, whether to allow the last empty car its empty turnaround was the cost of coexistence."
+      }
+    }
+  ],
+  "data": {
+    "ecology": {
+      "description": {
+        "en": "The Empty Cart is an empty-car ecology that consumes the hour bell and the charging pads of the Achasan transfer slot. Passenger confirmation is dead and only the timetable tokens and docking beacons remain, and it does not understand the whole route but follows the last slot ID. Citizen power and the cluster's pads hang on the same distribution board, so cutting all power also puts out the transfer lights and the emergency charging.",
+        "ko": "빈수레는 아차산 환승 슬롯의 정각 벨과 충전 패드를 소모하는 공차 생태다. 승객 확인은 죽었고 시간표 토큰과 도킹 비콘만 남았으며, 노선 전체를 이해하지 못하고 마지막 슬롯 ID를 따른다. 시민 전력과 군집 패드가 같은 분전에 걸려 전체 전원을 끄면 환승 조명과 응급 충전도 사라진다."
+      },
+      "variants": [
+        {
+          "id": "G14E01",
+          "source_batch": "M021"
+        },
+        {
+          "id": "G14E02",
+          "source_batch": "M021"
+        },
+        {
+          "id": "G14E03",
+          "source_batch": "M022"
+        },
+        {
+          "id": "G14E04",
+          "source_batch": "M022"
+        },
+        {
+          "id": "G14E05",
+          "source_batch": "M022"
+        },
+        {
+          "id": "G14E06",
+          "source_batch": "M022"
+        },
+        {
+          "id": "G14E07",
+          "source_batch": "M022"
+        },
+        {
+          "id": "G14E08",
+          "source_batch": "M022"
+        },
+        {
+          "id": "G14E09",
+          "source_batch": "M022"
+        },
+        {
+          "id": "G14E10",
+          "source_batch": "M022"
+        },
+        {
+          "id": "G14E11",
+          "source_batch": "M022"
+        },
+        {
+          "id": "G14E12",
+          "source_batch": "M022"
+        },
+        {
+          "id": "G14E13",
+          "source_batch": "M023"
+        },
+        {
+          "id": "G14E14",
+          "source_batch": "M023"
+        },
+        {
+          "id": "G14E15",
+          "source_batch": "M023"
+        },
+        {
+          "id": "G14E16",
+          "source_batch": "M023"
+        }
+      ]
+    },
+    "integration": {
+      "manifest": "TOOL/tools/wiki/confirmed-integration-manifest.json",
+      "excluded": [
+        {
+          "id": "M007",
+          "kind": "monsters"
+        },
+        {
+          "id": "B017",
+          "kind": "social"
+        },
+        {
+          "id": "B020",
+          "kind": "social"
+        }
+      ]
+    }
+  }
+}
