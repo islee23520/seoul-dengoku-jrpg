@@ -72,10 +72,12 @@ test('missing parameter reflection blocks a crossed threshold atomically', () =>
   assert.equal(result.kind, 'blocked'); assert.strictEqual(result.state, initial);
 });
 
-test('task13 order lifecycle awards work XP only at result application', () => {
+test('lifecycle snapshots never award XP; explicit work completion awards once', () => {
   // Given
-  const ledger = ['executing', 'result-applied', 'receipt'].reduce((state, stage) =>
+  const snapshots = ['executing', 'result-applied', 'result-applied', 'result-applied', 'receipt'].reduce((state, stage) =>
     append(state, 'order-step', { mandate: { stage } }), empty);
+  assert.equal(projectGrowth(initial, snapshots, rules).state.xp, 0);
+  const ledger = append(snapshots, 'work-resolution');
   // When
   const result = projectGrowth(initial, ledger, rules);
   // Then

@@ -43,11 +43,7 @@ export type GrowthProjection =
 function xpSource(entry: LedgerEntry): 'victory' | 'work-resolution' | null {
   switch (entry.command) {
     case 'victory': case 'work-resolution': return entry.command;
-    case 'order-step': {
-      // task13 records each lifecycle stage; award once, at actual result application.
-      const result = z.object({ mandate: z.object({ stage: z.literal('result-applied') }) }).safeParse(entry.payload);
-      return result.success ? 'work-resolution' : null;
-    }
+    case 'order-step': return null; // Transit snapshots are not completion effects.
     default: return null; // Unrelated ledger commands are intentionally not growth inputs.
   }
 }

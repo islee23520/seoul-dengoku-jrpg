@@ -8,14 +8,16 @@ import { revokeS01ForwardRoute } from '../../game/src/campaign/s01Effects.ts';
 import { requestS01Care } from '../../game/src/campaign/s01Care.ts';
 import { integer } from '../../game/src/domain/ids.ts';
 import type { CampaignState } from '../../game/src/campaign/stateSchemas.ts';
+import { lordKnowledge, receiveCampaignReport } from '../../game/src/campaign/reports.ts';
+import { campaignWorkLedger } from '../../game/src/campaign/workResults.ts';
 
 const args = process.argv.slice(2);
 if (args.length === 1 && args[0] === '--help') {
-  console.log('Usage: node scripts/qa/s01-physical.ts --scenario s01-sequential|revoke-cut-return|finite-support');
+  console.log('Usage: node scripts/qa/s01-physical.ts --scenario s01-sequential|stale-report|revoke-cut-return|finite-support');
 } else {
   assert.equal(args.length, 2, 'expected --scenario NAME');
   assert.equal(args[0], '--scenario');
-  assert.ok(['s01-sequential', 'revoke-cut-return', 'finite-support'].includes(args[1] ?? ''), 'unknown scenario');
+  assert.ok(['s01-sequential', 'stale-report', 'revoke-cut-return', 'finite-support'].includes(args[1] ?? ''), 'unknown scenario');
   const data = new URL('../../game/data/', import.meta.url);
   const provisionalTimeline = JSON.parse(await readFile(new URL('scenarios/townhall-s01-r2/derived-timeline.json', data), 'utf8'));
   const files = { manifest: 'campaign/source-manifest.json', atlas: 'campaign/atlas.json', identities: 'campaign/identity-map.json',
@@ -29,7 +31,7 @@ if (args.length === 1 && args[0] === '--help') {
   };
   const advance = (state: CampaignState, at: number) => advanceCampaignCommands(state, integer('WorldMilliseconds', at), content, true);
   let result: unknown;
-  if (args[1] === 's01-sequential') {
+  if (args[1] === 's01-sequential' || args[1] === 'stale-report') {
     let hostTime = 0;
     const app = new CampaignApplication({ content, state: e0, now: () => hostTime });
     app.submit(command(app.checkpoint(), 'S01-L')); app.setSpeed(1);
@@ -39,6 +41,9 @@ if (args.length === 1 && args[0] === '--help') {
     assert.equal(duty?.location.kind === 'node' && duty.location.nodeId, 's01:townhall:desk');
     assert.equal(ledger.custody[0]?.returnState, 'resealed');
     app.submit(command(ledger, 'S01-O'));
+    hostTime = (provisionalTimeline.reportReceived.seconds * 1000 - 1) / content.data.operations.clock.worldSecondsPerRealSecond; app.reconcile();
+    const beforeReceipt = app.knowledge({ personId: 'K002' });
+    assert.equal(beforeReceipt.reports.filter(r => r.source === 'K616').length, 0);
     hostTime = provisionalTimeline.reportReceived.seconds * 1000 / content.data.operations.clock.worldSecondsPerRealSecond; app.reconcile();
     const final = app.checkpoint();
     assert.equal(final.clock.worldMilliseconds, provisionalTimeline.reportReceived.seconds * 1000);
@@ -47,8 +52,22 @@ if (args.length === 1 && args[0] === '--help') {
     result = { scenario: args[1], clock: 'CampaignApplication/CampaignSession', dutyDeskAt: ledger.clock.worldMilliseconds,
       original: final.custody, effort: final.bodies.map(b => ({ entityId: b.entityId, regions: b.regions })), inventories: final.inventories,
       receipts: final.commands.events.filter(e => e.effectId !== null), readings: final.reports.filter(r => r.fact.orderId === 'S01-O'),
-      visible: app.settlement('K002') };
+      visible: app.settlement('K002'), knowledge: app.knowledge({ personId: 'K002' }), beforeReceipt,
+      completionIds: campaignWorkLedger(final, content).entries.map(e => e.resultId) };
     app.close();
+    if (args[1] === 'stale-report') {
+      // Private adversarial checkpoint, not a production mutation command or new measurement.
+      const later = parseCampaignState({ ...final, facts: final.facts.map(f => ({ ...f, version: f.version + 1 })) }, content);
+      const stale = lordKnowledge(later, { personId: 'K002' });
+      assert.deepEqual(stale, lordKnowledge(final, { personId: 'K002' }));
+      assert.equal(lordKnowledge(later, { personId: 'K002', asOf: provisionalTimeline.reportReceived.seconds * 1000 - 1 }).reports.filter(r => r.source === 'K616').length, 0);
+      const report = later.reports.at(-1)!;
+      const replay = receiveCampaignReport(parseCampaignState(JSON.parse(JSON.stringify(later)), content), { reportId: report.id, recipient: report.recipient }, content);
+      assert.deepEqual(replay, later);
+      assert.deepEqual(campaignWorkLedger(replay, content), campaignWorkLedger(final, content));
+      result = { scenario: args[1], beforeReceipt, stale, currentVersionsHiddenFromProjection: later.facts.map(f => f.version),
+        replayUnchanged: true, completionIds: campaignWorkLedger(replay, content).entries.map(e => e.resultId) };
+    }
   } else if (args[1] === 'revoke-cut-return') {
     let state = advance(submitCampaignCommand(e0, command(e0, 'S01-L'), content).state, 780000);
     const cutLocation = state.custody[0]?.location;

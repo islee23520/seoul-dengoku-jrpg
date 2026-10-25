@@ -13,6 +13,7 @@ import type { S01Step, S01Track } from './s01Steps.ts';
 import { z } from '../../../engine/node_modules/zod/index.js';
 import { ref, count } from './contentSchemas.ts';
 import { ownInput } from './errors.ts';
+import { registerObservationReport, deliverOrderReports, receivePhysicalReport } from './reports.ts';
 
 type Order = CampaignState['mandates'][number];
 type Result = CampaignState['results'][number];
@@ -124,6 +125,7 @@ export function prepareS01Effects(input: CampaignState, content: CampaignContent
       reservations.push(...resources.map((resource, index) => ({ id: track.id + ':step:' + track.step + ':resource:' + index, orderId: order.orderId,
         resource, from: state.clock.worldMilliseconds, until: ms(until), consumptionId: null })));
       state = replaceTrack({ ...state, reservations, mandates: state.mandates.map(m => m.orderId === order.orderId ? { ...m, reservationIds: reservations.filter(r => r.orderId === order.orderId).map(r => r.id) } : m) }, track);
+      if (step.kind === 'report') state = deliverOrderReports(state, order.orderId);
     } catch (error) {
       if (!(error instanceof CampaignBoundaryError)) throw error;
       state = interrupt(state, track, error.code);
@@ -155,7 +157,7 @@ function transfer(state: CampaignState, order: Order, resultId: string, change: 
   const physical = { previousResultId: previous?.id ?? null, before, after, bodies: state.bodies.filter(b => participants.includes(b.entityId)), dutyAvailable: state.duty.available };
   requireBoundary(action === null || previous !== undefined, 'custody');
   const result: Result = { id: id('ResultId', resultId), orderId: order.orderId, causeId: order.causeId, at: state.clock.worldMilliseconds,
-    kind: action === null ? 'custody' : 'safe-return', payloadHash: summaryHash(physical), physical,
+    kind: action === null ? 'custody' : 'safe-return', payloadHash: summaryHash(physical), physical, workEvidence: null,
     safeReturn: action === null ? null : { assetId: after.assetId, action, custodian: after.custodian, location: after.location,
       priorCustodyResultId: previous!.id, safeRoute: true, dutyAvailable: true } };
   return addResult({ ...state, custody: [after] }, result);
@@ -194,22 +196,23 @@ function completeStep(state: CampaignState, track: S01Track, step: S01Step, cont
         evidence: step.kind === 'compare' ? { kind: 'ledger-comparison', rows: [ledgerRow!] } : { kind: 'raw-observation', nodeId: id('CampaignNodeId', step.from), ...raw } };
       next = { ...next, facts: [...next.facts, fact], inventories: next.inventories.map(i => i.entityId === order.recipientId && i.consumedPaperSheets === 0
         ? { ...i, paperSheets: i.paperSheets - 1, consumedPaperSheets: i.consumedPaperSheets + 1 } : i) };
+      next = registerObservationReport(next, fact);
       if (step.kind === 'compare' ? row === o.evidence.ledgerRows.length - 1 : row === o.evidence.observations.length - 1) {
-        next = addResult(next, { id: id('ResultId', resultId), orderId: order.orderId, causeId: order.causeId, at: next.clock.worldMilliseconds,
-          kind: 'work', physical: null, safeReturn: null, payloadHash: summaryHash(next.facts.filter(f => f.orderId === order.orderId)) });
-        next = acknowledgeCommandEffect(next, { orderId: order.orderId, resultId, transition: 'work-completed' }, content);
+        const completionId = order.orderId + ':work-completion';
+        const workEvidence = next.facts.filter(f => f.orderId === order.orderId);
+        next = addResult(next, { id: id('ResultId', completionId), orderId: order.orderId, causeId: order.causeId, at: next.clock.worldMilliseconds,
+          kind: 'work', physical: null, safeReturn: null, workEvidence, payloadHash: summaryHash(workEvidence) });
+        next = acknowledgeCommandEffect(next, { orderId: order.orderId, resultId: completionId, transition: 'work-completed' }, content);
       }
       break;
     }
     case 'report': {
-      const reports: CampaignState['reports'] = next.facts.filter(f => f.orderId === order.orderId).map(fact => ({ id: fact.id + ':report', fact,
-        recipient: order.issuerPersonId, carrier: order.recipientId, createdAt: fact.observedAt, deliveredAt: track.startedAt,
-        receivedAt: next.clock.worldMilliseconds, source: order.recipientId, omission: fact.evidence.kind === 'ledger-comparison' ? ['missing-annex', 'unsigned-slot'] : ['uncalibrated'],
-        uncertainty: 'partial-evidence', causeId: order.causeId }));
-      next = { ...next, reports: [...next.reports, ...reports], knowledge: next.knowledge.map(k => k.personId !== order.issuerPersonId ? k : { ...k,
-        records: [...k.records, ...reports.map(r => ({ reportId: r.id, factId: r.fact.id, version: r.fact.version, receivedAt: next.clock.worldMilliseconds, payloadHash: summaryHash(r) }))] }) };
+      for (const report of next.reports.filter(r => r.fact.orderId === order.orderId)) {
+        next = receivePhysicalReport(next, { reportId: report.id, recipient: order.issuerPersonId }, content);
+      }
+      const reports = next.reports.filter(r => r.fact.orderId === order.orderId);
       next = addResult(next, { id: id('ResultId', resultId), orderId: order.orderId, causeId: order.causeId, at: next.clock.worldMilliseconds,
-        kind: 'report', physical: null, safeReturn: null, payloadHash: summaryHash(reports) });
+        kind: 'report', physical: null, safeReturn: null, workEvidence: null, payloadHash: summaryHash(reports) });
       next = acknowledgeCommandEffect(next, { orderId: order.orderId, resultId, transition: 'report-received' }, content);
       break;
     }

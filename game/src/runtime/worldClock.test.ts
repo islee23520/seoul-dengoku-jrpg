@@ -69,6 +69,22 @@ test('orders progress concurrently with deterministic receipts and same-step rep
   assert.deepEqual(state.receipts.filter(r => r.orderId === 'TESTINPUT:one').map(r => [r.tick, r.stage]), [[1, 'eligible'], [2, 'delivered'], [3, 'received'], [4, 'consent'], [5, 'reserved'], [6, 'executing'], [7, 'executing'], [8, 'result-applied'], [9, 'receipt']]);
 });
 
+test('long report transit and restore retain one work completion separate from step snapshots', () => {
+  const base = rules();
+  const inputs = { ...base, execution: { ...base.execution, travelSteps: () => 10 } };
+  const start = execution();
+  const state = initial([{ ...start, journey: { path: [source], leg: 0, elapsed: 0 } }]);
+  const working = advance(state, 8, inputs);
+  assert.equal(working.orders[0]?.mandate.stage, 'result-applied');
+  const restored = restoreWorld(JSON.parse(JSON.stringify(working)), inputs);
+  const done = advance(restored, 25, inputs);
+  assert.equal(done.orders[0]?.mandate.stage, 'receipt');
+  assert.ok(done.ledger.entries.filter(e => e.command === 'order-step').length > 9);
+  assert.equal(done.ledger.entries.filter(e => e.command === 'work-resolution').length, 1);
+  assert.equal(done.ledger.entries.find(e => e.command === 'work-resolution')?.resultId, 'TESTINPUT:one:work-completion');
+  assert.deepEqual(advance(state, 25, inputs), done);
+});
+
 test('shared physical labor is reserved once while separate supervision can proceed', () => {
   // Given two jobs for one porter and separate supervision.
   const state = initial([execution(), execution('competing'), execution('supervision', id('PersonId', 'TESTINPUT:supervisor'))]);
