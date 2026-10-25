@@ -12,6 +12,9 @@ export function assertPhysicalEffect(state: CampaignState, result: CampaignState
   const order = state.mandates.find(m => m.orderId === result.orderId);
   requireBoundary(order !== undefined && order.operation === 'S01-L', 'custody');
   const previous = state.results.find(r => r.id === history.previousResultId);
+  const current = state.results.filter(r => r.id !== result.id && r.at <= result.at && r.physical?.after.assetId === history.before.assetId)
+    .sort((a, b) => a.at - b.at).at(-1);
+  requireBoundary(history.previousResultId === (current?.id ?? null), 'custody');
   const initial = { assetId: s.ledger.id, owner: s.ledger.owner, custodian: s.ledger.custodianAtE0, location: nodeLocation(s.ledger.container, content), causeId: 'S01:E0', seal: 'sealed', returnState: 'stored', unresolvedReturn: false };
   requireBoundary(history.previousResultId === null || (previous !== undefined && previous.at < result.at && previous.orderId === result.orderId && (previous.kind === 'custody' || previous.kind === 'safe-return') && previous.physical !== null), 'custody');
   const prior = previous?.physical?.after ?? initial;
@@ -42,8 +45,9 @@ export function assertPhysicalEffect(state: CampaignState, result: CampaignState
       case 'carry-to-threshold':
         requireBoundary(history.after.custodian === order.recipientId && history.after.seal === 'opened' && history.after.returnState === 'return-required', 'custody'); break;
       case 'handover':
-        requireBoundary(history.before.custodian === order.recipientId && history.after.custodian === o.authority.duty && physicalNodes(history.after.location)[0] === 's01:townhall:threshold' && history.after.returnState === 'handover-received' && history.after.seal === 'opened', 'custody'); break;
+        requireBoundary(history.before.custodian === order.recipientId && history.after.custodian === o.authority.duty && history.after.location.kind === 'node' && history.after.location.nodeId === 's01:townhall:threshold' && history.after.returnState === 'handover-received' && history.after.seal === 'opened', 'custody'); break;
       case 'restock': case 'reseal':
+        requireBoundary(history.before.returnState === (safe.action === 'restock' ? 'handover-received' : 'restocked'), 'custody');
         requireBoundary(history.before.custodian === o.authority.duty && history.after.custodian === o.authority.duty && physicalNodes(history.after.location)[0] === s.ledger.container && history.after.returnState === (safe.action === 'restock' ? 'restocked' : 'resealed') && history.after.seal === (safe.action === 'restock' ? 'opened' : 'sealed'), 'custody'); break;
       default: assertNever(safe.action);
     }
