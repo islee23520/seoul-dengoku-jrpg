@@ -1,5 +1,6 @@
 import { openingActors, selectOpeningActor, blockedOpeningActions, openingAdmission } from '../game/src/runtime/openingScenario.ts';
 import { t } from './ui-strings.ts';
+import { describeStartFailure } from './opening-errors.ts';
 
 type Actor = (typeof openingActors)[number];
 type Spawn = (id: unknown, surface: HTMLElement) => Promise<void>;
@@ -90,7 +91,7 @@ export function mountOpening(parent: HTMLElement, spawn: Spawn): void {
     const text = (value: string): string => { const span = document.createElement('span'); span.textContent = value; return span.innerHTML; };
     function render(actor: Actor): void {
       bio.innerHTML = '<h2 class="ui-select__name">' + text(actor.name) + '</h2><p class="ui-select__role">' + text(actor.title) + '</p>'
-        + '<dl class="ui-select__facts">' + fact(t('ui.character-select.label.start'), text(actor.place))
+        + '<dl class="ui-select__facts">' + fact(t('ui.character-select.dialog.start'), text(actor.place))
         + (liegeName(actor) ? fact(t('ui.character-select.label.liege'), text(liegeName(actor)!)) : '') + '</dl>';
     }
     function select(index: number, focus: boolean): void {
@@ -112,8 +113,9 @@ export function mountOpening(parent: HTMLElement, spawn: Spawn): void {
         + '<button class="ui-button ui-button--primary" type="button" data-start>' + t('ui.character-select.dialog.start-action') + '</button></div></section>';
       overlay.querySelector('#dialog-title')!.textContent = t('ui.character-select.dialog.title', actor.name);
       const liege = liegeName(actor);
-      overlay.querySelector('#dialog-summary')!.innerHTML = (liege ? fact(t('ui.character-select.dialog.state'), text(liege)) : '')
-        + fact(t('ui.character-select.dialog.start'), text(actor.place)) + fact(t('ui.character-select.dialog.titles'), text(actor.title));
+      // 소속 (state/faction) and 작위 (held noble titles) have no admitted web data, so those rows are omitted.
+      overlay.querySelector('#dialog-summary')!.innerHTML = fact(t('ui.character-select.dialog.start'), text(actor.place))
+        + (liege ? fact(t('ui.character-select.label.liege'), text(liege)) : '');
       const cancel = overlay.querySelector<HTMLButtonElement>('[data-cancel]')!, start = overlay.querySelector<HTMLButtonElement>('[data-start]')!;
       const close = (): void => { dialog?.abort(); dialog = null; overlay.remove(); restore.focus(); };
       cancel.addEventListener('click', close, { signal: dialog.signal });
@@ -138,9 +140,10 @@ export function mountOpening(parent: HTMLElement, spawn: Spawn): void {
         await spawn(actor.actorId, surface);
         world(actor, surface);
       } catch (error) {
-        if (!(error instanceof Error)) throw error;
         preparing = false;
-        status.textContent = '선택 거부: ' + error.message;
+        const failure = describeStartFailure(error);
+        console.error('[opening] start failed', failure.code, error);
+        status.textContent = failure.text;
         el<HTMLButtonElement>('#select-confirm').disabled = false;
       }
     }
