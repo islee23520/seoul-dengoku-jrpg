@@ -77,7 +77,8 @@ test('preserves pre-revocation evidence delivered after revocation', () => {
   // When the unchanged historic observation is restored.
   const restored = parseCampaignState({ ...state, grants: revoked(state, 1500000) }, content);
   // Then the old report remains receivable, without authorizing new work.
-  assert.equal(restored.reports[0]?.fact.observedAt, 1464000);
+  // Provisional: section2-route-r2-pending-ratification.
+  assert.equal(restored.reports[0]?.fact.observedAt, 1476000);
 });
 test('rejects work results under an old order after revocation', () => {
   // Given an issued/accepted order without observation facts to mask the result check.

@@ -25,7 +25,9 @@ export function recomputeBaseline(pack) {
   const stationary = d.commandDelivery + d.response + d.archiveCheck + d.pickup + d.deliverToK002 + d.compare + d.report + d.returnResponse + d.returnPickup + d.dutyHandover;
   const ledgerReceivedAt = bench / walk + d.commandDelivery + d.response + d.archiveCheck + archive / walk + d.pickup + archive / carry + d.deliverToK002 + d.compare + d.report;
   const handoverAt = ledgerReceivedAt + d.returnResponse + d.returnPickup + threshold / carry + d.dutyHandover;
-  const ledgerFinishedAt = handoverAt + inner / carry + d.reseal + inner / walk;
+  // Provisional r2: section 2's complete route supersedes section 7's example slip.
+  // See the scenario's derived-timeline.md; appendix inputs remain unchanged.
+  const ledgerFinishedAt = handoverAt + inner / carry + d.reseal + archive / walk;
   const prefix = edge('desk', 'entry') + edge('entry', 'yard');
   const cisternTravel = prefix + edge('yard', 'cistern');
   const returnTravel = edge('tap', 'yard') + prefix;
@@ -35,6 +37,7 @@ export function recomputeBaseline(pack) {
   const walkingSeconds = (bench + archive + threshold) / walk, carryingSeconds = (archive + threshold) / carry;
   const effort = Object.fromEntries(body.regions.map(region => [region, walkingSeconds * (body.effortPerWorldSecond.walking[region] ?? 0) + carryingSeconds * (body.effortPerWorldSecond.carrying[region] ?? 0) + stationary * (body.effortPerWorldSecond.stationary[region] ?? 0)]));
   return {
+    provisional: true, decision: 'section2-route-r2-pending-ratification',
     ledgerReceivedAt, handoverAt, ledgerFinishedAt, cisternObservedAt, tapObservedAt, observationReceivedAt,
     K568: { walkingSeconds, carryingSeconds, stationarySeconds: stationary, activeSeconds: walkingSeconds + carryingSeconds + stationary, effort },
     accounting: {
@@ -44,11 +47,11 @@ export function recomputeBaseline(pack) {
       emergencyFoodPacks: p.prepayments.reduce((sum, row) => sum + row.emergencyReservedPacks, 0),
       initialWaterMl: p.prepayments.reduce((sum, row) => sum + row.waterMl, 0),
       paperUsed: p.paper.reduce((sum, row) => sum + row.sheets, 0),
-      foodConsumedBy1590: 0, waterConsumedMlBy1590: 0,
+      foodConsumedAtSequentialReceipt: 0, waterConsumedMlAtSequentialReceipt: 0,
       afterExtensionFoodPacks: p.prepayments.reduce((sum, row) => sum + row.preservedFoodPacks - p.consumption.foodPacks, 0),
       afterExtensionWaterMl: p.prepayments.reduce((sum, row) => sum + row.waterMl - p.consumption.waterMl, 0),
-      payRemainingAt990: pack.clock.supportUntilSeconds - ledgerFinishedAt,
-      coverageRemainingAt990: p.setup.coverageUntilSeconds - ledgerFinishedAt,
+      payRemainingAtDutyReturn: pack.clock.supportUntilSeconds - ledgerFinishedAt,
+      coverageRemainingAtDutyReturn: p.setup.coverageUntilSeconds - ledgerFinishedAt,
     },
   };
 }

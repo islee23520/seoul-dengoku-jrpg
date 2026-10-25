@@ -80,15 +80,16 @@ test('rejects a report read when the report has not been received', () => {
 });
 
 test('preserves the observed payload when newer world facts exist', () => {
+  // Derived observed/received times are provisional: section2-route-r2-pending-ratification.
   // Given a received old report and a later version of its world fact.
   const received = reportedState(true);
-  const next = parseCampaignState({ ...received, facts: received.facts.map(f => ({ ...f, version: 1, observedAt: 1590000 })) }, content);
+  const next = parseCampaignState({ ...received, facts: received.facts.map(f => ({ ...f, version: 1, observedAt: 1602000 })) }, content);
   // When the recipient opens the report.
   const visible = readReceivedReport(next, { personId: 'K002', reportId: 'report:observation' });
   // Then receipt references the old payload, not privileged current truth.
   assert.equal(visible.fact.version, 0);
-  assert.equal(visible.fact.observedAt, 1464000);
-  assert.equal(visible.receivedAt, 1590000);
+  assert.equal(visible.fact.observedAt, 1476000);
+  assert.equal(visible.receivedAt, 1602000);
 });
 
 test('rejects receipt forgery when delivered time lacks formal receipt', () => {

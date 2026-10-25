@@ -2,6 +2,7 @@ import { z } from '../../../engine/node_modules/zod/index.js';
 import { id } from '../domain/ids.ts';
 import { ledgerRow, rawReading } from './operationSchemas.ts';
 import { commandStateSchema } from './commands.ts';
+import { s01StateSchema } from './s01Schemas.ts';
 import { bodyRegion, count, digest, grantId, milliseconds, nodeId, personId, ref, sceneId, siteId } from './contentSchemas.ts';
 
 const cause = ref.transform(v => id('CauseId', v));
@@ -14,7 +15,7 @@ export const locationSchema = z.discriminatedUnion('kind', [
   z.strictObject({ kind: z.literal('site'), siteId }).readonly(),
   z.strictObject({ kind: z.literal('scene'), siteId, sceneId }).readonly(),
   z.strictObject({ kind: z.literal('node'), siteId, sceneId, nodeId }).readonly(),
-  z.strictObject({ kind: z.literal('edge-progress'), siteId, from: nodeId, to: nodeId, travelledMillimetres: count }).readonly(),
+  z.strictObject({ kind: z.literal('edge-progress'), siteId, from: nodeId, to: nodeId, travelledMillimetres: z.number().nonnegative().multipleOf(0.25) }).readonly(),
 ]);
 export type CampaignLocation = z.infer<typeof locationSchema>;
 const body = z.strictObject({
@@ -68,6 +69,7 @@ export type CampaignReport = z.infer<typeof report>;
 export const campaignStateSchema = z.strictObject({
   schema: z.literal('composed-campaign.v1'), revision: count,
   commands: commandStateSchema,
+  s01: s01StateSchema.default({ tracks: [], activities: [], care: [], incidents: [] }),
   packages: z.strictObject({ manifest: digest, atlas: digest, identities: digest, scenario: digest, projection: digest, operations: digest }).readonly(),
   rulesRevision: digest, admissionReceipt: digest,
   clock: z.strictObject({ worldMilliseconds: milliseconds, subWorldMicroseconds: z.int().min(0).max(999).default(0), speed: z.union([z.literal(0), z.literal(1), z.literal(2), z.literal(4)]), sequence: count, phase: z.literal('consistent-boundary'), closedAt: milliseconds.nullable() }).readonly(),
