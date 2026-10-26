@@ -5,6 +5,10 @@ import { mountCampaignOrders } from '../game/ui/campaignOrders.ts';
 import { mountCampaignSettlement, buildSettlementView } from '../game/ui/campaignSettlement.ts';
 import { mountCampaignReports, buildInboxView } from '../game/ui/campaignReports.ts';
 import { mountCampaignSaves } from '../game/ui/campaignSaves.ts';
+import { mountCampaignDialogue } from '../game/ui/campaignDialogue.ts';
+import type { EventDefinition, SwitchEffect } from '../game/src/events/definition.ts';
+import { EventDataError, loadEvent } from '../game/src/events/definition.ts';
+import type { EventContext } from '../game/src/events/pipeline.ts';
 import { CAMPAIGN_SAVE_NAMESPACE } from '../game/src/campaign/saveCheckpoint.ts';
 import { parseCampaignSave } from '../game/src/campaign/saveCheckpoint.ts';
 import type { ProductionCampaign } from './campaign-runtime.ts';
@@ -35,7 +39,7 @@ export function mountCampaignViews(parent: HTMLElement, options: {
   };
   function map(): void {
     switchView(() => mountCampaignMap(parent, { view: mapView, identity: identityMap, actor,
-      onBack: () => { releaseControls(); releaseView(); unsubscribe(); parent.removeEventListener('campaign:open-saves', onOpenSaves); options.onTitle(); },
+      onBack: () => { releaseControls(); releaseView(); unsubscribe(); parent.removeEventListener('campaign:open-saves', onOpenSaves); parent.removeEventListener('campaign:open-dialogue', onOpenDialogue); options.onTitle(); },
       onOrders: orders, onOpenSite: settlement, onOpenReports: reports }));
   }
   function orders(): void {
@@ -68,9 +72,33 @@ export function mountCampaignViews(parent: HTMLElement, options: {
       onSaved: detail => parent.dispatchEvent(new CustomEvent('campaign:saved', { bubbles: true, detail })),
     }));
   }
+  /** Open request for the narrative dialogue surface (task26 §7): a document admitted through the
+   * real loadEvent boundary plus the authoritative actor context the caller owns. Production
+   * dispatches none today — the schema admits TESTINPUT provenance only — so this stays the
+   * single honest entry path; no fixture is promoted to canon and no stock speech is fabricated. */
+  type DialogueOpenDetail = {
+    readonly document?: unknown;
+    readonly knownTraits: ReadonlySet<string>;
+    readonly getContext: () => EventContext;
+    readonly onEffects?: (effects: readonly SwitchEffect[], switches: Readonly<Record<string, boolean>>) => void;
+  };
+  function dialogue(detail: DialogueOpenDetail): void {
+    let admitted: EventDefinition | null = null; let blockedReason: string | undefined;
+    if (detail.document !== undefined) {
+      try { admitted = loadEvent(detail.document, detail.knownTraits); }
+      catch (error) { blockedReason = error instanceof EventDataError ? error.detail : String(error); }
+    }
+    switchView(() => mountCampaignDialogue(parent, {
+      event: admitted, blockedReason, context: detail.getContext,
+      liveClock: () => ({ clockMs: runtime.state.clock.worldMilliseconds, speed: runtime.state.clock.speed }),
+      subscribe: listener => runtime.subscribe(listener), onEffects: detail.onEffects, onBack: map,
+    }));
+  }
   // The page-owned session bar opens the save/load surface through a DOM event; views are swappable.
   const onOpenSaves = (): void => saves();
   parent.addEventListener('campaign:open-saves', onOpenSaves);
+  const onOpenDialogue = (event: Event): void => { dialogue((event as CustomEvent<DialogueOpenDetail>).detail); };
+  parent.addEventListener('campaign:open-dialogue', onOpenDialogue);
   // Public receipts contain only visible state and causal IDs, never remote world facts.
   const unsubscribe = runtime.subscribe(() => {
     const view = app.view(actor.actorId);
