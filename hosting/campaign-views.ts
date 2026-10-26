@@ -4,6 +4,9 @@ import type { MapView, CampaignActor } from '../game/ui/campaignMap.ts';
 import { mountCampaignOrders } from '../game/ui/campaignOrders.ts';
 import { mountCampaignSettlement, buildSettlementView } from '../game/ui/campaignSettlement.ts';
 import { mountCampaignReports, buildInboxView } from '../game/ui/campaignReports.ts';
+import { mountCampaignSaves } from '../game/ui/campaignSaves.ts';
+import { CAMPAIGN_SAVE_NAMESPACE } from '../game/src/campaign/saveCheckpoint.ts';
+import { parseCampaignSave } from '../game/src/campaign/saveCheckpoint.ts';
 import type { ProductionCampaign } from './campaign-runtime.ts';
 import { mountCampaignControls } from './campaign-controls.ts';
 import { summaryHash } from '../game/src/domain/eventLedger.ts';
@@ -32,7 +35,7 @@ export function mountCampaignViews(parent: HTMLElement, options: {
   };
   function map(): void {
     switchView(() => mountCampaignMap(parent, { view: mapView, identity: identityMap, actor,
-      onBack: () => { releaseControls(); releaseView(); unsubscribe(); options.onTitle(); },
+      onBack: () => { releaseControls(); releaseView(); unsubscribe(); parent.removeEventListener('campaign:open-saves', onOpenSaves); options.onTitle(); },
       onOrders: orders, onOpenSite: settlement, onOpenReports: reports }));
   }
   function orders(): void {
@@ -50,6 +53,24 @@ export function mountCampaignViews(parent: HTMLElement, options: {
       subscribe: listener => runtime.subscribe(listener), onBack: map, onOpenCommand: orders,
     }));
   }
+  function saves(): void {
+    switchView(() => mountCampaignSaves(parent, {
+      content,
+      reader: {
+        readActive: () => runtime.storage.getItem(CAMPAIGN_SAVE_NAMESPACE + ':active'),
+        readPayload: key => runtime.storage.getItem(key),
+        parseSave: raw => parseCampaignSave(raw, content),
+      },
+      liveClock: () => ({ clockMs: runtime.state.clock.worldMilliseconds, speed: runtime.state.clock.speed }),
+      subscribe: listener => runtime.subscribe(listener),
+      save: () => runtime.save(),
+      onBack: map,
+      onSaved: detail => parent.dispatchEvent(new CustomEvent('campaign:saved', { bubbles: true, detail })),
+    }));
+  }
+  // The page-owned session bar opens the save/load surface through a DOM event; views are swappable.
+  const onOpenSaves = (): void => saves();
+  parent.addEventListener('campaign:open-saves', onOpenSaves);
   // Public receipts contain only visible state and causal IDs, never remote world facts.
   const unsubscribe = runtime.subscribe(() => {
     const view = app.view(actor.actorId);

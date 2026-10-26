@@ -150,7 +150,7 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
       }
       event.stopPropagation(); return;
     }
-    if (event.key === 'Escape') { event.preventDefault(); event.stopPropagation(); release(); options.onBack(); }
+    if (event.key === 'Escape' && !document.querySelector('dialog[open]')) { event.preventDefault(); event.stopPropagation(); release(); options.onBack(); }
   }, { signal, capture: true });
 
   function render(): void {

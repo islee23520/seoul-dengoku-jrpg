@@ -28,6 +28,7 @@ export class ProductionCampaign {
   readonly #listeners = new Set<() => void>();
   constructor(options: CampaignRuntimeOptions) { this.#options = options; }
   get content(): CampaignContent { return this.#options.content; }
+  get storage(): CheckpointStorage { return this.#options.storage; }
   get app(): CampaignApplication {
     if (!this.#app) throw new CampaignEntryError('read-only');
     return this.#app;

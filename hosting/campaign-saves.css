@@ -1,0 +1,16 @@
+/* Save/load screen (task22 wave2), per the approved task26 design contract §8.
+   Reuses the task14 three-dock shell (campaign-settlement.css) — every value traces to
+   unity-theme.css tokens. */
+#realtime[data-screen=campaign-saves]{height:100dvh;overflow:hidden}
+.sv{position:relative;height:100%;--cs-top:calc(var(--layout-header-h) + var(--layout-gutter));--cs-bottom:calc(var(--space-80) + var(--layout-margin))}
+.sv .cs-dock{top:var(--cs-top);bottom:var(--cs-bottom)}
+.sv .cs-panel{top:var(--cs-top);bottom:var(--cs-bottom)}
+.sv-tabs{display:flex;gap:var(--space-4);flex:0 0 auto;margin-block-end:var(--space-8)}
+.sv-tab{flex:1 1 auto;min-height:var(--hit-min);justify-content:center}
+.sv-confirm{width:min(var(--modal-w),calc(100% - 2 * var(--layout-margin)));padding:var(--space-24)}
+.sv-confirm[open]{display:grid;grid-template-rows:auto auto auto;gap:var(--space-16)}
+.sv-confirm h2{margin:0;font:var(--weight-bold) var(--type-h3)/1 var(--font-ui)}
+.sv-confirm__body{margin:0;font:var(--weight-regular) var(--type-body)/1.5 var(--font-ui);color:var(--color-ink)}
+.sv-confirm__actions{display:flex;justify-content:flex-end;gap:var(--space-8)}
+.sv-confirm::backdrop{background:var(--color-scrim)}
+@media(max-width:1000px){.sv{height:auto;min-height:100dvh}.sv .cs-dock,.sv .cs-panel{position:static;width:auto;max-width:none}}

@@ -106,7 +106,7 @@ export function mountCampaignReports(parent: HTMLElement, options: InboxOptions)
   }, { signal });
   document.addEventListener('keydown', event => {
     if (event.defaultPrevented) return;
-    if (event.key === 'Escape') { event.preventDefault(); back(); }
+    if (event.key === 'Escape' && !document.querySelector('dialog[open]')) { event.preventDefault(); back(); }
   }, { signal });
   const unsubscribe = options.subscribe(() => {
     // A report arriving while the inbox is open is a received-only update: announce it, never move focus.

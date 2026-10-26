@@ -48,6 +48,12 @@ Runtime uses named occupancy labels; appearance remains unapproved, so no
 TESTINPUT sprite becomes a person. The post-start world view is token-styled
 but not a Unity-ported surface.
 
+## Save/load surface (task22 wave2, task26 design contract §8)
+
+Layout: saves - one manual checkpoint and validation detail -> list-detail in the task14 shell (tabs+checkpoints 303 / selected checkpoint 618 / versions 303 under a 48px header, footer [뒤로][수동 저장 | 불러오기 검토]); scroll owners: sv-rows, sv-detail, sv-versions separately; anti-patterns: numbered slots, autosave, repair/migration button, in-session hot-load, invented wall-clock save time.
+
+Primary action: 저장 탭 수동 저장 / 불러오기 탭 불러오기 검토 — only one tab's action prominent at a time; both confirmations open Cancel-focused. Priorities: 1 the actual active checkpoint or the honest empty state; 2 integrity/compatibility with a readable reason when corrupt; 3 content hashes and the migration-unavailable boundary. Left out: slot catalog fiction, autosave, automatic repair, OS now as last-save time. The restore path is the title screen's 이어하기 (the runtime refuses a second live application in-tab); the surface never fakes a hot load. Session bar 명시 저장 was replaced by the 저장 · 불러오기 opener so the whole lifecycle lives on one token-driven surface.
+
 ## Retainer command composer/detail (task26 design contract §4, task13)
 
 Source: task26 design contract revision-1 (owner-approved missing-UI design)

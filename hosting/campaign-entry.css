@@ -7,5 +7,5 @@
 .campaign-info dt{color:var(--color-ink-secondary);font-size:var(--type-caption)}
 .campaign-info dd{font-size:var(--type-caption);margin-bottom:var(--space-8)}
 .campaign-info a{color:var(--color-accent);min-height:var(--hit-min)}
-@media(min-width:1001px){body:has(#realtime[data-screen=campaign-orders]) .campaign-session{left:var(--layout-margin);bottom:var(--space-20);max-width:var(--layout-dock-w);flex-wrap:wrap}body:has(#realtime[data-screen=campaign-settlement]) .campaign-session,body:has(#realtime[data-screen=campaign-reports]) .campaign-session{left:auto;right:var(--layout-margin)}}
+@media(min-width:1001px){body:has(#realtime[data-screen=campaign-orders]) .campaign-session{left:var(--layout-margin);bottom:var(--space-20);max-width:var(--layout-dock-w);flex-wrap:wrap}body:has(#realtime[data-screen=campaign-settlement]) .campaign-session,body:has(#realtime[data-screen=campaign-reports]) .campaign-session{left:auto;right:var(--layout-margin)}body:has(#realtime[data-screen=campaign-saves]) .campaign-session{left:auto;right:var(--layout-margin);bottom:calc(var(--space-80) + var(--layout-margin) + var(--space-8))}}
 @media(max-width:1000px){.campaign-session{position:sticky;left:auto;bottom:0;flex-wrap:wrap;margin:var(--layout-margin)}.campaign-session output{max-width:100%}}

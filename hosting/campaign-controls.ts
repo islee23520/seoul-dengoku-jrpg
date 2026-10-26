@@ -6,19 +6,11 @@ export function mountCampaignControls(parent: HTMLElement, runtime: ProductionCa
   const abort = new AbortController();
   const bar = document.createElement('nav'); bar.className = 'campaign-session'; bar.ariaLabel = '캠페인 저장과 정보';
   const status = document.createElement('output'); status.setAttribute('role', 'status');
-  const save = document.createElement('button'); save.className = 'ui-button'; save.textContent = '명시 저장';
+  const save = document.createElement('button'); save.className = 'ui-button'; save.textContent = '저장 · 불러오기';
   const info = document.createElement('button'); info.className = 'ui-button'; info.textContent = '캠페인 정보';
   save.addEventListener('click', () => {
-    try {
-      const saved = runtime.save();
-      status.textContent = '저장됨 · ' + Math.floor(saved.state.clock.worldMilliseconds / 1000) + '세계초';
-      parent.dispatchEvent(new CustomEvent('campaign:saved', { bubbles: true, detail: {
-        checksum: saved.checksum, worldMilliseconds: saved.state.clock.worldMilliseconds,
-      } }));
-    } catch (error) {
-      if (!(error instanceof Error)) throw error;
-      status.textContent = '저장 실패 · ' + error.message;
-    }
+    // The actual save/load surface (task22 wave2) owns saving, review and confirmations.
+    parent.dispatchEvent(new CustomEvent('campaign:open-saves', { bubbles: true }));
   }, { signal: abort.signal });
   let dialog: HTMLDialogElement | null = null;
   info.addEventListener('click', () => {
