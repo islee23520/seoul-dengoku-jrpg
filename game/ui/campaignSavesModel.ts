@@ -84,6 +84,7 @@ const reasonText: Readonly<Record<string, string>> = Object.freeze({
 /** Readable, honest failure text: known codes get Korean, unknown codes stay visible verbatim. */
 export function describeSaveFailure(reason: string): string {
   if (reasonText[reason]) return reasonText[reason]!;
+  if (reason.startsWith('versions:')) return '저장 판본이 호환되지 않는다 · ' + reason.slice('versions:'.length).trim() + ' · 이전 버전에서 옮겨오기: 제공되지 않는다';
   if (reason.startsWith('campaign-')) return reasonText.campaign! + ' (' + reason + ')';
   if (reason.startsWith('storage-')) return '브라우저 저장소 오류 (' + reason.slice('storage-'.length) + ')';
   return '알 수 없는 오류 (' + reason + ')';
@@ -97,7 +98,11 @@ function describeRow(kind: 'current' | 'previous', key: string | null, reader: S
   const raw = reader.readPayload(key);
   if (raw === null) return { row: { ...base, status: 'invalid' }, reason: 'missing-payload' };
   try {
-    const value = reader.parseSave(JSON.parse(raw));
+    const parsed: unknown = JSON.parse(raw);
+    if (parsed && typeof parsed === 'object' && 'envelopeVersion' in parsed && parsed.envelopeVersion !== 2) {
+      return { row: { ...base, status: 'invalid' }, reason: 'versions: expected envelope 2; actual ' + String(parsed.envelopeVersion) };
+    }
+    const value = reader.parseSave(parsed);
     return {
       row: {
         kind, key, status: 'ok', checksum: value.checksum,

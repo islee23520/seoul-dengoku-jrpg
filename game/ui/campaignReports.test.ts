@@ -5,7 +5,7 @@ import { CampaignContent } from '../src/campaign/content.ts';
 import { createCampaignE0 } from '../src/campaign/state.ts';
 import { CampaignApplication } from '../src/campaign/application.ts';
 import { composeCampaignAuthority } from '../src/campaign/authorityComposition.ts';
-import { buildInboxView, sortedRows, unreadIds } from './campaignReportsModel.ts';
+import { buildInboxView, sortedRows, unreadIds, newerReceivedVersion } from './campaignReportsModel.ts';
 
 const data = new URL('../data/', import.meta.url);
 const files = { manifest: 'campaign/source-manifest.json', atlas: 'campaign/atlas.json', identities: 'campaign/identity-map.json',
@@ -56,6 +56,39 @@ test('older received payloads are immutable when the world later changes', () =>
   const rows = buildInboxView(received, content, 'K002').rows;
   const mutated = { ...received, facts: received.facts.map(f => ({ ...f, version: f.version + 1 })) };
   assert.deepEqual(buildInboxView(mutated as never, content, 'K002').rows, rows);
+});
+
+test('older-version indicator compares only received versions of the same fact without rewriting payloads', () => {
+  const state = app.checkpoint();
+  const rows = buildInboxView(state, content, 'K002').rows;
+  const original = rows[0]!;
+  const old = Object.freeze({ ...original, version: 1 });
+  const higher = Object.freeze({ ...original, reportId: 'received-v3', version: 3, receivedAt: original.receivedAt + 1 });
+  const same = Object.freeze({ ...original, reportId: 'received-v1-again', version: 1, receivedAt: original.receivedAt + 2 });
+  const otherFact = Object.freeze({ ...higher, reportId: 'unrelated', factId: original.factId + '-other', version: 99 });
+  const before = JSON.stringify(old);
+  assert.equal(newerReceivedVersion(old, [old, same, otherFact]), undefined);
+  assert.equal(newerReceivedVersion(old, [old, higher, same, otherFact]), higher);
+  assert.equal(newerReceivedVersion(higher, [old, higher, same, otherFact]), undefined);
+  assert.equal(JSON.stringify(old), before, 'the old received evidence is never replaced');
+  assert.equal(newerReceivedVersion(old, []), undefined);
+
+  const unreceived = { ...state.reports[0]!, id: 'unreceived-higher-version',
+    fact: { ...state.reports[0]!.fact, version: 999 } };
+  const projected = buildInboxView({ ...state, reports: [...state.reports, unreceived] } as never, content, 'K002').rows;
+  assert.deepEqual(projected, rows, 'a higher world report without a receipt cannot affect the inbox');
+  assert.deepEqual(newerReceivedVersion(original, projected), newerReceivedVersion(original, rows));
+});
+
+test('newer received version selection is highest-version first with deterministic receipt ties', () => {
+  const base = buildInboxView(app.checkpoint(), content, 'K002').rows[0]!;
+  const old = { ...base, version: 1 };
+  const highest = { ...base, reportId: 'a', version: 3, receivedAt: 10 };
+  const tie = { ...highest, reportId: 'b' };
+  const earlier = { ...highest, reportId: 'earlier', receivedAt: 9 };
+  const lower = { ...base, version: 2, receivedAt: 100 };
+  assert.equal(newerReceivedVersion(old, [lower, tie, earlier, highest]), highest);
+  assert.equal(newerReceivedVersion(old, [highest, earlier, tie, lower]), highest);
 });
 
 test('unread is local presentation metadata keyed by reportId', () => {

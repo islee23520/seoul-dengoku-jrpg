@@ -24,7 +24,7 @@ function fakeStorage(): Storage & { readonly map: Map<string, string> } {
 function fakeLocks(): LockManager {
   const { promise, resolve, reject } = Promise.withResolvers<void>();
   return {
-    request: (_name, _options, callback) => {
+    request: (_name: string, _options: LockOptions, callback: (lock: Lock) => unknown) => {
       void Promise.resolve(callback({ name: _name, mode: 'exclusive' } as Lock)).then(resolve, reject);
       return promise;
     },
@@ -35,7 +35,7 @@ async function startedRuntime(): Promise<{ runtime: ProductionCampaign; storage:
   const storage = fakeStorage();
   const runtime = new ProductionCampaign({ content, storage, locks: fakeLocks(), now: () => fakeNow });
   assert.equal(await runtime.start('new'), true);
-  return { runtime, storage, get now() { return fakeNow; }, set now(value: number) { fakeNow = value; } } as never;
+  return { runtime, storage, get now() { return fakeNow; }, set now(value: number) { fakeNow = value; } };
 }
 
 test('restoreSaved before any start is the honest read-only refusal, not a silent no-op', async () => {
@@ -86,4 +86,20 @@ test('the persisted envelope round-trips through createCampaignSave exactly once
   const runtime = new ProductionCampaign({ content, storage, locks: fakeLocks(), now: () => 0 });
   assert.equal(await runtime.start('saved'), true);
   assert.equal(runtime.state.clock.worldMilliseconds, save.state.clock.worldMilliseconds);
+});
+
+test('explicit previous restore is independent of corrupt current and does not move the active pointer', async () => {
+  const harness = await startedRuntime();
+  const first = harness.runtime.save();
+  harness.runtime.app.setSpeed(1); harness.now += 2_000; harness.runtime.reconcile();
+  harness.runtime.save();
+  const rawPointer = harness.storage.getItem(CAMPAIGN_SAVE_NAMESPACE + ':active')!;
+  const pointer = JSON.parse(rawPointer);
+  harness.storage.setItem(pointer.current, '{broken');
+  const restored = harness.runtime.restoreSaved('previous');
+  assert.equal(restored.checksum, first.checksum);
+  assert.equal(harness.runtime.state.clock.worldMilliseconds, first.state.clock.worldMilliseconds);
+  assert.equal(harness.storage.getItem(CAMPAIGN_SAVE_NAMESPACE + ':active'), rawPointer);
+  assert.equal(harness.runtime.app.view('K002').worldMilliseconds, first.state.clock.worldMilliseconds);
+  harness.runtime.close();
 });

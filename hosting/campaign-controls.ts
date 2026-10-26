@@ -4,10 +4,23 @@ declare const __CAMPAIGN_BUILD_ID__: string;
 
 export function mountCampaignControls(parent: HTMLElement, runtime: ProductionCampaign): { readonly release: () => void } {
   const abort = new AbortController();
-  const bar = document.createElement('nav'); bar.className = 'campaign-session'; bar.ariaLabel = '캠페인 저장과 정보';
+  const bar = document.createElement('nav'); bar.className = 'campaign-session'; bar.ariaLabel = '캠페인 저장과 정보, 테마';
   const status = document.createElement('output'); status.setAttribute('role', 'status');
   const save = document.createElement('button'); save.className = 'ui-button'; save.textContent = '저장 · 불러오기';
   const info = document.createElement('button'); info.className = 'ui-button'; info.textContent = '캠페인 정보';
+  const themeLabel = document.createElement('label'); themeLabel.className = 'ui-theme-control';
+  themeLabel.append('테마');
+  const theme = document.createElement('select'); theme.className = 'ui-theme-select';
+  for (const [value, text] of [['system', 'System'], ['dark', 'Dark'], ['light', 'Light']]) {
+    const option = document.createElement('option'); option.value = value; option.textContent = text; theme.append(option);
+  }
+  const currentTheme = document.documentElement.dataset.uiTheme;
+  theme.value = currentTheme === 'dark' || currentTheme === 'light' ? currentTheme : 'system';
+  theme.addEventListener('change', () => {
+    if (theme.value === 'system') delete document.documentElement.dataset.uiTheme;
+    else document.documentElement.dataset.uiTheme = theme.value;
+  }, { signal: abort.signal });
+  themeLabel.append(theme);
   save.addEventListener('click', () => {
     // The actual save/load surface (task22 wave2) owns saving, review and confirmations.
     parent.dispatchEvent(new CustomEvent('campaign:open-saves', { bubbles: true }));
@@ -33,6 +46,6 @@ export function mountCampaignControls(parent: HTMLElement, runtime: ProductionCa
     document.body.append(dialog); dialog.showModal(); close.focus();
   }, { signal: abort.signal });
   // Views replace their own DOM during state updates; session controls are page-owned.
-  bar.append(save, info, status); document.body.append(bar);
+  bar.append(save, info, themeLabel, status); document.body.append(bar);
   return { release: () => { abort.abort(); dialog?.remove(); bar.remove(); } };
 }

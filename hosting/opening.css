@@ -106,3 +106,43 @@ kbd{font:inherit}
 #realtime[data-screen=world] button:disabled{opacity:.6;cursor:not-allowed}
 small{display:block;color:var(--color-ink-secondary)}
 output{overflow-wrap:anywhere}#scenario-world{max-width:100%;overflow:hidden}#scenario-world canvas{display:block;max-width:100%;height:auto!important}li{overflow-wrap:anywhere;margin-block:var(--space-8)}
+
+/* R3-derived selection completion: admitted geography, identity fallback, mode/search controls. */
+.ui-select__header{gap:var(--space-12);min-width:0}
+.ui-select__scenario{flex:1 1 160px;min-width:0;max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:var(--type-caption)}
+.ui-select__count{flex:none;margin:0}
+.ui-select__modes{display:flex;gap:var(--space-4)}
+.ui-select__mode{min-height:var(--hit-min);padding-inline:var(--space-12);font-size:var(--type-caption)}
+.ui-select__mode[aria-pressed=true]{box-shadow:inset 0 calc(-1 * var(--border-strong)) 0 var(--color-focus)}
+.ui-select__search{display:flex;align-items:center;gap:var(--space-8);margin-left:auto}
+.ui-select__search-label{font-size:var(--type-caption);color:var(--color-ink-secondary)}
+.ui-select__search input{width:160px;min-height:var(--hit-min);min-width:0;padding:var(--space-8);border:var(--border-hairline) solid var(--color-line);border-radius:var(--radius-md);background:var(--color-surface-sunken);color:var(--color-ink);font:var(--weight-regular) var(--type-label)/1.3 var(--font-ui)}
+.ui-select__search input:focus-visible{outline:var(--border-focus) solid var(--color-focus);outline-offset:var(--space-4)}
+.ui-card[hidden]{display:none}
+.ui-card__start{font-size:var(--type-caption);color:var(--color-focus)}
+.ui-select__stage{display:flex;flex-direction:column;gap:var(--space-8);min-height:0;padding:var(--space-16);text-align:start}
+.ui-select__stage svg{flex:1;width:100%;height:100%;min-height:0}
+.ui-select__region{fill:color-mix(in srgb,var(--color-ink) 10%,transparent);stroke:var(--color-line);stroke-width:1;vector-effect:non-scaling-stroke}
+.ui-select__region--start{fill:color-mix(in srgb,var(--color-focus) 24%,transparent);stroke:var(--color-focus);stroke-width:2}
+.ui-select__map-caption,.ui-select__note{font-size:var(--type-caption);line-height:1.4;color:var(--color-ink-secondary)}
+.ui-portrait{flex:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--space-8);min-height:112px;padding:var(--space-16);border-radius:var(--radius-lg);background:var(--color-surface-sunken);text-align:center}
+.ui-portrait__name{font:var(--weight-bold) var(--type-h3)/1.3 var(--font-ui)}
+.ui-portrait__fallback,.ui-portrait__id{font-size:var(--type-caption);line-height:1.4;color:var(--color-ink-muted);overflow-wrap:anywhere}
+@media(max-width:1000px){
+  .ui-select{display:flex;flex-direction:column;height:auto;min-height:100dvh;padding:0 var(--layout-margin) var(--layout-margin)}
+  .ui-select__header{flex-wrap:wrap;min-height:var(--layout-header-h);padding-block:var(--space-8)}
+  .ui-select__hint{display:none}
+  .ui-select__search{flex-basis:100%;margin-left:0}
+  .ui-select__search input{flex:1;width:auto}
+  .ui-select__stage{display:flex;min-height:220px}
+  .ui-select__stage svg{min-height:180px}
+  .ui-select__dock{min-height:0;overflow:visible}
+  .ui-select__bio,.ui-select__list{overflow:visible}
+  .ui-select__actions{display:flex;flex-wrap:wrap}
+  .ui-select__actions .ui-button{white-space:normal;min-height:var(--button-h)}
+  .ui-select[data-pane=list] .ui-select__stage,.ui-select[data-pane=list] .ui-select__detail{display:none}
+  .ui-select[data-pane=detail] .ui-select__dock:not(.ui-select__detail){display:none}
+}
+.ui-select__faction{display:flex;align-items:center;gap:var(--space-4);font-size:var(--type-caption);white-space:nowrap}
+.ui-select__faction select{min-height:var(--hit-min);max-width:130px;background:var(--color-surface-sunken);color:var(--color-ink);border:var(--border-hairline) solid var(--color-line);border-radius:var(--radius-md);font:inherit}
+@media(min-width:1001px){.ui-select__scenario{max-width:140px}.ui-select__hint{font-size:var(--type-caption)}.ui-select__search input{width:130px}}

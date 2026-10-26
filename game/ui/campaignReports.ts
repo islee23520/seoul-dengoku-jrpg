@@ -3,7 +3,7 @@
  * provenance 303, footer 80 ([뒤로] [명령 보기 | 닫기]). RECEIVED-ONLY: the provider snapshot
  * contains only received reports; opening a row changes local unread metadata and nothing else. */
 import { t } from '../../hosting/ui-strings.ts';
-import { reportsStrings, sortedRows, unreadIds } from './campaignReportsModel.ts';
+import { reportsStrings, sortedRows, unreadIds, newerReceivedVersion } from './campaignReportsModel.ts';
 import type { InboxRow, InboxView } from './campaignReportsModel.ts';
 import { formatWorldSeconds, settlementStrings } from './campaignSettlementModel.ts';
 import { mountPaneNav } from './paneNav.ts';
@@ -57,19 +57,24 @@ export function mountCampaignReports(parent: HTMLElement, options: InboxOptions)
     const view = { clockMs: providerView.clockMs, rows: providerView.rows, unread: unreadIds(providerView.rows, read) };
     const ordered = sortedRows(view);
     clock.textContent = '세계 경과 ' + formatWorldSeconds(view.clockMs);
-    rows.innerHTML = ordered.length ? ordered.map(row => '<button class="ui-button cr-row' + (row.reportId === selected ? ' is-selected' : '') + '" type="button" role="listitem" data-report="' + esc(row.reportId) + '" aria-pressed="' + (row.reportId === selected) + '">'
+    rows.innerHTML = ordered.length ? ordered.map(row => '<button class="ui-button cr-row' + (row.reportId === selected ? ' is-selected' : '') + '" type="button" role="listitem" data-pane-id="' + esc(row.reportId) + '" data-report="' + esc(row.reportId) + '" aria-pressed="' + (row.reportId === selected) + '">'
       + '<span class="cr-row__head">' + (view.unread.has(row.reportId) ? '<span class="cr-unread">' + esc(reportsStrings.unread) + '</span>' : '') + esc(row.title) + '</span>'
       + '<span class="cr-row__meta">' + esc(reportsStrings.source) + ' ' + esc(row.sourceName) + ' · ' + esc(reportsStrings.observedAt) + ' ' + formatWorldSeconds(row.observedAt) + '</span>'
+      + (newerReceivedVersion(row, ordered) ? '<span class="cr-row__meta">' + esc(reportsStrings.superseded) + '</span>' : '')
       + '<span class="cr-row__id">' + esc(row.reportId) + '</span></button>').join('')
       : '<p class="cs-empty">' + esc(reportsStrings.empty) + '</p>';
     const row: InboxRow | undefined = ordered.find(entry => entry.reportId === selected);
     if (!row) { selected = ordered[0]?.reportId ?? null; }
     const current = ordered.find(entry => entry.reportId === selected);
     if (current) {
+      const newer = newerReceivedVersion(current, ordered);
       detail.innerHTML = '<h3 class="cr-detail__title">' + esc(current.title) + '</h3>'
         + '<dl class="cs-facts">' + time(reportsStrings.observedAt, current.observedAt) + time(reportsStrings.createdAt, current.createdAt)
         + time(reportsStrings.deliveredAt, current.deliveredAt) + time(reportsStrings.receivedAt, current.receivedAt)
         + fact(reportsStrings.source, current.sourceId) + '</dl>'
+        + (newer ? '<p class="cs-warning">' + esc(reportsStrings.superseded) + '</p><dl class="cs-facts">'
+          + fact(reportsStrings.newerReceived, newer.reportId + ' · v' + newer.version)
+          + time(reportsStrings.observedAt, newer.observedAt) + time(reportsStrings.receivedAt, newer.receivedAt) + '</dl>' : '')
         + '<h4 class="cr-sub">' + esc(current.evidence.kind === 'raw-observation' ? reportsStrings.rawEvidence : reportsStrings.ledgerEvidence) + '</h4>'
         + '<ul class="cr-lines">' + current.evidence.lines.map(line => '<li>' + esc(line) + '</li>').join('') + '</ul>'
         + '<p class="cs-warning">' + esc(reportsStrings.partial) + '</p>';

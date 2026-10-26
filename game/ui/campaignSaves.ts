@@ -22,9 +22,8 @@ export interface SavesOptions {
   readonly subscribe?: (listener: () => void) => () => void;
   /** Performs the explicit atomic save; returns the persisted save or throws with a readable reason. */
   readonly save: () => { readonly checksum: string; readonly state: { readonly clock: { readonly worldMilliseconds: number } } };
-  /** Performs the real in-session restore of the stored checkpoint (task26 §8); throws with a
-   * readable reason when the payload is corrupt/missing. Absent hosts keep the guidance-only state. */
-  readonly load?: () => { readonly checksum: string; readonly state: { readonly clock: { readonly worldMilliseconds: number } } };
+  /** Validates and restores the explicitly selected persisted checkpoint. Failure preserves the live session. */
+  readonly load: (kind: 'current' | 'previous') => { readonly checksum: string; readonly state: { readonly clock: { readonly worldMilliseconds: number } } };
   readonly onBack: () => void;
   readonly onSaved?: (detail: { readonly checksum: string; readonly worldMilliseconds: number }) => void;
   readonly onLoaded?: (detail: { readonly checksum: string; readonly worldMilliseconds: number }) => void;
@@ -106,7 +105,7 @@ export function mountCampaignSaves(parent: HTMLElement, options: SavesOptions): 
     renderClock();
     rows.innerHTML = data.rows.map(row => rowHtml(row, row.kind === selected)).join('');
     const row = data.rows.find(entry => entry.kind === selected) ?? data.rows[0]!;
-    if (data.error) {
+    if (data.error && row.kind === 'current') {
       detail.innerHTML = '<h3 class="cr-detail__title">' + esc(savesStrings.corruptTitle) + '</h3>'
         + '<dl class="cs-facts">' + fact('사유', data.error.readable) + fact('코드', data.error.reason) + '</dl>'
         + '<p class="cs-warning">' + esc(savesStrings.loadGuidance) + '</p>';
@@ -129,9 +128,10 @@ export function mountCampaignSaves(parent: HTMLElement, options: SavesOptions): 
     tabSave.classList.toggle('is-selected', tab === 'save'); tabSave.setAttribute('aria-selected', String(tab === 'save'));
     tabLoad.classList.toggle('is-selected', tab === 'load'); tabLoad.setAttribute('aria-selected', String(tab === 'load'));
     action.textContent = tab === 'save' ? savesStrings.save : savesStrings.loadReview;
-    // Load review is blocked without a valid current checkpoint; the reason stays readable beside the control.
-    action.disabled = tab === 'load' && !data.hasValidCurrent;
-    reason.textContent = receipt ?? (tab === 'load' && !data.hasValidCurrent
+    // The selected pointer must validate independently; a valid previous remains reviewable
+    // even when the current payload is corrupt. No silent previous-pointer fallback occurs.
+    action.disabled = tab === 'load' && row.status !== 'ok';
+    reason.textContent = receipt ?? (tab === 'load' && row.status !== 'ok'
       ? data.error ? data.error.readable : savesStrings.empty
       : tab === 'save' ? savesStrings.overwriteConfirm : savesStrings.loadGuidance);
   }
@@ -139,6 +139,14 @@ export function mountCampaignSaves(parent: HTMLElement, options: SavesOptions): 
   function closeDialog(): void { dialog?.close(); }
   function openConfirm(kind: 'save' | 'load'): void {
     const built = confirmDialog(kind);
+    if (kind === 'load') {
+      const data = buildSavesView(options.reader, options.content, options.liveClock().clockMs, options.liveClock().speed);
+      const checkpoint = data.rows.find(row => row.kind === selected);
+      const summary = document.createElement('p');
+      summary.className = 'sv-confirm__body';
+      summary.textContent = (selected === 'current' ? savesStrings.current : savesStrings.previous) + ' · ' + (checkpoint?.worldSecondsText ?? '') + ' · ' + (checkpoint?.checksum ?? '');
+      built.dialog.insertBefore(summary, built.dialog.querySelector('.sv-confirm__actions'));
+    }
     dialog = built.dialog;
     const run = (): void => {
       if (kind === 'save') {
@@ -151,19 +159,17 @@ export function mountCampaignSaves(parent: HTMLElement, options: SavesOptions): 
           const text = failure instanceof Error ? describeSaveFailure(failure.message) : savesStrings.saveFailed;
           receipt = savesStrings.saveFailed + ' · ' + text;
         }
-      } else if (options.load) {
+      } else {
         // Real restore (task26 §8): the runtime validates the stored checkpoint and replaces the
         // live session under the same lock; unsaved progress is discarded by design.
         try {
-          const loaded = options.load();
+          const loaded = options.load(selected);
           options.onLoaded?.({ checksum: loaded.checksum, worldMilliseconds: loaded.state.clock.worldMilliseconds });
           receipt = savesStrings.restored + formatWorldSeconds(loaded.state.clock.worldMilliseconds);
         } catch (failure) {
           const text = failure instanceof Error ? describeSaveFailure(failure.message) : savesStrings.restoreFailed;
           receipt = savesStrings.restoreFailed + text;
         }
-      } else {
-        receipt = savesStrings.loadGuidance;
       }
       render();
     };

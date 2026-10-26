@@ -26,7 +26,7 @@ export function mountCampaignViews(parent: HTMLElement, options: {
   readonly runtime: ProductionCampaign; readonly actor: CampaignActor; readonly onTitle: () => void;
 }): void {
   const { runtime, actor } = options;
-  const { app, content } = runtime;
+  const { content } = runtime;
   let releaseView: () => void = () => {};
   let releaseControls: () => void = () => {};
   const switchView = (mount: () => { readonly release: () => void }): void => {
@@ -43,7 +43,7 @@ export function mountCampaignViews(parent: HTMLElement, options: {
       onOrders: orders, onOpenSite: settlement, onOpenReports: reports }));
   }
   function orders(): void {
-    switchView(() => mountCampaignOrders(parent, { app, content, actor, onBack: map }));
+    switchView(() => mountCampaignOrders(parent, { app: runtime.app, content, actor, onBack: map }));
   }
   function settlement(): void {
     switchView(() => mountCampaignSettlement(parent, {
@@ -68,7 +68,7 @@ export function mountCampaignViews(parent: HTMLElement, options: {
       liveClock: () => ({ clockMs: runtime.state.clock.worldMilliseconds, speed: runtime.state.clock.speed }),
       subscribe: listener => runtime.subscribe(listener),
       save: () => runtime.save(),
-      load: () => runtime.restoreSaved(),
+      load: kind => runtime.restoreSaved(kind),
       onBack: map,
       onSaved: detail => parent.dispatchEvent(new CustomEvent('campaign:saved', { bubbles: true, detail })),
       onLoaded: detail => parent.dispatchEvent(new CustomEvent('campaign:loaded', { bubbles: true, detail })),
@@ -103,7 +103,7 @@ export function mountCampaignViews(parent: HTMLElement, options: {
   parent.addEventListener('campaign:open-dialogue', onOpenDialogue);
   // Public receipts contain only visible state and causal IDs, never remote world facts.
   const unsubscribe = runtime.subscribe(() => {
-    const view = app.view(actor.actorId);
+    const view = runtime.app.view(actor.actorId);
     parent.dataset.worldMilliseconds = String(view.worldMilliseconds);
     parent.dispatchEvent(new CustomEvent('campaign:change', { bubbles: true, detail: {
       worldMilliseconds: view.worldMilliseconds, revision: view.revision,

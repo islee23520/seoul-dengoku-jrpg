@@ -35,24 +35,23 @@ confirmation opens with Cancel focused.
 
 Layout: title - fullscreen canvas -> centred mark/subtitle/entry between two rules at Unity centre offsets; scroll owner: none; anti-patterns: host-document article as title.
 Layout: menu - centred modal panel -> heading, New Game, disabled continue/settings/quit/account, Back; scroll owner: none; anti-patterns: enabling placeholders.
-Layout: selection - 48px header + 303px left candidate dock + centre stage + 303px right detail dock at 1280x720; scroll owners: candidate list and detail bio, no document scroll; anti-patterns: radio rows, clipped action footer, fake campaign map. Below 760px the docks stack and the document scrolls (390 is a new candidate, not Unity parity).
+Layout: selection (fix-1, R3/R8 anatomy) - 48px header with 정치/작위 mode chips (Q/E), / search over admitted actors and count + 303px roster dock (person cards, 개막 지정 marker on K002) + 618px centre stage carrying the admitted task12 map geometry with the start region in the 2px focus frame + 303px detail dock (portrait identity fallback, admitted facts, unavailable-biography note, actions); scroll owners: candidate list and detail bio, no document scroll; anti-patterns: radio rows, clipped action footer, invented portrait art, fabricated biography. At ≤1000px task26 §3 applies: one visible list OR detail pane (paneNav bar), Back restores the selected row and its scroll.
 
 Primary action: title any key/click -> 새 게임 -> 이 인물로 시작한다 -> 시작한다.
 Priorities: selected person, actual start placement, start action. Required
 content: K002 이서담, K568 백산석, K616 성달현; title, start place and liege
 name when it is an admitted actor (no raw ids, tiles, facings or status codes);
 after start, each missing input and affected action. Copy comes verbatim from
-Unity ui-strings.json through `ui-strings.ts`. Left out: portraits, campaign map, faction filters, search and
-biography (no approved web data); fabricated stats.
+Unity ui-strings.json through `ui-strings.ts`. Portrait art and authored biography remain unadmitted: the detail dock shows the honest identity fallback and the unavailable note instead (task26 §2), never invented art or text; mode filter and search operate only on admitted actor data (name, id, role, title).
 Runtime uses named occupancy labels; appearance remains unapproved, so no
 TESTINPUT sprite becomes a person. The post-start world view is token-styled
 but not a Unity-ported surface.
 
 ## Save/load surface (task22 wave2, task26 design contract §8)
 
-Layout: saves - one manual checkpoint and validation detail -> list-detail in the task14 shell (tabs+checkpoints 303 / selected checkpoint 618 / versions 303 under a 48px header, footer [뒤로][수동 저장 | 불러오기 검토]); scroll owners: sv-rows, sv-detail, sv-versions separately; anti-patterns: numbered slots, autosave, repair/migration button, in-session hot-load, invented wall-clock save time.
+Layout: saves - one manual checkpoint and validation detail -> list-detail in the task14 shell (tabs+checkpoints 303 / selected checkpoint 618 / versions 303 under a 48px header, footer [뒤로][수동 저장 | 불러오기 검토]); scroll owners: sv-rows, sv-detail, sv-versions separately; anti-patterns: numbered slots, autosave, repair/migration button, invented wall-clock save time. Selected current/previous pointers validate independently and restore explicitly; no silent fallback.
 
-Primary action: 저장 탭 수동 저장 / 불러오기 탭 불러오기 검토 — only one tab's action prominent at a time; both confirmations open Cancel-focused. Priorities: 1 the actual active checkpoint or the honest empty state; 2 integrity/compatibility with a readable reason when corrupt; 3 content hashes and the migration-unavailable boundary. Left out: slot catalog fiction, autosave, automatic repair, OS now as last-save time. The restore path is the title screen's 이어하기 (the runtime refuses a second live application in-tab); the surface never fakes a hot load. Session bar 명시 저장 was replaced by the 저장 · 불러오기 opener so the whole lifecycle lives on one token-driven surface.
+Primary action: 저장 탭 수동 저장 / 불러오기 탭 불러오기 검토 — only one tab's action prominent at a time; both confirmations open Cancel-focused. Priorities: 1 the actual active checkpoint or the honest empty state; 2 integrity/compatibility with a readable reason when corrupt; 3 content hashes and the migration-unavailable boundary. Left out: slot catalog fiction, autosave, automatic repair, OS now as last-save time. 불러오기 performs the REAL in-session restore (fix-1): the runtime validates the stored checkpoint and replaces the live application under the same lock (unsaved progress discarded by design, no accrual, no effect replay); corrupt payloads refuse before anything is replaced. Focus after a confirmation closes returns to the #sv-action opener. Session bar 명시 저장 was replaced by the 저장 · 불러오기 opener so the whole lifecycle lives on one token-driven surface. At ≤1000px task26 §3 applies (paneNav: checkpoint list OR detail/versions).
 
 ## Narrative dialogue surface (task22 wave3, task26 design contract §7)
 
@@ -137,3 +136,11 @@ The task14 settlement projection supersedes the invisible E0 engine surface.
 The one application survives navigation; only the page lifetime releases its lock.
 The information dialog uses existing modal/focus tokens without added animation.
 Space48 is 48px; every speed target is at least hit-min 44px in both dimensions.
+
+## Independent-review corrections (task22 fix-1)
+
+Task26 mobile contract applies to selection, orders, settlement, reports, saves and the labelled dialogue pilot: a labelled list/detail control shows only the selected pane group, and Back first returns to the list with stable selection/scroll. Pane snapshots survive orders rerenders; stale selection snapshots fall back to the list top instead of focusing detached content. Detail may contain its associated provenance/custody context but never also the roster/list.
+
+The session bar exposes System/Dark/Light using the same verified Unity token palettes. Report supersession is computed only from received report rows; the older immutable payload remains readable. Order refusal/interruption/expiry reasons come only from the owner's visible event records; absent reasons read “사유 미확인”, not inferred remote causes. QA negative fixtures are private, labelled and excluded from the production build. Production narrative admission and Unity procedural-map visual-equivalence remain owner-decision gaps, not parity claims.
+
+The private `campaign-negative-fixture.html` mounts the production orders, settlement and report views against deterministic domain-generated snapshots, with visible causal receipts. It is a readonly QA entry, not a production route or an ordinary campaign outcome. The final production browser regression covers roster filtering/search, Cancel-first start confirmation, explicit current/previous checkpoint restore, corrupt/incompatible/quota save states, mobile pane transitions, light tokens and increased text. Capture and canonical sequential-runtime evidence are recorded under task-22-unity-ui-port/fix1-final; that evidence does not create absent Unity references or admit TESTINPUT narrative as production content.

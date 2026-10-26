@@ -24,7 +24,7 @@ export function selectOpeningActor(input: unknown) {
   const placement = placementSchema.parse(projection.actors.find(actor => actor.actorId === id));
   const site = scenario.sites.find(site => site.id === placement.nodeId);
   if (!site) throw new RangeError('Unresolved scenario placement: ' + placement.nodeId);
-  return { ...placement, ...identities[id], place: site.name };
+  return { ...placement, ...identities[id], place: site.name, regionId: site.regionId };
 }
 export const openingActors = approvedActorId.options.map(selectOpeningActor);
 export const openingAdmission = {

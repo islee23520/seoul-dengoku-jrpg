@@ -29,6 +29,8 @@ export const reportsStrings = {
   partial: '부분 증거 — 정상/이상 판단 아님',
   fact: '사실 식별',
   version: '판본',
+  superseded: '이전 수신 판본 — 더 높은 판본 수신됨',
+  newerReceived: '더 높은 수신 판본',
   cause: '발단',
   ledgerEvidence: '원장 대조 결과',
   rawEvidence: '현장 관측 기록',
@@ -113,6 +115,19 @@ export function buildInboxView(state: CampaignState, content: CampaignContent, p
 /** Sorting is newest-received first; ties by reportId for determinism. */
 export function sortedRows(view: InboxView): readonly InboxRow[] {
   return [...view.rows].sort((a, b) => b.receivedAt - a.receivedAt || (a.reportId < b.reportId ? -1 : 1));
+}
+
+/** Compare only admitted inbox rows, never live facts or reports still in transit.
+ * A later receipt of the same/lower version is not a superseding version. */
+export function newerReceivedVersion(row: InboxRow, rows: readonly InboxRow[]): InboxRow | undefined {
+  let newer: InboxRow | undefined;
+  for (const candidate of rows) {
+    if (candidate.factId !== row.factId || candidate.version <= row.version) continue;
+    if (!newer || candidate.version > newer.version
+      || (candidate.version === newer.version && (candidate.receivedAt > newer.receivedAt
+        || (candidate.receivedAt === newer.receivedAt && candidate.reportId < newer.reportId)))) newer = candidate;
+  }
+  return newer;
 }
 
 export function timeLabel(ms: number | null, kind: 'elapsed' | 'pending' = 'elapsed'): string {

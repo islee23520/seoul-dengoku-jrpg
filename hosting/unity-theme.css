@@ -5,7 +5,7 @@
 @font-face{font-family:"Noto Sans KR UI";src:url("./fonts/NotoSansKR-Medium.otf") format("opentype");font-weight:500;font-display:swap}
 @font-face{font-family:"Noto Sans KR UI";src:url("./fonts/NotoSansKR-Bold.otf") format("opentype");font-weight:700;font-display:swap}
 
-:root{
+:root,:root[data-ui-theme=dark]{
   color-scheme:dark;
   --color-canvas:#0B111C;--color-surface:#141C2A;--color-surface-sunken:#0E1622;
   --color-ink:#E6EAF0;--color-ink-secondary:#9AA6B2;--color-ink-muted:#77828F;
@@ -36,7 +36,7 @@
   --ease-out:cubic-bezier(.5,1,.89,1);--ease-emphasis:cubic-bezier(.33,1,.68,1);
 }
 @media (prefers-color-scheme:light){
-  :root{
+  :root:not([data-ui-theme=dark]):not([data-ui-theme=light]){
     color-scheme:light;
     --color-canvas:#F4F1E9;--color-surface:#FFFCF5;--color-surface-sunken:#EAE5DA;
     --color-ink:#202A38;--color-ink-secondary:#465365;--color-ink-muted:#596575;
@@ -45,6 +45,20 @@
     --elevation-card:0 2px 8px #202A3824;--elevation-panel:0 8px 24px #202A3833;--elevation-modal:0 16px 40px #202A3847;
   }
 }
+/* Explicit choices override the system preference; System removes data-ui-theme. */
+:root[data-ui-theme=light]{
+  color-scheme:light;
+  --color-canvas:#F4F1E9;--color-surface:#FFFCF5;--color-surface-sunken:#EAE5DA;
+  --color-ink:#202A38;--color-ink-secondary:#465365;--color-ink-muted:#596575;
+  --color-line:#C0B9AA;--color-focus:#775800;--color-accent:#255D83;
+  --color-rule-brass:#76592FD9;--color-scrim:#F4F1E9B8;--color-key-cap-bg:#5965751F;
+  --elevation-card:0 2px 8px #202A3824;--elevation-panel:0 8px 24px #202A3833;--elevation-modal:0 16px 40px #202A3847;
+}
+
+/* Native selection retains keyboard navigation and Escape without scripted focus. */
+.ui-theme-control{display:inline-flex;align-items:center;gap:var(--space-8);padding-inline:var(--space-8);color:var(--color-ink-secondary);font:var(--weight-medium) var(--type-caption)/1.2 var(--font-ui)}
+.ui-theme-select{min-height:var(--hit-min);padding-inline:var(--space-8);border:var(--border-hairline) solid var(--color-line);border-radius:var(--radius-md);background:var(--color-surface);color:var(--color-ink);font:inherit}
+.ui-theme-select:focus-visible{outline:var(--border-focus) solid var(--color-accent);outline-offset:var(--space-4)}
 
 /* Shared primitives */
 .ui-key-cap{display:inline-flex;align-items:center;justify-content:center;min-width:var(--key-cap-h);height:var(--key-cap-h);padding-inline:var(--key-cap-padding-x);
@@ -68,4 +82,4 @@
 .ui-button--menu:hover:not(:disabled),.ui-button--menu.is-selected{color:var(--color-ink)}
 .ui-button--menu.is-selected::before{content:"";position:absolute;left:0;top:var(--space-8);bottom:var(--space-8);width:var(--border-strong);background:var(--color-focus)}
 .ui-button--menu:active:not(:disabled){color:var(--color-ink-secondary)}
-@media (prefers-reduced-motion:reduce){.ui-button{transition:color var(--motion-state) linear,background-color var(--motion-state) linear}.ui-button:active{transform:none!important}}
+@media(prefers-reduced-motion:reduce){:root{--motion-press:0ms;--motion-focus:0ms;--motion-state:0ms;--motion-screen-in:0ms;--motion-modal-in:0ms;--motion-hint-pulse:0ms}.ui-button{transition:none}.ui-button:active{transform:none!important}.ui-card,.ui-menu,.ui-dialog,.ui-title__entry::after{animation:none!important;transition:none!important}}

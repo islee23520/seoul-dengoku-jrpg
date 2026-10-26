@@ -1,5 +1,5 @@
-import { ordersStrings as s, orderRows, authorityNow } from './campaignOrdersModel.ts';
-import type { OperationBrief, OrdersCatalog } from './campaignOrdersModel.ts';
+import { ordersStrings as s } from './campaignOrdersModel.ts';
+import type { OperationBrief, OrdersCatalog, OrderDetailView, OrderRowView, OrderAuthorityResult } from './campaignOrdersModel.ts';
 const esc = (value: string): string => value.replace(/[&<>"']/g, c => '&#' + c.charCodeAt(0) + ';');
 
 /** Pure roster and draft presentation, shared by initial render and every selection update. */
@@ -12,7 +12,7 @@ export function renderOrderDraft(input: {
   const list = (label: string, items: readonly string[]): string => items.length ? '<p class="co-label">' + esc(label) + '</p><ul class="co-list">' + items.map(i => '<li>' + esc(i) + '</li>').join('') + '</ul>' : '';
     const rosterRows = catalog.court
       .filter(member => rosterFilter === 'all' || member.eligible)
-      .map(member => '<button class="ui-button co-row" type="button" data-pick="' + esc(member.personId) + '" data-person-id="' + esc(member.personId) + '" aria-pressed="' + (member.personId === selectedPersonId) + '">'
+      .map(member => '<button class="ui-button co-row" type="button" data-pane-id="' + esc(member.personId) + '" data-pick="' + esc(member.personId) + '" data-person-id="' + esc(member.personId) + '" aria-pressed="' + (member.personId === selectedPersonId) + '">'
         + '<span class="co-row__name">' + esc(member.name) + '</span>'
         + '<span class="co-row__meta">' + (member.status === 'active' ? s.active : s.retired) + (member.operationId ? ' · ' + esc(member.operationId) : '') + '</span>'
         + (member.personId === selectedPersonId ? '<span class="co-check" aria-hidden="true">✓</span>' : '')
@@ -42,10 +42,11 @@ export function renderOrderDraft(input: {
 }
 
 export function renderIssuedOrders(input: {
-  readonly rows: ReturnType<typeof orderRows>; readonly reportsByOrder: ReadonlyMap<string, number>;
+  readonly rows: readonly OrderRowView[]; readonly reportsByOrder: ReadonlyMap<string, number>;
   readonly catalog: OrdersCatalog; readonly selectedOrderId: string | null;
+  readonly detail: OrderDetailView | null;
 }): string {
-  const { rows, reportsByOrder, catalog, selectedOrderId } = input;
+  const { rows, reportsByOrder, catalog, selectedOrderId, detail } = input;
   const rowHtml = (fact: string, value: string): string => '<div class="co-fact"><dt>' + esc(fact) + '</dt><dd>' + value + '</dd></div>';
     const ordersList = rows.length
       ? rows.map(o => {
@@ -58,10 +59,20 @@ export function renderIssuedOrders(input: {
           + (o.terminal || o.cancellationPending ? '' : '<button class="ui-button co-order__cancel" type="button" data-cancel-request="' + esc(o.orderId) + '">' + esc(s.requestCancel) + '</button>')
           + '</header>'
           + (o.orderId === selectedOrderId ? '<dl class="co-facts">'
-            + rowHtml(s.orderTimeline, esc(['대기', '전달됨', '수신됨', '수락됨', '집행 중', '결과 반영'].join(' → ')) + ' · 현재 ' + esc(o.stageLabel))
+            + rowHtml(s.orderTimeline, detail?.milestones.length
+              ? detail.milestones.map(event => esc(event.label) + ' ' + Math.floor(event.at / 1000) + esc(s.seconds)).join(' → ')
+              : esc('기록된 진행 시각 없음'))
+            + rowHtml('현재 상태', esc(o.stageLabel))
+            + (detail?.reason ? rowHtml('사유', esc(detail.reason)) : '')
             + rowHtml(s.recipient + ' 수신', o.receivedAt === null ? esc(s.notYet) : esc(o.receivedAt) + esc(s.seconds))
             + rowHtml('수락', o.acceptedAt === null ? esc(s.notYet) : esc(o.acceptedAt) + esc(s.seconds))
             + rowHtml('수신 보고', reports > 0 ? esc(String(reports)) + '건 수신' : esc(s.notYet))
+            + (o.operation === 'S01-L' ? rowHtml('원장 반환', detail?.original
+              ? esc(detail.original.unresolvedReturn ? '반환 미해결 · 실물 보존' : detail.original.returnState === 'resealed' ? '재봉인 완료' : detail.original.returnState === 'stored' ? '보관 중' : '반환 절차 중')
+                + ' · 보유 ' + esc(catalog.court.find(person => person.personId === detail.original!.custodian)?.name ?? detail.original.custodian)
+                + ' · 위치 ' + esc(detail.original.location.kind === 'node' ? detail.original.location.nodeId : detail.original.location.kind === 'edge-progress' ? detail.original.location.from + ' → ' + detail.original.location.to : '현장')
+                + ' · 확인 ' + Math.floor(detail.asOf / 1000) + esc(s.seconds)
+              : esc('현재 보유자·위치·반환 상태 미확인')) : '')
             + '</dl>' : '')
           + '</section>';
       }).join('')
@@ -70,7 +81,7 @@ export function renderIssuedOrders(input: {
   return ordersList;
 }
 
-export function renderOrderAuthority(basis: ReturnType<typeof authorityNow> | null, catalog: OrdersCatalog): string {
+export function renderOrderAuthority(basis: OrderAuthorityResult | null, catalog: OrdersCatalog): string {
   const rowHtml = (fact: string, value: string): string => '<div class="co-fact"><dt>' + esc(fact) + '</dt><dd>' + value + '</dd></div>';
   const short = (hash: string): string => hash.slice(0, 12);
     const authority = basis
