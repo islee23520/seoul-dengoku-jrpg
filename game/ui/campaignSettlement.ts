@@ -104,7 +104,7 @@ export function mountCampaignSettlement(parent: HTMLElement, options: Settlement
   }, { signal });
   document.addEventListener('keydown', event => {
     if (event.defaultPrevented) return;
-    if (event.key === 'Escape') { event.preventDefault(); options.onBack(); }
+    if (event.key === 'Escape' && !document.querySelector('dialog[open]')) { event.preventDefault(); options.onBack(); }
   }, { signal });
 
   render();

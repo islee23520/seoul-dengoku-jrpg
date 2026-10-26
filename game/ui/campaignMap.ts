@@ -256,7 +256,7 @@ export function mountCampaignMap(parent: HTMLElement, options: CampaignMapOption
   }, { signal });
   document.addEventListener('keydown', event => {
     if (event.defaultPrevented) return;
-    if (event.key === 'Escape' && state.selection) {
+    if (event.key === 'Escape' && state.selection && !document.querySelector('dialog[open]')) {
       event.preventDefault();
       update({ ...state, selection: null }); svg.focus();
     } else if ((event.key === 'm' || event.key === 'M') && !(event.target instanceof HTMLInputElement)) {

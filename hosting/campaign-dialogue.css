@@ -1,0 +1,31 @@
+/* Narrative dialogue screen (task22 wave3), per the approved task26 design contract §7.
+   Reuses the task14 three-dock shell (campaign-settlement.css) — every value traces to
+   unity-theme.css tokens. No typewriter gate, no invented portrait art, no stock speech. */
+#realtime[data-screen=campaign-dialogue]{height:100dvh;overflow:hidden}
+.cd{position:relative;height:100%;--cs-top:calc(var(--layout-header-h) + var(--layout-gutter));--cs-bottom:calc(var(--space-80) + var(--layout-margin))}
+.cd .cs-dock{top:var(--cs-top);bottom:var(--cs-bottom)}
+.cd .cs-panel{top:var(--cs-top);bottom:var(--cs-bottom)}
+
+/* speaker dock: actual identity + honest portrait fallback (name block, never invented art) */
+.cd-portrait{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--space-8);
+  min-height:112px;padding:var(--space-16);border-radius:var(--radius-lg);background:var(--color-surface-sunken);text-align:center}
+.cd-portrait__name{margin:0;font:var(--weight-bold) var(--type-h3)/1.3 var(--font-ui);overflow-wrap:anywhere}
+.cd-portrait__fallback{margin:0;font:var(--weight-regular) var(--type-caption)/1.4 var(--font-ui);color:var(--color-ink-muted)}
+
+/* narrative dock: title + body + stakes in authored order; body is the only scroll owner */
+.cd-text__title{margin:var(--space-8) 0 0;font:var(--weight-bold) var(--type-h3)/1.3 var(--font-ui)}
+.cd-text__body{margin:var(--space-8) 0 0;font:var(--weight-regular) var(--type-body)/1.6 var(--font-ui)}
+.cd-text__stakes-h{margin:var(--space-24) 0 0;font:var(--weight-medium) var(--type-label)/1.2 var(--font-ui);color:var(--color-ink-secondary)}
+.cd-text__stakes{margin:var(--space-4) 0 0;padding:var(--space-8);border-radius:var(--radius-lg);
+  font:var(--weight-regular) var(--type-label)/1.5 var(--font-ui);background:color-mix(in srgb,var(--color-surface-sunken) 60%,transparent)}
+
+/* eligible choices: menu rows inherit the Unity 2px focus-colour left-bar on selection */
+.cd-option{justify-content:flex-start;width:100%;min-height:var(--layout-row-h);text-align:start}
+.cd-option__text{font:var(--weight-regular) var(--type-label)/1.4 var(--font-ui);overflow-wrap:anywhere}
+.cd-selected{flex:0 0 auto;margin-top:var(--space-12);padding:var(--space-12);border-radius:var(--radius-lg);
+  background:color-mix(in srgb,var(--color-focus) 10%,transparent)}
+.cd-selected__h{margin:0 0 var(--space-4);font:var(--weight-medium) var(--type-label)/1.2 var(--font-ui)}
+.cd-selected__text{margin:0;font:var(--weight-regular) var(--type-label)/1.5 var(--font-ui);overflow-wrap:anywhere}
+.cd-selected__requires-h{margin:var(--space-8) 0 var(--space-4);font:var(--weight-regular) var(--type-caption)/1.2 var(--font-ui);color:var(--color-ink-secondary)}
+
+@media(max-width:1000px){.cd{height:auto;min-height:100dvh}.cd .cs-dock,.cd .cs-panel{position:static;width:auto;max-width:none}}

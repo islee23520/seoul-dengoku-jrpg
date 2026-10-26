@@ -48,6 +48,18 @@ Runtime uses named occupancy labels; appearance remains unapproved, so no
 TESTINPUT sprite becomes a person. The post-start world view is token-styled
 but not a Unity-ported surface.
 
+## Save/load surface (task22 wave2, task26 design contract §8)
+
+Layout: saves - one manual checkpoint and validation detail -> list-detail in the task14 shell (tabs+checkpoints 303 / selected checkpoint 618 / versions 303 under a 48px header, footer [뒤로][수동 저장 | 불러오기 검토]); scroll owners: sv-rows, sv-detail, sv-versions separately; anti-patterns: numbered slots, autosave, repair/migration button, in-session hot-load, invented wall-clock save time.
+
+Primary action: 저장 탭 수동 저장 / 불러오기 탭 불러오기 검토 — only one tab's action prominent at a time; both confirmations open Cancel-focused. Priorities: 1 the actual active checkpoint or the honest empty state; 2 integrity/compatibility with a readable reason when corrupt; 3 content hashes and the migration-unavailable boundary. Left out: slot catalog fiction, autosave, automatic repair, OS now as last-save time. The restore path is the title screen's 이어하기 (the runtime refuses a second live application in-tab); the surface never fakes a hot load. Session bar 명시 저장 was replaced by the 저장 · 불러오기 opener so the whole lifecycle lives on one token-driven surface.
+
+## Narrative dialogue surface (task22 wave3, task26 design contract §7)
+
+Layout: dialogue - speaker plus authored text/choices -> three-dock shell (speaker 303 / narrative 618 / eligible choices 303 under a 48px header, footer [닫기 (보류)][선택 확인]); scroll owners: cd-text (dialogue.text-body) and cd-choices (dialogue.choices-body) separately; anti-patterns: stock speech, start-confirm substituted for narrative, typewriter gate, random portrait art, repeated stakes subtitle.
+
+Primary action: 선택 확인 for the explicitly selected eligible option; the nested confirmation is cancel-first and revalidates through the real events pipeline (loadEvent admission at the campaign:open-dialogue ingress, prepareEvent snapshot per render, chooseEvent on confirm). A stale or gated choice refreshes with an explanation and emits nothing; only a successful revalidated choice reaches the owning host through onEffects — the UI never writes switches. The outer 닫기 (보류) defers with no branch/completion and Escape routes there, never into an option (engine cancelBehavior=disallow is not bypassed). Opening never pauses the clock. Honest states: blocked (no admitted document — production today: the schema admits TESTINPUT provenance only, no fixture is promoted to canon), empty (prepareEvent null), selected, confirm, stale-choice, consumed once-event. Ingress: `campaign:open-dialogue` CustomEvent on #realtime with { document, knownTraits, getContext, onEffects }.
+
 ## Retainer command composer/detail (task26 design contract §4, task13)
 
 Source: task26 design contract revision-1 (owner-approved missing-UI design)
