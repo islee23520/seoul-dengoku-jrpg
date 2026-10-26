@@ -1,0 +1,15 @@
+{
+  "extends": "../../game/tsconfig.json",
+  "compilerOptions": {
+    "noPropertyAccessFromIndexSignature": false
+  },
+  "include": [
+    "settlement-fixture.ts",
+    "../../game/ui/campaignSettlement.ts",
+    "../../game/ui/campaignSettlementModel.ts",
+    "../../game/ui/campaignReports.ts",
+    "../../game/ui/campaignReportsModel.ts",
+    "../../game/ui/campaignSettlement.test.ts",
+    "../../game/ui/campaignReports.test.ts"
+  ]
+}

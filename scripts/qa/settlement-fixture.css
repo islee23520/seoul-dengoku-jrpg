@@ -1,0 +1,9 @@
+/* Task14 QA harness chrome. Screens use the production campaign-map.css / campaign-settlement.css. */
+body{background:var(--color-canvas);color:var(--color-ink);font:var(--weight-regular) var(--type-caption)/1.5 var(--font-ui);margin:0}
+h1{font:var(--weight-bold) var(--type-h3)/1.2 var(--font-ui);margin:var(--space-8) var(--space-16) 0}
+#realtime > p{margin:0 var(--space-16) var(--space-8);color:var(--color-ink-secondary)}
+.sfx-controls{display:flex;flex-wrap:wrap;gap:var(--space-8);margin:0 var(--space-16) var(--space-8)}
+.sfx-controls .ui-button{min-height:var(--hit-min);padding-inline:var(--space-12);font-size:var(--type-caption)}
+.sfx-message{display:block;margin:0 var(--space-16) var(--space-8);font:var(--weight-medium) var(--type-label)/1.4 var(--font-ui);color:var(--color-ink)}
+.sfx-stage{position:relative;height:calc(100dvh - 200px);min-height:480px}
+.sfx-stage:has([data-screen=campaign-map]){overflow:hidden}

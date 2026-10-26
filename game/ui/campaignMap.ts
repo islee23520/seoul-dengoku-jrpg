@@ -20,12 +20,18 @@ export const webOnlyStrings = {
   mapLabel: '서울 캠페인 지도',
   outOfScope: '알려진 범위 밖의 지역이다',
   site: '시설',
+  reports: '수신 보고함',
+  settlement: '정착지 집행 보기',
 } as const;
 
 export interface CampaignActor { readonly actorId: string; readonly name: string; readonly title: string; readonly place: string; readonly liege: string }
 export interface CampaignMapOptions {
   readonly view: MapView; readonly identity: IdentityMap; readonly actor: CampaignActor;
   readonly onBack: () => void; readonly onOrders?: () => void; readonly location?: { hash: string };
+  /** Task14: open the settlement execution screen for the admitted site (view navigation only). */
+  readonly onOpenSite?: (siteId: string) => void;
+  /** Task14: open the received-report inbox (view navigation only). */
+  readonly onOpenReports?: () => void;
 }
 
 const SVG = 'http://www.w3.org/2000/svg';
@@ -83,7 +89,8 @@ export function mountCampaignMap(parent: HTMLElement, options: CampaignMapOption
     + '<div class="cm-nav__group cm-nav__ranks" role="group" aria-label="' + t('ui.character-select.mode.titles') + '">'
     + ranks.map(rank => navButton('cm-rank-' + rank, t(('ui.map.rank.' + rank) as UiStringKey), rankAvailable(view, rank) ? '' : 'disabled')).join('') + '</div>'
     + navButton('cm-rail', webOnlyStrings.rail, 'aria-description="' + webOnlyStrings.railNote + '"')
-    + '<div class="cm-nav__trail">' + navButton('cm-orders', webOnlyStrings.orders)
+    + '<div class="cm-nav__trail">' + (options.onOpenReports ? navButton('cm-reports', webOnlyStrings.reports) : '')
+    + navButton('cm-orders', webOnlyStrings.orders)
     + navButton('cm-settings', t('ui.main-menu.settings'), 'disabled')
     + navButton('cm-pov', 'POV', 'aria-pressed="true" aria-disabled="true"') + navButton('cm-back', t('ui.main-menu.back'))
     + '<span class="cm-nav__legend"><i class="cm-swatch cm-swatch--unclaimed"></i>' + t('ui.map.unclaimed') + '</span></div></header>'
@@ -240,6 +247,9 @@ export function mountCampaignMap(parent: HTMLElement, options: CampaignMapOption
   q('#cm-tab-titles').addEventListener('click', () => update({ ...state, tab: 'titles' }), { signal });
   q('#cm-tab-sites').addEventListener('click', () => update({ ...state, tab: 'sites' }), { signal });
   parent.addEventListener('click', event => {
+    const openSettlement = (event.target as Element).closest('#cm-open-settlement');
+    if (openSettlement && options.onOpenSite && state.selection?.kind === 'site') { options.onOpenSite(view.selection.site.id); return; }
+    if ((event.target as Element).closest('#cm-reports')) { options.onOpenReports?.(); return; }
     const button = (event.target as Element).closest<HTMLElement>('[data-pick]');
     if (button) { pick(button.dataset.pick ?? ''); return; }
     if ((event.target as Element).closest('#cm-jurisdiction')) update({ ...state, expanded: !state.expanded });
@@ -324,8 +334,9 @@ export function mountCampaignMap(parent: HTMLElement, options: CampaignMapOption
       case 'site': {
         const region = view.regions.find(r => r.id === view.selection.site.regionId)!;
         const here = actor.place === view.selection.site.name ? fact('user', t('ui.hud.pov.current-location'), actor.name) : '';
+        const open = options.onOpenSite ? '<button class="ui-button cm-row" type="button" id="cm-open-settlement">' + icon('home') + '<span>' + webOnlyStrings.settlement + '</span></button>' : '';
         return '<h3 class="cm-context__title">' + esc(view.selection.site.name) + '</h3><p class="cm-caption">' + webOnlyStrings.site + '</p>'
-          + '<dl class="cm-facts">' + fact('map-pin', region.district, region.name) + here + '</dl>';
+          + '<dl class="cm-facts">' + fact('map-pin', region.district, region.name) + here + '</dl>' + open;
       }
       default: return selection satisfies never;
     }
