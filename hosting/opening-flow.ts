@@ -11,9 +11,14 @@ import identityMap from '../game/data/campaign/identity-map.json';
 
 type Actor = (typeof openingActors)[number];
 type Spawn = (id: unknown, surface: HTMLElement) => Promise<void>;
+export type OpeningCampaign = {
+  readonly enter: (actor: Actor) => void;
+  readonly continue: () => Promise<void>;
+  readonly live: boolean;
+};
 
 /** Unity flow ported from MainTitleCanvas / CharacterSelectLayer: title -> menu -> selection -> confirm -> world. */
-export function mountOpening(parent: HTMLElement, spawn: Spawn): void {
+export function mountOpening(parent: HTMLElement, spawn: Spawn, campaign?: OpeningCampaign): void {
   let screen: AbortController | null = null;
   const enter = (name: string, html: string): AbortSignal => {
     screen?.abort(); screen = new AbortController();
@@ -43,26 +48,39 @@ export function mountOpening(parent: HTMLElement, spawn: Spawn): void {
     const signal = enter('menu', '<section class="ui-menu ui-panel" role="dialog" aria-modal="true" aria-labelledby="menu-heading">'
       + '<h1 id="menu-heading" class="ui-menu__heading">' + t('ui.main-menu.heading') + '</h1>'
       + '<button class="ui-button ui-button--primary ui-menu__item" id="menu-new" type="button">' + t('ui.main-menu.new-game') + '</button>'
-      + '<button class="ui-button ui-button--menu ui-menu__item" type="button" disabled>' + t('ui.main-menu.continue') + '</button>'
-      + '<p class="ui-menu__status">' + t('ui.main-menu.save-status.empty') + '</p>'
+      + '<button class="ui-button ui-button--menu ui-menu__item" id="menu-continue" type="button"' + (campaign ? '' : ' disabled') + '>' + t('ui.main-menu.continue') + '</button>'
+      + '<p class="ui-menu__status" role="status">' + (campaign?.live ? '진행 중인 캠페인으로 돌아간다. 시간은 계속 흐른다.' : campaign ? '마지막 명시 저장에서 이어간다. 미저장 진행은 복구되지 않는다.' : t('ui.main-menu.save-status.empty')) + '</p>'
       + '<button class="ui-button ui-button--menu ui-menu__item" type="button" disabled>' + t('ui.main-menu.settings') + '</button>'
       + '<button class="ui-button ui-button--menu ui-menu__item" type="button" disabled>' + t('ui.main-menu.quit') + '</button>'
       + '<button class="ui-button ui-button--menu ui-menu__item" type="button" disabled>' + t('ui.main-menu.account') + '</button>'
       + '<p class="ui-menu__note">' + t('ui.main-menu.placeholder-note') + '</p>'
       + '<button class="ui-button ui-button--menu ui-menu__item" id="menu-back" type="button">' + t('ui.main-menu.back') + '</button></section>');
     const newGame = el<HTMLButtonElement>('#menu-new'), back = el<HTMLButtonElement>('#menu-back');
-    const active = [newGame, back];
+    const resume = el<HTMLButtonElement>('#menu-continue');
+    const active = campaign ? [newGame, resume, back] : [newGame, back];
     const mark = (target: HTMLButtonElement): void => { for (const b of active) b.classList.toggle('is-selected', b === target); target.focus(); };
     for (const b of active) {
       b.addEventListener('focus', () => mark(b), { signal });
       b.addEventListener('pointerenter', () => mark(b), { signal });
     }
     newGame.addEventListener('click', () => selection(0), { signal });
+    resume.addEventListener('click', () => {
+      if (!campaign) return;
+      resume.disabled = true;
+      void campaign.continue().then(() => screen?.abort()).catch(error => {
+        if (!(error instanceof Error)) throw error;
+        el('.ui-menu__status').textContent = error.message;
+        resume.disabled = false; resume.focus();
+      });
+    }, { signal });
     back.addEventListener('click', () => title(), { signal });
     document.addEventListener('keydown', event => {
       if (event.key === 'Escape') { event.preventDefault(); title(); return; }
       if (event.key === 'ArrowDown' || event.key === 'ArrowUp' || event.key === 'Tab') {
-        event.preventDefault(); mark(document.activeElement === newGame ? back : newGame);
+        event.preventDefault();
+        const current = active.findIndex(button => button === document.activeElement);
+        const next = active[(current + (event.key === 'ArrowUp' || event.shiftKey ? active.length - 1 : 1)) % active.length];
+        if (next) mark(next);
       }
     }, { signal });
     mark(newGame);
@@ -145,12 +163,13 @@ export function mountOpening(parent: HTMLElement, spawn: Spawn): void {
         status.textContent = t('ui.character-select.loading');
         const surface = document.createElement('section'); surface.id = 'scenario-world';
         await spawn(actor.actorId, surface);
-        world(actor, surface);
+        if (campaign) { screen?.abort(); campaign.enter(actor); }
+        else world(actor, surface);
       } catch (error) {
         preparing = false;
         const failure = describeStartFailure(error);
         console.error('[opening] start failed', failure.code, error);
-        status.textContent = failure.text;
+        status.textContent = campaign && error instanceof Error ? failure.text + ' ' + error.message : failure.text;
         const confirm = el<HTMLButtonElement>('#select-confirm');
         confirm.disabled = false;
         // The start dialog is gone; return focus to the action that opened it.

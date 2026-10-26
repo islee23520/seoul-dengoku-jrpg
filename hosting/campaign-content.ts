@@ -5,7 +5,7 @@ import { CampaignContent } from '../game/src/campaign/content.ts';
 import { createCampaignE0 } from '../game/src/campaign/state.ts';
 import { CampaignApplication } from '../game/src/campaign/application.ts';
 
-const packFiles = {
+export const packFiles = {
   manifest: 'data/campaign/source-manifest.json',
   atlas: 'data/campaign/atlas.json',
   identities: 'data/campaign/identity-map.json',
@@ -18,15 +18,21 @@ export interface CampaignRuntime { readonly content: CampaignContent; readonly a
 
 let runtime: Promise<CampaignRuntime> | null = null;
 
+export async function loadCampaignContent(base: string): Promise<CampaignContent> {
+  const entries = await Promise.all(Object.entries(packFiles).map(async ([name, path]) => {
+    const response = await fetch(new URL(path, base), { cache: 'no-store', signal: AbortSignal.timeout(15000) });
+    if (!response.ok) throw new Error('campaign-pack-unreadable:' + name + ':' + response.status);
+    return [name, await response.text()] as const;
+  }));
+  return CampaignContent.parse(Object.fromEntries(entries));
+}
+
 export function loadCampaignRuntime(): Promise<CampaignRuntime> {
   runtime ??= (async () => {
-    const entries = await Promise.all(Object.entries(packFiles).map(async ([name, path]) => {
-      const response = await fetch(new URL(path, document.baseURI), { cache: 'force-cache' });
-      if (!response.ok) throw new Error('campaign-pack-unreadable:' + name + ':' + response.status);
-      return [name, await response.text()] as const;
-    }));
-    const content = CampaignContent.parse(Object.fromEntries(entries));
+    const content = await loadCampaignContent(document.baseURI);
     const app = new CampaignApplication({ content, state: createCampaignE0(content), now: () => performance.now() });
+    const timer = window.setInterval(() => app.reconcile(), content.data.operations.clock.hostIntegrationMaxRealMilliseconds);
+    window.addEventListener('pagehide', () => { window.clearInterval(timer); app.close(); }, { once: true });
     return { content, app };
   })();
   return runtime;

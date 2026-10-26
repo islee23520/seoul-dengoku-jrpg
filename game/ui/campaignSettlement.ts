@@ -15,6 +15,7 @@ export interface SettlementOptions {
   readonly subscribe: (onChange: () => void) => () => void;
   readonly onBack: () => void;
   readonly onOpenReports: () => void;
+  readonly onOrders?: () => void;
 }
 
 export interface SettlementHandle { readonly release: () => void }
@@ -65,8 +66,7 @@ export function mountCampaignSettlement(parent: HTMLElement, options: Settlement
         + '<span class="cs-work__head">' + esc(row.recipientName) + ' · ' + esc(row.operation) + '</span>'
         + '<span class="cs-work__meta">' + esc(labelStage(row.stage)) + ' · ' + esc(row.activity) + '</span>'
         + '<span class="cs-work__id">' + esc(row.orderId) + '</span></button>').join('')
-      : '<p class="cs-empty">' + esc(settlementStrings.noWork) + '</p>'
-        + '<p class="cs-note">' + esc(settlementStrings.commandUnavailable) + '</p>';
+      : '<p class="cs-empty">' + esc(settlementStrings.noWork) + '</p>';
     const c = view.custody;
     custody.innerHTML = c
       ? '<h3 class="cs-custody__name">' + esc(c.name) + '</h3><p class="cs-caption">' + esc(settlementStrings.whole) + '</p>'
@@ -81,13 +81,11 @@ export function mountCampaignSettlement(parent: HTMLElement, options: Settlement
       : '<p class="cs-empty">수신된 보관 정보가 없다.</p>';
     if (view.support === 'expired') custody.insertAdjacentHTML('beforeend', '<p class="cs-warning">' + esc(settlementStrings.supportExpired) + '</p>');
     if (view.closed) custody.insertAdjacentHTML('beforeend', '<p class="cs-warning">' + esc(settlementStrings.closed) + '</p>');
-    // Primary action: task13's command unit is not landed on this branch, so issuing stays lawfully
-    // blocked with the readable reason instead of a fake composer.
-    command.disabled = !view.works.length;
-    command.dataset.blockedReason = view.works.length ? 'command-surface-unavailable' : 'no-known-work';
+    command.disabled = options.onOrders === undefined;
+    command.dataset.blockedReason = options.onOrders ? '' : 'command-surface-unavailable';
     const existing = parent.querySelector('#cs-command-reason');
     existing?.remove();
-    command.insertAdjacentHTML('afterend', '<p class="cs-command-reason" id="cs-command-reason">' + esc(view.works.length ? settlementStrings.commandUnavailable : settlementStrings.noWork) + '</p>');
+    if (!options.onOrders) command.insertAdjacentHTML('afterend', '<p class="cs-command-reason" id="cs-command-reason">' + esc(settlementStrings.commandUnavailable) + '</p>');
   }
 
   parent.addEventListener('click', event => {
@@ -98,6 +96,7 @@ export function mountCampaignSettlement(parent: HTMLElement, options: Settlement
   q('#cs-footer-back').addEventListener('click', options.onBack, { signal });
   q('#cs-reports').addEventListener('click', options.onOpenReports, { signal });
   command.addEventListener('click', () => {
+    if (options.onOrders) { options.onOrders(); return; }
     // Blocked control still needs a readable state announcement, not silence.
     const reason = parent.querySelector('#cs-command-reason');
     if (reason) reason.setAttribute('aria-live', 'polite');

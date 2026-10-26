@@ -1,0 +1,10 @@
+{
+  "extends": "../engine/tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": ["node"],
+    "typeRoots": ["../engine/node_modules/@types"]
+  },
+  "files": ["campaign-entry.ts"],
+  "include": []
+}

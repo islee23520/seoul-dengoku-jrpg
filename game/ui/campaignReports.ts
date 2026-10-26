@@ -51,6 +51,7 @@ export function mountCampaignReports(parent: HTMLElement, options: InboxOptions)
   const read = new Set<string>();
 
   function render(keepFocus: boolean): void {
+    const focusedReport = document.activeElement instanceof HTMLElement ? document.activeElement.dataset.report : undefined;
     const providerView = options.snapshot();
     const view = { clockMs: providerView.clockMs, rows: providerView.rows, unread: unreadIds(providerView.rows, read) };
     const ordered = sortedRows(view);
@@ -89,31 +90,31 @@ export function mountCampaignReports(parent: HTMLElement, options: InboxOptions)
     commandButton.insertAdjacentHTML('afterend', '<p class="cs-command-reason" id="cr-command-reason">'
       + esc(!current ? reportsStrings.empty : options.onOpenCommand === null ? settlementStrings.commandUnavailable : '') + '</p>');
     if (!keepFocus) { const first = rows.querySelector<HTMLButtonElement>('[data-report]'); if (first) first.focus(); }
+    else if (focusedReport) rows.querySelector<HTMLButtonElement>('[data-report="' + CSS.escape(focusedReport) + '"]')?.focus();
   }
 
   parent.addEventListener('click', event => {
     const row = (event.target as Element).closest<HTMLElement>('[data-report]');
-    if (row) { selected = row.dataset.report ?? null; if (selected) read.add(selected); render(true); row.focus(); }
+    if (row) { selected = row.dataset.report ?? null; if (selected) read.add(selected); render(true); }
   }, { signal });
   const back = (): void => options.onBack();
   q('#cr-back').addEventListener('click', back, { signal });
   q('#cr-footer-back').addEventListener('click', back, { signal });
+  commandButton.addEventListener('click', () => {
+    const row = options.snapshot().rows.find(entry => entry.reportId === selected);
+    if (row) options.onOpenCommand?.(row.orderId);
+  }, { signal });
   document.addEventListener('keydown', event => {
     if (event.defaultPrevented) return;
     if (event.key === 'Escape') { event.preventDefault(); back(); }
   }, { signal });
-  let lastUnreadSignature = '';
-  options.subscribe(() => {
+  const unsubscribe = options.subscribe(() => {
     // A report arriving while the inbox is open is a received-only update: announce it, never move focus.
-    const view = options.snapshot();
-    const signature = sortedRows(view).map(row => row.reportId).join(',');
-    const changed = signature !== lastUnreadSignature;
-    lastUnreadSignature = signature;
-    render(changed);
+    render(true);
   });
+  signal.addEventListener('abort', unsubscribe);
 
   render(false);
-  lastUnreadSignature = sortedRows(options.snapshot()).map(row => row.reportId).join(',');
   // Reading the auto-selected first row marks it read (local metadata only).
   if (selected) read.add(selected);
   return { release: () => abort.abort(), readCount: () => read.size };

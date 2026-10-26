@@ -13,11 +13,13 @@
   color:var(--color-ink-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .co-header__clock{flex:none;margin:0;font:var(--weight-medium) var(--type-caption)/1 var(--font-ui)}
 .co-header__speeds{flex:none;display:flex;gap:var(--space-4)}
-.co-speed{min-height:var(--hit-min);padding-inline:var(--space-8);font-size:var(--type-caption)}
+.co-speed{min-height:var(--hit-min);min-width:var(--hit-min);padding-inline:var(--space-8);font-size:var(--type-caption)}
 .co-speed.is-selected{color:var(--color-ink);font-weight:var(--weight-bold);box-shadow:inset 0 calc(-1 * var(--border-strong)) 0 var(--color-focus)}
 
 /* three docks; each body is its own bounded scroll owner (no nested scroll, no document scroll) */
-.co-dock{display:flex;flex-direction:column;min-height:0;padding:var(--layout-panel-padding)}
+.co-dock{display:grid;grid-template-rows:var(--space-48) minmax(0,1fr) var(--space-80);min-height:0;
+  /* The 16px vertical inset includes the panel hairline: 644 - 32 - 48 - 80 = 484. */
+  padding:calc(var(--layout-panel-padding) - var(--border-hairline)) var(--layout-panel-padding)}
 .co-head{flex:none;display:flex;align-items:center;justify-content:space-between;gap:var(--space-8);height:var(--space-48);min-height:var(--space-48)}
 .co-head h2{margin:0;font:var(--weight-medium) var(--type-h3)/1.2 var(--font-ui);overflow-wrap:anywhere}
 .co-filter{display:flex;gap:var(--space-4)}
@@ -76,6 +78,6 @@
   .co{display:flex;flex-direction:column;gap:var(--layout-gutter);height:auto;min-height:100dvh}
   .co-header{position:static;flex-wrap:wrap;height:auto;padding-block:var(--space-4);row-gap:var(--space-4)}
   .co-header__place{flex-basis:100%}
-  .co-dock{overflow:visible}
+  .co-dock{display:flex;flex-direction:column;overflow:visible}
   .co-body{overflow:visible;max-height:none}
 }

@@ -13,7 +13,7 @@ export type Admission = { readonly kind: 'handled-opened'; readonly battleId: st
 export type HostRules = {
   readonly intervalMs: number; readonly worldUnitsPerStep: number; readonly battle: BattleRules | null;
   /** Composed campaigns supply exact world milliseconds, not presentation-frame deltas. */
-  readonly campaignClock?: { readonly epoch: number; readonly maximumWorldMilliseconds: number };
+  readonly campaignClock?: { readonly epoch: number; readonly maximumWorldMilliseconds: number; readonly exactEventBoundaries?: boolean };
   readonly provenance: 'TESTINPUT' | 'CANON'; readonly approvedInputsHash: string;
   readonly validateApproval: (context: BattleContext) => boolean;
   readonly encounter: ((state: RuntimeState, step: MovementStep) => {
@@ -104,7 +104,9 @@ export class RealtimeHost {
       let next = this.#state;
       const until = next.worldTime + milliseconds;
       while (next.worldTime < until) {
-        const at = Math.min(until, next.worldTime + clock.maximumWorldMilliseconds);
+        // An event-aware reducer already splits at every causal boundary. Fixed subframes
+        // would only repeat full journal validation, creating an elapsed-time backlog.
+        const at = clock.exactEventBoundaries ? until : Math.min(until, next.worldTime + clock.maximumWorldMilliseconds);
         next = runtimeSchema.parse(this.options.settle({ ...next, worldTime: at,
           worldTick: Math.floor((at - clock.epoch) / clock.maximumWorldMilliseconds),
           campaignState: rules.advanceWorld(next.campaignState, at) }));

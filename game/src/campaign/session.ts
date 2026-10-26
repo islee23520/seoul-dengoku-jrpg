@@ -38,7 +38,8 @@ export class CampaignSession {
     }), rules: {
       intervalMs: rules.hostIntegrationMaxRealMilliseconds, worldUnitsPerStep: rules.worldSecondsPerRealSecond,
       campaignClock: { epoch: rules.epochSeconds * rules.worldMillisecondsPerSecond,
-        maximumWorldMilliseconds: rules.hostIntegrationMaxRealMilliseconds * rules.worldSecondsPerRealSecond },
+        maximumWorldMilliseconds: rules.hostIntegrationMaxRealMilliseconds * rules.worldSecondsPerRealSecond,
+        exactEventBoundaries: options.advance !== undefined },
       battle: null, encounter: null, validateApproval: () => false,
       provenance: 'CANON', approvedInputsHash: options.content.hashes.operations,
       advanceWorld: (value, at) => {

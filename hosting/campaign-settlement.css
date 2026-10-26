@@ -2,7 +2,7 @@
    contract: 48px header, 303px docks at x16/x331(w618)/x961, panel y60..704 (644 = 16pad + heading48
    + body484 + footer80 + 16pad). Every value traces to unity-theme.css tokens; nothing is invented. */
 #realtime[data-screen=campaign-settlement],#realtime[data-screen=campaign-reports]{height:100dvh;overflow:hidden}
-.cs{position:relative;height:100%;--cs-top:calc(var(--layout-header-h) + var(--layout-gutter));
+.cs,.cr{position:relative;height:100%;--cs-top:calc(var(--layout-header-h) + var(--layout-gutter));
   /* Contract: panel 644 = pad16 + heading48 + body484 + footer80 + pad16; docks end above the footer. */
   --cs-bottom:calc(var(--space-80) + var(--layout-margin))}
 
@@ -76,7 +76,7 @@
 /* mobile / narrow (NEW_CANDIDATE per contract §3): one column, document scroll, footer in flow */
 @media (max-width:1000px){
   #realtime[data-screen=campaign-settlement],#realtime[data-screen=campaign-reports]{height:auto;overflow:auto}
-  .cs{height:auto;min-height:100dvh;display:flex;flex-direction:column}
+  .cs,.cr{height:auto;min-height:100dvh;display:flex;flex-direction:column}
   .cs-nav{position:sticky;top:0;flex-wrap:wrap;height:auto;min-height:var(--layout-header-h)}
   .cs-nav__place{flex:1 1 100%}
   .cs-nav__clock{flex:1 1 100%;order:3;padding:0 0 var(--space-8)}

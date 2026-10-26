@@ -74,6 +74,19 @@ test('settles old speed before a rapid speed change without rounding away elapse
   assert.equal(session.state.clock.subWorldMicroseconds, 200);
 });
 
+test('delegates one elapsed interval to an event-aware reducer instead of fixed subframes', () => {
+  // Given a reducer that already owns exact causal event boundaries.
+  let now = 0, calls = 0;
+  const session = new CampaignSession({ content, state: e0, now: () => now,
+    advance: (state, until) => { calls += 1; return { ...state, clock: { ...state.clock, worldMilliseconds: until } }; } });
+  session.setSpeed(4);
+  // When a delayed callback covers one real second.
+  now = 1000; session.reconcile();
+  // Then it is one reducer interval, without changing elapsed units or host tick identity.
+  assert.equal(calls, 1);
+  assert.equal(session.state.clock.worldMilliseconds, 24000);
+});
+
 test('ignores wall clock skew and rejects a regressed monotonic source atomically', () => {
   // Given monotonic and wall clocks which are independent.
   let now = 0;

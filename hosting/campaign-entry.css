@@ -1,0 +1,11 @@
+.campaign-session{position:fixed;left:var(--layout-margin);bottom:var(--layout-margin);z-index:var(--layer-screens);display:flex;align-items:center;gap:var(--space-8);background:var(--color-surface);border:var(--border-hairline) solid var(--color-line);border-radius:var(--radius-md)}
+.campaign-session output{max-width:240px;font-size:var(--type-caption);padding-inline:var(--space-8)}
+.campaign-info{color:var(--color-ink);width:min(640px,calc(100% - 2 * var(--layout-margin)));max-height:calc(100dvh - 2 * var(--layout-margin));padding:var(--space-24)}
+.campaign-info[open]{display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:var(--space-16)}
+.campaign-info::backdrop{background:var(--color-scrim)}
+.campaign-info__body{overflow:auto;min-height:0;overflow-wrap:anywhere;display:grid;gap:var(--space-16)}
+.campaign-info dt{color:var(--color-ink-secondary);font-size:var(--type-caption)}
+.campaign-info dd{font-size:var(--type-caption);margin-bottom:var(--space-8)}
+.campaign-info a{color:var(--color-accent);min-height:var(--hit-min)}
+@media(min-width:1001px){body:has(#realtime[data-screen=campaign-orders]) .campaign-session{left:var(--layout-margin);bottom:var(--space-20);max-width:var(--layout-dock-w);flex-wrap:wrap}body:has(#realtime[data-screen=campaign-settlement]) .campaign-session,body:has(#realtime[data-screen=campaign-reports]) .campaign-session{left:auto;right:var(--layout-margin)}}
+@media(max-width:1000px){.campaign-session{position:sticky;left:auto;bottom:0;flex-wrap:wrap;margin:var(--layout-margin)}.campaign-session output{max-width:100%}}
