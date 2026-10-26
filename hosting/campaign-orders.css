@@ -13,7 +13,7 @@
   color:var(--color-ink-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .co-header__clock{flex:none;margin:0;font:var(--weight-medium) var(--type-caption)/1 var(--font-ui)}
 .co-header__speeds{flex:none;display:flex;gap:var(--space-4)}
-.co-speed{min-height:var(--hit-min);padding-inline:var(--space-8);font-size:var(--type-caption)}
+.co-speed{min-height:var(--hit-min);min-width:var(--hit-min);padding-inline:var(--space-8);font-size:var(--type-caption)}
 .co-speed.is-selected{color:var(--color-ink);font-weight:var(--weight-bold);box-shadow:inset 0 calc(-1 * var(--border-strong)) 0 var(--color-focus)}
 
 /* three docks; each body is its own bounded scroll owner (no nested scroll, no document scroll) */

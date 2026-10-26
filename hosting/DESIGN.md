@@ -1,7 +1,8 @@
 # Web player host
 
 The host preserves the existing OPRN runtime rather than reskinning it.
-Public entry is a separate map-preview consent screen, never production start.
+Public entry is the admitted S01 campaign. The old map preview remains an
+explicitly labelled secondary route and grants no campaign identity.
 
 Tokens: night #05070c, ink #e9ecf3, secondary #b6bece from runtime dark
 tokens; neutral hairline rgba(255,255,255,.17). System sans text, monospace
@@ -108,3 +109,19 @@ settings panel
 Accessibility: native landmarks/links, explicit preview limitations, readable
 wrapping, keyboard operation. Existing runtime accessibility/mobile limitations
 are inherited, not silently represented as new approval. No new game rules.
+
+## Production assembly (task15)
+
+Layout: campaign-session - persistent save/info controls outside replaceable views -> scroll-body-shell (https://raw.githubusercontent.com/changeroa/StyleGallery/main/patterns/viewport-shell/scroll-body-shell.md); scroll owner: existing view bodies, information dialog body; anti-patterns: second clock per screen, full-document scroll at 1280x720, invisible save failure.
+
+Primary action: the current view's existing action (start, command review,
+settlement command, or report selection). Session controls are secondary.
+Priorities: current lawful view, explicit persistence, admitted build/content
+identity. Required: title and K002 selection, map/commands/settlement/inbox,
+manual save, explicit saved-state continue, last-save-only warning, writer/read-only
+status, information with full content hashes/build identity, labelled old preview.
+Left out: autosave, fake slots, hidden E0 canvas, new gameplay and inferred rights.
+The task14 settlement projection supersedes the invisible E0 engine surface.
+The one application survives navigation; only the page lifetime releases its lock.
+The information dialog uses existing modal/focus tokens without added animation.
+Space48 is 48px; every speed target is at least hit-min 44px in both dimensions.
