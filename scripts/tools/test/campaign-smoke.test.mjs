@@ -6,6 +6,7 @@ import { content, e0 } from '../../../game/src/campaign/testFixtures.ts';
 import { createCampaignSave } from '../../../game/src/campaign/saveCheckpoint.ts';
 import { summaryHash } from '../../../game/src/domain/eventLedger.ts';
 import { CampaignApplication } from '../../../game/src/campaign/application.ts';
+import { composeCampaignAuthority } from '../../../game/src/campaign/authorityComposition.ts';
 import { createServer } from 'node:http';
 import { once } from 'node:events';
 
@@ -55,6 +56,25 @@ test('boundary assertion rejects wrong custody even when the envelope is rehashe
   const verify = () => assertCampaignSave(saved, content, 'boundary');
   // Then the production custody proof fails, rather than accepting a rehashed lie.
   assert.throws(verify);
+});
+
+test('wrong-custody and stale command challenges preserve the live application', () => {
+  const app = new CampaignApplication({ content, state: e0, now: () => 0 });
+  try {
+    const before = structuredClone(app.checkpoint());
+    const forged = structuredClone(createCampaignSave(before, content));
+    forged.state.custody[0].custodian = 'K616';
+    const { checksum: _checksum, ...payload } = forged;
+    forged.checksum = summaryHash(payload);
+    assert.throws(() => assertCampaignSave(forged, content, 'boundary'));
+    assert.deepEqual(app.checkpoint(), before);
+    const basis = composeCampaignAuthority(before, { issuerPersonId: 'K002', recipientId: 'K568',
+      operation: 'S01-L', expectedRevision: before.revision }, content);
+    assert.throws(() => app.submit({ kind: 'issue', commandId: 'qa:stale', issuerPersonId: 'K002',
+      recipientId: 'K568', operation: 'S01-L', expectedRevision: before.revision + 1,
+      expectedCompositeVersion: basis.compositeVersion }), error => error.code === 'stale-version');
+    assert.deepEqual(app.checkpoint(), before);
+  } finally { app.close(); }
 });
 
 test('owned origin forwards bytes unchanged and isolates tampering on a second port', async () => {

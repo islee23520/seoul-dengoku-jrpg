@@ -16,7 +16,7 @@ export async function runCampaignSmoke(options) {
   const evidence = path.resolve(options.evidence);
   await mkdir(evidence, { recursive: true });
   const report = { schema: 'campaign-browser-qa.v1', scenario: options.scenario, upstream: options.url,
-    startedAt: new Date().toISOString(), status: 'running', steps: [], incidents: [], assertions: [],
+    startedAt: new Date().toISOString(), status: 'running', negativeProbe: options.negativeProbe ?? null, steps: [], incidents: [], assertions: [],
     harness: { browser: 'native Aside', freshSessionPerStep: true, stepTimeoutMs: 90000, transitionTimeoutMs: 35000,
       longStretchSpeed: 4, isolation: 'fresh loopback origin; existing profile storage untouched' } };
   try {
@@ -63,8 +63,14 @@ export async function runCampaignSmoke(options) {
       await step('tamper', { kind: 'tamper', url: tampered.url });
     } else {
       await step('initial', { kind: 'initial' });
-      assert.equal(checkpoint.state.clock.worldMilliseconds, 0);
+      assert.equal(checkpoint.state.clock.worldMilliseconds, options.negativeProbe === 'assertion' ? 1 : 0,
+        'initial world time assertion' + (options.negativeProbe === 'assertion' ? ' (deliberately corrupted expectation)' : ''));
       assert.equal(checkpoint.state.mandates.length, 0);
+      if (options.negativeProbe === 'timeout') {
+        await step('shortened-timeout', { kind: 'advance', issue: 'K568', target: { time: 480000 },
+          transitionTimeoutMs: 1, expectedChecksum: checkpoint.checksum });
+        assert.fail('shortened transition timeout unexpectedly passed');
+      }
       if (options.scenario !== 'campaign-entry') {
         if (options.scenario === 'clock-tabs') await step('second-tab', { kind: 'second-tab' });
         else if (options.scenario === 'layout') {
@@ -113,15 +119,17 @@ export async function runCampaignSmoke(options) {
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try {
     const { values } = parseArgs({ options: { url: { type: 'string' }, scenario: { type: 'string' }, evidence: { type: 'string' },
-      profile: { type: 'string' }, 'run-id': { type: 'string', default: 'run' }, help: { type: 'boolean' } } });
+      profile: { type: 'string' }, 'negative-probe': { type: 'string' }, 'run-id': { type: 'string', default: 'run' }, help: { type: 'boolean' } } });
     if (values.help) console.log('Usage: node scripts/qa/campaign-smoke.mjs --url <production-url> --scenario <' + scenarios.join('|') + '> --evidence <directory> [--profile <id>] [--run-id <name>]\nExit: 0 passed, 1 failed evidence, 2 invalid arguments. Every run uses a new owned local origin.');
     else {
       assert.ok(values.url && values.scenario && values.evidence, 'Required: --url --scenario --evidence');
       assert.ok(scenarios.includes(values.scenario), 'Unsupported scenario: ' + values.scenario);
+      assert.ok(values['negative-probe'] === undefined || ['assertion', 'timeout'].includes(values['negative-probe']), 'Unsupported negative probe');
+      assert.ok(!values['negative-probe'] || values.scenario === 'campaign-entry', 'Negative probes require campaign-entry');
       assert.match(values['run-id'], /^[a-z0-9][a-z0-9-]*$/);
       const url = new URL(values.url);
       assert.ok(['http:', 'https:'].includes(url.protocol) && !url.username && !url.password, 'URL must be HTTP(S) without credentials');
-      const report = await runCampaignSmoke({ url: url.href, scenario: values.scenario, evidence: values.evidence, profile: values.profile, runId: values['run-id'] });
+      const report = await runCampaignSmoke({ url: url.href, scenario: values.scenario, evidence: values.evidence, profile: values.profile, runId: values['run-id'], negativeProbe: values['negative-probe'] });
       console.log(JSON.stringify({ status: report.status, report: path.resolve(values.evidence, values['run-id'] + '.json'), error: report.error }));
       process.exitCode = report.status === 'passed' ? 0 : 1;
     }

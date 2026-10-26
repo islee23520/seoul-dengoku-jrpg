@@ -147,14 +147,16 @@ export function buildSettlementView(state: CampaignState, content: CampaignConte
     };
   });
   const original = visible.original ?? null;
-  const custody: SettlementCustodyRow | null = state.custody.length ? {
-    assetId: state.custody[0]!.assetId, name: ledgerName,
-    owner: scenario.ledger.owner, custodian: original ? original.custodian : state.custody[0]!.custodian,
+  // Received investigation reports contain no custody snapshot. Remote live custody is not
+  // a last-received report; expose it only through the scene-scoped visible projection.
+  const custody: SettlementCustodyRow | null = original ? {
+    assetId: original.assetId, name: ledgerName,
+    owner: scenario.ledger.owner, custodian: original.custodian,
     container: nodeLabel(content, scenario.ledger.container),
-    seal: (original ?? state.custody[0]!).seal === 'sealed' ? settlementStrings.sealSealed : settlementStrings.sealOpened,
-    returnState: (original ?? state.custody[0]!).returnState,
-    unresolvedReturn: (original ?? state.custody[0]!).unresolvedReturn,
-    visible: original !== null, asOf: original ? state.clock.worldMilliseconds : 0,
+    seal: original.seal === 'sealed' ? settlementStrings.sealSealed : settlementStrings.sealOpened,
+    returnState: original.returnState,
+    unresolvedReturn: original.unresolvedReturn,
+    visible: true, asOf: state.clock.worldMilliseconds,
   } : null;
   return Object.freeze({
     place: { siteId: scenario.siteId, name: siteName(scenario) },

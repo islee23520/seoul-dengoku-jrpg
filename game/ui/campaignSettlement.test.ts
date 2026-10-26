@@ -39,8 +39,7 @@ test('E0 settlement view: people, place, custody with honest unknowns, no works'
   const k616 = view.people.find(p => p.id === 'K616')!;
   assert.equal(k616.place, '마지막 수신 위치 없음');
   assert.equal(view.works.length, 0);
-  assert.ok(view.custody && !view.custody.visible, 'original sits in the archive scene, unknown to the reception view');
-  assert.equal(view.custody?.seal, '봉인 유지');
+  assert.equal(view.custody, null, 'remote original has no received custody snapshot');
   assert.equal(view.support, 'available');
 });
 
@@ -64,14 +63,22 @@ test('mid-walk view shows the named step and no idle recipient', () => {
   assert.notEqual(k568.task, '대기');
 });
 
-test('duty-desk boundary: original resealed; custody still shown through its last known facts', () => {
+test('remote return transitions never become last-received custody without a custody report', () => {
+  for (const [time, returnState] of [[900000, 'handover-received'], [960000, 'restocked'], [996000, 'resealed']] as const) {
+    jump(time);
+    const state = app.checkpoint();
+    assert.equal(state.custody[0]!.returnState, returnState);
+    assert.equal(state.reports.filter(report => report.receivedAt !== null).length, 4);
+    assert.equal(buildSettlementView(state, content, 'K002').custody, null);
+  }
+});
+
+test('duty-desk boundary: remote resealed original is not a received custody claim', () => {
   jump(timeline.dutyDesk.seconds * 1000);
   const view = buildSettlementView(app.checkpoint(), content, 'K002');
   const custody = app.checkpoint().custody[0]!;
   assert.equal(custody.returnState, 'resealed', 'domain boundary reached');
-  assert.equal(view.custody?.returnState, 'resealed');
-  // Custody follows signed handovers, not the duty's arrival: the resealed original is not live custody the lord holds.
-  assert.equal(view.custody?.custodian, custody.custodian);
+  assert.equal(view.custody, null);
   const work = view.works.find(w => w.orderId === 'S01-L')!;
   assert.equal(work.stage, 'receipt');
 });

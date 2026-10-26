@@ -23,6 +23,14 @@ This isolates Web Locks and save storage without clearing user data. The upstrea
 server belongs to the caller; the runner closes only its own proxy servers and tabs.
 The runner never creates a production debug route or injects runtime state.
 
+Runner failure controls use the same live production URL and ordinary entry flow:
+`--scenario campaign-entry --negative-probe assertion --run-id negative-assertion`
+deliberately expects initial world time 1 instead of 0, and
+`--scenario campaign-entry --negative-probe timeout --run-id negative-timeout`
+shortens the event subscription deadline to 1 ms before issuing ordinary progression.
+Both must exit 1 with an assertion mismatch or `campaign-transition-timeout`, respectively;
+a fetch failure is not evidence of either control. Their reports retain cleanup receipts.
+
 `s01-sequential` and `save-reload` exercise title, K002 selection, map, the K568
 ledger mandate, actual halfway reload, physical return, the K616 observation
 mandate, settlement, six received reports, save and exact restore. They also run

@@ -32,9 +32,9 @@ export async function campaignBrowserStep(config) {
     });
   };
   const subscribe = async (tab, target) => {
-    await tab.evaluate(target => {
+    await tab.evaluate(({ target, timeout }) => {
       window.__campaignQa.wait = new Promise((resolve, reject) => {
-        const timer = setTimeout(() => { document.removeEventListener('campaign:change', changed); reject(new Error('campaign-transition-timeout')); }, 35000);
+        const timer = setTimeout(() => { document.removeEventListener('campaign:change', changed); reject(new Error('campaign-transition-timeout')); }, timeout);
         const changed = event => {
           const detail = event.detail;
           if ((target.time !== undefined && detail.worldMilliseconds >= target.time) ||
@@ -46,7 +46,7 @@ export async function campaignBrowserStep(config) {
       });
       // Attach rejection immediately while the ordinary click is in flight.
       window.__campaignQa.wait.catch(() => {});
-    }, target);
+    }, { target, timeout: config.transitionTimeoutMs ?? 35000 });
   };
   const wait = async tab => tab.evaluate(() => window.__campaignQa.wait);
   const saved = async tab => tab.evaluate(() => {
