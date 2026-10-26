@@ -5,11 +5,13 @@
 import type { CampaignApplication } from '../src/campaign/application.ts';
 import type { CampaignContent } from '../src/campaign/content.ts';
 import { renderOrderDraft, renderIssuedOrders, renderOrderAuthority } from './campaignOrdersDraft.ts';
+import { mountPaneNav } from './paneNav.ts';
+import type { PaneNavHandle, PaneNavSnapshot } from './paneNav.ts';
 import type { CampaignBoundaryError } from '../src/campaign/errors.ts';
 import {
-  authorityNow, buildOrdersCatalog, orderRows, ordersStrings as s, reasonText,
+  authorityNow, buildOrdersCatalog, orderDetail, orderRows, ordersStrings as s, reasonText,
 } from './campaignOrdersModel.ts';
-import type { OperationBrief, OrdersCatalog } from './campaignOrdersModel.ts';
+import type { OperationBrief, OrdersCatalog, OrderListView, OrderAuthorityResult } from './campaignOrdersModel.ts';
 
 export * from './campaignOrdersModel.ts';
 
@@ -42,7 +44,9 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
   let cancelCommandId: string | null = null;
   let cancelKey = '';
   let modal: null | { readonly kind: 'issue' } | { readonly kind: 'cancel'; readonly orderId: string } = null;
-  let modalOpener: HTMLElement | null = null;
+  let modalOpener: string | null = null;
+  let panes: PaneNavHandle | null = null;
+  let paneState: PaneNavSnapshot | undefined;
   let submitting = false;
   /** Structural signature: when unchanged, a world tick only updates the clock, never rebuilds the DOM
    * (scroll position and focus of the three bodies stay stable while the clock runs). */
@@ -64,21 +68,21 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
     if (!row || !brief) return;
     const key = brief.id + '>' + brief.recipientId;
     if (draftKey !== key || draftCommandId === null) { draftCommandId = freshId(); draftKey = key; }
-    modalOpener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    modalOpener = '[data-review]';
     modal = { kind: 'issue' }; render();
   }
   function openCancelModal(orderId: string): void {
     const key = orderId;
     if (cancelKey !== key || cancelCommandId === null) { cancelCommandId = freshId(); cancelKey = key; }
-    modalOpener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    modalOpener = '[data-cancel-request="' + CSS.escape(orderId) + '"]';
     modal = { kind: 'cancel', orderId }; selectedOrderId = orderId; render();
   }
   function closeModal(): void {
     if (!modal) return;
     const restore = modalOpener;
     modal = null; modalOpener = null; submitting = false; render();
-    if (restore && restore.isConnected) restore.focus();
-    else parent.querySelector<HTMLElement>('[data-review]')?.focus();
+    (restore ? parent.querySelector<HTMLElement>(restore) : null)?.focus();
+    if (!parent.contains(document.activeElement)) parent.querySelector<HTMLElement>('#co-compose-heading')?.focus();
   }
   /** Rapid retry keeps the SAME commandId: one intent can never mint two orders. A stale-version
    * refusal means the clock moved past the reviewed boundary; re-review and resubmit the same id. */
@@ -123,7 +127,7 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
   parent.addEventListener('click', event => {
     const control = (event.target as Element).closest<HTMLElement>('[data-pick],[data-review],[data-issue],[data-cancel-request],[data-cancel-confirm],[data-modal-cancel],[data-filter],[data-speed],[data-order]');
     if (!control) return;
-    if (control.dataset.pick) { selectedPersonId = control.dataset.pick; notice = null; render(); return; }
+    if (control.dataset.pick) { selectedPersonId = control.dataset.pick; notice = null; render(); panes?.showDetail(); return; }
     if (control.dataset.order) { selectedOrderId = control.dataset.order; render(); return; }
     if (control.dataset.filter) { rosterFilter = control.dataset.filter === 'all' ? 'all' : 'named'; render(); return; }
     if (control.dataset.speed !== undefined) { app.setSpeed(Number(control.dataset.speed) as 0 | 1 | 2 | 4); render(); return; }
@@ -145,15 +149,17 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
       if (event.key === 'Escape') { event.preventDefault(); closeModal(); }
       else if (event.key === 'Tab') {
         event.preventDefault();
-        const buttons = [...parent.querySelectorAll<HTMLButtonElement>('#co-modal button')];
-        (document.activeElement === buttons[0] ? buttons[1] : buttons[0]).focus();
+        const buttons = [...parent.querySelectorAll<HTMLButtonElement>('#co-modal button')].filter(button => !button.disabled);
+        const index = buttons.indexOf(document.activeElement as HTMLButtonElement);
+        buttons[(index + (event.shiftKey ? -1 : 1) + buttons.length) % buttons.length]?.focus();
       }
       event.stopPropagation(); return;
     }
-    if (event.key === 'Escape' && !document.querySelector('dialog[open]')) { event.preventDefault(); event.stopPropagation(); release(); options.onBack(); }
+    if (event.key === 'Escape' && !document.querySelector('dialog[open]')) { event.preventDefault(); event.stopPropagation(); if (panes?.unwind()) return; release(); options.onBack(); }
   }, { signal, capture: true });
 
   function render(): void {
+    if (panes) { paneState = { ...panes.snapshot(), selectedId: selectedPersonId }; panes.release(); panes = null; }
     const scrolls = [...parent.querySelectorAll<HTMLElement>('[data-scroll]')].map(el => el.scrollTop);
     const activeElement = document.activeElement instanceof HTMLElement && parent.contains(document.activeElement) ? document.activeElement : null;
     const active = { pick: activeElement?.dataset.pick ?? null, id: activeElement?.id || null,
@@ -177,7 +183,8 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
     const rowHtml = (fact: string, value: string): string => '<div class="co-fact"><dt>' + esc(fact) + '</dt><dd>' + value + '</dd></div>';
 
     const { rosterRows, composer } = renderOrderDraft({ catalog, selectedPersonId, rosterFilter, row, brief, notice });
-    const ordersList = renderIssuedOrders({ rows, reportsByOrder, catalog, selectedOrderId });
+    const detail = selectedOrderId ? orderDetail(state, actor.actorId, selectedOrderId, content) : null;
+    const ordersList = renderIssuedOrders({ rows, reportsByOrder, catalog, selectedOrderId, detail });
     const authority = renderOrderAuthority(basis, catalog);
     parent.innerHTML = '<div class="co">'
       + '<header class="co-header">'
@@ -193,7 +200,7 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
       + '<button class="ui-button co-chip" type="button" data-filter="all" aria-pressed="' + (rosterFilter === 'all') + '">' + esc(s.rosterAll) + '</button></div></div>'
       + '<div class="co-body" data-scroll="command.roster-body">' + rosterRows + '</div></section>'
       + '<section class="co-dock co-dock--compose ui-panel" aria-label="' + esc(s.composeHeading) + '">'
-      + '<div class="co-head"><h2>' + esc(s.composeHeading) + '</h2></div>'
+      + '<div class="co-head"><h2 id="co-compose-heading" tabindex="-1">' + esc(s.composeHeading) + '</h2></div>'
       + '<div class="co-body" data-scroll="command.compose-body">' + composer + '<div class="co-orders"><h3 class="co-subheading">' + esc(s.issuedOrders) + '</h3>' + ordersList + '</div></div>'
       + '<footer class="co-footer"><button class="ui-button" type="button" data-cancel-draft>' + esc(s.cancelDraft) + '</button>'
       + '<button class="ui-button ui-button--primary" type="button" data-review' + (brief ? '' : ' disabled') + '>' + esc(s.review) + '</button></footer></section>'
@@ -211,6 +218,10 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
         + (basis && basis.ok ? basis.basis.grants.map(g => rowHtml(s.grants, esc(g.grantId) + ' <span class="co-id">' + esc(short(g.version)) + '</span>')).join('')
           + rowHtml(s.compositeVersion, '<span class="co-id">' + esc(short(basis.basis.compositeVersion)) + '</span>') : '')
         + rowHtml(s.exclusions, esc(brief.exclusions.join(' · ')))
+        + rowHtml(s.delivery, esc(brief.deliveryNote))
+        + rowHtml('반환 의무', esc(brief.original
+          ? '원장 전체 보존 · 대면 보고 뒤 별도 반환 수락 · 당직 인계·보관함 도착·재봉인 별도'
+          : '당직 동행 · 비개입 관측 뒤 실제 귀환·대면 보고'))
         : modal.kind === 'cancel' ? rowHtml('명령', esc(modal.orderId)) : '';
       const title = modal.kind === 'issue' ? s.confirmTitle : s.confirmCancelTitle;
       const actionLabel = modal.kind === 'issue' ? s.issue : s.requestCancelAction;
@@ -218,31 +229,43 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
       overlay.innerHTML = '<section class="co-dialog ui-panel" role="alertdialog" aria-modal="true" aria-labelledby="co-dialog-title">'
         + '<h2 id="co-dialog-title" class="co-heading">' + esc(title) + '</h2>'
         + (view.speed !== 0 ? '<p class="co-caption">' + esc(s.timeContinues) + '</p>' : '')
+        + (notice ? '<p class="co-reason" role="alert">' + esc(notice) + '</p>' : '')
+        + (modal.kind === 'issue' && basis && !basis.ok ? '<p class="co-reason">' + esc(basis.reason) + '</p>' : '')
         + '<dl class="co-facts">' + detail + '</dl>'
         + '<div class="co-dialog__actions">'
         + '<button class="ui-button" type="button" data-modal-cancel>' + esc(s.cancelDraft) + '</button>'
-        + '<button class="ui-button ui-button--primary" type="button" ' + confirmAttr + (submitting ? ' disabled' : '') + '>' + esc(actionLabel) + '</button></div></section>';
+        + '<button class="ui-button ui-button--primary" type="button" ' + confirmAttr + (submitting || modal.kind === 'issue' && (!basis || !basis.ok) ? ' disabled' : '') + '>' + esc(actionLabel) + '</button></div></section>';
       parent.append(overlay);
       parent.querySelector('.co')?.setAttribute('inert', '');
       const cancel = overlay.querySelector<HTMLButtonElement>('[data-modal-cancel]')!;
       cancel.focus();
     }
 
-    if (active) {
+    if (!modal || active.modalButton) {
       const again = active.modalButton && modal
         ? parent.querySelector<HTMLElement>(active.modalButton === 'cancel' ? '[data-modal-cancel]' : modal.kind === 'issue' ? '[data-issue]' : '[data-cancel-confirm]')
         : active.pick ? parent.querySelector<HTMLElement>('[data-pick="' + CSS.escape(active.pick) + '"]')
-        : active.id ? parent.querySelector<HTMLElement>('[data-back]') : null;
+        : active.orderId ? parent.querySelector<HTMLElement>('[data-order="' + CSS.escape(active.orderId) + '"]')
+        : active.id ? parent.querySelector<HTMLElement>('#' + CSS.escape(active.id)) : null;
       again?.focus();
-    }    q('[data-back]').addEventListener('click', () => { release(); options.onBack(); }, { signal });
+    }
+    q('[data-back]').addEventListener('click', () => { if (panes?.unwind()) return; release(); options.onBack(); }, { signal });
     q('[data-cancel-draft]').addEventListener('click', () => { notice = null; draftCommandId = null; draftKey = ''; selectedOrderId = null; render(); }, { signal });
+    panes = mountPaneNav({ root: q('.co'), listPanes: [q('.co-dock--roster')],
+      detailPanes: [q('.co-dock--compose'), q('.co-dock--authority')], listBody: q<HTMLElement>('[data-scroll="command.roster-body"]'),
+      labels: { list: '명단', detail: '명령 작성' }, initialState: paneState });
     [...parent.querySelectorAll<HTMLElement>('[data-scroll]')].forEach((el, index) => { el.scrollTop = scrolls[index] ?? 0; });
     lastSig = signature(app.view(actor.actorId), basis);
   }
 
-  const signature = (view: ReturnType<CampaignApplication['view']>, basis: { readonly ok: true; readonly basis: { readonly compositeVersion: string } } | { readonly ok: false; readonly code: string } | null): string => JSON.stringify([
+  const signature = (view: OrderListView & { readonly speed: number }, basis: OrderAuthorityResult | null): string => JSON.stringify([
     selectedPersonId, rosterFilter, selectedOrderId, notice, modal && modal.kind, modal && modal.kind === 'cancel' ? modal.orderId : '', submitting,
     view.speed, view.orders.map(o => [o.orderId, o.stage, o.receivedAt, o.acceptedAt, o.cancellationPending]),
+    selectedOrderId ? (() => {
+      const detail = orderDetail(world, actor.actorId, selectedOrderId, content);
+      return detail && [detail.reason, detail.milestones, detail.original];
+    })() : null,
+    world.knowledge.find(k => k.personId === actor.actorId)?.records.map(record => record.reportId),
     basis ? (basis.ok ? 'ok:' + basis.basis.compositeVersion : 'no:' + basis.code) : '',
   ]);
 
@@ -263,6 +286,6 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
   const unsubscribe = app.subscribe(state => { world = state; refresh(); });
   render();
   parent.querySelector<HTMLElement>('[data-pick]')?.focus();
-  function release(): void { unsubscribe(); abort.abort(); }
+  function release(): void { panes?.release(); unsubscribe(); abort.abort(); }
   return { release };
 }

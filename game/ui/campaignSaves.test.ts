@@ -81,3 +81,15 @@ test('unknown failure codes stay visible instead of being masked by a wrong gues
   assert.match(describeSaveFailure('future-mode-9'), /future-mode-9/);
   assert.match(describeSaveFailure('storage-QuotaExceededError'), /저장소/);
 });
+
+test('incompatible envelope reports expected and actual version without a migration control', () => {
+  const storage = fakeStorage();
+  const save = createCampaignSave(createCampaignE0(content), content);
+  const key = CAMPAIGN_SAVE_NAMESPACE + ':payload:' + save.checksum;
+  storage.setItem(key, JSON.stringify({ ...save, envelopeVersion: 999 }));
+  storage.setItem(CAMPAIGN_SAVE_NAMESPACE + ':active', JSON.stringify({ current: key, previous: null }));
+  const view = buildSavesView(reader(storage), content, 0, 0);
+  assert.equal(view.hasValidCurrent, false);
+  assert.match(view.error!.readable, /expected envelope 2; actual 999/);
+  assert.match(view.error!.readable, /제공되지 않는다/);
+});

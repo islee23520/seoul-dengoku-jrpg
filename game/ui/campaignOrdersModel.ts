@@ -6,6 +6,7 @@ import type { CampaignContent } from '../src/campaign/content.ts';
 import type { CampaignErrorCode } from '../src/campaign/errors.ts';
 import type { CampaignState } from '../src/campaign/stateSchemas.ts';
 import { composeCampaignAuthority } from '../src/campaign/authorityComposition.ts';
+import { s01VisibleState } from '../src/campaign/s01View.ts';
 
 export type OperationId = 'S01-L' | 'S01-O';
 
@@ -55,6 +56,35 @@ export const ordersStrings = {
   orderTimeline: '진행',
 } as const;
 
+export interface OrderDetailView {
+  readonly reason: string | null;
+  readonly milestones: readonly { readonly label: string; readonly at: number }[];
+  readonly original: CampaignState['custody'][number] | null;
+  readonly asOf: number;
+}
+
+/** Own issued-command records and scene-scoped custody only. A missing cause is not permission
+ * to infer refusal, revocation, expiry, remote custody, or a successful return. */
+export function orderDetail(state: CampaignState, personId: string, orderId: string, content: CampaignContent): OrderDetailView | null {
+  const order = state.mandates.find(m => m.orderId === orderId && m.issuerPersonId === personId);
+  if (!order) return null;
+  const events = state.commands.events.filter(e => e.orderId === orderId);
+  const terminal = ['refused', 'interrupted', 'expired', 'cancelled'].includes(order.stage);
+  const recordedReason = terminal ? events.filter(e => ['refused', 'interrupted', 'cancelled'].includes(e.kind)).at(-1)?.reason : null;
+  const labels: Readonly<Record<string, string>> = {
+    issued: '발행', delivered: '전달 완료', received: '수신', accepted: '독립 수락',
+    refused: '거부', reserved: '예약', executing: '집행 시작',
+    'cancellation-requested': '철회 요청', 'notice-received': '철회 통지 수신',
+    cancelled: '철회', interrupted: '중단', 'return-accepted': '반환 수락', 'return-completed': '반환 완료',
+  };
+  const original = order.operation === 'S01-L' ? s01VisibleState(state, personId, content).original : null;
+  return {
+    reason: terminal ? recordedReason ? reasonText(recordedReason) : '사유 미확인' : null,
+    milestones: events.filter(e => labels[e.kind] !== undefined).map(e => ({ label: labels[e.kind]!, at: e.at })),
+    original, asOf: state.clock.worldMilliseconds,
+  };
+}
+
 /** Readable Korean rendering of the typed lawful-unavailable codes. Codes carry no hidden values. */
 export const reasonText = (code: CampaignErrorCode | string): string => {
   switch (code) {
@@ -62,7 +92,7 @@ export const reasonText = (code: CampaignErrorCode | string): string => {
     case 'rejected-conflict': return '같은 시간에 이미 다른 명령이 같은 사람을 쓰고 있다.';
     case 'authority-expired': return '야간 창구 운영 시간이 끝났다.';
     case 'authority-revoked': return '발급 권한이 철회되었다.';
-    case 'recipient-unavailable': return '이 사람은 이 조사의 지정 수신자가 아니다.';
+    case 'recipient-unavailable': return '수신자가 지금 이 명령을 받을 수 없다.';
     case 'body-unavailable': return '수행자의 몸 상태가 지금 명령을 받을 수 없다.';
     case 'duty-unavailable': return '당직자가 동행할 수 없다.';
     case 'tool-unavailable': return '필요한 기록 장비나 조명을 쓸 수 없다.';
@@ -177,8 +207,10 @@ export interface AuthorityNow {
   readonly grants: readonly { readonly grantId: string; readonly version: string }[];
   readonly compositeVersion: string; readonly expiresAtWorldSeconds: number;
 }
+export type OrderAuthorityResult = { readonly ok: true; readonly basis: AuthorityNow }
+  | { readonly ok: false; readonly reason: string; readonly code: CampaignErrorCode };
 /** Composite grant version is the adapter output (task7), never a scenario grant property. */
-export function authorityNow(state: CampaignState, operation: OperationId, content: CampaignContent): { readonly ok: true; readonly basis: AuthorityNow } | { readonly ok: false; readonly reason: string; readonly code: CampaignErrorCode } {
+export function authorityNow(state: CampaignState, operation: OperationId, content: CampaignContent): OrderAuthorityResult {
   const recipientId = operation === 'S01-L' ? 'K568' : 'K616';
   try {
     const basis = composeCampaignAuthority(state, { operation, issuerPersonId: content.data.operations.authority.designator, recipientId, expectedRevision: state.revision }, content);
@@ -195,7 +227,14 @@ export interface OrderRowView {
   readonly receivedAt: string | null; readonly acceptedAt: string | null;
   readonly cancellationPending: boolean; readonly terminal: boolean;
 }
-export function orderRows(view: { readonly orders: readonly { readonly orderId: string; readonly operation: OperationId; readonly recipientId: string; readonly stage: string; readonly receivedAt: number | null; readonly acceptedAt: number | null; readonly cancellationPending: boolean }[] }): readonly OrderRowView[] {
+export interface OrderListView {
+  readonly orders: readonly {
+    readonly orderId: string; readonly operation: OperationId; readonly recipientId: string;
+    readonly stage: string; readonly receivedAt: number | null; readonly acceptedAt: number | null;
+    readonly cancellationPending: boolean;
+  }[];
+}
+export function orderRows(view: OrderListView): readonly OrderRowView[] {
   return view.orders.map(o => ({
     orderId: o.orderId, operation: o.operation, recipientId: o.recipientId, stage: o.stage, stageLabel: stageText(o.stage),
     receivedAt: o.receivedAt === null ? null : String(Math.floor(o.receivedAt / 1000)),

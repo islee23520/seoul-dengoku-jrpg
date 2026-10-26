@@ -7,8 +7,9 @@ import { CampaignBoundaryError } from '../src/campaign/errors.ts';
 import { integer } from '../src/domain/ids.ts';
 import type { CampaignState } from '../src/campaign/stateSchemas.ts';
 import {
-  authorityNow, buildOrdersCatalog, cancellationDraft, issueDraft, orderRows, reasonText, stageText,
+  authorityNow, buildOrdersCatalog, cancellationDraft, issueDraft, orderDetail, orderRows, reasonText, stageText,
 } from './campaignOrdersModel.ts';
+import { renderIssuedOrders, renderOrderDraft } from './campaignOrdersDraft.ts';
 
 function issue(state: CampaignState = e0, operation: 'S01-L' | 'S01-O' = 'S01-L', commandId = 'command:ui-ledger') {
   const recipientId = operation === 'S01-L' ? 'K568' : 'K616';
@@ -48,7 +49,7 @@ test('an unrelated or retired court member cannot be the recipient of any compos
   const activeOther = buildOrdersCatalog(content).court.find(r => r.status === 'active' && !r.eligible)!;
   assert.throws(() => submitCampaignCommand(e0, { ...JSON.parse(JSON.stringify(issue())), recipientId: activeOther.personId } as object, content),
     (error: unknown) => error instanceof CampaignBoundaryError && (error.code === 'recipient-unavailable' || error.code === 'authority-source'));
-  assert.match(reasonText('recipient-unavailable'), /지정 수신자/);
+  assert.match(reasonText('recipient-unavailable'), /지금 이 명령을 받을 수 없다/);
 });
 
 test('one intent one immutable id: rapid retries and replays return one order, changed payload conflicts', () => {
@@ -144,6 +145,49 @@ test('lawful-unavailable reason text exists for every typed code and leaks no hi
   const codes = ['shape', 'content-hash', 'content-link', 'location-scope', 'person-scope', 'authority-source', 'grant-version', 'custody', 'inventory', 'cross-link', 'report-unreceived', 'report-link', 'clock', 'stale-version', 'inherited-option', 'duplicate-id', 'content-admission', 'effect-authority', 'authority-expired', 'authority-revoked', 'recipient-unavailable', 'rejected-conflict', 'body-unavailable', 'tool-unavailable', 'duty-unavailable', 'support-unavailable', 'action-scope', 'consent-required', 'command-conflict', 'event-order'] as const;
   for (const code of codes) assert.ok(reasonText(code).length > 3, code);
   assert.equal(reasonText('made-up'), '지금은 이 명령을 낼 수 없다.');
+});
+
+test('terminal details use only the own recorded event cause and explicitly mark missing reasons', () => {
+  const issued = submitCampaignCommand(e0, issue(), content).state;
+  const order = issued.mandates[0]!;
+  const event = issued.commands.events[0]!;
+  for (const [stage, code] of [['refused', 'recipient-unavailable'], ['interrupted', 'authority-revoked'], ['expired', 'authority-expired']] as const) {
+    const state: CampaignState = { ...issued, mandates: [{ ...order, stage }], commands: { ...issued.commands,
+      events: [...issued.commands.events, { ...event, id: 'event:reason', kind: stage === 'expired' ? 'interrupted' : stage, reason: code }] } };
+    assert.equal(orderDetail(state, 'K002', order.orderId, content)?.reason, reasonText(code));
+    assert.equal(orderDetail({ ...state, commands: { ...state.commands, events: [] } }, 'K002', order.orderId, content)?.reason, '사유 미확인');
+    assert.equal(orderDetail(state, 'K616', order.orderId, content), null, 'other issuers do not expose command records');
+  }
+});
+
+test('return-blocked detail preserves local holder and location but does not expose remote custody', () => {
+  const issued = submitCampaignCommand(e0, issue(), content).state;
+  const orderId = issued.mandates[0]!.orderId;
+  const original = issued.custody[0]!;
+  const observer = issued.bodies.find(body => body.entityId === 'K002')!;
+  const local: CampaignState = { ...issued, custody: [{ ...original, location: observer.location, unresolvedReturn: true }] };
+  const detail = orderDetail(local, 'K002', orderId, content)!;
+  assert.equal(detail.original?.unresolvedReturn, true);
+  assert.deepEqual(detail.original?.location, observer.location);
+  assert.equal(detail.original?.custodian, original.custodian);
+  const remoteBody = issued.bodies.find(body => body.entityId === 'K616')!;
+  const remote = orderDetail({ ...local, custody: [{ ...local.custody[0]!, location: remoteBody.location }] }, 'K002', orderId, content)!;
+  assert.equal(remote.original, null);
+  const html = renderIssuedOrders({ rows: orderRows(lordView(local)), reportsByOrder: new Map(), catalog: buildOrdersCatalog(content), selectedOrderId: orderId, detail });
+  assert.match(html, /반환 미해결/);
+  assert.ok(html.includes(original.custodian));
+  assert.doesNotMatch(html, /결과 반영 →/);
+});
+
+test('unsupported court selection keeps its actual unavailability reason and no admitted action', () => {
+  const catalog = buildOrdersCatalog(content);
+  const row = catalog.court.find(person => !person.eligible)!;
+  const html = renderOrderDraft({ catalog, selectedPersonId: row.personId, rosterFilter: 'all', row, brief: null, notice: null });
+  assert.ok(html.composer.includes(row.reason!));
+  assert.ok(html.rosterRows.includes('data-pane-id="' + row.personId + '"'));
+  assert.doesNotMatch(html.composer, /co-action/);
+  assert.match(reasonText('grant-version'), /판본/);
+  assert.match(reasonText('support-unavailable'), /급양 지원/);
 });
 
 /** Same projection CampaignApplication.view() produces, computed directly for the pure reducer. */

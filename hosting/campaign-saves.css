@@ -13,4 +13,4 @@
 .sv-confirm__body{margin:0;font:var(--weight-regular) var(--type-body)/1.5 var(--font-ui);color:var(--color-ink)}
 .sv-confirm__actions{display:flex;justify-content:flex-end;gap:var(--space-8)}
 .sv-confirm::backdrop{background:var(--color-scrim)}
-@media(max-width:1000px){.sv{height:auto;min-height:100dvh}.sv .cs-dock,.sv .cs-panel{position:static;width:auto;max-width:none}}
+@media(max-width:1000px){#realtime[data-screen=campaign-saves]{height:auto;overflow:auto}.sv{height:auto;min-height:100dvh}.sv .cs-dock,.sv .cs-panel{position:static;width:auto;max-width:none}}

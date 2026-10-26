@@ -1,0 +1,17 @@
+/* Private QA chrome only. Production docks, list/detail panes and typography stay unchanged. */
+body{margin:0;background:var(--color-canvas);color:var(--color-ink);font:var(--weight-regular) var(--type-caption)/1.5 var(--font-ui)}
+#negative-fixture{min-width:0}
+.nfx-header{padding:var(--space-12) var(--space-16);border-bottom:var(--border-hairline) solid var(--color-line)}
+.nfx-header h1{margin:0;font:var(--weight-bold) var(--type-h3)/1.4 var(--font-ui)}
+.nfx-header p{margin:var(--space-8) 0;overflow-wrap:anywhere}
+#nfx-cases,#nfx-actions{display:flex;flex-wrap:wrap;gap:var(--space-8);margin:var(--space-8) 0}
+.nfx-header .ui-button{min-height:var(--hit-min);padding:var(--space-8) var(--space-12);white-space:normal;text-align:left;font-size:var(--type-caption)}
+#nfx-cases [aria-pressed=true]{outline:var(--border-strong) solid var(--color-focus);outline-offset:2px}
+#nfx-receipt,#nfx-assertion{display:block;overflow-wrap:anywhere}
+#nfx-receipt{font-weight:var(--weight-medium)}
+#nfx-kind{font-weight:var(--weight-bold)}
+.nfx-theme-label{display:flex;align-items:center;gap:var(--space-8)}
+#nfx-theme{min-height:var(--hit-min);font:inherit;color:var(--color-ink);background:var(--color-surface-sunken);border:var(--border-hairline) solid var(--color-line);padding:var(--space-8)}
+#negative-fixture #realtime.nfx-stage{position:relative;width:100%;height:720px;min-height:480px;overflow:hidden}
+@media(max-width:1279px){#negative-fixture #realtime.nfx-stage{height:100dvh;min-height:640px}}
+@media(max-width:600px){.nfx-header{padding:var(--space-12)}#nfx-cases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}#nfx-cases .ui-button{width:100%}#nfx-actions .ui-button{flex:1}}

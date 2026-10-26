@@ -3,6 +3,7 @@ import type { CampaignContent } from '../game/src/campaign/content.ts';
 import { createCampaignE0 } from '../game/src/campaign/state.ts';
 import type { CampaignState } from '../game/src/campaign/state.ts';
 import { CAMPAIGN_SAVE_NAMESPACE, createCampaignSave, loadCampaignSave, persistCampaignSave } from '../game/src/campaign/saveCheckpoint.ts';
+import { parseCampaignSave } from '../game/src/campaign/saveCheckpoint.ts';
 import type { CheckpointStorage } from '../game/src/save/campaignCheckpoint.ts';
 
 export class CampaignEntryError extends Error {
@@ -62,6 +63,32 @@ export class ProductionCampaign {
   reconcile(): void { this.#app?.reconcile(); }
   save() {
     return persistCampaignSave(this.#options.storage, createCampaignSave(this.app.checkpoint(), this.content), this.content);
+  }
+  /** Task26 §8 in-session restore: validate the stored checkpoint, then replace the live
+   * application under the same held lock. Unsaved progress since the last save is discarded
+   * by design; the restored clock resumes from the checkpoint boundary with a fresh origin,
+   * so no closed-browser time accrues and no effect replays. A corrupt or missing payload
+   * throws before anything is replaced. */
+  restoreSaved(kind: 'current' | 'previous' = 'current') {
+    if (this.#closed) throw new CampaignEntryError('closed');
+    if (!this.#app) throw new CampaignEntryError('read-only');
+    let restored;
+    if (kind === 'current') restored = loadCampaignSave(this.#options.storage, this.content);
+    else {
+      const pointer = JSON.parse(this.#options.storage.getItem(CAMPAIGN_SAVE_NAMESPACE + ':active') ?? 'null');
+      if (!pointer || typeof pointer.previous !== 'string' || !pointer.previous.startsWith(CAMPAIGN_SAVE_NAMESPACE + ':payload:')) throw new Error('missing-checkpoint');
+      const raw = this.#options.storage.getItem(pointer.previous);
+      if (raw === null) throw new Error('missing-payload');
+      restored = parseCampaignSave(JSON.parse(raw), this.content);
+    }
+    const previous = this.#app;
+    // session.close() reconciles once more; retire the old application before installing the restore.
+    previous.close();
+    this.#state = restored.state;
+    this.#app = new CampaignApplication({ content: this.#options.content, state: restored.state, now: this.#options.now });
+    this.#app.subscribe(next => { this.#state = next; for (const listener of this.#listeners) listener(); });
+    for (const listener of this.#listeners) listener();
+    return { checksum: restored.checksum, state: restored.state };
   }
   close(): void {
     this.#closed = true;

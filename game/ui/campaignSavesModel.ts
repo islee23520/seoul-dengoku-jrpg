@@ -28,7 +28,7 @@ export const savesStrings = {
   previousUnavailable: '이전 포인터의 저장 내용을 더 이상 읽을 수 없다',
   migrationUnavailable: '이전 버전에서 옮겨오기: 제공되지 않는다',
   corruptTitle: '저장을 읽을 수 없다',
-  loadGuidance: '저장된 시작점으로 돌아가려면 제목 화면의 이어하기로 다시 연다. 지금 탭의 진행은 이어하기 전까지 유지된다.',
+  loadGuidance: '저장된 경계를 검토한 뒤 되돌린다. 마지막 저장 이후의 진행은 사라진다.',
   overwriteConfirm: '현재 저장을 새 경계로 덮어쓴다. 이전 포인터가 지금 저장을 가리키게 된다.',
   confirmTitle: '확인',
   cancel: '취소',
@@ -36,6 +36,8 @@ export const savesStrings = {
   saveFailed: '저장 실패',
   saved: '저장됨 · ',
   oneActiveOnly: '한 번에 하나의 진행 저장만 존재한다',
+  restored: '되돌림 · ',
+  restoreFailed: '되돌림 실패 · ',
 } as const;
 
 export type SavesPointerStatus = 'ok' | 'missing' | 'invalid';
@@ -82,6 +84,7 @@ const reasonText: Readonly<Record<string, string>> = Object.freeze({
 /** Readable, honest failure text: known codes get Korean, unknown codes stay visible verbatim. */
 export function describeSaveFailure(reason: string): string {
   if (reasonText[reason]) return reasonText[reason]!;
+  if (reason.startsWith('versions:')) return '저장 판본이 호환되지 않는다 · ' + reason.slice('versions:'.length).trim() + ' · 이전 버전에서 옮겨오기: 제공되지 않는다';
   if (reason.startsWith('campaign-')) return reasonText.campaign! + ' (' + reason + ')';
   if (reason.startsWith('storage-')) return '브라우저 저장소 오류 (' + reason.slice('storage-'.length) + ')';
   return '알 수 없는 오류 (' + reason + ')';
@@ -95,7 +98,11 @@ function describeRow(kind: 'current' | 'previous', key: string | null, reader: S
   const raw = reader.readPayload(key);
   if (raw === null) return { row: { ...base, status: 'invalid' }, reason: 'missing-payload' };
   try {
-    const value = reader.parseSave(JSON.parse(raw));
+    const parsed: unknown = JSON.parse(raw);
+    if (parsed && typeof parsed === 'object' && 'envelopeVersion' in parsed && parsed.envelopeVersion !== 2) {
+      return { row: { ...base, status: 'invalid' }, reason: 'versions: expected envelope 2; actual ' + String(parsed.envelopeVersion) };
+    }
+    const value = reader.parseSave(parsed);
     return {
       row: {
         kind, key, status: 'ok', checksum: value.checksum,

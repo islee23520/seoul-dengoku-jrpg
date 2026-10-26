@@ -73,9 +73,14 @@
 .cr-lines{margin:0;padding-inline-start:var(--space-16);display:flex;flex-direction:column;gap:var(--space-4)}
 .cr-lines li{font:var(--weight-regular) var(--type-label)/1.5 var(--font-ui);overflow-wrap:anywhere}
 
-/* mobile / narrow (NEW_CANDIDATE per contract §3): one column, document scroll, footer in flow */
+/* mobile / narrow (task26 §3): a single visible list OR detail pane replaces the stacked docks;
+   the .cs-panes bar switches groups and Back unwinds to the list (paneNav.ts restores scroll/selection) */
+.cs-panes{display:none}
 @media (max-width:1000px){
   #realtime[data-screen=campaign-settlement],#realtime[data-screen=campaign-reports]{height:auto;overflow:auto}
+  .cs-panes{display:flex;gap:var(--space-8);flex:0 0 auto;padding:var(--space-8) var(--layout-margin);
+    background:color-mix(in srgb,var(--color-canvas) 96%,transparent);border-bottom:var(--border-hairline) solid var(--color-rule-brass)}
+  .cs-panes__button{flex:1 1 auto;min-height:var(--hit-min);justify-content:center}
   .cs,.cr{height:auto;min-height:100dvh;display:flex;flex-direction:column}
   .cs-nav{position:sticky;top:0;flex-wrap:wrap;height:auto;min-height:var(--layout-header-h)}
   .cs-nav__place{flex:1 1 100%}
@@ -85,4 +90,14 @@
   .cs-body{overflow:visible;max-height:none}
   .cs-footer{position:relative;inset:auto;height:auto;margin:var(--layout-gutter) var(--layout-margin) var(--layout-margin);flex-wrap:wrap;padding:0}
   .cs-command-reason{flex-basis:100%}
+  .cs[data-pane=list] .cs-panel,.cs[data-pane=list] .cs-dock--custody{display:none}
+  .cs[data-pane=detail] .cs-dock--people{display:none}
+  .cr[data-pane=list] .cs-panel,.cr[data-pane=list] .cs-dock--custody{display:none}
+  .cr[data-pane=detail] .cr-list{display:none}
+  .sv[data-pane=list] .cs-panel,.sv[data-pane=list] .cs-dock--custody{display:none}
+  .sv[data-pane=detail] .cs-dock--people{display:none}
+  .cd[data-pane=list] .cs-dock--people,.cd[data-pane=list] .cs-panel{display:none}
+  .cd[data-pane=detail] .cs-dock--custody{display:none}
+  .co[data-pane=list] .co-dock--compose,.co[data-pane=list] .co-dock--authority{display:none}
+  .co[data-pane=detail] .co-dock--roster{display:none}
 }

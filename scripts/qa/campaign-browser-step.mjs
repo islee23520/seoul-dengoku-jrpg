@@ -55,12 +55,21 @@ export async function campaignBrowserStep(config) {
   });
   const save = async tab => {
     const before = await tab.evaluate(() => window.__campaignQa.events.filter(e => e.name === 'campaign:saved').length);
-    await tab.getByRole('button', { name: '명시 저장', exact: true }).click({ timeout: 12000 });
+    // Task22 wave2 replaced the session-bar 명시 저장 with the 저장 · 불러오기 opener; the
+    // explicit manual save is that surface's primary action behind a cancel-first confirmation.
+    const screen = await tab.evaluate(() => document.querySelector('#realtime').dataset.screen);
+    await tab.getByRole('button', { name: '저장 · 불러오기', exact: true }).click({ timeout: 12000 });
+    await tab.locator('#sv-action').waitFor({ state: 'visible', timeout: 12000 });
     console.log(await snapshot(tab));
+    await click(tab, '#sv-action');
+    await click(tab, 'dialog.sv-confirm[open] .ui-button--primary');
     const receipt = await tab.evaluate(() => window.__campaignQa.events.filter(e => e.name === 'campaign:saved'));
     check(receipt.length === before + 1, 'save emitted its causal receipt');
     const checkpoint = await saved(tab);
     check(checkpoint.checksum === receipt.at(-1).detail.checksum, 'durable checkpoint matches save receipt');
+    // The surface's 뒤로 returns to the map; restore the screen the caller was using.
+    await click(tab, '#sv-back');
+    if (screen === 'campaign-orders') await click(tab, '#cm-orders');
     return checkpoint;
   };
   const start = async (tab, mode) => {
