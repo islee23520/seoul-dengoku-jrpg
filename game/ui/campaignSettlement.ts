@@ -66,8 +66,7 @@ export function mountCampaignSettlement(parent: HTMLElement, options: Settlement
         + '<span class="cs-work__head">' + esc(row.recipientName) + ' · ' + esc(row.operation) + '</span>'
         + '<span class="cs-work__meta">' + esc(labelStage(row.stage)) + ' · ' + esc(row.activity) + '</span>'
         + '<span class="cs-work__id">' + esc(row.orderId) + '</span></button>').join('')
-      : '<p class="cs-empty">' + esc(settlementStrings.noWork) + '</p>'
-        + '<p class="cs-note">' + esc(settlementStrings.commandUnavailable) + '</p>';
+      : '<p class="cs-empty">' + esc(settlementStrings.noWork) + '</p>';
     const c = view.custody;
     custody.innerHTML = c
       ? '<h3 class="cs-custody__name">' + esc(c.name) + '</h3><p class="cs-caption">' + esc(settlementStrings.whole) + '</p>'
