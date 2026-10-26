@@ -151,7 +151,21 @@ export async function campaignBrowserStep(config) {
         check(await second.locator('#cm-orders').count() === 0, 'second tab never gains writable campaign controls');
         const after = await save(tab);
         check(after.checksum === before.checksum, 'second-tab attempt leaves writer unchanged');
-        await capture(second, 'second-tab'); result = { checkpoint: after, refusal };
+        await capture(second, 'second-tab');
+        if (config.takeover) {
+          const held = await tab.evaluate(() => navigator.locks.query());
+          check(held.held.filter(lock => lock.name === 'campaign:seoul-composed-campaign-v2').length === 1, 'exactly one live writer lock');
+          await closeTab(tab); owned.splice(owned.indexOf(tab), 1);
+          // A granted lock request is the causal release signal from the closed writer.
+          await second.evaluate(() => navigator.locks.request('campaign:seoul-composed-campaign-v2', () => {}));
+          await click(second, '#menu-continue');
+          await second.locator('#cm-orders').waitFor({ state: 'visible', timeout: 15000 });
+          const taken = await save(second);
+          check((config.mutate ? taken.checksum + ':offline-credit' : taken.checksum) === after.checksum, 'explicit takeover adds no offline accrual or duplicate effects');
+          await capture(second, 'takeover');
+          result = { checkpoint: taken, refusal, before: after };
+          result.events = await second.evaluate(() => window.__campaignQa.events);
+        } else result = { checkpoint: after, refusal };
       } else {
         await click(tab, '#cm-orders');
         const entry = await save(tab);
@@ -169,7 +183,7 @@ export async function campaignBrowserStep(config) {
           }
           if (config.target) {
             await subscribe(tab, config.target);
-            await click(tab, '[data-speed="4"]');
+            await click(tab, '[data-speed="' + (config.speed ?? 4) + '"]');
             const reached = await wait(tab);
             actions.push({ transition: reached });
             await click(tab, '[data-speed="0"]');
@@ -196,7 +210,7 @@ export async function campaignBrowserStep(config) {
           } else result = { checkpoint };
         }
       }
-      result.events = await tab.evaluate(() => window.__campaignQa.events);
+      if (!result.events) result.events = await tab.evaluate(() => window.__campaignQa.events);
     }
     result = { ok: true, ...result, actions, errors };
   } catch (error) {

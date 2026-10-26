@@ -9,8 +9,9 @@ import { asideCommand, browserStep } from './campaign-aside.mjs';
 import { campaignOrigin } from './campaign-origin.mjs';
 import { campaignBrowserStep } from './campaign-browser-step.mjs';
 import { assertCampaignSave, assertRestore } from './campaign-assertions.mjs';
+import { negativeScenarios, runPrivateHarness } from './campaign-negative.mjs';
 
-export const scenarios = ['campaign-entry', 's01-sequential', 'save-reload', 'clock-tabs', 'pack-tamper', 'layout'];
+export const scenarios = ['campaign-entry', 's01-sequential', 'save-reload', 'clock-tabs', 'pack-tamper', 'layout', ...negativeScenarios];
 
 export async function runCampaignSmoke(options) {
   const evidence = path.resolve(options.evidence);
@@ -72,7 +73,18 @@ export async function runCampaignSmoke(options) {
         assert.fail('shortened transition timeout unexpectedly passed');
       }
       if (options.scenario !== 'campaign-entry') {
-        if (options.scenario === 'clock-tabs') await step('second-tab', { kind: 'second-tab' });
+        if (options.scenario === 'clock-tabs') {
+          for (const speed of [1, 2, 4]) {
+            const target = checkpoint.state.clock.worldMilliseconds + 12000;
+            const progressed = await step('speed-' + speed, { kind: 'advance', speed, target: { time: target }, expectedChecksum: checkpoint.checksum });
+            assert.ok(progressed.checkpoint.state.clock.worldMilliseconds >= target);
+            assert.equal(progressed.checkpoint.state.clock.speed, 0);
+          }
+          const saved = checkpoint;
+          const reload = await step('clock-reload', { kind: 'reload', expectedChecksum: saved.checksum });
+          assertRestore(saved, reload.checkpoint);
+          await step('second-tab-takeover', { kind: 'second-tab', takeover: true, mutate: options.negativeProbe === 'offline-credit' });
+        }
         else if (options.scenario === 'layout') {
           for (const [width, height] of [[1440, 900], [390, 844]]) {
             await step('layout-' + width, { kind: 'layout', url: origin.url + '__campaign_qa_frame?width=' + width, width, height });
@@ -120,18 +132,37 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   try {
     const { values } = parseArgs({ options: { url: { type: 'string' }, scenario: { type: 'string' }, evidence: { type: 'string' },
       profile: { type: 'string' }, 'negative-probe': { type: 'string' }, 'run-id': { type: 'string', default: 'run' }, help: { type: 'boolean' } } });
-    if (values.help) console.log('Usage: node scripts/qa/campaign-smoke.mjs --url <production-url> --scenario <' + scenarios.join('|') + '> --evidence <directory> [--profile <id>] [--run-id <name>]\nExit: 0 passed, 1 failed evidence, 2 invalid arguments. Every run uses a new owned local origin.');
+    if (values.help) console.log('Usage: node scripts/qa/campaign-smoke.mjs --url <production-url> --scenario <' + scenarios.join('|') + '> --evidence <directory> [--profile <id>] [--run-id <name>] [--negative-probe <assertion|timeout|offline-credit|observation>]\n'
+      + 'Exit: 0 passed, 1 failed evidence, 2 invalid arguments. Browser scenarios use a new owned local origin.\n'
+      + 'The adversarial scenarios ' + negativeScenarios.join('|') + ' run the production modules through the private\n'
+      + 'loopback fixture harness (campaign-negative.mjs) against the actual served pack bytes; their mutated\n'
+      + 'counterpart is --negative-probe observation, which corrupts one observation and must exit 1.');
     else {
       assert.ok(values.url && values.scenario && values.evidence, 'Required: --url --scenario --evidence');
       assert.ok(scenarios.includes(values.scenario), 'Unsupported scenario: ' + values.scenario);
-      assert.ok(values['negative-probe'] === undefined || ['assertion', 'timeout'].includes(values['negative-probe']), 'Unsupported negative probe');
-      assert.ok(!values['negative-probe'] || values.scenario === 'campaign-entry', 'Negative probes require campaign-entry');
+      assert.ok(values['negative-probe'] === undefined || ['assertion', 'timeout', 'offline-credit', 'observation'].includes(values['negative-probe']), 'Unsupported negative probe');
+      assert.ok(!values['negative-probe'] || (values['negative-probe'] === 'offline-credit' ? values.scenario === 'clock-tabs'
+        : values['negative-probe'] === 'observation' ? negativeScenarios.includes(values.scenario) : values.scenario === 'campaign-entry'), 'Negative probe does not match scenario');
       assert.match(values['run-id'], /^[a-z0-9][a-z0-9-]*$/);
       const url = new URL(values.url);
       assert.ok(['http:', 'https:'].includes(url.protocol) && !url.username && !url.password, 'URL must be HTTP(S) without credentials');
-      const report = await runCampaignSmoke({ url: url.href, scenario: values.scenario, evidence: values.evidence, profile: values.profile, runId: values['run-id'], negativeProbe: values['negative-probe'] });
-      console.log(JSON.stringify({ status: report.status, report: path.resolve(values.evidence, values['run-id'] + '.json'), error: report.error }));
-      process.exitCode = report.status === 'passed' ? 0 : 1;
+      if (negativeScenarios.includes(values.scenario)) {
+        const entries = await Promise.all(Object.entries(packFiles).map(async ([key, file]) => {
+          const response = await fetch(new URL(file, url), { signal: AbortSignal.timeout(15000) });
+          assert.equal(response.status, 200, 'served pack ' + key);
+          return [key, await response.text()];
+        }));
+        const result = await runPrivateHarness(values.scenario, CampaignContent.parse(Object.fromEntries(entries)), values['negative-probe'] === 'observation');
+        await mkdir(values.evidence, { recursive: true });
+        const output = path.resolve(values.evidence, values['run-id'] + '.json');
+        await writeFile(output, JSON.stringify(result, null, 2) + '\n');
+        console.log(JSON.stringify({ status: result.status, output, error: result.error }));
+        process.exitCode = result.status === 'passed' ? 0 : 1;
+      } else {
+        const report = await runCampaignSmoke({ url: url.href, scenario: values.scenario, evidence: values.evidence, profile: values.profile, runId: values['run-id'], negativeProbe: values['negative-probe'] });
+        console.log(JSON.stringify({ status: report.status, report: path.resolve(values.evidence, values['run-id'] + '.json'), error: report.error }));
+        process.exitCode = report.status === 'passed' ? 0 : 1;
+      }
     }
   } catch (error) {
     if (!(error instanceof Error)) throw error;
