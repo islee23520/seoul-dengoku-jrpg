@@ -1,8 +1,15 @@
 **
 !hosting/**
+!scripts/tools/build-campaign-game.mjs
 !scripts/tools/build-web-game.mjs
+!scripts/tools/build-realtime-game.mjs
+!scripts/tools/served-output-privacy.mjs
+!patches/**
 !game/project.json
-!engine/**
+!game/tsconfig.json
+!game/src/**
+!game/ui/**
+!game/data/**
 engine/.git
 engine/node_modules
 engine/.env*
