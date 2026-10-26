@@ -16,6 +16,7 @@ export * from './campaignMapModel.ts';
 export const webOnlyStrings = {
   rail: '철도',
   railNote: '철도 표시 · 실행 경로 아님',
+  orders: '명령',
   mapLabel: '서울 캠페인 지도',
   outOfScope: '알려진 범위 밖의 지역이다',
   site: '시설',
@@ -26,7 +27,7 @@ export const webOnlyStrings = {
 export interface CampaignActor { readonly actorId: string; readonly name: string; readonly title: string; readonly place: string; readonly liege: string }
 export interface CampaignMapOptions {
   readonly view: MapView; readonly identity: IdentityMap; readonly actor: CampaignActor;
-  readonly onBack: () => void; readonly location?: { hash: string };
+  readonly onBack: () => void; readonly onOrders?: () => void; readonly location?: { hash: string };
   /** Task14: open the settlement execution screen for the admitted site (view navigation only). */
   readonly onOpenSite?: (siteId: string) => void;
   /** Task14: open the received-report inbox (view navigation only). */
@@ -88,7 +89,9 @@ export function mountCampaignMap(parent: HTMLElement, options: CampaignMapOption
     + '<div class="cm-nav__group cm-nav__ranks" role="group" aria-label="' + t('ui.character-select.mode.titles') + '">'
     + ranks.map(rank => navButton('cm-rank-' + rank, t(('ui.map.rank.' + rank) as UiStringKey), rankAvailable(view, rank) ? '' : 'disabled')).join('') + '</div>'
     + navButton('cm-rail', webOnlyStrings.rail, 'aria-description="' + webOnlyStrings.railNote + '"')
-    + '<div class="cm-nav__trail">' + (options.onOpenReports ? navButton('cm-reports', webOnlyStrings.reports) : '') + navButton('cm-settings', t('ui.main-menu.settings'), 'disabled')
+    + '<div class="cm-nav__trail">' + (options.onOpenReports ? navButton('cm-reports', webOnlyStrings.reports) : '')
+    + navButton('cm-orders', webOnlyStrings.orders)
+    + navButton('cm-settings', t('ui.main-menu.settings'), 'disabled')
     + navButton('cm-pov', 'POV', 'aria-pressed="true" aria-disabled="true"') + navButton('cm-back', t('ui.main-menu.back'))
     + '<span class="cm-nav__legend"><i class="cm-swatch cm-swatch--unclaimed"></i>' + t('ui.map.unclaimed') + '</span></div></header>'
     + '<section class="cm-dock cm-dock--identity ui-panel" aria-label="' + esc(actor.name) + '">'
@@ -240,6 +243,7 @@ export function mountCampaignMap(parent: HTMLElement, options: CampaignMapOption
   q('#cm-rail').addEventListener('click', () => update({ ...state, rail: !state.rail }), { signal });
   // The title screen listens for any click on the root; this click must not reach it.
   q('#cm-back').addEventListener('click', event => { event.stopPropagation(); release(); options.onBack(); }, { signal });
+  q('#cm-orders').addEventListener('click', event => { event.stopPropagation(); options.onOrders?.(); }, { signal });
   q('#cm-tab-titles').addEventListener('click', () => update({ ...state, tab: 'titles' }), { signal });
   q('#cm-tab-sites').addEventListener('click', () => update({ ...state, tab: 'sites' }), { signal });
   parent.addEventListener('click', event => {
