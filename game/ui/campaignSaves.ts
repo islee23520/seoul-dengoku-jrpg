@@ -1,15 +1,16 @@
-/** Save/load screen (task22 wave2), per the approved task26 design contract §8:
+/** Save/load screen (task22 wave2, fix-1 restore), per the approved task26 design contract §8:
  * header 48 (title / clock / close), checkpoint dock 303, selected checkpoint detail 618,
  * versions dock 303, footer 80 ([뒤로] [수동 저장 | 불러오기 검토]). One tab/action prominent
- * at a time; confirmations are cancel-first; opening or saving never changes clock speed.
- * The runtime owns exactly one active pointer + previous pointer; no numbered slots, autosave,
- * repair or migration is invented. In-session hot-load is not supported by the runtime, so the
- * load review validates the stored checkpoint and names the honest restore path (title 이어하기). */
+ * at a time; confirmations are cancel-first; opening, saving or restoring never changes clock
+ * speed. The runtime owns exactly one active pointer + previous pointer; no numbered slots,
+ * autosave, repair or migration is invented. The load review performs the real in-session
+ * restore through the runtime (unsaved progress discarded by design) and reports the receipt. */
 import { t } from '../../hosting/ui-strings.ts';
 import { buildSavesView, savesStrings, describeSaveFailure } from './campaignSavesModel.ts';
 import type { SavesCheckpointRow, SavesStorageReader } from './campaignSavesModel.ts';
 import type { CampaignContent } from '../src/campaign/content.ts';
 import { formatWorldSeconds } from './campaignSettlementModel.ts';
+import { mountPaneNav } from './paneNav.ts';
 
 export * from './campaignSavesModel.ts';
 
@@ -21,8 +22,12 @@ export interface SavesOptions {
   readonly subscribe?: (listener: () => void) => () => void;
   /** Performs the explicit atomic save; returns the persisted save or throws with a readable reason. */
   readonly save: () => { readonly checksum: string; readonly state: { readonly clock: { readonly worldMilliseconds: number } } };
+  /** Performs the real in-session restore of the stored checkpoint (task26 §8); throws with a
+   * readable reason when the payload is corrupt/missing. Absent hosts keep the guidance-only state. */
+  readonly load?: () => { readonly checksum: string; readonly state: { readonly clock: { readonly worldMilliseconds: number } } };
   readonly onBack: () => void;
   readonly onSaved?: (detail: { readonly checksum: string; readonly worldMilliseconds: number }) => void;
+  readonly onLoaded?: (detail: { readonly checksum: string; readonly worldMilliseconds: number }) => void;
 }
 
 export interface SavesHandle { readonly release: () => void }
@@ -146,6 +151,17 @@ export function mountCampaignSaves(parent: HTMLElement, options: SavesOptions): 
           const text = failure instanceof Error ? describeSaveFailure(failure.message) : savesStrings.saveFailed;
           receipt = savesStrings.saveFailed + ' · ' + text;
         }
+      } else if (options.load) {
+        // Real restore (task26 §8): the runtime validates the stored checkpoint and replaces the
+        // live session under the same lock; unsaved progress is discarded by design.
+        try {
+          const loaded = options.load();
+          options.onLoaded?.({ checksum: loaded.checksum, worldMilliseconds: loaded.state.clock.worldMilliseconds });
+          receipt = savesStrings.restored + formatWorldSeconds(loaded.state.clock.worldMilliseconds);
+        } catch (failure) {
+          const text = failure instanceof Error ? describeSaveFailure(failure.message) : savesStrings.restoreFailed;
+          receipt = savesStrings.restoreFailed + text;
+        }
       } else {
         receipt = savesStrings.loadGuidance;
       }
@@ -153,17 +169,27 @@ export function mountCampaignSaves(parent: HTMLElement, options: SavesOptions): 
     };
     built.cancel.addEventListener('click', closeDialog, { signal });
     built.proceed.addEventListener('click', () => { closeDialog(); run(); }, { signal });
-    built.dialog.addEventListener('close', () => { dialog?.remove(); dialog = null; built.cancel.focus(); }, { once: true });
+    // Focus restoration returns to the invoking control (#sv-action); the dialog's own cancel
+    // button is already detached when this close handler runs.
+    built.dialog.addEventListener('close', () => { dialog?.remove(); dialog = null; action.focus(); }, { once: true });
     document.body.append(built.dialog); built.dialog.showModal(); built.cancel.focus();
   }
 
+  // Task26 §3 mobile: single visible list OR detail pane; selecting a checkpoint opens the detail.
+  const panes = mountPaneNav({ root: q('.sv'), listPanes: [q('.cs-dock--people')],
+    detailPanes: [q('.cs-panel--place'), q('.cs-dock--custody')], listBody: rows,
+    labels: { list: '체크포인트', detail: '상세 · 버전' } });
+  const back = (): void => {
+    if (dialog) { closeDialog(); return; }
+    if (panes.unwind()) return;
+    options.onBack();
+  };
   parent.addEventListener('click', event => {
     const rowButton = (event.target as Element).closest<HTMLElement>('[data-checkpoint]');
-    if (rowButton) { selected = rowButton.dataset.checkpoint === 'previous' ? 'previous' : 'current'; receipt = null; render(); return; }
+    if (rowButton) { selected = rowButton.dataset.checkpoint === 'previous' ? 'previous' : 'current'; receipt = null; render(); panes.showDetail(); return; }
     const tabButton = (event.target as Element).closest<HTMLElement>('.sv-tab');
     if (tabButton) { tab = tabButton.id === 'sv-tab-load' ? 'load' : 'save'; receipt = null; render(); }
   }, { signal });
-  const back = (): void => { if (dialog) { closeDialog(); return; } options.onBack(); };
   q('#sv-back').addEventListener('click', back, { signal });
   q('#sv-footer-back').addEventListener('click', back, { signal });
   action.addEventListener('click', () => { if (!action.disabled) openConfirm(tab); }, { signal });
@@ -177,5 +203,5 @@ export function mountCampaignSaves(parent: HTMLElement, options: SavesOptions): 
   render();
   // The world clock keeps running while this surface is open (contract §3); only the clock line tracks it.
   const unsubscribeClock = options.subscribe?.(() => renderClock());
-  return { release: () => { abort.abort(); unsubscribeClock?.(); dialog?.remove(); dialog = null; } };
+  return { release: () => { abort.abort(); unsubscribeClock?.(); panes.release(); dialog?.remove(); dialog = null; } };
 }

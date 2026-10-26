@@ -68,8 +68,10 @@ export function mountCampaignViews(parent: HTMLElement, options: {
       liveClock: () => ({ clockMs: runtime.state.clock.worldMilliseconds, speed: runtime.state.clock.speed }),
       subscribe: listener => runtime.subscribe(listener),
       save: () => runtime.save(),
+      load: () => runtime.restoreSaved(),
       onBack: map,
       onSaved: detail => parent.dispatchEvent(new CustomEvent('campaign:saved', { bubbles: true, detail })),
+      onLoaded: detail => parent.dispatchEvent(new CustomEvent('campaign:loaded', { bubbles: true, detail })),
     }));
   }
   /** Open request for the narrative dialogue surface (task26 §7): a document admitted through the

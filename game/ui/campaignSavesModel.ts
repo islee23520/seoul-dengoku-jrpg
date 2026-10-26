@@ -28,7 +28,7 @@ export const savesStrings = {
   previousUnavailable: '이전 포인터의 저장 내용을 더 이상 읽을 수 없다',
   migrationUnavailable: '이전 버전에서 옮겨오기: 제공되지 않는다',
   corruptTitle: '저장을 읽을 수 없다',
-  loadGuidance: '저장된 시작점으로 돌아가려면 제목 화면의 이어하기로 다시 연다. 지금 탭의 진행은 이어하기 전까지 유지된다.',
+  loadGuidance: '저장된 경계를 검토한 뒤 되돌린다. 마지막 저장 이후의 진행은 사라진다.',
   overwriteConfirm: '현재 저장을 새 경계로 덮어쓴다. 이전 포인터가 지금 저장을 가리키게 된다.',
   confirmTitle: '확인',
   cancel: '취소',
@@ -36,6 +36,8 @@ export const savesStrings = {
   saveFailed: '저장 실패',
   saved: '저장됨 · ',
   oneActiveOnly: '한 번에 하나의 진행 저장만 존재한다',
+  restored: '되돌림 · ',
+  restoreFailed: '되돌림 실패 · ',
 } as const;
 
 export type SavesPointerStatus = 'ok' | 'missing' | 'invalid';

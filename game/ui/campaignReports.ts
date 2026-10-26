@@ -6,6 +6,7 @@ import { t } from '../../hosting/ui-strings.ts';
 import { reportsStrings, sortedRows, unreadIds } from './campaignReportsModel.ts';
 import type { InboxRow, InboxView } from './campaignReportsModel.ts';
 import { formatWorldSeconds, settlementStrings } from './campaignSettlementModel.ts';
+import { mountPaneNav } from './paneNav.ts';
 
 export * from './campaignReportsModel.ts';
 
@@ -93,11 +94,15 @@ export function mountCampaignReports(parent: HTMLElement, options: InboxOptions)
     else if (focusedReport) rows.querySelector<HTMLButtonElement>('[data-report="' + CSS.escape(focusedReport) + '"]')?.focus();
   }
 
+  // Task26 §3 mobile: single visible list OR detail pane; selecting a row opens the detail.
+  const panes = mountPaneNav({ root: q('.cr'), listPanes: [q('.cr-list')],
+    detailPanes: [q('.cs-panel--place'), q('.cs-dock--custody')], listBody: rows,
+    labels: { list: '수신 목록', detail: '보고 상세' } });
+  const back = (): void => { if (panes.unwind()) return; options.onBack(); };
   parent.addEventListener('click', event => {
     const row = (event.target as Element).closest<HTMLElement>('[data-report]');
-    if (row) { selected = row.dataset.report ?? null; if (selected) read.add(selected); render(true); }
+    if (row) { selected = row.dataset.report ?? null; if (selected) read.add(selected); render(true); panes.showDetail(); }
   }, { signal });
-  const back = (): void => options.onBack();
   q('#cr-back').addEventListener('click', back, { signal });
   q('#cr-footer-back').addEventListener('click', back, { signal });
   commandButton.addEventListener('click', () => {
@@ -117,5 +122,5 @@ export function mountCampaignReports(parent: HTMLElement, options: InboxOptions)
   render(false);
   // Reading the auto-selected first row marks it read (local metadata only).
   if (selected) read.add(selected);
-  return { release: () => abort.abort(), readCount: () => read.size };
+  return { release: () => { abort.abort(); panes.release(); }, readCount: () => read.size };
 }

@@ -5,6 +5,7 @@
 import { t } from '../../hosting/ui-strings.ts';
 import { formatWorldSeconds, labelStage, settlementStrings } from './campaignSettlementModel.ts';
 import type { SettlementView } from './campaignSettlementModel.ts';
+import { mountPaneNav } from './paneNav.ts';
 
 export * from './campaignSettlementModel.ts';
 
@@ -87,13 +88,17 @@ export function mountCampaignSettlement(parent: HTMLElement, options: Settlement
     existing?.remove();
     if (!options.onOrders) command.insertAdjacentHTML('afterend', '<p class="cs-command-reason" id="cs-command-reason">' + esc(settlementStrings.commandUnavailable) + '</p>');
   }
-
+  // Task26 §3 mobile: single visible list OR detail pane; Back unwinds the pane first.
+  const panes = mountPaneNav({ root: q('.cs'), listPanes: [q('.cs-dock--people')],
+    detailPanes: [q('.cs-panel--place'), q('.cs-dock--custody')], listBody: q('#cs-people'),
+    labels: { list: '인물', detail: '현장 · 보관' } });
+  const back = (): void => { if (panes.unwind()) return; options.onBack(); };
   parent.addEventListener('click', event => {
     const row = (event.target as Element).closest<HTMLElement>('[data-work]');
     if (row) { selectedWork = Number(row.dataset.work); render(); q<HTMLElement>('[data-work="' + selectedWork + '"]').focus(); }
   }, { signal });
-  q('#cs-back').addEventListener('click', options.onBack, { signal });
-  q('#cs-footer-back').addEventListener('click', options.onBack, { signal });
+  q('#cs-back').addEventListener('click', back, { signal });
+  q('#cs-footer-back').addEventListener('click', back, { signal });
   q('#cs-reports').addEventListener('click', options.onOpenReports, { signal });
   command.addEventListener('click', () => {
     if (options.onOrders) { options.onOrders(); return; }
@@ -104,12 +109,12 @@ export function mountCampaignSettlement(parent: HTMLElement, options: Settlement
   }, { signal });
   document.addEventListener('keydown', event => {
     if (event.defaultPrevented) return;
-    if (event.key === 'Escape' && !document.querySelector('dialog[open]')) { event.preventDefault(); options.onBack(); }
+    if (event.key === 'Escape' && !document.querySelector('dialog[open]')) { event.preventDefault(); back(); }
   }, { signal });
 
   render();
   const unsubscribe = options.subscribe(render);
   signal.addEventListener('abort', unsubscribe);
   q<HTMLButtonElement>('#cs-back').focus();
-  return { release: () => abort.abort() };
+  return { release: () => { abort.abort(); panes.release(); } };
 }

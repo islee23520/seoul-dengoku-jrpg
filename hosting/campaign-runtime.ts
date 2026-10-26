@@ -63,6 +63,24 @@ export class ProductionCampaign {
   save() {
     return persistCampaignSave(this.#options.storage, createCampaignSave(this.app.checkpoint(), this.content), this.content);
   }
+  /** Task26 §8 in-session restore: validate the stored checkpoint, then replace the live
+   * application under the same held lock. Unsaved progress since the last save is discarded
+   * by design; the restored clock resumes from the checkpoint boundary with a fresh origin,
+   * so no closed-browser time accrues and no effect replays. A corrupt or missing payload
+   * throws before anything is replaced. */
+  restoreSaved() {
+    if (this.#closed) throw new CampaignEntryError('closed');
+    if (!this.#app) throw new CampaignEntryError('read-only');
+    const restored = loadCampaignSave(this.#options.storage, this.content);
+    const previous = this.#app;
+    // session.close() reconciles once more; retire the old application before installing the restore.
+    previous.close();
+    this.#state = restored.state;
+    this.#app = new CampaignApplication({ content: this.#options.content, state: restored.state, now: this.#options.now });
+    this.#app.subscribe(next => { this.#state = next; for (const listener of this.#listeners) listener(); });
+    for (const listener of this.#listeners) listener();
+    return { checksum: restored.checksum, state: restored.state };
+  }
   close(): void {
     this.#closed = true;
     this.#app?.close(); this.#app = null; this.#state = null;

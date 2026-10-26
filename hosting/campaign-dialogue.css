@@ -28,4 +28,4 @@
 .cd-selected__text{margin:0;font:var(--weight-regular) var(--type-label)/1.5 var(--font-ui);overflow-wrap:anywhere}
 .cd-selected__requires-h{margin:var(--space-8) 0 var(--space-4);font:var(--weight-regular) var(--type-caption)/1.2 var(--font-ui);color:var(--color-ink-secondary)}
 
-@media(max-width:1000px){.cd{height:auto;min-height:100dvh}.cd .cs-dock,.cd .cs-panel{position:static;width:auto;max-width:none}}
+@media(max-width:1000px){#realtime[data-screen=campaign-dialogue]{height:auto;overflow:auto}.cd{height:auto;min-height:100dvh}.cd .cs-dock,.cd .cs-panel{position:static;width:auto;max-width:none}}

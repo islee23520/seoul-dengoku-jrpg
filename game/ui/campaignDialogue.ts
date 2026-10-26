@@ -12,6 +12,7 @@ import type { EventDefinition, SwitchEffect } from '../src/events/definition.ts'
 import { chooseEvent } from '../src/events/pipeline.ts';
 import type { EventContext } from '../src/events/pipeline.ts';
 import { formatWorldSeconds } from './campaignSettlementModel.ts';
+import { mountPaneNav } from './paneNav.ts';
 
 export * from './campaignDialogueModel.ts';
 
@@ -160,15 +161,20 @@ export function mountCampaignDialogue(parent: HTMLElement, options: DialogueOpti
     };
     cancel.addEventListener('click', closeDialog, { signal });
     proceed.addEventListener('click', () => { closeDialog(); run(); }, { signal });
-    dialog.addEventListener('close', () => { dialog?.remove(); dialog = null; cancel.focus(); }, { once: true });
+    // Focus returns to the invoking control (#cd-confirm); the dialog's cancel is detached here.
+    dialog.addEventListener('close', () => { dialog?.remove(); dialog = null; confirm.focus(); }, { once: true });
     document.body.append(dialog); dialog.showModal(); cancel.focus();
   }
 
+  // Task26 §3 mobile: the authored narrative is the primary pane; choices are the list pane.
+  const panes = mountPaneNav({ root: q('.cd'), listPanes: [q('.cs-dock--custody')],
+    detailPanes: [q('.cs-dock--people'), q('.cs-panel--place')], listBody: choices,
+    labels: { list: '선택지', detail: '서술' }, initial: 'detail' });
+  const close = (): void => { if (dialog) { closeDialog(); return; } if (panes.unwind()) return; options.onBack(); };
   parent.addEventListener('click', event => {
     const optionButton = (event.target as Element).closest<HTMLElement>('[data-option-id]');
     if (optionButton) { selectedId = optionButton.dataset.optionId ?? null; notice = null; receipt = null; render(); }
   }, { signal });
-  const close = (): void => { if (dialog) { closeDialog(); return; } options.onBack(); };
   q('#cd-close').addEventListener('click', close, { signal });
   q('#cd-footer-close').addEventListener('click', close, { signal });
   confirm.addEventListener('click', () => { if (!confirm.disabled) openConfirm(); }, { signal });
@@ -182,5 +188,5 @@ export function mountCampaignDialogue(parent: HTMLElement, options: DialogueOpti
   render();
   // The world clock keeps running while this surface is open (contract §3); only the clock line tracks it.
   const unsubscribeClock = options.subscribe?.(() => renderClock());
-  return { release: () => { abort.abort(); unsubscribeClock?.(); dialog?.remove(); dialog = null; } };
+  return { release: () => { abort.abort(); unsubscribeClock?.(); panes.release(); dialog?.remove(); dialog = null; } };
 }

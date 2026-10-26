@@ -5,6 +5,7 @@
 import type { CampaignApplication } from '../src/campaign/application.ts';
 import type { CampaignContent } from '../src/campaign/content.ts';
 import { renderOrderDraft, renderIssuedOrders, renderOrderAuthority } from './campaignOrdersDraft.ts';
+import { mountPaneNav } from './paneNav.ts';
 import type { CampaignBoundaryError } from '../src/campaign/errors.ts';
 import {
   authorityNow, buildOrdersCatalog, orderRows, ordersStrings as s, reasonText,
@@ -43,6 +44,8 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
   let cancelKey = '';
   let modal: null | { readonly kind: 'issue' } | { readonly kind: 'cancel'; readonly orderId: string } = null;
   let modalOpener: HTMLElement | null = null;
+  let panes: ReturnType<typeof mountPaneNav> | null = null;
+  let paneChoice: 'list' | 'detail' = 'list';
   let submitting = false;
   /** Structural signature: when unchanged, a world tick only updates the clock, never rebuilds the DOM
    * (scroll position and focus of the three bodies stay stable while the clock runs). */
@@ -150,10 +153,11 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
       }
       event.stopPropagation(); return;
     }
-    if (event.key === 'Escape' && !document.querySelector('dialog[open]')) { event.preventDefault(); event.stopPropagation(); release(); options.onBack(); }
+    if (event.key === 'Escape' && !document.querySelector('dialog[open]')) { event.preventDefault(); event.stopPropagation(); if (panes?.unwind()) { paneChoice = 'list'; return; } release(); options.onBack(); }
   }, { signal, capture: true });
 
   function render(): void {
+    if (panes) paneChoice = panes.current();
     const scrolls = [...parent.querySelectorAll<HTMLElement>('[data-scroll]')].map(el => el.scrollTop);
     const activeElement = document.activeElement instanceof HTMLElement && parent.contains(document.activeElement) ? document.activeElement : null;
     const active = { pick: activeElement?.dataset.pick ?? null, id: activeElement?.id || null,
@@ -234,8 +238,14 @@ export function mountCampaignOrders(parent: HTMLElement, options: CampaignOrders
         : active.pick ? parent.querySelector<HTMLElement>('[data-pick="' + CSS.escape(active.pick) + '"]')
         : active.id ? parent.querySelector<HTMLElement>('[data-back]') : null;
       again?.focus();
-    }    q('[data-back]').addEventListener('click', () => { release(); options.onBack(); }, { signal });
+    }    q('[data-back]').addEventListener('click', () => { if (panes?.unwind()) { paneChoice = 'list'; return; } release(); options.onBack(); }, { signal });
     q('[data-cancel-draft]').addEventListener('click', () => { notice = null; draftCommandId = null; draftKey = ''; selectedOrderId = null; render(); }, { signal });
+    panes?.release();
+    // Task26 §3 mobile: roster is the list pane, composer+authority the detail; the bar survives
+    // re-renders by re-mounting with the remembered pane choice.
+    panes = mountPaneNav({ root: q('.co'), listPanes: [q('.co-dock--roster')],
+      detailPanes: [q('.co-dock--compose'), q('.co-dock--authority')], listBody: q<HTMLElement>('[data-scroll="command.roster-body"]'),
+      labels: { list: '명단', detail: '명령 작성' }, initial: paneChoice });
     [...parent.querySelectorAll<HTMLElement>('[data-scroll]')].forEach((el, index) => { el.scrollTop = scrolls[index] ?? 0; });
     lastSig = signature(app.view(actor.actorId), basis);
   }
