@@ -10,7 +10,11 @@
 
 ## Status
 
-Planning phase. The integrated build plan lands here when approved.
+S01 영주 캠페인(양천, 이서담)이 생산 진입점이다. 빌드는
+`node scripts/tools/build-campaign-game.mjs --out campaign-dist`, 검증은
+`bash scripts/gate-campaign.sh` (외부 `CAMPAIGN_MANIFEST`·`ASSET_PROOF_MAP` 필요).
+배포 산출물은 `campaign-dist`이며 `vercel.json`이 같은 빌드를 가리킨다.
+계약 세부사항은 `hosting/README.md`와 `docs/gate-validation.md` 참고.
 
 ## License
 

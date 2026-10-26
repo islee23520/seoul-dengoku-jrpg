@@ -1,7 +1,7 @@
 {
   "version": 2,
   "installCommand": "cd engine && npm ci --ignore-scripts --no-audit --no-fund",
-  "buildCommand": "node scripts/tools/build-web-game.mjs",
-  "outputDirectory": "web-dist",
+  "buildCommand": "node scripts/tools/build-campaign-game.mjs --out campaign-dist",
+  "outputDirectory": "campaign-dist",
   "framework": null
 }

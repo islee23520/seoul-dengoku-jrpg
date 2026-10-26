@@ -42,3 +42,29 @@ unapproved inputs. Step 10 remains PENDING because no dedicated game smoke CLI
 exists; map validation and unit tests do not establish interactive play. A real
 gate run therefore remains nonzero until that tool exists. Dry run is only a
 plan listing, never a green admission claim.
+
+## Campaign gate
+
+The dedicated campaign gate validates the promised campaign end to end and
+keeps its inputs external. Build the artifact first, then run:
+
+```sh
+export ASSET_PROOF_MAP="$HOME/workspace/seoul-dengoku-jrpg/.omo/evidence/seoul-dengoku-jrpg/external-proof-fixtures/proof-map.json"
+node scripts/tools/build-campaign-game.mjs --out "$RUN_TMP/campaign-dist"
+CAMPAIGN_MANIFEST=game/data/campaign/source-manifest.json ASSET_PROOF_MAP="$ASSET_PROOF_MAP" \
+  bash scripts/gate-campaign.sh --artifact "$RUN_TMP/campaign-dist" --evidence "$EVIDENCE/task-18"
+```
+
+It runs the source tests (manifest, selector contract, content import), the
+approved operation-pack tests, the schema/migration/domain and negative
+harness suites plus the campaign entry/browser-hash tests against the actual
+artifact, both campaign typechecks, artifact admission (file allowlist, pack
+hashes, CAMPAIGN_MANIFEST equality, the 25 MiB per-file limit, private-path
+privacy and node-only import absence), the asset ledger and
+natural-charset/sampling validation through the external proof map, the
+legacy map-preview build regression, the patched realtime no-port build
+regression, and real browser QA (campaign-entry, s01-sequential, save-reload
+by default; override with `--qa-scenarios`) against the exact served
+artifact. Exit 0 means every listed step passed; a failing step stays a
+failure. This gate covers the promised campaign only — `scripts/gate.sh`
+keeps the whole-repository truth and its pending engine-wide steps.
